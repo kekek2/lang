@@ -8966,11 +8966,6 @@ msgstr ""
 msgid "Deny"
 msgstr ""
 
-#
-# File: /usr/core/src/www/services_unbound_acls.php, line: 228
-msgid "Allow"
-msgstr ""
-
 # File: src/www/services_unbound_acls.php, line: 220
 msgid "Provide an Access List name."
 msgstr "Укажите имя Списка доступа"
@@ -22570,7 +22565,7 @@ msgstr "Шлюз"
 # File: src/www/firewall_nat.php, line: 254
 # File: src/www/firewall_rules.php, line: 264
 msgid "Proto"
-msgstr "Proto"
+msgstr "Протокол"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 799
@@ -22705,7 +22700,7 @@ msgstr "Байты"
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 701
 msgid "Packets"
-msgstr ""
+msgstr "Пакеты"
 
 #
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 244
@@ -29870,3 +29865,57 @@ msgstr "размер очереди должен быть числом от 2 д
 msgid ""
 "the number of sslrtd children needs to be an integer value between 1 and 32"
 msgstr ""
+
+#
+# Deep Packet Inspection
+msgid "Allow Traffic"
+msgstr "Разрешить трафик"
+
+msgid "Enable Deep Packet Inspection"
+msgstr "Включить Deep Packet Inspection"
+
+msgid "Rules Stats"
+msgstr "Статистика правил"
+
+msgid "Detected"
+msgstr "Распознано"
+
+msgid "Killed"
+msgstr "Заблокировано"
+
+msgid "Total Stats"
+msgstr "Общая статистика"
+
+msgid "Protocol Breeds"
+msgstr "Семейства протоколов"
+
+msgid "Detected Protocols"
+msgstr "Распознанные протоколы"
+
+msgid "Breed"
+msgstr "Семейство"
+
+msgid "Flows"
+msgstr "Соединения"
+
+msgid "Sequence order"
+msgstr "Порядковый номер"
+
+msgid "Allow"
+msgstr "Разрешить"
+
+msgid "source ip or network (netmask required), examples 10.0.0.0/24, 10.0.0.1/32"
+msgstr "ip-адрес или сеть отправителя (с маской сети), например 10.0.0.0/24, 10.0.0.1/32"
+
+msgid "Application or service"
+msgstr "Приложение или сервис"
+
+msgid "Allow/Deny taffic"
+msgstr "Разрешить/запретить трафик"
+
+msgid "Edit rule"
+msgstr "Редактировать правило"
+
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
