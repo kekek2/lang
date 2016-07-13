@@ -27525,11 +27525,6 @@ msgid "Enable this backend"
 msgstr ""
 
 #
-# File: /usr/lang/src/controllers.php, line: 91
-msgid "Enable this feature"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 92
 msgid "Enable this fingerprint rule."
 msgstr ""
@@ -29919,3 +29914,33 @@ msgstr "Редактировать правило"
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
+#
+# HAVP plugin
+msgid "If you really need more performance, you can disable scanning of JPG, GIF and PNG files. These are probably the most common files around, so it will save lots of CPU. But be warned, image exploits exist and more could be found. Think twice if you want to disable!"
+msgstr "Если вам действительно нужна большая производительность, вы можите отключить сканирование JPG, GIF и PNG файлов. Это, наверно, большинство используемых файлов, поэтому это снизит использование процессора. Но мы предупреждаем, что существуют уязвимости через файлы изображений. Подумайте дважды, прежде чем отключать сканирование картинок."
+
+msgid "Temporary file will grow only up to this size. This means scanner will scan data until this limit is reached. There are two sides to this setting. By limiting the size, you gain performance, less waiting for big files and less needed temporary space. But there is slightly higher chance of virus slipping through (though scanning large archives should not be gateways function, HAVP is more geared towards small exploit detection etc). VALUE IN MB!!!! 0 = No size limit"
+msgstr "Временный файл не может превышать это размер. Поэтому сканер будет проверять данные, пока они меньше этого отграничения."
+"Существует две стороны этой установки. Ограничивая размер, вы добавляете производительность, меньше ожидаем больших файлов и требуется меньше дискового пространства. Но есть несколько большая вероятность, что вирус пройдёт незамеченным (однако  сканирование больших архивов не должно возлагаться на маршрутизаторы, HAVP приспособлен ддля обнаружения небольших эксплойтов)."
+"Значение в мегабайтах. 0 - без ограничения размера."
+
+msgid "URL not scaned"
+msgstr "Не сканируемый URL"
+
+msgid "Maximum size scaned file (MB)"
+msgstr "Максимальный размер сканируемого файла в мегабайтах"
+
+msgid "Enable scan images"
+msgstr "Включить сканирование изображений"
+
+msgid "Enable HAVP"
+msgstr "Включить HAVP"
+
+msgid "Enable this feature"
+msgstr "Включить данный функционал"
+
+msgid "Virus detected"
+msgstr "Обнаруженные вирусы"
+
+msgid "Virus"
+msgstr "Вирус"
