@@ -39,7 +39,7 @@ LANGUAGES=	de_DE es_ES fr_FR it_IT nl_NL ja_JP mn_MN pt_BR ru_RU \
 
 PLUGINSDIR?=	/usr/plugins
 COREDIR?=	/usr/core
-LANGDIR?=	/usr/lang
+LANGDIR?=	/usr/ports/ting/ting-lang/work/lang
 
 TEMPLATE=	en_US
 INSTALL=
