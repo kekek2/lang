@@ -296,6 +296,31 @@ msgid "DISABLED"
 msgstr "ОТКЛЮЧЕН"
 
 #
+# File: /usr/core/src/www/widgets/include/wake_on_lan.inc, line: 3
+msgid "Wake On Lan"
+msgstr ""
+
+#
+# File: /usr/core/src/www/widgets/include/system_log.inc, line: 3
+msgid "System Log"
+msgstr ""
+
+#
+# File: /usr/core/src/www/widgets/include/log.inc, line: 3
+msgid "Firewall Logs"
+msgstr ""
+
+#
+# File: /usr/core/src/www/widgets/include/interface_statistics.inc, line: 3
+msgid "Interface Statistics"
+msgstr ""
+
+#
+# File: /usr/core/src/www/widgets/include/carp_status.inc, line: 3
+msgid "CARP"
+msgstr ""
+
+#
 # File: /usr/core/src/www/widgets/api/plugins/temperature.inc, line: 43
 msgid "Core"
 msgstr "Ядро"
@@ -2681,6 +2706,13 @@ msgstr "Введите тег идентификатора ключа для «�
 msgid "Please enter an address for 'My Identifier'"
 msgstr "Введите адрес для «Моего идентификатора»"
 
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 251
+msgid ""
+"Please select an identifier (My Identifier) other then 'any' when selecting "
+"'Any' interface"
+msgstr ""
+
 # File: src/www/vpn_ipsec_phase1.php, line: 249
 msgid "There is a Phase 2 using IPv4, you cannot use IPv6."
 msgstr "Существует Phase 2, использующая IPv4, вы не можете использовать IPv6."
@@ -3561,6 +3593,11 @@ msgstr "ассоциация удалена."
 # File: src/www/system_usermanager.php, line: 191
 msgid "successfully deleted"
 msgstr "удален успешно"
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 169
+msgid "You cannot delete yourself."
+msgstr ""
 
 # File: src/www/system_routes_edit.php, line: 298
 msgid ""
@@ -12448,6 +12485,21 @@ msgstr ""
 msgid "Only interfaces configured with a static IP will be shown."
 msgstr "Будут показаны только интерфейсы со статическими IP-адресами."
 
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 199
+msgid "flush report"
+msgstr ""
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 191
+msgid "Reports"
+msgstr ""
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 188
+msgid "Collected reports"
+msgstr ""
+
 # File: src/www/diag_logs_settings.php, line: 359
 msgid ""
 "Graphs will not be allowed to be recreated within a 1 minute interval, "
@@ -12455,6 +12507,11 @@ msgid ""
 msgstr ""
 "Графики не будут повторно создаваться в течение 1 минуты, помните об этом, "
 "если решите изменить стиль."
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 170
+msgid "Reset Netflow Data"
+msgstr ""
 
 # File: src/www/diag_logs_settings.php, line: 352
 msgid "Reset RRD Data"
@@ -12472,12 +12529,44 @@ msgstr "Циклическая база данных"
 msgid "Reporting Database Options"
 msgstr "Параметры базы данных отчетов"
 
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 120
+msgid "Do you really want to reset the selected graph?"
+msgstr ""
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 100
+msgid ""
+"Do you really want to reset the netflow data? This will erase all Insight "
+"graph data."
+msgstr ""
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 99
+msgid "Netflow/Insight"
+msgstr ""
+
 # File: src/www/diag_logs_settings.php, line: 278
 msgid ""
 "Do you really want to reset the RRD graphs? This will erase all graph data."
 msgstr ""
 "Вы действительно хотите очистить графики на основании данных из базы RRD? "
 "Это действие сотрет все данные в виде графиков."
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 79
+msgid "RRD"
+msgstr ""
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 50
+msgid "All local netflow data has been cleared."
+msgstr ""
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 47
+msgid "RRD report has been cleared."
+msgstr ""
 
 # File: src/www/diag_logs_settings.php, line: 103
 msgid "RRD data has been cleared."
@@ -17352,26 +17441,6 @@ msgid "Category"
 msgstr "Категория"
 
 #
-# File: /usr/core/src/www/firewall_rules_edit.php, line: 1076
-#, php-format
-msgid ""
-"Hint: the firewall has limited local log space. Don't turn on logging for "
-"everything. If you want to do a lot of logging, consider using a %sremote "
-"syslog server%s."
-msgstr ""
-"Подсказка: пространство для хранения локальных журналов межсетевого экрана "
-"ограничено. Если вы хотите журналировать все пакеты, используйте %sremote "
-"удаленный syslog-сервер%s."
-
-# File: src/www/firewall_rules_edit.php, line: 1135
-msgid "Log packets that are handled by this rule"
-msgstr "Журналировать пакеты,соответствующие правилу"
-
-# File: src/www/firewall_rules_edit.php, line: 1131
-msgid "Log"
-msgstr "Журналирование"
-
-#
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 947
 msgid ""
 "This is usually random and almost never equal to the destination port range "
@@ -18080,6 +18149,26 @@ msgstr "Циклический"
 # File: src/www/firewall_nat_out_edit.php, line: 611
 msgid "Pool Options:"
 msgstr "Параметры пула:"
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1076
+#, php-format
+msgid ""
+"Hint: the firewall has limited local log space. Don't turn on logging for "
+"everything. If you want to do a lot of logging, consider using a %sremote "
+"syslog server%s."
+msgstr ""
+"Подсказка: пространство для хранения локальных журналов межсетевого экрана "
+"ограничено. Если вы хотите журналировать все пакеты, используйте %sremote "
+"удаленный syslog-сервер%s."
+
+# File: src/www/firewall_rules_edit.php, line: 1135
+msgid "Log packets that are handled by this rule"
+msgstr "Журналировать пакеты,соответствующие правилу"
+
+# File: src/www/firewall_rules_edit.php, line: 1131
+msgid "Log"
+msgstr "Журналирование"
 
 # File: src/www/firewall_nat_out_edit.php, line: 604
 #, php-format
@@ -21408,9 +21497,10 @@ msgstr "IP-адрес локальной сети будет сброшен до
 msgid "Reset to factory defaults"
 msgstr "Сбросить настройки по умолчанию"
 
-# File: src/www/diag_defaults.php, line: 50
-msgid "If you click \"Yes\", the firewall will:"
-msgstr "Если вы нажмете «Да», то межсетевой экран:"
+#
+# File: /usr/core/src/www/diag_defaults.php, line: 50
+msgid "If you click \"Yes\", the system will:"
+msgstr ""
 
 # File: src/www/diag_defaults.php, line: 46
 msgid ""
@@ -22825,21 +22915,10 @@ msgstr ""
 msgid "Attribute"
 msgstr ""
 
-msgid ""
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 762
+msgid "Total (selection)"
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-28 16:06+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ru\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.13.0\n"
-"X-Pootle-Path: /ru/gui/ru.po\n"
-"X-Pootle-Revision: 0\n"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 754
@@ -25277,9 +25356,13 @@ msgstr ""
 "Обнаружена потенциальная атак типа «%sDNS rebinding%s». %sTryИспользуйте IP-"
 "адрес вместо имени хоста для доступа к маршрутизатору."
 
-# File: src/www/vpn_pppoe_edit.php, line: 545
-msgid "RADIUS accounting update period in seconds"
-msgstr "Период обновления RADIUS-учета в секундах"
+#
+# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 428
+# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 463
+# File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 325
+# File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 360
+msgid "AccPort"
+msgstr "AccPort"
 
 #
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/index.volt, line: 66
@@ -25427,17 +25510,13 @@ msgstr ""
 "Введите IP-адрес, порт аутентификации и порт учета (не обязательно) RADIUS-"
 "сервера."
 
-#
-# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 428
-# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 463
-# File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 325
-# File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 360
-msgid "AccPort"
-msgstr "AccPort"
-
 # File: src/www/vpn_pppoe_edit.php, line: 557
 msgid "RADIUS server Primary"
 msgstr "Основной RADIUS-сервер"
+
+# File: src/www/vpn_pppoe_edit.php, line: 545
+msgid "RADIUS accounting update period in seconds"
+msgstr "Период обновления RADIUS-учета в секундах"
 
 # File: src/www/vpn_pppoe_edit.php, line: 542
 # File: src/www/vpn_pptp.php, line: 456
@@ -25906,6 +25985,11 @@ msgstr "Распознано"
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 88
 msgid "Rules Stats"
 msgstr "Статистика правил"
+
+#
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/bin/ndpi, line: 1550
+msgid "Hέ."
+msgstr ""
 
 #
 #
@@ -26390,10 +26474,21 @@ msgstr "Статус SMART"
 msgid "Deep Packet Inspection Service"
 msgstr ""
 
-#
-# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 762
-msgid "Total (selection)"
+msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-02 10:00+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Pootle-Path: /ru/gui/ru.po\n"
+"X-Pootle-Revision: 0\n"
 
 # File: lang/dynamic/helpers/acl.php, line: 160
 msgid "Allow access to 'Interfaces: QinQ: Edit' page"
@@ -28977,16 +29072,16 @@ msgstr ""
 #
 # File: /usr/ports/ting/ting-lang/work/lang/src/controllers.php, line: 321
 msgid ""
-"If you really need more performance, you can disable scanning of\n"
-"            JPG, GIF and PNG files. These are probably the most common "
-"files\n"
-"            around, so it will save lots of CPU. But be warned, image "
-"exploits\n"
-"            exist and more could be found. Think twice if you want to "
-"disable!\n"
-"        "
-msgstr "Если вам действительно нужна большая производительность, вы можите отключить сканирование JPG, GIF и PNG файлов. Это, наверно, большинство используемых файлов, поэтому это снизит использование процессора. Но мы предупреждаем, что существуют уязвимости через файлы изображений. Подумайте дважды, прежде чем отключать сканирование кар
-тинок."
+"If you really need more performance, you can disable scanning of JPG, GIF "
+"and PNG files. These are probably the most common files around, so it will "
+"save lots of CPU. But be warned, image exploits exist and more could be "
+"found. Think twice if you want to disable!"
+msgstr ""
+"Если вам действительно нужна большая производительность, вы можите отключить "
+"сканирование JPG, GIF и PNG файлов. Это, наверно, большинство используемых "
+"файлов, поэтому это снизит использование процессора. Но мы предупреждаем, "
+"что существуют уязвимости через файлы изображений. Подумайте дважды, прежде "
+"чем отключать сканирование картинок."
 
 #
 # File: /usr/ports/ting/ting-lang/work/lang/src/controllers.php, line: 326
@@ -30036,28 +30131,24 @@ msgid "Table type"
 msgstr ""
 
 #
-# File: /usr/ports/ting/ting-lang/work/lang/src/controllers.php, line: 494
+# File: /usr/ports/ting/ting-lang/work/lang/src/controllers.php, line: 490
 msgid ""
-"Temporary file will grow only up to this size. This means scanner\n"
-"            will scan data until this limit is reached.\n"
-"\n"
-"            There are two sides to this setting. By limiting the size, you "
-"gain\n"
-"            performance, less waiting for big files and less needed "
-"temporary\n"
-"            space. But there is slightly higher chance of virus slipping "
-"through\n"
-"            (though scanning large archives should not be gateways "
-"function,\n"
-"            HAVP is more geared towards small exploit detection etc).\n"
-"\n"
-"            VALUE IN MB!!!!\n"
-"            0 = No size limit\n"
-"        "
-msgstr "Временный файл не может превышать это размер. Поэтому сканер будет проверять данные, пока они меньше этого отграничения."
-"Существует две стороны этой установки. Ограничивая размер, вы добавляете производительность, меньше ожидаем больших файлов и требуется меньше дискового пространства. Но есть несколько большая вероятность, что вирус пройдёт незамеченным (однако  сканирование больших архивов не должно возлагаться на маршрутизаторы, HAVP приспособлен ддля о
-бнаружения небольших эксплойтов)."
-"Значение в мегабайтах. 0 - без ограничения размера."
+"Temporary file will grow only up to this size. This means scanner will scan "
+"data until this limit is reached. There are two sides to this setting. By "
+"limiting the size, you gain performance, less waiting for big files and less "
+"needed temporary space. But there is slightly higher chance of virus "
+"slipping through (though scanning large archives should not be gateways "
+"function, HAVP is more geared towards small exploit detection etc). VALUE IN "
+"MB!!!! 0 = No size limit"
+msgstr ""
+"Временный файл не может превышать это размер. Поэтому сканер будет проверять "
+"данные, пока они меньше этого отграничения.Существует две стороны этой "
+"установки. Ограничивая размер, вы добавляете производительность, меньше "
+"ожидаем больших файлов и требуется меньше дискового пространства. Но есть "
+"несколько большая вероятность, что вирус пройдёт незамеченным (однако  "
+"сканирование больших архивов не должно возлагаться на маршрутизаторы, HAVP "
+"приспособлен ддля обнаружения небольших эксплойтов).Значение в мегабайтах. 0 "
+"- без ограничения размера."
 
 # File: src/www/diag_smart.php, line: 346
 msgid "Test type"
@@ -30649,7 +30740,8 @@ msgstr ""
 msgid ""
 "source ip or network (netmask required), examples 10.0.0.0/24, 10.0.0.1/32"
 msgstr ""
-"ip-адрес или сеть отправителя (с маской сети), например 10.0.0.0/24, 10.0.0.1/32"
+"ip-адрес или сеть отправителя (с маской сети), например 10.0.0.0/24, "
+"10.0.0.1/32"
 
 # File: lang/dynamic/helpers/controllers.php, line: 100
 msgid "source ip or network, examples 10.0.0.0/24, 10.0.0.1"
@@ -32232,7 +32324,3 @@ msgstr "размер очереди должен быть числом от 2 д
 msgid ""
 "the number of sslrtd children needs to be an integer value between 1 and 32"
 msgstr "количество sslrtd children должно быть целым числом от 1 до 32"
-
-msgid "Edit rule"
-msgstr "Редактировать правило"
-

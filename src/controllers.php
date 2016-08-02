@@ -318,11 +318,7 @@ echo gettext('If this checkbox is checked, you can use an ICAP server to filter 
 echo gettext('If this option is set, users can login on multiple machines at once. If disabled subsequent logins will cause machines previously logged in with the same username to be disconnected.');
 echo gettext('If you enable this option, the client IP address will be sent to the ICAP server. This can be useful if you want to filter traffic based on IP addresses.');
 echo gettext('If you enable this option, the username of the client will be sent to the ICAP server. This can be useful if you want to filter traffic based on usernames. Note, that authentication is required to use usernames.');
-echo gettext('If you really need more performance, you can disable scanning of
-            JPG, GIF and PNG files. These are probably the most common files
-            around, so it will save lots of CPU. But be warned, image exploits
-            exist and more could be found. Think twice if you want to disable!
-        ');
+echo gettext('If you really need more performance, you can disable scanning of JPG, GIF and PNG files. These are probably the most common files around, so it will save lots of CPU. But be warned, image exploits exist and more could be found. Think twice if you want to disable!');
 echo gettext('If you use previews, only a part of the data is sent to the ICAP server. Setting this option can improve the performance.');
 echo gettext('Ignore hosts in access.log');
 echo gettext('Indicates where to send the logs. Takes an IPv4 or IPv6 address optionally followed by a colon (\':\') and a UDP port, i.e. 127.0.0.1 or 10.0.0.1:514');
@@ -491,18 +487,7 @@ echo gettext('Suppress Squid version string info in HTTP headers and HTML error 
 echo gettext('Suppress version string');
 echo gettext('Syslog facility');
 echo gettext('Table type');
-echo gettext('Temporary file will grow only up to this size. This means scanner
-            will scan data until this limit is reached.
-
-            There are two sides to this setting. By limiting the size, you gain
-            performance, less waiting for big files and less needed temporary
-            space. But there is slightly higher chance of virus slipping through
-            (though scanning large archives should not be gateways function,
-            HAVP is more geared towards small exploit detection etc).
-
-            VALUE IN MB!!!!
-            0 = No size limit
-        ');
+echo gettext('Temporary file will grow only up to this size. This means scanner will scan data until this limit is reached. There are two sides to this setting. By limiting the size, you gain performance, less waiting for big files and less needed temporary space. But there is slightly higher chance of virus slipping through (though scanning large archives should not be gateways function, HAVP is more geared towards small exploit detection etc). VALUE IN MB!!!! 0 = No size limit');
 echo gettext('Test type');
 echo gettext('The HTTP status code.<br/><div class="text-info"><b>NOTE:</b> It is important to understand that errorfiles are NOT meant to rewrite errors returned by the server, but errors detected and returned by HAProxy. This is why the list of supported errors is limited to a small set.</div>');
 echo gettext('The SSL fingerprint, for example "B5:E1:B3:70:5E:7C:FF:EB:92:C4:29:E5:5B:AC:2F:AE:70:17:E9:9E".');

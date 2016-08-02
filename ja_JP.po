@@ -255,6 +255,31 @@ msgstr ""
 msgid "DISABLED"
 msgstr "無効"
 
+#
+# File: /usr/core/src/www/widgets/include/wake_on_lan.inc, line: 3
+msgid "Wake On Lan"
+msgstr ""
+
+#
+# File: /usr/core/src/www/widgets/include/system_log.inc, line: 3
+msgid "System Log"
+msgstr ""
+
+#
+# File: /usr/core/src/www/widgets/include/log.inc, line: 3
+msgid "Firewall Logs"
+msgstr ""
+
+#
+# File: /usr/core/src/www/widgets/include/interface_statistics.inc, line: 3
+msgid "Interface Statistics"
+msgstr ""
+
+#
+# File: /usr/core/src/www/widgets/include/carp_status.inc, line: 3
+msgid "CARP"
+msgstr ""
+
 # File: /usr/core/src/www/widgets/api/plugins/temperature.inc, line: 43
 msgid "Core"
 msgstr "コア"
@@ -2332,6 +2357,13 @@ msgstr "「自分の識別子」の keyid タグを入力してください"
 msgid "Please enter an address for 'My Identifier'"
 msgstr "「自分の識別子」のアドレスを入力してください"
 
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 251
+msgid ""
+"Please select an identifier (My Identifier) other then 'any' when selecting "
+"'Any' interface"
+msgstr ""
+
 msgid "There is a Phase 2 using IPv4, you cannot use IPv6."
 msgstr "フェーズ 2 では IPv4 を使用しています。IPv6 は使用できません。"
 
@@ -3023,6 +3055,11 @@ msgstr "関連付けは削除されました"
 
 msgid "successfully deleted"
 msgstr "正常に削除しました"
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 169
+msgid "You cannot delete yourself."
+msgstr ""
 
 msgid ""
 "Set this option to disable this static route without removing it from the "
@@ -10125,12 +10162,32 @@ msgstr ""
 msgid "Only interfaces configured with a static IP will be shown."
 msgstr "静的 IP で構成されたインタフェースのみが表示されます。"
 
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 199
+msgid "flush report"
+msgstr ""
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 191
+msgid "Reports"
+msgstr ""
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 188
+msgid "Collected reports"
+msgstr ""
+
 msgid ""
 "Graphs will not be allowed to be recreated within a 1 minute interval, "
 "please take this into account after changing the style."
 msgstr ""
 "グラフは 1 分以内に再作成することはできません。スタイル変更後はこの点を考慮し"
 "てください。"
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 170
+msgid "Reset Netflow Data"
+msgstr ""
 
 msgid "Reset RRD Data"
 msgstr "RRD データをリセット"
@@ -10146,10 +10203,42 @@ msgstr "ラウンドロビンデータベース"
 msgid "Reporting Database Options"
 msgstr "データベースオプションレポート"
 
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 120
+msgid "Do you really want to reset the selected graph?"
+msgstr ""
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 100
+msgid ""
+"Do you really want to reset the netflow data? This will erase all Insight "
+"graph data."
+msgstr ""
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 99
+msgid "Netflow/Insight"
+msgstr ""
+
 msgid ""
 "Do you really want to reset the RRD graphs? This will erase all graph data."
 msgstr ""
 "本当に RRD グラフをリセットしますか？全てのグラフデータが消去されます。"
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 79
+msgid "RRD"
+msgstr ""
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 50
+msgid "All local netflow data has been cleared."
+msgstr ""
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 47
+msgid "RRD report has been cleared."
+msgstr ""
 
 # File: src/www/status_rrd_graph_settings.php, line: 40
 msgid "RRD data has been cleared."
@@ -13964,23 +14053,6 @@ msgstr ""
 msgid "Category"
 msgstr "カテゴリ"
 
-# File: /usr/core/src/www/firewall_rules_edit.php, line: 1076
-#, php-format
-msgid ""
-"Hint: the firewall has limited local log space. Don't turn on logging for "
-"everything. If you want to do a lot of logging, consider using a %sremote "
-"syslog server%s."
-msgstr ""
-"ヒント: ファイアウォールのローカルログスペースは限られています。ログの取得を"
-"全てオンにしないでください。多くのログを取得したい場合は%sリモート syslog "
-"サーバ%sの使用を検討してください。"
-
-msgid "Log packets that are handled by this rule"
-msgstr "この規則で処理されたパケットをログに記録"
-
-msgid "Log"
-msgstr "ログ"
-
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 947
 msgid ""
 "This is usually random and almost never equal to the destination port range "
@@ -14572,6 +14644,23 @@ msgstr "ラウンドロビン"
 # File: src/www/firewall_nat_out_edit.php, line: 602
 msgid "Pool Options:"
 msgstr "プールオプション: "
+
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1076
+#, php-format
+msgid ""
+"Hint: the firewall has limited local log space. Don't turn on logging for "
+"everything. If you want to do a lot of logging, consider using a %sremote "
+"syslog server%s."
+msgstr ""
+"ヒント: ファイアウォールのローカルログスペースは限られています。ログの取得を"
+"全てオンにしないでください。多くのログを取得したい場合は%sリモート syslog "
+"サーバ%sの使用を検討してください。"
+
+msgid "Log packets that are handled by this rule"
+msgstr "この規則で処理されたパケットをログに記録"
+
+msgid "Log"
+msgstr "ログ"
 
 # File: src/www/firewall_nat_out_edit.php, line: 604
 #, php-format
@@ -16938,9 +17027,10 @@ msgstr "LAN IP アドレスは 192.168.1.1 にリセット"
 msgid "Reset to factory defaults"
 msgstr "出荷時の規定値にリセット"
 
-# File: src/www/diag_defaults.php, line: 50
-msgid "If you click \"Yes\", the firewall will:"
-msgstr "「はい」をクリックすると、ファイアウォールは次を実行します: "
+#
+# File: /usr/core/src/www/diag_defaults.php, line: 50
+msgid "If you click \"Yes\", the system will:"
+msgstr ""
 
 msgid ""
 "The system has been reset to factory defaults and is now rebooting. This may "
@@ -17861,25 +17951,10 @@ msgstr ""
 msgid "Attribute"
 msgstr ""
 
-# OPNsense Japanese Language Translation
-# Copyright (C) OPNsense project.
-# This file is distributed under the same BSD license as the OPNsense project.
-# Chie Taguchi, Kiyo Takami, and Isaac (.ike) Levy, 2013, 2014, 2015.
-msgid ""
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 762
+msgid "Total (selection)"
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-28 16:06+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Chie Taguchi <taguchi.ch@gmail.com>\n"
-"Language-Team: https://github.com/dotike/opnsense.core.ja_JP.UTF8\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.13.0\n"
-"X-Pootle-Path: /ja/gui/ja.po\n"
-"X-Pootle-Revision: 4297\n"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 754
@@ -19804,8 +19879,12 @@ msgstr ""
 "%sDNS リバインディング%sと思われる攻撃を検知しました。ホスト名ではなく IP ア"
 "ドレスでルータにアクセスしてみてください。"
 
-msgid "RADIUS accounting update period in seconds"
-msgstr "RADIUS アカウンティング更新期間。単位は秒"
+# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 428
+# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 463
+# File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 325
+# File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 360
+msgid "AccPort"
+msgstr "アカウンティングポート"
 
 #
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/index.volt, line: 66
@@ -19913,15 +19992,11 @@ msgstr ""
 "RADIUS サーバの IP アドレス、認証ポート、アカウンティングポート ( オプショ"
 "ン ) を入力してください。"
 
-# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 428
-# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 463
-# File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 325
-# File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 360
-msgid "AccPort"
-msgstr "アカウンティングポート"
-
 msgid "RADIUS server Primary"
 msgstr "プライマリ RADIUS サーバ"
+
+msgid "RADIUS accounting update period in seconds"
+msgstr "RADIUS アカウンティング更新期間。単位は秒"
 
 msgid "RADIUS Accounting Update"
 msgstr "RADIUS アカウンティング更新"
@@ -20721,10 +20796,25 @@ msgstr "SMART ステータス"
 msgid "Deep Packet Inspection Service"
 msgstr ""
 
-#
-# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 762
-msgid "Total (selection)"
+# OPNsense Japanese Language Translation
+# Copyright (C) OPNsense project.
+# This file is distributed under the same BSD license as the OPNsense project.
+# Chie Taguchi, Kiyo Takami, and Isaac (.ike) Levy, 2013, 2014, 2015.
+msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-02 10:00+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Chie Taguchi <taguchi.ch@gmail.com>\n"
+"Language-Team: https://github.com/dotike/opnsense.core.ja_JP.UTF8\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.13.0\n"
+"X-Pootle-Path: /ja/gui/ja.po\n"
+"X-Pootle-Revision: 4297\n"
 
 msgid "Allow access to 'Interfaces: QinQ: Edit' page"
 msgstr "インタフェース: QinQ: 編集: ページへのアクセスを許可"
@@ -22778,14 +22868,10 @@ msgstr ""
 #
 # File: /usr/ports/ting/ting-lang/work/lang/src/controllers.php, line: 321
 msgid ""
-"If you really need more performance, you can disable scanning of\n"
-"            JPG, GIF and PNG files. These are probably the most common "
-"files\n"
-"            around, so it will save lots of CPU. But be warned, image "
-"exploits\n"
-"            exist and more could be found. Think twice if you want to "
-"disable!\n"
-"        "
+"If you really need more performance, you can disable scanning of JPG, GIF "
+"and PNG files. These are probably the most common files around, so it will "
+"save lots of CPU. But be warned, image exploits exist and more could be "
+"found. Think twice if you want to disable!"
 msgstr ""
 
 #
@@ -23642,24 +23728,15 @@ msgid "Table type"
 msgstr ""
 
 #
-# File: /usr/ports/ting/ting-lang/work/lang/src/controllers.php, line: 494
+# File: /usr/ports/ting/ting-lang/work/lang/src/controllers.php, line: 490
 msgid ""
-"Temporary file will grow only up to this size. This means scanner\n"
-"            will scan data until this limit is reached.\n"
-"\n"
-"            There are two sides to this setting. By limiting the size, you "
-"gain\n"
-"            performance, less waiting for big files and less needed "
-"temporary\n"
-"            space. But there is slightly higher chance of virus slipping "
-"through\n"
-"            (though scanning large archives should not be gateways "
-"function,\n"
-"            HAVP is more geared towards small exploit detection etc).\n"
-"\n"
-"            VALUE IN MB!!!!\n"
-"            0 = No size limit\n"
-"        "
+"Temporary file will grow only up to this size. This means scanner will scan "
+"data until this limit is reached. There are two sides to this setting. By "
+"limiting the size, you gain performance, less waiting for big files and less "
+"needed temporary space. But there is slightly higher chance of virus "
+"slipping through (though scanning large archives should not be gateways "
+"function, HAVP is more geared towards small exploit detection etc). VALUE IN "
+"MB!!!! 0 = No size limit"
 msgstr ""
 
 msgid "Test type"
