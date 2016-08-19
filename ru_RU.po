@@ -28826,7 +28826,7 @@ msgstr "Редактировать правило"
 
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/etc/inc/plugins.inc.d/ndpi.inc, line: 11
 msgid   "Deep Packet Inspection Service"
-msgstr "Служба глубокой проверки пакетов"
+msgstr "Служба анализатора трафика"
 
 msgid   "HAVP Proxy Server"
 msgstr "Прокси-сервер HAVP"
@@ -28849,7 +28849,7 @@ msgstr "Приложение или сервис"
 
 # File: /usr/lang/src/controllers.php, line: 204
 msgid   "Enable Deep Packet Inspection"
-msgstr "Включить Deep Packet Inspection"
+msgstr "Включить анализатор трафика"
 
 # File: /usr/lang/src/controllers.php, line: 207
 msgid   "Enable HAVP"
@@ -28907,7 +28907,7 @@ msgstr ""
 
 # File: /usr/lang/src/models.php, line: 75
 msgid   "Deep Packet Inspection"
-msgstr "Глубокая проверка пакетов"
+msgstr "Анализатор трафика"
 
 # File: /usr/lang/src/models.php, line: 88
 msgid   "Enter valid IPv4 address with net mask"
