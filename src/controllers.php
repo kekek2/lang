@@ -44,13 +44,13 @@ echo gettext('
                   <br/><br/>
                   Transparent HTTP proxy needs to be enabled and you need nat rules to reflect your traffic
                   for this feature to work.<br/>
-                  <a href="/firewall_nat_edit.php?template=transparant_proxy&https=1"> Add a new firewall rule </a>
+                  <a href="/firewall_nat_edit.php?template=transparent_proxy&https=1"> Add a new firewall rule </a>
                   ');
 echo gettext('
                   Enable transparent proxy mode. You will need a firewall rule to forward traffic from the firewall to the proxy server.
                   You may leave the proxy interfaces empty, but remember to set a valid ACL in that case.
                   <br/>
-                  <a href="/firewall_nat_edit.php?template=transparant_proxy"> Add a new firewall rule </a>
+                  <a href="/firewall_nat_edit.php?template=transparent_proxy"> Add a new firewall rule </a>
                   ');
 echo gettext('
                   Select a Certificate Authority to use. To create a CA, go to <a href="/system_camanager.php">CA Manager</a>.
@@ -58,6 +58,7 @@ echo gettext('
 echo gettext('(FQ-)CoDel ECN');
 echo gettext('(FQ-)CoDel interval');
 echo gettext('(FQ-)CoDel target');
+echo gettext('AD Kerberos implementation');
 echo gettext('Action');
 echo gettext('Actions');
 echo gettext('Actions (ACLs)');
@@ -93,6 +94,7 @@ echo gettext('Avoid authentication for addresses and subnets in this list');
 echo gettext('Avoid authentication for physical addresses in this list');
 echo gettext('Balancing Algorithm');
 echo gettext('Banned host IP addresses');
+echo gettext('Black list');
 echo gettext('Blacklist');
 echo gettext('Blacklist destination domains.<br/>
         You may use a regular expression, use a comma or press Enter for new item.<br/>
@@ -206,6 +208,7 @@ echo gettext('Enable HAProxy');
 echo gettext('Enable HAProxy\'s statistics page.');
 echo gettext('Enable HAVP');
 echo gettext('Enable ICAP');
+echo gettext('Enable Kerberos');
 echo gettext('Enable Preview');
 echo gettext('Enable SSL mode');
 echo gettext('Enable SSL offloading');
@@ -254,6 +257,7 @@ echo gettext('Encode Username');
 echo gettext('Enter a description to explain what this blacklist is intended for.');
 echo gettext('Enter a description to explain what this job is intended for.');
 echo gettext('Enter a filename for storing the blacklist.');
+echo gettext('Enter a name of users group.');
 echo gettext('Enter a number followed by one of the supported suffixes "d" (days), "h" (hour), "m" (minute), "s" (seconds), "ms" (miliseconds). This configures the maximum duration of an entry in the stick-table since it was last created, refreshed or matched. The maximum duration is slightly above 24 days.');
 echo gettext('Enter a number followed by one of the supported suffixes "k", "m", "g". This configures the maximum number of entries that can fit in the table. This value directly impacts memory usage. Count approximately 50 bytes per entry, plus the size of a string if any.');
 echo gettext('Enter an url to fetch the blacklist from.');
@@ -297,6 +301,7 @@ echo gettext('GeoIP/Country');
 echo gettext('GeoIP/Direction');
 echo gettext('Grant access to HAProxy statistics page. Please provide both user and password in clear text separated by a \':\', i.e. john:secret123 or jdoe:anonymous. Use TAB key to complete adding a user.');
 echo gettext('Group Id');
+echo gettext('Group name');
 echo gettext('HAProxy processes');
 echo gettext('HTTP check options');
 echo gettext('HTTP host');
@@ -326,6 +331,8 @@ echo gettext('Input Filter');
 echo gettext('Interfaces');
 echo gettext('Internal number used for this zone');
 echo gettext('Interval before dropping packets (in ms), leave empty for default');
+echo gettext('List of alowed addresses');
+echo gettext('List of blocked addresses');
 echo gettext('Listen Addresses');
 echo gettext('Local stats TCP port');
 echo gettext('Log Host');
@@ -338,10 +345,10 @@ echo gettext('Max. line length');
 echo gettext('Maximum RAM per LUA process');
 echo gettext('Maximum SSL DH Size');
 echo gettext('Maximum connections');
-echo gettext('Maximum download size (Kb)');
+echo gettext('Maximum download size (kB)');
 echo gettext('Maximum object size (MB)');
 echo gettext('Maximum size scaned file (MB)');
-echo gettext('Maximum upload size (Kb)');
+echo gettext('Maximum upload size (kB)');
 echo gettext('Memory Cache size in Megabytes');
 echo gettext('Message');
 echo gettext('Minimum acceptable persistent queue delay (in ms), leave empty for default');
@@ -368,12 +375,12 @@ echo gettext('Number of logs to keep.');
 echo gettext('Number of second-level subdirectories');
 echo gettext('Option pass-through');
 echo gettext('Optional parameters');
-echo gettext('Overall bandwidth throttling (Kbps)');
+echo gettext('Overall bandwidth throttling (kbps)');
 echo gettext('Parameters');
 echo gettext('Paste the content of your Lua script here.');
 echo gettext('Paste the content of your errorfile here. The files should not exceed the configured buffer size, which generally is 8 or 16 kB.');
 echo gettext('Pattern matcher');
-echo gettext('Per host bandwidth throttling (Kbps)');
+echo gettext('Per host bandwidth throttling (kbps)');
 echo gettext('Port');
 echo gettext('Port to check');
 echo gettext('Preview Size');
@@ -412,6 +419,7 @@ echo gettext('Select Authentication method');
 echo gettext('Select HTTP method for health check.');
 echo gettext('Select HTTP version for a HTTP health check.');
 echo gettext('Select NetFlow version to use.');
+echo gettext('Select Windows Server version for AD controller');
 echo gettext('Select authentication methods to use, leave empty for no authentication needed.');
 echo gettext('Select certificates to use for SSL offloading. HAProxy\'s SNI recognition will determine the correct certificate automatically. If no SNI is provided by the client then the first certificate will be presented.<br/>To import additional certificates, go to <a href="/system_certmanager.php">Certificate Manager</a>.');
 echo gettext('Select destinations to send NetFlow data to (ip address:port, eg 192.168.0.1:2550).');
@@ -435,7 +443,7 @@ echo gettext('Select what to do with URI that contain whitespaces.<br/>
 echo gettext('Select what to do with X-Forwarded for header.');
 echo gettext('Send Client IP');
 echo gettext('Send Username');
-echo gettext('Send log data to.');
+echo gettext('Send log data to the selected target.');
 echo gettext('Separate Statistics');
 echo gettext('Sequence order');
 echo gettext('Server Timeout');
@@ -530,6 +538,7 @@ echo gettext('URL not scaned');
 echo gettext('URL parameter');
 echo gettext('Unrestricted IP addresses');
 echo gettext('Use Frontend port');
+echo gettext('Use Kerberos to request authenticatin from LDAP');
 echo gettext('Use Via header');
 echo gettext('Use alternate DNS-servers');
 echo gettext('Use backend');
@@ -547,6 +556,7 @@ echo gettext('Visible Hostname');
 echo gettext('Weight');
 echo gettext('Weight of this queue (1..100), used to prioritize within a pipe. (1 is low, 100 is high)');
 echo gettext('When enabled the subnets of the selected interfaces will be added to the allow access list.');
+echo gettext('White list');
 echo gettext('Whitelist');
 echo gettext('Whitelist destination domains.<br/>
         You may use a regular expression, use a comma or press Enter for new item.<br/>
