@@ -38,8 +38,8 @@ def get_record(handle):
             record[item].append(line[:-1])
 
 ting_array = []
-inp = os.popen('git show origin/lang:ru_RU.po')
-#inp = open('ru_RU.po')
+#inp = os.popen('git show origin/lang:ru_RU.po')
+inp = open('ru_RU.po')
 
 while True:
     record = get_record(inp)
@@ -48,7 +48,8 @@ while True:
         break
 inp.close()    
 
-inp = os.popen('git show github/master:ru_RU.po')
+#inp = os.popen('git show github/master:ru_RU.po')
+inp = open('ru_RU.po.opnsense')
 while True:
     record = get_record(inp)
     
