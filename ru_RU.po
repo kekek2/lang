@@ -22308,12 +22308,6 @@ msgstr "Очистить все"
 msgid "Processing request..."
 msgstr "Обработка запроса..."
 
-#
-# File: /usr/core/src/opnsense/mvc/app/views/layout_partials/base_dialog.volt, line: 117
-msgid "Save changes"
-msgstr ""
-
-# File: src/opnsense/mvc/app/views/layout_partials/base_dialog.volt, line: 73
 # File: src/opnsense/mvc/app/views/layout_partials/base_form.volt, line: 63
 msgid "advanced mode"
 msgstr "расширенный режим"
@@ -25403,12 +25397,6 @@ msgstr ""
 msgid "Remote address range"
 msgstr "Диапазон удаленных адресов"
 
-#
-# File: /usr/plugins/devel/ting-plugin-havp/src/opnsense/mvc/app/controllers/SmartSoft/HAVP/Api/ServiceController.php, line: 37
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/controllers/SmartSoft/NDPI/Api/ServiceController.php, line: 31
-msgid "Config saved"
-msgstr ""
-
 # File: src/www/vpn_l2tp_users_edit.php, line: 183
 # File: src/www/vpn_pptp_users_edit.php, line: 181
 msgid ""
@@ -25894,171 +25882,6 @@ msgid "L2TP Server"
 msgstr "L2TP-сервер"
 
 #
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 134
-msgid "Total packets"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 232
-msgid "Flows"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 229
-msgid "Breed"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 222
-msgid "Detected Protocols"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 210
-msgid "Protocol Breeds"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 198
-msgid "Unique flows"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 194
-msgid "Packet with size &gt; 1500 bytes"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 190
-msgid "Packet with size 1024 - 1500 bytes"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 186
-msgid "Packet with size 256 - 1024 bytes"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 182
-msgid "Packet with size 128 - 256 bytes"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 178
-msgid "Packet with size 64 - 128 bytes"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 174
-msgid "Packet with size &lt; 64 bytes"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 170
-msgid "Max packet size"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 166
-msgid "Average packet size"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 162
-msgid "Fragmented packets"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 158
-msgid "PPPoE packets"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 154
-msgid "MPLS packets"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 150
-msgid "VLAN packets"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 146
-msgid "UDP packets"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 142
-msgid "TCP packets"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 138
-msgid "IP packets"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 130
-msgid "IP bytes"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 126
-msgid "Discarded bytes"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 122
-msgid "Ethernet bytes"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 116
-msgid "Total Stats"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 100
-msgid "Killed"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 99
-msgid "Detected"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 88
-msgid "Rules Stats"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/etc/inc/plugins.inc.d/ndpi.inc, line: 11
-msgid "Deep Packet Inspection Service"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-havp/src/etc/inc/plugins.inc.d/havp.inc, line: 11
-msgid "HAVP Proxy Server"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-havp/src/opnsense/mvc/app/controllers/SmartSoft/HAVP/Api/ServiceController.php, line: 27
-msgid "Failed reload SmartSoft.HAVP"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-havp/src/opnsense/mvc/app/views/SmartSoft/HAVP/stats.volt, line: 34
-msgid "Viruses detected"
-msgstr ""
-
-#
-# File: /usr/plugins/devel/ting-plugin-havp/src/opnsense/mvc/app/views/SmartSoft/HAVP/stats.volt, line: 43
-msgid "Virus"
-msgstr ""
-
-#
 # File: /usr/plugins/net/haproxy/src/etc/inc/plugins.inc.d/haproxy.inc, line: 53
 msgid "HAProxy load balancer"
 msgstr "Балансировка нагрузки с помощью HAProxy"
@@ -26515,12 +26338,6 @@ msgstr "Идентификатор"
 # File: src/www/widgets/widgets/smart_status.widget.php, line: 40
 msgid "SMART Status"
 msgstr "Статус SMART"
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/index.volt, line: 73
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 98
-msgid "Allow Traffic"
-msgstr ""
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/networkinsight.volt, line: 726
@@ -27640,11 +27457,6 @@ msgid "Allow interface subnets"
 msgstr ""
 
 #
-# File: /usr/lang/src/controllers.php, line: 76
-msgid "Allow/Deny traffic"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 77
 msgid "Allowed MAC addresses"
 msgstr ""
@@ -27685,11 +27497,6 @@ msgid ""
 "comments with colon (ex. 22:ssh).<br/>\n"
 "        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
 "separated list into this field.</div>"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 86
-msgid "Application or service"
 msgstr ""
 
 #
@@ -28393,11 +28200,6 @@ msgid "Enable DNS v4 first"
 msgstr ""
 
 #
-# File: /usr/lang/src/controllers.php, line: 204
-msgid "Enable Deep Packet Inspection"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 205
 msgid "Enable HAProxy"
 msgstr ""
@@ -28406,11 +28208,6 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 71
 msgid "Enable HAProxy's statistics page."
 msgstr "Включить страницу статистики HAProxy"
-
-#
-# File: /usr/lang/src/controllers.php, line: 207
-msgid "Enable HAVP"
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 208
@@ -28454,11 +28251,6 @@ msgstr "Включить ведение журнала запросов клие
 #
 # File: /usr/lang/src/controllers.php, line: 216
 msgid "Enable authentication"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 217
-msgid "Enable images scan"
 msgstr ""
 
 #
@@ -29113,15 +28905,6 @@ msgstr ""
 "использовать имена пользователей."
 
 #
-# File: /usr/lang/src/controllers.php, line: 321
-msgid ""
-"If you really need more performance, you can disable scanning of JPG, GIF "
-"and PNG files. These are probably the most common files around, so it will "
-"save lots of CPU. But be warned, image exploits exist and more could be "
-"found. Think twice if you want to disable!"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 134
 msgid ""
 "If you use previews, only a part of the data is sent to the ICAP server. "
@@ -29238,11 +29021,6 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 342
 msgid "Maximum object size (MB)"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 343
-msgid "Maximum size of scaned file (MB)"
 msgstr ""
 
 #
@@ -29818,13 +29596,6 @@ msgid "Separate Statistics"
 msgstr ""
 
 #
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/index.volt, line: 74
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 95
-# File: /usr/lang/src/controllers.php, line: 440
-msgid "Sequence order"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 441
 msgid "Server Timeout"
 msgstr ""
@@ -30175,18 +29946,6 @@ msgstr ""
 msgid "Table type"
 msgstr ""
 
-#
-# File: /usr/lang/src/controllers.php, line: 490
-msgid ""
-"Temporary file will grow only up to this size. This means scanner will scan "
-"data until this limit is reached. There are two sides to this setting. By "
-"limiting the size, you gain performance, less waiting for big files and less "
-"needed temporary space. But there is slightly higher chance of virus "
-"slipping through (though scanning large archives should not be gateways "
-"function, HAVP is more geared towards small exploit detection etc). VALUE IN "
-"MB!!!! 0 = No size limit"
-msgstr ""
-
 # File: src/www/diag_smart.php, line: 346
 msgid "Test type"
 msgstr "Тип теста"
@@ -30453,12 +30212,6 @@ msgstr ""
 # File: src/www/services_dhcpv6.php, line: 759
 msgid "URL"
 msgstr "URL"
-
-#
-# File: /usr/plugins/devel/ting-plugin-havp/src/opnsense/mvc/app/views/SmartSoft/HAVP/index.volt, line: 63
-# File: /usr/lang/src/controllers.php, line: 528
-msgid "URL not scanned"
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 529
@@ -30768,12 +30521,6 @@ msgstr ""
 msgid "source"
 msgstr ""
 
-#
-# File: /usr/lang/src/controllers.php, line: 591
-msgid ""
-"source ip or network (netmask required), examples 10.0.0.0/24, 10.0.0.1/32"
-msgstr ""
-
 # File: lang/dynamic/helpers/controllers.php, line: 100
 msgid "source ip or network, examples 10.0.0.0/24, 10.0.0.1"
 msgstr "IP-адрес источника или исходная сеть, например 10.0.0.0/24, 10.0.0.1"
@@ -31050,11 +30797,6 @@ msgid "Dashboard"
 msgstr "Инструментальная панель"
 
 #
-# File: /usr/lang/src/models.php, line: 75
-msgid "Deep Packet Inspection"
-msgstr ""
-
-#
 # File: /usr/lang/src/models.php, line: 74
 msgid "Defaults"
 msgstr "Значения по умолчанию"
@@ -31154,11 +30896,6 @@ msgstr "Введите описание."
 msgid "Enter a valid number of logs to save"
 msgstr "Введите допустимое количество сохраняемых журналов"
 
-#
-# File: /usr/lang/src/models.php, line: 89
-msgid "Enter valid IPv4 address with net mask"
-msgstr ""
-
 # File: lang/dynamic/helpers/models.php, line: 330
 msgid ""
 "Enter valid parameter(s) for the chosen command (Found illegal characters)."
@@ -31180,11 +30917,6 @@ msgstr ""
 # File: lang/dynamic/helpers/models.php, line: 322
 msgid "File content should be in (base64 encoded) zip format"
 msgstr "Содержимое файла (закодированное в base64) должно быть в формате zip"
-
-#
-# File: /usr/lang/src/models.php, line: 95
-msgid "File size must be between 0...4096"
-msgstr ""
 
 # File: lang/dynamic/helpers/models.php, line: 320
 msgid "Fileid should be an internally generated unique number"
@@ -31280,11 +31012,6 @@ msgstr "Группы"
 # File: /usr/lang/src/models.php, line: 108
 msgid "HAProxy"
 msgstr "HAProxy"
-
-#
-# File: /usr/lang/src/models.php, line: 113
-msgid "HTTP Antivirus Proxy"
-msgstr ""
 
 # File: lang/dynamic/helpers/models.php, line: 313
 msgid "Hard timeout must be between 0(no timeout) and 10080 (a week)"
@@ -31910,11 +31637,6 @@ msgstr "Отзыв сертификатов"
 msgid "Routes"
 msgstr "Маршруты"
 
-#
-# File: /usr/lang/src/models.php, line: 232
-msgid "Rule order number must be between 1...65535"
-msgstr ""
-
 # File: lang/dynamic/helpers/models.php, line: 154
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 383
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 104
@@ -32376,6 +32098,7 @@ msgstr "размер очереди должен быть числом от 2 д
 msgid ""
 "the number of sslrtd children needs to be an integer value between 1 and 32"
 msgstr "количество sslrtd children должно быть целым числом от 1 до 32"
+
 # File: /usr/core/src/opnsense/mvc/app/views/layout_partials/base_dialog.volt, line: 117
 msgid   "Save changes"
 msgstr   "Сохранить изменения"
