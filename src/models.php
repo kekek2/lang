@@ -205,6 +205,7 @@ echo gettext('Point-to-Point');
 echo gettext('Pool Setup');
 echo gettext('Pool Status');
 echo gettext('Port Forward');
+echo gettext('Power');
 echo gettext('Power Off');
 echo gettext('Pre-Shared Keys');
 echo gettext('Proxy Server');
