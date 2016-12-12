@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-24 05:31+0000\n"
+"POT-Creation-Date: 2016-11-30 06:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -771,6 +771,10 @@ msgid ""
 "win6\" Windows installers include a new tap-windows6 driver that works only "
 "on Windows Vista and later."
 msgstr ""
+"Der Windows Installer mit dem Namen \"XP\" funktioniert unter allen Windows "
+"Versionen ab Windows XP. Der Windows Installer mit dem Namen \"win6\" "
+"enthält einen neuen Treiber (tap-windows6), welcher erst ab Windows Vista "
+"und später funktioniert."
 
 # File: /usr/core/src/www/vpn_openvpn_export.php, line: 707
 msgid "Configuration archive"
@@ -939,6 +943,13 @@ msgid ""
 "users.This is also useful for Windows Vista/7/8 systems where elevated "
 "permissions are needed to add routes to the system."
 msgstr ""
+"Diese Option ändert die generierte .ovpn Konfigurationsdatei so ab, dass das "
+"Management Interface von OpenVPN genutzt werden kann. Ebenso wird das "
+"Programm \"OpenVPNManager\" in die \"Windows Installer\" Exporte "
+"eingebunden, damit OpenVPN auch von nicht-Administrator Benutzern "
+"installiert werden kann. Dies kann auch unter Windows Vista / 7 / 8 Systemen "
+"genutzt werden, wo erweiterte Rechte für das hinzufügen von Routen benötigt "
+"werden."
 
 # File: src/www/vpn_openvpn_export.php, line: 767
 # File: src/www/vpn_openvpn_export.php.orig, line: 767
@@ -1190,6 +1201,9 @@ msgid ""
 "IP. The NetBIOS scope ID isolates NetBIOS traffic on a single network to "
 "only those nodes with the same NetBIOS scope ID."
 msgstr ""
+"Eine \"NetBIOS Scope ID\" bietet einen erweiterten Namensdienst für NetBIOS "
+"über TCP/IP an. Diese ID isoliert NetBIOS Datenverkehr innerhalb eines "
+"Netzwerkes so, dass nur die Clients mit der selben ID diesen nutzen können."
 
 # File: src/www/vpn_openvpn_csc.php, line: 547
 # File: src/www/vpn_openvpn_server.php, line: 1595
@@ -1469,6 +1483,10 @@ msgid ""
 "routing table, however note that this option still allows the server to set "
 "the TCP/IP properties of the client's TUN/TAP interface"
 msgstr ""
+"Durch diese Option wird der Server davon abgehalten, Routen zur "
+"Routingtabelle des Clients hinzuzufügen. Seien Sie sich aber bewusst, dass "
+"diese Option dem Server immer noch erlaubt, TCP/IP-Einstellungen der TUN/TAP-"
+"Schnittstelle zu setzen"
 
 msgid "Don't add/remove routes"
 msgstr "Routen nicht hinzufügen oder entfernen"
@@ -1494,6 +1512,8 @@ msgid ""
 "Set the TOS IP header value of tunnel packets to match the encapsulated "
 "packet value"
 msgstr ""
+"Setzt den TOS-IP-Headerwert von Tunnelpaketen um den gekapselten Paketen zu "
+"entsprechen"
 
 msgid "Type-of-Service"
 msgstr "Typ des Dienstes"
@@ -1514,8 +1534,8 @@ msgid ""
 "entered as bytes per second)"
 msgstr ""
 "Maximale ausgehende Bandbreite für diesen Tunnel. Lassen Sie es leer wenn "
-"Sie kein Limit wünschen. Der eingegebene Wert muss zwischen 100 Bytes/Sekunde "
-"und 100 MBytes/Sekunde liegen (eingegeben als Bytes pro Sekunde)"
+"Sie kein Limit wünschen. Der eingegebene Wert muss zwischen 100 Bytes/"
+"Sekunde und 100 MBytes/Sekunde liegen (eingegeben als Bytes pro Sekunde)"
 
 msgid "Limit outgoing bandwidth"
 msgstr "Bandbreitenbeschränkung ausgehend"
@@ -1632,7 +1652,7 @@ msgstr ""
 "Server kommuniziert wird, der nicht permanent mit dem Internet verbunden ist"
 
 msgid "Infinitely resolve server"
-msgstr ""
+msgstr "Unbegrenzt den Server auflösen"
 
 msgid "Server host name resolution"
 msgstr "Serverhostnamensauflösung"
@@ -1795,6 +1815,12 @@ msgid ""
 "behavior is disabled by default. Check this box to force IPsec to fully "
 "reload on failover."
 msgstr ""
+"Unter manchen Umständen kann die Verwendung einer Gateway-Gruppe als "
+"Schnittstelle für einen IPsec-Tunnel nicht ordentlich funktionieren und "
+"IPsec muss erzwungenermaßen neu geladen werden, wenn ein Failover statt "
+"findet. Weil dadurch alle Tunnel unterbrochen werden, ist dieses Verhalten "
+"standardmäßig deaktiviert. Haken Sie diese Option an, wenn Sie möchten, dass "
+"IPsec beim Failover vollständig neu geladen wird."
 
 msgid "Force IPsec Reload on Failover"
 msgstr "Erzwinge erneutes Laden von IPsec bei Failover"
@@ -1821,6 +1847,9 @@ msgid ""
 "least 30 seconds old. Select this option to always prefer old SAs over new "
 "ones."
 msgstr ""
+"Sofern verschiedene SAs passen, wird standardmäßig die neueste bevorzugt, "
+"falls diese mindestens 30 Sekunden alt ist. Wählen Sie diese Option, um "
+"immer alte SAs gegenüber neueren zu bevorzugen."
 
 msgid "Prefer older IPsec SAs"
 msgstr "Bevorzuge alte IPsec SAs"
@@ -2360,6 +2389,8 @@ msgid ""
 "Provide the Phase2 PFS group to clients ( overrides all mobile phase2 "
 "settings )"
 msgstr ""
+"Den Clients die Phase 2 PFS-Gruppe zur Verfügung stellen ( überschreibt alle "
+"mobilen Phase 2-Einstellungen )"
 
 msgid "Phase2 PFS Group"
 msgstr "Phase2-PFS-Gruppe"
@@ -2698,7 +2729,7 @@ msgid "Could not find settings for %s%s"
 msgstr "Konnte Einstellungen für %s%s nicht finden"
 
 msgid "Please select which containers to Authenticate against:"
-msgstr ""
+msgstr "Bitte wählen Sie aus, gegen welche Container authentifiziert wird:"
 
 msgid "Save and Test"
 msgstr "Speichern und Testen"
@@ -7601,7 +7632,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 391
 msgid "Minimum Interval"
-msgstr "Minimales Interval"
+msgstr "Minimales Intervall"
 
 # File: /usr/core/src/www/services_router_advertisements.php, line: 386
 msgid ""
@@ -7782,6 +7813,10 @@ msgid ""
 "under 'Manage your networks'. Used to update the node's IP address whenever "
 "the WAN interface changes its IP address."
 msgstr ""
+"Geben Sie den Nertzwerknamen an, der auf dem %sNetzwerk-Dashboard von "
+"OpenDNS%s unter \"Verwalten Ihrer Netzwerke\" konfiguriert wurde. Wird "
+"verwendet um die IP-Adresse des Knotens zu aktualisieren, wenn sich die IP-"
+"Adresse der WAN-Schnittstelle ändert."
 
 # File: src/www/services_opendns.php, line: 153
 msgid ""
@@ -7795,6 +7830,10 @@ msgid ""
 "General Setup page as well as ignore any DNS servers learned by DHCP/PPP on "
 "WAN and use the DNS servers from %s instead."
 msgstr ""
+"Durch das Aktivieren des OpenDNS-Dienstes werden die DNS-Server, die auf der "
+"Seite \"Allgemeine Einstellungen\" konfiguriert wurden, überschrieben und "
+"jegliche DNS-Server, die über DHCP oder PPP auf der WAN-Schnittstelle "
+"gelernt  werden, ignoriert und stattdessen die DNS-Server von %s verwendet."
 
 # File: src/www/services_opendns.php, line: 133
 msgid "Filter DNS requests using OpenDNS"
@@ -9784,6 +9823,9 @@ msgid ""
 "Redirections are translated to pf(4) rdr-to rules for stateful forwarding to "
 "a target host from a health-checked table on layer 3."
 msgstr ""
+"Weiterleitungen werden auf pf(4) rdr-to-Regeln übersetzt, die für "
+"statusbeibehaltende Weiterleitung an einen Zielhost aus einer "
+"Gesundheitsüberprüften Tabelle auf Layer 3 ermöglichen."
 
 msgid "This option is NOT compatible with the DNS relay protocol."
 msgstr "Die Option ist NICHT mit dem DNS-Relay-Protokoll kompatibel."
@@ -9827,6 +9869,9 @@ msgid ""
 "on. All connections to this IP and port will be forwarded to the pool "
 "cluster."
 msgstr ""
+"Es ist üblicherweise die WAN-IP-Adresse auf der Sie wollen, dass der Server "
+"hört. Alle Verbindungen zu dieser IP und diesem Port werden an den "
+"Clusterpool weitergeleitet."
 
 # File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 194
 msgid "Add/edit - Virtual Server entry"
@@ -9834,6 +9879,8 @@ msgstr "Hinzufügen / Bearbeiten - Virtueller Servereintrag"
 
 msgid "You cannot select a Fall Back Pool when using the DNS relay protocol."
 msgstr ""
+"Sie können keinen Ersatzpool auswählen, wenn Sie das DNS-Relay-Protokoll "
+"verwenden."
 
 msgid "%s is a subnet containing more than 64 IP addresses."
 msgstr "%s ist ein Subnetz, welches mehr als 64 IP-Adressen enthält."
@@ -9856,12 +9903,14 @@ msgid ""
 "This virtual server name has already been used. Virtual server names must be "
 "unique."
 msgstr ""
+"Der virtuelle Servername wird bereits verwendet. Virtuelle Servernamen "
+"müssen einmalig sein."
 
 msgid "Relay Protocol"
 msgstr "Relay-Protokoll"
 
 msgid "Fall Back Pool"
-msgstr ""
+msgstr "Ersatzpool"
 
 msgid "Pool"
 msgstr "Pool"
@@ -9894,6 +9943,8 @@ msgid ""
 "Number of processes used by relayd for dns protocol. Leave blank to use the "
 "default value of 5 processes"
 msgstr ""
+"Anzahl an Prozessen, die von relayd für das DNS-Protokoll verwendet werden. "
+"Lassen Sie es leer für den Standardwert von 5 Prozessen"
 
 # File: /usr/core/src/www/load_balancer_setting.php, line: 145
 msgid "Prefork"
@@ -9957,6 +10008,8 @@ msgstr ""
 msgid ""
 "You may also specify a port alias listed in Firewall -&gt; Aliases here."
 msgstr ""
+"Sie können hier auch einen Portalias angeben, der in Firewall -&gt; Aliase "
+"gelistet ist."
 
 msgid "This is the port your servers are listening on."
 msgstr "Das ist der Port, auf dem Ihre Server hören."
@@ -10200,9 +10253,11 @@ msgid ""
 "This is the first level VLAN tag. On top of this are stacked the member "
 "VLANs defined below."
 msgstr ""
+"Dies ist die erststufige VLAN-Markierung. Auf diesem werden die unten "
+"definierten Mitglieder-VLANs gestapelt."
 
 msgid "First level tag"
-msgstr ""
+msgstr "Erststufige Markierung"
 
 msgid "Only QinQ capable interfaces will be shown."
 msgstr "Nur QinQ fähige Schnittstellen werden angezeigt."
@@ -10214,9 +10269,12 @@ msgid ""
 "A normal VLAN exists with this tag please remove it to use this tag for QinQ "
 "first level."
 msgstr ""
+"Ein normales VLAN mit dieser Markierung existiert bereits. Entfernen Sie es "
+"um diese Markierung um sie für die erste Stufe eines QinQ zu verwenden."
 
 msgid "QinQ level already exists for this interface, edit it!"
 msgstr ""
+"QinQ-Stufe existiert bereits für diese Schnittstelle. Bearbeiten Sie sie!"
 
 msgid ""
 "You are editing an existing entry and modifying the interface is not allowed."
@@ -10228,9 +10286,11 @@ msgid ""
 "You are editing an existing entry and modifying the first level tag is not "
 "allowed."
 msgstr ""
+"Sie bearbeiten einen existierenden Eintrag und die Veränderung der "
+"erststufigen Markierung ist nicht erlaubt."
 
 msgid "First level tag cannot be empty."
-msgstr ""
+msgstr "Erststufige Markierung kann nicht leer sein."
 
 # File: /usr/core/src/www/interfaces_qinq.php, line: 166
 msgid ""
@@ -10262,6 +10322,8 @@ msgid ""
 "MRRU: Set ONLY for MLPPP connections. MRRU will be auto-negotiated by "
 "default."
 msgstr ""
+"MRRU: NUR für MLPPP-Verbindungen setzen. MRRU wird standardmäßig automatisch "
+"bestimmt."
 
 # File: /usr/core/src/www/interfaces_ppps_edit.php, line: 790
 msgid "MRU: MRU will be auto-negotiated by default."
@@ -11845,6 +11907,8 @@ msgstr "Schnittstellen Statement"
 msgid ""
 "Send an IPv6 prefix hint to indicate the desired prefix size for delegation"
 msgstr ""
+"Sende einen IPv6-Präfix-Hinweis um um die gewünschte Präfixlänge zur "
+"delegierung anzugeben"
 
 msgid "Send IPv6 prefix hint"
 msgstr "Sende einen IPv6-Präfixhinweis"
@@ -12050,6 +12114,8 @@ msgid ""
 "The values in this field are DHCP options required by the client when "
 "requesting a DHCP lease. [option [, ...]]"
 msgstr ""
+"Die Werte in diesem Feld sind die DHCP-Optionen, die für den Client bei der "
+"Anfrage eines DHCP-Leases erforderlich sind. [Option [, ...]]"
 
 # File: src/www/interfaces.php, line: 2054
 msgid "Require Options"
@@ -12146,6 +12212,8 @@ msgid ""
 "If there is a certain upstream DHCP server that should be ignored, place the "
 "IP address or subnet of the DHCP server to be ignored here."
 msgstr ""
+"Falls es einen DHCP-Server gibt, der ignoriert werden soll, geben Sie die IP-"
+"Adresse oder das Subnetz des DHCP-Servers hier ein."
 
 msgid "Reject Leases From"
 msgstr "Verweigere Leases von"
@@ -12706,6 +12774,8 @@ msgid ""
 "Disable expansion of this entry into IPs on NAT lists (e.g. 192.168.1.0/24 "
 "expands to 256 entries."
 msgstr ""
+"Deaktiviere die Erweiterung dieses Eintrags in die einzelnen IPs bei NAT-"
+"Listen (z. B. 192.168.1.0/24 wird auf 256 Einträge erweitert."
 
 # File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 402
 msgid "Expansion"
@@ -12723,6 +12793,9 @@ msgid ""
 "on the firewall, such as IPsec, OpenVPN, etc. Use a CARP or IP Alias type "
 "address for these cases."
 msgstr ""
+"Proxy-ARP und andere virtuelle IP-Typen können nicht durch Programme, die "
+"auf der Firewall laufen, wie IPsec, OpenVPN etc. gebunden werden. Verwenden "
+"Sie in diesen Fällen CARP oder einen IP-Alias."
 
 msgid "Other"
 msgstr "Andere(r|s)"
@@ -12841,6 +12914,8 @@ msgid ""
 "This entry cannot be deleted because it is still referenced by a CARP IP "
 "with the description"
 msgstr ""
+"Diese Eintrag kann nicht gelöscht werden, da er noch durch eine CARP-IP "
+"verwendet wird, mit folgener Beschreibung"
 
 msgid ""
 "This entry cannot be deleted because it is still referenced by at least one "
@@ -13244,6 +13319,8 @@ msgid ""
 "Use this to choose TCP flags that must be set or cleared for this rule to "
 "match."
 msgstr ""
+"Verwenden Sie dies, um die TCP-Flags auszuwählen, die gesetzt oder nicht "
+"gesetzt sein müssen, damit diese Regel zutrifft."
 
 msgid "Any flags."
 msgstr "Jegliche Flags."
@@ -13309,13 +13386,16 @@ msgstr ""
 
 # File: src/www/firewall_rules_edit.php, line: 1254
 msgid "Match local tag"
-msgstr ""
+msgstr "Prüfe auf die lokale Markierung"
 
 # File: /usr/core/src/www/firewall_rules_edit.php, line: 1224
 msgid ""
 "You can mark a packet matching this rule and use this mark to match on other "
 "NAT/filter rules. It is called %sPolicy filtering%s."
 msgstr ""
+"Sie können Pakete, die dieser Regel entsprechen, markieren und diese "
+"Markierung in anderen NAT- oder Filterregeln verwenden. Dies wird %"
+"srichtlinienbasierte Filterung%s genannt."
 
 # File: src/www/firewall_rules_edit.php, line: 1245
 msgid "Set local tag"
@@ -14550,6 +14630,8 @@ msgid ""
 "Enter the external (usually on a WAN) subnet's starting address for the 1:1 "
 "mapping."
 msgstr ""
+"Geben Sie die externen (üblicherweise WAN-) Subnetz-Startadressen für die "
+"1:1-Zuweisung ein."
 
 msgid "External subnet IP"
 msgstr "Externe Subnetz-IP"
@@ -17242,11 +17324,11 @@ msgstr "Ablaufen"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 93
 msgid "Netif (name)"
-msgstr ""
+msgstr "Netzwerkschnittstelle (Name)"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 92
 msgid "Netif"
-msgstr ""
+msgstr "Netzwerkschnittstelle"
 
 msgid "MTU"
 msgstr "MTU"
@@ -19219,7 +19301,7 @@ msgstr ""
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 325
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 360
 msgid "AccPort"
-msgstr ""
+msgstr "AccPort"
 
 msgid "RADIUS server Primary"
 msgstr "Primärer RADIUS-Server"
@@ -19243,6 +19325,8 @@ msgstr "Von RADIUS vergebene IPs"
 msgid ""
 "When set, all requests will go to the secondary server when primary fails"
 msgstr ""
+"Wenn gesetzt, werden alle Anfragen an den sekundären Server gesendet, wenn "
+"der primäre ausfällt"
 
 msgid "Secondary RADIUS server for failover authentication"
 msgstr ""
@@ -19336,11 +19420,11 @@ msgstr "erledigt."
 
 # File: /usr/plugins/net/pptp/src/etc/inc/plugins.inc.d/if_pptp.inc, line: 234
 msgid "Error: cannot open mpd.secret in if_pptp_configure()."
-msgstr ""
+msgstr "Fehler: Kann mpd.secret in if_pptp_configure() nicht öffnen."
 
 # File: /usr/plugins/net/pptp/src/etc/inc/plugins.inc.d/if_pptp.inc, line: 120
 msgid "Error: cannot open mpd.conf in if_pptp_configure()."
-msgstr ""
+msgstr "Fehler: Kann mpd.conf in if_pptp_configure() nicht öffnen."
 
 # File: /usr/plugins/net/pptp/src/etc/inc/plugins.inc.d/if_pptp.inc, line: 110
 msgid "Configuring PPTP VPN service..."
@@ -19617,7 +19701,7 @@ msgstr "Fehler Anfragen"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 250
 msgid "Conn"
-msgstr ""
+msgstr "Verbindung"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 252
 msgid "Warnings Retr"
@@ -20044,7 +20128,7 @@ msgstr "Den Zugriff zur Seite 'Firewall: Zeitpläne: Bearbeiten' erlauben."
 
 # File: /usr/lang/src/acl.php, line: 88
 msgid "Allow access to the 'Firewall: Traffic Shaper' page."
-msgstr ""
+msgstr "Den Zugriff zur Seite \"Firewall: Traffic Shaper\" erlauben."
 
 # File: lang/dynamic/helpers/acl.php, line: 130
 msgid "Allow access to the 'Firewall: Virtual IP Address: Edit' page."
@@ -20803,6 +20887,8 @@ msgstr ""
 msgid ""
 "Choose one of the 24 standard syslog facilities. The default value is local0."
 msgstr ""
+"Wählen Sie eine der 24 standardmäßigen Syslog-Facilities. Der Standardwert "
+"ist local0."
 
 # File: lang/dynamic/helpers/controllers.php, line: 39
 msgid ""
@@ -21315,6 +21401,9 @@ msgid ""
 "Indicates where to send the logs. Takes an IPv4 or IPv6 address optionally "
 "followed by a colon (':') and a UDP port, i.e. 127.0.0.1 or 10.0.0.1:514"
 msgstr ""
+"Gibt an, wohin die Protokolle gesendet werden. Angabe in Form einer IPv4- "
+"oder IPv6-Adresse, welcher optional ein Doppelpunkt (\":\") und ein UDP-Port "
+"folgt. Z. B. 127.0.0.1 oder 10.0.0.1:514"
 
 # File: lang/dynamic/helpers/controllers.php, line: 96
 msgid "Internal number used for this zone"
@@ -21471,6 +21560,8 @@ msgstr ""
 msgid ""
 "Select interfaces used for WAN traffic to avoid counting NAT traffic twice."
 msgstr ""
+"Wählen Sie die Schnittstellen aus, die für WAN-Datenverkehr verwendet werden "
+"um zu verhindern, dass NAT-Datenverkehr doppelt gezählt wird."
 
 # File: /usr/lang/src/controllers.php, line: 165
 msgid ""
@@ -21490,6 +21581,7 @@ msgstr "Wählen Sie das Komando aus, das auf das gegebene Frame angewandt wird."
 # File: /usr/lang/src/controllers.php, line: 171
 msgid "Select the multi-pattern matcher algorithm to use."
 msgstr ""
+"Geben Sie den Mehrmustervergleichsalgorithmus an, der verwendet werden soll."
 
 # File: /usr/lang/src/controllers.php, line: 168
 msgid "Select type of health check."
@@ -21539,27 +21631,35 @@ msgid ""
 "Set the maximum time (in milliseconds) to wait for a connection attempt to a "
 "server to succeed."
 msgstr ""
+"Geben Sie die maximale Zeitdauer (in Millisekunden) an, in der versucht "
+"wird, erfolgreich eine Verbindung aufzubauen."
 
 # File: /usr/lang/src/controllers.php, line: 177
 msgid ""
 "Set the number of retries to perform on a server after a connection failure ("
 "default is 3)."
 msgstr ""
+"Setzen Sie den Anzahl an erneuten Versuchen, eine Verbindung nach einem "
+"Fehler wieder aufzubauen (Standard ist 3)."
 
 # File: /usr/lang/src/controllers.php, line: 178
 msgid ""
 "Set the number of retries to perform on a server after a connection failure."
 msgstr ""
+"Setzen Sie den Anzahl an erneuten Versuchen, eine Verbindung nach einem "
+"Fehler wieder aufzubauen."
 
 # File: /usr/lang/src/controllers.php, line: 179
 msgid "Set the running mode or protocol for this frontend."
-msgstr ""
+msgstr "Setzt den Betriebsmodus oder das Protokoll für dieses Frontend."
 
 # File: /usr/lang/src/controllers.php, line: 180
 msgid ""
 "Set the running mode or protocol of the backend. Usually the frontend and "
 "the backend are in the same mode."
 msgstr ""
+"Setzt den Betriebsmodus oder das Protokoll für dieses Frontend. "
+"Üblicherweise laufen das Frontend und das Backend im gleichen Modus."
 
 # File: /usr/lang/src/controllers.php, line: 181
 msgid ""
@@ -21638,6 +21738,8 @@ msgstr "Geben Sie den Planungsalgorithmus an, der verwendet werden soll"
 # File: /usr/lang/src/controllers.php, line: 192
 msgid "Specify the username to be used for database health checks."
 msgstr ""
+"Geben Sie den Benutzernamen an, der verwendet wird, um die Datenbank zu "
+"überprüfen."
 
 # File: lang/dynamic/helpers/controllers.php, line: 42
 msgid ""
@@ -21658,6 +21760,8 @@ msgid ""
 "The hard size limit of all queues managed by this instance, leave empty for "
 "defaults"
 msgstr ""
+"Die harte Größenbeschränkung aller Warteschlangen, die durch diese Instanz "
+"verwaltet werden. Lassen Sie es leer für die Standardwerte"
 
 # File: /usr/lang/src/controllers.php, line: 196
 msgid ""
