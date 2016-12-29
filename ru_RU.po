@@ -24672,11 +24672,8 @@ msgid "Deep Packet Inspection reconfigure: "
 msgstr ""
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/SettingsController.php, line: 19
-msgid ""
-"To enable this feature HTTPS protocol required on Web-GUI. Set it in <a "
-"href='/system_advanced_admin.php'>System - Settings - Administration page</"
-msgstr ""
-"Чтобы включить эту функцию протокола HTTPS, требуемую на Web-GUI. Установите ее на странице «<a href='/system_advanced_admin.php'>Система. Настройки. Администрирование»</"
+msgid "To enable this feature HTTPS protocol required on Web-GUI. Set it in <a href='/system_advanced_admin.php'>System - Settings - Administration page</a>."
+msgstr "Чтобы включить эту функцию, необходимо включить протокол HTTPS для Web-GUI. Установите это на странице <a href='/system_advanced_admin.php'>Система - Настройки - Администрирование</a>"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/IndexController.php, line: 11
 msgid "CMS node access"
@@ -24688,7 +24685,7 @@ msgstr ""
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/views/SmartSoft/CMSNode/index.volt, line: 28
 msgid "HTTPS protocol on Web-GUI required. Set it in "
-msgstr ""
+msgstr "Необходимо включить HTTPS-протокол для Web-GUI. Включите его в "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 421
 #, php-format
@@ -25348,7 +25345,7 @@ msgstr "Использовать центр сертификации"
 
 # File: /usr/lang/src/controllers.php, line: 134
 msgid "CMS master address restriction"
-msgstr "CMS Master ограничение адресов"
+msgstr "Ограничение адреса Центра Управления"
 
 # File: /usr/lang/src/controllers.php, line: 128
 msgid "Cache size in Megabytes"
@@ -25645,7 +25642,7 @@ msgstr "Включить CAIR"
 
 # File: /usr/lang/src/controllers.php, line: 175
 msgid "Enable CMS access"
-msgstr "Включить доступ к CMS"
+msgstr "Включить доступ для Центра Управления"
 
 # File: /usr/lang/src/controllers.php, line: 201
 msgid "Enable CoDel"
@@ -25708,10 +25705,8 @@ msgid "Enable access logging."
 msgstr "Включить ведение журнала запросов клиентов."
 
 # File: /usr/lang/src/controllers.php, line: 191
-msgid ""
-"Enable access to this node from CMS master. HTTPS protocol on Web-GUI "
-msgstr ""
-"Включить доступ к этому узлу из CMS Master. HTTPS-протокол на Web-GUI "
+msgid "Enable access to this node from CMS master. HTTPS protocol on Web-GUI required."
+msgstr "Включить доступ к этому узлу из Центра Управления. Требуется HTTPS-протокол на Web-GUI."
 
 # File: /usr/lang/src/controllers.php, line: 217
 msgid "Enable images scan"
@@ -26183,7 +26178,7 @@ msgid ""
 "If CMS master IP address specified, CMS access will be restricted by "
 "specified address only."
 msgstr ""
-"Если указан IP-адрес CMS Master, доступ в CMS будет доступен только с указанного адреса."
+"Если указан IP-адрес Центра Управления, доступ будет ограничен только соединениями с указанного адреса."
 
 # File: lang/dynamic/helpers/controllers.php, line: 42
 msgid ""
@@ -26941,7 +26936,7 @@ msgstr "Порт источника"
 
 # File: /usr/lang/src/controllers.php, line: 415
 msgid "Specify an interface for CMS master communication."
-msgstr "Укажите интерфейс для обмена данными с CMS Master."
+msgstr "Укажите интерфейс для обмена данными с Центром Управления."
 
 # File: /usr/lang/src/controllers.php, line: 191
 msgid "Specify the scheduling algorithm to use"
