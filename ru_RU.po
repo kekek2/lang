@@ -24259,7 +24259,7 @@ msgstr "Отправить выбранный раздел узлам"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 89
 msgid "Show selected section"
-msgstr "Отправить выбранный раздел"
+msgstr "Показать выбранный раздел"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 15
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 43
@@ -26770,7 +26770,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 386
 msgid "Select nodes to clone config section to."
-msgstr "Выберите узлы для клонирования раздела конфигурации."
+msgstr "Выберите узлы, на которые будет отправлена выбранная конфигурация."
 
 # File: /usr/lang/src/controllers.php, line: 387
 msgid "Select section of configuration."
