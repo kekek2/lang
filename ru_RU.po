@@ -24227,7 +24227,7 @@ msgstr "Создать ключи идентификации туннеля"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 195
 msgid "Set CMS admin account"
-msgstr "Выбрать учетную запись администратора CMS"
+msgstr "Выбрать учетную запись администратора ЦУ"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 181
 msgid "Tunnel keys created"
@@ -24235,7 +24235,7 @@ msgstr "Ключи идентификации туннеля созданы"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 170
 msgid "CMS account"
-msgstr "Учетная запись CMS"
+msgstr "Учетная запись Центра Управления"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 135
 msgid "Not set"
@@ -24360,7 +24360,7 @@ msgstr "История конфигураций узла "
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/IndexController.php, line: 10
 msgid "CMS Master: settings"
-msgstr "CMS Master: настройки"
+msgstr "Центр Управления: настройки"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/ClonerController.php, line: 16
 msgid "CMSMaster: Configuration clone tool"
@@ -25214,7 +25214,7 @@ msgid ""
 "Assign port number for logging tunnel to CMS-master. It must be in range "
 "1024 - 49151."
 msgstr ""
-"Добавить номер порта для регистрации туннеля к CMS Master. Значение должно входить в диапазон 1024–49151."
+"Добавить номер порта для регистрации туннеля к Центру Управления. Значение должно входить в диапазон 1024–49151."
 
 # File: /usr/lang/src/controllers.php, line: 87
 msgid "Authenticate using"
@@ -27651,11 +27651,11 @@ msgstr "Сетевой мост"
 
 # File: /usr/lang/src/models.php, line: 55
 msgid "CMS"
-msgstr "CMS"
+msgstr "Централизованное Управление"
 
 # File: /usr/lang/src/models.php, line: 56
 msgid "CMS Node"
-msgstr "Узел CMS"
+msgstr "Узел централизованной системы"
 
 # File: src/www/diag_logs_proxy.php, line: 12
 msgid "Cache"
