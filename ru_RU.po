@@ -24163,7 +24163,7 @@ msgstr "УДАЧНО"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 132
 msgid "data validation done."
-msgstr ""
+msgstr "контроль данных пройден."
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 22
 msgid "Filter Rules"
@@ -24499,80 +24499,80 @@ msgstr "Настройка системы"
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 118
 #, php-format
 msgid "Section '%s' is unknown."
-msgstr ""
+msgstr "Секция '%s' не известна."
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 149
 msgid "create config node "
-msgstr ""
+msgstr "создан раздел конфигурации "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 168
 msgid "remove old data from "
-msgstr ""
+msgstr "удаление данных из "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 176
 msgid "insert new data into "
-msgstr ""
+msgstr "вставка новых данных в "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 185
 msgid "configuration saved."
-msgstr ""
+msgstr "конфигурация сохранена."
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 216
 #, php-format
 msgid ""
 "User's '%s' uid is in system group, unable to add user with same uid (%s)."
 msgstr ""
-"Пользователь с идентификатором «%s» находится в системной группе, невозможно добавить пользователь с таким же идентификатором (%s)."
+"Пользователь с идентификатором «%s» находится в системной группе, невозможно добавить пользователя с таким же идентификатором (%s)."
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 269
 msgid "Removing user "
-msgstr ""
+msgstr "Удаление пользователя "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 271
 msgid "Error deleting user from local database"
-msgstr ""
+msgstr "Ошибка удаления пользователя из локальной базы"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 275
 msgid "Removing group "
-msgstr ""
+msgstr "Удаление группы "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 277
 msgid "Error deleting group from local database"
-msgstr ""
+msgstr "Ошибка удаления группы из локальной базы"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 296
 msgid "Error updating local users"
-msgstr ""
+msgstr "Ошибка обновления локальных пользователей"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 298
 msgid "Error updating local groups"
-msgstr ""
+msgstr "Ошибка обновления локальных групп"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 313
 msgid "local user database updated"
-msgstr ""
+msgstr "локальная база пользователей обновлена"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 324
 msgid "Error stopping Proxy"
-msgstr ""
+msgstr "Ошибка остановки прокси-сервера"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 329
 msgid "Error starting Proxy"
-msgstr ""
+msgstr "Ошибка запуска прокси-сервера"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 334
 msgid "Web Proxy restarted"
-msgstr ""
+msgstr "Прокси-сервер перезапущен"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 347
 #, php-format
 msgid "Certificate Authority '%s' not found."
-msgstr ""
+msgstr "Центр Авторизации '%s' не найден."
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 358
 #, php-format
 msgid "Server '%s' deleted."
-msgstr ""
+msgstr "Сервер '%s' удалён."
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 366
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 373
@@ -24581,95 +24581,95 @@ msgstr ""
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 452
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 496
 msgid "Firewall reloaded"
-msgstr ""
+msgstr "Сетевой фильтр перезапущен"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 384
 #, php-format
 msgid "Schedule '%s' not found."
-msgstr ""
+msgstr "Расписание '%s' не найдено."
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 391
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 398
 #, php-format
 msgid "Alias '%s' not found."
-msgstr ""
+msgstr "Псевдоним '%s' не найден."
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 445
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 473
 msgid "DHCP daemon restarted"
-msgstr ""
+msgstr "DHCP-сервис перезапущен"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 456
 msgid "Resolver configuration generation failed"
-msgstr ""
+msgstr "Ошибка создания файла resolv.conf"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 458
 msgid "Resolver configuration generated"
-msgstr ""
+msgstr "Файл resolv.conf создан"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 462
 msgid "'hosts' file generation failed"
-msgstr ""
+msgstr "Ошибка создания файла hosts"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 464
 msgid "'hosts' file generated"
-msgstr ""
+msgstr "Файл hosts создан"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 468
 msgid "DNS configure failed"
-msgstr ""
+msgstr "Ошибка настройки DNS"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 470
 msgid "DNS configured"
-msgstr ""
+msgstr "DNS настроен"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 481
 msgid "System tunables configuration failed"
-msgstr ""
+msgstr "Ошибка установки параметров настройки операционной системы"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 483
 msgid "System tunables configured"
-msgstr ""
+msgstr "Параметры настройки операционной системы установлены"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 491
 msgid "relayd configuration failed"
-msgstr ""
+msgstr "Ошибка настройки relayd"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 493
 msgid "relayd configured"
-msgstr ""
+msgstr "relayd настроен"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 503
 msgid "Proxy reconfigure: "
-msgstr ""
+msgstr "Нстройка прокси: "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 510
 msgid "Shaper reconfigure: "
-msgstr ""
+msgstr "Настройка шейпера: "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 517
 msgid "IDS/IPS reconfigure: "
-msgstr ""
+msgstr "Настройка системы обнаружения вторжений: "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 524
 msgid "CaptivePortal reconfigure: "
-msgstr ""
+msgstr "Настройка Портала Авторизации: "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 531
 msgid "Cron reconfigure: "
-msgstr ""
+msgstr "Настройка cron: "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 538
 msgid "HAProxy reconfigure: "
-msgstr ""
+msgstr "Настройка HAProxy: "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 545
 msgid "HTTP Antivirus Proxy reconfigure: "
-msgstr ""
+msgstr "Настройка Антивирусного прокси: "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 552
 msgid "Deep Packet Inspection reconfigure: "
-msgstr ""
+msgstr "Настройка Анализатора Трафика: "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/SettingsController.php, line: 19
 msgid "To enable this feature HTTPS protocol required on Web-GUI. Set it in <a href='/system_advanced_admin.php'>System - Settings - Administration page</a>."
@@ -24681,7 +24681,7 @@ msgstr ""
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/views/SmartSoft/CMSNode/index.volt, line: 16
 msgid "Saved"
-msgstr ""
+msgstr "Сохранено"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/views/SmartSoft/CMSNode/index.volt, line: 28
 msgid "HTTPS protocol on Web-GUI required. Set it in "
@@ -24690,7 +24690,7 @@ msgstr "Необходимо включить HTTPS-протокол для Web-
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 421
 #, php-format
 msgid "Alias '%s' not found"
-msgstr ""
+msgstr "Псевдоним '%s' не найден"
 
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/etc/inc/plugins.inc.d/ndpi.inc, line: 11
 msgid "Deep Packet Inspection Service"
