@@ -43,6 +43,7 @@ LANGUAGES+=	nl_NL
 LANGUAGES+=	ja_JP
 LANGUAGES+=	mn_MN
 LANGUAGES+=	pt_BR
+LANGUAGES+=	pt_PT
 LANGUAGES+=	ru_RU
 LANGUAGES+=	sv_SE
 LANGUAGES+=	tr_TR
@@ -86,16 +87,18 @@ MERGE+=		merge-${LANG}
 TEST+=		test-${LANG}
 .endfor
 
-_PLUGINSDIRS!=	${MAKE} -C ${PLUGINSDIR} list
+_PLUGINSDIRS!=	${MAKE} -C ${PLUGINSDIR} list | awk '{ print $$1 }'
 PLUGINSDIRS=	${_PLUGINSDIRS:S/^/${PLUGINSDIR}\//g}
 
 ${TEMPLATE}:
 	@cp ${.CURDIR}/Volt.pm ${PERL_DIR}/${PERL_NAME}/
 	@: > ${TEMPLATE}.pot
 .for ROOTDIR in ${PLUGINSDIRS} ${COREDIR} ${LANGDIR}
-	${XGETTEXT_PL} -D ${ROOTDIR}/src -p ${.CURDIR} -o ${TEMPLATE}.pot
-	find ${ROOTDIR}/src -print0 | \
-	    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot
+	if [ -d ${ROOTDIR}/src ]; then \
+		${XGETTEXT_PL} -D ${ROOTDIR}/src -p ${.CURDIR} -o ${TEMPLATE}.pot; \
+		find ${ROOTDIR}/src -print0 | \
+		    xargs -0 ${XGETTEXT} -j -o ${.CURDIR}/${TEMPLATE}.pot; \
+	fi
 .endfor
 
 template: ${TEMPLATE}
