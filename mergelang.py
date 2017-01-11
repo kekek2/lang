@@ -18,9 +18,6 @@ def get_record(handle):
 
             return {'eof': False, 'result': rec1}
 
-        if length == 1:
-            continue
-
         keyword = split[0]
         if keyword == 'msgid':
             rec1['msgid'].append(line.partition('msgid')[2].strip())
