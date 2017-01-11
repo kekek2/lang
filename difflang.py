@@ -30,36 +30,13 @@ def get_record(handle):
             rec1[item].append(line.strip())
 
 
-ting_array = []
-# inp = os.popen('git show origin/lang:ru_RU.po')
-inp = open('ru_RU.po')
-
-while True:
-    record = get_record(inp)
-    ting_array.append(record['result'])
-    if record['eof']:
-        break
-inp.close()
-
-# inp = os.popen('git show github/master:ru_RU.po')
-inp = open('ru_RU.po.old')
-while True:
-    record = get_record(inp)
-
-    for rec in ting_array:
-        if rec['msgid'] == record['result']['msgid']:
-            ting_array.remove(rec)
-            break
-
-    if record['eof']:
-        break
-inp.close()
-
-for record in ting_array:
+def print_record(record):
+    if record['msgstr'] != ['""']:
+        return
     for comment in record['comments']:
         print comment
     if len(record['msgid']) == 0:
-        continue
+        return
     print "msgid", record['msgid'][0]
     for msgid in record['msgid'][1:]:
         print msgid
@@ -67,3 +44,13 @@ for record in ting_array:
     for msgstr in record['msgstr'][1:]:
         print msgstr
     print
+
+# inp = os.popen('git show origin/lang:ru_RU.po')
+inp = open('ru_RU.po')
+
+while True:
+    record = get_record(inp)
+    print_record(record['result'])
+    if record['eof']:
+        break
+inp.close()
