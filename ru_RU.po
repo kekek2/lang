@@ -27520,12 +27520,12 @@ msgstr "Включить прозрачный режим"
 #
 # File: /usr/lang/src/controllers.php, line: 260
 msgid "Enable User to IP restriction"
-msgstr ""
+msgstr "Включить привязку пользователей к IP"
 
 #
 # File: /usr/lang/src/controllers.php, line: 261
 msgid "Enable User to MAC restriction"
-msgstr ""
+msgstr "Включить привязку пользователей к MAC"
 
 # File: /usr/lang/src/controllers.php, line: 214
 msgid "Enable access logging"
@@ -30344,6 +30344,8 @@ msgid ""
 "User can only login from specified IP address. Enter 'any' for login from "
 "any address."
 msgstr ""
+"Пользователь может зайти только с указанного IP-адреса. Укажите 'any' для разрешения входа"
+"с любого адреса."
 
 #
 # File: /usr/lang/src/controllers.php, line: 729
@@ -30351,16 +30353,18 @@ msgid ""
 "User can only login from specified MAC address. Enter 'any' to login from "
 "any address."
 msgstr ""
+"Пользователь может зайти только с указанного MAC-адреса. Укажите 'any' для разрешения входа"
+"с любого адреса."
 
 #
 # File: /usr/lang/src/controllers.php, line: 730
 msgid "User login"
-msgstr ""
+msgstr "Логин пользователя"
 
 #
 # File: /usr/lang/src/controllers.php, line: 731
 msgid "User name"
-msgstr ""
+msgstr "Имя пользователя"
 
 # File: /usr/lang/src/controllers.php, line: 542
 msgid "Username Header"
@@ -32100,7 +32104,7 @@ msgstr "Обновления"
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 46
 # File: /usr/lang/src/models.php, line: 315
 msgid "User to IP/MAC restriction"
-msgstr ""
+msgstr "Привязка пользователей к IP/MAC"
 
 # File: lang/dynamic/helpers/models.php, line: 86
 # File: lang/dynamic/helpers/models.php, line: 273
@@ -32272,6 +32276,3 @@ msgstr "количество sslrtd children должно быть целым ч
 msgid "workAround"
 msgstr "Обходной прием"
 
-# File: src/www/system_gateways_edit.php, line: 569
-
-# File: /usr/lang/src/controllers.php, line: 364
