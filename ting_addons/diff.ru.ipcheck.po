@@ -1,0 +1,54 @@
+
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 577
+msgid "IPCheck reconfigure: "
+msgstr "Конфигурирование IPCheck: "
+
+# File: /usr/plugins/devel/ting-plugin-proxy-ipcheck/src/opnsense/mvc/app/controllers/SmartSoft/ProxyIPCheck/Api/ServiceController.php, line: 17
+msgid "Error module reconfigure."
+msgstr "Ошибка конфигурирования модуля."
+
+# File: /usr/plugins/devel/ting-plugin-proxy-ipcheck/src/opnsense/mvc/app/controllers/SmartSoft/ProxyIPCheck/Api/ServiceController.php, line: 19
+msgid "Configuration saved."
+msgstr "Конфигурация сохранена."
+
+# File: /usr/plugins/devel/ting-plugin-proxy-ipcheck/src/opnsense/mvc/app/controllers/SmartSoft/ProxyIPCheck/IndexController.php, line: 9
+msgid "User-IP restriction"
+msgstr "Привязка пользователя к IP/MAC"
+
+# File: /usr/lang/src/controllers.php, line: 255
+msgid "Enable User to IP restriction"
+msgstr "Включить привязку пользователей к IP"
+
+# File: /usr/lang/src/controllers.php, line: 256
+msgid "Enable User to MAC restriction"
+msgstr "Включить привязку пользователей к MAC"
+
+# File: /usr/lang/src/controllers.php, line: 708
+msgid ""
+"User can only login from specified IP address. Enter 'any' for login from "
+"any address."
+msgstr ""
+"Пользователь может зайти только с указанного IP-адреса. Укажите 'any' для разрешения входа"
+"с любого адреса."
+
+# File: /usr/lang/src/controllers.php, line: 709
+msgid ""
+"User can only login from specified MAC address. Enter 'any' to login from "
+"any address."
+msgstr ""
+"Пользователь может зайти только с указанного MAC-адреса. Укажите 'any' для разрешения входа"
+"с любого адреса."
+
+# File: /usr/lang/src/controllers.php, line: 710
+msgid "User login"
+msgstr "Логин пользователя"
+
+# File: /usr/lang/src/controllers.php, line: 711
+msgid "User name"
+msgstr "Имя пользователя"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 46
+# File: /usr/lang/src/models.php, line: 311
+msgid "User to IP/MAC restriction"
+msgstr "Привязка пользователей к IP/MAC"
+
