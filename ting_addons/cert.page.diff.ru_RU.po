@@ -1,0 +1,79 @@
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 153
+msgid "Private key file"
+msgstr "Файл приватного ключа"
+
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 149
+msgid "Certificate file"
+msgstr "Файл сертификата"
+
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 132
+msgid "Upload new certificate and key files"
+msgstr "Загрузить новые файлы сертификата и приватного ключа"
+
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 117
+msgid "Install"
+msgstr "Установить"
+
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 95
+msgid "Uploaded certificate (not installed)"
+msgstr "Загруженный сертификат (не установлен)"
+
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 62
+msgid "Installed certificate"
+msgstr "Установленный сертификат"
+
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 30
+msgid "The uploaded key does not correspond to the uploaded certificate."
+msgstr "Загруженный ключ не соотносится с загруженным сертификатом."
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 193
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 176
+# File: /usr/core/src/www/ting_cert.php, line: 198
+msgid "Get new certificate"
+msgstr "Получить новый сертификат"
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 158
+msgid "Expires at"
+msgstr "Истекает"
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 153
+# File: /usr/core/src/www/ting_cert_manual.php, line: 69
+msgid "No certificate installed."
+msgstr "Сертификат не установлен."
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 146
+msgid "Installed certificates"
+msgstr "Установленные сертификаты"
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 117
+msgid "Could not generate CSR."
+msgstr "Невозможно сгенерировать CSR."
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 105
+# File: /usr/core/src/www/ting_cert.php, line: 113
+# File: /usr/core/src/www/ting_cert.php, line: 120
+msgid "Could not get license certificate."
+msgstr "Невозможно получить сертификат лицензии."
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 102
+msgid "Could not parse CRT."
+msgstr "Невозможно прочитать CRT."
+
