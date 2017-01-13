@@ -32951,7 +32951,7 @@ msgstr ""
 #
 # File: /usr/lang/src/wizards.php, line: 203
 msgid "On this screen you will set the general TING parameters."
-msgstr "На этой странице Вы останавливаете основные параметры TING."
+msgstr "На этой странице Вы устанавливаете основные параметры TING."
 
 # File: src/www/system_authservers.php, line: 543
 msgid "One Level"
