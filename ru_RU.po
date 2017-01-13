@@ -3042,6 +3042,85 @@ msgstr "IPSEC"
 msgid "Mobile Client"
 msgstr "Мобильные клиенты"
 
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 153
+msgid "Private key file"
+msgstr "Файл приватного ключа"
+
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 149
+msgid "Certificate file"
+msgstr "Файл сертификата"
+
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 132
+msgid "Upload new certificate and key files"
+msgstr "Загрузить новые файлы сертификата и приватного ключа"
+
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 117
+msgid "Install"
+msgstr "Установить"
+
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 95
+msgid "Uploaded certificate (not installed)"
+msgstr "Загруженный сертификат (не установлен)"
+
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 62
+msgid "Installed certificate"
+msgstr "Установленный сертификат"
+
+#
+# File: /usr/core/src/www/ting_cert_manual.php, line: 30
+msgid "The uploaded key does not correspond to the uploaded certificate."
+msgstr "Загруженный ключ не соотносится с загруженным сертификатом."
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 193
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 176
+# File: /usr/core/src/www/ting_cert.php, line: 198
+msgid "Get new certificate"
+msgstr "Получить новый сертификат"
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 158
+msgid "Expires at"
+msgstr "Истекает"
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 153
+# File: /usr/core/src/www/ting_cert_manual.php, line: 69
+msgid "No certificate installed."
+msgstr "Сертификат не установлен."
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 146
+msgid "Installed certificates"
+msgstr "Установленные сертификаты"
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 117
+msgid "Could not generate CSR."
+msgstr "Невозможно сгенерировать CSR."
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 105
+# File: /usr/core/src/www/ting_cert.php, line: 113
+# File: /usr/core/src/www/ting_cert.php, line: 120
+msgid "Could not get license certificate."
+msgstr "Невозможно получить сертификат лицензии."
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 102
+msgid "Could not parse CRT."
+msgstr "Невозможно прочитать CRT."
+
 # File: src/www/system_usermanager_settings_test.php, line: 70
 # File: src/www/system_usermanager_settings_test.php, line: 73
 msgid "failed"
@@ -20971,6 +21050,12 @@ msgstr ""
 "Все виртуальные IP-адреса отключены. Обратите внимание, что список "
 "отключенных адресов не сохраняется и будет очищен после перезагрузки."
 
+#
+# File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 211
+# File: /usr/core/src/www/guiconfig.inc, line: 611
+msgid "Configuration and executable are authentic"
+msgstr ""
+
 # File: src/www/guiconfig.inc, line: 735
 msgid "unread notices"
 msgstr "непрочитанные уведомления"
@@ -22268,19 +22353,11 @@ msgstr "Шаблоны"
 msgid "Zones"
 msgstr "Зоны"
 
-# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 167
-msgid "Error uploading template"
-msgstr "Ошибка при загрузке шаблона"
-
-# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 130
-msgid "Error reconfiguring captiveportal"
-msgstr "Ошибка при изменении настроек страницы авторизации"
-
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-12 16:41+0300\n"
+"POT-Creation-Date: 2017-01-13 19:27+0300\n"
 "PO-Revision-Date: 2017-01-09 09:17+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22291,6 +22368,14 @@ msgstr ""
 "X-Generator: Poedit 1.8.8\n"
 "X-Pootle-Path: /ru/gui/ru.po\n"
 "X-Pootle-Revision: 0\n"
+
+# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 130
+msgid "Error reconfiguring captiveportal"
+msgstr "Ошибка при изменении настроек страницы авторизации"
+
+# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 135
+msgid "connected since"
+msgstr "подключен с "
 
 # File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 134
 msgid "ipAddress"
@@ -24038,6 +24123,10 @@ msgstr ""
 "Обнаружена потенциальная атак типа «%sDNS rebinding%s». %sTryИспользуйте IP-"
 "адрес вместо имени хоста для доступа к маршрутизатору."
 
+# File: /usr/plugins/net/l2tp/src/www/vpn_l2tp.php, line: 183
+msgid "L2TP settings"
+msgstr "Настройки L2TP"
+
 # File: /usr/plugins/security/tinc/src/opnsense/mvc/app/views/OPNsense/Tinc/index.volt, line: 73
 msgid "Error reconfiguring Tinc"
 msgstr "Ошибка при изменении настроек Tinc"
@@ -24148,10 +24237,6 @@ msgstr "УДАЧНО"
 msgid " installed to "
 msgstr " установлен в "
 
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 182
-msgid "Error get info"
-msgstr "Ошибка при получении информации"
-
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/SSOProxyAD/index.volt, line: 82
 msgid "Update Domain"
 msgstr "Обновить домен"
@@ -24159,6 +24244,10 @@ msgstr "Обновить домен"
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/SSOProxyAD/index.volt, line: 81
 msgid "Join Domain"
 msgstr "Присоединить домен"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 182
+msgid "Error get info"
+msgstr "Ошибка при получении информации"
 
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/library/OPNsense/Auth/SSOProxyAD.php, line: 50
 msgid "SSO Proxy AD"
@@ -24179,6 +24268,168 @@ msgstr ""
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 133
 msgid "Section not found."
 msgstr "Секция не найдена."
+
+#
+# File: /usr/plugins/net/relayd/src/etc/inc/plugins.inc.d/relayd.inc, line: 58
+# File: /usr/plugins/net/relayd/src/etc/inc/plugins.inc.d/relayd.inc, line: 71
+msgid "Relayd Load Balancer"
+msgstr ""
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 619
+msgid "Error File ID"
+msgstr "Идентификатор файла ошибки"
+
+# File: src/www/diag_logs_poes.php, line: 20
+msgid "PPPoE Raw"
+msgstr "PPPoE Raw"
+
+# File: src/www/diag_logs_poes.php, line: 19
+msgid "PPPoE Logins"
+msgstr "Имена пользователей для подключения по протоколу PPPoE"
+
+# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 553
+msgid ""
+"Don't forget to add a firewall rule to permit traffic from PPPoE clients."
+msgstr ""
+"Не забудьте добавить правило межсетевого экрана, чтобы разрешить трафик от "
+
+# File: src/www/vpn_pppoe_edit.php, line: 590
+msgid "User (s)"
+msgstr "Пользователь (-и)"
+
+# File: src/www/vpn_l2tp.php, line: 457
+msgid "Issue IP Addresses via RADIUS server."
+msgstr "Выдача IP-адресов через RADIUS-сервер"
+
+# File: src/www/vpn_pppoe_edit.php, line: 538
+msgid "RADIUS server NAS IP Address"
+msgstr "IP-адрес NAS-сервера для RADIUS-сервера"
+
+# File: src/www/vpn_pppoe_edit.php, line: 535
+msgid "NAS IP Address"
+msgstr "IP-адрес NAS-сервера"
+
+# File: src/www/vpn_pppoe_edit.php, line: 532
+msgid ""
+"When set, if primary server fails all requests will be sent via backup server"
+msgstr ""
+"Если параметр включен, при сбое основного сервера все запросы будут "
+"отправляться через резервный сервер"
+
+# File: src/www/vpn_pppoe_edit.php, line: 531
+msgid "Use Backup RADIUS Server"
+msgstr "Использовать резервный RADIUS-сервер"
+
+# File: src/www/vpn_pppoe_edit.php, line: 527
+# File: src/www/vpn_pptp.php, line: 434
+msgid "Sends accounting packets to the RADIUS server"
+msgstr "Отправляет пакеты учета на RADIUS-сервер"
+
+# File: src/www/vpn_pppoe_edit.php, line: 508
+msgid ""
+"If entered they will be given to all PPPoE clients, else LAN DNS and one WAN "
+"DNS will go to all clients"
+msgstr ""
+"Если адреса указаны, они будут выданы всем PPPoE клиентам, в противном "
+"случае клиентам будут отправлены LAN DNS и один WAN DNS"
+
+# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 350
+msgid "Hint: 24 is 255.255.255.0"
+msgstr ""
+"Подсказка: 24 означает представление маски в десятичной форме (255.255.255.0)"
+
+# File: src/www/vpn_pppoe_edit.php, line: 438
+msgid "Subnet netmask"
+msgstr "Маска подсети"
+
+# File: src/www/vpn_pppoe_edit.php, line: 471
+msgid "Hint: 10 is ten PPPoE clients"
+msgstr "Подсказка: 10 означает десять PPPoE клиентов"
+
+# File: src/www/vpn_pppoe_edit.php, line: 457
+msgid "No. PPPoE users"
+msgstr "Нет. PPPoE пользователи"
+
+# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 308
+msgid ""
+"Enter the IP address the PPPoE server should give to clients for use as "
+"their \"gateway\"."
+msgstr ""
+"Введите IP-адрес, который PPPoE-сервер будет выдавать клиентам для "
+"использования в качестве «шлюза»."
+
+# File: src/www/vpn_pppoe_edit.php, line: 413
+msgid "Enable PPPoE server"
+msgstr "Включить PPPoE-сервер"
+
+# File: src/www/vpn_pppoe_edit.php, line: 396
+msgid "PPPoE server configuration"
+msgstr "Конфигурация PPPoE-сервера"
+
+# File: src/www/vpn_pppoe_edit.php, line: 156
+msgid "Wrong data submitted"
+msgstr "Отправлены неверные данные"
+
+# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 115
+#, php-format
+msgid "Incorrect ip address specified for username %s"
+msgstr "Указан недействительный IP-адрес для имени пользователя %s"
+
+# File: src/www/vpn_pppoe_edit.php, line: 146
+#, php-format
+msgid "No password specified for username %s"
+msgstr "Не указан пароль для имени пользователя %s"
+
+# File: src/www/vpn_pppoe.php, line: 141
+msgid "edit pppoe instance"
+msgstr "редактировать экземпляр PPPoE"
+
+# File: src/www/vpn_pppoe.php, line: 119
+msgid "Number of users"
+msgstr "Количество пользователей"
+
+# File: src/www/vpn_pppoe.php, line: 102
+msgid "The PPPoE entry list has been changed"
+msgstr "Список записей PPPoE изменен"
+
+# File: src/www/vpn_pppoe.php, line: 144
+msgid ""
+"Do you really want to delete this entry? All elements that still use it will "
+"become invalid (e.g. filter rules)!"
+msgstr ""
+"Вы действительно хотите удалить эту запись? Все элементы, которые ее "
+"используют, станут недействительными (например, правила фильтрации)!"
+
+# File: src/www/vpn_pppoe.php, line: 89
+msgid "add a new pppoe instance"
+msgstr "добавить новый экземпляр PPPoE"
+
+# File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 265
+#, php-format
+msgid "Error: cannot open mpd.secret in if_pppoe_configure()."
+msgstr "Ошибка: не удается открыть mpd.secret в if_pppoe_configure()."
+
+# File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 161
+#, php-format
+msgid "Error: cannot open mpd.conf in if_pppoe_configure()."
+msgstr "Ошибка: не удается открыть mpd.conf в if_pppoe_configure()."
+
+# File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 149
+msgid "Configuring PPPoE VPN service..."
+msgstr "Настройка службы PPPoE VPN…"
+
+# File: lang/dynamic/helpers/models.php, line: 245
+msgid "PPPoE Server"
+msgstr "PPPoE-сервер"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 226
+#, php-format
+msgid "Node version lower then %s. Please update node."
+msgstr ""
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 286
+msgid "Used"
+msgstr "Использовано"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 90
 msgid "Send selected section to nodes"
@@ -24207,10 +24458,18 @@ msgstr "Подтверждение"
 msgid "Edit User"
 msgstr "Редактировать пользователя"
 
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 283
+msgid "Table"
+msgstr "Таблица"
+
 # File: src/www/vpn_l2tp_users_edit.php, line: 95
 # File: src/www/vpn_pptp_users_edit.php, line: 97
 msgid "The IP address entered is not valid."
 msgstr "Введённый IP-адрес не допустим."
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 253
+msgid "Redis"
+msgstr "Redis"
 
 # File: src/www/vpn_l2tp_users_edit.php, line: 88
 # File: src/www/vpn_pptp_users_edit.php, line: 90
@@ -24220,6 +24479,18 @@ msgstr "MX-запись содержит недопустимые символы
 # File: src/www/vpn_pptp_users_edit.php, line: 86
 msgid "The password cannot start with '!'."
 msgstr "Пароль не может начинаться с символа «!»."
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 252
+msgid "Warnings Retr"
+msgstr "Warnings Retr"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 250
+msgid "Conn"
+msgstr "Conn"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 249
+msgid "Errors Req"
+msgstr "Errors Req"
 
 # File: src/www/vpn_l2tp_users.php, line: 89
 # File: src/www/vpn_pptp_users.php, line: 87
@@ -24241,6 +24512,15 @@ msgstr ""
 "Предупреждение: RADIUS включен. Локальная пользовательская база данных не "
 "будет использоваться."
 
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 248
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 251
+msgid "Resp"
+msgstr "Resp"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 247
+msgid "Denied Req"
+msgstr "Denied Req"
+
 # File: src/www/diag_logs_pptp.php, line: 20
 msgid "PPTP Raw"
 msgstr "PPTP Raw"
@@ -24248,6 +24528,26 @@ msgstr "PPTP Raw"
 # File: src/www/diag_logs_pptp.php, line: 19
 msgid "PPTP Logins"
 msgstr "Имена пользователей для подключения по протоколу PPTP"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 238
+msgid "Session Rate"
+msgstr "Скорость сессии"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 237
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 240
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 243
+msgid "Limit"
+msgstr "Ограничение"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 236
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 239
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 242
+msgid "Max"
+msgstr "Макс."
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 235
+msgid "Queue"
+msgstr "Очередь"
 
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 406
 msgid ""
@@ -24438,6 +24738,10 @@ msgstr "Количество PPTP-пользователей"
 msgid "Enable PPTP server"
 msgstr "Включить PPTP-сервер"
 
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 233
+msgid "Backend/Frontend"
+msgstr "Бэкенд/фронтенд"
+
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 204
 msgid "PPTP settings"
 msgstr "Настройки PPTP"
@@ -24510,6 +24814,14 @@ msgstr "Ошибка: не удается открыть mpd.conf в if_pptp_con
 # File: /usr/plugins/net/pptp/src/etc/inc/plugins.inc.d/if_pptp.inc, line: 110
 msgid "Configuring PPTP VPN service..."
 msgstr "Настройка службы VPN с помощью PPTP…"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 202
+msgid "Downtime"
+msgstr "Время простоя"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 199
+msgid "Last Change"
+msgstr "Последнее изменение"
 
 # File: src/www/vpn_l2tp_users_edit.php, line: 175
 msgid "If you want to change the users password, enter it here twice."
@@ -24630,9 +24942,9 @@ msgstr "Адрес сервера"
 msgid "Enable L2TP server"
 msgstr "Включить L2TP-сервер"
 
-# File: /usr/plugins/net/l2tp/src/www/vpn_l2tp.php, line: 183
-msgid "L2TP settings"
-msgstr "Настройки L2TP"
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 32
+msgid "System Tunning Settings"
+msgstr "Настройка системы"
 
 # File: /usr/plugins/net/l2tp/src/etc/inc/plugins.inc.d/if_l2tp.inc, line: 224
 #, php-format
@@ -24656,6 +24968,31 @@ msgstr "L2TP-сервер"
 msgid "Detected Protocols"
 msgstr "Распознанные протоколы"
 
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 195
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 232
+msgid "id"
+msgstr "идентификатор"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 586
+msgid "Lua Script Name"
+msgstr "Имя скрипта Lua"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 585
+msgid "Lua ID"
+msgstr "Идентификатор Lua"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 551
+msgid "ACL Name"
+msgstr "Имя списка контроля доступа"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 550
+msgid "ACL id"
+msgstr "Идентификатор списка контроля доступа"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 517
+msgid "Action Name"
+msgstr "Имя действия"
+
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 115
 msgid "Error adding user "
 msgstr ""
@@ -24671,6 +25008,10 @@ msgstr "Обратный порт"
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 95
 msgid "Reverse Address"
 msgstr "Обратный адрес"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 516
+msgid "Action ID"
+msgstr "Идентификатор действия"
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 92
 msgid "Listen Address"
@@ -24688,6 +25029,14 @@ msgstr "FTP-прокси-сервер"
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 45
 msgid "Traffic Analizator"
 msgstr "Анализатор трафика"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 483
+msgid "Health Check Name"
+msgstr "Имя проверки работоспособности"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 482
+msgid "Health Check ID"
+msgstr "Идентификатор проверки работоспособности"
 
 #
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 16
@@ -24713,9 +25062,17 @@ msgstr ""
 msgid "Flows"
 msgstr "Соединения"
 
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 449
+msgid "Server Port"
+msgstr "Порт сервера"
+
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 229
 msgid "Breed"
 msgstr "Семейство"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 446
+msgid "Server id"
+msgstr "Идентификатор сервера"
 
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 210
 msgid "Protocol Breeds"
@@ -24822,6 +25179,14 @@ msgstr "Статистика правил"
 msgid "Edit rule"
 msgstr "Редактировать правило"
 
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 413
+msgid "Backend Name"
+msgstr "Имя бэкенда"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 412
+msgid "Backend ID"
+msgstr "Идентификатор бэкенда"
+
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/index.volt, line: 73
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 98
 msgid "Allow Traffic"
@@ -24835,6 +25200,17 @@ msgstr "Служба анализатора трафика"
 #, php-format
 msgid "Alias '%s' not found"
 msgstr "Псевдоним '%s' не найден."
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 400
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 435
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 471
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 505
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 539
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 573
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 608
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 642
+msgid "Test syntax"
+msgstr "Синтаксис теста"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/views/SmartSoft/CMSNode/index.volt, line: 28
 msgid "HTTPS protocol on Web-GUI required. Set it in "
@@ -25050,6 +25426,10 @@ msgstr ""
 msgid "Section '%s' is unknown."
 msgstr "Секция '%s' не известна."
 
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 378
+msgid "Frontend Name"
+msgstr "Имя фронтенда"
+
 # File: /usr/plugins/devel/ting-plugin-cair/src/opnsense/mvc/app/views/SmartSoft/CAIR/index.volt, line: 91
 msgid "Site"
 msgstr "Сайт"
@@ -25070,6 +25450,10 @@ msgstr "Ошибка преобразования имени сервера"
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 28
 msgid "Filter Rules"
 msgstr "Правила фильтрации"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 377
+msgid "Frontend ID"
+msgstr "Идентификатор фронтенда"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 40
 msgid "IPS/IDS"
@@ -25278,9 +25662,17 @@ msgstr ""
 msgid "Request failed"
 msgstr ""
 
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 254
+msgid "Your HAProxy config contains no errors."
+msgstr "Файл конфигурации HAProxy не содержит ошибок."
+
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 89
 msgid "Show selected section"
 msgstr "Показать выбранный раздел"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 253
+msgid "HAProxy config test result"
+msgstr "Результат проверки файла конфигурации HAProxy "
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 56
 msgid "Config reverted"
@@ -25334,8 +25726,40 @@ msgstr "Редактировать узел"
 msgid "Edit CMS admin account"
 msgstr "Редактировать учетную запись администратора CMS"
 
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 246
+msgid "HAProxy config contains minor errors"
+msgstr "Файл конфигурации HAProxy содержит незначительные ошибки."
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 177
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 206
+msgid "Error reconfiguring HAProxy"
+msgstr "Ошибка при изменении настроек HAProxy "
+
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 30
 msgid "Busy"
+msgstr ""
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 170
+msgid "Continue"
+msgstr "Продолжить"
+
+#
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 168
+msgid ""
+"The HAProxy service may not be able to start due to critical errors. Try "
+"anyway?"
+msgstr ""
+"Служба HAProxy может не запуститься из-за критических ошибок. Все равно "
+"запустить?"
+
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 167
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 239
+msgid "HAProxy config contains critical errors"
+msgstr "Файл конфигурации HAProxy содержит критические ошибки"
+
+#
+# File: /usr/plugins/net/haproxy/src/etc/inc/plugins.inc.d/haproxy.inc, line: 81
+msgid "HAProxy Load Balancer"
 msgstr ""
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 120
@@ -25353,9 +25777,17 @@ msgstr "Не удалось перезапустить SmartSoft.HAVP"
 msgid "Viruses detected"
 msgstr "Обнаруженные вирусы"
 
+# File: /usr/plugins/net/haproxy/src/etc/inc/plugins.inc.d/haproxy.inc, line: 53
+msgid "HAProxy load balancer"
+msgstr "Балансировка нагрузки с помощью HAProxy"
+
 # File: /usr/plugins/devel/ting-plugin-havp/src/opnsense/mvc/app/views/SmartSoft/HAVP/stats.volt, line: 43
 msgid "Virus"
 msgstr "Virus"
+
+# File: /usr/plugins/devel/ting-plugin-squidanalyzer/src/opnsense/mvc/app/views/SmartSoft/SquidAnalyzer/index.volt, line: 30
+msgid "See report"
+msgstr "Просмотр отчета"
 
 #
 # File: /usr/plugins/devel/ting-plugin-proxy-ipcheck/src/opnsense/mvc/app/controllers/SmartSoft/ProxyIPCheck/Api/ServiceController.php, line: 17
@@ -25372,361 +25804,14 @@ msgstr "Конфигурация сохранена."
 msgid "User-IP restriction"
 msgstr "Привязка пользователя к IP/MAC"
 
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 32
-msgid "System Tunning Settings"
-msgstr "Настройка системы"
-
 # File: /usr/plugins/devel/ting-plugin-havp/src/opnsense/mvc/app/controllers/SmartSoft/HAVP/Api/ServiceController.php, line: 37
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/controllers/SmartSoft/NDPI/Api/ServiceController.php, line: 31
 msgid "Config saved"
 msgstr "Конфигурация сохранена"
 
-# File: /usr/plugins/devel/ting-plugin-squidanalyzer/src/opnsense/mvc/app/views/SmartSoft/SquidAnalyzer/index.volt, line: 30
-msgid "See report"
-msgstr "Просмотр отчета"
-
-# File: /usr/plugins/net/haproxy/src/etc/inc/plugins.inc.d/haproxy.inc, line: 53
-msgid "HAProxy load balancer"
-msgstr "Балансировка нагрузки с помощью HAProxy"
-
-#
-# File: /usr/plugins/net/haproxy/src/etc/inc/plugins.inc.d/haproxy.inc, line: 81
-msgid "HAProxy Load Balancer"
-msgstr ""
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 167
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 239
-msgid "HAProxy config contains critical errors"
-msgstr "Файл конфигурации HAProxy содержит критические ошибки"
-
-#
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 168
-msgid ""
-"The HAProxy service may not be able to start due to critical errors. Try "
-"anyway?"
-msgstr ""
-"Служба HAProxy может не запуститься из-за критических ошибок. Все равно "
-"запустить?"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 170
-msgid "Continue"
-msgstr "Продолжить"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 177
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 206
-msgid "Error reconfiguring HAProxy"
-msgstr "Ошибка при изменении настроек HAProxy "
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 246
-msgid "HAProxy config contains minor errors"
-msgstr "Файл конфигурации HAProxy содержит незначительные ошибки."
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 253
-msgid "HAProxy config test result"
-msgstr "Результат проверки файла конфигурации HAProxy "
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 254
-msgid "Your HAProxy config contains no errors."
-msgstr "Файл конфигурации HAProxy не содержит ошибок."
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 377
-msgid "Frontend ID"
-msgstr "Идентификатор фронтенда"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 378
-msgid "Frontend Name"
-msgstr "Имя фронтенда"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 400
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 435
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 471
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 505
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 539
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 573
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 608
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 642
-msgid "Test syntax"
-msgstr "Синтаксис теста"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 412
-msgid "Backend ID"
-msgstr "Идентификатор бэкенда"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 413
-msgid "Backend Name"
-msgstr "Имя бэкенда"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 446
-msgid "Server id"
-msgstr "Идентификатор сервера"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 449
-msgid "Server Port"
-msgstr "Порт сервера"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 482
-msgid "Health Check ID"
-msgstr "Идентификатор проверки работоспособности"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 483
-msgid "Health Check Name"
-msgstr "Имя проверки работоспособности"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 516
-msgid "Action ID"
-msgstr "Идентификатор действия"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 517
-msgid "Action Name"
-msgstr "Имя действия"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 550
-msgid "ACL id"
-msgstr "Идентификатор списка контроля доступа"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 551
-msgid "ACL Name"
-msgstr "Имя списка контроля доступа"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 585
-msgid "Lua ID"
-msgstr "Идентификатор Lua"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 586
-msgid "Lua Script Name"
-msgstr "Имя скрипта Lua"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 195
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 232
-msgid "id"
-msgstr "идентификатор"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 199
-msgid "Last Change"
-msgstr "Последнее изменение"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 202
-msgid "Downtime"
-msgstr "Время простоя"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 233
-msgid "Backend/Frontend"
-msgstr "Бэкенд/фронтенд"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 235
-msgid "Queue"
-msgstr "Очередь"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 236
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 239
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 242
-msgid "Max"
-msgstr "Макс."
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 237
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 240
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 243
-msgid "Limit"
-msgstr "Ограничение"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 238
-msgid "Session Rate"
-msgstr "Скорость сессии"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 247
-msgid "Denied Req"
-msgstr "Denied Req"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 248
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 251
-msgid "Resp"
-msgstr "Resp"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 249
-msgid "Errors Req"
-msgstr "Errors Req"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 250
-msgid "Conn"
-msgstr "Conn"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 252
-msgid "Warnings Retr"
-msgstr "Warnings Retr"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 253
-msgid "Redis"
-msgstr "Redis"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 283
-msgid "Table"
-msgstr "Таблица"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 286
-msgid "Used"
-msgstr "Использовано"
-
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 226
-#, php-format
-msgid "Node version lower then %s. Please update node."
-msgstr ""
-
-# File: lang/dynamic/helpers/models.php, line: 245
-msgid "PPPoE Server"
-msgstr "PPPoE-сервер"
-
-# File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 149
-msgid "Configuring PPPoE VPN service..."
-msgstr "Настройка службы PPPoE VPN…"
-
-# File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 161
-#, php-format
-msgid "Error: cannot open mpd.conf in if_pppoe_configure()."
-msgstr "Ошибка: не удается открыть mpd.conf в if_pppoe_configure()."
-
-# File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 265
-#, php-format
-msgid "Error: cannot open mpd.secret in if_pppoe_configure()."
-msgstr "Ошибка: не удается открыть mpd.secret в if_pppoe_configure()."
-
-# File: src/www/vpn_pppoe.php, line: 89
-msgid "add a new pppoe instance"
-msgstr "добавить новый экземпляр PPPoE"
-
-# File: src/www/vpn_pppoe.php, line: 144
-msgid ""
-"Do you really want to delete this entry? All elements that still use it will "
-"become invalid (e.g. filter rules)!"
-msgstr ""
-"Вы действительно хотите удалить эту запись? Все элементы, которые ее "
-"используют, станут недействительными (например, правила фильтрации)!"
-
-# File: src/www/vpn_pppoe.php, line: 102
-msgid "The PPPoE entry list has been changed"
-msgstr "Список записей PPPoE изменен"
-
-# File: src/www/vpn_pppoe.php, line: 119
-msgid "Number of users"
-msgstr "Количество пользователей"
-
-# File: src/www/vpn_pppoe.php, line: 141
-msgid "edit pppoe instance"
-msgstr "редактировать экземпляр PPPoE"
-
-# File: src/www/vpn_pppoe_edit.php, line: 146
-#, php-format
-msgid "No password specified for username %s"
-msgstr "Не указан пароль для имени пользователя %s"
-
-# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 115
-#, php-format
-msgid "Incorrect ip address specified for username %s"
-msgstr "Указан недействительный IP-адрес для имени пользователя %s"
-
-# File: src/www/vpn_pppoe_edit.php, line: 156
-msgid "Wrong data submitted"
-msgstr "Отправлены неверные данные"
-
-# File: src/www/vpn_pppoe_edit.php, line: 396
-msgid "PPPoE server configuration"
-msgstr "Конфигурация PPPoE-сервера"
-
-# File: src/www/vpn_pppoe_edit.php, line: 413
-msgid "Enable PPPoE server"
-msgstr "Включить PPPoE-сервер"
-
-# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 308
-msgid ""
-"Enter the IP address the PPPoE server should give to clients for use as "
-"their \"gateway\"."
-msgstr ""
-"Введите IP-адрес, который PPPoE-сервер будет выдавать клиентам для "
-"использования в качестве «шлюза»."
-
-# File: src/www/vpn_pppoe_edit.php, line: 457
-msgid "No. PPPoE users"
-msgstr "Нет. PPPoE пользователи"
-
-# File: src/www/vpn_pppoe_edit.php, line: 471
-msgid "Hint: 10 is ten PPPoE clients"
-msgstr "Подсказка: 10 означает десять PPPoE клиентов"
-
-# File: src/www/vpn_pppoe_edit.php, line: 438
-msgid "Subnet netmask"
-msgstr "Маска подсети"
-
-# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 350
-msgid "Hint: 24 is 255.255.255.0"
-msgstr ""
-"Подсказка: 24 означает представление маски в десятичной форме (255.255.255.0)"
-
-# File: src/www/vpn_pppoe_edit.php, line: 508
-msgid ""
-"If entered they will be given to all PPPoE clients, else LAN DNS and one WAN "
-"DNS will go to all clients"
-msgstr ""
-"Если адреса указаны, они будут выданы всем PPPoE клиентам, в противном "
-"случае клиентам будут отправлены LAN DNS и один WAN DNS"
-
-# File: src/www/vpn_pppoe_edit.php, line: 527
-# File: src/www/vpn_pptp.php, line: 434
-msgid "Sends accounting packets to the RADIUS server"
-msgstr "Отправляет пакеты учета на RADIUS-сервер"
-
-# File: src/www/vpn_pppoe_edit.php, line: 531
-msgid "Use Backup RADIUS Server"
-msgstr "Использовать резервный RADIUS-сервер"
-
-# File: src/www/vpn_pppoe_edit.php, line: 532
-msgid ""
-"When set, if primary server fails all requests will be sent via backup server"
-msgstr ""
-"Если параметр включен, при сбое основного сервера все запросы будут "
-"отправляться через резервный сервер"
-
-# File: src/www/vpn_pppoe_edit.php, line: 535
-msgid "NAS IP Address"
-msgstr "IP-адрес NAS-сервера"
-
-# File: src/www/vpn_pppoe_edit.php, line: 538
-msgid "RADIUS server NAS IP Address"
-msgstr "IP-адрес NAS-сервера для RADIUS-сервера"
-
-# File: src/www/vpn_l2tp.php, line: 457
-msgid "Issue IP Addresses via RADIUS server."
-msgstr "Выдача IP-адресов через RADIUS-сервер"
-
-# File: src/www/vpn_pppoe_edit.php, line: 590
-msgid "User (s)"
-msgstr "Пользователь (-и)"
-
-# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 553
-msgid ""
-"Don't forget to add a firewall rule to permit traffic from PPPoE clients."
-msgstr ""
-"Не забудьте добавить правило межсетевого экрана, чтобы разрешить трафик от "
-
-# File: src/www/diag_logs_poes.php, line: 19
-msgid "PPPoE Logins"
-msgstr "Имена пользователей для подключения по протоколу PPPoE"
-
-# File: src/www/diag_logs_poes.php, line: 20
-msgid "PPPoE Raw"
-msgstr "PPPoE Raw"
-
-# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 619
-msgid "Error File ID"
-msgstr "Идентификатор файла ошибки"
-
-#
-# File: /usr/plugins/net/relayd/src/etc/inc/plugins.inc.d/relayd.inc, line: 58
-# File: /usr/plugins/net/relayd/src/etc/inc/plugins.inc.d/relayd.inc, line: 71
-msgid "Relayd Load Balancer"
-msgstr ""
-
-# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 135
-msgid "connected since"
-msgstr "подключен с "
+# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 167
+msgid "Error uploading template"
+msgstr "Ошибка при загрузке шаблона"
 
 #
 # File: /usr/lang/src/acl.php, line: 36
@@ -31967,7 +32052,8 @@ msgstr ""
 "\t\t<meta http-equiv=\"refresh\" content=\"5; url=wizard.php?"
 "xml=setup&stepid=8\" >\n"
 "\t\t<p>\n"
-"\t\tМастер переключится на следующий шаг как только перезагрузка завершится.\n"
+"\t\tМастер переключится на следующий шаг как только перезагрузка "
+"завершится.\n"
 "\t"
 
 #
@@ -31983,7 +32069,8 @@ msgstr ""
 "\n"
 "\t\n"
 "\t\tПоздравляем! TING сконфигурирован.<p/>\n"
-"\t\tНажмите <a href='$myurl'>сюда</a> для продолжения в web-конфигураторе TING.\n"
+"\t\tНажмите <a href='$myurl'>сюда</a> для продолжения в web-конфигураторе "
+"TING.\n"
 "\t\n"
 "\t"
 
@@ -31996,10 +32083,11 @@ msgid ""
 "for all other connection types will be assumed. This should match the above "
 "MTU value in most all cases."
 msgstr ""
-" Если Вы укажете значение в этом поле, то ограничение значения MSS для TCP соединений "
-"будет установлено в величину, равную указанной минус 40 (размер заголовка TCP/IP). "
-"Если Вы оставите это поле пустым, то MSS будет равно 1492 байта для PPPoE и 1500 байт "
-"для всех остальных типов подключения. Это должно подходить для значений MTU в большинстве случаев."
+" Если Вы укажете значение в этом поле, то ограничение значения MSS для TCP "
+"соединений будет установлено в величину, равную указанной минус 40 (размер "
+"заголовка TCP/IP). Если Вы оставите это поле пустым, то MSS будет равно 1492 "
+"байта для PPPoE и 1500 байт для всех остальных типов подключения. Это должно "
+"подходить для значений MTU в большинстве случаев."
 
 #
 # File: /usr/lang/src/wizards.php, line: 49
@@ -32018,9 +32106,9 @@ msgid ""
 "when requesting a DHCP lease. Some ISPs may require this (for client "
 "identification)."
 msgstr ""
-" Значение этого поля передаётся в качестве идентификатора клиента DHCP и имени хоста "
-"когда запрашивается аренда адреса DHCP. Некоторые провайдеры могут требовать это "
-"(для идентификации клиента)."
+" Значение этого поля передаётся в качестве идентификатора клиента DHCP и "
+"имени хоста когда запрашивается аренда адреса DHCP. Некоторые провайдеры "
+"могут требовать это (для идентификации клиента)."
 
 #
 # File: /usr/lang/src/wizards.php, line: 51
@@ -32029,9 +32117,9 @@ msgid ""
 "interface (may be required with some cable connections). Enter a MAC address "
 "in the following format: xx:xx:xx:xx:xx:xx or leave blank."
 msgstr ""
-" Это поле может быть использовано для модификации (\"подмены\") MAC адреса на WAN "
-"интерфейсе (может быть необходимо для кабельного подключения). Укажите MAC адрес "
-"в формате xx:xx:xx:xx:xx:xx или оставьте пустым."
+" Это поле может быть использовано для модификации (\"подмены\") MAC адреса "
+"на WAN интерфейсе (может быть необходимо для кабельного подключения). "
+"Укажите MAC адрес в формате xx:xx:xx:xx:xx:xx или оставьте пустым."
 
 #
 # File: /usr/lang/src/wizards.php, line: 52
@@ -32041,9 +32129,11 @@ msgid ""
 "as loopback addresses (127/8). You should generally leave this option turned "
 "on, unless your WAN network lies in such a private address space, too."
 msgstr ""
-"Когда включена, эта опция блокирует трафик с IP адресов, которые зарезервированы "
-"для частных сетей в RFC 1918 (10/8, 172.16/12, 192.168/16) и для локального и для локального "
-"интерфейса (127/8). Как правило, Вы должны включать эту опцию, если Ваша WAN сеть не находится в таком адресном пространстве."
+"Когда включена, эта опция блокирует трафик с IP адресов, которые "
+"зарезервированы для частных сетей в RFC 1918 (10/8, 172.16/12, 192.168/16) и "
+"для локального и для локального интерфейса (127/8). Как правило, Вы должны "
+"включать эту опцию, если Ваша WAN сеть не находится в таком адресном "
+"пространстве."
 
 #
 # File: /usr/lang/src/wizards.php, line: 53
@@ -32095,7 +32185,8 @@ msgstr "512 бит"
 msgid ""
 "<br/><b>NOTE:</b> If you are unsure, leave this set to \"Local User Access.\""
 msgstr ""
-"<br/><b>ПАМЯТКА:</b> Если не уверены, оставьте значение \"Local User Access.\""
+"<br/><b>ПАМЯТКА:</b> Если не уверены, оставьте значение \"Local User Access."
+"\""
 
 #
 # File: /usr/lang/src/wizards.php, line: 63
@@ -32104,9 +32195,9 @@ msgid ""
 "will dynamically disable compression for a period of time if OpenVPN detects "
 "that the data in the packets is not being compressed efficiently."
 msgstr ""
-"<br/>Сжимать пакеты туннеля, используя алгоритм LZO. Адаптивное сжатие "
-"будет динамически отключать компрессию на тот период времени, когда OpenVPN определит "
-"что данные в пакетах неэффективно сжимаются."
+"<br/>Сжимать пакеты туннеля, используя алгоритм LZO. Адаптивное сжатие будет "
+"динамически отключать компрессию на тот период времени, когда OpenVPN "
+"определит что данные в пакетах неэффективно сжимаются."
 
 #
 # File: /usr/lang/src/wizards.php, line: 64
@@ -32126,9 +32217,9 @@ msgid ""
 "queries to a WINS server), m-node (broadcast then query name server), and h-"
 "node (query name server, then broadcast)."
 msgstr ""
-"<br/>Возможные значения: b-node (широковещительные), p-node (запросы имени "
-"у WINS сервера point-to-point), m-node (широковещательный когда запрашивается имя сервера), и h-"
-"node (запрос имени сервера, потом широковещательный)."
+"<br/>Возможные значения: b-node (широковещительные), p-node (запросы имени у "
+"WINS сервера point-to-point), m-node (широковещательный когда запрашивается "
+"имя сервера), и h-node (запрос имени сервера, потом широковещательный)."
 
 #
 # File: /usr/lang/src/wizards.php, line: 66
@@ -32136,8 +32227,7 @@ msgid ""
 "<br/>Protocol to use for OpenVPN connections. If you are unsure, leave this "
 "set to UDP."
 msgstr ""
-"<br/>Протокол для соединений OpenVPN. Если не уверены, оставьте "
-"значение UDP."
+"<br/>Протокол для соединений OpenVPN. Если не уверены, оставьте значение UDP."
 
 #
 # File: /usr/lang/src/wizards.php, line: 67
@@ -32154,8 +32244,8 @@ msgid ""
 "<br/>The hardware cryptographic accelerator to use for this VPN connection, "
 "if any."
 msgstr ""
-"<br/>Аппаратное криптографическое устройство для использования для VPN соединений, "
-"если есть."
+"<br/>Аппаратное криптографическое устройство для использования для VPN "
+"соединений, если есть."
 
 #
 # File: /usr/lang/src/wizards.php, line: 69
@@ -32164,9 +32254,9 @@ msgid ""
 "must match on the client and server side, but is otherwise set however you "
 "like."
 msgstr ""
-"<br/>Метод, используемый для аутентификации трафика между точками. Эта настройка "
-"должна совпадать на клиенте и на сервере, но Вы можете установить то, что "
-"хотите."
+"<br/>Метод, используемый для аутентификации трафика между точками. Эта "
+"настройка должна совпадать на клиенте и на сервере, но Вы можете установить "
+"то, что хотите."
 
 #
 # File: /usr/lang/src/wizards.php, line: 70
@@ -32177,9 +32267,9 @@ msgid ""
 "the availability of supported VPN accelerator chips."
 msgstr ""
 "<br/>Метод шифрования трафика между точками. Эта настройка должна совпадать "
-"на клиенте и на сервере, но можете поставить что хотите. "
-"Какие-то алгоритмы будут лучше на разных устройствах, в зависимости "
-"от доступности чипов, поддерживающих обработку VPN."
+"на клиенте и на сервере, но можете поставить что хотите. Какие-то алгоритмы "
+"будут лучше на разных устройствах, в зависимости от доступности чипов, "
+"поддерживающих обработку VPN."
 
 #
 # File: /usr/lang/src/wizards.php, line: 71
@@ -32187,8 +32277,8 @@ msgid ""
 "<br/>The protocol used by your LDAP server. It can either be standard TCP or "
 "SSL encrypted."
 msgstr ""
-"<br/>Протокол вашего LDAP сервера. Может быть стандартным TCP или "
-"с SSL шифрованием."
+"<br/>Протокол вашего LDAP сервера. Может быть стандартным TCP или с SSL "
+"шифрованием."
 
 # File: /usr/core/src/www/vpn_openvpn_csc.php, line: 643
 # File: /usr/core/src/www/vpn_openvpn_server.php, line: 1445
@@ -32209,8 +32299,8 @@ msgid ""
 "clients, which allows them to browse Windows shares. This is typically an "
 "Active Directory Domain Controller, designated WINS server, or Samba server."
 msgstr ""
-"Windows Internet Name Service (WINS) сервер для связи клиентов, "
-"который позволяет им просматривать объекты общего доступа Windows. Как правило это "
+"Windows Internet Name Service (WINS) сервер для связи клиентов, который "
+"позволяет им просматривать объекты общего доступа Windows. Как правило это "
 "Active Directory Domain Controller, выделенный WINS сервер, или сервер Samba."
 
 #
@@ -32220,8 +32310,8 @@ msgid ""
 "you like, but is often used to distinguish the purpose of the service (e.g. "
 "\"Remote Technical Staff\")."
 msgstr ""
-"Имя этого экземпляра OpenVPN, для Вашего использования. Может быть указан "
-"по вашему желанию, но часто используется для описания назначения (например "
+"Имя этого экземпляра OpenVPN, для Вашего использования. Может быть указан по "
+"вашему желанию, но часто используется для описания назначения (например "
 "\"Удалённый технический персонал\")."
 
 #
@@ -32230,8 +32320,8 @@ msgid ""
 "A name for your reference, to identify this certificate. This is also known "
 "as the certificate's \"Common Name.\""
 msgstr ""
-"Название для Вашего использования, идентифицирубщее сертификат. Также известно, как "
-"\"Common Name\" сертификата."
+"Название для Вашего использования, идентифицирубщее сертификат. Также "
+"известно, как \"Common Name\" сертификата."
 
 #
 # File: /usr/lang/src/wizards.php, line: 76
@@ -32239,8 +32329,8 @@ msgid ""
 "A name for your reference, to identify this certificate. This is the same as "
 "common-name field for other Certificates."
 msgstr ""
-"Название, идентифицирующее этот сертификат. То же самое, что "
-"поле common-name у других Сертификатов."
+"Название, идентифицирующее этот сертификат. То же самое, что поле common-"
+"name у других Сертификатов."
 
 #
 # File: /usr/lang/src/wizards.php, line: 77
@@ -32248,8 +32338,8 @@ msgid ""
 "Add a rule to allow all traffic from connected clients to pass across the "
 "VPN tunnel."
 msgstr ""
-"Добавить правило, разрешающее трафик от клиентов, проходящий через "
-"VPN туннель."
+"Добавить правило, разрешающее трафик от клиентов, проходящий через VPN "
+"туннель."
 
 #
 # File: /usr/lang/src/wizards.php, line: 78
@@ -32257,8 +32347,8 @@ msgid ""
 "Add a rule to permit traffic from clients on the Internet to the OpenVPN "
 "server process."
 msgstr ""
-"Добавить правило, разрешающее трафик от клиентов в Internet к процессу OpenVPN "
-"сервера."
+"Добавить правило, разрешающее трафик от клиентов в Internet к процессу "
+"OpenVPN сервера."
 
 #
 # File: /usr/lang/src/wizards.php, line: 79
@@ -32324,9 +32414,7 @@ msgstr "Разрешить соединения между клиентами, �
 msgid ""
 "Allow connected clients to retain their connections if their IP address "
 "changes."
-msgstr ""
-"Разрешить клиентам сохранять соединение, если их IP адрес "
-"поменялся."
+msgstr "Разрешить клиентам сохранять соединение, если их IP адрес поменялся."
 
 #
 # File: /usr/lang/src/wizards.php, line: 93
@@ -32335,9 +32423,9 @@ msgid ""
 "Name.<br/>NOTE: This is not generally recommended, but may be needed for "
 "some scenarios."
 msgstr ""
-"Разрешить множественные одновременные подключения клиентов с одинаковым Common "
-"Name.<br/>ПАМЯТКА: Как правило, это не рекомендуется, но может быть необходимо для "
-"некоторых сценариев."
+"Разрешить множественные одновременные подключения клиентов с одинаковым "
+"Common Name.<br/>ПАМЯТКА: Как правило, это не рекомендуется, но может быть "
+"необходимо для некоторых сценариев."
 
 # File: src/www/vpn_openvpn_client.php, line: 806
 # File: src/www/vpn_openvpn_server.php, line: 1115
@@ -32598,8 +32686,8 @@ msgid ""
 "Enable NetBIOS over TCP/IP. <br/>If this option is not set, all NetBIOS-over-"
 "TCP/IP options (including WINS) will be disabled. "
 msgstr ""
-"Разрешить NetBIOS через TCP/IP. <br/>Если эта опция не установлена, все NetBIOS-через-"
-"TCP/IP опции (включая WINS) будут отключены. "
+"Разрешить NetBIOS через TCP/IP. <br/>Если эта опция не установлена, все "
+"NetBIOS-через-TCP/IP опции (включая WINS) будут отключены. "
 
 #
 # File: /usr/lang/src/wizards.php, line: 141
@@ -32618,9 +32706,9 @@ msgid ""
 "configuration here, separated by a semicolon. EXAMPLE: push \"route 10.0.0.0 "
 "255.255.255.0\""
 msgstr ""
-"Введите любые дополнительные опции, которые Вы хотите добавить в конфигурацию OpenVPN сервера "
-" здесь, разделённые точкой с запятой. ПРИМЕР: push \"route 10.0.0.0 "
-"255.255.255.0\""
+"Введите любые дополнительные опции, которые Вы хотите добавить в "
+"конфигурацию OpenVPN сервера  здесь, разделённые точкой с запятой. ПРИМЕР: "
+"push \"route 10.0.0.0 255.255.255.0\""
 
 #
 # File: /usr/lang/src/wizards.php, line: 144
@@ -32654,10 +32742,11 @@ msgid ""
 "traffic from connected clients through the tunnel. These rules can be "
 "automatically added here, or configured manually after completing the wizard."
 msgstr ""
-"Правила межсетевого экрана контролируют какой трафик разрешен. Вы должны добавить правила "
-"для разрешения трафика на IP адрес и порт OpenVPN сервера, также как для разрешения "
-"трафика от клиентов через туннель. Эти правила могут быть автоматически созданы здесь "
-"или добавлены вручную после завершения этого Мастера."
+"Правила межсетевого экрана контролируют какой трафик разрешен. Вы должны "
+"добавить правила для разрешения трафика на IP адрес и порт OpenVPN сервера, "
+"также как для разрешения трафика от клиентов через туннель. Эти правила "
+"могут быть автоматически созданы здесь или добавлены вручную после "
+"завершения этого Мастера."
 
 #
 # File: /usr/lang/src/wizards.php, line: 150
@@ -32670,8 +32759,8 @@ msgid ""
 "Full State of Province name, not abbreviated (e.g. Zuid Holland, Sachsen, "
 "Paris, Kentucky)."
 msgstr ""
-"Полное имя региона, без аббревиатур (например, Zuid Holland, Sachsen, "
-"Paris, Kentucky)."
+"Полное имя региона, без аббревиатур (например, Zuid Holland, Sachsen, Paris, "
+"Kentucky)."
 
 #
 # File: /usr/lang/src/wizards.php, line: 152
@@ -32741,8 +32830,8 @@ msgid ""
 "If a user DN was supplied above, this password will also be used when "
 "performing a bind operation."
 msgstr ""
-"Если DN пользователя был указан выше, этот пароль также будет использован "
-"в процессе привязки."
+"Если DN пользователя был указан выше, этот пароль также будет использован в "
+"процессе привязки."
 
 #
 # File: /usr/lang/src/wizards.php, line: 165
@@ -32819,7 +32908,8 @@ msgstr ""
 msgid ""
 "LDAP Server port, leave blank for the default (389 for TCP, 636 for SSL)."
 msgstr ""
-"Порт LDAP сервера, оставьте пустым для значений по-умолчанию (389 для TCP, 636 для SSL)."
+"Порт LDAP сервера, оставьте пустым для значений по-умолчанию (389 для TCP, "
+"636 для SSL)."
 
 #
 # File: /usr/lang/src/wizards.php, line: 179
@@ -32866,8 +32956,8 @@ msgid ""
 "Local port upon which OpenVPN will listen for connections. The default port "
 "is 1194. Leave this blank unless you need to use a different port."
 msgstr ""
-"Локальный порт, на котором OpenVPN будет принимать соединения. Порт по-умолчанию "
-"1194. Оставьте пустым, если Вам не надо использовать другой порт."
+"Локальный порт, на котором OpenVPN будет принимать соединения. Порт по-"
+"умолчанию 1194. Оставьте пустым, если Вам не надо использовать другой порт."
 
 #
 # File: /usr/lang/src/wizards.php, line: 187
@@ -32945,8 +33035,8 @@ msgid ""
 "On this screen we will set the admin password, which is used to access the "
 "WebGUI and also SSH services if you wish to enable them."
 msgstr ""
-"На этой странице укажите пароль администратора, который будет использоваться для доступа "
-"к WEB-интерфейсу а также к сервису SSH, если он включён."
+"На этой странице укажите пароль администратора, который будет использоваться "
+"для доступа к WEB-интерфейсу а также к сервису SSH, если он включён."
 
 #
 # File: /usr/lang/src/wizards.php, line: 203
@@ -33132,9 +33222,7 @@ msgstr "Пожалуйста, укажите сервер времени и ча
 msgid ""
 "Port used by the RADIUS server for accepting Authentication requests, "
 "typically 1812."
-msgstr ""
-"Порт RADIUS сервера для запросов аутентификации, "
-"обычно 1812."
+msgstr "Порт RADIUS сервера для запросов аутентификации, обычно 1812."
 
 #
 # File: /usr/lang/src/wizards.php, line: 243
@@ -33291,8 +33379,8 @@ msgid ""
 "Specify the maximum number of clients allowed to concurrently connect to "
 "this server."
 msgstr ""
-"Укажите максимальное количество клиентов, одновременно подключенных к "
-"этому серверу."
+"Укажите максимальное количество клиентов, одновременно подключенных к этому "
+"серверу."
 
 # File: src/www/system_camanager.php, line: 632
 # File: src/www/system_certmanager.php, line: 849
@@ -33360,8 +33448,8 @@ msgid ""
 "virtual interface. The remaining network addresses can optionally be "
 "assigned to connecting clients. (see Address Pool)"
 msgstr ""
-"Это IPv4 виртуальная сеть, используемая для частных соединений между "
-"этим сервером и хостами клиентов, выраженная в виде CIDR нотации (т.е. "
+"Это IPv4 виртуальная сеть, используемая для частных соединений между этим "
+"сервером и хостами клиентов, выраженная в виде CIDR нотации (т.е. "
 "10.0.8.0/24). Первый сетевой адрес будет присвоен виртуальному интерфесу "
 "этого сервера. Остальные сетевые адреса могут быть опционально присвоены "
 "подключающимся клиентам. (см. Address Pool)"
@@ -33374,10 +33462,10 @@ msgid ""
 "a route to the local network through this tunnel on the remote machine. This "
 "is generally set to your LAN network."
 msgstr ""
-"Это сеть, которая будет доступна с удалённых точек, "
-"выраженная в виде дипазона CIDR. Вы можете оставить это поле пустым, если не хотите "
-"добавлять маршрут в локальную сеть через этот туннель на удалённую машину. Здесь, "
-"как правило, указывается LAN сеть."
+"Это сеть, которая будет доступна с удалённых точек, выраженная в виде "
+"дипазона CIDR. Вы можете оставить это поле пустым, если не хотите добавлять "
+"маршрут в локальную сеть через этот туннель на удалённую машину. Здесь, как "
+"правило, указывается LAN сеть."
 
 #
 # File: /usr/lang/src/wizards.php, line: 281
@@ -33387,8 +33475,8 @@ msgid ""
 "the actual connection of the link is delayed until qualifying outgoing "
 "traffic is detected."
 msgstr ""
-"Это опция заставляет интерфейс работать в режиме соединение-по-требовани, позволяя "
-"Вам иметь виртуальное постоянное соединение. Интерфейс настроен, но "
+"Это опция заставляет интерфейс работать в режиме соединение-по-требовани, "
+"позволяя Вам иметь виртуальное постоянное соединение. Интерфейс настроен, но "
 "реальное соединение отложено до того момента, когда будет обнаружен "
 "исходящий трафик."
 
@@ -33458,8 +33546,8 @@ msgid ""
 "Typically \"cn\" (OpenLDAP, Novell eDirectory), \"samAccountName"
 "\" (Microsoft AD)"
 msgstr ""
-"Обычно \"cn\" (OpenLDAP, Novell eDirectory), \"samAccountName"
-"\" (Microsoft AD)"
+"Обычно \"cn\" (OpenLDAP, Novell eDirectory), \"samAccountName\" (Microsoft "
+"AD)"
 
 #
 # File: /usr/lang/src/wizards.php, line: 296
@@ -33503,10 +33591,11 @@ msgid ""
 "should never appear in the Internet routing table, and obviously should not "
 "appear as the source address in any packets you receive."
 msgstr ""
-"Когда включена, эта опция блокирует трафик с IP адресов, которые зарезервированы "
-"(но не RFC 1918) или не назначены IANA. Bogon сети - это префиксы, которые "
-"никогда не должны появляться в таблицах маршрутизации Интернета, и очевидно не должны "
-"появляться в качестве адреса источника в пакетах, которые Вы получаете."
+"Когда включена, эта опция блокирует трафик с IP адресов, которые "
+"зарезервированы (но не RFC 1918) или не назначены IANA. Bogon сети - это "
+"префиксы, которые никогда не должны появляться в таблицах маршрутизации "
+"Интернета, и очевидно не должны появляться в качестве адреса источника в "
+"пакетах, которые Вы получаете."
 
 #
 # File: /usr/lang/src/wizards.php, line: 303
