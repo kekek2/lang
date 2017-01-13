@@ -1,0 +1,1526 @@
+#
+# File: /usr/lang/src/wizards.php, line: 36
+msgid ""
+"\n"
+"\t\tA reload is now in progress.  Please wait. <p>\n"
+"\t\t<meta http-equiv=\"refresh\" content=\"5; url=wizard.php?"
+"xml=setup&stepid=8\" >\n"
+"\t\t<p>\n"
+"\t\tThe wizard will redirect to the next step once the reload is completed.\n"
+"\t"
+msgstr ""
+"\n"
+"\t\tВ процессе перезагрузки.  Пожалуйста, подождите. <p>\n"
+"\t\t<meta http-equiv=\"refresh\" content=\"5; url=wizard.php?"
+"xml=setup&stepid=8\" >\n"
+"\t\t<p>\n"
+"\t\tМастер переключится на следующий шаг как только перезагрузка завершится.\n"
+"\t"
+
+#
+# File: /usr/lang/src/wizards.php, line: 42
+msgid ""
+"\n"
+"\t\n"
+"\t\tCongratulations! TING is now configured.<p/>\n"
+"\t\tClick <a href='$myurl'>here</a> to continue on to TING webConfigurator.\n"
+"\t\n"
+"\t"
+msgstr ""
+"\n"
+"\t\n"
+"\t\tПоздравляем! TING сконфигурирован.<p/>\n"
+"\t\tНажмите <a href='$myurl'>сюда</a> для продолжения в web-конфигураторе TING.\n"
+"\t\n"
+"\t"
+
+#
+# File: /usr/lang/src/wizards.php, line: 48
+msgid ""
+" If you enter a value in this field, then MSS clamping for TCP connections "
+"to the value entered above minus 40 (TCP/IP header size) will be in effect. "
+"If you leave this field blank, an MSS of 1492 bytes for PPPoE and 1500 bytes "
+"for all other connection types will be assumed. This should match the above "
+"MTU value in most all cases."
+msgstr ""
+" Если Вы укажете значение в этом поле, то ограничение значения MSS для TCP соединений "
+"будет установлено в величину, равную указанной минус 40 (размер заголовка TCP/IP). "
+"Если Вы оставите это поле пустым, то MSS будет равно 1492 байта для PPPoE и 1500 байт "
+"для всех остальных типов подключения. Это должно подходить для значений MTU в большинстве случаев."
+
+#
+# File: /usr/lang/src/wizards.php, line: 49
+msgid ""
+" Set the MTU of the WAN interface. If you leave this field blank, an MTU of "
+"1492 bytes for PPPoE and 1500 bytes for all other connection types will be "
+"assumed."
+msgstr ""
+" Укажите MTUна WAN интерфейсе. Если Вы оставите это поле пустым, MTU будет "
+"равен 1492 байта для PPPoE и 1500 байт для всех остальных типов подключения."
+
+#
+# File: /usr/lang/src/wizards.php, line: 50
+msgid ""
+" The value in this field is sent as the DHCP client identifier and hostname "
+"when requesting a DHCP lease. Some ISPs may require this (for client "
+"identification)."
+msgstr ""
+" Значение этого поля передаётся в качестве идентификатора клиента DHCP и имени хоста "
+"когда запрашивается аренда адреса DHCP. Некоторые провайдеры могут требовать это "
+"(для идентификации клиента)."
+
+#
+# File: /usr/lang/src/wizards.php, line: 51
+msgid ""
+" This field can be used to modify (\"spoof\") the MAC address of the WAN "
+"interface (may be required with some cable connections). Enter a MAC address "
+"in the following format: xx:xx:xx:xx:xx:xx or leave blank."
+msgstr ""
+" Это поле может быть использовано для модификации (\"подмены\") MAC адреса на WAN "
+"интерфейсе (может быть необходимо для кабельного подключения). Укажите MAC адрес "
+"в формате xx:xx:xx:xx:xx:xx или оставьте пустым."
+
+#
+# File: /usr/lang/src/wizards.php, line: 52
+msgid ""
+" When set, this option blocks traffic from IP addresses that are reserved "
+"for private networks as per RFC 1918 (10/8, 172.16/12, 192.168/16) as well "
+"as loopback addresses (127/8). You should generally leave this option turned "
+"on, unless your WAN network lies in such a private address space, too."
+msgstr ""
+"Когда включена, эта опция блокирует трафик с IP адресов, которые зарезервированы "
+"для частных сетей в RFC 1918 (10/8, 172.16/12, 192.168/16) и для локального и для локального "
+"интерфейса (127/8). Как правило, Вы должны включать эту опцию, если Ваша WAN сеть не находится в таком адресном пространстве."
+
+#
+# File: /usr/lang/src/wizards.php, line: 53
+msgid "(leave empty for none)"
+msgstr "(можете оставить пустым)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 54
+msgid "1024 bit"
+msgstr "1024 бит"
+
+#
+# File: /usr/lang/src/wizards.php, line: 55
+msgid "1024 bits"
+msgstr "1024 бита"
+
+#
+# File: /usr/lang/src/wizards.php, line: 56
+msgid "2048 bit"
+msgstr "2048 бит"
+
+#
+# File: /usr/lang/src/wizards.php, line: 57
+msgid "2048 bits"
+msgstr "2048 бит"
+
+#
+# File: /usr/lang/src/wizards.php, line: 58
+msgid "4096 bit"
+msgstr "4096 бит"
+
+#
+# File: /usr/lang/src/wizards.php, line: 59
+msgid "4096 bits"
+msgstr "4096 бит"
+
+#
+# File: /usr/lang/src/wizards.php, line: 60
+msgid "512 bit"
+msgstr "512 бит"
+
+#
+# File: /usr/lang/src/wizards.php, line: 61
+msgid "512 bits"
+msgstr "512 бит"
+
+#
+# File: /usr/lang/src/wizards.php, line: 62
+msgid ""
+"<br/><b>NOTE:</b> If you are unsure, leave this set to \"Local User Access.\""
+msgstr ""
+"<br/><b>ПАМЯТКА:</b> Если не уверены, оставьте значение \"Local User Access.\""
+
+#
+# File: /usr/lang/src/wizards.php, line: 63
+msgid ""
+"<br/>Compress tunnel packets using the LZO algorithm. Adaptive compression "
+"will dynamically disable compression for a period of time if OpenVPN detects "
+"that the data in the packets is not being compressed efficiently."
+msgstr ""
+"<br/>Сжимать пакеты туннеля, используя алгоритм LZO. Адаптивное сжатие "
+"будет динамически отключать компрессию на тот период времени, когда OpenVPN определит "
+"что данные в пакетах неэффективно сжимаются."
+
+#
+# File: /usr/lang/src/wizards.php, line: 64
+msgid ""
+"<br/>Length of Diffie-Hellman (DH) key exchange parameters, used for "
+"establishing a secure communications channel. As with other such settings, "
+"the larger values are more secure, but may be slower in operation."
+msgstr ""
+"<br/>Длина параметров обмена ключами Диффи-Хеллмана (DH), используемых для "
+"установления защищённого канала связи. Как другие подобные параметры, "
+"большие значения более безопасны, но медленнее в обработке."
+
+#
+# File: /usr/lang/src/wizards.php, line: 65
+msgid ""
+"<br/>Possible options: b-node (broadcasts), p-node (point-to-point name "
+"queries to a WINS server), m-node (broadcast then query name server), and h-"
+"node (query name server, then broadcast)."
+msgstr ""
+"<br/>Возможные значения: b-node (широковещительные), p-node (запросы имени "
+"у WINS сервера point-to-point), m-node (широковещательный когда запрашивается имя сервера), и h-"
+"node (запрос имени сервера, потом широковещательный)."
+
+#
+# File: /usr/lang/src/wizards.php, line: 66
+msgid ""
+"<br/>Protocol to use for OpenVPN connections. If you are unsure, leave this "
+"set to UDP."
+msgstr ""
+"<br/>Протокол для соединений OpenVPN. Если не уверены, оставьте "
+"значение UDP."
+
+#
+# File: /usr/lang/src/wizards.php, line: 67
+msgid ""
+"<br/>Size of the key which will be generated. The larger the key, the more "
+"security is offers, but larger keys are generally slower to use."
+msgstr ""
+"<br/>Размер ключа, который будет сгенерирован. Чем больше ключ, тем более "
+"безопасно использование, но большие ключи медленнее обрабатываются."
+
+#
+# File: /usr/lang/src/wizards.php, line: 68
+msgid ""
+"<br/>The hardware cryptographic accelerator to use for this VPN connection, "
+"if any."
+msgstr ""
+"<br/>Аппаратное криптографическое устройство для использования для VPN соединений, "
+"если есть."
+
+#
+# File: /usr/lang/src/wizards.php, line: 69
+msgid ""
+"<br/>The method used to authenticate traffic between endpoints. This setting "
+"must match on the client and server side, but is otherwise set however you "
+"like."
+msgstr ""
+"<br/>Метод, используемый для аутентификации трафика между точками. Эта настройка "
+"должна совпадать на клиенте и на сервере, но Вы можете установить то, что "
+"хотите."
+
+#
+# File: /usr/lang/src/wizards.php, line: 70
+msgid ""
+"<br/>The method used to encrypt traffic between endpoints. This setting must "
+"match on the client and server side, but is otherwise set however you like. "
+"Certain algorithms will perform better on different hardware, depending on "
+"the availability of supported VPN accelerator chips."
+msgstr ""
+"<br/>Метод шифрования трафика между точками. Эта настройка должна совпадать "
+"на клиенте и на сервере, но можете поставить что хотите. "
+"Какие-то алгоритмы будут лучше на разных устройствах, в зависимости "
+"от доступности чипов, поддерживающих обработку VPN."
+
+#
+# File: /usr/lang/src/wizards.php, line: 71
+msgid ""
+"<br/>The protocol used by your LDAP server. It can either be standard TCP or "
+"SSL encrypted."
+msgstr ""
+"<br/>Протокол вашего LDAP сервера. Может быть стандартным TCP или "
+"с SSL шифрованием."
+
+#
+# File: /usr/lang/src/wizards.php, line: 73
+msgid ""
+"A Windows Internet Name Service (WINS) server to provide for connecting "
+"clients, which allows them to browse Windows shares. This is typically an "
+"Active Directory Domain Controller, designated WINS server, or Samba server."
+msgstr ""
+"Windows Internet Name Service (WINS) сервер для связи клиентов, "
+"который позволяет им просматривать объекты общего доступа Windows. Как правило это "
+"Active Directory Domain Controller, выделенный WINS сервер, или сервер Samba."
+
+#
+# File: /usr/lang/src/wizards.php, line: 74
+msgid ""
+"A name for this OpenVPN instance, for your reference. It can be set however "
+"you like, but is often used to distinguish the purpose of the service (e.g. "
+"\"Remote Technical Staff\")."
+msgstr ""
+"Имя этого экземпляра OpenVPN, для Вашего использования. Может быть указан "
+"по вашему желанию, но часто используется для описания назначения (например "
+"\"Удалённый технический персонал\")."
+
+#
+# File: /usr/lang/src/wizards.php, line: 75
+msgid ""
+"A name for your reference, to identify this certificate. This is also known "
+"as the certificate's \"Common Name.\""
+msgstr ""
+"Название для Вашего использования, идентифицирубщее сертификат. Также известно, как "
+"\"Common Name\" сертификата."
+
+#
+# File: /usr/lang/src/wizards.php, line: 76
+msgid ""
+"A name for your reference, to identify this certificate. This is the same as "
+"common-name field for other Certificates."
+msgstr ""
+"Название, идентифицирующее этот сертификат. То же самое, что "
+"поле common-name у других Сертификатов."
+
+#
+# File: /usr/lang/src/wizards.php, line: 77
+msgid ""
+"Add a rule to allow all traffic from connected clients to pass across the "
+"VPN tunnel."
+msgstr ""
+"Добавить правило, разрешающее трафик от клиентов, проходящий через "
+"VPN туннель."
+
+#
+# File: /usr/lang/src/wizards.php, line: 78
+msgid ""
+"Add a rule to permit traffic from clients on the Internet to the OpenVPN "
+"server process."
+msgstr ""
+"Добавить правило, разрешающее трафик от клиентов в Internet к процессу OpenVPN "
+"сервера."
+
+#
+# File: /usr/lang/src/wizards.php, line: 79
+msgid "Add new CA"
+msgstr "Добавить новый CA"
+
+#
+# File: /usr/lang/src/wizards.php, line: 80
+msgid "Add new Certificate"
+msgstr "Добавить новый Сертификат"
+
+#
+# File: /usr/lang/src/wizards.php, line: 81
+msgid "Add new LDAP server"
+msgstr "Добавить новый LDAP сервер"
+
+#
+# File: /usr/lang/src/wizards.php, line: 82
+msgid "Add new RADIUS server"
+msgstr "Добавить новый RADIUS сервер"
+
+#
+# File: /usr/lang/src/wizards.php, line: 83
+msgid "Add new Server"
+msgstr "Добавить новый Сервер"
+
+#
+# File: /usr/lang/src/wizards.php, line: 85
+msgid "Address of the LDAP server."
+msgstr "Адрес LDAP сервера."
+
+#
+# File: /usr/lang/src/wizards.php, line: 86
+msgid "Address of the RADIUS server."
+msgstr "Адрес RADIUS сервера."
+
+#
+# File: /usr/lang/src/wizards.php, line: 87
+msgid "Admin Password"
+msgstr "Пароль администратора"
+
+#
+# File: /usr/lang/src/wizards.php, line: 88
+msgid "Admin Password AGAIN"
+msgstr "Пароль администратора ПОВТОР"
+
+#
+# File: /usr/lang/src/wizards.php, line: 90
+msgid "Allow DNS servers to be overridden by DHCP/PPP on WAN"
+msgstr "Разрешить переопделение DNS серверов настройками DHCP/PPP на WAN"
+
+#
+# File: /usr/lang/src/wizards.php, line: 91
+msgid "Allow communication between clients connected to this server."
+msgstr "Разрешить соединения между клиентами, подключенными к этому серверу."
+
+#
+# File: /usr/lang/src/wizards.php, line: 92
+msgid ""
+"Allow connected clients to retain their connections if their IP address "
+"changes."
+msgstr ""
+"Разрешить клиентам сохранять соединение, если их IP адрес "
+"поменялся."
+
+#
+# File: /usr/lang/src/wizards.php, line: 93
+msgid ""
+"Allow multiple concurrent connections from clients using the same Common "
+"Name.<br/>NOTE: This is not generally recommended, but may be needed for "
+"some scenarios."
+msgstr ""
+"Разрешить множественные одновременные подключения клиентов с одинаковым Common "
+"Name.<br/>ПАМЯТКА: Как правило, это не рекомендуется, но может быть необходимо для "
+"некоторых сценариев."
+
+#
+# File: /usr/lang/src/wizards.php, line: 95
+msgid "Authentication Containers"
+msgstr "Контейнер аутентификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 96
+msgid "Authentication Port"
+msgstr "Порт аутентификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 97
+msgid "Automatically generate a shared TLS authentication key."
+msgstr "Автоматически генерировать открытый ключ аутентификации TLS."
+
+#
+# File: /usr/lang/src/wizards.php, line: 98
+msgid "Block RFC1918 Private Networks"
+msgstr "Блокировать частные сети RFC1918"
+
+#
+# File: /usr/lang/src/wizards.php, line: 102
+msgid "Choose a Certificate Authority (CA)"
+msgstr "Выберите Центр Сертификации (CA)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 103
+msgid "Choose a Server Certificate"
+msgstr "Выберите сертификат сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 105
+msgid "City or other Locality name (e.g. Middelharnis, Leipzig, Louisville)."
+msgstr "Город или иное название места (например, Лейпциг, Москва, Гадюкино)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 106
+msgid "Click 'Reload' to reload TING with new changes."
+msgstr "Нажмите 'Перезагрузить' для перезагрузки TING с новыми настройками."
+
+#
+# File: /usr/lang/src/wizards.php, line: 109
+msgid "Concurrent Connections"
+msgstr "Одновременные подключения"
+
+#
+# File: /usr/lang/src/wizards.php, line: 110
+msgid "Configuration Complete!"
+msgstr "Конфигурирование завершено!"
+
+#
+# File: /usr/lang/src/wizards.php, line: 111
+msgid "Configure LAN Interface"
+msgstr "Конфигурация LAN интерфейса"
+
+#
+# File: /usr/lang/src/wizards.php, line: 112
+msgid "Configure WAN Interface"
+msgstr "Конфигурация WAN интерфейса"
+
+#
+# File: /usr/lang/src/wizards.php, line: 114
+msgid "Create a New Certificate Authority (CA) Certificate"
+msgstr "Создать новый Сертификат Центра Сертификации (CA)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 115
+msgid "Create a New Server Certificate"
+msgstr "Создать новый Сертификат сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 116
+msgid "Create new Certificate"
+msgstr "Создать новый Сертификат"
+
+#
+# File: /usr/lang/src/wizards.php, line: 120
+msgid "DHCP Hostname"
+msgstr "Имя хоста для DHCP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 123
+msgid "DNS Server 1"
+msgstr "DNS сервер 1"
+
+#
+# File: /usr/lang/src/wizards.php, line: 124
+msgid "DNS Server 2"
+msgstr "DNS сервер 2"
+
+#
+# File: /usr/lang/src/wizards.php, line: 125
+msgid "DNS Server 3"
+msgstr "DNS сервер 3"
+
+#
+# File: /usr/lang/src/wizards.php, line: 126
+msgid "DNS Server 4"
+msgstr "DNS сервер 4"
+
+#
+# File: /usr/lang/src/wizards.php, line: 127
+msgid "DNS server to provide for connecting client systems."
+msgstr "DNS сервер, предоставляемый подключаемым клиентам."
+
+#
+# File: /usr/lang/src/wizards.php, line: 130
+msgid "Descriptive name for the RADIUS server, for your reference."
+msgstr "Описательное имя для RADIUS сервера."
+
+#
+# File: /usr/lang/src/wizards.php, line: 131
+msgid "Descriptive server name, for your own reference."
+msgstr "Описательное имя сервера."
+
+#
+# File: /usr/lang/src/wizards.php, line: 133
+msgid "Domain name field is invalid"
+msgstr "Поле имени домена заполнено неправильно"
+
+#
+# File: /usr/lang/src/wizards.php, line: 136
+msgid "EXAMPLE: mydomain.com"
+msgstr "ПРИМЕР: mydomain.com"
+
+#
+# File: /usr/lang/src/wizards.php, line: 137
+msgid "EXAMPLE: myserver"
+msgstr "ПРИМЕР: myserver"
+
+#
+# File: /usr/lang/src/wizards.php, line: 138
+msgid "Email"
+msgstr "Email"
+
+#
+# File: /usr/lang/src/wizards.php, line: 139
+msgid ""
+"Email address for the Certificate contact. Often the email of the person "
+"generating the certificate (i.e. You.)"
+msgstr ""
+"Адрес email для контакта Сертификата. Часто это email человека "
+"сгенерировавшего Сертификат (т.е. Вы.)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 140
+msgid ""
+"Enable NetBIOS over TCP/IP. <br/>If this option is not set, all NetBIOS-over-"
+"TCP/IP options (including WINS) will be disabled. "
+msgstr ""
+"Разрешить NetBIOS через TCP/IP. <br/>Если эта опция не установлена, все NetBIOS-через-"
+"TCP/IP опции (включая WINS) будут отключены. "
+
+#
+# File: /usr/lang/src/wizards.php, line: 141
+msgid "Enable authentication of TLS packets."
+msgstr "Разрешить аутентификацию TLS пакетов."
+
+#
+# File: /usr/lang/src/wizards.php, line: 142
+msgid "Encryption Algorithm"
+msgstr "Алгоритм шифрования"
+
+#
+# File: /usr/lang/src/wizards.php, line: 143
+msgid ""
+"Enter any additional options you would like to add to the OpenVPN server "
+"configuration here, separated by a semicolon. EXAMPLE: push \"route 10.0.0.0 "
+"255.255.255.0\""
+msgstr ""
+"Введите любые дополнительные опции, которые Вы хотите добавить в конфигурацию OpenVPN сервера "
+" здесь, разделённые точкой с запятой. ПРИМЕР: push \"route 10.0.0.0 "
+"255.255.255.0\""
+
+#
+# File: /usr/lang/src/wizards.php, line: 144
+msgid "Enter the hostname (FQDN) of the time server."
+msgstr "Укажите полное имя сервера времени."
+
+#
+# File: /usr/lang/src/wizards.php, line: 146
+msgid "Finish"
+msgstr "Конец"
+
+#
+# File: /usr/lang/src/wizards.php, line: 147
+msgid "Firewall Rule"
+msgstr "Правило межсетевого экрана"
+
+#
+# File: /usr/lang/src/wizards.php, line: 148
+msgid "Firewall Rule Configuration"
+msgstr "Конфигурация правила межсетевого экрана"
+
+#
+# File: /usr/lang/src/wizards.php, line: 149
+msgid ""
+"Firewall Rules control what network traffic is permitted. You must add rules "
+"to allow traffic to the OpenVPN server's IP and port, as well as allowing "
+"traffic from connected clients through the tunnel. These rules can be "
+"automatically added here, or configured manually after completing the wizard."
+msgstr ""
+"Правила межсетевого экрана контролируют какой трафик разрешен. Вы должны добавить правила "
+"для разрешения трафика на IP адрес и порт OpenVPN сервера, также как для разрешения "
+"трафика от клиентов через туннель. Эти правила могут быть автоматически созданы здесь "
+"или добавлены вручную после завершения этого Мастера."
+
+#
+# File: /usr/lang/src/wizards.php, line: 150
+msgid "Force all client generated traffic through the tunnel."
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 151
+msgid ""
+"Full State of Province name, not abbreviated (e.g. Zuid Holland, Sachsen, "
+"Paris, Kentucky)."
+msgstr ""
+"Полное имя региона, без аббревиатур (например, Zuid Holland, Sachsen, "
+"Paris, Kentucky)."
+
+#
+# File: /usr/lang/src/wizards.php, line: 152
+msgid "Gateway IP Address field is invalid"
+msgstr "Поле IP адреса шлюза заполнено неправильно"
+
+#
+# File: /usr/lang/src/wizards.php, line: 153
+msgid "General Information"
+msgstr "Основная информация"
+
+#
+# File: /usr/lang/src/wizards.php, line: 154
+msgid "General OpenVPN Server Information"
+msgstr "Основная информация OpenVPN сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 156
+msgid "Generate TLS Key"
+msgstr "Генерировать ключ TLS"
+
+#
+# File: /usr/lang/src/wizards.php, line: 157
+msgid "Group Naming Attribute"
+msgstr "Атрибут имени группы"
+
+#
+# File: /usr/lang/src/wizards.php, line: 163
+msgid "IP Address field is invalid"
+msgstr "Поле IP адреса заполнено неправильно"
+
+#
+# File: /usr/lang/src/wizards.php, line: 164
+msgid ""
+"If a user DN was supplied above, this password will also be used when "
+"performing a bind operation."
+msgstr ""
+"Если DN пользователя был указан выше, этот пароль также будет использован "
+"в процессе привязки."
+
+#
+# File: /usr/lang/src/wizards.php, line: 165
+msgid "If left blank, an anonymous bind will be done."
+msgstr "Если оставить пустым, будет осуществлена анонимная привязка."
+
+#
+# File: /usr/lang/src/wizards.php, line: 167
+msgid "Inter-Client Communication"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 169
+msgid "Invalid Hostname"
+msgstr "Неверное имя хоста"
+
+#
+# File: /usr/lang/src/wizards.php, line: 171
+msgid "LAN IP Address"
+msgstr "IP адрес LAN"
+
+#
+# File: /usr/lang/src/wizards.php, line: 172
+msgid "LAN IP Address field is invalid"
+msgstr "Поле IP адреса LAN заполнено неправильно"
+
+#
+# File: /usr/lang/src/wizards.php, line: 174
+msgid "LDAP Authentication Server List"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 175
+msgid "LDAP Authentication Server Parameters"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 176
+msgid "LDAP Bind Password"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 177
+msgid "LDAP Bind User DN"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 178
+msgid ""
+"LDAP Server port, leave blank for the default (389 for TCP, 636 for SSL)."
+msgstr ""
+"Порт LDAP сервера, оставьте пустым для значений по-умолчанию (389 для TCP, 636 для SSL)."
+
+#
+# File: /usr/lang/src/wizards.php, line: 179
+msgid "LDAP servers"
+msgstr "Серверы LDAP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 182
+msgid "Lifetime in days. This is commonly set to 365 (Approximately 1 year.)"
+msgstr "Время жизни в днях. Обычно устанавливается в 365 (примерно год)."
+
+#
+# File: /usr/lang/src/wizards.php, line: 184
+msgid "Local Port"
+msgstr "Локальный порт"
+
+#
+# File: /usr/lang/src/wizards.php, line: 185
+msgid "Local User Access"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 186
+msgid ""
+"Local port upon which OpenVPN will listen for connections. The default port "
+"is 1194. Leave this blank unless you need to use a different port."
+msgstr ""
+"Локальный порт, на котором OpenVPN будет принимать соединения. Порт по-умолчанию "
+"1194. Оставьте пустым, если Вам не надо использовать другой порт."
+
+#
+# File: /usr/lang/src/wizards.php, line: 187
+msgid "MAC Address"
+msgstr "MAC адрес"
+
+#
+# File: /usr/lang/src/wizards.php, line: 188
+msgid "MAC Address field is invalid"
+msgstr "Поле MAC адреса заполнено неправильно"
+
+#
+# File: /usr/lang/src/wizards.php, line: 191
+msgid "Member Naming Attribute"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 192
+msgid "NTP Server"
+msgstr "NTP сервер"
+
+#
+# File: /usr/lang/src/wizards.php, line: 193
+msgid "NTP Server 2"
+msgstr "NTP сервер 2"
+
+#
+# File: /usr/lang/src/wizards.php, line: 195
+msgid "NetBIOS Node Type"
+msgstr "Тип узла NetBIOS"
+
+#
+# File: /usr/lang/src/wizards.php, line: 197
+msgid "NetBIOS Scope ID"
+msgstr "ID пространства NetBIOS"
+
+#
+# File: /usr/lang/src/wizards.php, line: 198
+msgid "Network Time Protocol server to provide for connecting client systems."
+msgstr "Сервер синхронизации времени для подключаемых клиентов."
+
+#
+# File: /usr/lang/src/wizards.php, line: 199
+msgid "Next"
+msgstr "Далее"
+
+#
+# File: /usr/lang/src/wizards.php, line: 200
+msgid "On this screen we will configure the Local Area Network information."
+msgstr "На этой странице установите конфигурацию локальной сети (LAN)."
+
+#
+# File: /usr/lang/src/wizards.php, line: 201
+msgid "On this screen we will configure the Wide Area Network information."
+msgstr "На этой странице укажите конфигурацию внешней сети (WAN)."
+
+#
+# File: /usr/lang/src/wizards.php, line: 202
+msgid ""
+"On this screen we will set the admin password, which is used to access the "
+"WebGUI and also SSH services if you wish to enable them."
+msgstr ""
+"На этой странице укажите пароль администратора, который будет использоваться для доступа "
+"к WEB-интерфейсу а также к сервису SSH, если он включён."
+
+#
+# File: /usr/lang/src/wizards.php, line: 203
+msgid "On this screen you will set the general TING parameters."
+msgstr "На этой странице Вы останавливаете основные параметры TING."
+
+#
+# File: /usr/lang/src/wizards.php, line: 205
+msgid "OpenVPN Remote Access Server Setup Wizard"
+msgstr "Мастер настройки удалённого доступа OpenVPN"
+
+#
+# File: /usr/lang/src/wizards.php, line: 206
+msgid "OpenVPN Wizard: Add Certificate Authority"
+msgstr "Мастер OpenVPN: Добавление Центра Сертификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 207
+msgid "OpenVPN Wizard: Add LDAP Server"
+msgstr "Мастер OpenVPN: Добавление LDAP сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 208
+msgid "OpenVPN Wizard: Add RADIUS Server"
+msgstr "Мастер OpenVPN: Добавление RADIUS сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 209
+msgid "OpenVPN Wizard: Add a Server Certificate"
+msgstr "Мастер OpenVPN: Добавление сертификат сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 210
+msgid "OpenVPN Wizard: Authentication Type Selection"
+msgstr "Мастер OpenVPN: Выбор типа аутентификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 211
+msgid "OpenVPN Wizard: Certificate Authority Selection"
+msgstr "Мастер OpenVPN: Выбор центра сертификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 212
+msgid "OpenVPN Wizard: Finished!"
+msgstr "Мастер OpenVPN: Завершено!"
+
+#
+# File: /usr/lang/src/wizards.php, line: 213
+msgid "OpenVPN Wizard: Firewall Rule Configuration"
+msgstr "Мастер OpenVPN: Настройка правил межсетевого экрана"
+
+#
+# File: /usr/lang/src/wizards.php, line: 214
+msgid "OpenVPN Wizard: LDAP Server Selection"
+msgstr "Мастер OpenVPN: Выбор LDAP сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 215
+msgid "OpenVPN Wizard: RADIUS Server Selection"
+msgstr "Мастер OpenVPN: Выбор RADIUS сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 216
+msgid "OpenVPN Wizard: Server Certificate Selection"
+msgstr "Мастер OpenVPN: Выбор сертификата сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 217
+msgid "OpenVPN Wizard: Server Setup"
+msgstr "Мастер OpenVPN: Настройка сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 218
+msgid "OpenVPN rule"
+msgstr "Правило OpenVPN"
+
+#
+# File: /usr/lang/src/wizards.php, line: 220
+msgid "Organization name, often the Company or Group name."
+msgstr "Наименование организации, как правило, название компании или группы."
+
+#
+# File: /usr/lang/src/wizards.php, line: 221
+msgid "Override DNS"
+msgstr "Переопределять DNS"
+
+#
+# File: /usr/lang/src/wizards.php, line: 223
+msgid "PPPoE Dial on demand"
+msgstr "PPPoE соединение по требованию"
+
+#
+# File: /usr/lang/src/wizards.php, line: 224
+msgid "PPPoE Idle timeout"
+msgstr "Таймаут отключения PPPoE"
+
+#
+# File: /usr/lang/src/wizards.php, line: 225
+msgid "PPPoE Password"
+msgstr "Пароль PPPoE"
+
+#
+# File: /usr/lang/src/wizards.php, line: 226
+msgid "PPPoE Service name"
+msgstr "Имя сервиса PPPoE"
+
+#
+# File: /usr/lang/src/wizards.php, line: 227
+msgid "PPPoE Username"
+msgstr "Имя пользователя PPPoE"
+
+#
+# File: /usr/lang/src/wizards.php, line: 230
+msgid "PPTP Dial on demand"
+msgstr "Соединение PPTP по требованию"
+
+#
+# File: /usr/lang/src/wizards.php, line: 231
+msgid "PPTP Idle timeout"
+msgstr "Таймаут отключения PPTP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 232
+msgid "PPTP Local IP Address"
+msgstr "Локальный IP адрес PPTP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 233
+msgid "PPTP Local IP Address field is invalid"
+msgstr "Поле локального IP адреса PPTP заполнено неправильно"
+
+#
+# File: /usr/lang/src/wizards.php, line: 234
+msgid "PPTP Password"
+msgstr "Пароль PPTP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 235
+msgid "PPTP Remote IP Address"
+msgstr "IP адрес сервера PPTP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 236
+msgid "PPTP Remote IP Address field is invalid"
+msgstr "Поле IP адреса сервера PPTP заполнено неправильно"
+
+#
+# File: /usr/lang/src/wizards.php, line: 237
+msgid "PPTP Username"
+msgstr "Имя пользователя PPTP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 238
+msgid "PPTP configuration"
+msgstr "Конфигурация PPTP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 239
+msgid "Paste in a shared TLS key if one has already been generated."
+msgstr "Вставьте публичный ключ TLS если он уже создан."
+
+#
+# File: /usr/lang/src/wizards.php, line: 240
+msgid "Please enter the time, date and time zone."
+msgstr "Пожалуйста, укажите сервер времени и часовой пояс."
+
+#
+# File: /usr/lang/src/wizards.php, line: 242
+msgid ""
+"Port used by the RADIUS server for accepting Authentication requests, "
+"typically 1812."
+msgstr ""
+"Порт RADIUS сервера для запросов аутентификации, "
+"обычно 1812."
+
+#
+# File: /usr/lang/src/wizards.php, line: 243
+msgid "Primary DNS Server"
+msgstr "Первичный DNS сервер"
+
+#
+# File: /usr/lang/src/wizards.php, line: 244
+msgid "Primary DNS Server field is invalid"
+msgstr "Поле первичного DNS сервера заполнено неправильно"
+
+#
+# File: /usr/lang/src/wizards.php, line: 246
+msgid "Provide a default domain name to clients."
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 247
+msgid "Provide a virtual adapter IP address to clients (see Tunnel Network)."
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 248
+msgid "RADIUS Authentication Server List"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 249
+msgid "RADIUS Authentication Server Parameters"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 250
+msgid "RADIUS servers"
+msgstr "RADIUS серверы"
+
+#
+# File: /usr/lang/src/wizards.php, line: 251
+msgid "RFC1918 Networks"
+msgstr "RFC1918 сети"
+
+#
+# File: /usr/lang/src/wizards.php, line: 254
+msgid "Reload"
+msgstr "Перезагрузить"
+
+#
+# File: /usr/lang/src/wizards.php, line: 255
+msgid "Reload configuration"
+msgstr "Перезагрузить конфигурацию"
+
+#
+# File: /usr/lang/src/wizards.php, line: 256
+msgid "Reload in progress"
+msgstr "В процессе перезагрузки"
+
+#
+# File: /usr/lang/src/wizards.php, line: 258
+msgid "Search Scope Base DN"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 259
+msgid "Search Scope Level"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 260
+msgid "Secondary DNS Server"
+msgstr "Вторичный DNS сервер"
+
+#
+# File: /usr/lang/src/wizards.php, line: 261
+msgid "Secondary DNS Server field is invalid"
+msgstr "Поле вторичного DNS сервера заполнено неправильно"
+
+#
+# File: /usr/lang/src/wizards.php, line: 262
+msgid "Select an Authentication Backend Type"
+msgstr "Выбор типа аутентификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 263
+msgid "SelectedType"
+msgstr "Укажите тип"
+
+#
+# File: /usr/lang/src/wizards.php, line: 264
+msgid ""
+"Semicolon separated. This will be prepended to the search base DN above or "
+"you can specify full container path.<br/>EXAMPLE: CN=Users;DC=example<br/"
+">EXAMPLE: CN=Users,DC=example,DC=com;OU=OtherUsers,DC=example,DC=com "
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 265
+msgid "Set Admin WebGUI Password"
+msgstr "Установите пароль администратора на WEB-интерфейс"
+
+#
+# File: /usr/lang/src/wizards.php, line: 266
+msgid ""
+"Set the TOS IP header value of tunnel packets to match the encapsulated "
+"packet value."
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 268
+msgid ""
+"Specify the maximum number of clients allowed to concurrently connect to "
+"this server."
+msgstr ""
+"Укажите максимальное количество клиентов, одновременно подключенных к "
+"этому серверу."
+
+#
+# File: /usr/lang/src/wizards.php, line: 270
+msgid "Static"
+msgstr "Статический"
+
+#
+# File: /usr/lang/src/wizards.php, line: 271
+msgid "Static IP Configuration"
+msgstr "Статическая конфигурация IP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 272
+msgid "Subnet Mask"
+msgstr "Маска подсети"
+
+#
+# File: /usr/lang/src/wizards.php, line: 275
+msgid "TING Setup Wizard"
+msgstr "Мастер настройки TING"
+
+#
+# File: /usr/lang/src/wizards.php, line: 277
+msgid "TLS Shared Key"
+msgstr "Публичный ключ TLS"
+
+#
+# File: /usr/lang/src/wizards.php, line: 278
+msgid ""
+"The interface where OpenVPN will listen for incoming connections (typically "
+"WAN.)"
+msgstr ""
+"Интерфейс, на котором OpenVPN будет принимать входяцие соединения (обычно "
+"WAN.)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 279
+msgid ""
+"This is the IPv4 virtual network used for private communications between "
+"this server and client hosts expressed using CIDR notation (eg. "
+"10.0.8.0/24). The first network address will be assigned to the server "
+"virtual interface. The remaining network addresses can optionally be "
+"assigned to connecting clients. (see Address Pool)"
+msgstr ""
+"Это IPv4 виртуальная сеть, используемая для частных соединений между "
+"этим сервером и хостами клиентов, выраженная в виде CIDR нотации (т.е. "
+"10.0.8.0/24). Первый сетевой адрес будет присвоен виртуальному интерфесу "
+"этого сервера. Остальные сетевые адреса могут быть опционально присвоены "
+"подключающимся клиентам. (см. Address Pool)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 280
+msgid ""
+"This is the network that will be accessible from the remote endpoint, "
+"expressed as a CIDR range. You may leave this blank if you don't want to add "
+"a route to the local network through this tunnel on the remote machine. This "
+"is generally set to your LAN network."
+msgstr ""
+"Это сеть, которая будет доступна с удалённых точек, "
+"выраженная в виде дипазона CIDR. Вы можете оставить это поле пустым, если не хотите "
+"добавлять маршрут в локальную сеть через этот туннель на удалённую машину. Здесь, "
+"как правило, указывается LAN сеть."
+
+#
+# File: /usr/lang/src/wizards.php, line: 281
+msgid ""
+"This option causes the interface to operate in dial-on-demand mode, allowing "
+"you to have a virtual full time connection. The interface is configured, but "
+"the actual connection of the link is delayed until qualifying outgoing "
+"traffic is detected."
+msgstr ""
+"Это опция заставляет интерфейс работать в режиме соединение-по-требовани, позволяя "
+"Вам иметь виртуальное постоянное соединение. Интерфейс настроен, но "
+"реальное соединение отложено до того момента, когда будет обнаружен "
+"исходящий трафик."
+
+#
+# File: /usr/lang/src/wizards.php, line: 282
+msgid "This wizard will guide you through the initial configuration of TING."
+msgstr "Этот мастер проведёт Вас через первичную настройку TING."
+
+#
+# File: /usr/lang/src/wizards.php, line: 283
+msgid "Time Server Information"
+msgstr "Настройка времени"
+
+#
+# File: /usr/lang/src/wizards.php, line: 284
+msgid "Time server hostname"
+msgstr "Имя сервера времени"
+
+#
+# File: /usr/lang/src/wizards.php, line: 285
+msgid "Timezone"
+msgstr "Часовой пояс"
+
+#
+# File: /usr/lang/src/wizards.php, line: 286
+msgid "Traffic from clients through VPN"
+msgstr "Трафик от клиентов через VPN"
+
+#
+# File: /usr/lang/src/wizards.php, line: 287
+msgid "Traffic from clients to server"
+msgstr "Трафик от клиентов к серверу"
+
+#
+# File: /usr/lang/src/wizards.php, line: 291
+msgid "Two-letter ISO country code (e.g. NL, DE, FR, US) "
+msgstr "Двухбуквенный код страны ISO (например, RU, FR, US)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 292
+msgid "Type of Server"
+msgstr "Тип сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 294
+msgid "Typically \"cn\" (OpenLDAP, Microsoft AD, and Novell eDirectory)"
+msgstr "Обычно \"cn\" (OpenLDAP, Microsoft AD, and Novell eDirectory)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 295
+msgid ""
+"Typically \"cn\" (OpenLDAP, Novell eDirectory), \"samAccountName"
+"\" (Microsoft AD)"
+msgstr ""
+"Обычно \"cn\" (OpenLDAP, Novell eDirectory), \"samAccountName"
+"\" (Microsoft AD)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 296
+msgid ""
+"Typically \"member\" (OpenLDAP), \"memberOf\" (Microsoft AD), \"uniqueMember"
+"\" (Novell eDirectory)"
+msgstr ""
+"Обычно \"member\" (OpenLDAP), \"memberOf\" (Microsoft AD), \"uniqueMember"
+"\" (Novell eDirectory)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 298
+msgid "Upstream Gateway"
+msgstr "Основной шлюз"
+
+#
+# File: /usr/lang/src/wizards.php, line: 299
+msgid "User Naming Attribute"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 300
+msgid "WINS Server 1"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 301
+msgid "WINS Server 2"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 302
+msgid ""
+"When set, this option blocks traffic from IP addresses that are reserved "
+"(but not RFC 1918) or not yet assigned by IANA. Bogons are prefixes that "
+"should never appear in the Internet routing table, and obviously should not "
+"appear as the source address in any packets you receive."
+msgstr ""
+"Когда включена, эта опция блокирует трафик с IP адресов, которые зарезервированы "
+"(но не RFC 1918) или не назначены IANA. Bogon сети - это префиксы, которые "
+"никогда не должны появляться в таблицах маршрутизации Интернета, и очевидно не должны "
+"появляться в качестве адреса источника в пакетах, которые Вы получаете."
+
+#
+# File: /usr/lang/src/wizards.php, line: 303
+msgid "Wizard completed."
+msgstr "Мастер завершён."
+
+#
+# File: /usr/lang/src/wizards.php, line: 304
+msgid "Your configuration is now complete."
+msgstr "Конфигурация закончена."
+
+#
+# File: /usr/lang/src/wizards.php, line: 305
+msgid "addrpool"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 306
+msgid "authscope"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 307
+msgid "authserv"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 308
+msgid "authtype"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 309
+msgid "basedn"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 310
+msgid "certca"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 311
+msgid "certname"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 312
+msgid "city"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 313
+msgid "compression"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 314
+msgid "concurrentcon"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 315
+msgid "country"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 316
+msgid "crypto"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 317
+msgid "defaultdomain"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 318
+msgid "descr"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 320
+msgid "dhparameters"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 321
+msgid "digest"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 322
+msgid "dnserver2"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 323
+msgid "dnserver3"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 324
+msgid "dnserver4"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 325
+msgid "dnsserver1"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 326
+msgid "dummy"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 327
+msgid "duplicate_cn"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 328
+msgid "dynip"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 330
+msgid "engine"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 331
+msgid "generatetlskey"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 332
+msgid "groupattr"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 333
+msgid "interclient"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 335
+msgid "ip"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 336
+msgid "keylength"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 337
+msgid "lifetime"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 338
+msgid "localnet"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 339
+msgid "localport"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 340
+msgid "memberattr"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 341
+msgid "name"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 342
+msgid "nameattr"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 343
+msgid "nbtenable"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 344
+msgid "nbtscope"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 345
+msgid "nbttype"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 346
+msgid "ntpserver1"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 347
+msgid "ntpserver2"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 348
+msgid "organization"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 349
+msgid "ovpnallow"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 350
+msgid "ovpnrule"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 351
+msgid "passdn"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 352
+msgid "port"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 353
+msgid "pptplocalsubnet"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 354
+msgid "redirectgw"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 355
+msgid "scope"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 357
+msgid "state"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 358
+msgid "tlssharedkey"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 359
+msgid "tos"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 360
+msgid "transport"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 361
+msgid "tunnelnet"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 362
+msgid "userdn"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 363
+msgid "winsserver1"
+msgstr ""
+
+#
+# File: /usr/lang/src/wizards.php, line: 364
+msgid "winsserver2"
+msgstr ""
+
