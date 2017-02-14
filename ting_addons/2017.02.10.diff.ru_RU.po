@@ -1,0 +1,454 @@
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/Netpolice/Netpolice.php, line: 50
+# File: /usr/core/src/www/ting_cert.php, line: 176
+msgid "License is not valid for this device"
+msgstr "Лицензия недействительна для этого устройства"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/Netpolice/Netpolice.php, line: 45
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/Netpolice/Netpolice.php, line: 48
+# File: /usr/core/src/www/ting_cert.php, line: 173
+msgid "Can not validate certificate"
+msgstr "Не удалось удостоверить сертификат"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 211
+# File: /usr/core/src/www/guiconfig.inc, line: 611
+msgid "Configuration and executable are authentic"
+msgstr "Конфигурация и исполняемые файлы подлинны"
+
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Syslog/logview.volt, line: 67
+msgid "Download log file"
+msgstr "Скачать лог файл"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Core/Config.php, line: 298
+msgid "Checksum for /usr/local/etc/config.xml missing. Anyware using this file"
+msgstr "Контрольная сумма для /usr/local/etc/config.xml отсутствует, тем не менее, использован этот файл"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Core/Config.php, line: 294
+msgid "No valid config.xml found, attempting to restore factory config."
+msgstr "Файл конфигурации повреждён, восстановлена начальная версия."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Core/Config.php, line: 290
+msgid "No valid config.xml found, attempting last known config restore."
+msgstr "Файл конфигурации повреждён, использована последняя достоверная версия конфигурации."
+
+#
+# File: /usr/core/src/etc/checksum.php, line: 24
+msgid "missing file"
+msgstr "файл отсутствует"
+
+#
+# File: /usr/core/src/etc/checksum.php, line: 23
+msgid "checksum mismatch for"
+msgstr "ошибка контрольной суммы для"
+
+#
+# File: /usr/core/src/etc/checksum.php, line: 22
+msgid "No such file or directory"
+msgstr "Файл не найден"
+
+#
+# File: /usr/core/src/etc/checksum.php, line: 21
+msgid "crc does not match"
+msgstr "ошибка CRC"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 241
+msgid "successfull\n"
+msgstr "успешно\n"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 66
+msgid "\\\" will be removed"
+msgstr "\\\" будут удалены"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/squidlog.volt, line: 279
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 269
+msgid "Last visit"
+msgstr "Последнее посещение"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/squidlog.volt, line: 278
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 268
+msgid "First visit"
+msgstr "Первое посещение"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/squidlog.volt, line: 276
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 266
+msgid "Requests"
+msgstr "Запросы"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/squidlog.volt, line: 268
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 258
+msgid "TIP"
+msgstr ""
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/squidlog.volt, line: 268
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 258
+msgid ""
+"Click on table row for more detalization. Click on domain or URL link to "
+"open corresponding resource in a separate tab."
+msgstr ""
+"Нажмите на строке таблицы для детализации. Нажмите на ссылке домена или URL для "
+"того, чтобы открыть соответствующий ресурс в отдельной вкладке."
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/squidlog.volt, line: 106
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 105
+msgid "Users IP"
+msgstr "IP-адрес пользователя"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 253
+msgid "*DONE*"
+msgstr "*СДЕЛАНО*"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 16
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 17
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 20
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/plugins.volt, line: 17
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 17
+# File: /usr/plugins/devel/ting-plugin-sqlite-squid-log/src/opnsense/mvc/app/views/SmartSoft/SqliteSquidLog/index.volt, line: 16
+msgid "No results found!"
+msgstr "Нет данных"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 15
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 16
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 19
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/plugins.volt, line: 16
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 16
+# File: /usr/plugins/devel/ting-plugin-sqlite-squid-log/src/opnsense/mvc/app/views/SmartSoft/SqliteSquidLog/index.volt, line: 15
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/IndexController.php, line: 12
+msgid "Squid Log"
+msgstr "Лог Веб-прокси"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/SquidlogController.php, line: 218
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/Api/DataController.php, line: 199
+msgid "User IPs"
+msgstr "IP-адреса пользователей"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/Netpolice/Netpolice.php, line: 40
+msgid "Certificate for NETPOLICE expired"
+msgstr "Срок действия сертификата для NETPOLICE истёк"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/Netpolice/Netpolice.php, line: 33
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/Netpolice/Netpolice.php, line: 37
+msgid "Not found License for NETPOLICE"
+msgstr "Не найдена лицензия для NETPOLICE"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/controllers/SmartSoft/Netpolice/IndexController.php, line: 10
+msgid "Netpolice sites categories"
+msgstr "Netpolice: категории ресурсов"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 30
+msgid "Busy"
+msgstr "Ожидание"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 210
+msgid "Tunnel"
+msgstr "Туннель"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 209
+msgid "Cmsconfigversion"
+msgstr "Версия конфигурации"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 208
+msgid "Load"
+msgstr "Загрузить"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 135
+msgid "Not set"
+msgstr "Не установлено"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 88
+msgid "Open logging tunnel"
+msgstr "Открыть туннель протоколирования"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 79
+msgid "Revert config"
+msgstr "Восстановить конфигурацию"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 56
+msgid "Config reverted"
+msgstr "Конфигурация восстановлена"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 66
+msgid "Elements \\\""
+msgstr "Елементы \\\"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 65
+msgid "Remove existing elements"
+msgstr "Удалить существующие элементы"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 15
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 43
+msgid "Request failed"
+msgstr "Ошибка запроса"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 59
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 111
+msgid "offline"
+msgstr ""
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 115
+msgid "Error adding user "
+msgstr "Ошибка добавления пользователя "
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 100
+msgid "Login error to "
+msgstr ""
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 77
+msgid "Invalid host address "
+msgstr ""
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 40
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 56
+msgid "Connection error to "
+msgstr "Ошибка соединения с "
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/UpdatesController.php, line: 82
+msgid " upgraded: "
+msgstr "обновлено: "
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 250
+msgid "error"
+msgstr "ошибка"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 234
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 238
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 241
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 244
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 250
+msgid "Node"
+msgstr "Узел"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 226
+#, php-format
+msgid "Node version lower then %s. Please update node."
+msgstr "Версия узла меньше, чем %s. Пожалуйста обновите узел."
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 182
+#, php-format
+msgid "Config error. Reference '%s' ambiguity."
+msgstr "Ошибка конфигурации. Неоднозначность ссылки '%s'."
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 179
+#, php-format
+msgid "Config error. Reference '%s' not found."
+msgstr "Ошибка конфигурации. Ссылка '%s' не найдена."
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 56
+msgid "Configuration of node"
+msgstr "Конфигурация узла"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 19
+msgid "Authentication Servers"
+msgstr "Серверы авторизации"
+
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 137
+#, php-format
+msgid "Reference to object '%s' not found."
+msgstr "Ссылка на объект '%s' не найдена."
+
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 140
+#, php-format
+msgid "Reference to object '%s' ambiguity."
+msgstr "Неоднозначность ссылки на объект '%s'."
+
+
+#
+# File: /usr/lang/src/controllers.php, line: 592
+msgid ""
+"All data older than storage period will be removed during daily database "
+"cleanup procedure."
+msgstr ""
+"Все данные, старше указанного периода, будут удалены во время ежедневной "
+"процедуры очистки."
+
+#
+# File: /usr/lang/src/controllers.php, line: 593
+msgid "Begin of period"
+msgstr "Начало периода"
+
+#
+# File: /usr/lang/src/controllers.php, line: 594
+msgid "Begin of report period"
+msgstr "Начало периода отчёта"
+
+#
+# File: /usr/lang/src/controllers.php, line: 595
+msgid "Blocked traffic"
+msgstr "Заблокированный трафик"
+
+#
+# File: /usr/lang/src/controllers.php, line: 596
+msgid "Data storage period (days)"
+msgstr "Срок хранения данных (в днях)"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/SquidlogController.php, line: 216
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/squidlog.volt, line: 104
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/Api/DataController.php, line: 197
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 103
+# File: /usr/lang/src/controllers.php, line: 597
+msgid "Domains"
+msgstr "Домены"
+
+#
+# File: /usr/lang/src/controllers.php, line: 598
+msgid "End of period"
+msgstr "Конец периода"
+
+#
+# File: /usr/lang/src/controllers.php, line: 599
+msgid "End of report period"
+msgstr "Конец периода отчёта"
+
+#
+# File: /usr/lang/src/controllers.php, line: 600
+msgid "Filters"
+msgstr "Фильтры"
+
+#
+# File: /usr/lang/src/controllers.php, line: 601
+msgid ""
+"List of destination URLs.<br/>\n"
+"        Use a comma or press Enter for new item.<br/>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+"Список URL.<br/>\n"
+"        Используйте запятую или нажмите Enter для добавлния нового элемента.<br/>\n"
+"        <div class=\"text-info\"><b>Совет: </b>Вы также можете вставить в это поле "
+"список элементов, разделённых запятыми.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 604
+msgid ""
+"List of destination domains. No query path part.<br/>\n"
+"        Use a comma or press Enter for new item.<br/>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+"Список доменов. Без пути запроса.<br/>\n"
+"        Используйте запятую или нажмите Enter для добавлния нового элемента.<br/>\n"
+"        <div class=\"text-info\"><b>Совет: </b>Вы также можете вставить в это поле "
+"список элементов, разделённых запятыми.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 607
+msgid ""
+"MIME type reply.<br/>\n"
+"        You may use a regular expression, use a comma or press Enter for new "
+"item.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">video/flv</b> -> matches on <b>Flash "
+"Video</b><br/>\n"
+"            <b class=\"text-primary\">application/x-javascript</b> -> "
+"matches on <b>javascripts</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 615
+msgid "MIME-type"
+msgstr "MIME-тип"
+
+#
+# File: /usr/lang/src/controllers.php, line: 616
+msgid "Min response size in bytes"
+msgstr "Минимальный размер в байтах"
+
+#
+# File: /usr/lang/src/controllers.php, line: 617
+msgid "Min size"
+msgstr "Минимальный размер"
+
+#
+# File: /usr/lang/src/controllers.php, line: 618
+msgid "Report type"
+msgstr "Тип отчёта"
+
+#
+# File: /usr/lang/src/controllers.php, line: 619
+msgid ""
+"Select report type.\n"
+"        <div class=\"alert alert-info\">\n"
+"            Report types:\n"
+"            <ul>\n"
+"                <li><b>Domains</b> - Top domains activity</li>\n"
+"                <li><b>Users</b> - Users activity</li>\n"
+"                <li><b>User IP</b> - Local IP addresses activity</li>\n"
+"                <li><b>URLs</b> - Top URLs</li>\n"
+"            </ul>\n"
+"        </div>"
+msgstr ""
+"Выберите тип отчёта.\n"
+"        <div class=\"alert alert-info\">\n"
+"            Типы отчёта:\n"
+"            <ul>\n"
+"                <li><b>Домены</b> - Активность по доменам</li>\n"
+"                <li><b>Пользователи</b> - Активность по пользователям</li>\n"
+"                <li><b>IP адреса пользователей</b> - Активность по IP-адресам пользователей</li>\n"
+"                <li><b>URLs</b> - Адреса URL</li>\n"
+"            </ul>\n"
+"        </div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 629
+msgid "Select to show blocked traffic"
+msgstr "Выберите для отчёта по заблокированному трафику"
+
+#
+# File: /usr/lang/src/controllers.php, line: 630
+msgid "Select user IP address for squid report"
+msgstr "Выберите IP адреса пользователей для отчёта"
+
+#
+# File: /usr/lang/src/controllers.php, line: 631
+msgid "Select user name for squid report"
+msgstr "Выберите имена пользователей для отчёта"
+
+#
+# File: /usr/lang/src/controllers.php, line: 634
+msgid "User IP"
+msgstr "IP адрес пользователя"
+
+#
+# File: /usr/lang/src/models.php, line: 335
+msgid "debug level needs to be between 0 (default) and 5 (highest)"
+msgstr ""
+
+#
+# File: /usr/lang/src/models.php, line: 364
+msgid "Enter valid days count 1...3650"
+msgstr "Введите количество дней (от 1 до 3650)"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/SquidlogController.php, line: 13
+# File: /usr/lang/src/models.php, line: 365
+msgid "Proxy Log Analyzer"
+msgstr "Отчёты по Веб-прокси"
+
