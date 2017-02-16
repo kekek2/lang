@@ -1,0 +1,116 @@
+#
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 700
+msgid "Not matching MAC-address"
+msgstr "MAC адрес не совпадает"
+
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/IndexController.php, line: 11
+msgid "CMS node access"
+msgstr "Доступ CMS"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/squidlog.volt, line: 268
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 258
+msgid "TIP"
+msgstr "Совет"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/NetPolice/NetPolice.php, line: 40
+msgid "Certificate for NetPolice plugin expired"
+msgstr "Срок действия сертификата для NetPolice истёк"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/NetPolice/NetPolice.php, line: 33
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/NetPolice/NetPolice.php, line: 37
+msgid "License not found for NetPolice plugin"
+msgstr "Не найдена лицензия для NetPolice"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 698
+msgid "Ethernet MAC-address not found"
+msgstr "MAC-адрес не найден"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 692
+msgid "Missing MAC-address"
+msgstr "MAC-адрес не найден"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 286
+msgid "The following groups will be removed: "
+msgstr "Следующие группы будут удалены: "
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 77
+msgid "Invalid host address "
+msgstr "Неправильный адрес хоста"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 100
+msgid "Login error to "
+msgstr "Ошибка доступа к "
+
+# File: /usr/lang/src/controllers.php, line: 103
+msgid "Authentication Settings"
+msgstr "Настройки аутентификации"
+
+# File: /usr/lang/src/controllers.php, line: 197
+msgid "Default Parameters"
+msgstr "Параметры по-умолчанию"
+
+#
+# File: /usr/lang/src/controllers.php, line: 253
+msgid "Enable NetPolice"
+msgstr "Включить NetPolice"
+
+# File: /usr/lang/src/controllers.php, line: 329
+msgid "FTP Proxy Settings"
+msgstr "Нстройки FTP-прокси"
+
+# File: /usr/lang/src/controllers.php, line: 344
+msgid "Forward Proxy"
+msgstr "Перенаправляющий прокси"
+
+# File: /usr/lang/src/controllers.php, line: 346
+msgid "General Forward Settings"
+msgstr "Основные настройки перенаправления"
+
+# File: /usr/lang/src/controllers.php, line: 347
+msgid "General Proxy Settings"
+msgstr "Основные настройки прокси"
+
+# File: /usr/lang/src/controllers.php, line: 348
+msgid "General Settings"
+msgstr "Основные настройки"
+
+# File: /usr/lang/src/controllers.php, line: 349
+msgid "General Syslog Settings"
+msgstr "Основные настройки логирования"
+
+# File: /usr/lang/src/controllers.php, line: 372
+msgid "ICAP Settings"
+msgstr "Нстройки ICAP"
+
+# File: /usr/lang/src/controllers.php, line: 404
+msgid "Local Cache Settings"
+msgstr "Настройки локального кэша"
+
+#
+# File: /usr/lang/src/controllers.php, line: 586
+msgid "Select node for squid report"
+msgstr "Выберите узел для отчёта по прокси"
+
+
+# File: /usr/lang/src/controllers.php, line: 670
+msgid "Traffic Management Settings"
+msgstr "Настройки управления трафиком"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/controllers/SmartSoft/NetPolice/IndexController.php, line: 10
+# File: /usr/lang/src/models.php, line: 309
+msgid "URL Classifier by NetPolice"
+msgstr "Классификация URL с помощью NetPolice"
+
+#
+# File: /usr/lang/src/models.php, line: 335
+msgid "debug level needs to be between 0 (default) and 5 (highest)"
+msgstr "уровень отладки должен быть между 0 (по-умолчанию) и 5 (наивысший)"
+
+
