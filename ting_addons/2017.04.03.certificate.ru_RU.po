@@ -1,0 +1,57 @@
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/SettingsController.php, line: 143
+msgid "' from System/Trust/Certificates to the node."
+msgstr "' из Система/Доверенные сертификаты/Сертификаты и установите их на узле"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/scripts/SmartSoft/CMSMaster/check_tunnels.php, line: 17
+msgid "No ssh tunnel for node "
+msgstr "Не установлен ssh-туннель с узлом "
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 59
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 111
+msgid "offline"
+msgstr "нет связи"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 140
+msgid "Error add user"
+msgstr "Ошибка добавения пользователя"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/SettingsController.php, line: 143
+msgid "Please copy certificate and key 'Node "
+msgstr "Пожалуйста, экспортируйте сертификат и ключ для узла 'Node "
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/SettingsController.php, line: 114
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 88
+msgid "Not found certificate "
+msgstr "Не найден сертификат "
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 650
+msgid "The following users will be removed: "
+msgstr "Следующие пользователи будут удалены: "
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 787
+msgid "Certificate install successful"
+msgstr "Сертификат установлен"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 793
+msgid "Invalid request"
+msgstr "Ошибка запроса"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 835
+msgid "CMS Admin added successful"
+msgstr "Администратор CMS добавлен"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/SettingsController.php, line: 142
+msgid "The certificate generated. "
+msgstr "Сертификат сгенерирован. "
+
+
