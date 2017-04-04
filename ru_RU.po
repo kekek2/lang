@@ -25678,7 +25678,7 @@ msgstr "Удалить существующие элементы"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 89
 msgid "Show selected section"
-msgstr "Отправить выбранный раздел"
+msgstr "Показать выбранный раздел"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 90
 msgid "Send selected section to nodes"
