@@ -1233,7 +1233,7 @@ msgstr "Отправить выбранный раздел узлам"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 79
 msgid "Show selected section"
-msgstr "Отправить выбранный раздел"
+msgstr "Показать выбранный раздел"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 79
 msgid "core"
