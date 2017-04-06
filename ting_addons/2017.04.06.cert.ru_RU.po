@@ -1,0 +1,5 @@
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 123
+msgid "Invalid certificate"
+msgstr "Недоверенный сертификат"
+
