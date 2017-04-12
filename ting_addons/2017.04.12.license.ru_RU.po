@@ -1,0 +1,92 @@
+#
+# File: /usr/core/src/www/license.php, line: 48
+msgid "here"
+msgstr "здесь"
+
+#
+# File: /usr/core/src/www/license.php, line: 48
+msgid ""
+"TING includes various freely available software packages and ports. The "
+"incorporated third party tools are listed"
+msgstr ""
+msgstr "TING включает различные свободно распространяемые программные пакеты и порты. Инструментарий перечислен"
+
+#
+# File: /usr/core/src/www/license.php, line: 47
+msgid "TING is a fork of"
+msgstr "TING - форк"
+
+#
+# File: /usr/core/src/www/license.php, line: 46
+msgid "TING is based on"
+msgstr "TING создан на основе"
+
+#
+# File: /usr/core/src/www/license.php, line: 45
+msgid ""
+"THIS SOFTWARE IS PROVIDED \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, "
+"INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND "
+"FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE "
+"AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, "
+"OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF "
+"SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS "
+"INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN "
+"CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) "
+"ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE "
+"POSSIBILITY OF SUCH DAMAGE."
+msgstr ""
+msgstr "ДАННОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ ВЛАДЕЛЬЦАМИ АВТОРСКИХ ПРАВ И ЛИЦАМИ, "
+"ВНОСЯЩИМИ ВКЛАД В РАЗВИТИЕ И ПРОДВИЖЕНИЕ ПРОЕКТА НА УСЛОВИЯХ \"КАК ЕСТЬ\" "
+"БЕЗ КАКОГО-ЛИБО ВИДА ГАРАНТИЙ, ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ (НО, НЕ ОГРАНИЧИВАЯСЬ ИМИ) "
+"ПОДРАЗУМЕВАЕМЫЕ ГАРАНТИИ ГОТОВНОСТИ ДЛЯ ПРОДАЖИ ИЛИ СООТВЕТСТВИЯ ОПРЕДЕЛЕННЫМ ЦЕЛЯМ. "
+"НИ ПРИ КАКИХ УСЛОВИЯХ ВЛАДЕЛЬЦЫ АВТОРСКИХ ПРАВ И ЛИЦА, ВНОСЯЩИЕ ВКЛАД В РАЗВИТИЕ И "
+"ПРОДВИЖЕНИЕ ПРОЕКТА, НЕ НЕСУТ ОТВЕТСТВЕННОСТЬ ЗА ЛЮБЫЕ ПРЯМЫЕ, КОСВЕННЫЕ, СЛУЧАЙНЫЕ, "
+"ПРИСУЖДАЕМЫЕ ИЛИ ПОСЛЕДОВАВШИЕ УБЫТКИ (ВКЛЮЧАЯ (НО, НЕ ОГРАНИЧИВАЯСЬ) ПРИОБРЕТЕНИЕ "
+"ВЗАИМОЗАМЕНЯЕМЫХ ТОВАРОВ ИЛИ УСЛУГ; УТРАТУ ЭКСПЛУАТАЦИОННЫХ КАЧЕСТВ, ДАННЫХ ИЛИ ПРИБЫЛИ, "
+"А ТАКЖЕ ПРЕРЫВАНИЕ ДЕЯТЕЛЬНОСТИ ПРЕДПРИЯТИЯ), ВНЕ ЗАВИСИМОСТИ ОТ ПРИЧИН И ОСНОВАНИЙ "
+"ВОЗНИКНОВЕНИЯ ОТВЕТСТВЕННОСТИ, БУДЬ ТО ПО ДОГОВОРУ, ПО АБСОЛЮТНОЙ ОТВЕТСТВЕННОСТИ "
+"ИЛИ ПО ПРАВОНАРУШЕНИЮ (ВКЛЮЧАЯ СОВЕРШЕННЫЕ ПО НЕБРЕЖНОСТИ ИЛИ ИНЫМ ОБРАЗОМ), "
+"ВОЗНИКАЮЩИЕ КАКИМ БЫ ТО НИ БЫЛО ОБРАЗОМ ПРИ ИСПОЛЬЗОВАНИИ ДАННОЙ ПРОГРАММЫ, "
+"ДАЖЕ ЕСЛИ БЫЛО ПРЕДУПРЕЖДЕНИЕ О ВОЗМОЖНОСТИ НАСТУПЛЕНИЯ ТАКОГО УЩЕРБА."
+
+#
+# File: /usr/core/src/www/license.php, line: 44
+msgid ""
+"Redistributions in binary form must reproduce the above copyright notice, "
+"this list of conditions and the following disclaimer in the documentation "
+"and/or other materials provided with the distribution."
+msgstr ""
+msgstr "При распространении кода в двоичной форме следует указывать обозначенную "
+"выше информацию об авторском праве, данный список условий и представленный ниже "
+"отказ от гарантий в документации и/или других материалах, поставляемых при распространении."
+
+#
+# File: /usr/core/src/www/license.php, line: 43
+msgid ""
+"Redistributions of source code must retain the above copyright notice, this "
+"list of conditions and the following disclaimer."
+msgstr ""
+msgstr "При распространении исходного кода необходимо сохранять обозначенную выше "
+"информацию об авторском праве, данный список условий и отказ от гарантий, представленный ниже."
+
+#
+# File: /usr/core/src/www/license.php, line: 42
+msgid ""
+"Redistribution and use in source and binary forms, with or without "
+"modification, are permitted provided that the following conditions are met:"
+msgstr ""
+msgstr "Распространение и использование кода в исходной и двоичной форме, "
+"с изменениями или без, разрешается, при соблюдении следующих условий:"
+
+#
+# File: /usr/core/src/www/license.php, line: 41
+msgid "Smart-Soft Ltd"
+msgstr "ООО «Смарт-Софт»"
+
+#
+# File: /usr/core/src/www/license.php, line: 41
+# File: /usr/core/src/www/license.php, line: 46
+# File: /usr/core/src/www/license.php, line: 47
+msgid "All rights reserved."
+msgstr "Все права защищены."
+
