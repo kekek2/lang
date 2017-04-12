@@ -62,7 +62,7 @@ msgstr "Включить NetPolice"
 
 # File: /usr/lang/src/controllers.php, line: 329
 msgid "FTP Proxy Settings"
-msgstr "Нстройки FTP-прокси"
+msgstr "Настройки FTP-прокси"
 
 # File: /usr/lang/src/controllers.php, line: 344
 msgid "Forward Proxy"
@@ -86,7 +86,7 @@ msgstr "Основные настройки логирования"
 
 # File: /usr/lang/src/controllers.php, line: 372
 msgid "ICAP Settings"
-msgstr "Нстройки ICAP"
+msgstr "Настройки ICAP"
 
 # File: /usr/lang/src/controllers.php, line: 404
 msgid "Local Cache Settings"

@@ -21819,11 +21819,13 @@ msgid ""
 "In order to apply these settings a firmware update must be performed after "
 "save, which can include a reboot of the system."
 msgstr ""
+"Для того, чтобы изменения вступили в силу, после сохранения необходимо "
+"произвести обновление прошивки, это может инициировать перезагрузку системы."
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 504
 msgid "Upload repository"
-msgstr ""
+msgstr "Загрузить репозитарий"
 
 # File: src/www/diag_confbak.php, line: 209
 # File: src/www/diag_logs_settings.php, line: 351
@@ -28259,7 +28261,7 @@ msgstr "Настройки локального кэша"
 
 # File: /usr/lang/src/controllers.php, line: 405
 msgid "Local interface to link node"
-msgstr "Интерфейс для связи с узлом"
+msgstr "Локальный интерфейс для связи с узлом"
 
 # File: /usr/lang/src/controllers.php, line: 330
 msgid "Local stats TCP port"

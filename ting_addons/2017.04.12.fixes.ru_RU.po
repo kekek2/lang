@@ -12,6 +12,7 @@ msgid ""
 msgstr ""
 msgstr "Для того, чтобы изменения вступили в силу, после сохранения необходимо "
 msgstr "произвести обновление прошивки, это может инициировать перезагрузку системы."
+
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 504
 msgid "Upload repository"
