@@ -28205,7 +28205,7 @@ msgstr "Выбор элементов"
 
 # File: /usr/lang/src/controllers.php, line: 398
 msgid "Link interface to node"
-msgstr "Привязать интерфейс к узлу"
+msgstr "Интерфейс для связи с узлом"
 
 # File: /usr/lang/src/controllers.php, line: 387
 msgid "List of alowed addresses"
@@ -28259,7 +28259,7 @@ msgstr "Настройки локального кэша"
 
 # File: /usr/lang/src/controllers.php, line: 405
 msgid "Local interface to link node"
-msgstr "Локальный интерфейс для привязки узла"
+msgstr "Интерфейс для связи с узлом"
 
 # File: /usr/lang/src/controllers.php, line: 330
 msgid "Local stats TCP port"
