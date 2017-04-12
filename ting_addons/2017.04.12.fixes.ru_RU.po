@@ -1,0 +1,34 @@
+#
+# File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 254
+# File: /usr/core/src/www/fbegin.inc, line: 95
+msgid "Logout"
+msgstr "Выход"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 509
+msgid ""
+"In order to apply these settings a firmware update must be performed after "
+"save, which can include a reboot of the system."
+msgstr ""
+msgstr "Для того, чтобы изменения вступили в силу, после сохранения необходимо "
+msgstr "произвести обновление прошивки, это может инициировать перезагрузку системы."
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 504
+msgid "Upload repository"
+msgstr "Загрузить репозитарий"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 487
+msgid "Subscription"
+msgstr "Подписка"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 467
+msgid "Firmware Mirror"
+msgstr "Источник прошивки"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 420
+msgid "Repository upload: "
+msgstr "Загрузка репозитария: "
+

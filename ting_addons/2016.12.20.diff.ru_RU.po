@@ -1620,7 +1620,7 @@ msgid ""
 "Assign port number for logging tunnel to CMS-master. It must be in range "
 "1024 - 49151."
 msgstr ""
-"Добавить номер порта для регистрации туннеля к CMS Master. Значение должно входить в диапазон 1024–49151."
+"Номер порта на узле для установки лог-туннеля к CMS Master. Значение должно входить в диапазон 1024–49151."
 
 # File: /usr/lang/src/controllers.php, line: 87
 msgid "Authenticate using"
@@ -2200,7 +2200,7 @@ msgstr "Выбор элементов"
 
 # File: /usr/lang/src/controllers.php, line: 397
 msgid "Link interface to node"
-msgstr "Привязать интерфейс к узлу"
+msgstr "Интерфейс для связи с узлом"
 
 # File: /usr/lang/src/controllers.php, line: 329
 msgid "Listen Addresses"
@@ -2208,7 +2208,7 @@ msgstr "Адрес прослушивания"
 
 # File: /usr/lang/src/controllers.php, line: 403
 msgid "Local interface to link node"
-msgstr "Локальный интерфейс для привязки узла"
+msgstr "Локальный интерфейс для связи с узлом"
 
 # File: /usr/lang/src/controllers.php, line: 330
 msgid "Local stats TCP port"

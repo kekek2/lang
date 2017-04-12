@@ -20835,6 +20835,12 @@ msgstr ""
 "Все виртуальные IP-адреса отключены. Обратите внимание, что список отключенных адресов не сохраняется и будет очищен после перезагрузки."
 
 #
+# File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 254
+# File: /usr/core/src/www/fbegin.inc, line: 95
+msgid "Logout"
+msgstr "Выход"
+
+#
 # File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 211
 # File: /usr/core/src/www/guiconfig.inc, line: 611
 msgid "Configuration and executable are authentic"
@@ -21922,12 +21928,12 @@ msgstr "Сохранить"
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 487
 msgid "Subscription"
-msgstr ""
+msgstr "Подписка"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 467
 msgid "Firmware Mirror"
-msgstr ""
+msgstr "Источник прошивки"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 309
 msgid "Progress"
@@ -21952,7 +21958,7 @@ msgstr "Обновить сейчас"
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 420
 msgid "Repository upload: "
-msgstr ""
+msgstr "Загрузка репозитария: "
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 257
 msgid "Check for updates to view available plugins."
@@ -22402,11 +22408,15 @@ msgid "Use simple (less secure) passwords, which are easier to read"
 msgstr ""
 "Использовать простые (менее безопасные) пароли, которые легче прочесть."
 
+# File: /usr/core/src/www/system_authservers.php, line: 681
+msgid "Use simple passwords (less secure)"
+msgstr "Использовать простые пароли (менее безопасные)"
+
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-04 12:39+0300\n"
+"POT-Creation-Date: 2017-04-12 11:20+0300\n"
 "PO-Revision-Date: 2017-01-09 09:17+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22417,10 +22427,6 @@ msgstr ""
 "X-Generator: Poedit 1.8.8\n"
 "X-Pootle-Path: /ru/gui/ru.po\n"
 "X-Pootle-Revision: 0\n"
-
-# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 239
-msgid "Voucher"
-msgstr "Ваучер"
 
 # File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 224
 msgid "Please enter a valid grace period in seconds"
@@ -24081,9 +24087,10 @@ msgstr "Tinc VPN"
 msgid "Tinc VPN Server"
 msgstr "Tinc VPN-сервер"
 
-# File: /usr/plugins/devel/ting-plugin-havp/src/opnsense/mvc/app/views/SmartSoft/HAVP/stats.volt, line: 43
-msgid "Virus"
-msgstr "Virus"
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/index.volt, line: 73
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 98
+msgid "Allow Traffic"
+msgstr "Разрешить трафик"
 
 # File: lang/dynamic/helpers/models.php, line: 98
 # File: src/www/widgets/widgets/smart_status.widget.php, line: 40
@@ -24134,6 +24141,10 @@ msgstr "Транспортировка (Только для ATA-дисков)"
 msgid "Short"
 msgstr "Сокращенный"
 
+# File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/SSOProxyAD/index.volt, line: 82
+msgid "Update Domain"
+msgstr "Обновить домен"
+
 # File: src/www/diag_smart.php, line: 337
 msgid "Perform Self-tests"
 msgstr "Выполнить самодиагностику"
@@ -24144,6 +24155,10 @@ msgstr "Выполнить самодиагностику"
 # File: src/www/diag_smart.php, line: 450
 msgid "Device: /dev/"
 msgstr "Устройство: /dev/"
+
+# File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/SSOProxyAD/index.volt, line: 81
+msgid "Join Domain"
+msgstr "Присоединить домен"
 
 # File: src/www/diag_smart.php, line: 298
 msgid "Attributes"
@@ -24157,9 +24172,9 @@ msgstr "Функции SMART"
 msgid "Info type"
 msgstr "Информация о типе"
 
-# File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/SSOProxyAD/index.volt, line: 82
-msgid "Update Domain"
-msgstr "Обновить домен"
+# File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/library/OPNsense/Auth/SSOProxyAD.php, line: 50
+msgid "SSO Proxy AD"
+msgstr "SSO Proxy AD"
 
 # File: src/www/diag_smart.php, line: 121
 # File: src/www/diag_smart.php, line: 466
@@ -24205,18 +24220,18 @@ msgstr "Подтверждение"
 msgid "Edit User"
 msgstr "Редактировать пользователя"
 
-# File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/SSOProxyAD/index.volt, line: 81
-msgid "Join Domain"
-msgstr "Присоединить домен"
+# File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/SSOProxyAD/IndexController.php, line: 35
+msgid "SSO Proxy Active Directory"
+msgstr "SSO Proxy Active Directory"
 
 # File: src/www/vpn_l2tp_users_edit.php, line: 95
 # File: src/www/vpn_pptp_users_edit.php, line: 97
 msgid "The IP address entered is not valid."
 msgstr "Введённый IP-адрес не допустим."
 
-# File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/library/OPNsense/Auth/SSOProxyAD.php, line: 50
-msgid "SSO Proxy AD"
-msgstr "SSO Proxy AD"
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 122
+msgid "Ethernet bytes"
+msgstr "Ethernet-байт"
 
 # File: src/www/vpn_l2tp_users_edit.php, line: 88
 # File: src/www/vpn_pptp_users_edit.php, line: 90
@@ -24227,18 +24242,13 @@ msgstr "MX-запись содержит недопустимые символы
 msgid "The password cannot start with '!'."
 msgstr "Пароль не может начинаться с символа «!»."
 
-# File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/controllers/OPNsense/SSOProxyAD/IndexController.php, line: 35
-msgid "SSO Proxy Active Directory"
-msgstr "SSO Proxy Active Directory"
+# File: src/www/diag_logs_poes.php, line: 20
+msgid "PPPoE Raw"
+msgstr "PPPoE Raw"
 
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 122
-msgid "Ethernet bytes"
-msgstr "Ethernet-байт"
-
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/index.volt, line: 73
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 98
-msgid "Allow Traffic"
-msgstr "Разрешить трафик"
+# File: src/www/diag_logs_poes.php, line: 19
+msgid "PPPoE Logins"
+msgstr "Имена пользователей для подключения по протоколу PPPoE"
 
 # File: src/www/vpn_l2tp_users.php, line: 89
 # File: src/www/vpn_pptp_users.php, line: 87
@@ -24260,14 +24270,6 @@ msgstr ""
 "Предупреждение: RADIUS включен. Локальная пользовательская база данных не "
 "будет использоваться."
 
-# File: src/www/diag_logs_poes.php, line: 20
-msgid "PPPoE Raw"
-msgstr "PPPoE Raw"
-
-# File: src/www/diag_logs_poes.php, line: 19
-msgid "PPPoE Logins"
-msgstr "Имена пользователей для подключения по протоколу PPPoE"
-
 # File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 553
 msgid ""
 "Don't forget to add a firewall rule to permit traffic from PPPoE clients."
@@ -24277,14 +24279,6 @@ msgstr ""
 # File: src/www/vpn_pppoe_edit.php, line: 590
 msgid "User (s)"
 msgstr "Пользователь (-и)"
-
-# File: src/www/diag_logs_pptp.php, line: 20
-msgid "PPTP Raw"
-msgstr "PPTP Raw"
-
-# File: src/www/diag_logs_pptp.php, line: 19
-msgid "PPTP Logins"
-msgstr "Имена пользователей для подключения по протоколу PPTP"
 
 # File: src/www/vpn_l2tp.php, line: 457
 msgid "Issue IP Addresses via RADIUS server."
@@ -24298,6 +24292,14 @@ msgstr "IP-адрес NAS-сервера для RADIUS-сервера"
 msgid "NAS IP Address"
 msgstr "IP-адрес NAS-сервера"
 
+# File: src/www/diag_logs_pptp.php, line: 20
+msgid "PPTP Raw"
+msgstr "PPTP Raw"
+
+# File: src/www/diag_logs_pptp.php, line: 19
+msgid "PPTP Logins"
+msgstr "Имена пользователей для подключения по протоколу PPTP"
+
 # File: src/www/vpn_pppoe_edit.php, line: 532
 msgid ""
 "When set, if primary server fails all requests will be sent via backup server"
@@ -24308,6 +24310,24 @@ msgstr ""
 # File: src/www/vpn_pppoe_edit.php, line: 531
 msgid "Use Backup RADIUS Server"
 msgstr "Использовать резервный RADIUS-сервер"
+
+# File: src/www/vpn_pppoe_edit.php, line: 527
+# File: src/www/vpn_pptp.php, line: 434
+msgid "Sends accounting packets to the RADIUS server"
+msgstr "Отправляет пакеты учета на RADIUS-сервер"
+
+# File: src/www/vpn_pppoe_edit.php, line: 508
+msgid ""
+"If entered they will be given to all PPPoE clients, else LAN DNS and one WAN "
+"DNS will go to all clients"
+msgstr ""
+"Если адреса указаны, они будут выданы всем PPPoE клиентам, в противном "
+"случае клиентам будут отправлены LAN DNS и один WAN DNS"
+
+# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 350
+msgid "Hint: 24 is 255.255.255.0"
+msgstr ""
+"Подсказка: 24 означает представление маски в десятичной форме (255.255.255.0)"
 
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 406
 msgid ""
@@ -24387,18 +24407,13 @@ msgstr ""
 msgid "AccPort"
 msgstr "AccPort"
 
-# File: src/www/vpn_pppoe_edit.php, line: 527
-# File: src/www/vpn_pptp.php, line: 434
-msgid "Sends accounting packets to the RADIUS server"
-msgstr "Отправляет пакеты учета на RADIUS-сервер"
+# File: src/www/vpn_pppoe_edit.php, line: 438
+msgid "Subnet netmask"
+msgstr "Маска подсети"
 
-# File: src/www/vpn_pppoe_edit.php, line: 508
-msgid ""
-"If entered they will be given to all PPPoE clients, else LAN DNS and one WAN "
-"DNS will go to all clients"
-msgstr ""
-"Если адреса указаны, они будут выданы всем PPPoE клиентам, в противном "
-"случае клиентам будут отправлены LAN DNS и один WAN DNS"
+# File: src/www/vpn_pppoe_edit.php, line: 471
+msgid "Hint: 10 is ten PPPoE clients"
+msgstr "Подсказка: 10 означает десять PPPoE клиентов"
 
 # File: src/www/vpn_pppoe_edit.php, line: 557
 msgid "RADIUS server Primary"
@@ -24511,18 +24526,21 @@ msgstr "Количество PPTP-пользователей"
 msgid "Enable PPTP server"
 msgstr "Включить PPTP-сервер"
 
-# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 350
-msgid "Hint: 24 is 255.255.255.0"
+# File: src/www/vpn_pppoe_edit.php, line: 457
+msgid "No. PPPoE users"
+msgstr "Нет. PPPoE пользователи"
+
+# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 308
+msgid ""
+"Enter the IP address the PPPoE server should give to clients for use as "
+"their \"gateway\"."
 msgstr ""
-"Подсказка: 24 означает представление маски в десятичной форме (255.255.255.0)"
+"Введите IP-адрес, который PPPoE-сервер будет выдавать клиентам для "
+"использования в качестве «шлюза»."
 
-# File: src/www/vpn_pppoe_edit.php, line: 438
-msgid "Subnet netmask"
-msgstr "Маска подсети"
-
-# File: src/www/vpn_pppoe_edit.php, line: 471
-msgid "Hint: 10 is ten PPPoE clients"
-msgstr "Подсказка: 10 означает десять PPPoE клиентов"
+# File: src/www/vpn_pppoe_edit.php, line: 413
+msgid "Enable PPPoE server"
+msgstr "Включить PPPoE-сервер"
 
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 204
 msgid "PPTP settings"
@@ -24597,13 +24615,14 @@ msgstr "Ошибка: не удается открыть mpd.conf в if_pptp_con
 msgid "Configuring PPTP VPN service..."
 msgstr "Настройка службы VPN с помощью PPTP…"
 
-# File: src/www/vpn_pppoe_edit.php, line: 457
-msgid "No. PPPoE users"
-msgstr "Нет. PPPoE пользователи"
+# File: src/www/vpn_pppoe_edit.php, line: 396
+msgid "PPPoE server configuration"
+msgstr "Конфигурация PPPoE-сервера"
 
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 251
-msgid "Error saving config from node"
-msgstr "Ошибка при сохранении файла конфигурации от узла"
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 286
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 290
+msgid "Error sending section data."
+msgstr "Ошибка при отправке данных о секции."
 
 # File: src/www/vpn_l2tp_users_edit.php, line: 175
 msgid "If you want to change the users password, enter it here twice."
@@ -24754,17 +24773,14 @@ msgstr "Идентификатор фронтенда"
 msgid "Used"
 msgstr "Использовано"
 
-# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 308
-msgid ""
-"Enter the IP address the PPPoE server should give to clients for use as "
-"their \"gateway\"."
-msgstr ""
-"Введите IP-адрес, который PPPoE-сервер будет выдавать клиентам для "
-"использования в качестве «шлюза»."
+# File: src/www/vpn_pppoe_edit.php, line: 156
+msgid "Wrong data submitted"
+msgstr "Отправлены неверные данные"
 
-# File: src/www/vpn_pppoe_edit.php, line: 413
-msgid "Enable PPPoE server"
-msgstr "Включить PPPoE-сервер"
+# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 115
+#, php-format
+msgid "Incorrect ip address specified for username %s"
+msgstr "Указан недействительный IP-адрес для имени пользователя %s"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 283
 msgid "Table"
@@ -24795,13 +24811,14 @@ msgstr "Resp"
 msgid "Denied Req"
 msgstr "Denied Req"
 
-# File: src/www/vpn_pppoe_edit.php, line: 396
-msgid "PPPoE server configuration"
-msgstr "Конфигурация PPPoE-сервера"
+# File: src/www/vpn_pppoe_edit.php, line: 146
+#, php-format
+msgid "No password specified for username %s"
+msgstr "Не указан пароль для имени пользователя %s"
 
-# File: src/www/vpn_pppoe_edit.php, line: 156
-msgid "Wrong data submitted"
-msgstr "Отправлены неверные данные"
+# File: src/www/vpn_pppoe.php, line: 141
+msgid "edit pppoe instance"
+msgstr "редактировать экземпляр PPPoE"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 238
 msgid "Session Rate"
@@ -24831,15 +24848,13 @@ msgstr "Бэкенд/фронтенд"
 msgid "Downtime"
 msgstr "Время простоя"
 
-# File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 115
-#, php-format
-msgid "Incorrect ip address specified for username %s"
-msgstr "Указан недействительный IP-адрес для имени пользователя %s"
+# File: src/www/vpn_pppoe.php, line: 119
+msgid "Number of users"
+msgstr "Количество пользователей"
 
-# File: src/www/vpn_pppoe_edit.php, line: 146
-#, php-format
-msgid "No password specified for username %s"
-msgstr "Не указан пароль для имени пользователя %s"
+# File: src/www/vpn_pppoe.php, line: 102
+msgid "The PPPoE entry list has been changed"
+msgstr "Список записей PPPoE изменен"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 199
 msgid "Last Change"
@@ -24850,18 +24865,6 @@ msgstr "Последнее изменение"
 msgid "id"
 msgstr "идентификатор"
 
-# File: src/www/vpn_pppoe.php, line: 141
-msgid "edit pppoe instance"
-msgstr "редактировать экземпляр PPPoE"
-
-# File: src/www/vpn_pppoe.php, line: 119
-msgid "Number of users"
-msgstr "Количество пользователей"
-
-# File: src/www/vpn_pppoe.php, line: 102
-msgid "The PPPoE entry list has been changed"
-msgstr "Список записей PPPoE изменен"
-
 # File: src/www/vpn_pppoe.php, line: 144
 msgid ""
 "Do you really want to delete this entry? All elements that still use it will "
@@ -24869,6 +24872,20 @@ msgid ""
 msgstr ""
 "Вы действительно хотите удалить эту запись? Все элементы, которые ее "
 "используют, станут недействительными (например, правила фильтрации)!"
+
+# File: src/www/vpn_pppoe.php, line: 89
+msgid "add a new pppoe instance"
+msgstr "добавить новый экземпляр PPPoE"
+
+# File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 265
+#, php-format
+msgid "Error: cannot open mpd.secret in if_pppoe_configure()."
+msgstr "Ошибка: не удается открыть mpd.secret в if_pppoe_configure()."
+
+# File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 161
+#, php-format
+msgid "Error: cannot open mpd.conf in if_pppoe_configure()."
+msgstr "Ошибка: не удается открыть mpd.conf в if_pppoe_configure()."
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 619
 msgid "Error File ID"
@@ -24910,9 +24927,9 @@ msgstr "Идентификатор проверки работоспособно
 msgid "Server Port"
 msgstr "Порт сервера"
 
-# File: src/www/vpn_pppoe.php, line: 89
-msgid "add a new pppoe instance"
-msgstr "добавить новый экземпляр PPPoE"
+# File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 149
+msgid "Configuring PPPoE VPN service..."
+msgstr "Настройка службы PPPoE VPN…"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 446
 msgid "Server id"
@@ -24941,20 +24958,17 @@ msgstr "Синтаксис теста"
 msgid "Frontend Name"
 msgstr "Имя фронтенда"
 
-# File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 265
-#, php-format
-msgid "Error: cannot open mpd.secret in if_pppoe_configure()."
-msgstr "Ошибка: не удается открыть mpd.secret в if_pppoe_configure()."
+# File: lang/dynamic/helpers/models.php, line: 245
+msgid "PPPoE Server"
+msgstr "PPPoE-сервер"
 
-# File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 161
-#, php-format
-msgid "Error: cannot open mpd.conf in if_pppoe_configure()."
-msgstr "Ошибка: не удается открыть mpd.conf в if_pppoe_configure()."
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 126
+msgid "Discarded bytes"
+msgstr "Отброшено байт"
 
-#
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 286
-msgid "The following groups will be removed: "
-msgstr "Следующие группы будут удалены: "
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 193
+msgid "insert new data into "
+msgstr "вставка новых данных в "
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 253
 msgid "HAProxy config test result"
@@ -24995,9 +25009,9 @@ msgstr "Балансировка нагрузки с помощью HAProxy"
 msgid "Fragmented packets"
 msgstr "Фрагментированные пакеты"
 
-# File: /usr/plugins/net/pppoe/src/etc/inc/plugins.inc.d/if_pppoe.inc, line: 149
-msgid "Configuring PPPoE VPN service..."
-msgstr "Настройка службы PPPoE VPN…"
+# File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 97
+msgid "Maximum Sessions"
+msgstr "Максимальное число сессий"
 
 #
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/squidlog.volt, line: 279
@@ -25011,9 +25025,9 @@ msgstr "Последнее посещение"
 msgid "First visit"
 msgstr "Первое посещение"
 
-# File: lang/dynamic/helpers/models.php, line: 245
-msgid "PPPoE Server"
-msgstr "PPPoE-сервер"
+# File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 96
+msgid "Reverse Port"
+msgstr "Обратный порт"
 
 #
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/squidlog.volt, line: 276
@@ -25043,9 +25057,9 @@ msgstr ""
 msgid "Users IP"
 msgstr "IP-адрес пользователя"
 
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 130
-msgid "IP bytes"
-msgstr "IP-байт"
+# File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 95
+msgid "Reverse Address"
+msgstr "Обратный адрес"
 
 #
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 16
@@ -25072,29 +25086,6 @@ msgstr "Загрузка..."
 msgid "Squid Log"
 msgstr "Лог Веб-прокси"
 
-# File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 97
-msgid "Maximum Sessions"
-msgstr "Максимальное число сессий"
-
-# File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 96
-msgid "Reverse Port"
-msgstr "Обратный порт"
-
-#
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/SquidlogController.php, line: 218
-# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/Api/DataController.php, line: 199
-msgid "User IPs"
-msgstr "IP-адреса пользователей"
-
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 286
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 290
-msgid "Error sending section data."
-msgstr "Ошибка при отправке данных о секции."
-
-# File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 95
-msgid "Reverse Address"
-msgstr "Обратный адрес"
-
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 92
 msgid "Listen Address"
 msgstr "Адрес для прослушивания"
@@ -25102,6 +25093,29 @@ msgstr "Адрес для прослушивания"
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 83
 msgid "FTP Proxies"
 msgstr "FTP-прокси"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/SquidlogController.php, line: 218
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/Api/DataController.php, line: 199
+msgid "User IPs"
+msgstr "IP-адреса пользователей"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 359
+msgid "Error installing plugin "
+msgstr "Ошибка при установке плагина"
+
+# File: /usr/plugins/net/ftp-proxy/src/etc/inc/plugins.inc.d/ftpproxy.inc, line: 62
+# File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/controllers/OPNsense/FtpProxy/IndexController.php, line: 45
+msgid "FTP Proxy Server"
+msgstr "FTP-прокси-сервер"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 376
+msgid "Error get certificates"
+msgstr "Ошибка при получении сертификатов"
+
+# File: /usr/plugins/devel/ting-plugin-cair/src/opnsense/mvc/app/views/SmartSoft/CAIR/index.volt, line: 91
+msgid "Site"
+msgstr "Сайт"
 
 #
 # File: /usr/plugins/devel/ting-plugin-proxy-ipcheck/src/opnsense/mvc/app/controllers/SmartSoft/ProxyIPCheck/IndexController.php, line: 9
@@ -25118,28 +25132,26 @@ msgstr "Конфигурация сохранена."
 msgid "Error module reconfigure."
 msgstr "Ошибка конфигурирования модуля."
 
-#
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 140
-msgid "Error add user"
-msgstr "Ошибка добавения пользователя"
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 130
+msgid "Error downloading config"
+msgstr "Ошибка при скачивании файла конфигурации"
 
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 232
 msgid "Flows"
 msgstr "Соединения"
 
-# File: /usr/plugins/net/ftp-proxy/src/etc/inc/plugins.inc.d/ftpproxy.inc, line: 62
-# File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/controllers/OPNsense/FtpProxy/IndexController.php, line: 45
-msgid "FTP Proxy Server"
-msgstr "FTP-прокси-сервер"
+# File: /usr/plugins/devel/ting-plugin-cair/src/opnsense/mvc/app/views/SmartSoft/CAIR/index.volt, line: 71
+msgid "Site category"
+msgstr "Категории сайтов"
 
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 229
 msgid "Breed"
 msgstr "Семейство"
 
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 59
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 111
-msgid "offline"
-msgstr "нет связи"
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/NetPolice/NetPolice.php, line: 40
+msgid "Certificate for NetPolice plugin expired"
+msgstr "Срок действия сертификата для NetPolice истёк"
 
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 222
 msgid "Detected Protocols"
@@ -25213,9 +25225,9 @@ msgstr "IP-пакеты"
 msgid "Total packets"
 msgstr "Всего пакетов"
 
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 126
-msgid "Discarded bytes"
-msgstr "Отброшено байт"
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 130
+msgid "IP bytes"
+msgstr "IP-байт"
 
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 116
 msgid "Total Stats"
@@ -25238,30 +25250,28 @@ msgstr "Статистика правил"
 msgid "Edit rule"
 msgstr "Редактировать правило"
 
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 306
-msgid "Error get plugins list"
-msgstr "Ошибка при получении списка плагинов"
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/NetPolice/NetPolice.php, line: 33
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/NetPolice/NetPolice.php, line: 37
+msgid "License not found for NetPolice plugin"
+msgstr "Не найдена лицензия для NetPolice"
 
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/etc/inc/plugins.inc.d/ndpi.inc, line: 11
 msgid "Deep Packet Inspection Service"
 msgstr "Служба анализатора трафика"
 
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 232
-msgid "Edit node"
-msgstr "Редактировать узел"
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ServiceController.php, line: 61
+msgid "No SSH access to node"
+msgstr "Нет SSH-доступа к узлу"
 
-# File: /usr/plugins/devel/ting-plugin-cair/src/opnsense/mvc/app/views/SmartSoft/CAIR/index.volt, line: 91
-msgid "Site"
-msgstr "Сайт"
+# File: /usr/plugins/devel/ting-plugin-havp/src/opnsense/mvc/app/views/SmartSoft/HAVP/stats.volt, line: 43
+msgid "Virus"
+msgstr "Virus"
 
-# File: /usr/plugins/devel/ting-plugin-cair/src/opnsense/mvc/app/views/SmartSoft/CAIR/index.volt, line: 71
-msgid "Site category"
-msgstr "Категории сайтов"
-
-#
-# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/NetPolice/NetPolice.php, line: 40
-msgid "Certificate for NetPolice plugin expired"
-msgstr "Срок действия сертификата для NetPolice истёк"
+# File: /usr/plugins/devel/ting-plugin-cair/src/opnsense/mvc/app/controllers/SmartSoft/CAIR/Api/ServiceController.php, line: 45
+# File: /usr/plugins/devel/ting-plugin-cair/src/opnsense/mvc/app/controllers/SmartSoft/CAIR/Api/ServiceController.php, line: 54
+msgid "Categories not found"
+msgstr "Категории не найдены"
 
 # File: /usr/plugins/devel/ting-plugin-havp/src/opnsense/mvc/app/views/SmartSoft/HAVP/stats.volt, line: 34
 msgid "Viruses detected"
@@ -25275,20 +25285,14 @@ msgid "HAVP Proxy Server"
 msgstr "Прокси-сервер HAVP"
 
 #
-# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/NetPolice/NetPolice.php, line: 33
-# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/NetPolice/NetPolice.php, line: 37
-msgid "License not found for NetPolice plugin"
-msgstr "Не найдена лицензия для NetPolice"
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/SettingsController.php, line: 142
+msgid "The certificate generated. "
+msgstr "Сертификат сгенерирован. "
 
 #
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/scripts/SmartSoft/CMSMaster/check_tunnels.php, line: 17
 msgid "No ssh tunnel for node "
 msgstr "Не установлен ssh-туннель с узлом "
-
-# File: /usr/plugins/devel/ting-plugin-cair/src/opnsense/mvc/app/controllers/SmartSoft/CAIR/Api/ServiceController.php, line: 45
-# File: /usr/plugins/devel/ting-plugin-cair/src/opnsense/mvc/app/controllers/SmartSoft/CAIR/Api/ServiceController.php, line: 54
-msgid "Categories not found"
-msgstr "Категории не найдены"
 
 # File: /usr/plugins/devel/ting-plugin-cair/src/opnsense/mvc/app/controllers/SmartSoft/CAIR/Api/ServiceController.php, line: 34
 msgid "Error resolving name server"
@@ -25299,26 +25303,34 @@ msgstr "Ошибка преобразования имени сервера"
 msgid "Config saved"
 msgstr "Конфигурация сохранена"
 
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 30
-msgid "Busy"
-msgstr "Ожидание"
-
 #
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 15
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 16
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 19
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/plugins.volt, line: 16
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 16
-msgid "Showing {"
-msgstr "Показаны с {"
+msgid "} of {"
+msgstr "} из {"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/IndexController.php, line: 29
 msgid "Config history node "
 msgstr "История конфигураций узла "
 
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 30
+msgid "Busy"
+msgstr "Ожидание"
+
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/views/SmartSoft/CMSNode/index.volt, line: 28
+msgid "HTTPS protocol on Web-GUI required. Set it in "
+msgstr "Необходимо включить HTTPS-протокол для Web-GUI. Включите его в "
+
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 233
 msgid "Edit CMS admin account"
 msgstr "Редактировать учетную запись администратора CMS"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 232
+msgid "Edit node"
+msgstr "Редактировать узел"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 210
 msgid "Tunnel"
@@ -25332,9 +25344,13 @@ msgstr "Версия конфигурации"
 msgid "Load"
 msgstr "Загрузить"
 
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/views/SmartSoft/CMSNode/index.volt, line: 28
-msgid "HTTPS protocol on Web-GUI required. Set it in "
-msgstr "Необходимо включить HTTPS-протокол для Web-GUI. Включите его в "
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/views/SmartSoft/CMSNode/index.volt, line: 16
+msgid "Saved"
+msgstr "Сохранено"
+
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/IndexController.php, line: 11
+msgid "CMS node access"
+msgstr "Доступ CMS"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 196
 msgid "Create tunnel keys"
@@ -25352,6 +25368,11 @@ msgstr "Учетная запись CMS"
 msgid "Not set"
 msgstr "Не установлено"
 
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 123
+msgid "Invalid certificate"
+msgstr "Недоверенный сертификат"
+
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 88
 msgid "Open logging tunnel"
 msgstr "Открыть туннель протоколирования"
@@ -25363,14 +25384,6 @@ msgstr "Восстановить конфигурацию"
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 56
 msgid "Config reverted"
 msgstr "Конфигурация восстановлена"
-
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/views/SmartSoft/CMSNode/index.volt, line: 16
-msgid "Saved"
-msgstr "Сохранено"
-
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/IndexController.php, line: 11
-msgid "CMS node access"
-msgstr "Доступ CMS"
 
 #
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/SettingsController.php, line: 19
@@ -25453,7 +25466,7 @@ msgstr "Настройка шейпера: "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 520
 msgid "Proxy reconfigure: "
-msgstr "Нстройка прокси: "
+msgstr "Настройка прокси: "
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 510
 msgid "relayd configured"
@@ -25491,6 +25504,15 @@ msgstr "Ошибка создания файла hosts"
 msgid "Resolver configuration generated"
 msgstr "Файл resolv.conf создан"
 
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 473
+msgid "Resolver configuration generation failed"
+msgstr "Ошибка создания файла resolv.conf"
+
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 462
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 490
+msgid "DHCP daemon restarted"
+msgstr "DHCP-сервис перезапущен"
+
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 90
 msgid "Send selected section to nodes"
 msgstr "Отправить выбранный раздел узлам"
@@ -25504,30 +25526,31 @@ msgstr "Показать выбранный раздел"
 msgid "Remove existing elements"
 msgstr "Удалить существующие элементы"
 
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 473
-msgid "Resolver configuration generation failed"
-msgstr "Ошибка создания файла resolv.conf"
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 438
+#, php-format
+msgid "Alias '%s' not found"
+msgstr "Псевдоним '%s' не найден."
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 15
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 43
 msgid "Request failed"
 msgstr "Ошибка запроса"
 
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 462
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 490
-msgid "DHCP daemon restarted"
-msgstr "DHCP-сервис перезапущен"
-
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 438
-#, php-format
-msgid "Alias '%s' not found"
-msgstr "Псевдоним '%s' не найден."
-
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 408
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 415
 #, php-format
 msgid "Alias '%s' not found."
 msgstr "Псевдоним '%s' не найден"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 59
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 111
+msgid "offline"
+msgstr "нет связи"
+
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 401
+#, php-format
+msgid "Schedule '%s' not found."
+msgstr "Расписание '%s' не найдено."
 
 #
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 15
@@ -25544,8 +25567,8 @@ msgstr "} по {"
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 19
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/plugins.volt, line: 16
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 16
-msgid "} of {"
-msgstr "} из {"
+msgid "} entries"
+msgstr "} записей"
 
 #
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 15
@@ -25553,13 +25576,8 @@ msgstr "} из {"
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 19
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/plugins.volt, line: 16
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 16
-msgid "} entries"
-msgstr "} записей"
-
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 401
-#, php-format
-msgid "Schedule '%s' not found."
-msgstr "Расписание '%s' не найдено."
+msgid "Showing {"
+msgstr "Показаны с {"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 383
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 390
@@ -25570,6 +25588,11 @@ msgstr "Расписание '%s' не найдено."
 msgid "Firewall reloaded"
 msgstr "Сетевой фильтр перезапущен"
 
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 375
+#, php-format
+msgid "Server '%s' deleted."
+msgstr "Сервер '%s' удалён."
+
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 412
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 425
 msgid "Error update all"
@@ -25579,13 +25602,13 @@ msgstr "Ошибка при обновлении"
 msgid "Error get update status"
 msgstr "Ошибка при попытке получить статус обновления"
 
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 376
-msgid "Error get certificates"
-msgstr "Ошибка при получении сертификатов"
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 306
+msgid "Error get plugins list"
+msgstr "Ошибка при получении списка плагинов"
 
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 359
-msgid "Error installing plugin "
-msgstr "Ошибка при установке плагина"
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 251
+msgid "Error saving config from node"
+msgstr "Ошибка при сохранении файла конфигурации от узла"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 249
 msgid "Error renaming config from node "
@@ -25609,9 +25632,10 @@ msgstr "Ошибка при получении информации"
 msgid "Error uploading config"
 msgstr "Ошибка при загрузке файла конфигурации"
 
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 130
-msgid "Error downloading config"
-msgstr "Ошибка при скачивании файла конфигурации"
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 140
+msgid "Error add user"
+msgstr "Ошибка добавения пользователя"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 100
 msgid "Login error to "
@@ -25639,10 +25663,10 @@ msgstr "CMS Master: настройки"
 msgid "CMSMaster: Configuration clone tool"
 msgstr "CMSMaster: инструмент клонирования конфигурации"
 
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 375
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 364
 #, php-format
-msgid "Server '%s' deleted."
-msgstr "Сервер '%s' удалён."
+msgid "Certificate Authority '%s' not found."
+msgstr "Центр Авторизации '%s' не найден."
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/UpdatesController.php, line: 82
 msgid " upgraded: "
@@ -25663,10 +25687,9 @@ msgstr "Пожалуйста, экспортируйте сертификат и
 msgid "' from System/Trust/Certificates to the node."
 msgstr "' из Система/Доверенные сертификаты/Сертификаты и установите их на узле"
 
-#
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/SettingsController.php, line: 142
-msgid "The certificate generated. "
-msgstr "Сертификат сгенерирован. "
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 351
+msgid "Web Proxy restarted"
+msgstr "Прокси-сервер перезапущен"
 
 #
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/SettingsController.php, line: 114
@@ -25674,22 +25697,17 @@ msgstr "Сертификат сгенерирован. "
 msgid "Not found certificate "
 msgstr "Не найден сертификат "
 
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 364
-#, php-format
-msgid "Certificate Authority '%s' not found."
-msgstr "Центр Авторизации '%s' не найден."
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 346
+msgid "Error starting Proxy"
+msgstr "Ошибка запуска прокси-сервера"
 
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 351
-msgid "Web Proxy restarted"
-msgstr "Прокси-сервер перезапущен"
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 341
+msgid "Error stopping Proxy"
+msgstr "Ошибка остановки прокси-сервера"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ServiceController.php, line: 82
 msgid "Can not open tunnel: "
 msgstr "Не удается открыть туннель: "
-
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ServiceController.php, line: 61
-msgid "No SSH access to node"
-msgstr "Нет SSH-доступа к узлу"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ServiceController.php, line: 55
 msgid "Error set tunnel data to node: "
@@ -25732,9 +25750,9 @@ msgstr "*СДЕЛАНО*"
 msgid "error"
 msgstr "ошибка"
 
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 346
-msgid "Error starting Proxy"
-msgstr "Ошибка запуска прокси-сервера"
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 330
+msgid "local user database updated"
+msgstr "локальная база пользователей обновлена"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 241
 msgid "successfull\n"
@@ -25801,21 +25819,9 @@ msgstr "Портал авторизации CaptivePortal"
 msgid "IPS/IDS"
 msgstr "IPS/IDS"
 
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 341
-msgid "Error stopping Proxy"
-msgstr "Ошибка остановки прокси-сервера"
-
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 330
-msgid "local user database updated"
-msgstr "локальная база пользователей обновлена"
-
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 315
 msgid "Error updating local groups"
 msgstr "Ошибка обновления локальных групп"
-
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 32
-msgid "System Tunning Settings"
-msgstr "Настройка системы"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 313
 msgid "Error updating local users"
@@ -25825,13 +25831,13 @@ msgstr "Ошибка обновления локальных пользоват�
 msgid "Error deleting group from local database"
 msgstr "Ошибка удаления группы из локальной базы"
 
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 32
+msgid "System Tunning Settings"
+msgstr "Настройка системы"
+
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 292
 msgid "Removing group "
 msgstr "Удаление группы "
-
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 28
-msgid "Filter Rules"
-msgstr "Правила фильтрации"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 288
 msgid "Error deleting user from local database"
@@ -25840,6 +25846,19 @@ msgstr "Ошибка удаления пользователя из локаль
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 286
 msgid "Removing user "
 msgstr "Удаление пользователя "
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 28
+msgid "Filter Rules"
+msgstr "Правила фильтрации"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 286
+msgid "The following groups will be removed: "
+msgstr "Следующие группы будут удалены: "
+
+# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 202
+msgid "configuration saved."
+msgstr "конфигурация сохранена."
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 19
 msgid "Authentication Servers"
@@ -25881,17 +25900,9 @@ msgstr "создан раздел конфигурации "
 msgid "remove old data from "
 msgstr "удаление данных из "
 
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 193
-msgid "insert new data into "
-msgstr "вставка новых данных в "
-
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 202
-msgid "configuration saved."
-msgstr "конфигурация сохранена."
-
-# File: /usr/core/src/www/system_authservers.php, line: 681
-msgid "Use simple passwords (less secure)"
-msgstr "Использовать простые пароли (менее безопасные)"
+# File: src/opnsense/mvc/app/views/OPNsense/CaptivePortal/vouchers.volt, line: 239
+msgid "Voucher"
+msgstr "Ваучер"
 
 #
 # File: /usr/lang/src/acl.php, line: 36
@@ -26402,7 +26413,7 @@ msgid ""
 "Assign port number for logging tunnel to CMS-master. It must be in range "
 "1024 - 49151."
 msgstr ""
-"Добавить номер порта для регистрации туннеля к CMS Master. Значение должно входить в диапазон 1024–49151."
+"Номер порта на узле для установки лог-туннеля к CMS Master. Значение должно входить в диапазон 1024–49151."
 
 # File: /usr/lang/src/controllers.php, line: 87
 msgid "Authenticate using"
@@ -27702,7 +27713,7 @@ msgstr "Полностью определенное имя домена или I
 
 # File: /usr/lang/src/controllers.php, line: 329
 msgid "FTP Proxy Settings"
-msgstr "Нстройки FTP-прокси"
+msgstr "Настройки FTP-прокси"
 
 # File: /usr/lang/src/controllers.php, line: 289
 msgid "FTP proxy interfaces"
@@ -27947,7 +27958,7 @@ msgstr "Ч"
 
 # File: /usr/lang/src/controllers.php, line: 372
 msgid "ICAP Settings"
-msgstr "Нстройки ICAP"
+msgstr "Настройки ICAP"
 
 # File: /usr/lang/src/controllers.php, line: 312
 msgid "ICP port"
@@ -33812,10 +33823,3 @@ msgstr ""
 msgid "winsserver2"
 msgstr ""
 
-#
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 123
-msgid "Invalid certificate"
-msgstr "Недоверенный сертификат"
-
-# File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 233
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 115
