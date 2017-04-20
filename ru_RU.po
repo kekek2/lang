@@ -23629,7 +23629,7 @@ msgstr "Нажмите, чтобы проверить наличие обнов�
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 394
 msgid "Check for updates"
-msgstr "Поверить наличие объявлений"
+msgstr "Проверить наличие обновлений"
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 298
 msgid "Upgrade now"
@@ -23638,7 +23638,7 @@ msgstr "Обновить сейчас"
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 257
 msgid "Check for updates to view available plugins."
-msgstr "Поверить наличие объявлений, чтобы просмотреть доступные плагины."
+msgstr "Проверьте наличие обновлений, чтобы просмотреть доступные плагины."
 
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 195
 # File: src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 198
