@@ -1,0 +1,13 @@
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 15
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/health.volt, line: 53
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 16
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 19
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/plugins.volt, line: 16
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 16
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 34
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 70
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 60
+msgid "Showing %s to %s of %s entries"
+msgstr "Показаны с %s по %s из %s записей"
+

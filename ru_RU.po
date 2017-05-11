@@ -25401,14 +25401,6 @@ msgstr "Ожидание"
 msgid "Config saved"
 msgstr "Конфигурация сохранена"
 
-#
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 15
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 16
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 19
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/plugins.volt, line: 16
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 16
-msgid "} of {"
-msgstr "} из {"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 233
 msgid "Edit CMS admin account"
@@ -25629,33 +25621,6 @@ msgstr "нет связи"
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 490
 msgid "DHCP daemon restarted"
 msgstr "DHCP-сервис перезапущен"
-
-#
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 15
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 16
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 19
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/plugins.volt, line: 16
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 16
-msgid "} to {"
-msgstr "} по {"
-
-#
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 15
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 16
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 19
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/plugins.volt, line: 16
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 16
-msgid "} entries"
-msgstr "} записей"
-
-#
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 15
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 16
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 19
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/plugins.volt, line: 16
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 16
-msgid "Showing {"
-msgstr "Показаны с {"
 
 # File: /usr/plugins/devel/ting-plugin-cms-node/src/opnsense/mvc/app/controllers/SmartSoft/CMSNode/Api/ServiceController.php, line: 438
 #, php-format
@@ -33916,4 +33881,17 @@ msgstr ""
 # File: /usr/lang/src/wizards.php, line: 364
 msgid "winsserver2"
 msgstr ""
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cert.volt, line: 15
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/health.volt, line: 53
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 16
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 19
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/plugins.volt, line: 16
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 16
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 34
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 70
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 60
+msgid "Showing %s to %s of %s entries"
+msgstr "Показаны с %s по %s из %s записей"
 
