@@ -1,0 +1,210 @@
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 127
+msgid "DNS server not found"
+msgstr "DNS-сервер не найден."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 145
+msgid "Hostname doesn't resolved to host IP."
+msgstr "Не совпадает DNS с именем домена."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 149
+msgid "Hostname doesn't resolved to IP."
+msgstr "Невозможно определить IP-адрес хоста."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 161
+msgid "Unknown LDAP server IP."
+msgstr "Невозможно определить IP-адрес LDAP-сервера."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 167
+msgid "LDAP server IP reverse lookup error. "
+msgstr "Невозможно сделать обраьный запрос DNS для IP-адреса LDAP-сервера."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 169
+msgid "LDAP server reverse DNS lookup is not equal to LDAP server FQDN. "
+msgstr "Не совпадает обратный запрос DNS с именем LDAP-сервера."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 182
+msgid "Unknown LDAP server FQDN."
+msgstr "Невозможно определить имя LDAP-сервера."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 188
+msgid "LDAP server DNS lookup error. "
+msgstr "Ошибка запроса имени LDAP-сервера."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 191
+msgid "LDAP server DNS lookup is not equal to LDAP IP. "
+msgstr "Ответ DNS-запроса Не совпадает c IP-адресjv LDAP-сервера."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 211
+msgid "File /etc/krb5.conf does not exists."
+msgstr "Файл /etc/krb5.conf не существует."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 214
+msgid "Kerberos configuration file has invalid content"
+msgstr "Пустой файл конфигурации Kerberos."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 223
+msgid "File /usr/local/etc/squid/squid.keytab does not exists."
+msgstr "Файл /usr/local/etc/squid/squid.keytab не существует."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 231
+msgid "LDAP server is not in DNS servers list."
+msgstr "В списке DNS-серверов нет LDAP-сервера."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/Api/ServiceController.php, line: 235
+msgid "Do not set localhost as DNS server."
+msgstr "localhost не установлен в качестве DNS-сервера."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/controllers/SmartSoft/ProxySSO/IndexController.php, line: 9
+msgid "Web Proxy Single Sign-On"
+msgstr "Технология единого входа для прокси-сервера."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/views/SmartSoft/ProxySSO/index.volt, line: 60
+msgid "Proxy reconfigured"
+msgstr "Прокси-сервер переконфигурирован."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-sso/src/opnsense/mvc/app/views/SmartSoft/ProxySSO/index.volt, line: 123
+msgid "Show dump"
+msgstr "Показать результат"
+
+#
+# File: /usr/lang/src/controllers.php, line: 331
+msgid "Enable Single Sign-On"
+msgstr "Влклчить единый вход для прокси-сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 322
+msgid "Enable Kerberos based Single Sign-On"
+msgstr "Влклчить единый вход для прокси-сервера, основанный на Kerberos"
+
+#
+# File: /usr/lang/src/controllers.php, line: 534
+msgid "Kerberos authentication check-list"
+msgstr "Контрольный список вопросов для настройки аутентификации Kerberos"
+
+#
+# File: /usr/lang/src/controllers.php, line: 543
+msgid "LDAP Server configuration"
+msgstr "Конфигурация LDAP-сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 541
+msgid "LDAP Server"
+msgstr "LDAP-сервер"
+
+#
+# File: /usr/lang/src/controllers.php, line: 542
+msgid "LDAP Server accessible"
+msgstr "Доступность LDAP_сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 546
+msgid "LDAP server ping check."
+msgstr "Проверка LDAP-сервера с помощью команды ping."
+
+#
+# File: /usr/lang/src/controllers.php, line: 254
+msgid ""
+"DNS server address from resolver configuration. See <a href=\"/"
+"system_general.php\">DNS settings</a>."
+msgstr ""
+"Адреса DNS-серверов из файла resolv.conf."
+"См. <a href=\"system_general.php\">DNS settings</a>."
+
+#
+# File: /usr/lang/src/controllers.php, line: 499
+msgid "Hostname DNS lookup"
+msgstr "Поиск в DNS имени хоста"
+
+#
+# File: /usr/lang/src/controllers.php, line: 251
+msgid "DNS IP resolution for hostname."
+msgstr "Определение IP-адреса для имени хоста."
+
+#
+# File: /usr/lang/src/controllers.php, line: 500
+msgid "Hostname DNS reverse lookup"
+msgstr "Поиск доменного имени в обратной зоне DNS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 753
+msgid "Reverse DNS resolution for host IP."
+msgstr "Поиск имени хоста по IP-адресу."
+
+#
+# File: /usr/lang/src/controllers.php, line: 544
+msgid "LDAP server DNS lookup"
+msgstr "Поиск LDAP севера в DNS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 250
+msgid "DNS IP resolution for LDAP server name."
+msgstr "Определение IP-адреса LDAP-сервера."
+
+#
+# File: /usr/lang/src/controllers.php, line: 545
+msgid "LDAP server DNS reverse lookup"
+msgstr "Поиск LDAP-сервера в обратной зоне DNS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 752
+msgid "Reverse DNS resolution for LDAP server IP."
+msgstr "Поиск имени LDAP-сервера по его IP-адресу."
+
+#
+# File: /usr/lang/src/controllers.php, line: 535
+msgid "Kerberos configuration"
+msgstr "Конфигурация Kerberos"
+
+#
+# File: /usr/lang/src/controllers.php, line: 536
+msgid "Kerberos configuration must exist and be valid."
+msgstr "Конфигурационный файл Kerberos должен существовать и быть допустимым."
+
+#
+# File: /usr/lang/src/controllers.php, line: 539
+msgid "Keytab file"
+msgstr "Файл keytab"
+
+#
+# File: /usr/lang/src/controllers.php, line: 540
+msgid "Keytab file must exist and be valid."
+msgstr "Файл keytab должен существовать и быть допустимым."
+
+#
+# File: /usr/lang/src/controllers.php, line: 538
+msgid "Keytab creation"
+msgstr "Создание Keytab-файлв"
+
+#
+# File: /usr/lang/src/controllers.php, line: 90
+msgid ""
+"Active Directory user name with administrator rights (this value is not "
+"stored in configuration)."
+msgstr ""
+"Имя пользователя с правами администратора в Active Directory"
+"(это значение не сохраняется в конфигурации)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 91
+msgid ""
+"Active Directory user password (this value is not stored in configuration)."
+msgstr ""
+"Пароль пользователя Active Directory (это значение не сохраняется в конфигурации)."
+
