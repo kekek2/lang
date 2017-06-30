@@ -996,7 +996,7 @@ msgstr "Перезагрузить"
 
 #
 # File: /usr/lang/src/wizards.php, line: 255
-msgid "Reload configuration"
+msgid "Reload Configuration"
 msgstr "Перезагрузить конфигурацию"
 
 #
@@ -1044,7 +1044,7 @@ msgstr ""
 
 #
 # File: /usr/lang/src/wizards.php, line: 265
-msgid "Set Admin WebGUI Password"
+msgid "Set Admin Web GUI Password"
 msgstr "Установите пароль администратора на WEB-интерфейс"
 
 #
@@ -1243,6 +1243,15 @@ msgstr "Мастер завершён."
 # File: /usr/lang/src/wizards.php, line: 304
 msgid "Your configuration is now complete."
 msgstr "Конфигурация закончена."
+
+msgid "Finished initial configuration!"
+msgstr "Начальная настройка завершена!"
+
+msgid "Congratulations! %s is now configured."
+msgstr "Поздравляем! %s сконфигурирован."
+
+msgid "Click to %scontinue to the dashboard%s."
+msgstr "Нажмите %sдля перехода в системную панель%s."
 
 #
 # File: /usr/lang/src/wizards.php, line: 305

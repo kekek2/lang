@@ -2002,7 +2002,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 237
 msgid "Enable proxy"
-msgstr "Включит прокси"
+msgstr "Включить прокси"
 
 # File: /usr/lang/src/controllers.php, line: 238
 msgid "Enable remote access"

@@ -86,17 +86,17 @@ msgstr "Показать результат"
 #
 # File: /usr/lang/src/controllers.php, line: 331
 msgid "Enable Single Sign-On"
-msgstr "Влклчить единый вход для прокси-сервера"
+msgstr "Включить единый вход для прокси-сервера"
 
 #
 # File: /usr/lang/src/controllers.php, line: 322
 msgid "Enable Kerberos based Single Sign-On"
-msgstr "Влклчить единый вход для прокси-сервера, основанный на Kerberos"
+msgstr "Включить единый вход для прокси-сервера, основанный на Kerberos"
 
 #
 # File: /usr/lang/src/controllers.php, line: 534
 msgid "Kerberos authentication check-list"
-msgstr "Контрольный список вопросов для настройки аутентификации Kerberos"
+msgstr "Контрольный список для настройки аутентификации Kerberos"
 
 #
 # File: /usr/lang/src/controllers.php, line: 543

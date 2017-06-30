@@ -70,7 +70,7 @@ msgstr "Использование памяти"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 175
 msgid "MBUF Usage"
-msgstr "Использование буфера памяти (MBUF)"
+msgstr "Использование MBUF"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 157
 msgid "State table size"
@@ -6042,14 +6042,14 @@ msgstr "CRC аппаратного обеспечения"
 # File: /usr/core/src/www/system_advanced_misc.php, line: 416
 msgid ""
 "Set this if you wish to use /tmp as a RAM disk (memory file system disk) "
-"rather than use the hard disk."
+"rather than using the hard disk."
 msgstr ""
-"Выберите, если хотите использовать /tmp в качестве RAM-диска (диск файловой "
-"системы памяти) вместо жесткого диска."
+"Выберите, если хотите использовать /tmp как RAM-диск (файловая "
+"система в памяти) вместо жесткого диска."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 414
 msgid "Use memory file system for /tmp"
-msgstr "Использовать файловую систему памяти для /tmp и /var"
+msgstr "Использовать файловую систему в памяти для /tmp"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 411
 msgid "/tmp RAM disk"
@@ -6057,22 +6057,22 @@ msgstr "RAM-диск /tmp"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 405
 msgid ""
-"Set this if you wish to use /tmp and /var as RAM disks (memory file system "
-"disks) rather than use the hard disk. Setting this will cause the data /var "
+"Set this if you wish to use /var as a RAM disk (memory file system "
+"disks) rather than using the hard disk. Setting this will cause the data /var "
 "to be lost on reboot, including log data."
 msgstr ""
-"Установите этот параметр, если хотите использовать /tmp and /var в качестве "
-"RAM-дисков (диски файловой системы памяти) вместо жесткого диска. Установка "
-"этого параметра вызовет потерю данных в /tmp и /var при перезагрузке, "
-"включая данные журнала."
+"Установите этот параметр, если хотите использовать /var как "
+"RAM-диск (файловая система в памяти) вместо жесткого диска. Установка "
+"этого параметра вызовет потерю данных в /var при перезагрузке, "
+"включая данные лог-файлов."
 
 # File: src/www/system_advanced_misc.php, line: 514
-msgid "Use memory file system for /tmp and /var"
-msgstr "Использовать систему файловой памяти для /tmp и /var"
+msgid "Use memory file system for /var"
+msgstr "Использовать файловую систему в памяти для /var"
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 400
-msgid "/tmp and /var RAM disks"
-msgstr "RAM-диски /tmp и /var"
+msgid "/var RAM disk"
+msgstr "RAM-диск /var"
 
 # File: src/www/system_advanced_misc.php, line: 507
 msgid "RAM Disk Settings (Reboot to Apply Changes)"
@@ -7652,7 +7652,7 @@ msgstr "Возобновить"
 # File: src/www/status_interfaces.php, line: 94
 # File: src/www/status_interfaces.php, line: 108
 msgid "Release"
-msgstr "Версия"
+msgstr "Освободить"
 
 # File: /usr/core/src/www/status_habackup.php, line: 298
 msgid "Restart all services"
@@ -32477,7 +32477,7 @@ msgstr "Город или иное название места (например
 #
 # File: /usr/lang/src/wizards.php, line: 106
 msgid "Click 'Reload' to reload TING with new changes."
-msgstr "Нажмите 'Перезагрузить' для перезагрузки TING с новыми настройками."
+msgstr "Нажмите 'Перезагрузить' для перезагрузки конфигурации TING."
 
 # File: lang/dynamic/helpers/models.php, line: 280
 # File: src/www/vpn_openvpn_csc.php, line: 463
@@ -33293,8 +33293,8 @@ msgstr "Перезагрузить"
 
 #
 # File: /usr/lang/src/wizards.php, line: 255
-msgid "Reload configuration"
-msgstr "Перезагрузить конфигурацию"
+msgid "Reload Configuration"
+msgstr "Перезагрузка конфигурации"
 
 #
 # File: /usr/lang/src/wizards.php, line: 256
@@ -33345,7 +33345,7 @@ msgstr ""
 
 #
 # File: /usr/lang/src/wizards.php, line: 265
-msgid "Set Admin WebGUI Password"
+msgid "Set Admin Web GUI Password"
 msgstr "Установите пароль администратора на WEB-интерфейс"
 
 #
@@ -33592,6 +33592,15 @@ msgstr "Мастер завершён."
 # File: /usr/lang/src/wizards.php, line: 304
 msgid "Your configuration is now complete."
 msgstr "Конфигурация закончена."
+
+msgid "Finished initial configuration!"
+msgstr "Начальная настройка завершена!"
+
+msgid "Congratulations! %s is now configured."
+msgstr "Поздравляем! %s сконфигурирован."
+
+msgid "Click to %scontinue to the dashboard%s."
+msgstr "Нажмите %sдля перехода в системную панель%s."
 
 #
 # File: /usr/lang/src/wizards.php, line: 305
@@ -33993,7 +34002,7 @@ msgstr "Включить единый вход для прокси-сервер�
 #
 # File: /usr/lang/src/controllers.php, line: 534
 msgid "Kerberos authentication check-list"
-msgstr "Контрольный список вопросов для настройки аутентификации Kerberos"
+msgstr "Контрольный список для настройки аутентификации Kerberos"
 
 #
 # File: /usr/lang/src/controllers.php, line: 543
