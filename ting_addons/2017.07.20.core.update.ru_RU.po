@@ -1,0 +1,2846 @@
+#
+# File: /usr/core/src/www/wizard.php, line: 92
+msgid "ERROR: Could not find wizard file."
+msgstr "ОШИБКА: Не удалось найти файл помощника."
+
+#
+# File: /usr/plugins/dns/dyndns/src/www/widgets/widgets/dyn_dns_status.widget.php, line: 137
+# File: /usr/plugins/dns/rfc2136/src/www/widgets/widgets/rfc2136.widget.php, line: 137
+# File: /usr/core/src/www/widgets/widgets/dyn_dns_status.widget.php, line: 137
+# File: /usr/core/src/www/widgets/widgets/rfc2136.widget.php, line: 137
+msgid "Checking..."
+msgstr "Проверка..."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1028
+msgid "Disables the IKEv2 MOBIKE protocol defined by RFC 4555"
+msgstr "Отключает протокол IKEv2 MOBIKE определённый в RFC 4555"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1024
+msgid "Disable MOBIKE"
+msgstr "Отключить MOBIKE"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 877
+msgid "Select authentication servers to use."
+msgstr "Выберите используемые серверы аутентификации."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 863
+msgid "Radius servers"
+msgstr "Radius серверы"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 723
+#, php-format
+msgid ""
+"If you select EAP-RADIUS, you must define your RADIUS servers on the "
+"%sServers%s page."
+msgstr ""
+"Если Вы выбираете EAP-RADIUS, Вы должны определить RADIUS серверы на "
+"странице %sСерверы%s."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 192
+msgid "Please select radius servers to use."
+msgstr "Пожалуйста, выберите radius-серверы."
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 999
+msgid ""
+"Additional users can be added here. User permissions for accessing the web "
+"GUI or other subsystems can be assigned directly or inherited from group "
+"memberships. An icon that appears grey indicates that it is a system defined "
+"object. Some system object properties can be modified but they cannot be "
+"deleted."
+msgstr ""
+"Дополнительные пользователи могут быть добавлены здесь. Права пользователя на доступ в web "
+"GUI или другие подсистемы могут быть назначены явно или унаследованы от членства в группах. "
+"Иконки, отображаемые серым цветом указывают на то, что это системный объект. "
+"Некоторые свойства системных объектов могут быть изменены, но они не могут быть удалены."
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 873
+msgid "Scan this QR code for easy setup with external apps."
+msgstr "Сосканируйте этот QR код для лёгкой установки внешним приложением."
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 865
+msgid "Click to unhide"
+msgstr "Нажмите, чтобы показать"
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 847
+msgid "Generate new secret (160 bit)"
+msgstr "Сгенерировать новый ключ (160 бит)"
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 687
+msgid "Inherited from"
+msgstr "Унаследовано от"
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 590
+msgid ""
+"Generate a scrambled password to prevent local database logins for this user."
+msgstr ""
+"Сгенерировать закодированный пароль для предотвращения локольного входа для этого пользователя."
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 248
+msgid "A password is required."
+msgstr "Требуется пароль."
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 227
+msgid "The username is longer than 32 characters."
+msgstr "Имя пользователя длиннее 32 символов."
+
+#
+# File: /usr/core/src/www/system_hasync.php, line: 228
+msgid ""
+"Enter the web GUI password of the system entered above for synchronizing "
+"your configuration."
+msgstr ""
+"Введите пароль пользователя веб-интерфейса системы, указанной выше, для синхронизации "
+"вашей конфигурации."
+
+#
+# File: /usr/core/src/www/system_hasync.php, line: 214
+msgid ""
+"Enter the web GUI username of the system entered above for synchronizing "
+"your configuration."
+msgstr ""
+"Введите имя пользователя веб-интерфейса системы, указанной выше, для синхронизации "
+"вашей конфигурации."
+
+#
+# File: /usr/core/src/www/system_hasync.php, line: 201
+msgid ""
+"For setting up the backup machine leave this field empty, and do not forget "
+"to allow incoming connections on the specified interface for synchronization."
+msgstr ""
+"Для настройки резервной машины оставьте это поле пустым, и не забудьте "
+"разрешить входящие соединения на указанный интерфейс для синхронизации."
+
+#
+# File: /usr/core/src/www/system_hasync.php, line: 138
+msgid ""
+"When this device is configured as CARP master it will try to switch to "
+"master when powering up, this option will keep this one slave if there "
+"already is a master on the network"
+msgstr ""
+"Когда это устройство настроено как CARP мастер оно будет пытаться переключиться в "
+"режим мастера при включении, эта опция оставит его подчинённым если "
+"в сети уже есть мастер"
+
+#
+# File: /usr/core/src/www/system_hasync.php, line: 134
+msgid "Disable preempt"
+msgstr "Отключить упреждение"
+
+#
+# File: /usr/core/src/www/system_groupmanager.php, line: 428
+msgid ""
+"Additional groups can be added here. Group permissions can be assigned which "
+"are inherited by users who are members of the group. An icon that appears "
+"grey indicates that it is a system defined object. Some system object "
+"properties can be modified but they cannot be deleted."
+msgstr ""
+"Дополнительные группы могут быть добавлены здесь. Права групп могут быть установлены "
+"для наследования пользователями, входщими в эти группы. Иконки, показанные "
+"серым указывают, что это системный объект. Некоторые свойства системных объектов "
+"могут быть изменены, но не могут быть удалены."
+
+#
+# File: /usr/core/src/www/system_groupmanager.php, line: 95
+msgid "The group name is longer than 32 characters."
+msgstr "Имя группы длиннее 32 символов."
+
+#
+# File: /usr/core/src/www/system_general.php, line: 346
+msgid "This will change the look and feel of the GUI."
+msgstr "Это меняет визуальное представление интерфейса."
+
+#
+# File: /usr/core/src/www/system_general.php, line: 333
+msgid "Theme"
+msgstr "Тема"
+
+#
+# File: /usr/core/src/www/system_general.php, line: 326
+msgid "Choose a language for the web GUI."
+msgstr "Выберите язык интерфейса."
+
+#
+# File: /usr/core/src/www/system_camanager.php, line: 337
+msgid "The serial number must be a number greater than zero or left blank."
+msgstr "Серийный номер должен быть больше нуля или пустое значение."
+
+#
+# File: /usr/core/src/www/system_authservers.php, line: 583
+msgid ""
+"Semicolon-separated list of distinguished names optionally containing DC= "
+"components."
+msgstr ""
+"Список имён, разделённый точками с запятой, опционально содержащий DC= "
+"компоненты."
+
+#
+# File: /usr/core/src/www/system_authservers.php, line: 568
+msgid "Base DN"
+msgstr "Базовый DN"
+
+#
+# File: /usr/core/src/www/system_advanced_misc.php, line: 462
+msgid ""
+"If the powerd utility can not determine the power state it uses \"normal\" "
+"for control."
+msgstr ""
+"Если утилита powerd не может определить состояние питания, она использует \"normal\" "
+"для управления."
+
+#
+# File: /usr/core/src/www/system_advanced_misc.php, line: 445
+msgid "On Normal Power Mode"
+msgstr "В режиме нормального питания"
+
+#
+# File: /usr/core/src/www/system_advanced_misc.php, line: 377
+msgid ""
+"This will periodically backup the captive portal session data so it can be "
+"restored automatically on the next boot."
+msgstr ""
+"Это позволит периодически сохранять данные сессий Captive Portal чтобы "
+"чтобы автоматически подгрузить при следующей загрузке."
+
+#
+# File: /usr/core/src/www/system_advanced_misc.php, line: 364
+msgid "Periodic Captive Portal Backup"
+msgstr "Периодическое сохранение Captive Portal"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 520
+msgid ""
+"Uses the currently loaded ruleset as a feedback profile to tailor the "
+"ordering of quick rules to actual network traffic."
+msgstr ""
+"Использовать текущий набор правил как профиль обратной связи для адаптации "
+"порядка quick правил к актуальному трафику."
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 516
+msgid ""
+"(default) Basic ruleset optimization does four things to improve the "
+"performance of ruleset evaluations: remove duplicate rules; remove rules "
+"that are a subset of another rule; combine multiple rules into a table when "
+"advantageous; re-order the rules to improve evaluation performance"
+msgstr ""
+"(по-умолчанию) Базовая оптимизация правил делает четыре вещи для увеличения "
+"производительности обработки правил: удаление дублирующихся правил; удаление правил "
+"которые являются подмножеством других правил; комбинирование нескольких правил в таблицу "
+"если это выгодно; изменение порядка правил для увеличения производительности"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 512
+msgid "Disable the ruleset optimizer."
+msgstr "Отключить оптимизацию набора правил."
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 508
+msgid "Select the type of rules optimization to use"
+msgstr "Выберите тип оптимизации правил"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 504
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 519
+msgid "profile"
+msgstr "профиль"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 494
+msgid "Firewall Rules Optimization"
+msgstr "Оптимизация правил межсетевого экрана"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 426
+msgid ""
+"Using policy routing in the packet filter rules causes packets to skip "
+"processing for the traffic shaper and captive portal tasks. Using this "
+"option enables the sharing of such forwarding decisions between all "
+"components to accomodate complex setups. Use with care."
+msgstr ""
+"Использование политики маршрутизации в правилах фильтра заставляет пакеты "
+"пропускать обработку шейпера и Captive Portal. Использование этой опции "
+"разрешает совместное использование решений о переадресации между всеми компонентами "
+"в сложных инсталляциях. Используйте с осторожностью."
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 424
+msgid ""
+"Use shared forwarding between packet filter, traffic shaper and captive "
+"portal"
+msgstr ""
+"Использовать общую переадресацию между пакетным фильтром, шейпером и Captive "
+"Portal"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 421
+msgid "Shared forwarding"
+msgstr "Общая переадресация"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 387
+msgid ""
+"If the link where the default gateway resides fails switch the default "
+"gateway to another available one. This feature has been deprecated."
+msgstr ""
+"Если соединение, за которым находится шлюз по-умолчанию, не переключает "
+"шлюз по-умолчанию на другой доступный. Эта функция устарела."
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 687
+msgid "No password"
+msgstr "Без пароля"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 686
+msgid "Ask password"
+msgstr "Запросить пароль"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 685
+msgid "Disallow"
+msgstr "Запретить"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 677
+msgid ""
+"Disable OPNsense integrated authentication module for console access, "
+"falling back to normal unix authentication."
+msgstr ""
+"Отключить встроенный модуль аутентификации для доступа к консоли, "
+"вернуть стандартную аутентификацию Unix."
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 675
+msgid "Disable integrated authentication"
+msgstr "Отключить встроенную аутентификаию"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 672
+msgid "Integrated authentication"
+msgstr "Встроенная аутентификация"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 610
+msgid "Use the virtual terminal driver (vt)"
+msgstr "Использовать драйвер виртуального терминала (vt)"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 607
+msgid "Console driver"
+msgstr "Драйвер консоли"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 545
+#, php-format
+msgid ""
+"When this is unchecked, access to the web GUI is protected against "
+"HTTP_REFERER redirection attempts. Check this box to disable this protection "
+"if you find that it interferes with web GUI access in certain corner cases "
+"such as using external scripts to interact with this system. More "
+"information on HTTP_REFERER is available from %sWikipedia%s."
+msgstr ""
+"Когда это отключено, доступ к web GUI защищён от попыток перенаправления "
+"HTTP_REFERER. Выберите эту опцию для отключения этой защиты "
+"если она мешает доступу к web GUI в некоторых нестандартных случаях "
+"вроде использования внешних скриптов для взаимодействия с этой системой. Больше "
+"информации о HTTP_REFERER доступно в %sWikipedia%s."
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 534
+msgid ""
+"Transfer less data to the client for an additional cost in processing power."
+msgstr ""
+"Передавать меньше данных клиенту за счёт избыточной нагрузки на обработку."
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 533
+msgid "Enable compression of webgui pages and dynamic content."
+msgstr "Включить сжатие страниц web-интерфейса и динамического контента."
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 516
+msgid "WebGui Compression"
+msgstr "Сжатие web GUI"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 495
+#, php-format
+msgid ""
+"When this is unchecked, your system is protected against %sDNS Rebinding "
+"attacks%s. This blocks private IP responses from your configured DNS "
+"servers. Check this box to disable this protection if it interferes with web "
+"GUI access or name resolution in your environment."
+msgstr ""
+"Когда выключено, Ваша система защищена от %sDNS Rebinding "
+"атак%s. Это блокирует частные IP-ответы с Ваших DNS "
+"серверов. Выберите эту опцию для отключения этой защиты если это мешает доступу к web "
+"GUI или разрешению доменных имён в Вашем окружении."
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 476
+#, php-format
+msgid ""
+"When this is unchecked, access to the web GUI on the %s interface is always "
+"permitted, regardless of the user-defined firewall rule set. Check this box "
+"to disable this automatically added rule, so access to the web GUI is "
+"controlled by the user-defined firewall rules (ensure you have a firewall "
+"rule in place that allows you in, or you will lock yourself out!)"
+msgstr ""
+"Когда выключено, доступ к web GUI на %s интерфейса всегда "
+"разрешён, независисо от пользовательского набора правил пакетного фильтра. Выберите "
+"эту опцию для отключения автоматического добавления правила, чтобы доступ к web GUI "
+"пользовательским набором правил (убедитесь, что у Вас есть правило, "
+"которое позволяет Вам подключиться, или Вы отключите себя!)"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 473
+msgid "Disable web GUI anti-lockout rule"
+msgstr "Отключить правило анти-блокировки web GUI"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 463
+msgid ""
+"When this is checked, successful logins to the web GUI will not be logged."
+msgstr ""
+"Когда включено, успешные логины в web GUI не будут протоколироваться."
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 460
+msgid "Disable logging of web GUI successful logins"
+msgstr "Отключить протоколирование успешных входов в web-интерфейс"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 449
+msgid ""
+"When this is checked, login credentials for the web GUI may be saved by the "
+"browser. While convenient, some security standards require this to be "
+"disabled. Check this box to enable autocomplete on the login form so that "
+"browsers will prompt to save credentials (NOTE: Some browsers do not respect "
+"this option)."
+msgstr ""
+"Когда включено, параметры входа в web-интерфейс могут быть сохранены "
+"браузером. Когда нужно, некоторые стандарты безопасности требуют это "
+"отключить. Выберите эту опцию для разрешения автозаполнения формы входа, "
+"чтобы браузеры выдавали запрос на сохранение данных входа (ЗАМЕЧАНИЕ: Некоторые браузеры не "
+"понимают эту опцию)."
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 446
+msgid "Enable web GUI login autocomplete"
+msgstr "Разрешить автозаполнение формы входа в web-интрефейс"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 434
+msgid ""
+"When this is unchecked, access to the web GUI is always permitted even on "
+"port 80, regardless of the listening port configured. Check this box to "
+"disable this automatically added redirect rule."
+msgstr ""
+"Когда выключено, доступ к web GUI всегда разрешен на "
+"порту 80, независимо от сконфигурированного порта для web-интерфейса. Выберите эту опцию "
+"для отключения автоматического добавления правила перенаправления."
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 431
+msgid "Disable web GUI redirect rule"
+msgstr "Отключить правило перенаправления web-интерфейса"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 420
+msgid ""
+"Enter a custom port number for the web GUI above if you want to override the "
+"default (80 for HTTP, 443 for HTTPS). Changes will take effect immediately "
+"after save."
+msgstr ""
+"Введите номер порта для web GUI если вы хотите переопределить "
+"значение по-умолчанию (80 для HTTP, 443 для HTTPS). Изменения вступят в силу "
+"сразу после сохранения."
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 410
+msgid ""
+"Limit SSL cipher selection in case the system defaults are undesired. Note "
+"that restrictive use may lead to an inaccessible web GUI."
+msgstr ""
+"Ограничить выбор SSL шифрования в случаях, когда системные настройки не удовлетворяют. Помните, "
+"что ограничение может привести к недоступности web GUI."
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 396
+msgid "System defaults"
+msgstr "Системные настройки по-умолчанию"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 394
+msgid "SSL Ciphers"
+msgstr "SSL шифрование"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 347
+# File: /usr/core/src/www/system_certmanager.php, line: 1280
+msgid "Web GUI"
+msgstr "Web-интерфейс"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 73
+msgid "You must specify a valid web GUI port number"
+msgstr "Вы должны указать допустимый номер порта web GUI"
+
+#
+# File: /usr/core/src/www/services_unbound_advanced.php, line: 185
+msgid ""
+"Serve expired responses from the cache with a TTL of 0 without waiting for "
+"the actual resolution to finish."
+msgstr ""
+"Выдавать просроченные ответы из кэша с TTL 0 без ожидания "
+"когда произойдёт реальное разрешение."
+
+#
+# File: /usr/core/src/www/services_unbound_advanced.php, line: 181
+msgid "Serve expired responses"
+msgstr "Обслуживание просроченных ответов"
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 315
+#, php-format
+msgid ""
+"If the DNS Resolver is enabled, the DHCP service (if enabled) will "
+"automatically serve the LAN IP address as a DNS server to DHCP clients so "
+"they will use the DNS Resolver. If Forwarding, is enabled, the DNS Resolver "
+"will use the DNS servers entered in %sSystem: General setup%s or those "
+"obtained via DHCP or PPP on WAN if the \"Allow DNS server list to be "
+"overridden by DHCP/PPP on WAN\" is checked."
+msgstr ""
+"Если DNS Resolver включен, DHCP сервис (если включен) будет "
+"автоматически объявлять LAN IP-адрес как DNS сервер  для своих DHCP клиентов, "
+"т.е. они будут использовать DNS Resolver. Если включен Forwarding, DNS Resolver "
+"будет использовать DNS сервера, указанные в %sСистема: Общие настройки%s или те, "
+"которые получены через DHCP или PPP на WAN если \"Позволить переопределить список DNS серверов "
+"DHCP/PPP на WAN\" включено."
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 257
+msgid ""
+"If this option is unset, then IPv6 link-local addresses will not be "
+"registered in the DNS Resolver, preventing return of unreachable address "
+"from the DNS resolver when more than one listen interface is configured."
+msgstr ""
+"Если эта опция выключена, то локальные адреса IPv6 не будут "
+"регистрироваться в DNS Resolver, предотвращая возврат недоступного адреса "
+"от DNS сервера когда более одного интерфейса сконфигурировано для прослушивания."
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 255
+msgid "Register IPv6 link-local addresses in the DNS Resolver"
+msgstr "Регистрировать IPv6 адреса локольного линка в DNS Resolver"
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 252
+msgid "DHCP IPv6 Link-local"
+msgstr "DHCP IPv6 локальный линк"
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 239
+msgid "DHCP Static Mappings"
+msgstr "Статические DHCP преобразования"
+
+#
+# File: /usr/core/src/www/services_router_advertisements.php, line: 372
+msgid ""
+"Routes are specified in CIDR format. The prefix of a route definition should "
+"be network prefix; it can be used to advertise more specific routes to the "
+"hosts."
+msgstr ""
+"Маршруты, указанные в CIDR формате. Префикс определения маршрута должен быть "
+"сетевым префиксом; он может быть использован для представления спецефическиз маршрутов к "
+"хостам."
+
+#
+# File: /usr/core/src/www/services_router_advertisements.php, line: 343
+msgid "Remove"
+msgstr "Удалить"
+
+#
+# File: /usr/core/src/www/services_router_advertisements.php, line: 322
+msgid "Length"
+msgstr "Длина"
+
+#
+# File: /usr/core/src/www/services_router_advertisements.php, line: 315
+msgid "Advertise Routes"
+msgstr "Представляемые маршруты"
+
+#
+# File: /usr/core/src/www/services_router_advertisements.php, line: 96
+#, php-format
+msgid "An invalid subnet route was supplied: %s"
+msgstr "Неверный маршрут подсети использован: %s"
+
+#
+# File: /usr/plugins/dns/rfc2136/src/www/services_rfc2136_edit.php, line: 185
+# File: /usr/core/src/www/services_rfc2136_edit.php, line: 185
+msgid "'All' will update all available record types."
+msgstr "'Все' обновит все доступные типы записей."
+
+#
+# File: /usr/plugins/dns/rfc2136/src/www/services_rfc2136_edit.php, line: 183
+# File: /usr/core/src/www/services_rfc2136_edit.php, line: 183
+msgid "AAAA (IPv6)"
+msgstr ""
+
+#
+# File: /usr/plugins/dns/rfc2136/src/www/services_rfc2136_edit.php, line: 182
+# File: /usr/core/src/www/services_rfc2136_edit.php, line: 182
+msgid "A (IPv4)"
+msgstr ""
+
+#
+# File: /usr/plugins/dns/rfc2136/src/www/services_rfc2136_edit.php, line: 179
+# File: /usr/core/src/www/services_rfc2136_edit.php, line: 179
+msgid "Record Type"
+msgstr "Тип записи"
+
+#
+# File: /usr/core/src/www/services_ntpd_gps.php, line: 526
+#, php-format
+msgid ""
+"For the best results, NTP should have at least three sources of time. So it "
+"is best to configure at least 2 servers under %sServices: Network Time%s to "
+"minimize clock drift if the GPS data is not valid over time. Otherwise ntpd "
+"may only use values from the unsynchronized local clock when providing time "
+"to clients."
+msgstr ""
+"Для лучших результатов, NTP должен иметь хотя бы три источника времени. Таким образом "
+"лучше всего сконфигурировать как минимум два сервера в %sСлужбы: Сетевое время%s чтобы "
+"минимизировать расхождение часов если данные GPS станут неверными со временем. Иначе ntpd "
+"может только использовать значения из несинхранизированных локальных часов когда "
+"предоставляет значения времени клиентам."
+
+#
+# File: /usr/core/src/www/services_ntpd_gps.php, line: 509
+msgid "Enter the text between \"$\" and \"*\" of a NMEA command string:"
+msgstr "Введите текс между \"$\" и \"*\" командной строки NMEA:"
+
+#
+# File: /usr/core/src/www/services_ntpd_gps.php, line: 494
+msgid "This may be used to change the GPS Clock ID (default: GPS)."
+msgstr "Это может быть использовано для изменения ID часов GPS (по-умолчанию: GPS)."
+
+#
+# File: /usr/core/src/www/services_ntpd_gps.php, line: 482
+msgid ""
+"Enabling this will rapidly fill the log, but is useful for tuning Fudge time "
+"2."
+msgstr ""
+"Включение этого будет быстро заполнять журнал, но полезно для настройки Fudge time "
+"2."
+
+#
+# File: /usr/core/src/www/services_ntpd_gps.php, line: 481
+msgid ""
+"Log the sub-second fraction of the received time stamp (default: Not logged)."
+msgstr ""
+"Логировать доли секунды в получаемых значениях времени (по-умолчанию: Не логируется)."
+
+#
+# File: /usr/core/src/www/services_ntpd_gps.php, line: 415
+msgid ""
+"This may be used to change the GPS Clock stratum (default: 0). This may be "
+"useful if, for some reason, you want ntpd to prefer a different clock"
+msgstr ""
+"Это может быть использовано для изменения GPS Clock stratum (по-умолчанию: 0). Это может быть "
+"полезно, если, по какой-то причине, Вы хотите, чтобы ntpd предпочитал другие часы."
+
+#
+# File: /usr/core/src/www/services_ntpd_gps.php, line: 405
+msgid "Fudge time 2 is used to specify the GPS time offset (default: 0.0)."
+msgstr "Fudge time 2 испольуется для указания смещения времени GPS (по-умолчанию: 0.0)"
+
+#
+# File: /usr/core/src/www/services_ntpd_gps.php, line: 401
+msgid "Fudge time 2 (seconds)"
+msgstr "Fudge time 2 (секунды)"
+
+#
+# File: /usr/core/src/www/services_ntpd_gps.php, line: 397
+msgid ""
+"Fudge time 1 is used to specify the GPS PPS signal offset (default: 0.0)."
+msgstr ""
+"Fudge time 1 используется для указания смещения сигнала GPS PPS (по-умолчанию: 0.0)."
+
+#
+# File: /usr/core/src/www/services_ntpd_gps.php, line: 393
+msgid "Fudge time 1 (seconds)"
+msgstr "Fudge time 1 (секунды)"
+
+#
+# File: /usr/core/src/www/services_ntpd_gps.php, line: 334
+msgid ""
+"The predefined configurations assume your GPS has already been set to NMEA "
+"mode."
+msgstr ""
+"Предопределённые конфигурации предполагают, что Ваш GPS уже установлен в NMEA "
+"режим."
+
+#
+# File: /usr/plugins/dns/dyndns/src/www/services_dyndns_edit.php, line: 404
+# File: /usr/plugins/dns/rfc2136/src/www/services_rfc2136_edit.php, line: 252
+# File: /usr/core/src/www/services_dyndns_edit.php, line: 404
+# File: /usr/core/src/www/services_rfc2136_edit.php, line: 252
+msgid "Save and Force Update"
+msgstr "Сохранить и обновить"
+
+#
+# File: /usr/core/src/www/services_dnsmasq.php, line: 402
+#, php-format
+msgid ""
+"If the DNS forwarder is enabled, the DHCP service (if enabled) will "
+"automatically serve the LAN IP address as a DNS server to DHCP clients so "
+"they will use the forwarder. The DNS forwarder will use the DNS servers "
+"entered in %sSystem: General setup%s or those obtained via DHCP or PPP on "
+"WAN if the \"Allow DNS server list to be overridden by DHCP/PPP on WAN\" is "
+"checked. If you don't use that option (or if you use a static IP address on "
+"WAN), you must manually specify at least one DNS server on the %sSystem: "
+"General setup%s page."
+msgstr ""
+"Если DNS перенаправитель включён, DHCP сервис (если включён) будет "
+"автоматически предоставлять LAN IP адрес как DNS сервер своим DHCP клиентам, т.е. "
+"они будут использовать перенаправитель. DNS перенаправитель будет использовать DNS серверы "
+"указанные в %sСистема: Общие настройки%s или те, которые получил через DHCP или PPP на "
+"WAN если \"Позволить переопределить список DNS-серверов DHCP/PPP на WAN\" "
+"включено. Если вы не используете эту опцию (или если Вы используете статический IP адрес "
+"на WAN), Вы должны указать вручную хотя бы один DNS-сервер в %sСистема: "
+"Общие настройки%s."
+
+#
+# File: /usr/core/src/www/services_dhcp_relay.php, line: 167
+msgid ""
+"These are the IP addresses of servers to which DHCP requests are relayed. "
+"You can enter multiple server IP addresses, separated by commas. Select "
+"\"Proxy requests to DHCP server on WAN subnet\" to relay DHCP packets to the "
+"server that was used on the WAN interface."
+msgstr ""
+"Это IP адреса серверов на которые DHCP запросы перенаправляются. "
+"Вы можете внести несколько IP адресов серверов, разделённых запятыми. Выберите "
+"\"Передавать запросы на DHCP сервер в WAN подсеть\" для перенаправления DHCP пакетов "
+"на сервер, который использован на WAN интерфейсе."
+
+#
+# File: /usr/core/src/www/services_dhcp_relay.php, line: 163
+msgid "Destination servers"
+msgstr "Серверы назначения"
+
+#
+# File: /usr/core/src/www/services_dhcp.php, line: 866
+msgid ""
+"This option specifies the MTU to use on this interface. The minimum legal "
+"value for the MTU is 68."
+msgstr ""
+"Эта опция указывает MTU на этом интерфейсе. Минимальная легальная величина "
+"для MTU: 68."
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 304
+# File: /usr/core/src/www/services_dhcp.php, line: 862
+msgid "Interface MTU"
+msgstr "MTU интерфейса"
+
+#
+# File: /usr/core/src/www/services_dhcp.php, line: 329
+msgid "A valid MTU value must be specified."
+msgstr "Действительная величина MTU должна быть указана."
+
+#
+# File: /usr/core/src/www/interfaces_vlan_edit.php, line: 225
+msgid "802.1Q VLAN PCP (priority code point)"
+msgstr "802.1Q VLAN PCP (priority code point)"
+
+#
+# File: /usr/core/src/www/interfaces_vlan_edit.php, line: 217
+msgid "VLAN priority"
+msgstr "Приоритет VLAN"
+
+#
+# File: /usr/core/src/www/interfaces_vlan_edit.php, line: 73
+msgid "The VLAN priority must be an integer between 0 and 7."
+msgstr "Приоритет VLAN должен быть целой величиной между 0 и 7."
+
+#
+# File: /usr/core/src/www/interfaces_vlan.php, line: 126
+msgid "PCP"
+msgstr "PCP"
+
+#
+# File: /usr/core/src/www/interfaces_vlan.php, line: 59
+#, php-format
+msgid ""
+"This VLAN cannot be deleted because it is still being used as an interface "
+"(%s)."
+msgstr ""
+"Этот VLAN не может быть удалён, т.к. он ещё используется, как интерфейс "
+"(%s)."
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2635
+msgid ""
+"The value in this field is the absolute path to a script invoked on certain "
+"conditions including when a reply message is received."
+msgstr ""
+"Значение в этом поле - это абсолютный путь к скрипту вызываемому при определённых "
+"условиях включая когда ответное сообщение получено."
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2626
+msgid ""
+"The values in this field are DHCP request options to be sent when requesting "
+"a DHCP lease. [option [, ...]]"
+msgstr ""
+"Значения в этом поле - это опции DHCP ответа, которые будут переданы на запрос "
+"DHCP lease. [option [, ...]]"
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2615
+msgid ""
+"The values in this field are DHCP send options to be sent when requesting a "
+"DHCP lease. [option declaration [, ...]] <br />Value Substitutions: "
+"{interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />Where C "
+"is U(pper) or L(ower) Case, and D is \" :-.\" Delimiter (space, colon, "
+"hyphen, or period) (omitted for none)."
+msgstr ""
+"Значения в этом поле - это опции DHCP передаваемые в ответ на запрос "
+"DHCP lease. [option declaration [, ...]] <br />Формат значений: "
+"{interface}, {hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />Где C "
+"это U(pper, верхний) или L(ower, нижний) C(ase, регистр), и D это \" :-.\" Delimiter (разделитель): пробел, двоеточие, "
+"дефис или точка (можно не указывать)."
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2107
+# File: /usr/core/src/www/interfaces.php, line: 2721
+msgid ""
+"The value in this field is the full absolute path to a DHCP client "
+"configuration file."
+msgstr ""
+"Значение в этом поле - это полный абсолютный путь к файлу "
+"конфигурации клиента DHCP."
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2075
+msgid ""
+"The values in this field are DHCP option 55 to be sent when requesting a "
+"DHCP lease. [option [, ...]]"
+msgstr ""
+"Значения в этом поле - это опция 55 DHCP, которая будет передана, когда запрашивается "
+"DHCP lease. [option [, ...]]"
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2065
+msgid ""
+"The values in this field are DHCP options to be sent when requesting a DHCP "
+"lease. [option declaration [, ...]] <br />Value Substitutions: {interface}, "
+"{hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />Where C is U(pper) or "
+"L(ower) Case, and D is \" :-.\" Delimiter (space, colon, hyphen, or period) "
+"(omitted for none)."
+msgstr ""
+"Значения в этом поле - это опции DHCP которые будут переданы, когда запрашивается DHCP "
+"lease. [option declaration [, ...]] <br />Формат значений: {interface}, "
+"{hostname}, {mac_addr_asciiCD}, {mac_addr_hexCD} <br />Где C - это U(pper, верхний) или "
+"L(ower, нижний) C(ase, регистр), и D - это \" :-.\" Delimiter (разделитель): пробел, двоеточие, дефис, или точка "
+"(можно не указывать)."
+
+#
+# File: /usr/core/src/www/firewall_scrub_edit.php, line: 627
+msgid "Random ID"
+msgstr "Случайный ID"
+
+#
+# File: /usr/core/src/www/firewall_scrub_edit.php, line: 609
+msgid "Minimum TTL"
+msgstr "Минимальное TTL"
+
+#
+# File: /usr/core/src/www/firewall_schedule_edit.php, line: 131
+#, php-format
+msgid "The schedule name cannot be the internally reserved keyword \"%s\"."
+msgstr "Название расписания не может быть зарезервированным словом \"%s\"."
+
+#
+# File: /usr/core/src/www/firewall_schedule_edit.php, line: 129
+#, php-format
+msgid ""
+"The schedule name must be less than 32 characters long and may only consist "
+"of the following characters: %s"
+msgstr ""
+"Название расписания должно быть менее 32 символов и может состоять только "
+"из следующих символов: %s"
+
+#
+# File: /usr/core/src/www/firewall_schedule_edit.php, line: 124
+msgid "Schedule may not use a blank name."
+msgstr "Расписание не может иметь пустое название."
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1322
+msgid "Match on the priority of packets."
+msgstr "Совпадает с приоритетом пакета."
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1316
+msgid "Any priority"
+msgstr "Любой приоритет"
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1313
+msgid "Match priority"
+msgstr "Совпадение приоритета"
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1308
+msgid ""
+"Set the priority of packets matching this rule. If both priorities are set "
+"here, packets with a TOS of \"lowdelay\" or TCP ACKs with no data payload "
+"will be assigned the latter. If the packets are transmitted on a VLAN "
+"interface, the queueing priority will be written as the priority code point "
+"in the 802.1Q VLAN header."
+msgstr ""
+"Установить приоритет пакетов, подпадающих под это правило. Если оба приоритета устанавливаются "
+"здесь, пакетам с TOS \"lowdelay\" или TCP ACKs без данных нагрузки "
+"будет назначен последний. Если пакеты передаются через VLAN "
+"интерфейс, очередной приоритет будет записан в priority code point "
+"в заголовок 802.1Q VLAN."
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1299
+msgid "Use main priority"
+msgstr "Использовать основной приоритет"
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1291
+msgid "Keep current priority"
+msgstr "Сохранить текущий приоритет"
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1286
+msgid "Low Delay/TCP ACK"
+msgstr ""
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1285
+msgid "Main"
+msgstr "Основной"
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1281
+msgid "Set priority"
+msgstr "Установить приоритет"
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 407
+msgid "Priority match must be an integer between 0 and 7."
+msgstr "Совпадение приоритета должно быть целым числом от 0 до 7."
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 403
+msgid ""
+"Set priority for low latency and acknowledgements requires a set priority "
+"for normal packets."
+msgstr ""
+"Установка приоритета для низкой задержки и acknowledgements требует установки приоритета "
+"для нормальных пакетов."
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 399
+msgid ""
+"Set priority for low latency and acknowledgements must be an integer between "
+"0 and 7."
+msgstr ""
+"Установка приоритета для низкой задержки и acknowledgements должна быть целым числом между "
+"0 и 7."
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 395
+msgid "Set priority must be an integer between 0 and 7."
+msgstr "Установка приоритета должна быть целым числом между 0 и 7."
+
+#
+# File: /usr/core/src/www/firewall_nat_edit.php, line: 986
+# File: /usr/core/src/www/firewall_nat_out_edit.php, line: 736
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1331
+msgid ""
+"You can mark a packet matching this rule and use this mark to match on other "
+"NAT/filter rules."
+msgstr ""
+"Вы можете пометить пакет, подпадающий под это правило и использовать эту метку для применения других правил "
+"NAT/фильтрации."
+
+#
+# File: /usr/core/src/www/firewall_nat_edit.php, line: 860
+msgid ""
+"When using the TCP or UDP protocols, specify the port or port range for the "
+"destination of the packet for this mapping."
+msgstr ""
+"Когда используются TCP или UDP протоколы, укажите порт или диапазон портов "
+"назначения пакета для этого преобразования."
+
+#
+# File: /usr/core/src/www/firewall_nat_edit.php, line: 716
+msgid ""
+"When using the TCP or UDP protocols, specify the source port or port range "
+"for this rule"
+msgstr ""
+"Когда используются TCP или UDP протоколы, укажите порт или диапазон портов источника "
+"для этого правила"
+
+#
+# File: /usr/core/src/www/firewall_nat_edit.php, line: 165
+#, php-format
+msgid ""
+"\"%s\" is not a valid redirect target IP address, network or host alias."
+msgstr ""
+"\"%s\" не является допустимым IP адресом, сетью или псевдонимом цели перенаправления."
+
+#
+# File: /usr/core/src/www/firewall_aliases_edit.php, line: 173
+# File: /usr/core/src/www/firewall_aliases_import.php, line: 57
+# File: /usr/core/src/www/system_gateway_groups_edit.php, line: 84
+# File: /usr/core/src/www/system_gateways_edit.php, line: 65
+#, php-format
+msgid "The name cannot be the internally reserved keyword \"%s\"."
+msgstr "Наименование не может быть зарезервированным словом \"%s\"."
+
+#
+# File: /usr/core/src/www/firewall_aliases_edit.php, line: 171
+# File: /usr/core/src/www/firewall_aliases_import.php, line: 55
+# File: /usr/core/src/www/system_gateway_groups_edit.php, line: 82
+# File: /usr/core/src/www/system_gateways_edit.php, line: 63
+#, php-format
+msgid ""
+"The name must be less than 32 characters long and may only consist of the "
+"following characters: %s"
+msgstr ""
+"Имя должно быть менее 32 символов и может состоять только из "
+"следующих символов: %s"
+
+#
+# File: /usr/core/src/www/firewall_aliases_edit.php, line: 138
+#, php-format
+msgid "Entry \"%s\" is not a valid country code."
+msgstr "Значение \"%s\" не является допустимым кодом страны."
+
+#
+# File: /usr/core/src/www/firewall_aliases_edit.php, line: 134
+#, php-format
+msgid "Entry \"%s\" is not a valid port number."
+msgstr "Значение \"%s\" не является допустимым номером порта."
+
+#
+# File: /usr/core/src/www/firewall_aliases_edit.php, line: 129
+#, php-format
+msgid "Entry \"%s\" is not a valid hostname or IP address."
+msgstr "Значение \"%s\" не является допустимым именем хоста или IP адресом."
+
+#
+# File: /usr/core/src/www/diag_defaults.php, line: 57
+msgid "Admin user name and password will be reset"
+msgstr "Имя и пароль администратора будут сброшены"
+
+#
+# File: /usr/core/src/www/csrf.inc, line: 122
+msgid ""
+"CSRF check failed. Your form session may have expired, or you may not have "
+"cookies enabled."
+msgstr ""
+"Проверка CSRF не удалась. Время сессия вашей формы истекло, или у Вас "
+"не разрешены cookies."
+
+#
+# File: /usr/core/src/www/csrf.inc, line: 121
+msgid "CSRF check failed"
+msgstr "Проверка CSRF не удачна"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 239
+msgid "Edit queue"
+msgstr "Редактировать очередь"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 238
+msgid "Edit pipe"
+msgstr "Редактировать канал"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 101
+msgid ""
+"Are you sure you want to flush and reload all? this might have impact on "
+"other services using the same technology underneath (such as Captive portal)"
+msgstr ""
+"Вы уверены, что хотите сохранить и перезагрузить всё? Это может воздействовать "
+"на другие сервисы использующие те же технологии (такие как Captive portal)"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 330
+msgid "Edit Blacklist"
+msgstr "Редактировать чёрный список"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 292
+msgid ""
+"Note: after changing categories, please remember to download the ACL again "
+"to apply your new settings"
+msgstr ""
+"Примечание: после смены категорий, пожалуйста не забудьте загрузить ACL снова "
+"для применения новых настроек"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 285
+msgid ""
+"\n"
+"                      Add an item to the table to fetch a remote acl for "
+"blacklisting.%s\n"
+"                      You can enable or disable the blacklist list.%s\n"
+"                      The active blacklists will be merged with the settings "
+"under %sForward Proxy -> Access Control List%s.\n"
+"                      "
+msgstr ""
+"\n"
+"                      Добавьте значение в таблицу для того, чтобы скачать удалённый acl для "
+"чёрного списка.%s\n"
+"                      Вы можете включить или выключить чёрный список.%s\n"
+"                      Активные чёрные списки будут объединены с настройками "
+"в %sForward Proxy -> Access Control List%s.\n"
+"                      "
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 117
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 137
+msgid "Error fetching remote acls"
+msgstr "Ошибка получения удалённых ACL"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 97
+msgid "Error reconfiguring proxy"
+msgstr "Ошибка конфигурирования прокси"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 60
+msgid "Showing {{ctx.start}} to {{ctx.end}} of {{ctx.total}} entries"
+msgstr "Показано с {{ctx.start}} по {{ctx.end}} из {{ctx.total}} строк"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 361
+msgid "Error reconfiguring IDS"
+msgstr "Ошибка конфигурирования IDS"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 113
+msgid ""
+"Enable this to attempt to resolve names when displaying the tables. By "
+"enabling name resolution, the query may take longer."
+msgstr ""
+"Включите это, чтобы попытаться определить имена при формировании таблиц. Включение "
+"определения имён увеличивает время выполнения запросов."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 656
+msgid "Provide subscription key."
+msgstr "Предоставьте ключ подписки."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 644
+msgid "Select an alternate firmware mirror."
+msgstr "Выберите альтернативный источник прошивки."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 606
+msgid "Audit now"
+msgstr "Провести аудит"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 424
+msgid "Click to view full changelog history."
+msgstr "Нажмите для просмотра всей истории изменений."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 418
+msgid "Check for updates to view changelog history."
+msgstr "Проверьте обновления для просмотра истории изменений."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 355
+msgid "No packages were found on your system. Please call for help."
+msgstr "На вашей системе не обнаружены пакеты. Пожалуйста, позвоните для помощи."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 270
+msgid "Upgrade done."
+msgstr "Обновление произведено."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 268
+msgid "Done."
+msgstr "Сделано."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 266
+msgid "Audit done."
+msgstr "Аудит проведён."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 155
+msgid "License details"
+msgstr "Свойства лицензии"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 149
+msgid "Sorry, the package does not have an associated license file."
+msgstr "Извините, пакет не имеет соответствующего файла лицензии."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 133
+msgid "Auditing..."
+msgstr "Аудит..."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 77
+msgid "Required Action"
+msgstr "Необходимое действие"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 154
+msgid "Firmware status check was aborted internally. Please try again."
+msgstr "Проверка статуса прошивки была прервана. Пожалуйста, повторите снова."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 133
+msgid "upgrade"
+msgstr "обновить"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 125
+msgid "reinstall"
+msgstr "переустановить"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 118
+msgid "new"
+msgstr "новый"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 109
+msgid "downgrade"
+msgstr "откатить"
+
+#
+# File: /usr/plugins/dns/rfc2136/src/etc/inc/plugins.inc.d/rfc2136.inc, line: 214
+# File: /usr/core/src/etc/inc/plugins.inc.d/rfc2136.inc, line: 214
+#, php-format
+msgid "Dynamic DNS updated IPv6 Address (AAAA) for %s on %s to %s"
+msgstr "Динамический DNS обновил IPv6 адрес (AAAA) для %s  %s на %s"
+
+#
+# File: /usr/plugins/dns/rfc2136/src/etc/inc/plugins.inc.d/rfc2136.inc, line: 186
+# File: /usr/core/src/etc/inc/plugins.inc.d/rfc2136.inc, line: 186
+#, php-format
+msgid "Dynamic DNS updated IP Address (A) for %s on %s to %s"
+msgstr "Динамичкский DNS обновил IP адрес (A) для %s %s на %s"
+
+#
+# File: /usr/core/src/etc/inc/plugins.inc, line: 235
+#, php-format
+msgid ""
+"Automatically synchronize the %s configuration to the other HA host when "
+"changes are made."
+msgstr ""
+"Автоматически синхронизировать %s конфигурацию на другом HA хосте когда "
+"произведены изменения."
+
+#
+# File: /usr/core/src/etc/inc/interfaces.inc, line: 149
+msgid "Network Control (7, highest)"
+msgstr "Управление сетью (7, наивысший)"
+
+#
+# File: /usr/core/src/etc/inc/interfaces.inc, line: 148
+msgid "Internetwork Control (6)"
+msgstr "Межсетевое управление (6)"
+
+#
+# File: /usr/core/src/etc/inc/interfaces.inc, line: 147
+msgid "Voice (5)"
+msgstr "Голос (5)"
+
+#
+# File: /usr/core/src/etc/inc/interfaces.inc, line: 146
+msgid "Video (4)"
+msgstr "Видео (4)"
+
+#
+# File: /usr/core/src/etc/inc/interfaces.inc, line: 145
+msgid "Critical Applications (3)"
+msgstr "Критические приложения (3)"
+
+#
+# File: /usr/core/src/etc/inc/interfaces.inc, line: 144
+msgid "Excellent Effort (2)"
+msgstr "Превосходная доставка (2)"
+
+#
+# File: /usr/core/src/etc/inc/interfaces.inc, line: 143
+msgid "Best Effort (0, default)"
+msgstr "Хорошая доставка (0, по-умолчанию)"
+
+#
+# File: /usr/core/src/etc/inc/interfaces.inc, line: 142
+msgid "Background (1, lowest)"
+msgstr "Фоновое (1, низший)"
+
+#
+# File: /usr/core/src/etc/inc/filter.inc, line: 614
+msgid "Flushing schedule state"
+msgstr "Сброс состояния расписания"
+
+#
+# File: /usr/core/src/etc/inc/filter.inc, line: 588
+msgid "Reloading filterdns daemon"
+msgstr "Перезагрузка демона filterdns"
+
+#
+# File: /usr/core/src/etc/inc/filter.inc, line: 511
+msgid "Executing packet filter reload"
+msgstr "Выполнение перезагрузки пакетного фильтра"
+
+#
+# File: /usr/core/src/etc/inc/filter.inc, line: 499
+msgid "Generating rules"
+msgstr "Генерация правил"
+
+#
+# File: /usr/core/src/etc/inc/auth.inc, line: 173
+#, php-format
+msgid ""
+"The HTTP_REFERER \"%s\" does not match the predefined settings. You can "
+"disable this check if needed under System: Settings: Administration."
+msgstr ""
+"HTTP_REFERER \"%s\" не совпадает с предопределёнными настройками. Вы можете "
+"отключить эту проверку если нужно в Система: Настройки: Администрирование."
+
+#
+# File: /usr/plugins/security/tinc/src/opnsense/mvc/app/views/OPNsense/Tinc/index.volt, line: 157
+msgid "Edit Host"
+msgstr "Редактировать хост"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 150
+# File: /usr/plugins/security/tinc/src/opnsense/mvc/app/views/OPNsense/Tinc/index.volt, line: 156
+msgid "Edit Network"
+msgstr "Редактировать сеть"
+
+#
+# File: /usr/plugins/net/relayd/src/www/load_balancer_virtual_server_edit.php, line: 333
+#, php-format
+msgid ""
+"This is the timeout in seconds for idle sessions. The default timeout is %s, "
+"the maximum is %s (%s years)."
+msgstr ""
+"Это таймаут в секундах для неактивных сессий. Таймаут по-умолчанию - %s, "
+"максимум - %s (%s лет)."
+
+#
+# File: /usr/plugins/net/relayd/src/www/load_balancer_virtual_server_edit.php, line: 106
+msgid "The session timeout must be a number greater than zero or left blank."
+msgstr "Таймаут сессии должен быть числом больше нуля или оставьте пустым."
+
+#
+# File: /usr/plugins/net/relayd/src/etc/inc/plugins.inc.d/relayd.inc, line: 58
+# File: /usr/plugins/net/relayd/src/etc/inc/plugins.inc.d/relayd.inc, line: 71
+msgid "Relayd Load Balancer"
+msgstr "Балансировщик нагрузки Relayd"
+
+#
+# File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 119
+msgid "Edit Proxy"
+msgstr "Редактировать прокси"
+
+#
+# File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 279
+msgid "Log packets handled by UPnP and NAT-PMP rules?"
+msgstr "Протоколировать пакеты, обработанные UPnP и NAT-PMP правилами?"
+
+#
+# File: /usr/lang/src/acl.php, line: 36
+msgid "AJAX: Get Service Providers"
+msgstr "AJAX: Сервис-провайдеры"
+
+#
+# File: /usr/lang/src/acl.php, line: 37
+msgid "AJAX: Get Stats"
+msgstr "AJAX: Статистика"
+
+#
+# File: /usr/lang/src/acl.php, line: 38
+msgid "All pages"
+msgstr "Все страницы"
+
+#
+# File: /usr/lang/src/acl.php, line: 39
+msgid "Dashboard (all)"
+msgstr "Сводка (всё)"
+
+#
+# File: /usr/lang/src/acl.php, line: 40
+msgid "Dashboard (widgets only)"
+msgstr "Сводка (только виджеты)"
+
+#
+# File: /usr/lang/src/acl.php, line: 41
+msgid "Diagnostics: ARP Table"
+msgstr "Диагностика: ARP-таблица"
+
+#
+# File: /usr/lang/src/acl.php, line: 42
+msgid "Diagnostics: Authentication"
+msgstr "Диагностика: Аутентификация"
+
+#
+# File: /usr/lang/src/acl.php, line: 43
+msgid "Diagnostics: Backup / Restore"
+msgstr "Диагностика: Резервное копирование / Восстановление"
+
+#
+# File: /usr/lang/src/acl.php, line: 44
+msgid "Diagnostics: Configuration History"
+msgstr "Диагностика: История конфигурации"
+
+#
+# File: /usr/lang/src/acl.php, line: 45
+msgid "Diagnostics: Factory defaults"
+msgstr "Диагностика: Заводские настройки"
+
+#
+# File: /usr/lang/src/acl.php, line: 46
+msgid "Diagnostics: Halt system"
+msgstr "Диагностика: Выключение системы"
+
+#
+# File: /usr/lang/src/acl.php, line: 47
+msgid "Diagnostics: Limiter Info"
+msgstr "Диагностика: Информация ограничителя"
+
+#
+# File: /usr/lang/src/acl.php, line: 48
+msgid "Diagnostics: Logs: DHCP"
+msgstr "Диагностика: Журналы: DHCP"
+
+#
+# File: /usr/lang/src/acl.php, line: 49
+msgid "Diagnostics: Logs: Firewall: Dynamic View"
+msgstr "Диагностика: Журналы: Межсетевой экран: Динамический вид"
+
+#
+# File: /usr/lang/src/acl.php, line: 50
+msgid "Diagnostics: Logs: Firewall: Normal View"
+msgstr "Диагностика: Журналы: Межсетевой экран: Обычный вид"
+
+#
+# File: /usr/lang/src/acl.php, line: 51
+msgid "Diagnostics: Logs: Firewall: Plain View"
+msgstr "Диагностика: Журналы: Межсетевой экран: Текстовый вид"
+
+#
+# File: /usr/lang/src/acl.php, line: 52
+msgid "Diagnostics: Logs: Firewall: Summary View"
+msgstr "Диагностика: Журналы: Межсетевой экран: Суммарная информация"
+
+#
+# File: /usr/lang/src/acl.php, line: 53
+msgid "Diagnostics: Logs: Gateways"
+msgstr "Диагностика: Журналы: Шлюзы"
+
+#
+# File: /usr/lang/src/acl.php, line: 57
+msgid "Diagnostics: Logs: Settings"
+msgstr "Диагностика: Журналы: Настройки"
+
+#
+# File: /usr/lang/src/acl.php, line: 58
+msgid "Diagnostics: Logs: System"
+msgstr "Диагностика: Журналы: Система"
+
+#
+# File: /usr/lang/src/acl.php, line: 59
+msgid "Diagnostics: NDP Table"
+msgstr "Диагностика: Таблица NDP"
+
+#
+# File: /usr/lang/src/acl.php, line: 60
+msgid "Diagnostics: Netflow configuration"
+msgstr "Диагностика: конфигурация Netflow"
+
+#
+# File: /usr/lang/src/acl.php, line: 61
+msgid "Diagnostics: Network Insight"
+msgstr "Диагностика: Insight"
+
+#
+# File: /usr/lang/src/acl.php, line: 62
+msgid "Diagnostics: PF Table IP addresses"
+msgstr "Диагностика: IP адреса таблиц PF"
+
+#
+# File: /usr/lang/src/acl.php, line: 63
+msgid "Diagnostics: Packet Capture"
+msgstr "Диагностика: Захват пакетов"
+
+#
+# File: /usr/lang/src/acl.php, line: 64
+msgid "Diagnostics: Ping"
+msgstr "Диагностика: Ping"
+
+#
+# File: /usr/lang/src/acl.php, line: 65
+msgid "Diagnostics: Reboot System"
+msgstr "Диагностика: Перезапуск Системы"
+
+#
+# File: /usr/lang/src/acl.php, line: 66
+msgid "Diagnostics: Reset state"
+msgstr "Диагностика: Сброс состояния"
+
+#
+# File: /usr/lang/src/acl.php, line: 67
+msgid "Diagnostics: Routing tables"
+msgstr "Диагностика: Таблицы маршрутизации"
+
+#
+# File: /usr/lang/src/acl.php, line: 68
+msgid "Diagnostics: Show States"
+msgstr "Диагностика: Состояния"
+
+#
+# File: /usr/lang/src/acl.php, line: 69
+msgid "Diagnostics: Sockets"
+msgstr "Дтагностика: Сокеты"
+
+#
+# File: /usr/lang/src/acl.php, line: 70
+msgid "Diagnostics: States Summary"
+msgstr "Диагностика: Обзор состояний"
+
+#
+# File: /usr/lang/src/acl.php, line: 71
+msgid "Diagnostics: System Activity"
+msgstr "Диагностика: Системная активность"
+
+#
+# File: /usr/lang/src/acl.php, line: 72
+msgid "Diagnostics: System Health"
+msgstr "Диагностика: Состояние датчиков системы"
+
+#
+# File: /usr/lang/src/acl.php, line: 73
+msgid "Diagnostics: Test Port"
+msgstr "Диагностика: Тест порта"
+
+#
+# File: /usr/lang/src/acl.php, line: 74
+msgid "Diagnostics: Traceroute"
+msgstr "Диагностика: Трассировка"
+
+#
+# File: /usr/lang/src/acl.php, line: 75
+msgid "Diagnostics: pfInfo"
+msgstr "Диагностика: pfInfo"
+
+#
+# File: /usr/lang/src/acl.php, line: 76
+msgid "Diagnostics: pfTop"
+msgstr "Диагностика: pfTop"
+
+#
+# File: /usr/lang/src/acl.php, line: 77
+msgid "Firewall: Alias: Edit"
+msgstr "Межсетевой экран: Псевдонимы: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 78
+msgid "Firewall: Alias: Import"
+msgstr "Межсетевой экран: Псевдонимы: Импорт"
+
+#
+# File: /usr/lang/src/acl.php, line: 79
+msgid "Firewall: Aliases"
+msgstr "Межсетевой экран: Псевдонимы"
+
+#
+# File: /usr/lang/src/acl.php, line: 80
+msgid "Firewall: NAT: 1:1"
+msgstr "Межсетевой экран: NAT: 1:1"
+
+#
+# File: /usr/lang/src/acl.php, line: 81
+msgid "Firewall: NAT: 1:1: Edit"
+msgstr "Межсетевой экран: NAT: 1:1: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 82
+msgid "Firewall: NAT: NPT"
+msgstr "Межсетевой экран: NAT: NPT"
+
+#
+# File: /usr/lang/src/acl.php, line: 83
+msgid "Firewall: NAT: NPT: Edit"
+msgstr "Межсетевой экран: NAT: NPT: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 84
+msgid "Firewall: NAT: Outbound"
+msgstr "Межсетевой экран: NAT: Исходяшие"
+
+#
+# File: /usr/lang/src/acl.php, line: 85
+msgid "Firewall: NAT: Outbound: Edit"
+msgstr "Межсетевой экран: NAT: Исходящие: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 86
+msgid "Firewall: NAT: Port Forward"
+msgstr "Межсетевой экран: NAT: Перенаправление портов"
+
+#
+# File: /usr/lang/src/acl.php, line: 87
+msgid "Firewall: NAT: Port Forward: Edit"
+msgstr "Межсетевой экран: NAT: Перенаправление портов: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 88
+msgid "Firewall: Normalization"
+msgstr "Межсетевой экран: Нормализация"
+
+#
+# File: /usr/lang/src/acl.php, line: 89
+msgid "Firewall: Rules"
+msgstr "Межсетевой экран: Правила"
+
+#
+# File: /usr/lang/src/acl.php, line: 90
+msgid "Firewall: Rules: Edit"
+msgstr "Межсетевой экран: Правила: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 91
+msgid "Firewall: Schedules"
+msgstr "Межсетевой экран: Расписания"
+
+#
+# File: /usr/lang/src/acl.php, line: 92
+msgid "Firewall: Schedules: Edit"
+msgstr "Межсетевой экран: Расписания: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 93
+msgid "Firewall: Traffic Shaper"
+msgstr "Межсетевой экран: Шейпер"
+
+#
+# File: /usr/lang/src/acl.php, line: 94
+msgid "Firewall: Virtual IP Address: Edit"
+msgstr "Межсетевой экран: Виртуальный IP адрес: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 95
+msgid "Firewall: Virtual IP Addresses"
+msgstr "Межсетевой экран: Виртуальные IP адреса"
+
+#
+# File: /usr/lang/src/acl.php, line: 96
+msgid "Interfaces: Assign network ports"
+msgstr "Интерфейсы: Назначение сетевых портов"
+
+#
+# File: /usr/lang/src/acl.php, line: 97
+msgid "Interfaces: Bridge"
+msgstr "Интерфейсы: Мост"
+
+#
+# File: /usr/lang/src/acl.php, line: 98
+msgid "Interfaces: Bridge edit"
+msgstr "Интерфейсы: Редактирование моста"
+
+#
+# File: /usr/lang/src/acl.php, line: 99
+msgid "Interfaces: GIF"
+msgstr "Интерфейсы: GIF"
+
+#
+# File: /usr/lang/src/acl.php, line: 100
+msgid "Interfaces: GIF: Edit"
+msgstr "Интерфейсы: GIF: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 101
+msgid "Interfaces: GRE"
+msgstr "Интерфейсы: GRE"
+
+#
+# File: /usr/lang/src/acl.php, line: 102
+msgid "Interfaces: GRE: Edit"
+msgstr "Интерфейсы: GRE: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 103
+msgid "Interfaces: Groups"
+msgstr "Интерфейсы: Группы"
+
+#
+# File: /usr/lang/src/acl.php, line: 104
+msgid "Interfaces: Groups: Edit"
+msgstr "Интерфейсы: Группы: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 105
+msgid "Interfaces: LAGG"
+msgstr "Интерфейсы: LAGG"
+
+#
+# File: /usr/lang/src/acl.php, line: 106
+msgid "Interfaces: LAGG: Edit"
+msgstr "Интерфейсы: LAGG: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 107
+msgid "Interfaces: PPPs"
+msgstr "Интерфейсы: PPP"
+
+#
+# File: /usr/lang/src/acl.php, line: 108
+msgid "Interfaces: PPPs: Edit"
+msgstr "Интерфейсы: PPP: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 109
+msgid "Interfaces: QinQ"
+msgstr "Интерфейсы: QinQ"
+
+#
+# File: /usr/lang/src/acl.php, line: 110
+msgid "Interfaces: QinQ: Edit"
+msgstr "Интерфейсы: QinQ: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 111
+msgid "Interfaces: VLAN"
+msgstr "Интерфейсы: VLAN"
+
+#
+# File: /usr/lang/src/acl.php, line: 112
+msgid "Interfaces: VLAN: Edit"
+msgstr "Интерфейсы: VLAN: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 113
+msgid "Interfaces: WAN"
+msgstr "Интерфейсы: WAN"
+
+#
+# File: /usr/lang/src/acl.php, line: 114
+msgid "Interfaces: Wireless"
+msgstr "Интерфейсы: Беспроводные"
+
+#
+# File: /usr/lang/src/acl.php, line: 115
+msgid "Interfaces: Wireless edit"
+msgstr "Интерфейсы: Беспроводные: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 116
+msgid "Load Balancer: Pool"
+msgstr "Балансировщик нагрузки: Пул"
+
+#
+# File: /usr/lang/src/acl.php, line: 117
+msgid "Load Balancer: Pool: Edit"
+msgstr "Балансировщик нагрузки: Пул: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 118
+msgid "Load Balancer: Virtual Server: Edit"
+msgstr "Балансировщик нагрузки: Виртуальный сервер: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 119
+msgid "Lobby: Login / Logout / Dashboard"
+msgstr "Сводка: Вход / Выход / Панель"
+
+#
+# File: /usr/lang/src/acl.php, line: 120
+msgid "Proxy: Login"
+msgstr "Прокси: Вход"
+
+#
+# File: /usr/lang/src/acl.php, line: 121
+# File: /usr/lang/src/models.php, line: 294
+msgid "Routing"
+msgstr "Маршрутизация"
+
+#
+# File: /usr/lang/src/acl.php, line: 122
+msgid "Service: Universal Plug and Play"
+msgstr "Службы: Универсальный Plug and Play"
+
+#
+# File: /usr/lang/src/acl.php, line: 123
+msgid "Services: Captive Portal"
+msgstr "Службы: Captive Portal"
+
+#
+# File: /usr/lang/src/acl.php, line: 124
+msgid "Services: DHCP Relay"
+msgstr "Службы: DHCP Relay"
+
+#
+# File: /usr/lang/src/acl.php, line: 125
+msgid "Services: DHCP Server : Edit static mapping"
+msgstr "Службы: DHCP сервер: Редактирование статических адресов"
+
+#
+# File: /usr/lang/src/acl.php, line: 126
+msgid "Services: DHCP server"
+msgstr "Службы: DHCP сервер"
+
+#
+# File: /usr/lang/src/acl.php, line: 127
+msgid "Services: DHCPv6 Relay"
+msgstr "Службы: DHCPv6 Relay"
+
+#
+# File: /usr/lang/src/acl.php, line: 128
+msgid "Services: DHCPv6 Server : Edit static mapping"
+msgstr "Службы: DHCPv6 сервер: Редактирование статических адресов"
+
+#
+# File: /usr/lang/src/acl.php, line: 129
+msgid "Services: DHCPv6 server"
+msgstr "Службы: DHCPv6 сервер"
+
+#
+# File: /usr/lang/src/acl.php, line: 130
+msgid "Services: DNS Filter"
+msgstr "Службы: DNS фильр"
+
+#
+# File: /usr/lang/src/acl.php, line: 131
+msgid "Services: Dnsmasq DNS: Edit Domain Override"
+msgstr "Службы: Dnsmasq DNS: Редактирование переопределения доменов"
+
+#
+# File: /usr/lang/src/acl.php, line: 132
+msgid "Services: Dnsmasq DNS: Edit Host"
+msgstr "Службы: Dnsmasq DNS: Редактирование хостов"
+
+#
+# File: /usr/lang/src/acl.php, line: 133
+msgid "Services: Dnsmasq DNS: Log File"
+msgstr "Службы: Dnsmasq DNS: Журнал"
+
+#
+# File: /usr/lang/src/acl.php, line: 134
+msgid "Services: Dnsmasq DNS: Settings"
+msgstr "Службы: Dnsmasq DNS: Настройки"
+
+#
+# File: /usr/lang/src/acl.php, line: 135
+msgid "Services: Dynamic DNS clients"
+msgstr "Службы: Клиенты Динамического DNS"
+
+#
+# File: /usr/lang/src/acl.php, line: 138
+msgid "Services: IGMP Proxy"
+msgstr "Службы: IGMP прокси"
+
+#
+# File: /usr/lang/src/acl.php, line: 139
+msgid "Services: IGMP Proxy: Edit"
+msgstr "Службы: IGMP прокси: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 140
+msgid "Services: Intrusion Detection"
+msgstr "Службы: Обнаружение вторжений"
+
+#
+# File: /usr/lang/src/acl.php, line: 141
+msgid "Services: Let's Encrypt"
+msgstr "Службы: Let's Encrypt"
+
+#
+# File: /usr/lang/src/acl.php, line: 142
+msgid "Services: Load Balancer: Monitor: Edit"
+msgstr "Службы: Балансировщик нагрузки: Монитор: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 143
+msgid "Services: Load Balancer: Monitors"
+msgstr "Службы: Балансировщик нагрузки: Монитор"
+
+#
+# File: /usr/lang/src/acl.php, line: 144
+msgid "Services: Load Balancer: Virtual Servers"
+msgstr "Службы: Балансировщик нагрузки: Виртуальные серверы"
+
+#
+# File: /usr/lang/src/acl.php, line: 145
+msgid "Services: Load Balancer: setting"
+msgstr "Службы: Балансировщик нагрузки: Настройки"
+
+#
+# File: /usr/lang/src/acl.php, line: 146
+msgid "Services: NTP"
+msgstr "Службы: NTP"
+
+#
+# File: /usr/lang/src/acl.php, line: 149
+msgid "Services: Proxy"
+msgstr "Службы: Прокси"
+
+#
+# File: /usr/lang/src/acl.php, line: 150
+msgid "Services: RFC 2136 clients"
+msgstr "Службы: Клиенты RFC 2136"
+
+#
+# File: /usr/lang/src/acl.php, line: 151
+msgid "Services: Router advertisements"
+msgstr "Службы: Объявления маршрутов"
+
+#
+# File: /usr/lang/src/acl.php, line: 153
+msgid "Services: SNMP"
+msgstr "Службы: SNMP"
+
+#
+# File: /usr/lang/src/acl.php, line: 154
+msgid "Services: Unbound DNS: Access Lists"
+msgstr "Службы: Unbound DNS: Списки доступа"
+
+#
+# File: /usr/lang/src/acl.php, line: 155
+msgid "Services: Unbound DNS: Access Lists Edit"
+msgstr "Службы: Unbound DNS: Редактирование списков доступа"
+
+#
+# File: /usr/lang/src/acl.php, line: 156
+msgid "Services: Unbound DNS: Advanced"
+msgstr "Службы: Unbound DNS: Расширенный режим"
+
+#
+# File: /usr/lang/src/acl.php, line: 157
+msgid "Services: Unbound DNS: Edit Domain Override"
+msgstr "Службы: Unbound DNS: Редактирование переопределения доменов"
+
+#
+# File: /usr/lang/src/acl.php, line: 158
+msgid "Services: Unbound DNS: Edit Host"
+msgstr "Службы: Unbound DNS: Редактирование хостов"
+
+#
+# File: /usr/lang/src/acl.php, line: 159
+msgid "Services: Unbound DNS: General"
+msgstr "Службы: Unbound DNS: Основное"
+
+#
+# File: /usr/lang/src/acl.php, line: 160
+msgid "Services: Unbound DNS: Log File"
+msgstr "Службы: Unbound DNS: Журнал"
+
+#
+# File: /usr/lang/src/acl.php, line: 161
+msgid "Services: Wake on LAN"
+msgstr "Службы: Wake on LAN"
+
+#
+# File: /usr/lang/src/acl.php, line: 162
+msgid "Services: Wake on LAN: Edit"
+msgstr "Службы: Wake onLAN: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 164
+msgid "Services: Zabbix Agent"
+msgstr "Службы: Агент Zabbix"
+
+#
+# File: /usr/lang/src/acl.php, line: 165
+msgid "Status: CARP"
+msgstr "Статус: CARP"
+
+#
+# File: /usr/lang/src/acl.php, line: 166
+msgid "Status: DHCP leases"
+msgstr "Статус: DHCP leases"
+
+#
+# File: /usr/lang/src/acl.php, line: 167
+msgid "Status: DHCPv6 leases"
+msgstr "Статус: DHCPv6 leases"
+
+#
+# File: /usr/lang/src/acl.php, line: 168
+msgid "Status: Filter Reload Status"
+msgstr "Статус: Перезагрузка фильтра"
+
+#
+# File: /usr/lang/src/acl.php, line: 169
+msgid "Status: Gateway Groups"
+msgstr "Статус: Группы шлюзов"
+
+#
+# File: /usr/lang/src/acl.php, line: 170
+msgid "Status: Gateways"
+msgstr "Статус: Шлюзы"
+
+#
+# File: /usr/lang/src/acl.php, line: 171
+msgid "Status: HA backup"
+msgstr "Статус: Резервное копирование HA"
+
+#
+# File: /usr/lang/src/acl.php, line: 172
+msgid "Status: IPsec"
+msgstr "Статус: IPsec"
+
+#
+# File: /usr/lang/src/acl.php, line: 173
+msgid "Status: IPsec: Leasespage"
+msgstr "Статус: IPsec: Leases"
+
+#
+# File: /usr/lang/src/acl.php, line: 174
+msgid "Status: IPsec: SAD"
+msgstr "Статус: IPsec: SAD"
+
+#
+# File: /usr/lang/src/acl.php, line: 175
+msgid "Status: IPsec: SPD"
+msgstr "Статус: IPsec: SPD"
+
+#
+# File: /usr/lang/src/acl.php, line: 176
+msgid "Status: Interfaces"
+msgstr "Статус: Интерфейсы"
+
+#
+# File: /usr/lang/src/acl.php, line: 177
+msgid "Status: Load Balancer: Pool"
+msgstr "Статус: Балансировщик нагрузки: Пул"
+
+#
+# File: /usr/lang/src/acl.php, line: 178
+msgid "Status: Load Balancer: Virtual Server"
+msgstr "Статус: Балансировщик нагрузки: Виртуальный сервер"
+
+#
+# File: /usr/lang/src/acl.php, line: 179
+msgid "Status: NTP"
+msgstr "Статус: NTP"
+
+#
+# File: /usr/lang/src/acl.php, line: 180
+msgid "Status: NTP GPS"
+msgstr "Статус: NTP GPS"
+
+#
+# File: /usr/lang/src/acl.php, line: 181
+msgid "Status: NTP PPS"
+msgstr "Статус: NTP PPS"
+
+#
+# File: /usr/lang/src/acl.php, line: 182
+msgid "Status: OpenVPN"
+msgstr "Статус: OpenVPN"
+
+#
+# File: /usr/lang/src/acl.php, line: 183
+msgid "Status: Services"
+msgstr "Статус: Службы"
+
+#
+# File: /usr/lang/src/acl.php, line: 184
+msgid "Status: System logs: Captive portal"
+msgstr "Статус: Системные журналы: Captive Portal"
+
+#
+# File: /usr/lang/src/acl.php, line: 185
+msgid "Status: System logs: IPsec VPN"
+msgstr "Статус: Системные журналы: IPsec VPN"
+
+#
+# File: /usr/lang/src/acl.php, line: 186
+msgid "Status: System logs: Load Balancer"
+msgstr "Статус: Системные журналы: Балансировщик нагрузки"
+
+#
+# File: /usr/lang/src/acl.php, line: 187
+msgid "Status: System logs: NTP"
+msgstr "Статус: Системные журналы: NTP"
+
+#
+# File: /usr/lang/src/acl.php, line: 188
+msgid "Status: System logs: OpenVPN"
+msgstr "Статус: Системные журналы: OpenVPN"
+
+#
+# File: /usr/lang/src/acl.php, line: 189
+msgid "Status: System logs: Routing"
+msgstr "Статус: Системные журналы: Маршрутизация"
+
+#
+# File: /usr/lang/src/acl.php, line: 190
+msgid "Status: System logs: Wireless"
+msgstr "Статус: Системные журналы: Беспроводные"
+
+#
+# File: /usr/lang/src/acl.php, line: 191
+msgid "Status: Traffic Graph"
+msgstr "Статус: Графики трафика"
+
+#
+# File: /usr/lang/src/acl.php, line: 192
+msgid "Status: Universal Plug and Play"
+msgstr "Статус: Universal Plug and Play"
+
+#
+# File: /usr/lang/src/acl.php, line: 193
+msgid "Status: Wireless"
+msgstr "Статус: Беспроводные"
+
+#
+# File: /usr/lang/src/acl.php, line: 194
+msgid "System Setup Wizard"
+msgstr "Помощник настройки системы"
+
+#
+# File: /usr/lang/src/acl.php, line: 195
+msgid "System: Advanced: Admin Access Page"
+msgstr "Система: Дополнительно: Страница доступа админа"
+
+#
+# File: /usr/lang/src/acl.php, line: 196
+msgid "System: Advanced: Firewall and NAT"
+msgstr "Система: Дополнительно: Межсетевой экран и NAT"
+
+#
+# File: /usr/lang/src/acl.php, line: 197
+msgid "System: Advanced: Miscellaneous"
+msgstr "Система: Дополнительно: Прочее"
+
+#
+# File: /usr/lang/src/acl.php, line: 198
+msgid "System: Advanced: Network"
+msgstr "Система: Дополнительно: Сеть"
+
+#
+# File: /usr/lang/src/acl.php, line: 199
+msgid "System: Advanced: Notifications"
+msgstr "Система: Дополнительно: Уведомления"
+
+#
+# File: /usr/lang/src/acl.php, line: 200
+msgid "System: Advanced: Tunables"
+msgstr "Система: Дополнительно: Параметры"
+
+#
+# File: /usr/lang/src/acl.php, line: 201
+msgid "System: Authentication Servers"
+msgstr "Система: Серверы аутентификации"
+
+#
+# File: /usr/lang/src/acl.php, line: 202
+msgid "System: CA Manager"
+msgstr "Система: Управление CA"
+
+#
+# File: /usr/lang/src/acl.php, line: 203
+msgid "System: CRL Manager"
+msgstr "Система: Управление CRL"
+
+#
+# File: /usr/lang/src/acl.php, line: 204
+msgid "System: Certificate Manager"
+msgstr "Система: Управление сертификатами"
+
+#
+# File: /usr/lang/src/acl.php, line: 205
+msgid "System: Crash Reporter"
+msgstr "Система: Создание отчётов об ошибках"
+
+#
+# File: /usr/lang/src/acl.php, line: 206
+msgid "System: Deny config write"
+msgstr "Система: Запрет записи конфигурации"
+
+#
+# File: /usr/lang/src/acl.php, line: 207
+msgid "System: Firmware"
+msgstr "Система: Прошивка"
+
+#
+# File: /usr/lang/src/acl.php, line: 208
+msgid "System: Gateway Groups"
+msgstr "Система: Группы шлюзов"
+
+#
+# File: /usr/lang/src/acl.php, line: 209
+msgid "System: Gateways"
+msgstr "Система: Шлюзы"
+
+#
+# File: /usr/lang/src/acl.php, line: 210
+msgid "System: Gateways: Edit Gateway"
+msgstr "Система: Шлюзы: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 211
+msgid "System: Gateways: Edit Gateway Groups"
+msgstr "Система: Группы шлюзов: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 212
+msgid "System: General Setup"
+msgstr "Система: Общие настройки"
+
+#
+# File: /usr/lang/src/acl.php, line: 213
+msgid "System: Group Manager: Add Privileges"
+msgstr "Система: Управление группами: Добавление прав"
+
+#
+# File: /usr/lang/src/acl.php, line: 214
+msgid "System: Group manager"
+msgstr "Система: Управление группами"
+
+#
+# File: /usr/lang/src/acl.php, line: 215
+msgid "System: High Availability"
+msgstr "Система: Высокий уровень доступности"
+
+#
+# File: /usr/lang/src/acl.php, line: 216
+msgid "System: License"
+msgstr "Система: Лицензия"
+
+#
+# File: /usr/lang/src/acl.php, line: 217
+msgid "System: Settings: Cron"
+msgstr "Система: Настройки: Планировщик задач Cron"
+
+#
+# File: /usr/lang/src/acl.php, line: 218
+msgid "System: Shell account access"
+msgstr "Система: Доступ в консоль"
+
+#
+# File: /usr/lang/src/acl.php, line: 219
+msgid "System: Static Routes"
+msgstr "Система: Статические маршруты"
+
+#
+# File: /usr/lang/src/acl.php, line: 220
+msgid "System: Static Routes: Edit route"
+msgstr "Система: Статические маршруты: Редактирование"
+
+#
+# File: /usr/lang/src/acl.php, line: 221
+msgid "System: User Manager"
+msgstr "Система: Управление пользователями"
+
+#
+# File: /usr/lang/src/acl.php, line: 222
+msgid "System: User Manager: Add Privileges"
+msgstr "Система: Управление пользователями: Добавление прав"
+
+#
+# File: /usr/lang/src/acl.php, line: 223
+msgid "System: User Manager: Settings: Test LDAP"
+msgstr "Система: Управление пользователями: Настройки: Тест LDAP"
+
+#
+# File: /usr/lang/src/acl.php, line: 224
+msgid "System: User Manager: settings"
+msgstr "Система: Управление пользователями: Настройки"
+
+#
+# File: /usr/lang/src/acl.php, line: 225
+msgid "System: User Password Manager"
+msgstr "Система: Управление паролями пользователя"
+
+#
+# File: /usr/lang/src/acl.php, line: 226
+msgid "VPN: IPsec"
+msgstr "VPN: IPsec"
+
+#
+# File: /usr/lang/src/acl.php, line: 227
+msgid "VPN: IPsec XAUTH dialin"
+msgstr "VPN: IPsec XAUTH входящие"
+
+#
+# File: /usr/lang/src/acl.php, line: 228
+msgid "VPN: IPsec: Edit Phase 1"
+msgstr "VPN: IPsec: Редактирование Phase 1"
+
+#
+# File: /usr/lang/src/acl.php, line: 229
+msgid "VPN: IPsec: Edit Phase 2"
+msgstr "VPN: IPsec: Редактирование Phase 2"
+
+#
+# File: /usr/lang/src/acl.php, line: 230
+msgid "VPN: IPsec: Edit Pre-Shared Keys"
+msgstr "VPN: IPsec: Редактирование Pre-Shared Keys"
+
+#
+# File: /usr/lang/src/acl.php, line: 231
+msgid "VPN: IPsec: Mobile"
+msgstr "VPN: IPsec: Mobile"
+
+#
+# File: /usr/lang/src/acl.php, line: 232
+msgid "VPN: IPsec: Pre-Shared Keys List"
+msgstr ""
+
+#
+# File: /usr/lang/src/acl.php, line: 236
+msgid "VPN: OpenVPN: Client"
+msgstr "VPN: OpenVPN: Клиент"
+
+#
+# File: /usr/lang/src/acl.php, line: 237
+msgid "VPN: OpenVPN: Client Export Utility"
+msgstr "VPN: OpenVPN: Инструмент экспорта клиента"
+
+#
+# File: /usr/lang/src/acl.php, line: 238
+msgid "VPN: OpenVPN: Client Specific Override"
+msgstr "VPN: OpenVPN: Переопределение настроек клиента"
+
+#
+# File: /usr/lang/src/acl.php, line: 239
+msgid "VPN: OpenVPN: Server"
+msgstr "VPN: OpenVPN: Сервер"
+
+#
+# File: /usr/lang/src/acl.php, line: 244
+msgid "WebCfg - Services: Monit System Monitoring page"
+msgstr "WebCfg - Службы: Системный мониторинг Monit"
+
+#
+# File: /usr/lang/src/acl.php, line: 246
+msgid "XMLRPC Library"
+msgstr "Библиотека XMLRPC"
+
+#
+# File: /usr/lang/src/controllers.php, line: 42
+msgid ""
+"\n"
+"                  Do not decode and/or filter SSL content, only log "
+"requested domains and IP addresses.<br/>\n"
+"                  Some old servers may not provide SNI, so their addresses "
+"will not be indicated.<br/>Get more information about\n"
+"                  <a href=\"https://wikipedia.org/wiki/Server_Name_Indication"
+"\" target=\"_blank\">Server Name Indication</a>.\n"
+"                  "
+msgstr ""
+"\n"
+"                  Не декодировать и/или не фильтровать контент SSL, только протоколировать "
+"запрошенные домены и IP адреса.<br/>\n"
+"                  Некоторые устаревшие серверы могут не предоставлять SNI, т.е. их адреса "
+"не могут быть определены.<br/>Получить больше информации о\n"
+"                  <a href=\"https://wikipedia.org/wiki/Server_Name_Indication"
+"\" target=\"_blank\">Server Name Indication</a>.\n"
+"                  "
+
+#
+# File: /usr/lang/src/controllers.php, line: 47
+msgid ""
+"\n"
+"                  Enable SSL inspection mode,\n"
+"                  which allows to log HTTPS connections information, such as "
+"requested URL and/or\n"
+"                  make the proxy act as a man in the middle between the "
+"internet and your clients.<br/>\n"
+"                  Be aware of the security implications before enabling this "
+"option.\n"
+"                  <br/><br/>\n"
+"                  If you plan to use transparent HTTPS mode, you need nat "
+"rules to reflect your traffic.<br/>\n"
+"                  <a href=\"/firewall_nat_edit.php?"
+"template=transparent_proxy&https=1\">Add a new firewall rule </a>\n"
+"                  "
+msgstr ""
+"\n"
+"                  Включить SSL режим инспектирования,\n"
+"                  который позволяет протоколировать информация о HTTPS соединениях, такую как "
+"запрошенный URL и/или\n"
+"                  заставляет прокси действовать как \"man in the middle\" между "
+"сетью интернет и Вашими клиентами.<br/>\n"
+"                  Имейте ввиду посделствия безопасности перед тем, как включить эту "
+"опцию.\n"
+"                  <br/><br/>\n"
+"                  Если Вы планируете использовать прозрачный режим HTTPS, Вам нужны правила NAT "
+"для перенаправления трафика.<br/>\n"
+"                  <a href=\"/firewall_nat_edit.php?"
+"template=transparent_proxy&https=1\">Добавить новое правило межсетевого экрана </a>\n"
+"                  "
+
+# File: /usr/lang/src/controllers.php, line: 65
+msgid "Access Control List"
+msgstr "Список управления доступом"
+
+#
+# File: /usr/lang/src/controllers.php, line: 80
+msgid "According to the service type path can be a file or a directory."
+msgstr "В соответствии с типом службы, путь может быть файлом или директорией."
+
+#
+# File: /usr/lang/src/controllers.php, line: 445
+msgid ""
+"MIME type reply.<br/>\n"
+"        You may use a regular expression, use a comma or press Enter for new "
+"item.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">video/flv</b> -> matches on <b>Flash "
+"Video</b><br/>\n"
+"            <b class=\"text-primary\">application/x-javascript</b> -> "
+"matches on <b>javascripts</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+"MIME тип ответа.<br/>\n"
+"        Вы можете использовать регулярное выражение, используйте запятую или нажмите Enter для "
+"добавления.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Примеры:</b><br/>\n"
+"            <b class=\"text-primary\">video/flv</b> -> соответствует <b>Flash "
+"Video</b><br/>\n"
+"            <b class=\"text-primary\">application/x-javascript</b> -> "
+"соответствует <b>javascripts</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>СОВЕТ: </b>Вы можете также вставить "
+"список значений, разделённый запятыми в это поле.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 611
+msgid "Mail Server"
+msgstr "Почтовый сервер"
+
+#
+# File: /usr/lang/src/controllers.php, line: 612
+msgid "Mail Server Port"
+msgstr "Порт почтового сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 613
+msgid "Mail format"
+msgstr "Формат почты"
+
+#
+# File: /usr/lang/src/controllers.php, line: 614
+# File: /usr/lang/src/models.php, line: 164
+msgid "Main Settings"
+msgstr "Настройки почты"
+
+#
+# File: /usr/lang/src/controllers.php, line: 746
+msgid "Интервал обновлений"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 750
+msgid "Required Parameters"
+msgstr "Необходимые параметры"
+
+#
+# File: /usr/lang/src/controllers.php, line: 756
+msgid ""
+"Restrict access to users in the selected (local)group. <br/>\n"
+"        <b>NOTE:</b> please be aware that users (or vouchers) which aren't "
+"administered locally will be denied when using this option."
+msgstr ""
+"Ограничить доступ пользователей в выбранной (локальной)группе. <br/>\n"
+"        <b>СОВЕТ:</b> пожалуйста, имейте ввиду, что ползователи (или ваучеры) которые не "
+"администрируются локально будут недействительны когда используется эта опция."
+
+#
+# File: /usr/lang/src/controllers.php, line: 793
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+#
+# File: /usr/lang/src/controllers.php, line: 794
+msgid "Secure Connection"
+msgstr "Защищённое соединение"
+
+#
+# File: /usr/lang/src/wizards.php, line: 36
+msgid ""
+"\n"
+"\t\t\t\n"
+"\t\t\t\tCongratulations! TING is now configured.<p/>\n"
+"\t\t\t\tClick <a href='$myurl'>here</a> to continue on to TING "
+"webConfigurator.\n"
+"\t\t\t\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\n"
+"\t\t\t\tПоздравляем! TING сконфигурирован.<p/>\n"
+"\t\t\t\tНажмите <a href='$myurl'>here</a> для перехода в TING "
+"web-конфигуратор.\n"
+"\t\t\t\n"
+"\t\t\t"
+
+#
+# File: /usr/lang/src/wizards.php, line: 52
+msgid ""
+"A reload is now in progress. The wizard will redirect you to the dashboard "
+"once the reload is completed."
+msgstr ""
+"В процессе перезагрузки. Помощник перенаправит Вас в инструментальную панель "
+"как только перезагрузка завершится."
+
+#
+# File: /usr/lang/src/wizards.php, line: 53
+msgid "Add Certificate Authority"
+msgstr "Добавить центр сертификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 54
+msgid "Add LDAP Server"
+msgstr "Добавить LDAP сервер"
+
+#
+# File: /usr/lang/src/wizards.php, line: 55
+msgid "Add RADIUS Server"
+msgstr "Добавить RADIUS сервер"
+
+#
+# File: /usr/lang/src/wizards.php, line: 56
+msgid "Add a Server Certificate"
+msgstr "Добавить сертификат сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 73
+msgid ""
+"Allow multiple concurrent connections from clients using the same Common "
+"Name. This is not generally recommended, but may be needed for some "
+"scenarios."
+msgstr ""
+"Разрешить множественные соединения клиентов, использующих одно имя Common "
+"Name. Как правило, это не рекомендуется, но может быть необходимо в некоторых "
+"сценариях."
+
+#
+# File: /usr/lang/src/wizards.php, line: 77
+msgid "Authentication Type Selection"
+msgstr "Выбор типа аутентификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 83
+msgid "Certificate Authority Selection"
+msgstr "Выбор центра сертификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 120
+msgid ""
+"Enable NetBIOS over TCP/IP. If this option is not set, all NetBIOS-over-TCP/"
+"IP options (including WINS) will be disabled."
+msgstr ""
+"Включить NetBIOS через TCP/IP. Если эта опция не выбрана, все NetBIOS-через-TCP/"
+"IP опции (включая WINS) будут отключены."
+
+#
+# File: /usr/lang/src/wizards.php, line: 127
+msgid "Finished!"
+msgstr "Завершено"
+
+#
+# File: /usr/lang/src/wizards.php, line: 150
+msgid "Force all client generated traffic through the tunnel."
+msgstr "Передавать весь трафик клиента через туннель."
+
+#
+# File: /usr/lang/src/wizards.php, line: 132
+msgid ""
+"Full State of Province name, not abbreviated (e.g. Zuid Holland, Sachsen, "
+"Kentucky)."
+msgstr ""
+"Полное имя Штата или Региона, без сокращений (например Южная Голландия, "
+"Кентуки)."
+
+#
+# File: /usr/lang/src/wizards.php, line: 147
+msgid "If you are unsure, leave this set to \"Local User Access.\""
+msgstr "Если сомневаетесь, оставьте это в значении \"Локальный доступ пользователей.\""
+
+#
+# File: /usr/lang/src/wizards.php, line: 148
+msgid ""
+"If you enter a value in this field, then MSS clamping for TCP connections to "
+"the value entered above minus 40 (TCP/IP header size) will be in effect. If "
+"you leave this field blank, an MSS of 1492 bytes for PPPoE and 1500 bytes "
+"for all other connection types will be assumed. This should match the above "
+"MTU value in most all cases."
+msgstr ""
+"Если Вы введёте значение в это поле, то MSS clamping для TCP соединений будет "
+"будет равно введённому значению минус 40 (размер заголовка TCP/IP). Если "
+"Вы оставите это поле пустым, MSS будет равно 1492 байт для PPPoE и 1500 байт для"
+"всех остальных типов соединений. Это должно подхить для "
+"значений MTU в большинстве случаев."
+
+#
+# File: /usr/lang/src/wizards.php, line: 167
+msgid "Inter-Client Communication"
+msgstr "Соединения между клиентами"
+
+#
+# File: /usr/lang/src/wizards.php, line: 174
+msgid "LDAP Authentication Server List"
+msgstr "Список LDAP серверов аутентификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 175
+msgid "LDAP Authentication Server Parameters"
+msgstr "Параметры сервера аутентификации LDAP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 176
+msgid "LDAP Bind Password"
+msgstr "Пароль подключения к LDAP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 177
+msgid "LDAP Bind User DN"
+msgstr "Пользовательский DN для подключения к LDAP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 160
+msgid "LDAP Server Selection"
+msgstr "Выбор сервера LDAP"
+
+#
+# File: /usr/lang/src/wizards.php, line: 164
+msgid ""
+"Length of Diffie-Hellman (DH) key exchange parameters, used for establishing "
+"a secure communications channel. As with other such settings, the larger "
+"values are more secure, but may be slower in operation."
+msgstr ""
+"Длина параметров обмена ключами Диффи-Хеллмана (DH), используемых для установки "
+"защищённого соединения. Как другие подобные настройки, большие значения "
+"более безопасны, но могут быть медленнее в работе."
+
+#
+# File: /usr/lang/src/wizards.php, line: 185
+msgid "Local User Access"
+msgstr "Локальный доступ пользователей"
+
+#
+# File: /usr/lang/src/wizards.php, line: 215
+msgid ""
+"Protocol to use for OpenVPN connections. If you are unsure, leave this set "
+"to UDP."
+msgstr ""
+"Протокол, используемый для OpenVPN соединений. Если не уверены, оставьте значение "
+"UDP."
+
+#
+# File: /usr/lang/src/wizards.php, line: 246
+msgid "Provide a default domain name to clients."
+msgstr "Предоставлять клиентам доменное имя по-умолчанию"
+
+#
+# File: /usr/lang/src/wizards.php, line: 247
+msgid "Provide a virtual adapter IP address to clients (see Tunnel Network)."
+msgstr "Предоставлять клиентам IP адрес виртуального адаптера (см. Tunnel Network)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 248
+msgid "RADIUS Authentication Server List"
+msgstr "Список RADIUS серверов аутентификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 249
+msgid "RADIUS Authentication Server Parameters"
+msgstr "Параметры RADIUS сервера аутентификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 220
+msgid "RADIUS Server Selection"
+msgstr "Выбор RADIUS сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 258
+msgid "Search Scope Base DN"
+msgstr "Базовый DN области поиска"
+
+#
+# File: /usr/lang/src/wizards.php, line: 259
+msgid "Search Scope Level"
+msgstr "Уровень области поиска"
+
+#
+# File: /usr/lang/src/wizards.php, line: 235
+msgid ""
+"Semicolon separated. This will be prepended to the search base DN above or "
+"you can specify full container path, e.g. CN=Users;DC=example or CN=Users,"
+"DC=example,DC=com;OU=OtherUsers,DC=example,DC=com"
+msgstr ""
+"Разделённые точкой с запятой. Это будет добавлено перед базовым DN поиска или "
+"Вы можете указать полный путь контейнера, например CN=Users;DC=example или CN=Users,"
+"DC=example,DC=com;OU=OtherUsers,DC=example,DC=com"
+
+#
+# File: /usr/lang/src/wizards.php, line: 236
+msgid "Server Certificate Selection"
+msgstr "Выбор сервера сертификации"
+
+#
+# File: /usr/lang/src/wizards.php, line: 237
+msgid "Server Setup"
+msgstr "Настройка сервера"
+
+#
+# File: /usr/lang/src/wizards.php, line: 239
+msgid ""
+"Set the MTU of the WAN interface. If you leave this field blank, an MTU of "
+"1492 bytes for PPPoE and 1500 bytes for all other connection types will be "
+"assumed."
+msgstr ""
+"Укажите MTU WAN интерфейса. Если Вы оставите это поле пустым, MTU будет равно "
+"1492 байт для PPPoE и 1500 байт для всех остальных типов подключений."
+
+#
+# File: /usr/lang/src/wizards.php, line: 266
+msgid ""
+"Set the TOS IP header value of tunnel packets to match the encapsulated "
+"packet value."
+msgstr ""
+"Укажите значение TOS заголовка IP для пакетов туннеля соответствующее  "
+"значению инкапсулированного пакета."
+
+#
+# File: /usr/lang/src/wizards.php, line: 242
+msgid ""
+"Size of the key which will be generated. The larger the key, the more "
+"security is offers, but larger keys are generally slower to use."
+msgstr ""
+"Размер ключа, который будет сгенерирован. Больший ключ предоставляет "
+"более высокую безопасность, но как правило, большие ключи медленнее в обработке."
+
+#
+# File: /usr/lang/src/wizards.php, line: 253
+msgid ""
+"The hardware cryptographic accelerator to use for this VPN connection, if "
+"any."
+msgstr ""
+"Аппаратный криптографический ускоритель для использования этим VPN соединением, если "
+"есть."
+
+#
+# File: /usr/lang/src/wizards.php, line: 255
+msgid ""
+"The method used to authenticate traffic between endpoints. This setting must "
+"match on the client and server side, but is otherwise set however you like."
+msgstr ""
+"Метод, используемый для аутентификации трафика между узлами. Эта настройка должна "
+"совпадать на стороне клиента и сервера, но настраивается как Вам нужно."
+
+#
+# File: /usr/lang/src/wizards.php, line: 256
+msgid ""
+"The method used to encrypt traffic between endpoints. This setting must "
+"match on the client and server side, but is otherwise set however you like. "
+"Certain algorithms will perform better on different hardware, depending on "
+"the availability of supported VPN accelerator chips."
+msgstr ""
+"Метод, используемый для шифрования трафика между узлами. Эта настройка должна "
+"совпадать на стороне клиента и сервера, однако настраивается как Вам нужно. "
+"Некоторые алгоритмы работают лучше на разных аппаратных платформах, в зависимости "
+"от доступности поддерживаемого чипа ускорителя VPN."
+
+#
+# File: /usr/lang/src/wizards.php, line: 257
+msgid ""
+"The protocol used by your LDAP server. It can either be standard TCP or SSL "
+"encrypted."
+msgstr ""
+"Протокол, используемый Вашим LDAP сервером. Это может быть стандартный TCP или с SSL "
+"шифрованием."
+
+#
+# File: /usr/lang/src/wizards.php, line: 259
+msgid ""
+"This field can be used to modify (\"spoof\") the MAC address of the WAN "
+"interface (may be required with some cable connections). Enter a MAC address "
+"in the following format: xx:xx:xx:xx:xx:xx or leave blank."
+msgstr ""
+"Это поле используется для изменения (\"спуфинг\") MAC адреса WAN "
+"интерфейса (может потребоваться для некоторых кабельных подключений). Введите MAC адрес "
+"в следующем формате: xx:xx:xx:xx:xx:xx или оставьте пустым."
+
+#
+# File: /usr/lang/src/wizards.php, line: 272
+msgid "Two-letter ISO country code (e.g. NL, DE, US)"
+msgstr "Двух-символьный ISO-код страны (например, NL, DE, RU)"
+
+#
+# File: /usr/core/src/www/system_authservers.php, line: 619
+# File: /usr/lang/src/wizards.php, line: 276
+msgid ""
+"Typically \"cn\" (OpenLDAP, Novell eDirectory), \"sAMAccountName"
+"\" (Microsoft AD)"
+msgstr ""
+"Обычно \"cn\" (OpenLDAP, Novell eDirectory), \"sAMAccountName"
+"\" (Microsoft AD)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 299
+msgid "User Naming Attribute"
+msgstr "Атрибут имени пользователя"
+
+#
+# File: /usr/lang/src/wizards.php, line: 300
+msgid "WINS Server 1"
+msgstr "WINS сервер 1"
+
+#
+# File: /usr/lang/src/wizards.php, line: 301
+msgid "WINS Server 2"
+msgstr "WINS сервер 2"
+
+#
+# File: /usr/lang/src/wizards.php, line: 284
+msgid ""
+"When set, this option blocks traffic from IP addresses that are reserved for "
+"private networks as per RFC 1918 (10/8, 172.16/12, 192.168/16) as well as "
+"loopback addresses (127/8). You should generally leave this option turned "
+"on, unless your WAN network lies in such a private address space, too."
+msgstr ""
+"Когда включена, эта опция блокирует трафик от IP адресов, которые зарезервированы "
+"для частных сетей в RFC 1918 (10/8, 172.16/12, 192.168/16) также как "
+"loopback адреса (127/8). Обычно Вы должны включать эту опцию, "
+"если только Ваша WAN сеть не находится в таком частном адресном пространстве."
+

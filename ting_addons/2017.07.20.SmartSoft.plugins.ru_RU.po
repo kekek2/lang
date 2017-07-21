@@ -1,0 +1,222 @@
+#
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 341
+msgid "Save filter"
+msgstr "Сохранить фильтр"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/squidlog.volt, line: 216
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 251
+msgid " days"
+msgstr " дней"
+
+#
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/Api/SettingsController.php, line: 59
+msgid "Access log is not targets to plain file in proxy general settings."
+msgstr "Журнал доступа не настрен на текстовый файл в основных настройках прокси-сервера."
+
+#
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/Api/SettingsController.php, line: 56
+msgid "Access log is not enabled in proxy general settings."
+msgstr "Журналирование доступа не включено в основных настройках прокси-сервера."
+
+#
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/Api/DataController.php, line: 299
+#, php-format
+msgid "Filter %s deleted successful"
+msgstr "Фильтр %s удалён"
+
+#
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/Api/DataController.php, line: 276
+#, php-format
+msgid "Filter %s saved successful"
+msgstr "Фильтр %s сохранён"
+
+#
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/Api/DataController.php, line: 260
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/Api/DataController.php, line: 291
+msgid "Not specified filter name"
+msgstr "Не указано имя фильтра"
+
+#
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/Api/DataController.php, line: 253
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/controllers/SmartSoft/SquidLog/Api/DataController.php, line: 284
+msgid "Error reading parameters"
+msgstr "Ошибка чтения параметров"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 210
+msgid "Edit group white and black lists"
+msgstr "Редактирование чёрных и белых списков для групп"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 209
+msgid "Edit user white and black lists"
+msgstr "Редактирование чёрных и белых списков для пользователей"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 144
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 181
+msgid "Black List"
+msgstr "Чёрный список"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 142
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 179
+msgid "White List"
+msgstr "Белый список"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 127
+msgid "Group ACL"
+msgstr "Групповые ACL"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 126
+msgid "User ACL"
+msgstr "Пользовательские ACL"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/IndexController.php, line: 10
+msgid "Group and User ACL settings"
+msgstr "Настройка групповых и пользовательских ACL"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 381
+#, php-format
+msgid "The %s %s does not exist"
+msgstr "%s %s не существует"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 365
+msgid "Error connecting to LDAP server"
+msgstr "Ошибка подключения к LDAP серверу"
+
+#
+# File: /usr/plugins/devel/ting-plugin-security-scanner/src/opnsense/mvc/app/controllers/SmartSoft/SecurityScanner/Api/ServiceController.php, line: 25
+msgid "No database. Start database update to use OpenVAS functionality."
+msgstr "База данных отсутствует. Запустите обновление базы данных для использования функционала OpenVAS."
+
+#
+# File: /usr/plugins/devel/ting-plugin-security-scanner/src/opnsense/mvc/app/controllers/SmartSoft/SecurityScanner/IndexController.php, line: 9
+msgid "Security Scanner: Scan targets"
+msgstr "Сканер безопасности: Цели сканирования"
+
+#
+# File: /usr/plugins/devel/ting-plugin-security-scanner/src/opnsense/mvc/app/controllers/SmartSoft/SecurityScanner/SettingsController.php, line: 9
+msgid "Security Scanner: Settings"
+msgstr "Сканер безопасности: Настройки"
+
+#
+# File: /usr/plugins/devel/ting-plugin-security-scanner/src/opnsense/mvc/app/views/SmartSoft/SecurityScanner/index.volt, line: 40
+msgid "Report"
+msgstr "Отчёт"
+
+#
+# File: /usr/plugins/devel/ting-plugin-security-scanner/src/opnsense/mvc/app/views/SmartSoft/SecurityScanner/index.volt, line: 131
+msgid "Update OpenVAS DB"
+msgstr "Обновить базу данных OpenVAS"
+
+#
+# File: /usr/plugins/devel/ting-plugin-security-scanner/src/opnsense/mvc/app/views/SmartSoft/SecurityScanner/index.volt, line: 140
+msgid "Operating System"
+msgstr "Операционная система"
+
+#
+# File: /usr/plugins/devel/ting-plugin-security-scanner/src/opnsense/mvc/app/views/SmartSoft/SecurityScanner/index.volt, line: 141
+msgid "Last Scanned"
+msgstr "Последнее сканирование"
+
+#
+# File: /usr/plugins/devel/ting-plugin-security-scanner/src/opnsense/mvc/app/views/SmartSoft/SecurityScanner/index.volt, line: 142
+msgid "Vulnerabilities"
+msgstr "Уязвимости"
+
+#
+# File: /usr/plugins/devel/ting-plugin-security-scanner/src/opnsense/mvc/app/views/SmartSoft/SecurityScanner/index.volt, line: 156
+msgid "Progress output"
+msgstr "Вывод прогресса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 79
+msgid "Access port of OpenVAS stand-alone scanner."
+msgstr "Порт доступа к выделенному сканеру OpenVAS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 599
+msgid "Login name to OpenVAS stand-alone scanner."
+msgstr "Имя пользователя для выделенного сканера OpenVAS."
+
+#
+# File: /usr/lang/src/controllers.php, line: 689
+msgid "OpenVAS Host"
+msgstr "Хост OpenVAS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 690
+msgid "OpenVAS Login"
+msgstr "Логин OpenVAS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 691
+msgid "OpenVAS Password"
+msgstr "Пароль OpenVAS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 692
+msgid "OpenVAS Port"
+msgstr "Порт OpenVAS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 693
+msgid "OpenVAS database last updated"
+msgstr "Последнее обновление базы данных OpenVAS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 704
+msgid "Password to OpenVAS stand-alone scanner."
+msgstr "Пароль к выделенному сканеру OpenVAS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 790
+msgid "Scan Target"
+msgstr "Цель сканирования"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1074
+msgid "Verbosity Level"
+msgstr "Уровень детализации"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1075
+msgid "Verbosity level of scan progress output."
+msgstr "Уровень детализации вывода процесса сканирования"
+
+#
+# File: /usr/lang/src/models.php, line: 125
+msgid "Group and User ACL"
+msgstr "ACL на пользователей и группы"
+
+#
+# File: /usr/plugins/devel/ting-plugin-security-scanner/src/opnsense/mvc/app/views/SmartSoft/SecurityScanner/index.volt, line: 130
+# File: /usr/lang/src/models.php, line: 300
+msgid "Scan"
+msgstr "Сканировать"
+
+#
+# File: /usr/lang/src/models.php, line: 304
+msgid "Security Scanner"
+msgstr "Сканер безопасности"
+
+#
+# File: /usr/lang/src/models.php, line: 328
+msgid "Single Sign-On"
+msgstr "Технология единого входа (SSO)"
+
+
+# File: /usr/lang/src/controllers.php, line: 498
+msgid ""
+"Host name or IP of OpenVAS stand-alone scanner. Leave empty to skip using "
+"external OpenVAS scanner."
+msgstr ""
+"Имя хоста или IP выделенного OpenVAS сканера. Оставьте пустым если не хотите использовать "
+"внешний сканер OpenVAS."

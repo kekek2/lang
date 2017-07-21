@@ -1,0 +1,81 @@
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/validations.volt, line: 112
+msgid "Edit Validation Method"
+msgstr "Редактировать метод проверки"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 212
+msgid "This plugin includes code from the %s project."
+msgstr "Этот плагин включает код из проекта %s."
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 212
+msgid "Licensed under GPLv3."
+msgstr "Лицензировано под GPLv3."
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 212
+msgid ""
+"Let\"s Encrypt(tm) is a trademark of the Internet Security Research Group. "
+"All rights reserved."
+msgstr ""
+"Let\"s Encrypt(tm) это торговая марка Internet Security Research Group. "
+"Все права защищены."
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 209
+msgid ""
+"Please use the %sissue tracker%s to report bugs or request new features."
+msgstr ""
+"Пожалуйста, используйте %sissue tracker%s для отчётов об ошибках или запроса нового функционала."
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 203
+msgid "Test Config"
+msgstr "Проверка конфига"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 193
+msgid "Update Schedule"
+msgstr "Обновление расписания"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 180
+msgid "Your acme-client config contains no errors."
+msgstr "Ваш конфиг acme-клиента не содержит ошибок."
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 179
+msgid "acme-client config test result"
+msgstr "Результаты теста конфига acme-клиента"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 172
+msgid "acme-client config contains minor errors"
+msgstr "Конфиг acme-клиента содержит незначительные ошибки"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 84
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 122
+msgid "Error reconfiguring acme-client"
+msgstr "Ошибка конфигурирования acme-клиента"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 75
+msgid ""
+"The acme-client service may not be able to start due to critical errors. Try "
+"anyway?"
+msgstr ""
+"Сервис acme-клиента может не запуститься из-за критических ошибок. Попытаться "
+"всё равно?"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 74
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 165
+msgid "acme-client config contains critical errors"
+msgstr "Конфиг acme-клиента содержит критическме ошибки"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 420
+msgid "Edit Certificate"
+msgstr "Редактировать сертификат"
