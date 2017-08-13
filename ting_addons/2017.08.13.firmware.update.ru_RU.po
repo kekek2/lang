@@ -1,0 +1,51 @@
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 655
+msgid "Update now"
+msgstr "Обновить сейчас"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 651
+msgid "This software release has reached its designated end of life."
+msgstr "Развитие этого релиза подошло к концу."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 650
+msgid "Check for upgrade"
+msgstr "Проверка обновления"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 502
+msgid "Unlock upgrade"
+msgstr "Разрешить обновление"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 498
+msgid "Upgrade instructions"
+msgstr "Справка по обновлению"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 404
+msgid "installed"
+msgstr "установлено"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 224
+msgid "Reboot required"
+msgstr "Требуется перезагрузка"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 219
+msgid ""
+"The firewall will download all firmware sets and reboot multiple times for "
+"this upgrade. All operating system files and packages will be reinstalled as "
+"a consequence. This may take several minutes to complete."
+msgstr ""
+"Новая прошивка будет скачана и устройство будет перезагружено несколько раз "
+"в процессе обновления. Все файлы операционной системы и пакеты будут переустановлены. "
+"Этот процесс может занять несколько минут."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 217
+msgid "The firewall will reboot directly after this firmware update."
+msgstr "Устройство будет перезагружено сразу после этого обновления"
