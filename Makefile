@@ -44,7 +44,6 @@ LANGUAGES+=	ja_JP
 LANGUAGES+=	pt_BR
 LANGUAGES+=	pt_PT
 LANGUAGES+=	ru_RU
-LANGUAGES+=	sv_SE
 LANGUAGES+=	tr_TR
 LANGUAGES+=	zh_CN
 
@@ -79,6 +78,8 @@ merge-${LANG}:
 
 test-${LANG}:
 	${MSGFMT} -o /dev/null ${LANG}.po
+	# XXX pretty this up
+	@echo $$(grep -c ^msgid ${LANG}.po) / $$(grep -c ^msgstr ${LANG}.po)
 
 INSTALL+=	install-${LANG}
 CLEAN+=		clean-${LANG}
@@ -86,7 +87,9 @@ MERGE+=		merge-${LANG}
 TEST+=		test-${LANG}
 .endfor
 
-_PLUGINSDIRS!=	${MAKE} -C ${PLUGINSDIR} list | awk '{ print $$1 }'
+_PLUGINSDIRS!=	if [ -d ${PLUGINSDIR} ]; then \
+			${MAKE} -C ${PLUGINSDIR} list | awk '{ print $$1 }'; \
+		fi
 PLUGINSDIRS=	${_PLUGINSDIRS:S/^/${PLUGINSDIR}\//g}
 
 ${TEMPLATE}:
