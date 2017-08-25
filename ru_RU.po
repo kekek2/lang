@@ -19739,11 +19739,11 @@ msgstr "Восстановить"
 
 # File: src/www/diag_backup.php, line: 512
 msgid "Click this button to download the system configuration in XML format."
-msgstr "Нажмите, чтобы загрузить конфигурацию системы в формате XML."
+msgstr "Нажмите, чтобы сохранить конфигурацию системы в формате XML."
 
 # File: src/www/diag_backup.php, line: 545
 msgid "Download configuration"
-msgstr "Загрузить конфигурацию"
+msgstr "Сохранить конфигурацию"
 
 # File: src/www/diag_backup.php, line: 539
 # File: src/www/diag_backup.php, line: 590
@@ -20531,7 +20531,7 @@ msgstr "Пользовательские"
 
 # File: src/www/diag_backup.php, line: 504
 msgid "Download"
-msgstr "Загрузка"
+msgstr "Сохранение"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 436
 msgid "Removing this file will cleanup disk space, but cannot be undone."
@@ -29617,7 +29617,7 @@ msgstr "Составить выражение"
 
 # File: /usr/lang/src/controllers.php, line: 154
 msgid "Concurrent user logins"
-msgstr "Одновременный вход в систему нескольких пользователей"
+msgstr "Множественный вход пользователя в систему"
 
 #
 # File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 317

@@ -1809,7 +1809,7 @@ msgstr "Составить выражение"
 
 # File: /usr/lang/src/controllers.php, line: 154
 msgid "Concurrent user logins"
-msgstr "Одновременный вход в систему нескольких пользователей"
+msgstr "Множественный вход пользователя в систему"
 
 # File: /usr/lang/src/controllers.php, line: 155
 msgid "Conditional parameters"
