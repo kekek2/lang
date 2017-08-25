@@ -1,0 +1,3891 @@
+#
+# File: /usr/core/src/www/widgets/widgets/openvpn.widget.php, line: 156
+msgid "No OpenVPN instance defined or enabled."
+msgstr "Экземпляр OpenVPN не определён или не включён."
+
+#
+# File: /usr/core/src/www/vpn_openvpn_server.php, line: 678
+msgid ""
+"Restrict access to users in the selected local group. Please be aware that "
+"other authentication backends will refuse to authenticate when using this "
+"option."
+msgstr ""
+"Ограничить доступ пользователями выбраной локальной группы. Пожалуйста убедитесь "
+"что другие механизмы аутентификации отказывают в аутентификации когда используете "
+"эту опцию."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 746
+msgid "e.g. 192.168.1.0/24, 192.168.2.0/24"
+msgstr "например 192.168.1.0/24, 192.168.2.0/24"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 743
+msgid ""
+"Strongswan automatically creates SPD policies for the networks defined in "
+"this phase2. If you need to allow other networks to use this ipsec tunnel, "
+"you can add them here as a comma seperated list.When configured, you can use "
+"network address translation to push packets through this tunnel from these "
+"networks."
+msgstr ""
+"Strongswan автоматически создаёт политики SPD для сетей, определённых в "
+"данной phase2. Если вам необходимо разрешить другим сетям использовать этот туннель ipsec, "
+"вы можете добавить их здесь списком через запятую. Когда сконфигурировано, вы можете "
+"использовать NAT для направления пакетов через этот туннель из этих сетей."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 742
+msgid "Register additional Security Policy Database entries"
+msgstr "Регистрация дополнительных записей Security Policy Database"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 738
+msgid "Manual SPD entries"
+msgstr "Ручные записи SPD"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 360
+#, php-format
+msgid ""
+"SPD \"%s\" is not a valid network, it should match the tunnel type (IPv4/"
+"IPv6)."
+msgstr ""
+"SPD \"%s\" недопустимая сеть, она должна соответствовать типу туннеля (IPv4/"
+"IPv6)."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 561
+msgid ""
+"Clone related phase 2 entries as well, remember to change the networks. All "
+"phase 2 entries will be added in disabled state"
+msgstr ""
+"Скопировать соответствующие записи phase 2, не забудьте поменять сети. Все "
+"записи phase 2 будут добавлены в отключенном состоянии"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 557
+msgid "Clone phase2"
+msgstr "Скопировать phase2"
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 863
+msgid "OTP QR code"
+msgstr "OTP QR код"
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 616
+msgid "User comment, for your own information only"
+msgstr "Описание пользователя, информация только для вас."
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 607
+msgid "User's e-mail address, for your own information only"
+msgstr "E-mail пользователя, информация только для вас."
+
+#
+# File: /usr/core/src/www/system_usermanager.php, line: 235
+msgid "Cannot set random password due to explicit input."
+msgstr "Невозможно установить случайный пароль, требуется явный ввод."
+
+#
+# File: /usr/core/src/www/system_general.php, line: 461
+msgid ""
+"If the link where the default gateway resides fails switch the default "
+"gateway to another available one."
+msgstr ""
+"Если пропадает соединение, на котором находится основной шлюз, переключить "
+"шлюз на другой доступный."
+
+#
+# File: /usr/core/src/www/system_advanced_misc.php, line: 481
+msgid "Add a 2 GB swap file to the system"
+msgstr "Добавить 2 Гб swap-файл в систему"
+
+#
+# File: /usr/core/src/www/system_advanced_misc.php, line: 478
+msgid "Swap file"
+msgstr "Файл обмена"
+
+#
+# File: /usr/core/src/www/system_advanced_misc.php, line: 475
+msgid "Disk / Memory Settings (reboot to apply changes)"
+msgstr "Настройки диска / памяти (требуется перезагрузка)"
+
+#
+# File: /usr/core/src/www/status_interfaces.php, line: 451
+msgid "rate"
+msgstr "частота"
+
+#
+# File: /usr/core/src/www/status_interfaces.php, line: 450
+msgid "total"
+msgstr "всего"
+
+#
+# File: /usr/core/src/www/status_interfaces.php, line: 449
+msgid "device"
+msgstr "устройство"
+
+#
+# File: /usr/core/src/www/status_interfaces.php, line: 443
+msgid "Interrupts"
+msgstr "Прерывания"
+
+#
+# File: /usr/core/src/www/services_ntpd.php, line: 285
+msgid ""
+"The \"do not use\" option indicates that NTP should not use this server for "
+"time, but stats for this server will be collected and displayed."
+msgstr ""
+"Опция \"не использовать\" указывает, что NTP не должен использовать этот сервер "
+"для времени, но статистика для этого сервера будет собираться и отображаться."
+
+#
+# File: /usr/core/src/www/services_ntpd.php, line: 283
+msgid ""
+"The \"prefer\" option indicates that NTP should favor the use of this server "
+"more than all others."
+msgstr ""
+"Опция \"предпочитать\" указывает, что для NTP более предпочтителен этот сервер, "
+"чем остальные."
+
+#
+# File: /usr/core/src/www/interfaces_lagg_edit.php, line: 303
+msgid ""
+"If you leave this field blank, the smallest mtu of this laggs children will "
+"be used."
+msgstr ""
+"Если оставить пустым, будет использован наименьший mtu среди "
+"дочерних."
+
+#
+# File: /usr/core/src/www/interfaces_assign.php, line: 429
+msgid "Delete interface"
+msgstr "Удалить интерфейс"
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2706
+msgid "Algorithm"
+msgstr "Алгоритм"
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2680
+msgid "IPv6-Prefix"
+msgstr "IPv6-префикс"
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2668
+# File: /usr/core/src/www/interfaces.php, line: 2684
+msgid "Valid Time"
+msgstr "Действительное время"
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2666
+# File: /usr/core/src/www/interfaces.php, line: 2682
+msgid "Preferred Lifetime"
+msgstr "Предпочтительное время жизни"
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2664
+msgid "IPv6-address"
+msgstr "IPv6-адрес"
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2269
+# File: /usr/core/src/www/interfaces_ppps_edit.php, line: 575
+msgid "This field can usually be left empty unless specified by the provider."
+msgstr "Это поле, как правило, может быть пустым, если не указано провайдером."
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 1679
+msgid "Prevent interface removal"
+msgstr "Предотвращение удаления интерфейса"
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 1676
+msgid "Lock"
+msgstr "Блокировать"
+
+#
+# File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 441
+msgid "Unused"
+msgstr "Не используется"
+
+#
+# File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 170
+#, php-format
+msgid "VHID %s should be defined on interface %s."
+msgstr "VHID %s должен быть определён на интерфейсе %s."
+
+#
+# File: /usr/core/src/www/firewall_scrub_edit.php, line: 41
+msgid "critical"
+msgstr "критический"
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1286
+msgid "Low Delay/TCP ACK"
+msgstr "Низкая задержка/TCP ACK"
+
+#
+# File: /usr/core/src/www/firewall_rules_edit.php, line: 1323
+msgid "All packets"
+msgstr "Все пакеты"
+
+#
+# File: /usr/core/src/www/firewall_nat_out_edit.php, line: 582
+msgid "Destination invert"
+msgstr "Инвертировать получателя"
+
+#
+# File: /usr/core/src/www/firewall_nat_out_edit.php, line: 495
+msgid "Source invert"
+msgstr "Инвертировать источник"
+
+#
+# File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 369
+msgid ""
+"Enter the internal subnet for the 1:1 mapping. The subnet size specified for "
+"the source will be applied to the external subnet, when none is provided."
+msgstr ""
+"Введите внутреннюю подсеть для отображения 1:1. Размер подсети, указанный "
+"для источника будет применён к внешней подсети, если ничего не указано."
+
+#
+# File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 314
+msgid "This is the address or network the traffic will translate to/from."
+msgstr "Это адрес или сеть куда или откуда будет транслироваться трафик."
+
+#
+# File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 313
+msgid ""
+"The subnet mask from the internal address below will be applied to this IP "
+"address, when none is provided."
+msgstr ""
+"Маска подсети нижеуказанного внутреннего адреса будет применена к этому IP "
+"адресу, если ничего не указано."
+
+#
+# File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 312
+msgid ""
+"Enter the external subnet's starting address for the 1:1 mapping or network."
+msgstr ""
+"Укажите начальный адрес внешней подсети для трансляции 1:1 или сети."
+
+#
+# File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 307
+msgid "External network"
+msgstr "Внешняя сеть"
+
+#
+# File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 302
+msgid ""
+"A BINAT rule specifies a bidirectional mapping between an external and "
+"internal network and can be used from both ends, nat only applies in one "
+"direction."
+msgstr ""
+"Правило BINAT определяет двунаправленное отображение между внешней и "
+"внутренней сетью и может быть использовано в обоих направлениях, NAT применяется "
+"только в одном направлении."
+
+#
+# File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 300
+msgid ""
+"Select BINAT (default) or NAT here, when nets are equally sized binat is "
+"usually the best option.Using NAT we can also map unequal sized networks."
+msgstr ""
+"Выберите BINAT (по-умолчанию) или NAT, если сети одного размера, обычно используется "
+"binat. С помощью NAT мы также можем транслировать сети разных размеров."
+
+#
+# File: /usr/core/src/www/firewall_nat_1to1_edit.php, line: 118
+#, php-format
+msgid "%s is not a valid source IP address."
+msgstr "%s не является допустимым IP-адресом источника."
+
+#
+# File: /usr/core/src/www/firewall_aliases_edit.php, line: 154
+#, php-format
+msgid "Entry \"%s\" is not a valid network or IP address."
+msgstr "Запись \"%s\" не является допустимым IP-адресом или адресом сети."
+
+#
+# File: /usr/core/src/www/firewall_aliases_edit.php, line: 138
+#, php-format
+msgid ""
+"Entry \"%s\" seems to contain a list of addresses, please use a network type "
+"alias to define ranges."
+msgstr ""
+"Запись \"%s\", видимо, содержит список адресов, пожалуйста используйте псевдоним типа "
+"сеть для определения диапазонов."
+
+#
+# File: /usr/core/src/www/diag_ipsec.php, line: 213
+msgid "Routed"
+msgstr "Маршрутизирован"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/layouts/default.volt, line: 194
+msgid "Toggle navigation"
+msgstr "Включить навигацию"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 757
+msgid "Ruleset details"
+msgstr "Описание списка правил"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 756
+msgid "Alert details"
+msgstr "Описание предупреждения"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 755
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 758
+msgid "Rule details"
+msgstr "Описание правила"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 246
+msgid "Require the password in front of the token instead of behind it."
+msgstr "Требовать пароль перед токеном, а не после."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/TOTP.php, line: 245
+msgid "Reverse token order"
+msgstr "Обратный порядок токена"
+
+#
+# File: /usr/core/src/etc/inc/system.inc, line: 1133
+msgid "Mute Console"
+msgstr "Отключить консоль"
+
+#
+# File: /usr/core/src/etc/inc/filter.inc, line: 584
+msgid "Cleanup schedule states"
+msgstr "Очистить состояния расписания"
+
+#
+# File: /usr/plugins/www/c-icap/src/opnsense/mvc/app/views/OPNsense/CICAP/general.volt, line: 34
+msgid "Antivirus"
+msgstr "Антивирус"
+
+#
+# File: /usr/plugins/www/c-icap/src/opnsense/mvc/app/views/OPNsense/CICAP/general.volt, line: 30
+msgid "No ClamAV plugin found, please install via System > Firmware > Plugins."
+msgstr "Плагин ClamAV не найден, установите его через Система > Прошивка > Плагины."
+
+#
+# File: /usr/plugins/www/c-icap/src/opnsense/mvc/app/controllers/OPNsense/CICAP/GeneralController.php, line: 35
+msgid "C-ICAP Settings"
+msgstr "Настройки C-ICAP"
+
+#
+# File: /usr/plugins/www/c-icap/src/etc/inc/plugins.inc.d/cicap.inc, line: 37
+msgid "C-ICAP server"
+msgstr "Сервер C-ICAP"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 414
+msgid ""
+"Use the Issue/Renew button to let the acme client automatically issue any "
+"new certificate and renew existing certificates (only if required). If you "
+"want to only issue/renew or revoke a single certificate, use the buttons in "
+"the Commands column. This will forcefully issue/renew the certificate, even "
+"if it is not required."
+msgstr ""
+"Используйте кнопку Выдать/Обновить чтобы позволить acme-клиенту автоматически выдать любой "
+"новый сертификат и обновить существующие сертификаты (только если необходимо). Если вы "
+"хотите только выдать/обновить или отозвать какой-то один сертификат, используйте "
+"кнопки в колонке Команды. Это позволит принудительно выдать/обновить сертификат, даже "
+"если это не требуется."
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 414
+msgid ""
+"The process may take some time and thus will run in the background, you will "
+"not get any notification in the GUI. Use the log file to monitor the "
+"progress and to see error messages."
+msgstr ""
+"Процесс может занять некоторое время, поэтому будет запущен в фоновом режиме, вы не "
+"получите никаких сообщений в Web-интерфейсе. Используйте лог-файл для мониторинга прогресса "
+"или появления сообщений об ошибках."
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 410
+msgid "Issue/Renew Certificates Now"
+msgstr "Выдать/Обновить сертификаты сейчас"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 390
+msgid "Last Acme Run"
+msgstr "Последний запуск Acme"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 389
+msgid "Last Acme Status"
+msgstr "Последний статус Acme"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 388
+msgid "Issue/Renewal Date"
+msgstr "Дата Выдачи/Обновления"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 386
+msgid "Multi-Domain (SAN)"
+msgstr "Мульти-домен (SAN)"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 345
+msgid "Revoke selected certificate?"
+msgstr "Отозвать выбранный сертификат?"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 323
+msgid "Forcefully (re-)issue the selected certificate?"
+msgstr "Принудительно (пере-)выдать выбранный сертификат?"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 322
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 344
+msgid "Confirmation Required"
+msgstr "Необходимо подтвержление"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 183
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 287
+msgid "Do you want to remove the selected item?"
+msgstr "Вы хотите удалить выбранный элемент?"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 182
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 286
+msgid "Confirm removal"
+msgstr "Подтвердить удаление"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 100
+msgid "internal error"
+msgstr "внутренняя ошибка"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 98
+msgid "validation failed"
+msgstr "ошибка валидации"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 96
+msgid "configuration error"
+msgstr "ошибка конфигурирования"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 94
+msgid "cert revoked"
+msgstr "сертификат отозван"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 85
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 90
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 102
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 109
+msgid "unknown"
+msgstr "неизвестно"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 75
+msgid "pending"
+msgstr "ожидание"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/actions.volt, line: 100
+msgid "Edit Restart Action"
+msgstr "Редактировать действие рестарта"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 87
+msgid "Edit Account"
+msgstr "Редактировать аккаунт"
+
+#
+# File: /usr/plugins/security/acme-client/src/etc/inc/plugins.inc.d/acmeclient.inc, line: 62
+msgid "Let's Encrypt client"
+msgstr "Let's Encrypt клиент"
+
+#
+# File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 338
+msgid "Test Configuration"
+msgstr "Проверить конфигурацию"
+
+#
+# File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 256
+msgid "Service Tests Settings"
+msgstr "Настройки тестов служб"
+
+#
+# File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 254
+msgid "Alert Settings"
+msgstr "Настройки сообщений"
+
+#
+# File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/controllers/OPNsense/Monit/StatusController.php, line: 44
+msgid "Monit System Monitoring - Status"
+msgstr "Monit мониторинг системы - Статус"
+
+#
+# File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/controllers/OPNsense/Monit/IndexController.php, line: 45
+msgid "Monit System Monitoring - Settings"
+msgstr "Monit мониторинг системы - Настройки"
+
+#
+# File: /usr/plugins/sysutils/monit/src/etc/inc/plugins.inc.d/monit.inc, line: 39
+# File: /usr/plugins/sysutils/monit/src/etc/inc/plugins.inc.d/monit.inc, line: 60
+msgid "Monit System Monitoring"
+msgstr "Monit мониторинг системы"
+
+#
+# File: /usr/plugins/net-mgmt/zabbix-agent/src/opnsense/mvc/app/controllers/OPNsense/ZabbixAgent/IndexController.php, line: 45
+msgid "Zabbix Agent Settings"
+msgstr "Настройки Zabbix агента"
+
+#
+# File: /usr/plugins/net-mgmt/zabbix-agent/src/etc/inc/plugins.inc.d/zabbixagent.inc, line: 61
+# File: /usr/plugins/net-mgmt/zabbix-agent/src/etc/inc/plugins.inc.d/zabbixagent.inc, line: 84
+msgid "Enterprise-class open source distributed monitoring agent"
+msgstr "Агент распределённого мониторинга Enterprise-класса с открытым кодом."
+
+#
+# File: /usr/plugins/net-mgmt/collectd/src/opnsense/mvc/app/controllers/OPNsense/Collectd/GeneralController.php, line: 35
+msgid "Collectd settings"
+msgstr "Настройки Collectd"
+
+#
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 650
+msgid "Edit Frontend"
+msgstr "Редактировать фронтенд"
+
+#
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 53
+msgid "The statistics could not be fetched. Is HAProxy running?"
+msgstr "Статистика не может быть получена. HAProxy запущен?"
+
+#
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 657
+msgid "Edit Error File"
+msgstr "Редактировать файл ошибок"
+
+#
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 656
+msgid "Edit Lua Script"
+msgstr "Редактировать Lua-скрипт"
+
+#
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 655
+msgid "Edit ACL"
+msgstr "Редактировать ACL"
+
+#
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 654
+msgid "Edit Action"
+msgstr "Редактировать действие"
+
+#
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 653
+msgid "Edit Health Check"
+msgstr "Редактировать проверку состояния"
+
+#
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 652
+msgid "Edit Server"
+msgstr "Редактировать сервер"
+
+#
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 651
+msgid "Edit Backend"
+msgstr "Редактировать бэкенд"
+
+#
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/controllers/OPNsense/HAProxy/StatisticsController.php, line: 40
+msgid "HAProxy Load Balancer / Statistics"
+msgstr "Балансировщик нагрузки HAProxy / Статистика"
+
+#
+# File: /usr/plugins/net/haproxy/src/etc/inc/plugins.inc.d/haproxy.inc, line: 81
+# File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/controllers/OPNsense/HAProxy/IndexController.php, line: 45
+msgid "HAProxy Load Balancer"
+msgstr "Балансировщик нагрузки HAProxy"
+
+#
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/client.volt, line: 115
+msgid "Edit Client"
+msgstr "Редактировать клиента"
+
+#
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/client.volt, line: 91
+msgid "IP Address or Network"
+msgstr "IP-адрес или сеть"
+
+#
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/client.volt, line: 90
+msgid "Shared secret"
+msgstr "Общий пароль"
+
+#
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/client.volt, line: 63
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/user.volt, line: 63
+msgid "Error reconfiguring FreeRADIUS"
+msgstr "Ошибка конфигурирования FreeRADIUS"
+
+#
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/controllers/OPNsense/Freeradius/UserController.php, line: 30
+msgid "FreeRADIUS Users"
+msgstr "Пользователи FreeRADIUS"
+
+#
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/controllers/OPNsense/Freeradius/GeneralController.php, line: 34
+msgid "FreeRADIUS Settings"
+msgstr "Настройки FreeRADIUS"
+
+#
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/controllers/OPNsense/Freeradius/ClientController.php, line: 30
+msgid "FreeRADIUS Clients"
+msgstr "Клиенты FreeRADIUS"
+
+#
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 344
+msgid "Download CSV"
+msgstr "Скачать CSV"
+
+#
+# File: /usr/plugins/net/quagga/src/etc/inc/plugins.inc.d/quagga.inc, line: 37
+msgid "Quagga is a deamon to add support of various routing protocols."
+msgstr "Quagga - демон, добавляющий поддержку различных протоколов маршрутизации."
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/BgpController.php, line: 30
+msgid "BGP Settings"
+msgstr "Настройки BGP"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/DiagnosticsController.php, line: 31
+msgid "Diagnostics: BGP"
+msgstr "Диагностика: BGP"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/DiagnosticsController.php, line: 37
+msgid "Diagnostics: OSPF"
+msgstr "Диагностика: OSPF"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/DiagnosticsController.php, line: 42
+msgid "Diagnostics: OSPFv3"
+msgstr "Диагностика: OSPFv3"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/DiagnosticsController.php, line: 47
+msgid "Diagnostics: General"
+msgstr "Диагностика: основное"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/GeneralController.php, line: 34
+msgid "Routing-Settings"
+msgstr "Настройки маршрутизации"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/IsisController.php, line: 8
+msgid "IS-IS-Settings"
+msgstr "Настройки IS-IS"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/Ospf6Controller.php, line: 31
+msgid "OSPFv3 Settings"
+msgstr "Настройки OSPFv3"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/OspfController.php, line: 34
+msgid "OSPF Settings"
+msgstr "Настройки OSPF"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/controllers/OPNsense/Quagga/RipController.php, line: 8
+msgid "RIP Settings"
+msgstr "Настройки RIP"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 33
+msgid "Neighbors"
+msgstr "Соседние"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 34
+msgid "AS Path Lists"
+msgstr "Списки AS путей"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 35
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 35
+msgid "Prefix Lists"
+msgstr "Списки префиксов"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 36
+msgid "Route Maps"
+msgstr "Карты маршрутизации"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 53
+msgid "Neighbor Address"
+msgstr "Соседний адрес"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 55
+msgid "Update Source Address"
+msgstr "Обновить адрес источника"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 87
+msgid "AS Number"
+msgstr "Номер AS"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 111
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 108
+msgid "Secquence Number"
+msgstr "Номер последовательности"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 224
+msgid "Edit AS Paths"
+msgstr "Редактировать AS пути"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 225
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 187
+msgid "Edit Prefix Lists"
+msgstr "Редактировать списки префиксов"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 226
+msgid "Edit Route Maps"
+msgstr "Редактировать карты маршрутизации"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 38
+msgid "Table Version"
+msgstr "Версия таблицы"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 105
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 387
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 275
+msgid "Summary"
+msgstr "Сводка"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 110
+msgid "loading..."
+msgstr "загрузка..."
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 34
+msgid "Code"
+msgstr "Код"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 36
+msgid "Administrative Distance"
+msgstr "Административная дистанция"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 64
+msgid "Kernel Route"
+msgstr "Маршрут ядра"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 65
+msgid "FIB Route"
+msgstr "Маршрут FIB"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 66
+msgid "Connected"
+msgstr "Подключено"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 67
+msgid "Selected Route"
+msgstr "Выбранный маршрут"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 119
+msgid "IPv4 Routes"
+msgstr "Маршруты IPv4"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 120
+msgid "IPv6 Routes"
+msgstr "Маршруты IPv6"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 123
+msgid "Running Configuration"
+msgstr "Запущенная конфигурация"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 47
+msgid "RFC1583 Compatibility"
+msgstr "Совместимость с RFC1583"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 71
+msgid "SPF Timer"
+msgstr "SPF таймер"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 75
+msgid "Refresh Timer"
+msgstr "Обновить таймер"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 91
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 140
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 171
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 199
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 223
+msgid "Checksum"
+msgstr "Контрольная сумма"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 118
+msgid "Interfaces: Total"
+msgstr "Интерфейсы: всего"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 122
+msgid "Interfaces: Active"
+msgstr "Интерфейсы: активные"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 170
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 198
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 222
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 133
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 166
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 195
+msgid "Sequence Number"
+msgstr "Номер последовательности"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 172
+msgid "Link Count"
+msgstr "Счётчик соединений"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 243
+msgid "Network Routing Table"
+msgstr "Таблица маршрутизации сети"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 251
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 276
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 301
+msgid "Via"
+msgstr "Через"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 252
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 277
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 302
+msgid "Via interface"
+msgstr "Через интерфейс"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 268
+msgid "Router Routing Table"
+msgstr "Таблица маршрутизации маршрутизатора"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 293
+msgid "External Routing Table"
+msgstr "Внешняя таблица маршрутизации"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 385
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 273
+msgid "Router"
+msgstr "Маршрутизатор"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 390
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 278
+msgid "Directly Attached"
+msgstr "Подключённые напрямую"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 401
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 289
+msgid "MTU Mismatch Detection"
+msgstr "Обнаружено несовпадение MTU"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 407
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 295
+msgid "Intervals"
+msgstr "Интервалы"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 468
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 369
+msgid "Database"
+msgstr "База данных"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 312
+msgid "Point to Point"
+msgstr "Точка-точка"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 81
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf6.volt, line: 54
+msgid "Interface Name"
+msgstr "Имя интерфейса"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 151
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf6.volt, line: 113
+msgid "Edit Interface"
+msgstr "Редактировать интерфейс"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 59
+msgid "Error reconfiguring Zerotier"
+msgstr "Ошибка конфигурирования Zerotier"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 80
+msgid "Network Id"
+msgstr "Идентификатор сети"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 105
+msgid "Edit Zerotier Network"
+msgstr "Редактировать сеть Zerotier"
+
+#
+# File: /usr/plugins/security/clamav/src/etc/inc/plugins.inc.d/clamav.inc, line: 37
+msgid "ClamAV Daemon"
+msgstr "Демон ClamAV"
+
+#
+# File: /usr/plugins/security/clamav/src/etc/inc/plugins.inc.d/clamav.inc, line: 50
+msgid "freshclam daemon"
+msgstr "демон freshclam"
+
+#
+# File: /usr/plugins/security/clamav/src/opnsense/mvc/app/controllers/OPNsense/ClamAV/GeneralController.php, line: 35
+msgid "ClamAV settings"
+msgstr "Настройки ClamAV"
+
+#
+# File: /usr/plugins/security/clamav/src/opnsense/mvc/app/views/OPNsense/ClamAV/general.volt, line: 31
+msgid "Download signatures"
+msgstr "Скачать сигнатуры"
+
+#
+# File: /usr/plugins/security/clamav/src/opnsense/mvc/app/views/OPNsense/ClamAV/general.volt, line: 32
+msgid ""
+"No signature database found, please download before use. The download will "
+"take several minutes and this message will disappear when it has been "
+"completed. If you have memory file system enabled where /var is mounted into "
+"RAM you have to download this file with every reboot."
+msgstr ""
+"Не найдена база данных сигнатур, поалуйста, скачайте перед использованием. Скачивание "
+"займёт несколько минут и это сообщение исчезнет, когда прцедура скачивания завершится. "
+"Если у вас включена файловая система in-memory, где /var монтируется в память "
+"вы должны скачивать этот файл после каждой перезагрузки."
+
+#
+# File: /usr/plugins/net-mgmt/collectd/src/etc/inc/plugins.inc.d/collectd.inc, line: 37
+msgid "collectd daemon"
+msgstr "демон collectd"
+
+#
+# File: /usr/lang/src/acl.php, line: 123
+msgid "Services: C-ICAP"
+msgstr "Службы: C-ICAP"
+
+#
+# File: /usr/lang/src/acl.php, line: 125
+msgid "Services: ClamAV"
+msgstr "Службы: ClamAV"
+
+#
+# File: /usr/lang/src/acl.php, line: 124
+msgid "Services: Collectd"
+msgstr "Службы: Collectd"
+
+#
+# File: /usr/lang/src/acl.php, line: 138
+msgid "Services: FreeRADIUS"
+msgstr "Службы: FreeRADIUS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 70
+msgid ""
+"A name for this server. Used when displaying information about this server "
+"(logs, info service, etc)."
+msgstr ""
+"Имя этого сервера. Используется для отображения информации об этом сервере "
+"(логи, info-сервис, т.д.)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 74
+msgid "API Key"
+msgstr "Ключ API"
+
+#
+# File: /usr/lang/src/controllers.php, line: 75
+msgid "API Token"
+msgstr "Токен API"
+
+#
+# File: /usr/lang/src/controllers.php, line: 113
+msgid "Allow 204 responses"
+msgstr "Разрешить ответ 204"
+
+#
+# File: /usr/lang/src/controllers.php, line: 112
+msgid "Allow access for users which is not in list from any IP address"
+msgstr "Разрешить доступ пользователям, которых нет в списке, с любого IP-адреса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 113
+msgid "Allow any IP for other users"
+msgstr "Разрешить любой IP для остальных пользователей"
+
+#
+# File: /usr/lang/src/controllers.php, line: 132
+msgid "Authentication Key"
+msgstr "Ключ аутентификации"
+
+#
+# File: /usr/lang/src/controllers.php, line: 139
+msgid "Auto Renewal"
+msgstr "Автообновление"
+
+#
+# File: /usr/lang/src/controllers.php, line: 140
+msgid ""
+"Automatically inject config into the local HAProxy instance to let it serve "
+"acme challanges without service interruption. Of course, adding the "
+"configuration requires a short restart of the HAProxy service."
+msgstr ""
+"Автоматически внедрить конфиг в локальный экземпляр HAProxy чтобы обслуживать "
+"вызовы acme без прерывания сервиса. Конечно, добавление "
+"конфигурации требует быстрого рестарта сервиса HAProxy."
+
+#
+# File: /usr/lang/src/controllers.php, line: 169
+msgid "Block encrypted archive"
+msgstr "Блокировать зашифрованные архивы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 189
+msgid "Cache directory location"
+msgstr "Расположение директории кэша"
+
+#
+# File: /usr/lang/src/controllers.php, line: 197
+msgid "Category name"
+msgstr "Имя категории"
+
+#
+# File: /usr/lang/src/controllers.php, line: 195
+msgid "Challenge Type"
+msgstr "Тип вызова"
+
+#
+# File: /usr/lang/src/controllers.php, line: 199
+msgid "Check Timeout"
+msgstr "Таймаут проверки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 202
+msgid ""
+"Choose Let's Encrypts staging environment when using it for the first time "
+"or while testing new validation methods. The staging environment offers <a "
+"href=\"https://letsencrypt.org/docs/staging-environment/\">relaxed rate "
+"limits</a>.<br/><div class=\"text-info\"><b>NOTE:</b>Certificates signed by "
+"the staging environment are NOT valid. You need to forcefully re-sign (or "
+"delete and re-create) them after switching from staging to production "
+"environment.</div>"
+msgstr ""
+"Выберите Let's Encrypts staging environment когда начинаете его использовать "
+"или пока тестируете методы валидации. Staging environment предоставляет <a "
+"href=\"https://letsencrypt.org/docs/staging-environment/\">ослабленные пороговые "
+"значения</a>.<br/><div class=\"text-info\"><b>NOTE:</b>Сертификаты, "
+"подписанные Staging environment НЕ ДЕЙСТВИТЕЛЬНЫ. Вы должны принудительно переподписать (или "
+"удалить и пересоздать) их после перехода со Staging в Production "
+"environment.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 220
+msgid "Choose for which file types to scan, if unsure select all."
+msgstr "Выберите типы файлов для сканирования, если не уверены, выберите все."
+
+#
+# File: /usr/lang/src/controllers.php, line: 213
+msgid ""
+"Choose the actions that should be run after certificate renewal. Basically "
+"every application requires a quick restart to reload the updated "
+"certificate. If you don't configure a restart action, the in-memory "
+"certificate may expire and cause security warnings and other issues."
+msgstr ""
+"Выберите действие, которое должно быть вызвано после обновления сертификата. Как правило, "
+"любое приложение требует быстрого рестарта для перезагрузки обновлённого "
+"сертификата. Если вы не настроите действие перезагрузки, у сертификата в памяти "
+"может истечь срок действия и это вызовет предупреждения безопасности и прочие проблемы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 214
+msgid ""
+"Choose the local HAProxy frontends. They will automatically be configured to "
+"redirect acme challenges to the internal acme client. The HAProxy service "
+"will automatically be restarted if a certificate was renewed."
+msgstr ""
+"Выберите фронтенды HAProxy. Они могут быть автоматически настроены на "
+"перенаправление вызовов acme к внутреннему acme-клиенту. HAProxy сервис "
+"будет автоматически перезапущен при обновлении сертификата."
+
+#
+# File: /usr/lang/src/controllers.php, line: 215
+msgid "Choose your RIP version (1 or 2). 1 is classful, 2 supports CIDR."
+msgstr "Выберите вашу версию RIP (1 или 2). 1 - классический, 2 - с поддержкой CIDR."
+
+#
+# File: /usr/lang/src/controllers.php, line: 227
+msgid "ClamAV will scan within archives and compressed files."
+msgstr "ClamAV будет сканировать архивы и сжатые файлы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 224
+msgid "Comma separated list of SMTP servers for alert delivery."
+msgstr "Список SMTP серверов, разделённый запятыми, для доставки сообщений."
+
+#
+# File: /usr/lang/src/controllers.php, line: 239
+msgid "Common Name (CN) for this certificate."
+msgstr "Common Name (CN) для сертификата"
+
+#
+# File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 317
+# File: /usr/lang/src/controllers.php, line: 228
+msgid "Condition"
+msgstr "Условие"
+
+#
+# File: /usr/lang/src/controllers.php, line: 232
+msgid ""
+"Configure additional names that should be part pf the certificate, i.e. www."
+"example.com or mail.example.com. Use TAB key to complete typing a FQDN.<br/"
+"><div class=\"text-info\"><b>NOTE:</b>You need to forcefully re-issue the "
+"certificate if you change \"Alt Names\" after the certificate was signed by "
+"the Let's Encrypt Authority! Use the \"issue\" button in the Commands column "
+"in this case.</div>"
+msgstr ""
+"Настройте дополнительные имена, которые должны быть частью сертификата, например, www."
+"example.com or mail.example.com. Используйте клавишу TAB для завершения ввода FQDN.<br/"
+"><div class=\"text-info\"><b>NOTE:</b>Вы должны принудительно перевыдать "
+"сертификат если меняете \"Alt Names\" после того, как сертификат был подписан "
+"центром авторизации Let's Encrypt! Используйте кнопку \"выдать\" в колонке Команды "
+"в этом случае.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 264
+msgid "Debug Level"
+msgstr "Уровень отладки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 284
+msgid "Decode mail files"
+msgstr "Декодировать файлы почты"
+
+#
+# File: /usr/lang/src/controllers.php, line: 278
+msgid "Description for this account."
+msgstr "Описание аккаунта."
+
+#
+# File: /usr/lang/src/controllers.php, line: 281
+msgid "Description for this certificate."
+msgstr "Описание сертификата."
+
+#
+# File: /usr/lang/src/controllers.php, line: 284
+msgid "Description for this restart action."
+msgstr "Описание действия рестарта."
+
+#
+# File: /usr/lang/src/controllers.php, line: 286
+msgid "Description for this validation."
+msgstr "Описание валидации."
+
+#
+# File: /usr/lang/src/controllers.php, line: 305
+msgid "Description to help identify this network"
+msgstr "Описание сети"
+
+#
+# File: /usr/lang/src/controllers.php, line: 312
+msgid "Detect broken executables"
+msgstr "Обнаруживать повреждённые исполняемые файлы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 314
+msgid ""
+"Disable 204 responses outside previews for virus_scan if your ICAP client "
+"does not support it."
+msgstr ""
+"Отключить ответы 204 для virus_scan если ваш ICAP клиент "
+"не поддерживает это."
+
+#
+# File: /usr/lang/src/controllers.php, line: 294
+msgid "Disable SSL Verification"
+msgstr "Отключить верификацию SSL"
+
+#
+# File: /usr/lang/src/controllers.php, line: 317
+msgid "Disable cache"
+msgstr "Отключить кэш"
+
+#
+# File: /usr/lang/src/controllers.php, line: 296
+msgid "Do not keep data longer than N seconds in buffer."
+msgstr "Не хранить данные в буфере дольше, чем N секунд."
+
+#
+# File: /usr/lang/src/controllers.php, line: 297
+msgid "Do not send alerts for the following events but on all others."
+msgstr "Не посылать сообщения для следующих событий, но не для остальных."
+
+#
+# File: /usr/lang/src/controllers.php, line: 309
+msgid "E-Mail Address"
+msgstr "E-Mail адрес"
+
+#
+# File: /usr/lang/src/controllers.php, line: 317
+msgid "Enable / Disable"
+msgstr "Включить / Выключить"
+
+#
+# File: /usr/lang/src/controllers.php, line: 312
+msgid "Enable Active Checks"
+msgstr "Включить активные проверки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 313
+msgid "Enable Auto-Configuration"
+msgstr "Включить автонастройку"
+
+#
+# File: /usr/lang/src/controllers.php, line: 321
+msgid "Enable Category"
+msgstr "Включить категорию"
+
+#
+# File: /usr/lang/src/controllers.php, line: 343
+msgid "Enable ClamAV"
+msgstr "Включить ClamAV"
+
+#
+# File: /usr/lang/src/controllers.php, line: 349
+msgid ""
+"Enable HAProxy's graceful stop mode. In this mode HAProxy will continue to "
+"process existing connections until they close. Note that this may severely "
+"slow down HAProxy's shutdown, depending on the configured timeout values. If "
+"graceful stop mode is not enabled, HAProxy will use the hard stop mode where "
+"it immediately quits and all established connections are closed. Hard stop "
+"mode is recommended."
+msgstr ""
+"Включить аккуратный режим остановки HAProxy. В этом режиме HAProxy продолжит "
+"обрабатывать существующие соединения пока они не закроются. Помните, что это может "
+"сильно затянуть процесс остановки HAProxy, в зависимости от настроенных таймаутов. Если "
+"аккуратный режим остановки не включён, HAProxy будет использовать режим жесткой остановки когда "
+"он немедленно выходит и все установленные соединения обрываются. Рекомендуется "
+"режим жесткой остановки."
+
+#
+# File: /usr/lang/src/controllers.php, line: 324
+msgid "Enable Let's Encrypt plugin."
+msgstr "Включить плагин Let's Encrypt"
+
+#
+# File: /usr/lang/src/controllers.php, line: 326
+msgid "Enable Plugin"
+msgstr "Включить плагин"
+
+#
+# File: /usr/lang/src/controllers.php, line: 328
+msgid "Enable Remote Commands"
+msgstr "Включить удалённые команды"
+
+#
+# File: /usr/lang/src/controllers.php, line: 330
+msgid "Enable SSL inspection"
+msgstr "Включить проверку SSL"
+
+#
+# File: /usr/lang/src/controllers.php, line: 363
+msgid "Enable TCP port"
+msgstr "Включить порт TCP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 344
+msgid "Enable VLAN assignment"
+msgstr "Включить назначение VLAN"
+
+#
+# File: /usr/lang/src/controllers.php, line: 337
+msgid "Enable Zabbix Agent service."
+msgstr "Включить сервис Zabbix агента."
+
+#
+# File: /usr/lang/src/controllers.php, line: 341
+msgid "Enable active checks."
+msgstr "Включить активные проверки."
+
+#
+# File: /usr/lang/src/controllers.php, line: 342
+msgid "Enable alert"
+msgstr "Включить сообщения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 344
+msgid ""
+"Enable automatic integration with the OPNsense HAProxy plugin. <b>Requires "
+"that the OPNsense HAProxy plugin is installed.</b> This will automatically "
+"add the required backend, server, action and ACL for you. You just need to "
+"select your HAProxy frontend when configuration the certificate or "
+"validation method. <div class=\"text-info\"><b>NOTE:</b>This will only work "
+"for HTTP-01 validation and HAProxy frontends running in <i>http</i> mode; "
+"TCP frontends are not supported.</div>"
+msgstr ""
+"Включить автоматическую интеграцию с плагином OPNsense HAProxy. <b>Требуется "
+"установленный плагин OPNsense HAProxy.</b> Это позволит автоматически "
+"добавить необходимый бэкенд, сервер, действие и ACL. Вам только останется "
+"выбрать фронтенд HAProxy при настройке сертификата или метода валидации. "
+"<div class=\"text-info\"><b>ЗАМЕЧАНИЕ:</b>Это работает только "
+"для HTTP-01 валидации и фронтендах HAProxy запущенных в режиме <i>http</i>; "
+"TCP фронтенды не поддерживаются.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 345
+msgid ""
+"Enable automatic renewal for certificates to prevent expiration. This will "
+"add a cronjob to the system. You may want to customize the cronjob schedule "
+"to your needs, because re-issueing a certificate may lead to a short "
+"downtime, depending on the selected validation method and service."
+msgstr ""
+"Включить автоматическое обновление сертификатов для предотвращения истечения срока действия. "
+"Это добавит задачу в системное расписание. Вы можете настроить расписание задач под ваши нужды, "
+"поскольку перевыдача сертификатов может привести к непродолжительным прерываниям работы, "
+"в зависимости от метода валидации и сервиса."
+
+#
+# File: /usr/lang/src/controllers.php, line: 346
+msgid "Enable automatic renewal for this certificate to prevent expiration."
+msgstr "Включить автоматическое обновление сертификата для предотвращения истечения срока действия."
+
+#
+# File: /usr/lang/src/controllers.php, line: 379
+msgid "Enable c-icap service"
+msgstr "Включить службу c-icap"
+
+#
+# File: /usr/lang/src/controllers.php, line: 380
+msgid "Enable clamd service"
+msgstr "Включить службу clamd"
+
+#
+# File: /usr/lang/src/controllers.php, line: 355
+msgid "Enable contextswitch plugin"
+msgstr "Включить плагин contextswitch"
+
+#
+# File: /usr/lang/src/controllers.php, line: 356
+msgid "Enable cpu plugin"
+msgstr "Включить плагин cpu"
+
+#
+# File: /usr/lang/src/controllers.php, line: 357
+msgid "Enable df plugin"
+msgstr "Включить плагин df"
+
+#
+# File: /usr/lang/src/controllers.php, line: 347
+msgid "Enable encryption."
+msgstr "Включить шифрование."
+
+#
+# File: /usr/lang/src/controllers.php, line: 386
+msgid "Enable freshclam service"
+msgstr "Включить службу freshclam"
+
+#
+# File: /usr/lang/src/controllers.php, line: 360
+msgid "Enable graphite plugin"
+msgstr "Включить плагин graphite"
+
+#
+# File: /usr/lang/src/controllers.php, line: 363
+msgid "Enable interface plugin"
+msgstr "Включить плагин интерфейса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 365
+msgid "Enable load plugin"
+msgstr "Включить плагин загрузки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 352
+msgid ""
+"Enable logging of executed shell commands as warnings. Make sure to set the "
+"Debug Level accordingly."
+msgstr ""
+"Включить протоколирование выполняемых команд оболочки как предупреждений. Убедитесь, "
+"что установлен соответствующий Уровень отладки."
+
+#
+# File: /usr/lang/src/controllers.php, line: 368
+msgid "Enable memory plugin"
+msgstr "Включить плагин памяти"
+
+#
+# File: /usr/lang/src/controllers.php, line: 353
+msgid "Enable monit"
+msgstr "Включить monit"
+
+#
+# File: /usr/lang/src/controllers.php, line: 370
+msgid "Enable network plugin"
+msgstr "Включить плагин сети"
+
+#
+# File: /usr/lang/src/controllers.php, line: 356
+msgid "Enable or disable alert."
+msgstr "Включить или отключить оповещение."
+
+#
+# File: /usr/lang/src/controllers.php, line: 361
+msgid "Enable or disable monit."
+msgstr "Включить или отключить monit."
+
+#
+# File: /usr/lang/src/controllers.php, line: 362
+msgid "Enable or disable service checks."
+msgstr "Включить или отключить проверки сервисов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 365
+msgid ""
+"Enable or disable the local cache. Only UFS directory cache type is "
+"supported. Do not enable on embedded systems with SD or CF cards without "
+"the /var MFS option as this will wear down your drive."
+msgstr ""
+"Включить или отключить локальный кэш. Поддерживается только тип кэша UFS directory. "
+"Не включайте на встраиваемых системах с SD или CF картами без опции "
+"/var MFS т.к. это способствует износу диска."
+
+#
+# File: /usr/lang/src/controllers.php, line: 387
+msgid "Enable processes plugin"
+msgstr "Включить плагин процессов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 376
+msgid "Enable service checks"
+msgstr "Включить проверки служб"
+
+#
+# File: /usr/lang/src/controllers.php, line: 382
+msgid "Enable this account"
+msgstr "Включить этот аккаунт"
+
+#
+# File: /usr/lang/src/controllers.php, line: 384
+msgid "Enable this certificate"
+msgstr "Включить этот сертификат"
+
+#
+# File: /usr/lang/src/controllers.php, line: 389
+msgid "Enable this restart action."
+msgstr "Включить это действие рестарта."
+
+#
+# File: /usr/lang/src/controllers.php, line: 390
+msgid "Enable this validation"
+msgstr "Включить эту валидацию"
+
+#
+# File: /usr/lang/src/controllers.php, line: 413
+msgid "Enable uptime plugin"
+msgstr "Включить плагин времени работы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 414
+msgid "Enable users plugin"
+msgstr "Включить плагин пользователей"
+
+#
+# File: /usr/lang/src/controllers.php, line: 442
+msgid "Enable verbose logging."
+msgstr "Включить подробное протоколирование."
+
+#
+# File: /usr/lang/src/controllers.php, line: 399
+msgid "Endpoint"
+msgstr "Конечная точка"
+
+#
+# File: /usr/lang/src/controllers.php, line: 400
+msgid "Enforce local group"
+msgstr "Принудительно использовать локальную группу"
+
+#
+# File: /usr/lang/src/controllers.php, line: 401
+msgid "Enter IP or hostname of target."
+msgstr "Введите IP или имя хоста цели."
+
+#
+# File: /usr/lang/src/controllers.php, line: 405
+msgid "Enter a name of user."
+msgstr "Введите имя пользователя."
+
+#
+# File: /usr/lang/src/controllers.php, line: 458
+msgid "Enter either the IP address or FQDN of your Infoblox appliance."
+msgstr "Введите либо IP адрес либо FQDN вышего устройства Infoblox."
+
+#
+# File: /usr/lang/src/controllers.php, line: 411
+msgid "Enter stored filter name"
+msgstr "Введите имя сохранённого фильтра"
+
+#
+# File: /usr/lang/src/controllers.php, line: 414
+msgid "Enter the cache memory size to use or zero to disable completely."
+msgstr "Введите размер памяти кэша или 0 для полного отключения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 417
+msgid ""
+"Enter the directory location for the local cache (default is /var/squid/"
+"cache)."
+msgstr ""
+"Введите располоние директории для локального кэша (по-умолчанию /var/squid/"
+"cache)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 429
+msgid "Enter the url where the REQMOD requests should be sent to."
+msgstr "Введите URL, на который должны посылаться REQMOD запросы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 430
+msgid "Enter the url where the RESPMOD requests should be sent to."
+msgstr "Введите URL, на который должны посылаться RESPMOD запросы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 431
+msgid "Enter your networks in CIDR notation like 127.0.0.0/8."
+msgstr "Введите вашу сеть в формате CIDR, типа 127.0.0.0/8."
+
+#
+# File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 270
+# File: /usr/lang/src/controllers.php, line: 435
+msgid "Events"
+msgstr "События"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/views/SmartSoft/NetPolice/index.volt, line: 105
+# File: /usr/lang/src/controllers.php, line: 456
+msgid "Exclude from category"
+msgstr "Исключить из категории"
+
+#
+# File: /usr/lang/src/controllers.php, line: 486
+msgid ""
+"Executable and Linking Format is a standard format for UN*X executables."
+msgstr ""
+"Executable and Linking Format - это стандартный формат для исполняемых файлов UN*X."
+
+#
+# File: /usr/lang/src/controllers.php, line: 502
+msgid "Files larger than this limit won't be scanned."
+msgstr "Файлы, большие, чем этот лимит не будут сканированы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 450
+msgid "Filter Name"
+msgstr "Имя фильтра"
+
+#
+# File: /usr/lang/src/controllers.php, line: 455
+msgid "Filters List"
+msgstr "Список фильтров"
+
+#
+# File: /usr/lang/src/controllers.php, line: 456
+msgid ""
+"Find the process by regular expression. Test your pattern with <br><b>monit "
+"procmatch &lt;PATTERN&gt;</b>"
+msgstr ""
+"Найти процесс по регулярному выражению. Протестируйте маску с <br><b>monit "
+"procmatch &lt;PATTERN&gt;</b>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 514
+msgid "Follow directory symlinks"
+msgstr "Следовать по символьным ссылкам директорий"
+
+#
+# File: /usr/lang/src/controllers.php, line: 515
+msgid "Follow regular file symlinks"
+msgstr "Следовать по символьным ссылкам файлов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 522
+msgid "Freshclam connect timeout"
+msgstr "Таймаут соединения freshclam"
+
+#
+# File: /usr/lang/src/controllers.php, line: 523
+msgid "Freshclam database mirror"
+msgstr "Зеркало базы данных freshclam"
+
+#
+# File: /usr/lang/src/controllers.php, line: 524
+msgid "Freshclam log verbose"
+msgstr "Детальность лога freshclam"
+
+#
+# File: /usr/lang/src/controllers.php, line: 497
+msgid "Given name, last name, or anything you need to describe."
+msgstr "Имя, фамилия или что-то другое, что вам нужно для описания."
+
+#
+# File: /usr/lang/src/controllers.php, line: 499
+msgid "Global interval when to fetch values in seconds."
+msgstr "Глобальный интервал для получения значений в секундах."
+
+#
+# File: /usr/lang/src/controllers.php, line: 537
+msgid "Graceful Stop"
+msgstr "Аккуратный останов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 502
+msgid "Graphite collector host"
+msgstr "Хост коллектора graphite"
+
+#
+# File: /usr/lang/src/controllers.php, line: 503
+msgid "Graphite collector node name"
+msgstr "Имя узла коллектора graphite"
+
+#
+# File: /usr/lang/src/controllers.php, line: 504
+msgid "Graphite collector port"
+msgstr "Порт коллектора graphite"
+
+#
+# File: /usr/lang/src/controllers.php, line: 480
+msgid "HAProxy Frontends"
+msgstr "Фронтенды HAProxy"
+
+#
+# File: /usr/lang/src/controllers.php, line: 481
+msgid "HAProxy Integration"
+msgstr "Интеграция HAProxy"
+
+#
+# File: /usr/lang/src/controllers.php, line: 483
+msgid "HTTP Service"
+msgstr "Служба HTTP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 493
+msgid "Hello Interval"
+msgstr "Интервал приветствия"
+
+#
+# File: /usr/lang/src/controllers.php, line: 504
+msgid "How often list of active checks is refreshed, in seconds."
+msgstr "Как часто обновляется список активных проверок, в секундах."
+
+#
+# File: /usr/lang/src/controllers.php, line: 537
+msgid "IP Address or Network with CIDR"
+msgstr "IP адрес или сеть в CIDR"
+
+#
+# File: /usr/lang/src/controllers.php, line: 508
+msgid "IP Addresses"
+msgstr "IP адреса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 509
+msgid "IP Auto-Discovery"
+msgstr "Автообнаружение IP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 589
+msgid ""
+"If the hostname is determined automatically this setting controls whether or "
+"not the daemon should try to figure out the fully qualified domain name "
+"(FQDN). This is done by looking up the name by using gethostname."
+msgstr ""
+"Если имя хоста определяется автоматически эта настройка управляет должен ли "
+"демон пытаться выяснять полное доменное имя "
+"(FQDN). Это делается с помощью определения имени через gethostname."
+
+#
+# File: /usr/lang/src/controllers.php, line: 590
+msgid ""
+"If the number of the available threads is less than number, the c-icap "
+"server starts a new child."
+msgstr ""
+"Если число доступных потоков меньше, чем это число, c-icap "
+"сервер запускает новый дочерний процесс."
+
+#
+# File: /usr/lang/src/controllers.php, line: 591
+msgid ""
+"If the number of the available threads is more than number then the c-icap "
+"server kills a child."
+msgstr ""
+"Если число доступных потоков больше, чем это число, c-icap "
+"сервер убивает дочерний процесс."
+
+#
+# File: /usr/lang/src/controllers.php, line: 597
+msgid ""
+"If you turn off this option, the original files will still be scanned, but "
+"without parsing individual messages/attachments."
+msgstr ""
+"Если вы отключите эту опцию, исходные файлы будут всё же просканированы, но "
+"без разбора инивидуальных сообщений/вложений."
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/views/SmartSoft/NetPolice/index.volt, line: 106
+# File: /usr/lang/src/controllers.php, line: 559
+msgid "Include to category"
+msgstr "Добавить в категорию"
+
+#
+# File: /usr/lang/src/controllers.php, line: 549
+msgid "LE Account"
+msgstr "Аккаунт LE"
+
+#
+# File: /usr/lang/src/controllers.php, line: 550
+msgid "Let's Encrypt Environment"
+msgstr "Окружение Let's Encrypt"
+
+#
+# File: /usr/lang/src/controllers.php, line: 553
+msgid ""
+"List of IP addresses (or hostnames) of Zabbix servers. Incoming connections "
+"will be accepted only from the hosts listed here."
+msgstr ""
+"Список IP адресов (или имён хостов) Zabbix серверов. Входящие соединения "
+"будут приняты только с этих серверов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 554
+msgid ""
+"List of IP addresses that the agent should listen on. First IP address is "
+"sent to Zabbix server if connecting to it to retrieve list of active checks."
+msgstr ""
+"Список IP адресов на которых должен слушать агент. Первый IP адрес "
+"посылается Zabbix серверу при подключении для извлечения списка активных проверок."
+
+#
+# File: /usr/lang/src/controllers.php, line: 555
+msgid ""
+"List of IP:port (or hostname:port) pairs of Zabbix servers for active "
+"checks. If port is not specified, default port is used. IPv6 addresses must "
+"be enclosed in square brackets if port for that host is specified. If port "
+"is not specified, square brackets for IPv6 addresses are optional. If this "
+"parameter is not specified, active checks are disabled. Example: "
+"ServerActive=127.0.0.1:20051,zabbix.domain,[::1]:30051,::1,[12fc::1]"
+msgstr ""
+"Список пар IP:порт (или имя_хоста:port) серверов Zabbix для активных "
+"проверок. Если порт не указан, используется порт по-умолчанию. IPv6 адрес должен "
+"быть указан в квадратных скобках если для него указывается порт. Если "
+"порт не указан, квадратные скобки для IPv6 адресов не обязательны. Если этот "
+"параметр не указан, активные проверки отключаются. Например: "
+"ServerActive=127.0.0.1:20051,zabbix.domain,[::1]:30051,::1,[12fc::1]"
+
+#
+# File: /usr/lang/src/controllers.php, line: 556
+msgid ""
+"List of destination URLs.<br/>\n"
+"        You may use a regular expression, use a comma or press Enter for new "
+"item.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">mydomain.com</b> -> matches on <b>*."
+"mydomain.com</b><br/>\n"
+"            <b class=\"text-primary\">^https?:\\/\\/([a-zA-Z]+)\\.mydomain\\."
+"</b> -> matches on <b>http(s)://textONLY.mydomain.*</b><br/>\n"
+"            <b class=\"text-primary\">\\.gif$</b> -> matches on <b>\\*.gif</"
+"b> but not on <b class=\"text-danger\">\\*.gif\\test</b><br/>\n"
+"            <b class=\"text-primary\">\\[0-9]+\\.gif$</b> -> matches on <b>"
+"\\123.gif</b> but not on <b class=\"text-danger\">\\test.gif</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+"Список URL назначения.<br/>\n"
+"        Вы можете использовать регулярное выражение, используйте запятую или нажмите Enter для добавления "
+"значения.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Примеры:</b><br/>\n"
+"            <b class=\"text-primary\">mydomain.com</b> -> подходит <b>*."
+"mydomain.com</b><br/>\n"
+"            <b class=\"text-primary\">^https?:\\/\\/([a-zA-Z]+)\\.mydomain\\."
+"</b> -> подходит <b>http(s)://textONLY.mydomain.*</b><br/>\n"
+"            <b class=\"text-primary\">\\.gif$</b> -> подходит <b>\\*.gif</"
+"b> но не <b class=\"text-danger\">\\*.gif\\test</b><br/>\n"
+"            <b class=\"text-primary\">\\[0-9]+\\.gif$</b> -> подходит <b>"
+"\\123.gif</b> но не <b class=\"text-danger\">\\test.gif</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>СОВЕТ: </b>Вы также можете вставить в это поле "
+"список, разделённый запятыми.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 566
+msgid ""
+"List of destination domains. No query path part.<br/>\n"
+"        You may use a regular expression, use a comma or press Enter for new "
+"item.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">mydomain.com</b> -> matches on <b>*."
+"mydomain.com</b><br/>\n"
+"            <b class=\"text-primary\">^([a-zA-Z]+)\\.mydomain\\.</b> -> "
+"matches on <b>textONLY.mydomain.*</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+"Список доменов назначения. Без строки запроса.<br/>\n"
+"        Вы можете использовать регулярное выражение, используйте запятую или нажмите Enter для добавления "
+"значения.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">mydomain.com</b> -> подходит <b>*."
+"mydomain.com</b><br/>\n"
+"            <b class=\"text-primary\">^([a-zA-Z]+)\\.mydomain\\.</b> -> "
+"подходит <b>textONLY.mydomain.*</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>Вы также можете вставить в это поле "
+"список, разделённый запятыми.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 574
+msgid "List with events. Leave it empty for all events."
+msgstr "Список событий. Оставьте пустым для всех событий."
+
+#
+# File: /usr/lang/src/controllers.php, line: 576
+msgid "Listen IPs"
+msgstr "IP для прослушивания"
+
+#
+# File: /usr/lang/src/controllers.php, line: 581
+msgid "Local HTTP Port"
+msgstr "Локальный HTTP порт"
+
+#
+# File: /usr/lang/src/controllers.php, line: 584
+msgid "Log File Size"
+msgstr "Размер лог-файла"
+
+#
+# File: /usr/lang/src/controllers.php, line: 586
+msgid "Log Remote Commands"
+msgstr "Протоколировать удалённые команды"
+
+#
+# File: /usr/lang/src/controllers.php, line: 587
+msgid "Log SNI information only"
+msgstr "Протоколировать только информацию SNI"
+
+#
+# File: /usr/lang/src/controllers.php, line: 615
+msgid "Make sure the script is executable by the Monit service."
+msgstr "Убедитесь, что скрипт может быть выполнен сервисом Monit."
+
+#
+# File: /usr/lang/src/controllers.php, line: 691
+msgid "Mark encrypted archives as viruses (Encrypted.Zip, Encrypted.RAR)."
+msgstr "Помечать зашифрованные архивы, как вирусы (Encrypted.Zip, Encrypted.RAR)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 616
+msgid "Match"
+msgstr "Совпадение"
+
+#
+# File: /usr/lang/src/controllers.php, line: 617
+msgid "Match pattern"
+msgstr "Совпаденгие паттерна"
+
+#
+# File: /usr/lang/src/controllers.php, line: 618
+msgid "Match response"
+msgstr "Совпадение ответа"
+
+#
+# File: /usr/lang/src/controllers.php, line: 695
+msgid "Max directory recursion"
+msgstr "Максимальная рекурсия директории"
+
+#
+# File: /usr/lang/src/controllers.php, line: 696
+msgid "Max file size"
+msgstr "Максимальный размер файла"
+
+#
+# File: /usr/lang/src/controllers.php, line: 697
+msgid "Max files"
+msgstr "Максимум файлов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 698
+msgid "Max keepalive requests"
+msgstr "Максимум keepalive запросов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 699
+msgid "Max keepalive timeout"
+msgstr "Максимальный таймаут keepalive"
+
+#
+# File: /usr/lang/src/controllers.php, line: 700
+msgid "Max object size"
+msgstr "Максимальный размер объекта"
+
+#
+# File: /usr/lang/src/controllers.php, line: 701
+msgid "Max recursion"
+msgstr "Максимальная рекурсия"
+
+#
+# File: /usr/lang/src/controllers.php, line: 702
+msgid "Max requests per child"
+msgstr "Максимум запросов на потомка"
+
+#
+# File: /usr/lang/src/controllers.php, line: 703
+msgid "Max scan size"
+msgstr "Максимальный размер сканирования"
+
+#
+# File: /usr/lang/src/controllers.php, line: 704
+msgid "Max servers"
+msgstr "Максимум серверов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 706
+msgid "Max spare threads"
+msgstr "Максимум свободных потоков"
+
+#
+# File: /usr/lang/src/controllers.php, line: 713
+msgid "Maximum depth directories are scanned at."
+msgstr "Максимальная глубина директорий для сканирования."
+
+#
+# File: /usr/lang/src/controllers.php, line: 628
+msgid ""
+"Maximum number of new lines the agent will send per second to Zabbix Server "
+"or Proxy processing 'log' and 'logrt' active checks."
+msgstr ""
+"Максимальное количество строк в секунду, которые агент может послать Zabbix серверу "
+"или прокси-обработчику активных проверок 'log' и 'logrt'."
+
+#
+# File: /usr/lang/src/controllers.php, line: 717
+msgid "Maximum number of queued items"
+msgstr "Максимальное количество элементов в очереди"
+
+#
+# File: /usr/lang/src/controllers.php, line: 718
+msgid ""
+"Maximum number of queued items (including those being processed by "
+"MaxThreads threads). It is recommended to have this value at least twice "
+"MaxThreads if possible."
+msgstr ""
+"Максимальное количество элементов в очереди (включая те, которые обрабатываются "
+"потоками MaxThreads). Рекомендуемое значение как минимум в два раз больше, чем "
+"MaxThreads если возможно."
+
+#
+# File: /usr/lang/src/controllers.php, line: 719
+msgid "Maximum number of threads running"
+msgstr "Максимальное количество запущенных потоков"
+
+#
+# File: /usr/lang/src/controllers.php, line: 720
+msgid "Maximum number of threads running at the same time."
+msgstr "Максимальное количество потоков, запущенных одновременно."
+
+#
+# File: /usr/lang/src/controllers.php, line: 629
+msgid ""
+"Maximum number of values in a memory buffer. The agent will send all "
+"collected data to Zabbix Server or Proxy if the buffer is full."
+msgstr ""
+"Максимальное количество значений в буфере памяти. Агент отсылает "
+"собранные данные Zabbix серверу или прокси если буфер заполнен."
+
+#
+# File: /usr/lang/src/controllers.php, line: 631
+msgid ""
+"Maximum size of log file in MB. Zabbix Agent will automatically rotate the "
+"log once this limit is reached."
+msgstr ""
+"Максимальный размер лог-файла в MB. Zabbix агент автоматически сделает ротацию лога "
+"когда этот предел будет достигнут."
+
+#
+# File: /usr/lang/src/controllers.php, line: 730
+msgid "Min spare threads"
+msgstr "Минимальное количество свободных потоков"
+
+#
+# File: /usr/lang/src/controllers.php, line: 648
+msgid "Name to identify this account."
+msgstr "Имя для идентификации аккаунта."
+
+#
+# File: /usr/lang/src/controllers.php, line: 654
+msgid "Name to identify this restart action."
+msgstr "Имя для идентификации действия рестарта."
+
+#
+# File: /usr/lang/src/controllers.php, line: 656
+msgid "Name to identify this validation."
+msgstr "Имя для идентификации валидации."
+
+#
+# File: /usr/lang/src/controllers.php, line: 755
+msgid ""
+"Nested archives are scanned recursively, e.g. if a Zip archive contains a "
+"RAR file, all files within it will also be scanned."
+msgstr ""
+"Вложенные архивы сканируются рекурсивно, т.е. если Zip архив содержит "
+"RAR файл, все файлы в нём также будут просканированы."
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 54
+# File: /usr/lang/src/controllers.php, line: 662
+msgid "Network Address"
+msgstr "Адрес сети"
+
+#
+# File: /usr/lang/src/controllers.php, line: 758
+msgid "Network ID"
+msgstr "ID сети"
+
+#
+# File: /usr/lang/src/controllers.php, line: 663
+msgid "Network Mask"
+msgstr "Маска сети"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 396
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 284
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 82
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf6.volt, line: 56
+# File: /usr/lang/src/controllers.php, line: 665
+msgid "Network Type"
+msgstr "Тип сети"
+
+#
+# File: /usr/lang/src/controllers.php, line: 762
+msgid "Network address that the c-icap server uses to listen to requests."
+msgstr "Сетевой адрес, на котором c-icap сервер слушает запросы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 698
+msgid "Network collector encryption"
+msgstr "Шифрование сетевого коллектора"
+
+#
+# File: /usr/lang/src/controllers.php, line: 699
+msgid "Network collector host"
+msgstr "Хост сетевого коллектора"
+
+#
+# File: /usr/lang/src/controllers.php, line: 700
+msgid "Network collector password"
+msgstr "Пароль сетевого коллектора"
+
+#
+# File: /usr/lang/src/controllers.php, line: 701
+msgid "Network collector port"
+msgstr "Порт сетевого коллектора"
+
+#
+# File: /usr/lang/src/controllers.php, line: 702
+msgid "Network collector username"
+msgstr "Имя пользователя сетевого коллектора"
+
+#
+# File: /usr/lang/src/controllers.php, line: 679
+msgid "Not on"
+msgstr "Не для следующих"
+
+#
+# File: /usr/lang/src/controllers.php, line: 784
+msgid ""
+"Number of files to be scanned within an archive, a document, or any other "
+"container file."
+msgstr ""
+"Число файлов, сканируемых в архиве, документе, или любом другом "
+"контейнере."
+
+#
+# File: /usr/lang/src/controllers.php, line: 683
+msgid ""
+"Number of pre-forked instances of zabbix_agentd that process passive checks. "
+"If set to 0, disables passive checks and the agent will not listen on any "
+"TCP port."
+msgstr ""
+"Число запущенных изначально экземпляров zabbix_agentd для пассивных проверок. "
+"Если установлено в 0, пассивные роверки отключены и агент не слушает ни на каком "
+"TCP порту."
+
+#
+# File: /usr/lang/src/controllers.php, line: 790
+msgid "OAuth Token"
+msgstr "OAuth токен"
+
+#
+# File: /usr/lang/src/controllers.php, line: 791
+msgid "OLE2 block macros"
+msgstr "Блокировать OLE2 макросы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 688
+msgid "On system boot wait before Monit starts checking services."
+msgstr "При загрузке системы подождать, пока Monit запустит контролируемые сервисы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 795
+msgid ""
+"Only if the object is bigger than size then the percentage of data which "
+"defined by SendPercentData sent by the c-icap server before receiving the "
+"complete body of request."
+msgstr ""
+"Только если объект больше этого размера тогда процент полученных данных "
+"определённый в SendPercentData посылается c-icap сервером до получения полного "
+"ответа на запрос."
+
+#
+# File: /usr/lang/src/controllers.php, line: 695
+msgid "Optional e-mail address for this account."
+msgstr "Опциональный e-mail адрес для этого аккаунта."
+
+#
+# File: /usr/lang/src/controllers.php, line: 697
+msgid "Other check options"
+msgstr "Другие опции проверки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 806
+msgid ""
+"PE stands for Portable Executable - it's an executable file format used in "
+"all 32 and 64-bit versions of Windows operating systems."
+msgstr ""
+"PE означает Portable Executable - это формат исполняемых файлов, используемый "
+"во всех 32 и 64-битных версиях ОС Windows."
+
+#
+# File: /usr/lang/src/controllers.php, line: 699
+msgid "PID File"
+msgstr "PID файл"
+
+#
+# File: /usr/lang/src/controllers.php, line: 701
+msgid "Partner ID"
+msgstr "ID партнёра"
+
+#
+# File: /usr/lang/src/controllers.php, line: 810
+msgid "Pass on error"
+msgstr "Пропускать при ошибке"
+
+#
+# File: /usr/lang/src/controllers.php, line: 811
+msgid ""
+"Pass the content instead of blocking it, in the case when the virus scanner "
+"or the virus_scan module finds an error."
+msgstr ""
+"Пропустить контент вместо блокирования в случае, когда сканер или "
+"модуль virus_scan обнаружил ошибку."
+
+#
+# File: /usr/lang/src/controllers.php, line: 702
+msgid "Passive Interfaces"
+msgstr "Пассивные интерфейсы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 821
+msgid "Perform HTML normalisation and decryption of MS Script Encoder code."
+msgstr "Производить нормализацию HTML и расшифровку кода скриптов MS Script Encoder."
+
+#
+# File: /usr/lang/src/controllers.php, line: 711
+msgid "Physical name of the interface facing the peer"
+msgstr "Физическое имя интерфейса, обращённого к пиру."
+
+#
+# File: /usr/lang/src/controllers.php, line: 713
+msgid "Polling Interval"
+msgstr "Интервал опроса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 714
+msgid "Polling interval in seconds"
+msgstr "Интервал опроса в секундах"
+
+#
+# File: /usr/lang/src/controllers.php, line: 720
+msgid "Pre-Forked Instances"
+msgstr "Пре-запущенные экземпляры"
+
+#
+# File: /usr/lang/src/controllers.php, line: 721
+msgid "Pre-defined commands for this restart action."
+msgstr "Предопределённые команды для этого действия рестарта."
+
+#
+# File: /usr/lang/src/controllers.php, line: 760
+msgid "Prefix-List In"
+msgstr "Список префиксов входищих"
+
+#
+# File: /usr/lang/src/controllers.php, line: 761
+msgid "Prefix-List Out"
+msgstr "Список префиксов исходящих"
+
+#
+# File: /usr/lang/src/controllers.php, line: 762
+msgid "Prefix-List for inbound direction"
+msgstr "Список префиксов для входящего направления"
+
+#
+# File: /usr/lang/src/controllers.php, line: 763
+msgid "Prefix-List for outbound direction"
+msgstr "Список префиксов для исходящего направления"
+
+#
+# File: /usr/lang/src/controllers.php, line: 726
+msgid "Processing Timeout"
+msgstr "Таймаут обработки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 731
+msgid "Provider"
+msgstr "Провайдер"
+
+#
+# File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 268
+# File: /usr/lang/src/controllers.php, line: 739
+msgid "Recipient"
+msgstr "Получатель"
+
+#
+# File: /usr/lang/src/controllers.php, line: 741
+msgid "Reminder"
+msgstr "Напоминание"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 54
+# File: /usr/lang/src/controllers.php, line: 742
+msgid "Remote AS"
+msgstr "Удалённый AS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 746
+msgid "Renewal Interval"
+msgstr "Интервал обновления"
+
+#
+# File: /usr/lang/src/controllers.php, line: 751
+msgid ""
+"Requires the the whole key file in a format that is compatible with nsupdate."
+msgstr ""
+"Требуется весь ключевой файл в формате, совместимом с nsupdate."
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/actions.volt, line: 69
+# File: /usr/lang/src/controllers.php, line: 753
+# File: /usr/lang/src/models.php, line: 288
+msgid "Restart Actions"
+msgstr "Действие рестарта"
+
+#
+# File: /usr/lang/src/controllers.php, line: 754
+msgid "Restart Command"
+msgstr "Команда рестарта"
+
+#
+# File: /usr/lang/src/controllers.php, line: 755
+msgid "Restart Timeout"
+msgstr "Таймаут рестарта"
+
+#
+# File: /usr/lang/src/controllers.php, line: 758
+msgid "Retransmission Delay"
+msgstr "Пауза повторной передачи"
+
+#
+# File: /usr/lang/src/controllers.php, line: 759
+msgid "Retransmission Interval"
+msgstr "Интервал повторной передачи"
+
+#
+# File: /usr/lang/src/controllers.php, line: 772
+msgid "Route Redistribution"
+msgstr "Перераспределение маршрута"
+
+#
+# File: /usr/lang/src/controllers.php, line: 815
+msgid "Route-Map In"
+msgstr "Карта маршрутов входящих"
+
+#
+# File: /usr/lang/src/controllers.php, line: 816
+msgid "Route-Map Out"
+msgstr "карта маршрутов исходящих"
+
+#
+# File: /usr/lang/src/controllers.php, line: 817
+msgid "Route-Map for inbound direction"
+msgstr "Карта маршрутов для входящего направления"
+
+#
+# File: /usr/lang/src/controllers.php, line: 818
+msgid "Route-Map for outbound direction"
+msgstr "Карта маршрутов для исходящего направления"
+
+#
+# File: /usr/lang/src/controllers.php, line: 819
+msgid ""
+"Route-map ID between 10 and 99. Be aware that the sorting will be done under "
+"the hood, so when you add an entry between it get's to the right position"
+msgstr ""
+"ID карты маршрутов между 10 и 99. Имейте ввиду, что сортировка будет произведена на-лету, "
+"поэтому когда добавляете значение в середину, оно установится в правильную позицию"
+
+#
+# File: /usr/lang/src/controllers.php, line: 820
+msgid ""
+"Route-map name to match and set your patterns, it will be enabled via the "
+"neigbor configuration."
+msgstr ""
+"Имя карты маршрутов для соответствия и установки шаблонов, оно будет включено "
+"через конфигурацию соседа."
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 395
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 283
+# File: /usr/lang/src/controllers.php, line: 773
+msgid "Router ID"
+msgstr "ID роутера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 774
+msgid "Router ID as IPv4 Address"
+msgstr "ID роутера, как IPv4 адрес"
+
+#
+# File: /usr/lang/src/controllers.php, line: 911
+msgid "Scan HTML"
+msgstr "Сканировать HTML"
+
+#
+# File: /usr/lang/src/controllers.php, line: 912
+msgid "Scan HWP3"
+msgstr "Сканировать HWP3"
+
+#
+# File: /usr/lang/src/controllers.php, line: 913
+msgid "Scan OLE2"
+msgstr "Сканировать OLE2"
+
+#
+# File: /usr/lang/src/controllers.php, line: 914
+msgid "Scan PDF files"
+msgstr "Сканировать файлы PDF"
+
+#
+# File: /usr/lang/src/controllers.php, line: 915
+msgid "Scan SWF"
+msgstr "Сканировать SWF"
+
+#
+# File: /usr/lang/src/controllers.php, line: 917
+msgid "Scan XMLDOCS"
+msgstr "Сканировать XMLDOCS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 918
+msgid "Scan archives"
+msgstr "Сканировать архивы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 919
+msgid "Scan executeable and linking format"
+msgstr "Сканировать ELF"
+
+#
+# File: /usr/lang/src/controllers.php, line: 920
+msgid "Scan for filetypes"
+msgstr "Сканировать типы файлов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 921
+msgid "Scan portable executeable"
+msgstr "Сканировать PE"
+
+#
+# File: /usr/lang/src/controllers.php, line: 801
+msgid ""
+"Select a pre-defined system command which should be run for this action."
+msgstr ""
+"Выберите предопределённую команду системы которая должна быть запущена для этого действия."
+
+#
+# File: /usr/lang/src/controllers.php, line: 802
+msgid "Select an interface where this settings apply to."
+msgstr "Выберите интерфейс, где применить эти настройки."
+
+#
+# File: /usr/lang/src/controllers.php, line: 808
+msgid "Select how to look for a specific pattern in the response."
+msgstr "Выберите как искать указанный шаблон в ответе."
+
+#
+# File: /usr/lang/src/controllers.php, line: 820
+msgid ""
+"Select other routing sources, which should be redistributed to the other "
+"nodes."
+msgstr ""
+"Выберите другие источники маршрутизации, которые должны быть переданы другим "
+"узлам."
+
+#
+# File: /usr/lang/src/controllers.php, line: 893
+msgid "Select the AS-Path list"
+msgstr "Выберите список AS-путей"
+
+#
+# File: /usr/lang/src/controllers.php, line: 845
+msgid "Select the certificate authority for this account."
+msgstr "Выберите центр авторизации для этого аккаунта."
+
+#
+# File: /usr/lang/src/controllers.php, line: 847
+msgid "Select the interfaces, where no OSPF packets should be sent to."
+msgstr "Выберите интерфейсы, куда не надо посылать пакеты OSPF."
+
+#
+# File: /usr/lang/src/controllers.php, line: 848
+msgid "Select the interfaces, where no RIP packets should be sent to."
+msgstr "Выберите интерфейсы, куда не надо посылать пакеты RIP."
+
+#
+# File: /usr/lang/src/controllers.php, line: 850
+msgid ""
+"Select the network to advertise, you have to set a Null route via System -> "
+"Routes"
+msgstr ""
+"Веберите сеть оповещения, вы должны установить Null-маршрут через Система -> "
+"Маршруты"
+
+#
+# File: /usr/lang/src/controllers.php, line: 858
+msgid "Select what to do with X-Forwarded-For header."
+msgstr "Выберите, что делать с заголовком X-Forwarded-For."
+
+#
+# File: /usr/lang/src/controllers.php, line: 860
+msgid "Send Defaultroute"
+msgstr "Посылать маршрут по-умолчанию"
+
+#
+# File: /usr/lang/src/controllers.php, line: 862
+msgid "Send a reminder after some cycles"
+msgstr "Посылать напоминание через несколько циклов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 864
+msgid "Send data"
+msgstr "Посылать данные"
+
+#
+# File: /usr/lang/src/controllers.php, line: 999
+msgid "Send percentage data"
+msgstr "Посылать данные о процентах"
+
+#
+# File: /usr/lang/src/controllers.php, line: 869
+msgid "Server (FQDN)"
+msgstr "Сервер (FQDN)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 870
+msgid "Server ID"
+msgstr "ID сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1006
+msgid "Server admin"
+msgstr "Админ сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1007
+msgid "Servername"
+msgstr "Имя сервера"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 140
+# File: /usr/lang/src/controllers.php, line: 925
+msgid "Set"
+msgstr "Установить"
+
+#
+# File: /usr/lang/src/controllers.php, line: 927
+msgid "Set permit for match or deny to negate the rule."
+msgstr "Укажите Permit для соответствия или Deny для отмены правила."
+
+#
+# File: /usr/lang/src/controllers.php, line: 928
+msgid "Set the \"shortname\" for the client."
+msgstr "Укажите \"shortname\" для клиента."
+
+#
+# File: /usr/lang/src/controllers.php, line: 930
+msgid "Set the IP address of the graphite collector."
+msgstr "Укажите IP адрес коллектора graphite."
+
+#
+# File: /usr/lang/src/controllers.php, line: 932
+msgid ""
+"Set the IP address of the remote client or the complete network like "
+"10.10.10.0/24"
+msgstr ""
+"Укажите IP адрес удалённого клиента или целую сеть, например "
+"10.10.10.0/24"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1019
+msgid "Set the IP address or FQDN of the network collector."
+msgstr "Укажите IP адрес или FQDN сетевого коллектора."
+
+#
+# File: /usr/lang/src/controllers.php, line: 933
+msgid "Set the IP address the user should receive."
+msgstr "Укажите IP адрес, который должен получить пользователь."
+
+#
+# File: /usr/lang/src/controllers.php, line: 878
+msgid "Set the Let's Encrypt account to use for this certificate."
+msgstr "Укажите аккаунт Let'e Encrypt для использования этим сертификатом."
+
+#
+# File: /usr/lang/src/controllers.php, line: 879
+msgid ""
+"Set the Let's Encrypt challenge type. You'll have to add configuration for "
+"the selected challenge type below."
+msgstr ""
+"Укажите тип вызова Let's Encrypt. Вы должны указать настройки для "
+"выбранного типа вызова ниже."
+
+#
+# File: /usr/lang/src/controllers.php, line: 880
+msgid "Set the Let's Encrypt validation method for this certificate."
+msgstr "Укажите метод валидации Let's Encrypt для данного сертификата."
+
+#
+# File: /usr/lang/src/controllers.php, line: 938
+msgid "Set the hostname for this system."
+msgstr "Укажите имя хоста для этой системы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 944
+msgid "Set the name of the graphite collector."
+msgstr "Укажите имя коллектора graphite."
+
+#
+# File: /usr/lang/src/controllers.php, line: 947
+msgid "Set the password for the user."
+msgstr "Укажите пароль для пользователя."
+
+#
+# File: /usr/lang/src/controllers.php, line: 948
+msgid "Set the password to authenticate against network collector (optional)."
+msgstr "Укажите пароль для аутентификации на сетевом коллекторе (опционально)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 949
+msgid ""
+"Set the port of the graphite collector, Graphite is using 2003 per default."
+msgstr ""
+"Укажите порт коллектора graphite, Graphite по-умолчанию использует 2003."
+
+#
+# File: /usr/lang/src/controllers.php, line: 950
+msgid ""
+"Set the port of the network collector. Collectd is using 25826 per default."
+msgstr ""
+"Укажите порт сетевого коллектора. Collectd использует по-умолчанию 25826."
+
+#
+# File: /usr/lang/src/controllers.php, line: 953
+msgid "Set the shared secret for the client. Must match on both sides."
+msgstr "Укажите общий ключ для клиента. Должен совпадать на обеих сторонах."
+
+#
+# File: /usr/lang/src/controllers.php, line: 954
+msgid ""
+"Set the unique username for the user. Allowed characters are 0-9, a-z, A-Z, "
+"and ,._-!$%/()+#= with up to 128 characters."
+msgstr ""
+"Укажите уникальное имя для пользователя. Допустимые символы: 0-9, a-z, A-Z, "
+"and ,._-!$%/()+#= до 128 символов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 955
+msgid "Set the username to authenticate against network collector (optional)."
+msgstr "Укажите имя пользователя для аутентификации на сетевом коллекторе (опционально)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 892
+msgid ""
+"Sets an additional read timeout for running health checks on a server. "
+"Defaults to milliseconds. Optionally the unit may be specified as either \"d"
+"\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
+msgstr ""
+"Устанавливает дополнительный таймаут чтения для запущенных проверок состояния на сервере. "
+"По-умолчанию в милисекундах. Опционально единицы могут быть указаны как \"d"
+"\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 893
+msgid ""
+"Sets the interval (in milliseconds) for running health checks on the server "
+"when the server state is DOWN. If it is not set HAProxy uses the check "
+"interval."
+msgstr ""
+"Устанавливает интервал (в милисекундах) для запущенных проверок состояния на сервере "
+"когда сервер в состоянии DOWN. Если не указано HAProxy использует интервал "
+"проверки."
+
+#
+# File: /usr/lang/src/controllers.php, line: 894
+msgid ""
+"Sets the interval (in milliseconds) for running health checks on this "
+"server. This setting takes precedence. If set, the interval in the "
+"healthcheck is ignored."
+msgstr ""
+"Устанавливает интервал (в милисекундах) для запущенных проверок состояния для этого "
+"сервера. Эта настройка имеет приоритет. Если указана, интервал в Healthcheck "
+"игнорируется."
+
+#
+# File: /usr/lang/src/controllers.php, line: 904
+msgid ""
+"Simply <i>alert</i> or <i>restart</i> the service or <i>execute</i> a "
+"program."
+msgstr ""
+"Просто <i>сообщить</i> или <i>перезапустить</i> сервис или <i>выполнить</i> "
+"программу."
+
+#
+# File: /usr/lang/src/controllers.php, line: 907
+msgid "Sleep Time"
+msgstr "Время сна"
+
+#
+# File: /usr/lang/src/controllers.php, line: 911
+msgid "Source IP address for outgoing connections."
+msgstr "IP адрес источника для исходящих соединений."
+
+#
+# File: /usr/lang/src/controllers.php, line: 914
+msgid "Specifies the days to renew the cert. The max value is 60 days."
+msgstr "Устанавливает количество дней для обновления сертификата. Максимальное значение 60 дней."
+
+#
+# File: /usr/lang/src/controllers.php, line: 915
+msgid "Specifies the debug level for Zabbix agent."
+msgstr "Устанавливает уровень отладки для Zabbix агента."
+
+#
+# File: /usr/lang/src/controllers.php, line: 924
+msgid "Specify the IP of your neighbor."
+msgstr "Укажите IP соседа."
+
+#
+# File: /usr/lang/src/controllers.php, line: 925
+msgid ""
+"Specify the OVH endpoint, i.e. ovh-eu, ovh-ca, kimsufi-eu, etc. Please refer "
+"to the <a href=\"https://github.com/Neilpang/acme.sh/tree/master/dnsapi"
+"\">acme.sh documentation</a> for further information."
+msgstr ""
+"Укажите конечную точку OVH, например, ovh-eu, ovh-ca, kimsufi-eu, т.д. Пожалуйста обратитесь к "
+"<a href=\"https://github.com/Neilpang/acme.sh/tree/master/dnsapi"
+"\">acme.sh документации</a> за подробной информацией."
+
+#
+# File: /usr/lang/src/controllers.php, line: 926
+msgid "Specify the Server ID of your PowerDNS server, i.e. localhost."
+msgstr "Укажите ID сервера вашего PowerDNS сервера, например, localhost."
+
+#
+# File: /usr/lang/src/controllers.php, line: 928
+msgid ""
+"Specify the URL for your PowerDNS server, i.e. http://ns.example.com:8081."
+msgstr ""
+"Укажите URL для вашего PowerDNS сервера, например, http://ns.example.com:8081."
+
+#
+# File: /usr/lang/src/controllers.php, line: 931
+msgid ""
+"Specify the pattern to look for in the response buffer. If the match is set "
+"to binary, then the pattern must be passed as a serie of hexadecimal digits "
+"in an even number."
+msgstr ""
+"Укажите шаблон для поиска в буфере ответа. Если поиск применяется к бинарным данным, "
+"то шаблон должен быть указан как последовательность чисел шестнадцетиричном "
+"формате."
+
+#
+# File: /usr/lang/src/controllers.php, line: 934
+msgid "Spend no more than N seconds on processing."
+msgstr "Тратить не более N секунд на обработку."
+
+#
+# File: /usr/lang/src/controllers.php, line: 937
+msgid "Start Delay"
+msgstr "Задержка старта"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1090
+msgid "Start send pecerantage data"
+msgstr "Начинать отправку процентной информации"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1091
+msgid "Start servers"
+msgstr "Старт серверов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1009
+msgid "Subnet to receive, e.g. 255.255.255.0"
+msgstr "Подсеть получения, например, 255.255.255.0"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1010
+msgid "Subnetmask"
+msgstr "Маска подсети"
+
+#
+# File: /usr/lang/src/controllers.php, line: 947
+msgid "System Command"
+msgstr "Команда системы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 952
+msgid "Tests"
+msgstr "Тесты"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1020
+msgid ""
+"The ACL rule number (10-99); keep in mind that there are no sequence numbers "
+"with AS-Path lists. When you want to add a new line between you have to "
+"completely remove the ACL!"
+msgstr ""
+"Номер правила ACL (10-99); помните, что в списках AS-путей нет порядковых "
+"номеров. Когда вы хотите добавить запись в середину вы должны полностью "
+"удалить ACL!"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1021
+msgid "The ACL sequence number (10-99)"
+msgstr "Порядковый номер ACL (10-99)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1022
+msgid ""
+"The AS pattern you want to match, regexp allowed (e.g. .$ or _1$). It's not "
+"validated so please be careful!"
+msgstr ""
+"Шаблон AS для поиска, регулярные выражения допустимы (например .$ или _1$). Они не "
+"проверяются, поэтому будьте осторожны!"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1112
+msgid ""
+"The Administrator of this server. Used when displaying information about "
+"this server."
+msgstr ""
+"Администратор этого сервера. Используется при отображении информации об "
+"этом сервере."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1023
+msgid ""
+"The CPU plugin collects the amount of time spent by the CPU in various "
+"states, most notably executing user code, executing system code, waiting for "
+"IO-operations and being idle."
+msgstr ""
+"Плагин CPU накапливает данные о времени процессора, затраченном в различных "
+"режимах, исполнение пользовательского кода, исполнение системного кода, ожидание в "
+"операциях ввода-вывода и в режиме простоя."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1024
+msgid ""
+"The ContextSwitch plugin collects the number of context switches done by the "
+"operating system."
+msgstr ""
+"Плагин ContextSwitch собирает количество переключений контекста, производимых "
+"операционной системой."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1025
+msgid ""
+"The DF plugin collects file system usage information, i. e. basically how "
+"much space on a mounted partition is used and how much is available."
+msgstr ""
+"Плагин DF собирает информацию об использовании файловой системы, например, сколько места "
+"использовано на смонтированном разделе и сколько доступно."
+
+#
+# File: /usr/lang/src/controllers.php, line: 953
+msgid ""
+"The FQDN's used in your certificate must currently point to an official IP "
+"address. Choose the interface where this IP address is currently configured. "
+"OPNsense will automatically create a temporary port forward to allow the "
+"Let's Encrypt validation to succeed. This will lead to a short downtime of "
+"the service that is normally used with this IP address.<br/><div class="
+"\"text-info\"><b>NOTE:</b>This will ONLY work if the official IP addresses "
+"are LOCALLY configured on your OPNsense firewall.</div>"
+msgstr ""
+"FQDN используемый вашим сертификатом должен в данный момент указывать на официальный IP "
+"адрес. Выберите интерфейс, на котором этот адрес в данный момент сконфигурирован. "
+"OPNsense автоматически создаст временное правило перенаправления, чтобы "
+"проверка Let's Encrypt прошла успешно. Это приведёт к краткосрочному завершению "
+"сервиса, который обычно использует этот IP адрес.<br/><div class="
+"\"text-info\"><b>ПРИМЕЧАНИЕ:</b>Это сработает ТОЛЬКО если официальные IP адреса "
+"ЛОКАЛЬНО сконфигурированы на вашем устройстве.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 954
+msgid ""
+"The FQDN's used in your certificate must currently point to an official IP "
+"address. Choose this option to let OPNsense try to auto-discover these IP "
+"addresses. This will lead to a short downtime of the service that is "
+"normally used with this IP address.<br/><div class=\"text-info\"><b>NOTE:</"
+"b>This will ONLY work if the official IP addresses are LOCALLY configured on "
+"your OPNsense firewall.</div>"
+msgstr ""
+"FQDN используемый вашим сертификатом должен в данный момент указывать на официальный IP "
+"адрес. Выберите эту опцию и OPNsense автоматически определит IP-адреса. "
+"Это приведёт к краткосрочному завершению "
+"сервиса, который обычно использует этот IP адрес.<br/><div class="
+"\"text-info\"><b>ПРИМЕЧАНИЕ:</b>Это сработает ТОЛЬКО если официальные IP адреса "
+"ЛОКАЛЬНО сконфигурированы на вашем устройстве.</div>"
+#
+# File: /usr/lang/src/controllers.php, line: 955
+msgid ""
+"The FQDN's used in your certificate must currently point to one or more "
+"official IP addresses. Enter the all of these IP addresses here. OPNsense "
+"will automatically create a temporary port forward to allow the Let's "
+"Encrypt validation to succeed. This will lead to a short downtime of the "
+"service that is normally used with these IP addresses.<br/><div class=\"text-"
+"info\"><b>NOTE:</b>This will ONLY work if the official IP addresses are "
+"LOCALLY configured on your OPNsense firewall.</div>"
+msgstr ""
+"FQDN используемый вашим сертификатом должен в данный момент указывать на один или несколько "
+"официальных IP адресов. Введите эти IP адреса здесь. OPNsense "
+"автоматически создаст временный проброс портов чтобы проверка Let's "
+"Encrypt завершилась успешно. Это приведёт к краткосрочному завершению "
+"сервиса, который обычно использует эти IP адреса.<br/><div class="
+"\"text-info\"><b>ПРИМЕЧАНИЕ:</b>Это сработает ТОЛЬКО если официальные IP адреса "
+"ЛОКАЛЬНО сконфигурированы на вашем устройстве.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1029
+msgid ""
+"The Graphite plugin stores values in Carbon, the storage layer of Graphite."
+msgstr ""
+"Плагин Graphite ханит значения в Carbon, подсистеме хранения Graphite."
+
+#
+# File: /usr/lang/src/controllers.php, line: 957
+msgid "The Interface for 'Network' checks."
+msgstr "Интерфейс для 'Сетевых' проверок."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1032
+msgid ""
+"The Interface plugin collects information about the traffic, packets per "
+"second and errors of interfaces."
+msgstr ""
+"Плагин Interface накапливает информацию о трафике, скорости и "
+"ошибках на интерфейсах."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1033
+msgid "The Load plugin collects the system load."
+msgstr "Плагин Load накапливает данные о нагрузке на систему."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1034
+msgid ""
+"The Memory plugin collects physical memory utilization (Used, buffered, "
+"cached and free)."
+msgstr ""
+"Плагин Memory накапливает данный об использовании памяти (использовано, буферы, "
+"кэш и свободно)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1035
+msgid "The Network plugin can send values to other instances"
+msgstr "Плагин Network может отсылать данные другим экземплярам"
+
+#
+# File: /usr/lang/src/controllers.php, line: 958
+msgid "The PID file of the process."
+msgstr "PID-файл процесса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1037
+msgid ""
+"The Processes plugin collects the number of processes, grouped by their "
+"state (e. g. running, sleeping, zombies, etc.)."
+msgstr ""
+"Плагин Processes собирает данные о процессах, сгруппированных по состоянию "
+"(например, работающие, спящие, зомби, и т.д.)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1039
+msgid ""
+"The Uptime plugin keeps track of the system uptime, providing informations "
+"such as the average running time or the maximum reached uptime over a "
+"certain period of time."
+msgstr ""
+"Плагин Uptime отслеживает время работы системы, предоставляя такую информацию, как "
+"среднее время работы или максимальное время работы в течение "
+"определённого периода времени."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1040
+msgid ""
+"The Users plugin counts the number of users currently logged into the system "
+"(SSH)."
+msgstr ""
+"Плагин Users считает количество пользователей, зарегистрированных в данный момент в системе "
+"(SSH)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 960
+msgid "The email address to send alerts to."
+msgstr "E-mail адрес для отправки оповещений."
+
+#
+# File: /usr/lang/src/controllers.php, line: 961
+msgid ""
+"The email format for alerts.<br><i>Subject: $SERVICE on $HOST failed</i>"
+msgstr ""
+"Формат письма для оповещений.<br><i>Subject: $SERVICE on $HOST failed</i>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1137
+msgid ""
+"The initial number of server processes. Each server process generates a "
+"number of threads, which serve the requests."
+msgstr ""
+"Исходное число процессов сервера. Каждый процесс сервера генерирует "
+"определённое число потоков, которые обслуживают запросы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1138
+msgid "The maximum allowed number of server processes."
+msgstr "Максимальное число процессов сервера."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1140
+msgid "The maximum number of requests can be served by one connection"
+msgstr "Максимальное число запросов, которое может обслужить одно соединение"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1141
+msgid ""
+"The maximum number of requests that a child process can serve. After this "
+"number has been reached, process dies."
+msgstr ""
+"Максимальное число запросов, которое может обслужить дочерний процесс. При достижении "
+"этого числа процесс завершается."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1142
+msgid ""
+"The maximum size of files which will be scanned by antivirus service. You "
+"can use K and M indicators to define size in kilobytes or megabytes."
+msgstr ""
+"Максимальный размер файлов для сканирования службой антивируса. Вы "
+"можете использовать K и M индикаторы для обозначения размера в килобайтах и мегабайтах."
+
+#
+# File: /usr/lang/src/controllers.php, line: 967
+msgid ""
+"The maximum time in seconds to wait for a restart action to complete. When "
+"the timeout is reached the command is forcefully aborted. Defaults to 600 "
+"seconds."
+msgstr ""
+"Максимальное время в секундах для ожидания завершения действия рестарта. Когда "
+"таймаут будет исчерпан, команда будет принудительно прервана. По-умолчанию 600 "
+"секунд."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1144
+msgid ""
+"The maximum time in seconds waiting for a new requests before a connection "
+"will be closed."
+msgstr ""
+"Максимальное время в секундах для ожидания нового запроса перед тем как "
+"соединение будет закрыто."
+
+#
+# File: /usr/lang/src/controllers.php, line: 968
+msgid "The name of the service."
+msgstr "Имя сервиса."
+
+#
+# File: /usr/lang/src/controllers.php, line: 969
+msgid "The name of the test."
+msgstr "Имя теста."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1051
+msgid ""
+"The name of your Prefix-List, please choose one near to the result you want "
+"to achieve."
+msgstr ""
+"Имя вашего списка префиксов, пожалуйста, выберите что-то близкое к результату "
+"которого вы хотите достичь."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1053
+msgid ""
+"The network pattern you want to match. It's not validated so please be "
+"careful!"
+msgstr ""
+"Шаблон сети для поиска. Он не проверяется, так что будьте "
+"осторожны!"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1054
+msgid ""
+"The network pattern you want to match. You can also add \"ge\" or \"le\" "
+"additions after the network statement. It's not validated so please be "
+"careful!"
+msgstr ""
+"Шаблон сети для поиска. Вы также можете добавить \"ge\" или \"le\" "
+"дополнения после выражения сети. Это не проверяется, так что будьте "
+"осторожны!"
+
+#
+# File: /usr/lang/src/controllers.php, line: 973
+msgid ""
+"The number of seconds to wait for a response to pings or to allow meta "
+"connections to block.\n"
+"          If the other end doesn't respond within this time, the connection "
+"is terminated, and the others will be notified of this.\n"
+"        "
+msgstr ""
+"Число секунд для ожидания ответа на пинги или для блокировки мета- "
+"соединений.\n"
+"          Если другая сторона не отвечает за это время, соединение "
+"прерывается, и остальные будут оповещены об этом.\n"
+"        "
+
+#
+# File: /usr/lang/src/controllers.php, line: 1156
+msgid "The number of threads per child process."
+msgstr "Число потоков в дочернем процессе."
+
+#
+# File: /usr/lang/src/controllers.php, line: 976
+msgid "The password for authentication."
+msgstr "Пароль для аутентификации."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1158
+msgid ""
+"The percentage of data that can be sent by the c-icap server before "
+"receiving the complete body of a request. This feature in conjuction with "
+"the folowing can be useful because if the download of the object takes a lot "
+"of time the connection of web client to proxy can be expired."
+msgstr ""
+"Процент данных который может быть послан c-icap сервером до "
+"получения целого ответа на запрос. Эта возможность в сочетании со следующей "
+"может быть полезной потому что скачивание объекта может занять долгое время "
+"и у соединения web-клиента с прокси может за это время истечь время действия."
+
+#
+# File: /usr/lang/src/controllers.php, line: 978
+msgid ""
+"The port of the mail server. Typically 465 for SSL or 25 for TLS and non "
+"secure connections."
+msgstr ""
+"Порт почтового сервера. Как правило 465 для SSL или 25 для TLS и не "
+"безопасных соединений."
+
+#
+# File: /usr/lang/src/controllers.php, line: 983
+msgid "The service check type."
+msgstr "Тип проверки сервиса."
+
+#
+# File: /usr/lang/src/controllers.php, line: 984
+msgid "The start skript of the service."
+msgstr "Скрипт запуска сервиса."
+
+#
+# File: /usr/lang/src/controllers.php, line: 985
+msgid "The stop skript of the service."
+msgstr "Скрипт остановки сервиса."
+
+#
+# File: /usr/lang/src/controllers.php, line: 986
+msgid ""
+"The symmetric cipher algorithm used to encrypt UDP packets.\n"
+"             Any cipher supported by LibreSSL or OpenSSL is recognised.\n"
+"             Furthermore, specifying \"none\" will turn off packet "
+"encryption.\n"
+"             It is best to use only those ciphers which support CBC mode\n"
+"      "
+msgstr ""
+"Симметричный алгоритм шифрования для UDP пакетов.\n"
+"             Подходит любой алгоритм, поддерживаемый LibreSSL или OpenSSL.\n"
+"             Кроме того, указание \"none\" выключит шифрование "
+"пакетов.\n"
+"             Лучше всего использовать алгоритмы, которые поддерживают режим CBC\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 991
+msgid "The target IP address for 'Remote Host' and 'Network' checks."
+msgstr "Целевой IP адрес для проверок 'Удалённого хоста' и 'Удалённой сети'."
+
+#
+# File: /usr/lang/src/controllers.php, line: 992
+msgid ""
+"The test condition. E.g.<br><i>cpu is greater than 50%</i><br><i>failed host "
+"127.0.0.1 port 22 protocol ssh</i><br>"
+msgstr ""
+"Условие проверки. Например, <br><i>cpu is greater than 50%</i><br><i>failed host "
+"127.0.0.1 port 22 protocol ssh</i><br>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1175
+msgid ""
+"The time in seconds after which a connection without activity can be "
+"cancelled."
+msgstr ""
+"Время в секундах после которого неактивное соединение может быть "
+"прервано."
+
+#
+# File: /usr/lang/src/controllers.php, line: 993
+msgid ""
+"The time in seconds to wait for all the TXT records to take effect after "
+"adding them to the DNS API. Defaults to 120 seconds."
+msgstr ""
+"Время в секундах для ожидания применения TXT записей после их "
+"добавления в DNS API. По-умолчанию 120 секунд."
+
+#
+# File: /usr/lang/src/controllers.php, line: 995
+msgid "The username for authentication."
+msgstr "Имя пользователя для аутентификации."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1086
+msgid ""
+"This allows you to dynamically assign VLANs on your physical switch ports."
+msgstr ""
+"Это позволит вам динамически присвоить VLAN на портах физического коммутатора."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1007
+msgid "This is a list with service tests."
+msgstr "Это список с тестами сервисов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1011
+msgid "This machines external port to use"
+msgstr "Внешний порт этой машины"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1198
+msgid "This option allows you to disable the caching feature of the engine."
+msgstr "Эта опция позволяет вам отключить функцию кэширования движка."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1199
+msgid "This option enables scanning of HWP3 files."
+msgstr "Эта опция включает сканирование HWP3-файлов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1200
+msgid ""
+"This option enables scanning of OLE2 files, such as Microsoft Office "
+"documents and .msi files."
+msgstr ""
+"Эта опция включает сканирование OLE2-фаайлов, таких как документы Microsoft Office "
+"и .msi файлы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1201
+msgid "This option enables scanning within PDF files."
+msgstr "Эта опция включает сканирование PDF-файлов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1202
+msgid "This option enables scanning within SWF files."
+msgstr "Эта опция включает сканирование SWF-файлов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1203
+msgid ""
+"This option enables scanning xml-based document files supported by libclamav."
+msgstr ""
+"Эта опция включает сканирование файлов xml-документов поддерживаемых libclamav."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1020
+msgid "This option selects the way packets are routed to other daemons"
+msgstr "Эта опция выбирает каким путём пакеты моршрутизируются к другим сервисам"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1211
+msgid ""
+"This option sets the maximum amount of data to be scanned for each input "
+"file. Archives and other containers are recursively extracted and scanned up "
+"to this value."
+msgstr ""
+"Эта опция устанавливает максимальное количество данных для сканирования для каждого "
+"файла. Архивы и другие контейнеры рекурсивно извлекаются и сканируются до этого "
+"значения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1215
+msgid "This will activate ClamAV"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 1109
+msgid "This will activate the Collectd service."
+msgstr "Это активирует сервис Collectd."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1110
+msgid "This will activate the FreeRADIUS service."
+msgstr "Это активирует сервис FreeRADIUS."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1024
+msgid ""
+"This will activate the OSPF service if routing protocols are enabled in "
+"\"General\"."
+msgstr ""
+"Это активирует сервис OSPF если протоколы маршрутизации включены в "
+"\"Общих настройках\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1025
+msgid ""
+"This will activate the OSPFv3 service if routing protocols are enabled in "
+"\"General\"."
+msgstr ""
+"Это активирует сервис OSPFv3 если протоколы маршрутизации включены в "
+"\"Общих настройках\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1026
+msgid ""
+"This will activate the RIP service if the support of routing protocols is "
+"enabled in \"General\"."
+msgstr ""
+"Это активирует сервис RIP если протоколы маршрутизации включены в "
+"\"Общих настройках\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1027
+msgid "This will activate the bgp service."
+msgstr "Это активирует сервис BGP."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1222
+msgid "This will activate the c-icap service."
+msgstr "Это активирует сервис C-ICAP."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1223
+msgid "This will activate the clamd service."
+msgstr "Это активирует сервис clamd."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1224
+msgid "This will activate the freshclam service."
+msgstr "Это активирует сервис freshclam."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1028
+msgid "This will activate the isis service."
+msgstr "Это активирует сервис isis."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1029
+msgid "This will activate the routing service."
+msgstr "Это активирует сервис маршрутизации."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1227
+msgid "This will enable TCP port 3310 in addition to the local socket."
+msgstr "Это включит TCP порт 3310 в дополнение к локальному сокету."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1117
+msgid "This will enable or disable the client config."
+msgstr "Это включит или отключит конфиг клиента."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1118
+msgid ""
+"This will enable or disable the user account. Allowed characters are 0-9, a-"
+"z, A-Z, and ._-"
+msgstr ""
+"TЭто включит или отключит пользовательский аккаунт. Допустимые символы: 0-9, a-"
+"z, A-Z, и ._-"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1030
+msgid ""
+"This will send the information that we have a default gateway, regardless of "
+"if it is available."
+msgstr ""
+"Это пошлёт информацию о том, что есть шлюз по-умолчанию, независимо от того, "
+"доступен ли он."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1031
+msgid "This will send the information that we have a default gateway."
+msgstr "Это пошлёт информацию о том, что есть шлюз по-умолчанию."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1232
+msgid "Threads per child"
+msgstr "Потоков на потомка."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1234
+msgid "Timeout in seconds when connecting to database server."
+msgstr "Таймаут в секундах для подключения к серверу базы данных."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1033
+msgid "Token"
+msgstr "Токен"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1039
+# File: /usr/lang/src/models.php, line: 365
+msgid "Tuning Parameters"
+msgstr "Тонкие настройки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1261
+msgid "Use the following format: username:password"
+msgstr "Используйте следующий формат: имя_пользователя:пароль"
+
+#
+# File: /usr/lang/src/controllers.php, line: 691
+msgid ""
+"Use this backend if the condition is true.<br/><b>Not used for any other "
+"action.</b>"
+msgstr ""
+"Использовать этот бэкенд если условие верно.<br/><b>Не используется для остальных "
+"действий.</b>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1071
+msgid ""
+"Usually the FQDN. Required for active checks and must match hostname as "
+"configured on the Zabbix server."
+msgstr ""
+"Обычно FQDN. Требуется для активных проверок и должно совпадать с именем хоста "
+"настроенным на Zabbix сервере."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1163
+msgid ""
+"VLAN ID the user receives, e.g. for 802.1X. Leave empty if you don't know "
+"what it is."
+msgstr ""
+"VLAN ID полученный пользователем, для 802.1X. Оставьте пустым, если "
+"не знаете, что это такое."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1072
+msgid "Validation Method"
+msgstr "Метод валидации"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1287
+msgid "Waiting for a new job will timeout after this time in seconds."
+msgstr "Ожидание новой задачи будет окончено после указанного количества секунд."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1085
+msgid ""
+"When using HTTP-01 as validation method, a local webserver is used to "
+"provide acme challenge data to the Let's Encrypt servers. This setting "
+"allows you to change the local port of this webserver in case it interferes "
+"with another local services. Defaults to port 43580."
+msgstr ""
+"При использования метода валидации HTTP-01, локальный web-сервер будет использоваться "
+"для предоставления контрольных данных acme серверам Let's Encrypt. Эта настройка "
+"позволяет вам изменить локальный порт этого сервера если он конфликтует "
+"с другими локальными сервисами. По-умолчанию порт 43580."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1086
+msgid "Whether remote commands from Zabbix server are allowed."
+msgstr "Разрешены ли удалённые команды с сервера Zabbix."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1308
+msgid ""
+"With this option clamav will try to detect broken executables (both PE and "
+"ELF) and mark them as Broken."
+msgstr ""
+"С этой опцией clamav будет пытаться обнаружить повреждённые исполняемые файлы (как PE так и "
+"ELF) и помечать их как Broken."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1309
+msgid ""
+"With this option enabled OLE2 files with VBA macros, which were not detected "
+"by signatures will be marked as \"Heuristics.OLE2.ContainsMacros\"."
+msgstr ""
+"С этой опцией разрешённые файлы OLE2 с VBA макросами, в которых не найдены сигнатуры "
+"будут помечены как \"Heuristics.OLE2.ContainsMacros\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1100
+msgid ""
+"With this option, you can set the size of the packets on your network. It is "
+"possible that bigger packets have to be processed sometimes. The engine can "
+"still process these bigger packets, but processing it will lower the "
+"performance."
+msgstr ""
+"Этой опцией вы можете установить размер пакетов в вашей сети. Возможно, что "
+"иногда должны быть обработаны пакеты большего размера. Механизм обработки может тем не менее "
+"обработать эти большие пакеты, но их обработка снижает "
+"производительность."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1102
+msgid "X-Forwarded-For header handling"
+msgstr "Обработка заголовков X-Forwarded-For"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1103
+msgid "Your AS Number here"
+msgstr "Ваш номер AS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1104
+msgid "Zabbix Features"
+msgstr "Свойства Zabbix"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1105
+msgid "Zabbix Servers"
+msgstr "Серверы Zabbix"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1106
+msgid "Zabbix agent will listen on this port for connections from the server."
+msgstr "Zabbix-агент будет слушать на этом порту соединения с сервера."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1318
+msgid "Zerotier Network ID e.g., 161411d4f6abe4a7"
+msgstr "Zerotier Network ID, например, 161411d4f6abe4a7"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1326
+msgid ""
+"database.clamav.net is a round-robin record which points to the most "
+"reliable mirrors. DO NOT TOUCH the following line unless you know what you "
+"are doing."
+msgstr ""
+"database.clamav.net это кольцевой массив, указывающий на наиболее надёжные зеркала. "
+"НЕ ТРОГАЙТЕ данную настройку, только если вы не знаете, "
+"что вы делаете."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1114
+msgid "default packet size"
+msgstr "размер пакета по-умолчанию"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/accounts.volt, line: 56
+# File: /usr/lang/src/models.php, line: 42
+msgid "Accounts"
+msgstr "Аккаунты"
+
+#
+# File: /usr/lang/src/models.php, line: 44
+msgid "Address must be a valid IPv4 address"
+msgstr "Адрес должен быть действительным адресом IPv4"
+
+#
+# File: /usr/lang/src/models.php, line: 67
+msgid "Client"
+msgstr "Клиент"
+
+#
+# File: /usr/lang/src/models.php, line: 73
+msgid "Cost must be between 0 and 4294967295."
+msgstr "Цена должна быть между 0 и 4294967295."
+
+#
+# File: /usr/lang/src/models.php, line: 81
+msgid "Dead interval must be between 0 and 4294967295."
+msgstr "Мёртвый интервал должен быть между 0 и 4294967295."
+
+#
+# File: /usr/lang/src/models.php, line: 96
+msgid "Enter a valid packet size"
+msgstr "Введите корректный размер пакета"
+
+#
+# File: /usr/lang/src/models.php, line: 107
+msgid "Features"
+msgstr "Свойства"
+
+#
+# File: /usr/lang/src/models.php, line: 132
+msgid "Hello interval must be between 0 and 4294967295."
+msgstr "Интервал приветствия должен быть между 0 и 4294967295."
+
+#
+# File: /usr/lang/src/models.php, line: 163
+msgid "Mail Server must be a valid IPv4 address"
+msgstr "Почтовый сервер должен быть корректным адресом IPv4"
+
+#
+# File: /usr/lang/src/models.php, line: 168
+msgid "Message format should be a string between 1 and 255 characters."
+msgstr "Формат сообщения должен быть строкой размером от 1 до 255 символов."
+
+#
+# File: /usr/lang/src/models.php, line: 178
+msgid "Network mask must be between 0 and 32."
+msgstr "Маска подсети должна быть между 0 и 32."
+
+#
+# File: /usr/lang/src/models.php, line: 203
+msgid "Ping timeout must be between 1...65535"
+msgstr "Таймаут пинга должен быть между 1...65535"
+
+#
+# File: /usr/lang/src/models.php, line: 220
+msgid ""
+"Please provide a valid FQDN, i.e. www.example.com or mail.example.com (max "
+"255 characters)."
+msgstr ""
+"Пожалуйста введите корректный FQDN, например, www.example.com или mail.example.com (максимум "
+"255 символов)."
+
+#
+# File: /usr/lang/src/models.php, line: 224
+msgid ""
+"Please provide one or more valid FQDNs, i.e. www.example.com or mail.example."
+"com. Field length is limited to 65535 characters."
+msgstr ""
+"Пожалуйста, введите один или несколько корректных FQDN, например www.example.com или mail.example."
+"com. Размер поля ограничен 65535 символами."
+
+#
+# File: /usr/lang/src/models.php, line: 219
+msgid "Please provide valid IP addresses, i.e. 10.0.0.1."
+msgstr "Пожалуйста, введите корректный IP-адрес, например, 10.0.0.1."
+
+#
+# File: /usr/lang/src/models.php, line: 220
+msgid ""
+"Please provide valid Zabbix server addresses, i.e. 10.0.0.1 or zabbix."
+"example.com."
+msgstr ""
+"Пожалуйста, укажите действительный адрес Zabbix сервера, например, 10.0.0.1 или zabbix."
+"example.com."
+
+#
+# File: /usr/lang/src/models.php, line: 221
+msgid ""
+"Please provide valid active check receivers, i.e. 10.0.0.1:10051, zabbix."
+"example.com or [::1]:30051."
+msgstr ""
+"Пожалуйста, укажите действительных получателей активных проверок, например, 10.0.0.1:10051, zabbix."
+"example.com или [::1]:30051."
+
+#
+# File: /usr/lang/src/models.php, line: 245
+msgid "Polling Interval needs to be an integer value between 0 and 86400"
+msgstr "Интервал опроса должен быть целым числом между 0 и 86400"
+
+#
+# File: /usr/lang/src/models.php, line: 249
+msgid "Port Probe"
+msgstr "Проверка порта"
+
+#
+# File: /usr/lang/src/models.php, line: 250
+msgid "Port needs to be an integer value between 0 and 65535"
+msgstr "Порт должен быть целым числом между 0 и 65535"
+
+#
+# File: /usr/lang/src/models.php, line: 251
+msgid "Port number must be between 1...65535"
+msgstr "Номер порта должен быть между 1...65535"
+
+#
+# File: /usr/lang/src/models.php, line: 254
+msgid "Priority must be between 0 and 4294967295."
+msgstr "Приоритет должен быть между 0 и 4294967295."
+
+#
+# File: /usr/lang/src/models.php, line: 264
+msgid "Related ACL item not found"
+msgstr "Связанный элемент ACL не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 265
+msgid "Related HAProxy ACL not found."
+msgstr "Связанный HAProxy ACL не найден."
+
+#
+# File: /usr/lang/src/models.php, line: 266
+msgid "Related HAProxy action not found."
+msgstr "Связанное действие HAProxy не найдено."
+
+#
+# File: /usr/lang/src/models.php, line: 267
+msgid "Related HAProxy backend not found."
+msgstr "Связанный бэкенд HAProxy не найден."
+
+#
+# File: /usr/lang/src/models.php, line: 268
+msgid "Related HAProxy frontend not found"
+msgstr "Связанный фронтенд HAProxy не найден."
+
+#
+# File: /usr/lang/src/models.php, line: 269
+msgid "Related HAProxy server not found."
+msgstr "Связанный сервер HAProxy не найден."
+
+#
+# File: /usr/lang/src/models.php, line: 273
+msgid "Related Prefix-List item not found"
+msgstr "Связанный элемент списка префиксов не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 274
+msgid "Related Route-Map item not found"
+msgstr "Связанный элемент карты маршрутов не найден."
+
+#
+# File: /usr/lang/src/models.php, line: 270
+msgid "Related action item not found"
+msgstr "Связанное действие не найдено"
+
+#
+# File: /usr/lang/src/models.php, line: 271
+msgid "Related backend item not found"
+msgstr "Связанный бэкенд не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 274
+msgid "Related error file item not found"
+msgstr "Связанное значение файла ошибок не найдено"
+
+#
+# File: /usr/lang/src/models.php, line: 275
+msgid "Related health check item not found"
+msgstr "Связанный элемент проверок состояний не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 277
+msgid "Related network not found"
+msgstr "Связанная сеть не найдена"
+
+#
+# File: /usr/lang/src/models.php, line: 280
+msgid "Related restart action not found"
+msgstr "Связанное действие рестарта не найдено"
+
+#
+# File: /usr/lang/src/models.php, line: 281
+msgid "Related server item not found"
+msgstr "Связанный элемент сервера не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 284
+msgid "Reminder needs to be an integer value between 0 and 86400"
+msgstr "Напоминание должно быть челой величиной между 0 и 86400"
+
+#
+# File: /usr/lang/src/models.php, line: 289
+msgid "Retransmit interval must be between 0 and 4294967295."
+msgstr "Интервал повторной передачи должен быть между 0 и 4294967295."
+
+#
+# File: /usr/lang/src/models.php, line: 312
+msgid "Should be a number between 0 and 20."
+msgstr "Должно быть число от 0 до 20."
+
+#
+# File: /usr/lang/src/models.php, line: 313
+msgid "Should be a number between 1 and 10000."
+msgstr "Должно быть число от 1 до 10000."
+
+#
+# File: /usr/lang/src/models.php, line: 314
+msgid "Should be a number between 1 and 30."
+msgstr "Должно быть число от 1 до 30."
+
+#
+# File: /usr/lang/src/models.php, line: 315
+msgid "Should be a number between 1 and 3600."
+msgstr "Должно быть число от 1 до 3600."
+
+#
+# File: /usr/lang/src/models.php, line: 319
+msgid "Should be a number between 10 and 3600."
+msgstr "Должно быть число от 10 до 3600."
+
+#
+# File: /usr/lang/src/models.php, line: 321
+msgid ""
+"Should be a string between 1 and 255 characters. Allowed characters are "
+"letters and numbers as well as underscore, minus, dot and space."
+msgstr ""
+"Должна быть строка длиной от 1 до 255 символов. Допустимы символы "
+"букв и цифр, также подчёркивание, минус, точка и пробел."
+
+#
+# File: /usr/lang/src/models.php, line: 322
+msgid ""
+"Should be a string between 1 and 255 characters. Allowed characters are "
+"letters and numbers as well as underscore, minus, dot and the dollar sign."
+msgstr ""
+"Должна быть строка длиной от 1до 255 символов. Допустимы символы "
+"букв и цифр, подчёркивание, минус, точка и знак доллара."
+
+#
+# File: /usr/lang/src/models.php, line: 323
+msgid "Should be a valid absolute file or folder path."
+msgstr "Должен быть действительный абсолютный путь файла или директории."
+
+#
+# File: /usr/lang/src/models.php, line: 324
+msgid "Should be a valid absolute file path."
+msgstr "Должен быть действительный абсолютный путь к файлу."
+
+#
+# File: /usr/lang/src/models.php, line: 325
+msgid "Should be a valid absolute path to the PID file of the process."
+msgstr "Должен быть действительный абсолютный путь к PID-файлу процесса."
+
+#
+# File: /usr/lang/src/models.php, line: 326
+msgid "Should be a valid absolute path to the executable with its arguments."
+msgstr "Должен быть действительный абсолютный путь к исполняемому файлу с аргументами."
+
+#
+# File: /usr/lang/src/models.php, line: 341
+msgid "Start Delay needs to be an integer value between 0 and 86400"
+msgstr "Задержка запуска должны быть целой величиной от 0 до 86400"
+
+#
+# File: /usr/lang/src/models.php, line: 358
+msgid "Trace Route"
+msgstr "Маршрут трассировки"
+
+#
+# File: /usr/lang/src/models.php, line: 362
+msgid "Transmit delay must be between 0 and 4294967295."
+msgstr "Задержка передачи должна быть от 0 до 4294967295."
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/validations.volt, line: 81
+# File: /usr/lang/src/models.php, line: 375
+msgid "Validation Methods"
+msgstr "Методы валидации"
+
+#
+# File: /usr/lang/src/models.php, line: 392
+msgid "Zabbix Agent"
+msgstr "Агент Zabbix"
+
+#
+# File: /usr/lang/src/wizards.php, line: 37
+msgid "(leave empty to keep current one)"
+msgstr "(оставьте пустым для сохранения текущего значения)"
+
+#
+# File: /usr/lang/src/wizards.php, line: 83
+msgid "Click 'Reload' to reload to apply the changes."
+msgstr "Нажмите 'Перезагрузить' для загрузки и применения изменений."
+
+#
+#
+# File: /usr/lang/src/wizards.php, line: 257
+msgid ""
+"This wizard will guide you through the initial system configuration. The "
+"wizard may be stopped at any time by clicking the logo image at the top of "
+"the screen."
+msgstr ""
+"Этот мастер проведёт вас через начальную настройку. Мастера "
+"можно прервать в любой момент нажатием на логотип ввержу экрана. "
+
