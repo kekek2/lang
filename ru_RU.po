@@ -31876,7 +31876,7 @@ msgstr "Ключ"
 #
 # File: /usr/lang/src/controllers.php, line: 538
 msgid "Keytab creation"
-msgstr "Создание Keytab-файлв"
+msgstr "Создание Keytab-файла"
 
 #
 # File: /usr/lang/src/controllers.php, line: 539
