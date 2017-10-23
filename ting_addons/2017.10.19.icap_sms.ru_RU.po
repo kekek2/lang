@@ -1,0 +1,294 @@
+#
+# File: /usr/plugins/security/clamav/src/opnsense/mvc/app/controllers/OPNsense/ClamAV/GeneralController.php, line: 35
+msgid "ClamAV Settings"
+msgstr "Настрока ClamAV"
+
+#
+# File: /usr/lang/src/controllers.php, line: 236
+msgid "ClamAV engine version"
+msgstr "Версия движка ClamAV"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1215
+msgid "This will activate ClamAV"
+msgstr "Включение ClamAV"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1449
+msgid "Use c-icap with local squid"
+msgstr "Подключить локальный прокси-сервер к c-icap"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1406
+msgid "This will allow to take settings user name from local squid"
+msgstr "Получить параметры аутентификации из локального прокси-сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1408
+msgid "This will enable logging of access log."
+msgstr "Включить вывод лога в файл access log."
+
+#
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 184
+msgid "Blockings total"
+msgstr "Всего заблокировано"
+
+#
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 183
+msgid "Blocked"
+msgstr "Заблокировано"
+
+#
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 182
+msgid "PF rules cleared"
+msgstr "Очищено правил PF"
+
+#
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 181
+msgid "PF rules generated"
+msgstr "Создано правил PF"
+
+#
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 180
+msgid "PF rules active"
+msgstr "Активные правила PF"
+
+#
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 58
+msgid "Unblock client"
+msgstr "Разблокировать клиента"
+
+#
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/index.volt, line: 89
+msgid "Service will be restarted after applying the above settings."
+msgstr "Служба будет перезапущена после применения параметров."
+
+#
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/controllers/SmartSoft/NDPI/Api/ServiceController.php, line: 41
+msgid "Service restarted"
+msgstr "Служба перезапущена"
+
+#
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/controllers/SmartSoft/NDPI/Api/ServiceController.php, line: 41
+msgid "Service restart failed"
+msgstr "Ошибка перезапуска службы"
+
+#
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 57
+msgid "Block client"
+msgstr "Заблокировать клиента"
+
+#
+# File: /usr/lang/src/controllers.php, line: 194
+msgid "Blocking interval"
+msgstr "Интервал блокировки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 195
+msgid ""
+"Blocking rules lifetime in sec. This PF rules blocks connections with "
+"forbidden traffic. Default value is 3600 (or 1 hour)."
+msgstr ""
+"Время, на которое блокируется правило. Правило блокирует содинение "
+"с запрещённым трафиком. Значение по умолчанию 3660 (или 1 час)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 677
+msgid ""
+"If DPI service detects using of forbidden protocol, it blocks this "
+"connection by killing session and setting bloking rule in firewall. When "
+"blocking rules number for some client reaches max rules count per client, "
+"this client becomes totally blocked. This option sets the interval, after "
+"which client will be unblocked. Default value is 300 (or 5 min)."
+msgstr ""
+"Если служба DPI обнаруживает использование запрещенного протокола, она "
+"блокирует это подключение, убивая сеанс и устанавливая правило блокировки в "
+"брандмауэре. Когда количество правил блокировки для некоторых клиентов "
+"достигает максимального значения, этот клиент становится полностью заблокирован. "
+"Этот параметр задает интервал, после которого клиент будет разблокирован. "
+"Значение по умолчанию-300 (или 5 мин)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 820
+msgid ""
+"Maximum count of blocking rules per client. Default value is 200. When "
+"client has more blocking rules on firewall, DPI service temporary blocks all "
+"traffic from that client."
+msgstr ""
+"Максимальное количество правил блокировки на клиента. Значение по умолчанию 200. "
+"Когда количество блокирующих правил на клиенте превышает это значение, DPI "
+"сервис временно блокирует весь трафик от клиента."
+
+#
+# File: /usr/lang/src/controllers.php, line: 821
+msgid ""
+"Maximum count of blocking rules total (to prevent flooding in firewall "
+"rules). Default value is 5000."
+msgstr ""
+"Максимальное количество правил блокировки (чтобы чрезмерно не забивать "
+"правилами таблицу бранндмауера). Значение по умолчанию-5000."
+
+#
+# File: /usr/lang/src/controllers.php, line: 247
+msgid ""
+"Comma-separated list of addresses to exclude from traffic inspection. Use TAB "
+"or ENTER to add new item. You can set bitmasks in form 192.168.100.10/30."
+msgstr "Разделенный запятыми список адресов для исключения из анализа. "
+"Используйте клавишу TAB или ENTER для добавления нового элемента. "
+"Можно устанавливать маску подсети в форме 192.168.100.10/30."
+
+#
+# File: /usr/lang/src/controllers.php, line: 296
+msgid "Daily Cleanup"
+msgstr "Ежедневная очистка"
+
+#
+# File: /usr/lang/src/controllers.php, line: 297
+msgid "Daily cleanup expired data in database."
+msgstr "Ежедневная очистка устаревших данных."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1037
+msgid "SMS Gateway"
+msgstr "SMS шлюз"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1041
+msgid "SMS gate service."
+msgstr "Служба SMS шлюза"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1040
+msgid "SMS gate account"
+msgstr "Учётная запись на шлюзе SMS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 87
+msgid "Account, registered in SMS gate service."
+msgstr "Учётная запись, зарегистрированная на шлюзе SMS."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1039
+msgid "SMS gate access key"
+msgstr "Ключ доступа к шлюзу SMS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 86
+msgid "Account API key, registered in SMS gate service."
+msgstr "Ключ дочтупа к учётной записи, зарегистрированной на шлюзе SMS."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1038
+msgid "SMS Sign"
+msgstr "Подпись SMS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1042
+msgid "SMS sender sign, registered in SMS gate service."
+msgstr "Подпись отправителя SMS, зарегистрированная на шлюзе SMS."
+
+#
+# File: /usr/lang/src/controllers.php, line: 264
+msgid "Connection timeout for SMS gate service in seconds. Default: 5 sec."
+msgstr "Время ожидания подключения к ik.pe SMS в секундах. По умолчанию: 5 c."
+
+#
+# File: /usr/lang/src/controllers.php, line: 800
+msgid "Max SMS per IP"
+msgstr "Ограничение SMS на IP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 817
+msgid ""
+"Maximum SMS to send from one IP address during code expiration period. "
+"Default: 4."
+msgstr "Максимальное количество SMS с одного IP-адреса в течении срока "
+"действия кода доступа. По умолчанию: 4"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 92
+msgid "Session started"
+msgstr "Сессия запущена"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 91
+msgid "Code expiration"
+msgstr "Срок действия кода истёк"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 88
+msgid "Phone"
+msgstr "Телефон"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 70
+msgid "Codes"
+msgstr "Коды"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 147
+msgid "Session lifetime must be a number."
+msgstr "Время жизни сеанса должно быть числом."
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 144
+msgid ""
+"User session expiration time, in sec. Session starts when user login using "
+"phone and code."
+msgstr "Время окончания сеанса пользователя, сек. Сеанс начинается при входе "
+"пользователя в систему с помощью телефона и кода."
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 141
+msgid "User Session Lifetime"
+msgstr "Продолжительность сеанса пользователя"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 132
+msgid "Code expiration time, in sec"
+msgstr "Срок действия кода, сек"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 129
+msgid "Code Lifetime"
+msgstr "Время дейсивия кода"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/controllers/SmartSoft/SMSPortal/Api/AccessController.php, line: 62
+msgid "Client SMS limit reached"
+msgstr "Закончились доступные SMS для клиента"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/controllers/SmartSoft/SMSPortal/Api/AccessController.php, line: 55
+msgid "Phone number is too short"
+msgstr "Номер телефона слишком короткий"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/controllers/SmartSoft/SMSPortal/Api/AccessController.php, line: 49
+msgid "IP address is unknown"
+msgstr "Неизвестный IP-адрес"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/controllers/SmartSoft/SMSPortal/Api/AccessController.php, line: 52
+msgid "Phone number is not specified"
+msgstr "Не указан номер телефона"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/controllers/SmartSoft/SMSPortal/IndexController.php, line: 45
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 79
+# File: /usr/lang/src/models.php, line: 312
+msgid "SMS Portal"
+msgstr "SMS-Портал"
+
+#
+# File: /usr/lang/src/controllers.php, line: 940
+msgid "Phones Blacklist"
+msgstr "Чёрный список телефонов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 162
+msgid ""
+"Black-list of phones. For these phones access will be prohibited. Use a "
+"comma or press Enter for new item."
+msgstr "Чёрный список телефонов. Для этих номеров запрещён доступ. "
+"Используйте запятую или нажмите Enter для ввода нового номера."
