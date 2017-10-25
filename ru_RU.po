@@ -39981,7 +39981,7 @@ msgstr "Подпись отправителя SMS, зарегистрирова�
 #
 # File: /usr/lang/src/controllers.php, line: 264
 msgid "Connection timeout for SMS gate service in seconds. Default: 5 sec."
-msgstr "Время ожидания подключения к ik.pe SMS в секундах. По умолчанию: 5 c."
+msgstr "Время ожидания подключения к шлюзу SMS в секундах. По умолчанию: 5 c."
 
 #
 # File: /usr/lang/src/controllers.php, line: 800
@@ -40083,3 +40083,23 @@ msgid ""
 "comma or press Enter for new item."
 msgstr "Чёрный список телефонов. Для этих номеров запрещён доступ. "
 "Используйте запятую или нажмите Enter для ввода нового номера."
+
+#
+# File: /usr/lang/src/controllers.php, line: 839
+msgid "Max PF rules per client"
+msgstr "Максимальное количество правил на клиента"
+
+#
+# File: /usr/lang/src/controllers.php, line: 840
+msgid "Max PF rules total"
+msgstr "Максимальное общее количество правил PF"
+
+#
+# File: /usr/lang/src/controllers.php, line: 975
+msgid "PF rules lifetime"
+msgstr "Время жизни правил PF"
+
+#
+# File: /usr/lang/src/controllers.php, line: 572
+msgid "Exclude from inspection"
+msgstr "Исключить из анализа"
