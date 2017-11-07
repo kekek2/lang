@@ -8657,7 +8657,7 @@ msgstr "Регистрировать статические маршруты DHC
 #
 # File: /usr/core/src/www/services_unbound.php, line: 239
 msgid "DHCP Static Mappings"
-msgstr "Статические DHCP преобразования"
+msgstr "Статические DHCP привязки"
 
 # File: /usr/core/src/www/services_unbound.php, line: 217
 msgid ""
@@ -9923,7 +9923,7 @@ msgstr ""
 # File: /usr/core/src/www/services_dnsmasq.php, line: 263
 # File: /usr/core/src/www/services_unbound.php, line: 224
 msgid "DHCP Domain Override"
-msgstr "Переопределение доменного имени DHCP"
+msgstr "Переопределение домена DHCP"
 
 # File: /usr/core/src/www/services_dnsmasq.php, line: 256
 msgid ""
@@ -40087,12 +40087,12 @@ msgstr "Чёрный список телефонов. Для этих номер
 #
 # File: /usr/lang/src/controllers.php, line: 839
 msgid "Max PF rules per client"
-msgstr "Максимальное количество правил на клиента"
+msgstr "Пиковое число правил на клиента"
 
 #
 # File: /usr/lang/src/controllers.php, line: 840
 msgid "Max PF rules total"
-msgstr "Максимальное общее количество правил PF"
+msgstr "Пиковое общее число правил"
 
 #
 # File: /usr/lang/src/controllers.php, line: 975

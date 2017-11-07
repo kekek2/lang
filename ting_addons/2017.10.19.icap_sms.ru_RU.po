@@ -296,12 +296,12 @@ msgstr "Чёрный список телефонов. Для этих номер
 #
 # File: /usr/lang/src/controllers.php, line: 839
 msgid "Max PF rules per client"
-msgstr "Максимальное количество правил на клиента"
+msgstr "Пиковое число правил на клиента"
 
 #
 # File: /usr/lang/src/controllers.php, line: 840
 msgid "Max PF rules total"
-msgstr "Максимальное общее количество правил PF"
+msgstr "Пиковое общее число правил"
 
 #
 # File: /usr/lang/src/controllers.php, line: 975
