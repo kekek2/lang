@@ -32123,16 +32123,12 @@ msgstr ""
 "Журналировать пакеты, блокированные правилом «Блокировать частные сети»"
 
 # File: src/www/diag_logs_settings.php, line: 413
-msgid "Log packets matched from the default block rules put in the ruleset"
-msgstr ""
-"Журналировать пакеты, соответствующие правилам блокировки по умолчанию из "
-"набора правил"
+msgid "Log packets blocked by default"
+msgstr "Заблокированные по умолчанию пакеты"
 
 # File: src/www/diag_logs_settings.php, line: 418
-msgid "Log packets matched from the default pass rules put in the ruleset"
-msgstr ""
-"Журналировать пакеты, соответствующие правилам разрешения по умолчанию из "
-"набора правил"
+msgid "Log packets passed by default"
+msgstr "Разрешённые по умолчанию пакеты"
 
 # File: /usr/lang/src/controllers.php, line: 333
 msgid "Log target"
@@ -40103,3 +40099,11 @@ msgstr "Время жизни правил PF"
 # File: /usr/lang/src/controllers.php, line: 572
 msgid "Exclude from inspection"
 msgstr "Исключить из анализа"
+
+# File: src/www/diag_logs_settings.php, line: 423
+msgid "Log packets blocked from bogons"
+msgstr "Заблокированные пакеты из bogons"
+
+# File: src/www/diag_logs_settings.php, line: 423
+msgid "Log packets blocked from privates"
+msgstr "Заблокированные пакеты из privates"
