@@ -1,0 +1,192 @@
+#
+# File: /usr/plugins/devel/ting-plugin-security-scanner/src/opnsense/mvc/app/controllers/SmartSoft/SecurityScanner/Api/ServiceController.php, line: 27
+msgid "OpenVAS database is currently updating."
+msgstr "Идёт обновление базы данных OpenVAS."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-ntlm/src/opnsense/mvc/app/views/SmartSoft/ProxyNTLM/index.volt, line: 63
+msgid "A admin password is required."
+msgstr "Укажите пароль администратора."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-ntlm/src/opnsense/mvc/app/views/SmartSoft/ProxyNTLM/index.volt, line: 62
+msgid "Empty admin password"
+msgstr "Пустой пароль администратора"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-ntlm/src/opnsense/mvc/app/views/SmartSoft/ProxyNTLM/index.volt, line: 48
+msgid "A admin name is required"
+msgstr "Укажите имя учётной записи администратора."
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-ntlm/src/opnsense/mvc/app/views/SmartSoft/ProxyNTLM/index.volt, line: 47
+msgid "Empty admin name"
+msgstr "Пустое имя учётной записи"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-ntlm/src/opnsense/mvc/app/controllers/SmartSoft/ProxyNTLM/IndexController.php, line: 9
+msgid "Web Proxy NTLM authentication"
+msgstr "NTLM-аутентификация на web-прокси"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-ntlm/src/etc/inc/plugins.inc.d/proxy_ntlm.inc, line: 11
+msgid "Samba server (web-proxy NTLM)"
+msgstr "Сервер Samba (web-прокси NTLM)"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/views/SmartSoft/NetPolice/index.volt, line: 180
+msgid "Categories"
+msgstr "Категории"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/views/SmartSoft/NetPolice/index.volt, line: 133
+msgid "Groups and users"
+msgstr "Группы и пользователи"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/controllers/SmartSoft/NetPolice/Api/AclController.php, line: 283
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 269
+msgid "No authentication method selected"
+msgstr "Не выбран метод аутентификации"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/controllers/SmartSoft/NetPolice/Api/AclController.php, line: 289
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 275
+msgid "LDAP user name is not specified"
+msgstr "Не указано имя пользователя LDAP"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/controllers/SmartSoft/NetPolice/Api/AclController.php, line: 292
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 278
+msgid "LDAP user password is not specified"
+msgstr "Не указан парль пользователя LDAP"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/views/SmartSoft/NetPolice/index.volt, line: 176
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 95
+msgid "Black"
+msgstr "Чёрный"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/views/SmartSoft/NetPolice/index.volt, line: 230
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 127
+msgid "Edit user/group white and black lists"
+msgstr "Редактировать списки доступа для пользователей и групп"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/controllers/SmartSoft/SMSPortal/Api/AccessController.php, line: 60
+msgid "Access denied"
+msgstr "Доступ запрещён"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 135
+msgid "Code lifetime must be a number."
+msgstr "Время жизни кода должно быть числом."
+
+#
+# File: /usr/lang/src/controllers.php, line: 36
+msgid "A list of categories that apply to this rule"
+msgstr "Список категорий для этого правила"
+
+#
+# File: /usr/lang/src/controllers.php, line: 55
+msgid "Black or White list"
+msgstr "Чёрный или белый список"
+
+#
+# File: /usr/lang/src/controllers.php, line: 57
+msgid "Black/White"
+msgstr "Чёрный/Белый"
+
+#
+# File: /usr/lang/src/controllers.php, line: 86
+msgid "Delivery channel in SMS Aero service."
+msgstr "Канал доставки сервиса SMS Aero."
+
+#
+# File: /usr/lang/src/controllers.php, line: 87
+msgid ""
+"Destination domains.<br/>\n"
+"        You may use a regular expression, use a comma or press Enter for new "
+"item.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">mydomain.com</b> -> matches on <b>*."
+"mydomain.com</b><br/>\n"
+"            <b class=\"text-primary\">^https?:\\/\\/([a-zA-Z]+)\\.mydomain\\."
+"</b> -> matches on <b>http(s)://textONLY.mydomain.*</b><br/>\n"
+"            <b class=\"text-primary\">\\.gif$</b> -> matches on <b>\\*.gif</"
+"b> but not on <b class=\"text-danger\">\\*.gif\\test</b><br/>\n"
+"            <b class=\"text-primary\">\\[0-9]+\\.gif$</b> -> matches on <b>"
+"\\123.gif</b> but not on <b class=\"text-danger\">\\test.gif</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+"Домены назначения.<br/>\n"
+"        Вы можете использовать регулярные выражения, используйте запятую или Enter для "
+"добавления нового элемента.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Примеры:</b><br/>\n"
+"            <b class=\"text-primary\">mydomain.com</b> -> соответствует <b>*."
+"mydomain.com</b><br/>\n"
+"            <b class=\"text-primary\">^https?:\\/\\/([a-zA-Z]+)\\.mydomain\\."
+"</b> -> соответствует <b>http(s)://textONLY.mydomain.*</b><br/>\n"
+"            <b class=\"text-primary\">\\.gif$</b> -> matches on <b>\\*.gif</"
+"b> but not on <b class=\"text-danger\">\\*.gif\\test</b><br/>\n"
+"            <b class=\"text-primary\">\\[0-9]+\\.gif$</b> -> соответствует <b>"
+"\\123.gif</b> но не <b class=\"text-danger\">\\test.gif</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>Совет: </b>Вы также можете вставить в это поле список значений, "
+"разделённых запятыми.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 103
+msgid "Enable Microsoft NTLM authentication"
+msgstr "Включить аутентификацию Microsoft NTLM"
+
+#
+# File: /usr/lang/src/controllers.php, line: 104
+msgid "Enable NTLM authentication"
+msgstr "Включить аутентификацию NTLM"
+
+#
+# File: /usr/lang/src/controllers.php, line: 116
+msgid "Enter a name of user/group. Group name is case sensitive."
+msgstr "Введите имя пользователя/группы. Имя группы регистрозависимое."
+
+#
+# File: /usr/lang/src/controllers.php, line: 123
+msgid "Group or User ACL"
+msgstr "ACL группы или пользователя"
+
+#
+# File: /usr/lang/src/controllers.php, line: 124
+msgid "Group/User"
+msgstr "Группа/Пользователь"
+
+#
+# File: /usr/lang/src/controllers.php, line: 215
+msgid "Rule priority"
+msgstr "Приоритет правила"
+
+#
+# File: /usr/lang/src/controllers.php, line: 216
+msgid "SMS Aero channel"
+msgstr "Канал SMS Aero"
+
+#
+# File: /usr/lang/src/models.php, line: 43
+msgid "Enter list of IP addresses with optional masks"
+msgstr "Введите список IP-адресов, можно с маской"
+
+#
+# File: /usr/lang/src/models.php, line: 55
+msgid "NTLM authentication"
+msgstr "Аутентификация NTLM"
+
+#
+# File: /usr/lang/src/models.php, line: 68
+msgid "This value can not be empty"
+msgstr "Это значение не может быть пустым"
+
