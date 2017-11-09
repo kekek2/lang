@@ -67,7 +67,7 @@ msgstr "Размер таблицы состояний"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 152
 msgid "Last config change"
-msgstr "Последнее изменение файла конфигурации"
+msgstr "Конфигурация изменена"
 
 # File: src/www/widgets/widgets/system_information.widget.php, line: 133
 msgid "Current date/time"
