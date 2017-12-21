@@ -1895,7 +1895,7 @@ msgstr ""
 
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 155
 msgid "Start IPsec in debug mode based on sections selected"
-msgstr "Запустить IPSec в режиме на основе выбранных разделов"
+msgstr "Запустить IPSec в режиме отладки по выбранным разделам"
 
 # File: src/www/vpn_ipsec_settings.php, line: 185
 msgid "IPsec Debug"
@@ -3510,7 +3510,7 @@ msgstr ""
 
 # File: src/www/system_routes_edit.php, line: 297
 msgid "Disable this static route"
-msgstr "Отключите этот статический маршрут"
+msgstr "Отключить этот статический маршрут"
 
 # File: src/www/interfaces.php, line: 1874
 # File: src/www/interfaces.php, line: 2467
@@ -5908,7 +5908,7 @@ msgid ""
 "on the same broadcast domain"
 msgstr ""
 "Этот параметр заблокирует сообщения в журнале регистрации ARP, если "
-"несколько интерфейсов хранятся на одном широковещательном домене"
+"несколько интерфейсов относятся к одному широковещательному домену"
 
 # File: src/www/system_advanced_network.php, line: 293
 msgid "Suppress ARP messages"
@@ -5925,7 +5925,7 @@ msgid ""
 "specific NICs."
 msgstr ""
 "Установка этого параметра приведет к отключению фильтрации аппаратного "
-"обеспечения VLAN. Этот сброс отключен в некоторых драйверах аппаратного "
+"обеспечения VLAN. Эта разгрузка не работает в некоторых драйверах аппаратного "
 "оборудования и может повлиять на производительность при работе с некоторыми "
 "конкретными сетевыми платами."
 
@@ -5951,13 +5951,13 @@ msgid ""
 "This offloading is broken in some hardware drivers, and may impact "
 "performance with some specific NICs."
 msgstr ""
-"Установка этого параметра приведет к отключению LRO аппаратного обеспечения. "
-"Этот сброс отключен в некоторых драйверах аппаратного оборудования и может "
-"повлиять на производительность при работе с некоторыми конкретными сетевыми "
+"Включение этого параметра приведет к отключению разгрузки больших пакетов (LRO). "
+"Эта разгрузка не работает в некоторых драйверах аппаратного оборудования и может "
+"повлиять на производительность при работе с некоторыми конкретными сетевыми платами."
 
 # File: src/www/system_advanced_network.php, line: 267
 msgid "Disable hardware large receive offload"
-msgstr "Отключить LRO аппаратного обеспечения"
+msgstr "Отключить аппаратную разгрузку больших пакетов."
 
 # File: src/www/system_advanced_network.php, line: 264
 msgid "Hardware LRO"
@@ -5969,14 +5969,14 @@ msgid ""
 "TSO4, TSO6). This offloading is broken in some hardware drivers, and may "
 "impact performance with some specific NICs."
 msgstr ""
-"Установка этого параметра приведет к отключению сброса сегментации TCP "
-"аппаратного обеспечения (TSO, TSO4, TSO6). Этот сброс отключен в некоторых "
+"Установка этого параметра приведет к отключению аппаратной разгрузки сегментации TCP "
+"(TSO, TSO4, TSO6). Эта разгрузка не работает в некоторых "
 "драйверах аппаратного оборудования и может повлиять на производительность "
 "при работе с некоторыми конкретными сетевыми платами."
 
 # File: src/www/system_advanced_network.php, line: 254
 msgid "Disable hardware TCP segmentation offload"
-msgstr "Отключить сброс сегментации TCP аппаратного обеспечения"
+msgstr "Отключить аппаратную разгрузку сегментации TCP"
 
 # File: src/www/system_advanced_network.php, line: 251
 msgid "Hardware TSO"
@@ -5990,15 +5990,15 @@ msgid ""
 "Rarely, drivers may have problems with checksum offloading and some specific "
 "NICs."
 msgstr ""
-"Установка этого параметра приведет к отключению сброса контрольной суммы "
-"аппаратного обеспечения. Сброс контрольной суммы отключен в некотором "
-"аппаратном оборудовании, в частности, в некоторых платах Realtek. Редко "
-"драйверы могут иметь проблемы со сбросом контрольной суммы и некоторыми "
+"Установка этого параметра приведет к отключению аппаратной разгрузки контрольной суммы. "
+"Разгрузка контрольной суммы не работает на некотором "
+"оборудовании, в частности, в некоторых платах Realtek. Редко "
+"драйверы могут иметь проблемы с разгрузкой контрольной суммы и некоторыми "
 "конкретными сетевыми платами."
 
 # File: src/www/system_advanced_network.php, line: 241
 msgid "Disable hardware checksum offload"
-msgstr "Отключить сброс контрольной суммы аппаратного обеспечения"
+msgstr "Отключить аппаратную разгрузку контрольной суммы"
 
 # File: src/www/system_advanced_network.php, line: 238
 msgid "Hardware CRC"
@@ -9570,13 +9570,11 @@ msgid ""
 "specified."
 msgstr ""
 "Выбор всех интерфейсов будет явно прослушивать только указанные интерфейсы/"
-"IP."
+"IP-адреса."
 
 # File: src/www/services_ntpd.php, line: 255
 msgid "Selecting no interfaces will listen on all interfaces with a wildcard."
-msgstr ""
-"Невыбор каких-либо интерфейсов будет прослушивать все интерфейсы с помощью "
-"специального символа."
+msgstr "Если ничего не выбрано, то прослушиваться будут все интерфейсы."
 
 # File: src/www/services_ntpd.php, line: 226
 msgid "NTP Server Configuration"
@@ -9983,7 +9981,7 @@ msgstr "Включить перенаправляющий DNS-сервер"
 
 # File: src/www/services_dnsmasq.php, line: 188
 msgid "General DNS Forwarder Options"
-msgstr "Общие параметры перенаправляющего DNS-сервера изменена"
+msgstr "Общие параметры перенаправляющего DNS-сервера"
 
 # File: src/www/services_dnsmasq.php, line: 178
 msgid "The DNS forwarder configuration has been changed."
@@ -17459,7 +17457,7 @@ msgstr "Отключить это правило"
 # File: src/www/vpn_openvpn_server.php, line: 733
 # File: src/www/vpn_openvpn_server.php, line: 1710
 msgid "Disabled"
-msgstr "Отключена"
+msgstr "Отключен"
 
 # File: src/www/firewall_nat_1to1_edit.php, line: 293
 msgid "Edit NAT 1:1 entry"
@@ -17837,7 +17835,7 @@ msgstr "Частота обновл. (дней)"
 # File: src/www/system_routes_edit.php, line: 307
 # File: src/www/vpn_ipsec_phase1.php, line: 718
 msgid "You may enter a description here for your reference (not parsed)."
-msgstr "Вы можете ввести здесь описание ссылки (не обработано)."
+msgstr "Вы можете ввести здесь описание по своему усмотрению (не обрабатывается)."
 
 #
 # File: /usr/core/src/www/firewall_aliases_edit.php, line: 467
@@ -18862,7 +18860,7 @@ msgstr "Если установлен флажок,"
 
 # File: src/www/diag_packet_capture.php, line: 328
 msgid "Promiscuous"
-msgstr "Смешанный режим"
+msgstr "Прослушивание"
 
 # File: src/www/diag_packet_capture.php, line: 323
 msgid "Select the interface on which to capture traffic."
@@ -30214,8 +30212,8 @@ msgid ""
 "Connections coming from (src) or going to (dst) listed countries, default "
 "selects both."
 msgstr ""
-"Соединения от (источник) или в (назначения) указанные в списке страны, по "
-"умолчанию выбраны оба."
+"Соединения от (Source) или в (Destination) указанные в списке страны, по "
+"умолчанию выбраны оба направления."
 
 #
 # File: /usr/lang/src/controllers.php, line: 239
@@ -31426,7 +31424,7 @@ msgid ""
 "Enable promiscuous mode, for certain setups (like IPS with vlans), this is "
 "required to actually capture data on the physical interface."
 msgstr ""
-"Включить неразборчивый режим, на некоторых установках (таких как IPS с "
+"Включить режим прослушивания, на некоторых установках (таких как IPS с "
 "VLAN). Требуется для захвата данных на физическом интерфейсе."
 
 # File: /usr/lang/src/controllers.php, line: 236
@@ -31435,7 +31433,7 @@ msgid ""
 "all hardware offloading first <a href=\"/system_advanced_network.php\">in "
 "advanced network</a>."
 msgstr ""
-"Включить режим защиты (блокировка трафика).<br />Перед включением, пожалуйста, сперва отключите разгрузку аппаратного обеспечения разгрузку в <a href=\"/system_advanced_network.php\">дополнительных настройках сети</a>."
+"Включить режим защиты (блокировка трафика).<br />Перед включением, пожалуйста, сперва отключите разгрузку аппаратного обеспечения в <a href=\"/system_advanced_network.php\">дополнительных настройках сети</a>."
 
 # File: /usr/lang/src/controllers.php, line: 237
 msgid "Enable proxy"
@@ -31515,7 +31513,7 @@ msgstr "Включить эту функцию."
 
 # File: /usr/lang/src/controllers.php, line: 92
 msgid "Enable this fingerprint rule."
-msgstr "Включить это правило отпечатка пальца."
+msgstr "Включить это правило отпечатка."
 
 # File: /usr/lang/src/controllers.php, line: 93
 msgid "Enable this frontend"
@@ -34555,7 +34553,7 @@ msgstr "Таймаут обработки"
 
 # File: /usr/lang/src/controllers.php, line: 380
 msgid "Promiscuous mode"
-msgstr "Смешанный режим"
+msgstr "Режим прослушивания"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 173
 # File: src/www/diag_ipsec_sad.php, line: 58

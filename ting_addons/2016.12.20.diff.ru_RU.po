@@ -1998,7 +1998,7 @@ msgid ""
 "all hardware offloading first <a href=\"/system_advanced_network.php\">in "
 "advanced network</a>."
 msgstr ""
-"Включить режим защиты (блокировка трафика).<br />Перед включением, пожалуйста, сперва отключите разгрузку аппаратного обеспечения разгрузку в <a href=\"/system_advanced_network.php\">дополнительных настройках сети</a>."
+"Включить режим защиты (блокировка трафика).<br />Перед включением, пожалуйста, сперва отключите разгрузку аппаратного обеспечения в <a href=\"/system_advanced_network.php\">дополнительных настройках сети</a>."
 
 # File: /usr/lang/src/controllers.php, line: 237
 msgid "Enable proxy"
@@ -2383,7 +2383,7 @@ msgstr "Размер в режиме предпросмотра"
 
 # File: /usr/lang/src/controllers.php, line: 380
 msgid "Promiscuous mode"
-msgstr "Смешанный режим"
+msgstr "Режим прослушивания"
 
 # File: /usr/lang/src/controllers.php, line: 384
 msgid "Proxy interfaces"

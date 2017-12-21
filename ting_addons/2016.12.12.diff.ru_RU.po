@@ -205,7 +205,7 @@ msgstr ""
 
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 155
 msgid "Start IPsec in debug mode based on sections selected"
-msgstr "Запустить IPSec в режиме на основе выбранных разделов"
+msgstr "Запустить IPSec в режиме отладки по выбранным разделам"
 
 # File: /usr/core/src/www/vpn_ipsec_settings.php, line: 127
 msgid ""
