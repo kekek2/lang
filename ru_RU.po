@@ -2902,7 +2902,7 @@ msgstr "Показать Phase2-записи %s"
 
 # File: src/www/vpn_ipsec.php, line: 413
 msgid "clone phase1 entry"
-msgstr "удалить phase1-запись"
+msgstr "скопировать phase1-запись"
 
 # File: src/www/vpn_ipsec.php, line: 405
 msgid "delete phase1 entry"
@@ -2910,7 +2910,7 @@ msgstr "удалить phase1-запись"
 
 # File: src/www/vpn_ipsec.php, line: 401
 msgid "edit phase1 entry"
-msgstr "удалить phase1-запись"
+msgstr "редактировать phase1-запись"
 
 # File: src/www/vpn_ipsec.php, line: 397
 # File: src/www/vpn_ipsec.php, line: 513
@@ -4899,7 +4899,7 @@ msgstr "Существующие Сертификаты"
 
 # File: src/www/system_certmanager.php, line: 1087
 msgid "Choose an Existing Certificate"
-msgstr "Импортировать существующий центр сертификации"
+msgstr "Импортировать существующий сертификат"
 
 # File: /usr/core/src/www/system_certmanager.php, line: 1075
 msgid "IT department"
