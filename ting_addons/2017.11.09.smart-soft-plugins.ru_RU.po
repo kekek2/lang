@@ -190,3 +190,9 @@ msgstr "Аутентификация NTLM"
 msgid "This value can not be empty"
 msgstr "Это значение не может быть пустым"
 
+msgid "This host Kerberos account name in AD"
+msgstr "Kerberos-аккаунт этой машины в AD"
+
+msgid "Enter this computer account name to register in AD for kerberos access. Default is hostname with suffix '-K'."
+msgstr "Укажите имя Kerberos-аккаунта этой машины для регистрации в Active Directory. По-умолчанию имя хоста с суффиксом '-K'."
+
