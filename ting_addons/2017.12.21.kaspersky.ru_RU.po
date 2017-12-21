@@ -1,0 +1,638 @@
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/views/SmartSoft/Kaspersky/status.volt, line: 124
+msgid "Service is starting..."
+msgstr "Сервис запускается..."
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/views/SmartSoft/Kaspersky/status.volt, line: 71
+msgid "Service is not running. Runtime information is not available."
+msgstr "Сервис не запущен. Runtime-информация недоступна."
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/views/SmartSoft/Kaspersky/status.volt, line: 46
+msgid "Error uploading license key"
+msgstr "Ошибка загрузки лицензионного ключа"
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/views/SmartSoft/Kaspersky/status.volt, line: 24
+msgid "Upload license key file"
+msgstr "Загрузить файл лицензионного ключа"
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/controllers/SmartSoft/Kaspersky/StatusController.php, line: 9
+msgid "Kaspersky antivirus status"
+msgstr "Kaspersky Antivirus: Состояние"
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/controllers/SmartSoft/Kaspersky/Api/ServiceController.php, line: 139
+msgid "Key file content is empty."
+msgstr "Ключевой файл пустой."
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/controllers/SmartSoft/Kaspersky/Api/ServiceController.php, line: 62
+msgid "Kaspersky ICAP service stopped"
+msgstr "Kaspersky ICAP сервис остановлен"
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/controllers/SmartSoft/Kaspersky/Api/ServiceController.php, line: 58
+msgid "Kaspersky ICAP service reloaded"
+msgstr "Kaspersky ICAP сервис перезагружен"
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/etc/inc/plugins.inc.d/kaspersky.inc, line: 23
+msgid "Kaspersky Antivirus ICAP Service"
+msgstr "Kaspersky Antivirus ICAP сервис"
+
+#
+# File: /usr/lang/src/controllers.php, line: 36
+msgid ""
+"\n"
+"            Enables scanning of multipacked files using the Kaspersky cloud "
+"service.\n"
+"            Multipacked files such as archive files or self-extracting "
+"archives packed multiple times or files with embedded OLE objects may be "
+"scanned in the Kaspersky Kaspersky Security Network cloud service.\n"
+"            "
+msgstr ""
+"\n"
+"            Включить сканирование многократно упакованных файлов с помощью облачного "
+"сервиса Kaspersky cloud.\n"
+"            Многократно упакованные файлы, такие как архивы или саморазворачивающиеся "
+"архивы, упакованные несколько раз, или файлы с внедрёнными OLE-объектами могут быть "
+"просканированы в облачном сервисе Kaspersky Security Network.\n"
+"            "
+
+#
+# File: /usr/lang/src/controllers.php, line: 40
+msgid ""
+"\n"
+"            Interval between automatic updates (in minutes). The maximum "
+"value is 44640. If this parameter is 0, KAV SDK does not perform automatic "
+"updates.\n"
+"            The default value is 30.\n"
+"        "
+msgstr ""
+"\n"
+"            Интервал между автоматическими обновлениями (в минутах). Максимальное значение "
+"44640. Если этот параметр равен 0, KAV SDK не производит "
+"автоматические обновления.\n"
+"            Значение по-умолчанию 30.\n"
+"        "
+
+#
+# File: /usr/lang/src/controllers.php, line: 44
+msgid ""
+"\n"
+"            Scanning of email database files. Setting this scanning option "
+"enables support for the following formats of mail databases:\n"
+"            <ul>\n"
+"                <li>Outlook Express</li>\n"
+"                <li>The Bat!</li>\n"
+"                <li>Berkeley Message Base (Berkeley UNIX) format files such "
+"as Berkeley mailbox format archives</li>\n"
+"                <li>Other email storage database files that store emails</"
+"li>\n"
+"            </ul>\n"
+"            Note: some files in Berkley Message Base (BMB) format can be not "
+"emails but log files stored on some UNIX servers, which are often BMB-"
+"encoded. When using this scanning option, exclude such log files from the "
+"scanning location; otherwise, scanning may take longer time.\n"
+"            <div class=\"alert alert-warning\">This option can significantly "
+"decrease system performance.</div>\n"
+"            "
+msgstr ""
+"\n"
+"            Сканирование почтавых баз данных. Включение этой опции сканирования "
+"разрешает сканирование следующих форматов почтовых баз данных:\n"
+"            <ul>\n"
+"                <li>Outlook Express</li>\n"
+"                <li>The Bat!</li>\n"
+"                <li>Berkeley Message Base (Berkeley UNIX) форматы, такие как "
+"Berkeley mailbox архивы</li>\n"
+"                <li>Другие почтовые базы данных</"
+"li>\n"
+"            </ul>\n"
+"            Помните: некоторые файлы в формате Berkley Message Base (BMB) могут быть "
+"не почтовыми, а log-файлами на некоторых UNIX-серверах, которые часто BMB-"
+"кодированы. Когда используете эту опцию сканирования, исключите такие log-файлы из "
+"сканирования; в противном случае, сканирование может быть долгим.\n"
+"            <div class=\"alert alert-warning\">Эта опция может значительно "
+"снизить производительность системы.</div>\n"
+"            "
+
+#
+# File: /usr/lang/src/controllers.php, line: 55
+msgid ""
+"\n"
+"            Scanning of email messages. Setting this scanning option enables "
+"support for the following formats of plain email message files:\n"
+"            <ul>\n"
+"                <li>Text message files in RFC 822 format</li>\n"
+"                <li>Microsoft Outlook message files (MSG)</li>\n"
+"                <li>Any files encoded using UUE/XXE/base64 text encodings "
+"such as UUE archives.</li>\n"
+"            </ul>\n"
+"            <div class=\"alert alert-warning\">This option can significantly "
+"decrease system performance.</div>\n"
+"        "
+msgstr ""
+"\n"
+"            Сканирование почтовых сообщений. Включение этой опции сканирования "
+"разрешает сканирование следующих форматов почтовых сообщений:\n"
+"            <ul>\n"
+"                <li>Текстовые файлы в формате RFC 822</li>\n"
+"                <li>Сообщения Microsoft Outlook (MSG)</li>\n"
+"                <li>Любые файлы, закодированные с помощью UUE/XXE/base64 кодировщиков, "
+"такие как UUE-архивы.</li>\n"
+"            </ul>\n"
+"            <div class=\"alert alert-warning\">Эта опция может значительно снизить "
+"производительность системы.</div>\n"
+"        "
+
+#
+# File: /usr/lang/src/controllers.php, line: 64
+msgid ""
+"\n"
+"            Specifies the maximum amount of system memory that can be "
+"allocated by the kavicapd service (in kilobytes).\n"
+"            This measure prevents operating system from running out of "
+"memory. Excessive use of system memory may occur when the kavicapd service "
+"scans large files or receives a lot of scan requests simultaneously. When "
+"the RAM Usage Limit limit is reached, the kavicapd service stops processing "
+"the object that caused memory overuse.\n"
+"            If the value of this parameter is 0, the amount of system memory "
+"that can be allocated by the kavicapd service is not limited.\n"
+"            <div class=\"alert alert-warning\">The anti-malware database and "
+"libraries used by KAV SDK occupy about 300 MB (this amount doubles while "
+"reloading the database). KAV SDK also requires memory for working of its "
+"components.</div>\n"
+"        "
+msgstr ""
+"\n"
+"            Указывает максимальное количество системной памяти которое может быть "
+"использовано сервисом kavicapd (в килобайтах).\n"
+"            Эта настройка защищает операционную систему от полного исчерпания "
+"памяти. Интенсивное использование системной памяти может возникнуть при сканировании "
+"больших файлов или при получении множества запросов на сканирование одновременно. Когда "
+"предел использования памяти достигается, сервис kavicapd останавливает обработку "
+"объектов.\n"
+"            Если этот параметр равен 0, количество системной памяти "
+"которая может быть зарезервирована сервисом kavicapd не ограничено.\n"
+"            <div class=\"alert alert-warning\">Антивирусные базы и библиотеки, "
+"используемые KAV SDK занимают около 300 MB (это количество удваивается "
+"во время перезагрузки баз). KAV SDK также требует памяти для работы "
+"компонент.</div>\n"
+"        "
+
+#
+# File: /usr/lang/src/controllers.php, line: 70
+msgid ""
+"\n"
+"            Specifies the maximum amount of the disk space that can be "
+"allocated for unpacking of a\n"
+"            packed object (in kilobytes). Limiting disk allocated for an "
+"unpacked object protects the server\n"
+"            from zip-bombs. If the value of this parameter is 0, the zip "
+"bomb protection is disabled.\n"
+"            The default value is 102400.\n"
+"        "
+msgstr ""
+"\n"
+"            Указывает максимальное количество дискового пространства которое может быть "
+"задействовано для распаковки\n"
+"            упакованных объектов (в килобайтах). Ограничение дискового пространства "
+"защищает сервер от\n"
+"            zip-бомб. Если значение параметра равно 0, защита от zip-бомб "
+"отключена.\n"
+"            Значение по-умолчанию 102400.\n"
+"        "
+
+#
+# File: /usr/lang/src/controllers.php, line: 76
+msgid ""
+"\n"
+"            Specifies the maximum size of a file that can be scanned by the "
+"kavicapd service (in kilobytes).\n"
+"            If the value of this parameter is 0, the kavicapd service will "
+"scan files of any size.\n"
+"            The preset value is 0.\n"
+"        "
+msgstr ""
+"\n"
+"            Устанавливает максимальный размер файла, который может быть просканирован "
+"сервисом kavicapd (в килобайтах).\n"
+"            Если значение этого параметра равно 0, сервис kavicapd будет сканировать "
+"файлы любых размеров.\n"
+"            Предустановленное значение 0.\n"
+"        "
+
+#
+# File: /usr/lang/src/controllers.php, line: 81
+msgid ""
+"\n"
+"            Specifies the scanning timeout (in milliseconds). If the value "
+"of this parameter is 0,\n"
+"            the timeout is disabled. Default value is 10000 (10 seconds).\n"
+"        "
+msgstr ""
+"\n"
+"            Устанавливает таймаут сканирования (в миллисекундах). Если значение "
+"этого параметра равно 0,\n"
+"            таймаут отключён. Значение по-умолчанию 10000 (10 секунд).\n"
+"        "
+
+#
+# File: /usr/lang/src/controllers.php, line: 85
+msgid ""
+"\n"
+"            The level of detail of the advanced heuristic analyzer provides "
+"the balance between the quality of the scanning and the consuming of the "
+"operating system resources, as well as the duration of the scan. The higher "
+"the advanced heuristics level is, the more system resources are required, "
+"and the longer the scanning lasts.\n"
+"            <ul>\n"
+"                <li><b>Shallow</b> - the scanning level will be shallow.</"
+"li>\n"
+"                <li><b>Medium</b> - the scanning level will be medium, it "
+"can decrease system performance.</li>\n"
+"                <li><b>Detail</b> - this option is recommended for POP3 "
+"monitoring, but this can affect system performance.</li>\n"
+"                <li><b>Maximum</b> - this level allows you to turn on a "
+"thorough heuristic analysis mode in KAV Engine that empowers your "
+"application with an even more tricky heuristic emulation of files and other "
+"objects you are scanning. Using this scanning mode may result in significant "
+"scanning performance degradation.</li>\n"
+"            </ul>\n"
+"            \n"
+"        "
+msgstr ""
+"\n"
+"            Уровень детализации эвристического анализатора позволяет найти "
+"баланс между качеством сканирования и использованием ресурсов "
+"операционной системы, также как и длительностью сканирования. Больший "
+"эвристический уровень требует больше системных ресурсов, "
+"и длится дольше.\n"
+"            <ul>\n"
+"                <li><b>Shallow</b> - поверхностный уровень сканирования.</"
+"li>\n"
+"                <li><b>Medium</b> - уровень сканирования средний, он "
+"может снизить производительность системы.</li>\n"
+"                <li><b>Detail</b> - этот уровень рекомендуется для "
+"мониторинга POP3, но он может воздействовать на производительность системы.</li>\n"
+"                <li><b>Maximum</b> - этот уровень позволяет включить "
+"полный эвристический анализ в KAV Engine. "
+"Использование этого режима сканирования может привести к существенной "
+"деградации производительности сканирования.</li>\n"
+"            </ul>\n"
+"            \n"
+"        "
+
+#
+# File: /usr/lang/src/controllers.php, line: 95
+msgid ""
+"\n"
+"            This value defines whether the kavicapd service sends 204 No "
+"Content HTTP status code instead of unchanged data to proxy server.\n"
+"            If the value of this parameter is 1, kavicapd service returns "
+"the 204 No Content status code instead of unchanged data. If the value of "
+"this parameter is 0, kavicapd service returns unchanged data.\n"
+"        "
+msgstr ""
+"\n"
+"            Эта настройка указывает. может ли сервис kavicapd посылать HTTP-статус 204 "
+"вместо неизменённых данных прокси-серверу.\n"
+"            Если этот параметр включён, сервис kavicapd возвращает ответ "
+"204 - No Content - вместо неизменённых данных. Если выключен, "
+"сервис kavicapd возвращает неизменённые данные.\n"
+"        "
+
+#
+# File: /usr/lang/src/controllers.php, line: 99
+msgid "Active Key File Name"
+msgstr "Имя файла активного ключа."
+
+#
+# File: /usr/lang/src/controllers.php, line: 100
+msgid "Advanced heuristic code analyzer."
+msgstr "Эвристический анализатор"
+
+#
+# File: /usr/lang/src/controllers.php, line: 101
+msgid "Allow 204 Response"
+msgstr "Разрешить код ответа 204"
+
+#
+# File: /usr/lang/src/controllers.php, line: 216
+msgid "Cache Size"
+msgstr "Размер кэша"
+
+#
+# File: /usr/lang/src/controllers.php, line: 103
+msgid "Database release date"
+msgstr "Дата актуальности сигнатур"
+
+#
+# File: /usr/lang/src/controllers.php, line: 104
+msgid "Days Left"
+msgstr "Осталось дней"
+
+#
+# File: /usr/lang/src/controllers.php, line: 105
+msgid "Disk Usage Limit"
+msgstr "Лимит использования диска"
+
+#
+# File: /usr/lang/src/controllers.php, line: 106
+msgid "Enable KSN"
+msgstr "Включить KSN"
+
+#
+# File: /usr/lang/src/controllers.php, line: 107
+msgid "Enable Kaspersky Antivirus"
+msgstr "Включить Kaspersky Antivirus"
+
+#
+# File: /usr/lang/src/controllers.php, line: 108
+msgid ""
+"Enable cloud scanning. If it is enabled, then hashes of objects are checked "
+"in the cloud regardless of the detection by local technologies. In the "
+"cloud, in addition to detecting records, there are also checks for false "
+"alarms."
+msgstr ""
+"Включить облачное сканирование. Если включено, хэши объектов проверяются "
+"в облаке вне зависимости от результатов локальной проверки. В облаке, "
+"кроме проверки на вирусы также происходит проверка на ложное "
+"срабатывание."
+
+#
+# File: /usr/lang/src/controllers.php, line: 110
+msgid "Expiration Date"
+msgstr "Дата окончания"
+
+#
+# File: /usr/lang/src/controllers.php, line: 112
+msgid "Heuristic Analyser"
+msgstr "Эвристический анализатор"
+
+#
+# File: /usr/lang/src/controllers.php, line: 113
+msgid "Heuristic Analyser Level"
+msgstr "Уровень эвристического анализатора"
+
+#
+# File: /usr/lang/src/controllers.php, line: 114
+msgid "ICAP Port"
+msgstr "Порт ICAP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 115
+msgid "ICAPD version"
+msgstr "Версия ICAPD"
+
+#
+# File: /usr/lang/src/controllers.php, line: 116
+msgid "KAV SDK version"
+msgstr "Версия KAV SDK"
+
+#
+# File: /usr/lang/src/controllers.php, line: 117
+msgid ""
+"KSN scanning timeout (in milliseconds). This value cannot be zero. The "
+"default value is 10000 (10 seconds)."
+msgstr ""
+"Таймаут сканирования в KSN (в миллисекундах). Это значение не может быть 0. "
+"Значение по-умолчанию 10000 (10 секунд)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 118
+msgid "Kaspersky Security Network Options"
+msgstr "Настройки Kaspersky Security Network"
+
+#
+# File: /usr/lang/src/controllers.php, line: 119
+msgid "Key Files List"
+msgstr "Список ключевых файлов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 814
+msgid "Log Level"
+msgstr "Уровень протоколирования"
+
+#
+# File: /usr/lang/src/controllers.php, line: 122
+msgid "Logging level"
+msgstr "Уровень детализации лог-файла"
+
+#
+# File: /usr/lang/src/controllers.php, line: 123
+msgid "Max ICAP sessions count"
+msgstr "Максимум сессий ICAP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 124
+msgid ""
+"Maximum size of KSN status cache (in kilobytes). This cache is used by the "
+"kavicapd to store scan statuses obtained from the KSN cloud. The default "
+"value is 30720.\n"
+"        "
+msgstr ""
+"Максимальный размер кэша KSN (в килобайтах). Этот кэш используется "
+"сервисом kavicapd для хранения результатов сканирования, полученных из облака KSN. Значение "
+"по-умолчанию 30720.\n"
+"        "
+
+#
+# File: /usr/lang/src/controllers.php, line: 126
+msgid "Proxy Host"
+msgstr "Прокси-сервер"
+
+#
+# File: /usr/lang/src/controllers.php, line: 127
+msgid "Proxy IP or hostname."
+msgstr "Имя или IP-адрес прокси-сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 128
+msgid "Proxy Password"
+msgstr "Пароль прокси-сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 129
+msgid "Proxy Port"
+msgstr "Порт прокси-сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 130
+msgid "Proxy Settings"
+msgstr "Настройки прокси"
+
+#
+# File: /usr/lang/src/controllers.php, line: 131
+msgid "Proxy User"
+msgstr "Имя пользователя прокси"
+
+#
+# File: /usr/lang/src/controllers.php, line: 132
+msgid "Proxy port number."
+msgstr "Порт прокси-сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 133
+msgid "Proxy user name."
+msgstr "Имя пользователя прокси-сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 134
+msgid "Proxy user password."
+msgstr "Пароль пользователя прокси-сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 135
+msgid "Queue Length"
+msgstr "Длина очереди"
+
+#
+# File: /usr/lang/src/controllers.php, line: 136
+msgid "RAM Usage Limit"
+msgstr "Лимит RAM"
+
+#
+# File: /usr/lang/src/controllers.php, line: 137
+msgid "Records in the database"
+msgstr "Записей в базе данных"
+
+#
+# File: /usr/lang/src/controllers.php, line: 138
+msgid "Scan Archived"
+msgstr "Сканировать архивы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 139
+msgid "Scan Mail Bases"
+msgstr "Сканировать почтовые базы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 140
+msgid "Scan Max File Size"
+msgstr "Максимальный размер файла"
+
+#
+# File: /usr/lang/src/controllers.php, line: 141
+msgid "Scan Multipacked in KSN"
+msgstr "Сканировать перепакованные архивы в KSN"
+
+#
+# File: /usr/lang/src/controllers.php, line: 142
+msgid "Scan Options"
+msgstr "Опции сканирования"
+
+#
+# File: /usr/lang/src/controllers.php, line: 143
+msgid "Scan Packed Executables"
+msgstr "Сканировать упакованные исполняемые файлы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 144
+msgid "Scan Phishing"
+msgstr "Сканировать на фишинг"
+
+#
+# File: /usr/lang/src/controllers.php, line: 145
+msgid "Scan Plain Mail"
+msgstr "Сканировать почтовые сообщения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 146
+msgid "Scan Timeout"
+msgstr "Таймаут сканирования"
+
+#
+# File: /usr/lang/src/controllers.php, line: 147
+msgid "Scan web addresses by phishing database."
+msgstr "Сканировать web-адреса по базе данных фишинга."
+
+#
+# File: /usr/lang/src/controllers.php, line: 148
+msgid "Scanners Count"
+msgstr "Количество сканеров"
+
+#
+# File: /usr/lang/src/controllers.php, line: 149
+msgid "Scanning Timeout"
+msgstr "Таймаут сканирования"
+
+#
+# File: /usr/lang/src/controllers.php, line: 150
+msgid "Scanning of archived files."
+msgstr "Сканировать файлы архивов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 151
+msgid "Scanning of compressed executable files."
+msgstr "Сканирование схотых исполняемых файлов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 152
+msgid "Specifies the lengths of the queue for scan tasks."
+msgstr "Указывает длину очереди заданий на сканирование."
+
+#
+# File: /usr/lang/src/controllers.php, line: 153
+msgid ""
+"Specifies the maximum number of simultaneous connections to the kavicapd "
+"service. The default value is 100."
+msgstr ""
+"Указывает максимальное число одновременных соединений к сервису kavicapd. "
+"Значение по-умолчанию 100."
+
+#
+# File: /usr/lang/src/controllers.php, line: 154
+msgid ""
+"Specifies the number of scanning processes. Our recommendation is to have a "
+"count of scanners equal to the number of physical CPU cores."
+msgstr ""
+"Указывает количество процессов сканирования. Наша рекомендация "
+"иметь количество сканеров равное числу физических ядер процессора."
+
+#
+# File: /usr/lang/src/controllers.php, line: 155
+msgid ""
+"Specifies the port number of the kavicapd service. The default value is 1344."
+msgstr ""
+"Указывает номер порта сервиса kavicapd. Значение по-умолчанию 1344."
+
+#
+# File: /usr/lang/src/controllers.php, line: 156
+msgid ""
+"Specifies the total number of scanning threads on all scanning processes. "
+"Recommended value is twice of scanners count."
+msgstr ""
+"Указывает общее число сканирующих потоков всех сканирующих процессов. "
+"Рекомендуется значение в два раза большее, чем количество сканеров."
+
+#
+# File: /usr/lang/src/controllers.php, line: 158
+msgid "Threads Count"
+msgstr "Количество потоков"
+
+#
+# File: /usr/lang/src/controllers.php, line: 159
+msgid "Update Period"
+msgstr "Период обновления"
+
+#
+# File: /usr/lang/src/controllers.php, line: 160
+msgid "Upload License Key"
+msgstr "Загрузить лицензионный ключ"
+
+#
+# File: /usr/lang/src/controllers.php, line: 162
+msgid "Use proxy when making requests to the Kaspersky Lab cloud services."
+msgstr "Использовать прокси-сервер при подключении к облачному сервису Kaspersky Lab."
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/controllers/SmartSoft/Kaspersky/IndexController.php, line: 9
+# File: /usr/lang/src/models.php, line: 36
+msgid "Kaspersky antivirus"
+msgstr "Kaspersky антивирус"
+
