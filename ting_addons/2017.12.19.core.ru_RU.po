@@ -1,0 +1,474 @@
+#
+# File: /usr/core/src/www/vpn_openvpn_client.php, line: 1141
+# File: /usr/core/src/www/vpn_openvpn_server.php, line: 1562
+msgid ""
+"Enter any additional options you would like to add to the configuration file "
+"here."
+msgstr ""
+"Внесите сюда любые дополнительные настройки, которые вы хотите добавить в "
+"файл конфигурации."
+
+#
+# File: /usr/core/src/www/vpn_openvpn_client.php, line: 795
+msgid ""
+"Renegotiate data channel key after n seconds (default=3600). Set to 0 to "
+"disable."
+msgstr ""
+"Обновлять ключи каждые n секунд (по-умолчанию=3600). Укажите 0 для "
+"отключения."
+
+#
+# File: /usr/core/src/www/vpn_openvpn_client.php, line: 720
+msgid "Infinitely resolve remote server"
+msgstr "Бесконечно запрашивать удалённый сервер"
+
+#
+# File: /usr/core/src/www/vpn_openvpn_client.php, line: 717
+msgid "Retry DNS resolution"
+msgstr "Повторять DNS запросы"
+
+#
+# File: /usr/core/src/www/vpn_openvpn_client.php, line: 713
+msgid "Select remote server at random"
+msgstr "Случайный выбор удалённого сервера"
+
+#
+# File: /usr/core/src/www/vpn_openvpn_client.php, line: 671
+msgid "Host or address"
+msgstr "Хост или адрес"
+
+#
+# File: /usr/core/src/www/vpn_openvpn_client.php, line: 665
+msgid "Remote server"
+msgstr "Удалённый сервер"
+
+#
+# File: /usr/core/src/www/vpn_openvpn_client.php, line: 234
+msgid "At least one remote server must be specified."
+msgstr "Хотя бы один удалённый сервер должен быть указан."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_settings.php, line: 182
+msgid ""
+"This exempts traffic for one or more subnets from getting processed by the "
+"IPsec stack in the kernel. When sending all traffic to the remote location, "
+"you probably want to add your lan network(s) here"
+msgstr ""
+"Это освобождает трафик одной или нескольких сетей от обработки в стеке IPsec в ядре "
+"При отправке всего трафика на удалённую точку, вы, вероятно, "
+"захотите добавить сюда вашу LAN-сеть."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_settings.php, line: 173
+msgid "Passthrough networks"
+msgstr "Пропускать сети"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_settings.php, line: 62
+#, php-format
+msgid "Entry \"%s\" is not a valid network."
+msgstr "Запись \"%s\" не является сетью."
+
+#
+# File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 113
+msgid "User Settings"
+msgstr "Пользовательские настройки"
+
+#
+# File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 84
+#, php-format
+msgid "Saved settings for user \"%s\""
+msgstr "Сохоанённые настройки для пользователя \"%s\""
+
+#
+# File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 70
+msgid "Sorry, you cannot change settings for a non-local user."
+msgstr "Простите, вы не можете менять настройки не локальных пользователей."
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 446
+msgid ""
+"Outgoing packets from this firewall on an interface which has a gateway will "
+"normally use the specified gateway for that interface. When this option is "
+"set, the default routing rules apply (automatic rules will be disabled)."
+msgstr ""
+"Пакеты, исходящие с этого фаервола через интерфейс, который имеет шлюз, как "
+"правило, используют шлюз, указанный для интерфейса. Когда эта опция включена, "
+"применяются правила маршрутизации по-умолчанию (автоматические правила отключены)."
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 444
+msgid ""
+"Disable automatic rules which force local services to use the assigned "
+"interface gateway."
+msgstr ""
+"Отключить автоматические правила, которые заставляют локальные сервисы "
+"использовать шлюз, назначенный на интерфейс."
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 441
+msgid "Disable force gateway"
+msgstr "Отключить назначение шлюзов"
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 612
+msgid ""
+"Only accept connections from the selected interfaces. Leave empty to listen "
+"globally. Use with care."
+msgstr ""
+"Принимать соединения только на выбранных интерфейсах. Оставьте пустым для "
+"прослушивания на всех. Используйте с осторожностью."
+
+#
+# File: /usr/core/src/www/system_advanced_admin.php, line: 604
+msgid "All (recommended)"
+msgstr "Все (рекомендуется)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 800
+msgid "Listen Interfaces"
+msgstr "Слушать интерфейсы"
+
+#
+# File: /usr/core/src/www/services_router_advertisements.php, line: 309
+# File: /usr/lang/src/controllers.php, line: 103
+msgid "Advertise Default Gateway"
+msgstr "Объявлять шлюз по-умолчанию"
+
+#
+# File: /usr/core/src/www/services_router_advertisements.php, line: 259
+msgid ""
+"Use \"Router Only\" to only advertise this router, \"Unmanaged\" for Router "
+"Advertising with Stateless Autoconfig, \"Managed\" for exclusive DHCPv6 "
+"Server assignment, \"Assisted\" for DHCPv6 Server assignment combined with "
+"Stateless Autoconfig, or \"Stateless\" for Router Advertising with Statless "
+"Autoconfig and optional DHCPv6 Server queries."
+msgstr ""
+"Используйте \"Только роутер\" для объявления только этого роутера, \"Неуправляемый\" для "
+"объявления рутера с неопределённой автоконфигурацией, \"Управляемый\" для эксклюзивно "
+"назначенного сервера DHCPv6, \"Вспомогательный\" для назначенного сервера DHCPv6 комбинированного с "
+"неопределённой автоконфигурацией, или \"Неопределённый\" для объявления роутера с неопределённой автоконфигурацией "
+"и опциональными запросами сервера DHCPv6."
+
+#
+# File: /usr/core/src/www/services_router_advertisements.php, line: 253
+msgid "Stateless"
+msgstr "Неопределённый"
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 1769
+msgid "Insert my currently connected MAC address (use with care)"
+msgstr "Вставить мой текущий MAC адрес (используйте осторожно)"
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 1760
+msgid ""
+"This field can be used to spoof the MAC address of the interface. Enter a "
+"MAC address in the following format: xx:xx:xx:xx:xx:xx or leave blank if "
+"unsure. This may only be required e.g. with certain cable connections on a "
+"WAN interface."
+msgstr ""
+"Это поле может быть использовано для подмены MAC адреса интерфейса. Введите "
+"MAC адрес в следующем формате: xx:xx:xx:xx:xx:xx или оставьте пустым если "
+"не уверены. Это может потребоваться в некоторых случаях для кабельного соединения "
+"на WAN интерфейсе."
+
+#
+# File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 434
+msgid "Select an unassigned VHID"
+msgstr "Выберите неназначенный VHID"
+
+#
+# File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 166
+#, php-format
+msgid "VHID %s must be defined on interface %s as a CARP VIP first."
+msgstr "VHID %s должен быть сначала определён на интерфейсе %s как CARP VIP."
+
+#
+# File: /usr/core/src/www/firewall_virtual_ip_edit.php, line: 151
+msgid "A VHID must be selected for this CARP VIP."
+msgstr "VHID должен быть выбран для этого CARP VIP."
+
+#
+# File: /usr/core/src/www/firewall_rules.php, line: 53
+# File: /usr/core/src/www/firewall_scrub.php, line: 41
+msgid ""
+"The settings have been applied and the rules are now reloading in the "
+"background."
+msgstr ""
+"Настройки применены и правила перезагружаются сейчас в фоновом "
+"режиме."
+
+#
+# File: /usr/core/src/www/firewall_nat_out_edit.php, line: 182
+msgid "Negating source address of \"any\" is invalid."
+msgstr "Инверсия адреса источника \"any\" некорректна."
+
+#
+# File: /usr/core/src/www/firewall_aliases_edit.php, line: 647
+msgid "toggle all"
+msgstr "включить все"
+
+#
+# File: /usr/core/src/www/firewall_aliases_edit.php, line: 188
+msgid "At least one alias entry must be supplied."
+msgstr "Хотя бы один псевдоним должен быть представлен."
+
+#
+# File: /usr/core/src/www/crash_reporter.php, line: 198
+msgid ""
+"This crash report contains no actual crash information. If you want to "
+"submit a problem please fill out your e-mail and description below."
+msgstr ""
+"Этот отчёт не содержит актуальной информации об ошибке. Если вы хотите "
+"сообщить об ошибке пожалуйста укажите ваш e-mail и опишите проблему."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 328
+msgid "Edit blacklist"
+msgstr "Редактировать чёрный список"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 476
+msgid "Информация сигнала"
+msgstr ""
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 134
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 167
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 196
+msgid "Payload"
+msgstr "Нагрузка"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 439
+msgid "Configured action"
+msgstr "Настроенное действие"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 69
+msgid ""
+"Flush the ARP cache manually, in case your ARP cache contains invalid data."
+msgstr ""
+"Очистите кэш ARP вручную в случае, если ваш кэш ARP содержит некорректные данные."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 68
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/arp.volt, line: 75
+msgid "Flush ARP Table"
+msgstr "Очистить ARP-таблицу"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Cron/index.volt, line: 158
+msgid "Edit job"
+msgstr "Редактировать задачу"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 365
+msgid "orphaned"
+msgstr "неактуальный"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 284
+msgid "Action done."
+msgstr "Выполнено."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 206
+msgid "Executing, please wait..."
+msgstr "Выполняется, пожалуйста подождите..."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 157
+msgid "Plugin details"
+msgstr "Описание плагина"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 153
+msgid "Sorry, plugin details are currently not available."
+msgstr "К сожалению, описание плагина сейчас недоступно."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 137
+msgid "Auditing, please wait..."
+msgstr "Идёт аудит, пожалуйста подождите..."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 114
+msgid "Updating, please wait..."
+msgstr "Обновление, пожалуйста подождите..."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 41
+msgid "Checking, please wait..."
+msgstr "Проверка, пожалуйста подождите..."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/index.volt, line: 244
+msgid "Edit zone"
+msgstr "Редактировать зону"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 137
+msgid "Connected since"
+msgstr "Подключен с"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 99
+msgid "Do you want to disconnect the selected client?"
+msgstr "Вы хотите отключить выбранного клиента?"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/CaptivePortal/clients.volt, line: 98
+msgid "Confirm disconnect"
+msgstr "Подтверждение отключения"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Syslog/LogviewController.php, line: 57
+#, php-format
+msgid "Log File: %s"
+msgstr "Лог-файл: %s"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Syslog/Api/ServiceController.php, line: 132
+msgid "Can not clear log"
+msgstr "Невозможно очистить лог"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Syslog/Api/ServiceController.php, line: 128
+msgid "Not found"
+msgstr "Не найдено"
+
+#
+# File: /usr/core/src/etc/inc/system.inc, line: 247
+msgid "Portuguese (Portugal)"
+msgstr "Португальский (Португалия)"
+
+#
+# File: /usr/core/src/etc/inc/system.inc, line: 246
+msgid "Portuguese (Brazil)"
+msgstr "Португальский (Бразилия)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 151
+msgid "Enable Linux Package Cache"
+msgstr "Включить кэш пакетов Linux"
+
+#
+# File: /usr/lang/src/controllers.php, line: 157
+msgid "Enable Windows Update Cache"
+msgstr "Включить кэш обновлений Windows"
+
+#
+# File: /usr/lang/src/controllers.php, line: 162
+msgid ""
+"Enable or disable the caching of Windows updates. This makes sense if you "
+"don't have a WSUS server. If you can setup a WSUS server, this solution "
+"should be preferred."
+msgstr ""
+"Включить или выключить кэширование обновлений Windows. Это имеет значение "
+"если у вас нет сервера WSUS. Если вы можете установить сервер WSUS, то это "
+"решение предпочтительнее."
+
+#
+# File: /usr/lang/src/controllers.php, line: 163
+msgid ""
+"Enable or disable the caching of packages for linux distributions. This "
+"makes sense if you have multiple servers in your network and do not host "
+"your own package mirror. This will reduce internet traffic usage but "
+"increase disk access."
+msgstr ""
+"Включить или выключить кэширование пакетов дистрибутивов Linux. Это "
+"имеет значение, если у вас есть несколько серверов в сети и нет своего "
+"зеркала обновлений. Это уменьшит интернет-трафик, но увеличит "
+"использование дискового пространства."
+
+#
+# File: /usr/lang/src/controllers.php, line: 582
+msgid "Exclusion List"
+msgstr "Список исключений"
+
+#
+# File: /usr/lang/src/controllers.php, line: 583
+msgid ""
+"Exclusion list destination domains.<br/>\n"
+"        You may use a regular expression, use a comma or press Enter for new "
+"item.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">mydomain.com</b> -> matches on <b>*."
+"mydomain.com</b><br/>\n"
+"            <b class=\"text-primary\">^https?:\\/\\/([a-zA-Z]+)\\.mydomain\\."
+"</b> -> matches on <b>http(s)://textONLY.mydomain.*</b><br/>\n"
+"            <b class=\"text-primary\">\\.gif$</b> -> matches on <b>\\*.gif</"
+"b> but not on <b class=\"text-danger\">\\*.gif\\test</b><br/>\n"
+"            <b class=\"text-primary\">\\[0-9]+\\.gif$</b> -> matches on <b>"
+"\\123.gif</b> but not on <b class=\"text-danger\">\\test.gif</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+"Список исключений доменов назначения.<br/>\n"
+"        Вы можете использовать регулярные выражения, используйте запятую или клавишу Enter для "
+"добавления нового значения.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Примеры:</b><br/>\n"
+"            <b class=\"text-primary\">mydomain.com</b> -> соответствует <b>*."
+"mydomain.com</b><br/>\n"
+"            <b class=\"text-primary\">^https?:\\/\\/([a-zA-Z]+)\\.mydomain\\."
+"</b> -> соответствует <b>http(s)://textONLY.mydomain.*</b><br/>\n"
+"            <b class=\"text-primary\">\\.gif$</b> -> соответствует <b>\\*.gif</"
+"b> но не <b class=\"text-danger\">\\*.gif\\test</b><br/>\n"
+"            <b class=\"text-primary\">\\[0-9]+\\.gif$</b> -> соответствует <b>"
+"\\123.gif</b> но не <b class=\"text-danger\">\\test.gif</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>Совет: </b>Вы также можете вставить "
+"список значений, разделённых запятыми в это поле.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 687
+msgid "Home networks"
+msgstr "Домашние сети"
+
+#
+# File: /usr/lang/src/controllers.php, line: 270
+msgid "Log package payload"
+msgstr "Протоколировать содержимое пакета"
+
+#
+# File: /usr/lang/src/controllers.php, line: 946
+msgid "Networks to interpret as local"
+msgstr "Сети, интерпретируемые как локальные."
+
+#
+# File: /usr/lang/src/controllers.php, line: 310
+msgid "SNMP port"
+msgstr "Порт SNMP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 341
+msgid "Send package payload to the log for further analyses."
+msgstr "Отправлять содержимое пакета в лог для дальнейшего анализа."
+
+#
+# File: /usr/lang/src/controllers.php, line: 358
+msgid ""
+"The port number where Squid listens for SNMP requests. To enable SNMP "
+"support set this to a suitable port number. Port number 3401 is often used "
+"for the Squid SNMP agent. By default it's set to \"0\" (disabled)"
+msgstr ""
+"Порт, на котором прокси-сервер принимает SNMP-запросы. Для включения поддержки SNMP "
+"укажите здесь порт. Для SNMP агента често используется порт 3401. "
+"Значение по-умолчанию \"0\" (отключено)."
+
+#
+# File: /usr/lang/src/models.php, line: 41
+msgid "Activity"
+msgstr "Активность"
+
+#
+# File: /usr/lang/src/models.php, line: 185
+msgid "SNMP port needs to be an integer value between 0 and 65535"
+msgstr "Порт SNMP должен быть целым числом от 0 до 65535"
+
+
