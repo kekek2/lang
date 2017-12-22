@@ -454,7 +454,7 @@ msgstr "Имя или IP-адрес прокси-сервера"
 #
 # File: /usr/lang/src/controllers.php, line: 128
 msgid "Proxy Password"
-msgstr "Пароль прокси-сервера"
+msgstr "Пароль"
 
 #
 # File: /usr/lang/src/controllers.php, line: 129
@@ -469,7 +469,7 @@ msgstr "Настройки прокси"
 #
 # File: /usr/lang/src/controllers.php, line: 131
 msgid "Proxy User"
-msgstr "Имя пользователя прокси"
+msgstr "Имя пользователя"
 
 #
 # File: /usr/lang/src/controllers.php, line: 132
@@ -569,7 +569,7 @@ msgstr "Сканировать файлы архивов."
 #
 # File: /usr/lang/src/controllers.php, line: 151
 msgid "Scanning of compressed executable files."
-msgstr "Сканирование схотых исполняемых файлов."
+msgstr "Сканирование сжатых исполняемых файлов."
 
 #
 # File: /usr/lang/src/controllers.php, line: 152

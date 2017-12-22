@@ -36162,7 +36162,7 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 1285
 msgid "Proxy Password"
-msgstr "Пароль прокси-сервера"
+msgstr "Пароль"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1286
@@ -36177,7 +36177,7 @@ msgstr "Настройки прокси"
 #
 # File: /usr/lang/src/controllers.php, line: 1288
 msgid "Proxy User"
-msgstr "Имя пользователя прокси"
+msgstr "Имя пользователя"
 
 # File: /usr/lang/src/controllers.php, line: 384
 msgid "Proxy interfaces"
@@ -36953,7 +36953,7 @@ msgstr "Сканировать файлы архивов."
 #
 # File: /usr/lang/src/controllers.php, line: 1444
 msgid "Scanning of compressed executable files."
-msgstr "Сканирование схотых исполняемых файлов."
+msgstr "Сканирование сжатых исполняемых файлов."
 
 # File: /usr/lang/src/controllers.php, line: 409
 msgid "Scheduler type"
