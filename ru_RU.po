@@ -6826,7 +6826,7 @@ msgstr ""
 # File: src/www/system_advanced_network.php, line: 192
 msgid ""
 "All IPv6 traffic will be blocked by the firewall unless this box is checked."
-msgstr "Межсетевой экран заблокирует весь трафик IPv6, если этот флажок не "
+msgstr "Межсетевой экран заблокирует весь трафик IPv6, если этот флажок не установлен."
 
 # File: src/www/system_advanced_network.php, line: 187
 # File: src/www/system_advanced_network.php, line: 191
