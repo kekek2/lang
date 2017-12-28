@@ -44149,6 +44149,33 @@ msgid "Your configuration is now complete."
 msgstr "Конфигурация закончена."
 
 #
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 683
+msgid "Disable anti-lockout"
+msgstr "Отключить анти-блокировку"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 686
+msgid "Disable administration anti-lockout rule"
+msgstr "Отключить административное анти-блокировочное правило"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 688
+#, php-format
+msgid ""
+"When this is unchecked, access to the web GUI or SSH on the %s interface is "
+"always permitted, regardless of the user-defined firewall rule set. Check "
+"this box to disable the automatically added rule, so access is controlled "
+"only by the user-defined firewall rules. Ensure you have a firewall rule in "
+"place that allows you in, or you will lock yourself out."
+msgstr ""
+"Если этот параметр не установлен, доступ к веб-интерфейсу или SSH по "
+"интерфейсу LAN всегда разрешен независимо от заданного пользователем набора "
+"правил брандмауэра. Установите этот флажок, чтобы отключить автоматически "
+"добавляемое правило, доступ осуществляется только по пользовательским "
+"правилам брандмауэра. Убедитесь, что у вас есть правило брандмауэра, "
+"которое позволяет вам войти, или вы заблокируете себя."
+
+#
 # File: /usr/lang/src/wizards.php, line: 305
 msgid "addrpool"
 msgstr ""
