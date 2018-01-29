@@ -1,0 +1,110 @@
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 140
+msgid "Test SMS Delivery"
+msgstr "Тест доставки SMS"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 133
+msgid "Save Agreement"
+msgstr "Сохранить Соглашение"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 109
+msgid "Test SMS"
+msgstr "Тестовое SMS"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 55
+msgid "Send SMS"
+msgstr "Отправить SMS"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 193
+msgid ""
+"Enable automatic authentification on transparent proxy. Disable this option "
+"if you do not use transperent proxy redirection in Captive Portal zone "
+"configuration. If use this option, proxy will not send authentication "
+"requests to user. Proxy access logs will have user-based statistics and "
+"proxy-based traffic filtering will be enabled for SMS portal users. User "
+"name in proxy log will be in form [Phone]-[MAC-address]."
+msgstr ""
+"Включить автоматическую аутентификацию на прозрачном прокси. Отключите эту опцию "
+"если Вы не используете перенаправление на прозрачный прокси в конфигурации зоны Captive Portal. "
+"При использовании этой опции прокси не будет посылать пользователю запросы на "
+"аутентификацию на прокси. Протокол доступа прокси будет содержать статистику по пользовательскому трафику, "
+"а также будет доступна возможность фильтрации трафика средствами прокси для пользователей SMS-портала. "
+"Имя пользователя в логах прокси будет в форме [телефон]-[MAC-адрес]."
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 190
+msgid "Proxy Authentication"
+msgstr "Аутентификация на прокси"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 184
+msgid ""
+"Comma separated list of user group names, allowed for user mapping. Used in "
+"SMS Portal template during user login. Can be used in proxy filtering rules."
+msgstr ""
+"Список имён групп, разделённый запятыми, для назначения пользователям. Используется "
+"на странице аутентификации SMS-портала. Группы могут быть использованы для назначения правил фильтрации."
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 181
+msgid "User Groups"
+msgstr "Группы пользователей"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/controllers/SmartSoft/SMSPortal/Api/ServiceController.php, line: 136
+msgid "SMS sent"
+msgstr "SMS отправлено"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/controllers/SmartSoft/SMSPortal/Api/AccessController.php, line: 68
+#, php-format
+msgid "User group '%s' not found"
+msgstr "Группа пользователей '%s' не найдена"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/controllers/SmartSoft/SMSPortal/Api/AccessController.php, line: 65
+msgid "User group is not set"
+msgstr "Не указана группа пользователя"
+
+#
+# File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 98
+# File: /usr/lang/src/controllers.php, line: 46
+msgid "Personal Agreement"
+msgstr "Пользовательское соглашение"
+
+#
+# File: /usr/lang/src/controllers.php, line: 47
+msgid "Personal agreement, used in portal template."
+msgstr "Пользовательское соглашение, используемое в шаблоне страницы аутентификации на портале."
+
+#
+# File: /usr/lang/src/controllers.php, line: 49
+msgid "Phone number to send SMS using current SMS gate settings."
+msgstr "Номер телефона, на который нужно отправить SMS, используя текущие настройки SMS-портала."
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 36
+msgid "SMS Portal for Captive Portal"
+msgstr "SMS-портал для Captive Portal"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 37
+msgid ""
+"SMS Portal for Captive Portal\n"
+"\n"
+"This package is a plug-in to the Captive Portal, \n"
+"which allows you to set up SMS authentication on the Captive Portal.\n"
+"\n"
+"Maintainer: evbevz@gmail.com"
+msgstr ""
+"SMS-портал для Captive Portal\n"
+"\n"
+"Этот пакет представляет из себя плагин к Captive Portal, \n"
+"который позволяет использовать SMS-аутентификацию в Captive Portal.\n"
+"\n"
+"Сопровождение: evbevz@gmail.com"
+
