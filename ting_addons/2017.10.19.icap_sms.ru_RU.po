@@ -208,12 +208,12 @@ msgstr "Максимальное количество SMS с одного IP-а�
 #
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 92
 msgid "Session started"
-msgstr "Сессия запущена"
+msgstr "Сессия начата"
 
 #
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 91
 msgid "Code expiration"
-msgstr "Срок действия кода истёк"
+msgstr "Код действителен до"
 
 #
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 88
@@ -251,7 +251,7 @@ msgstr "Срок действия кода, сек"
 #
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 129
 msgid "Code Lifetime"
-msgstr "Время дейсивия кода"
+msgstr "Время действия кода"
 
 #
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/controllers/SmartSoft/SMSPortal/Api/AccessController.php, line: 62

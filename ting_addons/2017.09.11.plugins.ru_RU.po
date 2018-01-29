@@ -1551,7 +1551,7 @@ msgstr "Конечная точка"
 #
 # File: /usr/lang/src/controllers.php, line: 400
 msgid "Enforce local group"
-msgstr "Принудительно использовать локальную группу"
+msgstr "Только локальная группа"
 
 #
 # File: /usr/lang/src/controllers.php, line: 401

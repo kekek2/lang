@@ -6826,7 +6826,8 @@ msgstr ""
 # File: src/www/system_advanced_network.php, line: 192
 msgid ""
 "All IPv6 traffic will be blocked by the firewall unless this box is checked."
-msgstr "Межсетевой экран заблокирует весь трафик IPv6, если этот флажок не установлен."
+msgstr ""
+"Межсетевой экран заблокирует весь трафик IPv6, если этот флажок не установлен."
 
 # File: src/www/system_advanced_network.php, line: 187
 # File: src/www/system_advanced_network.php, line: 191
@@ -24551,12 +24552,12 @@ msgstr ""
 #
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 92
 msgid "Session started"
-msgstr "Сессия запущена"
+msgstr "Сессия начата"
 
 #
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 91
 msgid "Code expiration"
-msgstr "Срок действия кода истёк"
+msgstr "Код действителен до"
 
 #
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 88
@@ -24599,7 +24600,7 @@ msgstr "Срок действия кода, сек"
 #
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/library/OPNsense/Auth/SMS.php, line: 129
 msgid "Code Lifetime"
-msgstr "Время дейсивия кода"
+msgstr "Время действия кода"
 
 #
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/controllers/SmartSoft/SMSPortal/Api/AccessController.php, line: 62
@@ -32572,7 +32573,7 @@ msgstr "Конечная точка"
 #
 # File: /usr/lang/src/controllers.php, line: 400
 msgid "Enforce local group"
-msgstr "Принудительно использовать локальную группу"
+msgstr "Только локальная группа"
 
 #
 # File: /usr/lang/src/controllers.php, line: 401
@@ -36481,8 +36482,8 @@ msgid ""
 "        <b>NOTE:</b> please be aware that users (or vouchers) which aren't "
 "administered locally will be denied when using this option."
 msgstr ""
-"Ограничить доступ пользователей в выбранной (локальной)группе. <br/>\n"
-"        <b>СОВЕТ:</b> пожалуйста, имейте ввиду, что ползователи (или ваучеры) которые не "
+"Ограничить доступ пользователей выбранной локальной группой. <br/>\n"
+"        <b>СОВЕТ:</b> пожалуйста, имейте ввиду, что пользователи (или ваучеры) которые не "
 "администрируются локально будут недействительны когда используется эта опция."
 
 #
@@ -38736,7 +38737,7 @@ msgstr ""
 msgid ""
 "The header which should be used to send the username to the ICAP server."
 msgstr ""
-"Заголовок, который должен использоваться для отправки имени пользователя на "
+"Заголовок, который должен использоваться для отправки имени пользователя на ICAP-сервер."
 
 # File: /usr/lang/src/controllers.php, line: 597
 msgid "The hostname for the selected machine in the network"
@@ -39945,7 +39946,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 209
 msgid "Use this option if your usernames need to be encoded."
-msgstr "Используйте этот параметр, если ваши имена пользователей необходимо "
+msgstr "Используйте этот параметр, если имена пользователей необходимо кодировать"
 
 # File: /usr/lang/src/controllers.php, line: 210
 msgid "Use this to invert the meaning of the expression."
@@ -44156,7 +44157,7 @@ msgstr "Отключить анти-блокировку"
 #
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 686
 msgid "Disable administration anti-lockout rule"
-msgstr "Отключить административное анти-блокировочное правило"
+msgstr "Отключить правило анти-блокировки управления"
 
 #
 # File: /usr/core/src/www/system_advanced_firewall.php, line: 688
@@ -44173,7 +44174,7 @@ msgstr ""
 "правил брандмауэра. Установите этот флажок, чтобы отключить автоматически "
 "добавляемое правило, доступ осуществляется только по пользовательским "
 "правилам брандмауэра. Убедитесь, что у вас есть правило брандмауэра, "
-"которое позволяет вам войти, или вы заблокируете себя."
+"которое позволяет вам войти, или вы заблокируете себе доступ к управлению."
 
 #
 # File: /usr/lang/src/wizards.php, line: 305
