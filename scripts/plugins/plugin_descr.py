@@ -46,6 +46,6 @@ def getTranslations(root):
         yield comment
 
     try:
-        yield '%s\n\n%s\n\nMaintainer: %s' % (comment, open('%s/pkg-descr' % rootpath).read(), maintainer)
+        yield '%s\n\n%s\nMaintainer: %s' % (comment, open('%s/pkg-descr' % rootpath).read(), maintainer)
     except IOError:
         pass

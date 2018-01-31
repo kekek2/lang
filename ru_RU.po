@@ -45913,7 +45913,7 @@ msgid ""
 "\n"
 "WWW: https://github.com/mmatuska/relayd\n"
 "\n"
-"Maintainer: franco@opnsense.org"
+"Maintainer: frank.brendel@eurolog.com"
 msgstr ""
 "Балансировщик нагрузки Relayd\n"
 "\n"
@@ -45930,7 +45930,7 @@ msgstr ""
 "\n"
 "WWW: https://github.com/mmatuska/relayd\n"
 "\n"
-"Сопровождение: franco@opnsense.org"
+"Сопровождение: frank.brendel@eurolog.com"
 
 #
 # File: /usr/lang/src/plugin_descr.php, line: 550
