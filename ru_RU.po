@@ -24245,26 +24245,6 @@ msgstr ""
 msgid "Configuration of node"
 msgstr "Конфигурация узла"
 
-#
-# File: /usr/plugins/mail/rspamd/src/opnsense/mvc/app/views/OPNsense/Rspamd/index.volt, line: 109
-msgid ""
-"The Redis plugin is configured to use but it is not installed. Please "
-"install it via %sSystem > Firmware > Plugins%s."
-msgstr ""
-
-#
-# File: /usr/plugins/mail/rspamd/src/opnsense/mvc/app/views/OPNsense/Rspamd/index.volt, line: 105
-msgid ""
-"No ClamAV plugin found, please install via %sSystem > Firmware > Plugins%s. "
-"If the plugin is not installed and enabled, mails cannot be scanned for "
-"malware."
-msgstr ""
-
-#
-# File: /usr/plugins/mail/rspamd/src/etc/inc/plugins.inc.d/rspamd.inc, line: 51
-msgid "Rapid Spamfilter Daemon"
-msgstr ""
-
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 126
 msgid "Node configuration not found."
 msgstr "Файл конфигурации узла не найден."
@@ -29807,11 +29787,6 @@ msgstr "Разрешить код ответа 204"
 msgid "Allow 204 responses"
 msgstr "Разрешить ответ 204"
 
-#
-# File: /usr/lang/src/controllers.php, line: 180
-msgid "Allow Environment From Empty"
-msgstr ""
-
 # File: /usr/lang/src/controllers.php, line: 39
 msgid ""
 "Allow HAProxy to automatically raise log level for non-completely successful "
@@ -29821,23 +29796,8 @@ msgstr ""
 "полностью успешных подключений для отладки."
 
 #
-# File: /usr/lang/src/controllers.php, line: 182
-msgid "Allow Header From Mismatch"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 183
-msgid "Allow Header From Multiple"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 184
 msgid "Allow TLS Only"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 185
-msgid "Allow Username Mismatch"
 msgstr ""
 
 #
@@ -29914,11 +29874,6 @@ msgid "Alwaysdata"
 msgstr ""
 
 #
-# File: /usr/lang/src/controllers.php, line: 202
-msgid "Anti Malware"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 203
 msgid "Append a HTTP header field with the specified name."
 msgstr ""
@@ -29972,11 +29927,6 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 212
 msgid "Attempt to circumvent censorship."
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 213
-msgid "Auth Only"
 msgstr ""
 
 #
@@ -30099,11 +30049,6 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 95
 msgid "Banned host IP addresses"
 msgstr "Заблокированные IP-адреса хоста"
-
-#
-# File: /usr/lang/src/controllers.php, line: 238
-msgid "Bayes Leraning"
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 119
@@ -30282,36 +30227,6 @@ msgstr ""
 "Время, на которое блокируется правило. Правило блокирует содинение "
 "с запрещённым трафиком. Значение по умолчанию 3660 (или 1 час)."
 
-#
-# File: /usr/lang/src/controllers.php, line: 281
-msgid "Bounce Limit per IP: Mail Count"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 282
-msgid "Bounce Limit per IP: Time"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 283
-msgid "Bounce Limit per IP: Time Unit"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 284
-msgid "Bounce Limit: Mail Count"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 285
-msgid "Bounce Limit: Time"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 286
-msgid "Bounce Limit: Time Unit"
-msgstr ""
-
 # File: lang/dynamic/helpers/models.php, line: 106
 # File: src/www/interfaces_bridge.php, line: 92
 msgid "Bridge"
@@ -30405,16 +30320,6 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 215
 msgid "CRL"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 301
-msgid "Cache Expiration"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 302
-msgid "Cache Expire"
 msgstr ""
 
 #
@@ -30986,11 +30891,6 @@ msgstr "Пользовательский шаблон"
 #
 # File: /usr/lang/src/controllers.php, line: 265
 msgid "Customer"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 392
-msgid "DKIM"
 msgstr ""
 
 #
@@ -31881,21 +31781,6 @@ msgid "Enable Nut"
 msgstr ""
 
 #
-# File: /usr/lang/src/controllers.php, line: 532
-msgid "Enable Openphish"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 533
-msgid "Enable Openphish Premium"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 534
-msgid "Enable Phishtank"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 326
 msgid "Enable Plugin"
 msgstr "Включить плагин"
@@ -31917,11 +31802,6 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 553
 msgid "Enable Redis"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 538
-msgid "Enable Redis Plugin"
 msgstr ""
 
 #
@@ -32370,11 +32250,6 @@ msgstr ""
 msgid "Enable or disable the proxy service."
 msgstr "Включить или отключить использование прокси-сервера."
 
-#
-# File: /usr/lang/src/controllers.php, line: 612
-msgid "Enable or disable the rspamd service."
-msgstr ""
-
 # File: /usr/lang/src/controllers.php, line: 267
 msgid "Enable or disable this ftp proxy."
 msgstr "Включить или отключить FTP-proxy."
@@ -32428,11 +32303,6 @@ msgid ""
 "appropiate firewall rules for this to work."
 msgstr ""
 "Включить удаленный доступ к странице статистики HAProxy. <b>В целях безопасности лучше не включать этот параметр, если не включена аутентификация.</b> Примечание: для удаленного доступа необходимо добавить соответствующие правила межсетевого экрана."
-
-#
-# File: /usr/lang/src/controllers.php, line: 622
-msgid "Enable rspamd"
-msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 87
 msgid "Enable ruleset"
@@ -32568,21 +32438,6 @@ msgstr "Включить эту функцию."
 # File: /usr/lang/src/controllers.php, line: 92
 msgid "Enable this fingerprint rule."
 msgstr "Включить это правило отпечатка."
-
-#
-# File: /usr/lang/src/controllers.php, line: 640
-msgid "Enable this if you want to enable bayes learning."
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 641
-msgid "Enable this if you want to enable fuzzy learning."
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 642
-msgid "Enable this if you want to enable the spam trap."
-msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 285
 msgid "Enable this network"
@@ -32775,22 +32630,9 @@ msgstr "Введите URL для загрузки черного списка."
 msgid "Enter either the IP address or FQDN of your Infoblox appliance."
 msgstr "Введите либо IP адрес либо FQDN вышего устройства Infoblox."
 
-#
-# File: /usr/lang/src/controllers.php, line: 676
-msgid "Enter how long SPF entries are valid."
-msgstr ""
-
 # File: lang/dynamic/helpers/controllers.php, line: 55
 msgid "Enter parameters for this job if required."
 msgstr "Если необходимо, введите параметры для этой задачи."
-
-#
-# File: /usr/lang/src/controllers.php, line: 678
-msgid ""
-"Enter regular expressions in the form trap@example\\.com into this field. "
-"The value is automatically enclosed in slashes and the case insensitive "
-"option is added."
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 411
@@ -32918,11 +32760,6 @@ msgstr ""
 msgid "Enter the port of your target server."
 msgstr ""
 
-#
-# File: /usr/lang/src/controllers.php, line: 696
-msgid "Enter the size of the SPF cache."
-msgstr ""
-
 # File: /usr/lang/src/controllers.php, line: 120
 msgid "Enter the size of the preview which is sent to the ICAP server."
 msgstr "Введите размер превью, которое отправляется на ICAP сервер."
@@ -32980,11 +32817,6 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 435
 msgid "Events"
 msgstr "События"
-
-#
-# File: /usr/lang/src/controllers.php, line: 708
-msgid "Exceptions"
-msgstr ""
 
 #
 # File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/views/SmartSoft/NetPolice/index.volt, line: 105
@@ -33061,11 +32893,6 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 759
 msgid "Execution Statistics"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 725
-msgid "Expiration"
 msgstr ""
 
 #
@@ -33258,11 +33085,6 @@ msgid ""
 "output, and will flush this buffer on a successful write."
 msgstr ""
 
-#
-# File: /usr/lang/src/controllers.php, line: 762
-msgid "Force Reject"
-msgstr ""
-
 # File: /usr/lang/src/controllers.php, line: 341
 msgid "Forward HTTP traffic to transparent proxy"
 msgstr "Переадресовывать HTTP-трафик на прозрачный прокси"
@@ -33310,11 +33132,6 @@ msgid ""
 "(in seconds): 15768000 = 6 months"
 msgstr ""
 
-#
-# File: /usr/lang/src/controllers.php, line: 772
-msgid "Fuzzy Leraning"
-msgstr ""
-
 # File: src/www/diag_logs_settings.php, line: 387
 msgid "GUI Log Entries to Display"
 msgstr "Записей в GUI"
@@ -33341,11 +33158,6 @@ msgstr ""
 msgid "Gateway"
 msgstr "Шлюз"
 
-#
-# File: /usr/lang/src/controllers.php, line: 776
-msgid "General Anti Malware Settings"
-msgstr ""
-
 # File: /usr/lang/src/controllers.php, line: 346
 msgid "General Forward Settings"
 msgstr "Основные настройки перенаправления"
@@ -33362,11 +33174,6 @@ msgstr "Основные настройки прокси"
 #
 # File: /usr/lang/src/controllers.php, line: 817
 msgid "General Redis Settings"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 779
-msgid "General Rspamd Settings"
 msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 348
@@ -33459,11 +33266,6 @@ msgstr "Имя узла коллектора graphite"
 # File: /usr/lang/src/controllers.php, line: 504
 msgid "Graphite collector port"
 msgstr "Порт коллектора graphite"
-
-#
-# File: /usr/lang/src/controllers.php, line: 798
-msgid "Graylisting"
-msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 299
 msgid "Group Id"
@@ -33975,11 +33777,6 @@ msgid "IPSConfig"
 msgstr ""
 
 #
-# File: /usr/lang/src/controllers.php, line: 883
-msgid "IPv4 Mask"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 884
 msgid "IPv6 Mask"
 msgstr ""
@@ -34015,11 +33812,6 @@ msgstr ""
 "достигает максимального значения, этот клиент становится полностью заблокирован. "
 "Этот параметр задает интервал, после которого клиент будет разблокирован. "
 "Значение по умолчанию-300 (или 5 мин)."
-
-#
-# File: /usr/lang/src/controllers.php, line: 889
-msgid "If checked, only attached files are scanned and images are omitted."
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 890
@@ -34059,16 +33851,6 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 721
 msgid "If set to true, do no set the \"host\" tag in the Telegraf agent."
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 895
-msgid "If set, a message large than this size will not be scanned."
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 896
-msgid "If set, the mail will be rejected."
 msgstr ""
 
 #
@@ -34130,13 +33912,6 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 727
 msgid "If true, collect raw CPU time metrics."
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 904
-msgid ""
-"If you check this box, the local Redis server will be available to the "
-"modules (some do not work without it)."
 msgstr ""
 
 #
@@ -34918,11 +34693,6 @@ msgid "MIME-type"
 msgstr "MIME-тип"
 
 #
-# File: /usr/lang/src/controllers.php, line: 1039
-msgid "MX Check"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 611
 msgid "Mail Server"
 msgstr "Почтовый сервер"
@@ -34936,11 +34706,6 @@ msgstr "Порт почтового сервера"
 # File: /usr/lang/src/controllers.php, line: 613
 msgid "Mail format"
 msgstr "Формат почты"
-
-#
-# File: /usr/lang/src/controllers.php, line: 1043
-msgid "Mails from IPs entered here will not be scanned."
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 614
@@ -34962,14 +34727,6 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 691
 msgid "Mark encrypted archives as viruses (Encrypted.Zip, Encrypted.RAR)."
 msgstr "Помечать зашифрованные архивы, как вирусы (Encrypted.Zip, Encrypted.RAR)."
-
-#
-# File: /usr/lang/src/controllers.php, line: 1048
-msgid ""
-"Mask bits are used to limit the network range from which the message may be "
-"resent. This is used to avoid a rejection if another server sends the second "
-"mail."
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 616
@@ -35102,11 +34859,6 @@ msgid "Maximum Clients"
 msgstr ""
 
 #
-# File: /usr/lang/src/controllers.php, line: 1074
-msgid "Maximum Data Length"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 1123
 msgid "Maximum Length"
 msgstr ""
@@ -35136,11 +34888,6 @@ msgid "Maximum RAM per LUA process"
 msgstr "Максимальный объем оперативной памяти для LUA-процесса"
 
 #
-# File: /usr/lang/src/controllers.php, line: 1077
-msgid "Maximum Recipients"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 817
 msgid ""
 "Maximum SMS to send from one IP address during code expiration period. "
@@ -35151,11 +34898,6 @@ msgstr "Максимальное количество SMS с одного IP-а�
 # File: /usr/lang/src/controllers.php, line: 339
 msgid "Maximum SSL DH Size"
 msgstr "Максимальный размер SSL DH-ключа"
-
-#
-# File: /usr/lang/src/controllers.php, line: 1080
-msgid "Maximum Size"
-msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 340
 msgid "Maximum connections"
@@ -35857,11 +35599,6 @@ msgid "Onion Service"
 msgstr ""
 
 #
-# File: /usr/lang/src/controllers.php, line: 1193
-msgid "Only Scan Attachments"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 795
 msgid ""
 "Only if the object is bigger than size then the percentage of data which "
@@ -36086,51 +35823,6 @@ msgstr "Сравнение маршрутов"
 msgid "Peer-IP"
 msgstr ""
 
-#
-# File: /usr/lang/src/controllers.php, line: 1230
-msgid "Per IP Limit: Mail Count"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1231
-msgid "Per IP Limit: Time"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1232
-msgid "Per IP Limit: Time Unit"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1233
-msgid "Per IP and From Limit: Mail Count"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1234
-msgid "Per IP and From Limit: Time"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1235
-msgid "Per IP and From Limit: Time Unit"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1236
-msgid "Per Recipient Limit: Mail Count"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1237
-msgid "Per Recipient Limit: Time"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1238
-msgid "Per Recipient Limit: Time Unit"
-msgstr ""
-
 # File: /usr/lang/src/controllers.php, line: 450
 msgid "Per host bandwidth throttling (kbps)"
 msgstr "Регулирование общей пропускной для хоста (Кбит/с)"
@@ -36175,11 +35867,6 @@ msgstr "Пользовательское соглашение"
 # File: /usr/lang/src/controllers.php, line: 1305
 msgid "Personal agreement, used in portal template."
 msgstr "Пользовательское соглашение, используемое в шаблоне страницы аутентификации на портале."
-
-#
-# File: /usr/lang/src/controllers.php, line: 1245
-msgid "Phishing"
-msgstr ""
 
 # File: src/www/interfaces.php, line: 629
 # File: src/www/interfaces.php, line: 2146
@@ -36541,11 +36228,6 @@ msgid "Raise Log Level"
 msgstr "Повысить уровень регистрации данных"
 
 #
-# File: /usr/lang/src/controllers.php, line: 1307
-msgid "Rate Limit"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 1065
 msgid "Read metrics about CPU usage."
 msgstr ""
@@ -36585,11 +36267,6 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 739
 msgid "Recipient"
 msgstr "Получатель"
-
-#
-# File: /usr/lang/src/controllers.php, line: 1316
-msgid "Recipients"
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 1317
@@ -37106,11 +36783,6 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 1148
 msgid "STUN server"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1418
-msgid "SURBL"
 msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 408
@@ -37636,11 +37308,6 @@ msgstr "Посылать данные о процентах"
 #
 # File: /usr/lang/src/controllers.php, line: 1598
 msgid "Sender Address"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1530
-msgid "Sender Policy Framework (SPF)"
 msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 439
@@ -38223,11 +37890,6 @@ msgstr ""
 "Показать описание примененного правила ниже или в строках журнала "
 "межсетевого экрана."
 
-#
-# File: /usr/lang/src/controllers.php, line: 1611
-msgid "Sign Local"
-msgstr ""
-
 # File: /usr/lang/src/controllers.php, line: 464
 msgid "Signature Id"
 msgstr "Идентификатор подписи"
@@ -38278,11 +37940,6 @@ msgstr ""
 msgid ""
 "Size of history index cache in bytes. Shared memory size for indexing "
 "history cache. Range: 128K-2G"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1620
-msgid "Skip Multi"
 msgstr ""
 
 #
@@ -38350,16 +38007,6 @@ msgstr "IP адрес источника для исходящих соедин�
 # File: src/www/firewall_rules_edit.php, line: 919
 msgid "Source address"
 msgstr "IP-адрес источника"
-
-#
-# File: /usr/lang/src/controllers.php, line: 1627
-msgid "Spam Protection"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1628
-msgid "Spam Trap"
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 1330
@@ -39141,11 +38788,6 @@ msgid ""
 msgstr ""
 "Исходное число процессов сервера. Каждый процесс сервера генерирует "
 "определённое число потоков, которые обслуживают запросы."
-
-#
-# File: /usr/lang/src/controllers.php, line: 1743
-msgid "The limit of the length of data to hash."
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 1428
@@ -40010,11 +39652,6 @@ msgid "This will activate the telegraf agent."
 msgstr ""
 
 #
-# File: /usr/lang/src/controllers.php, line: 1867
-msgid "This will allow Postfix to connect to rspamd via milter protocol."
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 1406
 msgid "This will allow to take settings user name from local squid"
 msgstr "Получить параметры аутентификации из локального прокси-сервера"
@@ -40110,16 +39747,6 @@ msgid "Threads per child"
 msgstr "Потоков на потомка."
 
 #
-# File: /usr/lang/src/controllers.php, line: 1883
-msgid "Time Jitter"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1884
-msgid "Time after which the graylist state expires in days."
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 1549
 msgid ""
 "Time in milli seconds siproxd should wait until the connection is "
@@ -40196,16 +39823,6 @@ msgstr "Прозрачный прокси (HTTPS)"
 #
 # File: /usr/lang/src/controllers.php, line: 1900
 msgid "Trusted Networks"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1901
-msgid "Trusted Only"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1902
-msgid "Try Fallback"
 msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 520
@@ -40342,11 +39959,6 @@ msgstr "Загрузить лицензионный ключ"
 msgid "Usable Servers"
 msgstr ""
 
-#
-# File: /usr/lang/src/controllers.php, line: 1919
-msgid "Use Domain"
-msgstr ""
-
 # File: /usr/lang/src/controllers.php, line: 531
 msgid "Use Frontend port"
 msgstr "Использовать порт клиентского компонента"
@@ -40385,11 +39997,6 @@ msgstr "Подключить локальный прокси-сервер к c-i
 # File: lang/dynamic/helpers/controllers.php, line: 46
 msgid "Use custom template package for user login"
 msgstr "Использовать пользовательский шаблон страницы входа в систему"
-
-#
-# File: /usr/lang/src/controllers.php, line: 1928
-msgid "Use eSLD"
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 1929
@@ -40442,21 +40049,6 @@ msgstr "Пользователь"
 # File: /usr/lang/src/controllers.php, line: 762
 msgid "User IP"
 msgstr "IP адрес пользователя"
-
-#
-# File: /usr/lang/src/controllers.php, line: 1938
-msgid "User Limit: Mail Count"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1939
-msgid "User Limit: Time"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1940
-msgid "User Limit: Time Unit"
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 728
@@ -40728,11 +40320,6 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 549
 msgid "Whitelist"
 msgstr "Белый список"
-
-#
-# File: /usr/lang/src/controllers.php, line: 1980
-msgid "Whitelist Recipients"
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 709
@@ -41153,50 +40740,8 @@ msgstr ""
 "59 символов."
 
 #
-# File: /usr/lang/src/models.php, line: 37
-msgid "A valid IPv4 mask must be between 1 and 32 bits."
-msgstr ""
-
-#
-# File: /usr/lang/src/models.php, line: 38
-msgid ""
-"A valid IPv6 mask must be between 1 and 128 bits. 64 bits are recommended as "
-"this is the recommended subnet size in IPv6."
-msgstr ""
-
-#
 # File: /usr/lang/src/models.php, line: 38
 msgid "A valid Port number must be specified."
-msgstr ""
-
-#
-# File: /usr/lang/src/models.php, line: 40
-msgid "A valid cache expiration must be set."
-msgstr ""
-
-#
-# File: /usr/lang/src/models.php, line: 41
-msgid "A valid cache size in kilobytes must be set."
-msgstr ""
-
-#
-# File: /usr/lang/src/models.php, line: 42
-msgid "A valid cache size must be set."
-msgstr ""
-
-#
-# File: /usr/lang/src/models.php, line: 43
-msgid "A valid expiration time must be set."
-msgstr ""
-
-#
-# File: /usr/lang/src/models.php, line: 44
-msgid "A valid maximum size in bytes must be set."
-msgstr ""
-
-#
-# File: /usr/lang/src/models.php, line: 45
-msgid "A valid time jitter must be set."
 msgstr ""
 
 # File: /usr/lang/src/models.php, line: 37
@@ -42964,11 +42509,6 @@ msgid ""
 "dashes, underscores and plus sign."
 msgstr ""
 
-#
-# File: /usr/lang/src/models.php, line: 401
-msgid "The count value must be a positive number."
-msgstr ""
-
 # File: /usr/lang/src/models.php, line: 290
 msgid ""
 "The filename may only contain letters, digits and one dot (not required)."
@@ -42984,11 +42524,6 @@ msgstr "Имя должно содержать только буквенно-ц�
 msgid ""
 "The name should only consist of alphanumeric characters, dashes and "
 "underscores."
-msgstr ""
-
-#
-# File: /usr/lang/src/models.php, line: 405
-msgid "The time must be a positive integer."
 msgstr ""
 
 # File: lang/dynamic/helpers/models.php, line: 353
@@ -46513,6 +46048,482 @@ msgstr ""
 "WWW: http://c-icap.sourceforge.net/\n"
 "\n"
 "Сопровождение: m.muenz@gmail.com"
+
+#
+# File: /usr/plugins/mail/rspamd/src/opnsense/mvc/app/views/OPNsense/Rspamd/index.volt, line: 109
+msgid ""
+"The Redis plugin is configured to use but it is not installed. Please "
+"install it via %sSystem > Firmware > Plugins%s."
+msgstr ""
+"Плагин Redis настроен на использование, но он не установлен. Пожалуйста,"
+"установите его в %sSystem > Firmware > Plugins%s."
+
+#
+# File: /usr/plugins/mail/rspamd/src/opnsense/mvc/app/views/OPNsense/Rspamd/index.volt, line: 105
+msgid ""
+"No ClamAV plugin found, please install via %sSystem > Firmware > Plugins%s. "
+"If the plugin is not installed and enabled, mails cannot be scanned for "
+"malware."
+msgstr ""
+"Не найден плагин ClamAV, пожалуйста, установите его в %sSystem > Firmware > Plugins%s. "
+"Если плагин не установлен и не включен, письма не могут быть проверены на наличие"
+"вредоносных программ"
+
+#
+# File: /usr/plugins/mail/rspamd/src/etc/inc/plugins.inc.d/rspamd.inc, line: 51
+msgid "Rapid Spamfilter Daemon"
+msgstr "Rapid Spamfilter Daemon"
+
+#
+# File: /usr/lang/src/controllers.php, line: 622
+msgid "Enable rspamd"
+msgstr "Включить rspamd"
+
+#
+# File: /usr/lang/src/controllers.php, line: 779
+msgid "General Rspamd Settings"
+msgstr "Основные настройки Rspamd"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1867
+msgid "This will allow Postfix to connect to rspamd via milter protocol."
+msgstr "Позволяет postfix подключаться к rspamd с помощью протокола milter"
+
+#
+# File: /usr/lang/src/controllers.php, line: 612
+msgid "Enable or disable the rspamd service."
+msgstr "Включить или выключить службу rspamd"
+
+#
+# File: /usr/lang/src/controllers.php, line: 538
+msgid "Enable Redis Plugin"
+msgstr "Включить плагин Redis"
+
+#
+# File: /usr/lang/src/controllers.php, line: 904
+msgid ""
+"If you check this box, the local Redis server will be available to the "
+"modules (some do not work without it)."
+msgstr "Если вы установите этот флажок, локальный сервер Redis будет "
+"доступен для модулей (некоторые из них не работают без него)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 725
+msgid "Expiration"
+msgstr "Истечение срока"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1884
+msgid "Time after which the graylist state expires in days."
+msgstr "Время, после которого удаляются записи из серого списка в днях"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1074
+msgid "Maximum Data Length"
+msgstr "Максимальная длина данных"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1743
+msgid "The limit of the length of data to hash."
+msgstr "Предел длины данных для хэширования"
+
+#
+# File: /usr/lang/src/controllers.php, line: 883
+msgid "IPv4 Mask"
+msgstr "Маска IPv4"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1048
+msgid ""
+"Mask bits are used to limit the network range from which the message may be "
+"resent. This is used to avoid a rejection if another server sends the second "
+"mail."
+msgstr "Биты маски используемой для ограничения диапазона сети, из которого "
+"может быть получено сообщение. Она используется, чтобы избежать отлупа, если "
+"другой сервер повторно отправляет почту."
+
+#
+# File: /usr/lang/src/models.php, line: 38
+msgid ""
+"A valid IPv6 mask must be between 1 and 128 bits. 64 bits are recommended as "
+"this is the recommended subnet size in IPv6."
+msgstr "Допустимая маска IPv6 должна быть от 1 до 128 бит. Рекомендуется 64 "
+"бита, так как это рекомендуемый размер подсети в IPv6."
+
+#
+# File: /usr/lang/src/controllers.php, line: 302
+msgid "Cache Expire"
+msgstr "Срок действия кэша"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1883
+msgid "Time Jitter"
+msgstr "Разброс по времени"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1901
+msgid "Trusted Only"
+msgstr "Только доверенные"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1620
+msgid "Skip Multi"
+msgstr "Пропустить множественные"
+
+#
+# File: /usr/lang/src/controllers.php, line: 180
+msgid "Allow Environment From Empty"
+msgstr "Разрешить в конверте пустой адрес отправителя"
+
+#
+# File: /usr/lang/src/controllers.php, line: 182
+msgid "Allow Header From Mismatch"
+msgstr "Разрешить несовпадение в заголовке адреса отправителя"
+
+#
+# File: /usr/lang/src/controllers.php, line: 183
+msgid "Allow Header From Multiple"
+msgstr "Разрешить в заголовке несколько адресов отправителя"
+
+#
+# File: /usr/lang/src/controllers.php, line: 185
+msgid "Allow Username Mismatch"
+msgstr "Разрешить несовпадение имени пользователя"
+
+#
+# File: /usr/lang/src/controllers.php, line: 213
+msgid "Auth Only"
+msgstr "Только аутентифицированные"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1611
+msgid "Sign Local"
+msgstr "Подписанные локально"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1902
+msgid "Try Fallback"
+msgstr "Использовать запасной вариант"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1919
+msgid "Use Domain"
+msgstr "Использовать домен"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1928
+msgid "Use eSLD"
+msgstr "Использовать eSLD"
+
+#
+# File: /usr/lang/src/controllers.php, line: 532
+msgid "Enable Openphish"
+msgstr "Включить Openphish"
+
+#
+# File: /usr/lang/src/controllers.php, line: 533
+msgid "Enable Openphish Premium"
+msgstr "Включить Openphish Premium"
+
+#
+# File: /usr/lang/src/controllers.php, line: 534
+msgid "Enable Phishtank"
+msgstr "Включить Phishtank"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1236
+msgid "Per Recipient Limit: Mail Count"
+msgstr "Ограничение по получателям: количество"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1237
+msgid "Per Recipient Limit: Time"
+msgstr "Ограничение по получателям: время"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1238
+msgid "Per Recipient Limit: Time Unit"
+msgstr "Ограничение по получателям: единица времени"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1230
+msgid "Per IP Limit: Mail Count"
+msgstr "Ограничение по IP: количество"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1231
+msgid "Per IP Limit: Time"
+msgstr "Ограничение по IP: время"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1232
+msgid "Per IP Limit: Time Unit"
+msgstr "Ограничение по IP: единица времени"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1233
+msgid "Per IP and From Limit: Mail Count"
+msgstr "Ограничение по IP и отправителю: количество"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1234
+msgid "Per IP and From Limit: Time"
+msgstr "Ограничение по IP и отправителю: время"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1235
+msgid "Per IP and From Limit: Time Unit"
+msgstr "Ограничение по IP и отправителю: единица времени"
+
+#
+# File: /usr/lang/src/controllers.php, line: 284
+msgid "Bounce Limit: Mail Count"
+msgstr "Ограничение отказов: количество"
+
+#
+# File: /usr/lang/src/controllers.php, line: 285
+msgid "Bounce Limit: Time"
+msgstr "Ограничение отказов: время"
+
+#
+# File: /usr/lang/src/controllers.php, line: 286
+msgid "Bounce Limit: Time Unit"
+msgstr "Ограничение отказов: единица времени"
+
+#
+# File: /usr/lang/src/controllers.php, line: 281
+msgid "Bounce Limit per IP: Mail Count"
+msgstr "Ограничение отказов по IP: количество"
+
+#
+# File: /usr/lang/src/controllers.php, line: 282
+msgid "Bounce Limit per IP: Time"
+msgstr "Ограничение отказов по IP: время"
+
+#
+# File: /usr/lang/src/controllers.php, line: 283
+msgid "Bounce Limit per IP: Time Unit"
+msgstr "Ограничение отказов по IP: единица времени"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1938
+msgid "User Limit: Mail Count"
+msgstr "Ограничение по пользователям: количество"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1939
+msgid "User Limit: Time"
+msgstr "Ограничение по пользователям: время"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1940
+msgid "User Limit: Time Unit"
+msgstr "Ограничение по пользователям: единица времени"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1980
+msgid "Whitelist Recipients"
+msgstr "Белый списоа получателей"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1077
+msgid "Maximum Recipients"
+msgstr "Максимум получателей"
+
+#
+# File: /usr/lang/src/controllers.php, line: 642
+msgid "Enable this if you want to enable the spam trap."
+msgstr "Включите эту опцию, если вы хотите включить ловушку спама."
+
+#
+# File: /usr/lang/src/controllers.php, line: 772
+msgid "Fuzzy Learning"
+msgstr "Обучение нечётких фильтров"
+
+#
+# File: /usr/lang/src/controllers.php, line: 641
+msgid "Enable this if you want to enable fuzzy learning."
+msgstr "Включите эту опцию, если вы хотите включить нечётких фильтров."
+
+#
+# File: /usr/lang/src/controllers.php, line: 238
+msgid "Bayes Learning"
+msgstr "Обучение байесовского фильтра"
+
+#
+# File: /usr/lang/src/controllers.php, line: 640
+msgid "Enable this if you want to enable bayes learning."
+msgstr "Включите этот параметр, если вы хотите включить байесовского фильтра"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1316
+msgid "Recipients"
+msgstr "Получатель"
+
+#
+# File: /usr/lang/src/controllers.php, line: 678
+msgid ""
+"Enter regular expressions in the form trap@example\\.com into this field. "
+"The value is automatically enclosed in slashes and the case insensitive "
+"option is added."
+msgstr ""
+"Введите регулярные выражения в форме trap@example\\.com в это поле. "
+"Значение будет автоматически заключено в косые черты и добавлена опция не учитывать регистр."
+
+#
+# File: /usr/lang/src/controllers.php, line: 696
+msgid "Enter the size of the SPF cache."
+msgstr "Введите размер кэша SPF."
+
+#
+# File: /usr/lang/src/models.php, line: 40
+msgid "A valid cache expiration must be set."
+msgstr "Должен быть установлен допустимый срок действия кэша."
+
+#
+# File: /usr/lang/src/controllers.php, line: 676
+msgid "Enter how long SPF entries are valid."
+msgstr "Введите как долго действительна запись SPF."
+
+#
+# File: /usr/lang/src/controllers.php, line: 762
+msgid "Force Reject"
+msgstr "Принудительное отклонение"
+
+#
+# File: /usr/lang/src/controllers.php, line: 896
+msgid "If set, the mail will be rejected."
+msgstr "Если задано, почта будет отклонена."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1193
+msgid "Only Scan Attachments"
+msgstr "Только сканировать вложения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 889
+msgid "If checked, only attached files are scanned and images are omitted."
+msgstr "Если этот флажок установлен, сканируются только прикрепленные файлы и изображения будут пропущены."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1080
+msgid "Maximum Size"
+msgstr "Максимальный размер"
+
+#
+# File: /usr/lang/src/controllers.php, line: 895
+msgid "If set, a message large than this size will not be scanned."
+msgstr "Если задано, сообщение размером больше этого размера не будет проверяться."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1043
+msgid "Mails from IPs entered here will not be scanned."
+msgstr "Письма с введенных здесь IP-адресами не будут сканироваться."
+
+#
+# File: /usr/lang/src/controllers.php, line: 708
+msgid "Exceptions"
+msgstr "Исключения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1627
+msgid "Spam Protection"
+msgstr "Защита от спама"
+
+#
+# File: /usr/lang/src/controllers.php, line: 798
+msgid "Graylisting"
+msgstr "Серые списки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 392
+msgid "DKIM"
+msgstr "DKIM-подпись"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1039
+msgid "MX Check"
+msgstr "Проверка MX'ов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1245
+msgid "Phishing"
+msgstr "Мошеннические письма"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1307
+msgid "Rate Limit"
+msgstr "Ограничение скорости"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1628
+msgid "Spam Trap"
+msgstr "Ловушка для спама"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1530
+msgid "Sender Policy Framework (SPF)"
+msgstr "Инфраструктура политики отправителя (SPF)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 202
+msgid "Anti Malware"
+msgstr "Защита от вредоносных программ"
+
+#
+# File: /usr/lang/src/controllers.php, line: 776
+msgid "General Anti Malware Settings"
+msgstr "Основные настройки защиты от вредоносных программ"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1418
+msgid "SURBL"
+msgstr "SURBL"
+
+#
+# File: /usr/lang/src/models.php, line: 37
+msgid "A valid IPv4 mask must be between 1 and 32 bits."
+msgstr "Допустимая маска IPv4 должна быть от 1 до 32 бит."
+
+#
+# File: /usr/lang/src/models.php, line: 42
+msgid "A valid cache size must be set."
+msgstr "Должен быть задан допустимый размер кэша."
+
+#
+# File: /usr/lang/src/models.php, line: 45
+msgid "A valid time jitter must be set."
+msgstr "Должен быть установлен допустимый разброс по времени."
+
+#
+# File: /usr/lang/src/models.php, line: 401
+msgid "The count value must be a positive number."
+msgstr "Значение количества должно быть положительным числом."
+
+#
+# File: /usr/lang/src/models.php, line: 405
+msgid "The time must be a positive integer."
+msgstr "Время должно быть положительным целым числом."
+
+#
+# File: /usr/lang/src/models.php, line: 41
+msgid "A valid cache size in kilobytes must be set."
+msgstr "Необходимо задать допустимый размер кэша в килобайтах."
+
+#
+# File: /usr/lang/src/models.php, line: 43
+msgid "A valid expiration time must be set."
+msgstr "Необходимо установить допустимое время истечения срока действия."
+
+#
+# File: /usr/lang/src/models.php, line: 44
+msgid "A valid maximum size in bytes must be set."
+msgstr "Должен быть задан допустимый максимальный размер в байтах."
+
+#
+# File: /usr/lang/src/controllers.php, line: 301
+msgid "Cache Expiration"
+msgstr "Срок действия кэша"
 
 #
 # File: /usr/lang/src/wizards.php, line: 305
