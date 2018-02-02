@@ -29623,11 +29623,6 @@ msgid "iperf"
 msgstr ""
 
 #
-# File: /usr/lang/src/acl.php, line: 260
-msgid "redis"
-msgstr ""
-
-#
 # File: /usr/lang/src/acl.php, line: 255
 msgid "tor"
 msgstr ""
@@ -30023,13 +30018,6 @@ msgstr "(FQ-)CoDel target"
 # File: /usr/lang/src/controllers.php, line: 67
 msgid "(optional) user credentials."
 msgstr "(необязательно) учетные данные."
-
-#
-# File: /usr/lang/src/controllers.php, line: 131
-msgid ""
-"0: Log everything, Positive Value: Log events that take longer than "
-"specified, Negative Value: Log nothing."
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 68
@@ -31106,12 +31094,6 @@ msgid ""
 msgstr ""
 
 #
-# File: /usr/lang/src/controllers.php, line: 330
-msgid ""
-"Choose a secure value. It is recommended that you generate this password."
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 327
 msgid "Choose error messages to be included in this Backend Pool."
 msgstr ""
@@ -31582,11 +31564,6 @@ msgid "Database"
 msgstr "База данных"
 
 #
-# File: /usr/lang/src/controllers.php, line: 415
-msgid "Database Count"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 409
 msgid "Database release date"
 msgstr "Дата актуальности сигнатур"
@@ -31995,11 +31972,6 @@ msgid ""
 msgstr ""
 "Отключить ответы 204 для virus_scan если ваш ICAP клиент не поддерживает это."
 
-#
-# File: /usr/lang/src/controllers.php, line: 475
-msgid "Disable Commands"
-msgstr ""
-
 # File: /usr/lang/src/controllers.php, line: 218
 msgid "Disable Local Logging"
 msgstr "Отключить локальное журналирование"
@@ -32372,18 +32344,8 @@ msgid "Enable Preview"
 msgstr "Включить предпросмотр"
 
 #
-# File: /usr/lang/src/controllers.php, line: 551
-msgid "Enable Protected Mode"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 425
 msgid "Enable Proxy authentication"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 553
-msgid "Enable Redis"
 msgstr ""
 
 #
@@ -32428,16 +32390,6 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 331
 msgid "Enable Single Sign-On"
 msgstr "Включить единый вход для прокси-сервера"
-
-#
-# File: /usr/lang/src/controllers.php, line: 564
-msgid "Enable Syslog"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 565
-msgid "Enable Syslog logging."
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 363
@@ -32766,11 +32718,6 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 82
 msgid "Enable or disable the HAProxy service."
 msgstr "Включить или отключить службу HAProxy."
-
-#
-# File: /usr/lang/src/controllers.php, line: 624
-msgid "Enable or disable the Redis service."
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 487
@@ -33228,11 +33175,6 @@ msgstr ""
 "настроить максимальное число записей в таблице. Это значение непосредственно "
 "влияет на использование памяти. Одна запись занимает примерно 50 байт, плюс "
 "размер строки, если таковая имеется."
-
-#
-# File: /usr/lang/src/controllers.php, line: 706
-msgid "Enter a valid TCP port."
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 548
@@ -33813,11 +33755,6 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 347
 msgid "General Proxy Settings"
 msgstr "Основные настройки прокси"
-
-#
-# File: /usr/lang/src/controllers.php, line: 817
-msgid "General Redis Settings"
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 779
@@ -34915,11 +34852,6 @@ msgid "LE Account"
 msgstr "Аккаунт LE"
 
 #
-# File: /usr/lang/src/controllers.php, line: 991
-msgid "Let the Redis server listen on non-localhost interfaces."
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 550
 msgid "Let's Encrypt Environment"
 msgstr "Окружение Let's Encrypt"
@@ -34927,11 +34859,6 @@ msgstr "Окружение Let's Encrypt"
 # File: lang/dynamic/helpers/models.php, line: 37
 msgid "License"
 msgstr "Лицензия"
-
-#
-# File: /usr/lang/src/controllers.php, line: 994
-msgid "Limits"
-msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 398
 msgid "Link interface to node"
@@ -35215,11 +35142,6 @@ msgstr "Протоколировать только информацию SNI"
 # File: /usr/lang/src/controllers.php, line: 332
 msgid "Log Status Changes"
 msgstr "Журналировать изменения статуса"
-
-#
-# File: /usr/lang/src/controllers.php, line: 1050
-msgid "Log Transactions Slower Than (microsecond)"
-msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 395
 msgid "Log connections"
@@ -35566,38 +35488,13 @@ msgid "MaxLinesPerSecond"
 msgstr ""
 
 #
-# File: /usr/lang/src/controllers.php, line: 1121
-msgid "Maximum Clients"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 1074
 msgid "Maximum Data Length"
 msgstr "Максимальная длина данных"
 
 #
-# File: /usr/lang/src/controllers.php, line: 1123
-msgid "Maximum Length"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1124
-msgid "Maximum Memory"
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 1075
 msgid "Maximum Memory In Queues (MB)"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1126
-msgid "Maximum Memory Policy"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 1127
-msgid "Maximum Memory Samples"
 msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 338
@@ -36618,11 +36515,6 @@ msgstr ""
 "Производить нормализацию HTML и расшифровку кода скриптов MS Script Encoder."
 
 #
-# File: /usr/lang/src/controllers.php, line: 1300
-msgid "Performance and Monitoring"
-msgstr ""
-
-#
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 98
 # File: /usr/lang/src/controllers.php, line: 1304
 msgid "Personal Agreement"
@@ -37086,11 +36978,6 @@ msgid "Regular Expression"
 msgstr ""
 
 #
-# File: /usr/lang/src/controllers.php, line: 1386
-msgid "Reject Connections from other IP addresses than ::1 and 127.0.0.1."
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 1074
 msgid "Reject Private IPs"
 msgstr ""
@@ -37202,11 +37089,6 @@ msgstr ""
 "        <b>СОВЕТ:</b> пожалуйста, имейте ввиду, что пользователи (или "
 "ваучеры) которые не администрируются локально будут недействительны когда "
 "используется эта опция."
-
-#
-# File: /usr/lang/src/controllers.php, line: 1415
-msgid "Restrictions"
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 758
@@ -37683,11 +37565,6 @@ msgstr "Секретный ключ"
 msgid "Secure Connection"
 msgstr "Защищённое соединение"
 
-#
-# File: /usr/lang/src/controllers.php, line: 1515
-msgid "Security Settings"
-msgstr ""
-
 # File: lang/dynamic/helpers/controllers.php, line: 86
 msgid "Select Authentication method"
 msgstr "Выберите метод аутентификации"
@@ -37776,12 +37653,6 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 156
 msgid "Select health check expression."
 msgstr "Выберите выражение проверки работоспособности."
-
-#
-# File: /usr/lang/src/controllers.php, line: 1531
-msgid ""
-"Select how detailed the logs should be debug is the most verbose setting."
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 808
@@ -38117,11 +37988,6 @@ msgstr "Сертификат сервера"
 # File: /usr/lang/src/controllers.php, line: 870
 msgid "Server ID"
 msgstr "ID сервера"
-
-#
-# File: /usr/lang/src/controllers.php, line: 1607
-msgid "Server Password"
-msgstr ""
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 449
 msgid "Server Port"
@@ -38689,11 +38555,6 @@ msgstr "Пропустить множественные"
 msgid "Sleep Time"
 msgstr "Время сна"
 
-#
-# File: /usr/lang/src/controllers.php, line: 1702
-msgid "Slow Transactions"
-msgstr ""
-
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 446
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 494
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 174
@@ -39131,11 +38992,6 @@ msgstr "Блокировать строку с версией"
 msgid "Swap"
 msgstr ""
 
-#
-# File: /usr/lang/src/controllers.php, line: 1769
-msgid "Syslog Facility"
-msgstr ""
-
 # File: /usr/lang/src/controllers.php, line: 488
 msgid "Syslog facility"
 msgstr "Категория syslog"
@@ -39164,11 +39020,6 @@ msgstr "Система"
 # File: /usr/lang/src/controllers.php, line: 947
 msgid "System Command"
 msgstr "Команда системы"
-
-#
-# File: /usr/lang/src/controllers.php, line: 1778
-msgid "TCP Listen Port"
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 1385
@@ -39440,11 +39291,6 @@ msgstr ""
 "момент в системе (SSH)."
 
 #
-# File: /usr/lang/src/controllers.php, line: 1819
-msgid "The commands here will be disabled and cannot be used anymore."
-msgstr ""
-
-#
 # File: /usr/lang/src/controllers.php, line: 960
 msgid "The email address to send alerts to."
 msgstr "E-mail адрес для отправки оповещений."
@@ -39634,11 +39480,6 @@ msgstr ""
 "Количество байт, которые может принять очередь перед тем, как она будет "
 "передвинута в конец списка очередей (байт), оставьте поле пустым для "
 "значения по умолчанию."
-
-#
-# File: /usr/lang/src/controllers.php, line: 1848
-msgid "The number of databases you would like to have."
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 1445
@@ -43312,11 +43153,6 @@ msgid "This does not look like a valid url."
 msgstr "Недопустимый URL."
 
 #
-# File: /usr/lang/src/models.php, line: 420
-msgid "This must be a valid port number."
-msgstr ""
-
-#
 # File: /usr/lang/src/models.php, line: 387
 msgid "This value can not be empty"
 msgstr "Это значение не может быть пустым"
@@ -44848,12 +44684,6 @@ msgstr ""
 "RFC-2136\n"
 "\n"
 "Сопровождение: franco@opnsense.org"
-
-#
-# File: /usr/plugins/databases/redis/src/etc/inc/plugins.inc.d/redis.inc, line: 45
-# File: /usr/lang/src/plugin_descr.php, line: 509
-msgid "Redis DB"
-msgstr ""
 
 #
 # File: /usr/lang/src/plugin_descr.php, line: 510
@@ -47329,6 +47159,182 @@ msgstr "Отклонить неаутентифицированное назна
 # File: /usr/lang/src/models.php, line: 357
 msgid "Senders"
 msgstr "Отправители"
+
+#
+# File: /usr/lang/src/acl.php, line: 260
+msgid "redis"
+msgstr "redis"
+
+#
+# File: /usr/lang/src/controllers.php, line: 553
+msgid "Enable Redis"
+msgstr "Включить Redis"
+
+#
+# File: /usr/lang/src/controllers.php, line: 624
+msgid "Enable or disable the Redis service."
+msgstr "Включение или отключение службы Redis."
+
+#
+# File: /usr/lang/src/controllers.php, line: 817
+msgid "General Redis Settings"
+msgstr "Общие настройки redis"
+
+#
+# File: /usr/lang/src/controllers.php, line: 991
+msgid "Let the Redis server listen on non-localhost interfaces."
+msgstr "Разрешить серверу redis слушать на внешних интерфейсах."
+
+#
+# File: /usr/plugins/databases/redis/src/etc/inc/plugins.inc.d/redis.inc, line: 45
+# File: /usr/lang/src/plugin_descr.php, line: 509
+msgid "Redis DB"
+msgstr "Redis DB"
+
+#
+# File: /usr/lang/src/controllers.php, line: 551
+msgid "Enable Protected Mode"
+msgstr "Включить защищенный режим"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1386
+msgid "Reject Connections from other IP addresses than ::1 and 127.0.0.1."
+msgstr "Отклонять подключения с других IP-адресов, отличных от ::1 и 127.0.0.1."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1778
+msgid "TCP Listen Port"
+msgstr "Слушать TCP-порт"
+
+#
+# File: /usr/lang/src/controllers.php, line: 706
+msgid "Enter a valid TCP port."
+msgstr "Введите допустимый TCP-порт."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1531
+msgid ""
+"Select how detailed the logs should be debug is the most verbose setting."
+msgstr ""
+"Выберите, насколько подробные должны быть журналы, debug является наиболее "
+"информативным."
+
+#
+# File: /usr/lang/src/controllers.php, line: 564
+msgid "Enable Syslog"
+msgstr "Включить syslog"
+
+#
+# File: /usr/lang/src/controllers.php, line: 565
+msgid "Enable Syslog logging."
+msgstr "Включить вывод логов в syslog"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1769
+msgid "Syslog Facility"
+msgstr "Категория syslog"
+
+#
+# File: /usr/lang/src/controllers.php, line: 415
+msgid "Database Count"
+msgstr "Количество баз данных"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1848
+msgid "The number of databases you would like to have."
+msgstr "Количество баз данных, которые вам нужны"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1415
+msgid "Restrictions"
+msgstr "Ограничения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1515
+msgid "Security Settings"
+msgstr "Настройки безопасности"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1607
+msgid "Server Password"
+msgstr "Пароль сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 330
+msgid ""
+"Choose a secure value. It is recommended that you generate this password."
+msgstr ""
+"Выберите безопасное значение. Рекомендуется создать пароль."
+
+#
+# File: /usr/lang/src/controllers.php, line: 475
+msgid "Disable Commands"
+msgstr "Отключённые команды"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1819
+msgid "The commands here will be disabled and cannot be used anymore."
+msgstr "Перечисленные здесь команды будут отключены и больше не могут использоваться."
+
+#
+# File: /usr/lang/src/controllers.php, line: 994
+msgid "Limits"
+msgstr "Пределы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1121
+msgid "Maximum Clients"
+msgstr "Максимальное количество клиентов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1124
+msgid "Maximum Memory"
+msgstr "Максимально доступная память"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1126
+msgid "Maximum Memory Policy"
+msgstr "Максимальное количество правил в памяти"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1127
+msgid "Maximum Memory Samples"
+msgstr "Максимальное количество выборок в памяти"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1300
+msgid "Performance and Monitoring"
+msgstr "Производительность и мониторинг"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1702
+msgid "Slow Transactions"
+msgstr "Медленные транзакции"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1050
+msgid "Log Transactions Slower Than (microsecond)"
+msgstr "Записывать в журнал транзакций медленнее чем (микросекунда)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 131
+msgid ""
+"0: Log everything, Positive Value: Log events that take longer than "
+"specified, Negative Value: Log nothing."
+msgstr ""
+"0: регистрировать все; положительное значение: регистрировать события, "
+"которые занимают больше времени, чем указано; отрицательное значение: "
+"ничего не записывать."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1123
+msgid "Maximum Length"
+msgstr "Максимальная длина"
+
+#
+# File: /usr/lang/src/models.php, line: 420
+msgid "This must be a valid port number."
+msgstr "Это должен быть допустимый номер порта."
 
 #
 # File: /usr/lang/src/wizards.php, line: 305

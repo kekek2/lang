@@ -1,0 +1,175 @@
+#
+# File: /usr/lang/src/acl.php, line: 260
+msgid "redis"
+msgstr "redis"
+
+#
+# File: /usr/lang/src/controllers.php, line: 553
+msgid "Enable Redis"
+msgstr "Включить Redis"
+
+#
+# File: /usr/lang/src/controllers.php, line: 624
+msgid "Enable or disable the Redis service."
+msgstr "Включение или отключение службы Redis."
+
+#
+# File: /usr/lang/src/controllers.php, line: 817
+msgid "General Redis Settings"
+msgstr "Общие настройки redis"
+
+#
+# File: /usr/lang/src/controllers.php, line: 991
+msgid "Let the Redis server listen on non-localhost interfaces."
+msgstr "Разрешить серверу redis слушать на внешних интерфейсах."
+
+#
+# File: /usr/plugins/databases/redis/src/etc/inc/plugins.inc.d/redis.inc, line: 45
+# File: /usr/lang/src/plugin_descr.php, line: 509
+msgid "Redis DB"
+msgstr "Redis DB"
+
+#
+# File: /usr/lang/src/controllers.php, line: 551
+msgid "Enable Protected Mode"
+msgstr "Включить защищенный режим"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1386
+msgid "Reject Connections from other IP addresses than ::1 and 127.0.0.1."
+msgstr "Отклонять подключения с других IP-адресов, отличных от ::1 и 127.0.0.1."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1778
+msgid "TCP Listen Port"
+msgstr "Слушать TCP-порт"
+
+#
+# File: /usr/lang/src/controllers.php, line: 706
+msgid "Enter a valid TCP port."
+msgstr "Введите допустимый TCP-порт."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1531
+msgid ""
+"Select how detailed the logs should be debug is the most verbose setting."
+msgstr ""
+"Выберите, насколько подробные должны быть журналы, debug является наиболее "
+"информативным."
+
+#
+# File: /usr/lang/src/controllers.php, line: 564
+msgid "Enable Syslog"
+msgstr "Включить syslog"
+
+#
+# File: /usr/lang/src/controllers.php, line: 565
+msgid "Enable Syslog logging."
+msgstr "Включить вывод логов в syslog"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1769
+msgid "Syslog Facility"
+msgstr "Категория syslog"
+
+#
+# File: /usr/lang/src/controllers.php, line: 415
+msgid "Database Count"
+msgstr "Количество баз данных"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1848
+msgid "The number of databases you would like to have."
+msgstr "Количество баз данных, которые вам нужны"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1415
+msgid "Restrictions"
+msgstr "Ограничения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1515
+msgid "Security Settings"
+msgstr "Настройки безопасности"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1607
+msgid "Server Password"
+msgstr "Пароль сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 330
+msgid ""
+"Choose a secure value. It is recommended that you generate this password."
+msgstr ""
+"Выберите безопасное значение. Рекомендуется создать пароль."
+
+#
+# File: /usr/lang/src/controllers.php, line: 475
+msgid "Disable Commands"
+msgstr "Отключённые команды"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1819
+msgid "The commands here will be disabled and cannot be used anymore."
+msgstr "Перечисленные здесь команды будут отключены и больше не могут использоваться."
+
+#
+# File: /usr/lang/src/controllers.php, line: 994
+msgid "Limits"
+msgstr "Пределы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1121
+msgid "Maximum Clients"
+msgstr "Максимальное количество клиентов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1124
+msgid "Maximum Memory"
+msgstr "Максимально доступная память"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1126
+msgid "Maximum Memory Policy"
+msgstr "Максимальное количество правил в памяти"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1127
+msgid "Maximum Memory Samples"
+msgstr "Максимальное количество выборок в памяти"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1300
+msgid "Performance and Monitoring"
+msgstr "Производительность и мониторинг"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1702
+msgid "Slow Transactions"
+msgstr "Медленные транзакции"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1050
+msgid "Log Transactions Slower Than (microsecond)"
+msgstr "Записывать в журнал транзакций медленнее чем (микросекунда)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 131
+msgid ""
+"0: Log everything, Positive Value: Log events that take longer than "
+"specified, Negative Value: Log nothing."
+msgstr ""
+"0: регистрировать все; положительное значение: регистрировать события, "
+"которые занимают больше времени, чем указано; отрицательное значение: "
+"ничего не записывать."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1123
+msgid "Maximum Length"
+msgstr "Максимальная длина"
+
+#
+# File: /usr/lang/src/models.php, line: 420
+msgid "This must be a valid port number."
+msgstr "Это должен быть допустимый номер порта."
