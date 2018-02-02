@@ -1,0 +1,330 @@
+#
+# File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/domain.volt, line: 63
+msgid "Error reconfiguring Postfix"
+msgstr "Ошибка перенастройка Postfix"
+
+#
+# File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/domain.volt, line: 110
+msgid "Edit Domain"
+msgstr "Изменить домен"
+
+#
+# File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/general.volt, line: 31
+msgid "Antispam"
+msgstr "Антиспам"
+
+#
+# File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/general.volt, line: 46
+msgid "No Rspamd plugin found, please install and come back."
+msgstr "Плагин rspamd не найден, пожалуйста, установите и вернитесь."
+
+#
+# File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/recipient.volt, line: 110
+msgid "Edit Recipient"
+msgstr "Изменить получателя"
+
+#
+# File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/sender.volt, line: 110
+msgid "Edit Sender"
+msgstr "Изменить отправителя"
+
+#
+# File: /usr/lang/src/acl.php, line: 155
+msgid "Services: Postfix"
+msgstr "Служба: Postfix"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1710
+msgid ""
+"The 'Trusted Networks' parameter specifies the list of trusted SMTP clients. "
+"In particular, trusted SMTP clients are allowed to relay mail through "
+"Postfix. Please use CIDR notation like 192.168.0.0/24 separated by spaces. "
+"IPv6 addresses have to be in square brackets like [::1]/128."
+msgstr ""
+"Параметр 'Доверенных сетей' определяет список доверенных клиентов SMTP. "
+"В частности, доверенные клиенты SMTP могут передавать почту через Postfix. "
+"Пожалуйста, используйте нотацию CIDR, как 192.168.0.0/24, разделенную "
+"пробелами. Адреса IPv6 должны быть заключены в квадратные скобки, например "
+"[:: 1]/128."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1780
+msgid ""
+"The smtpd_banner parameter specifies the text that follows the 220 code in "
+"the SMTP server's greeting banner. Default is \"'System Hostname' ESMTP "
+"Postfix\"."
+msgstr ""
+"Параметр smtpd_banner указывает текст, следующий за кодом 220 в приветствии "
+"SMTP-сервера. По умолчанию \"'System Hostname' ESMTP Postfix\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1854
+msgid "This will activate the Postfix daemon."
+msgstr "Активировать службу postfix"
+
+#
+# File: /usr/plugins/mail/postfix/src/etc/inc/plugins.inc.d/postfix.inc, line: 37
+# File: /usr/lang/src/models.php, line: 283
+msgid "Postfix"
+msgstr "Postfix"
+
+#
+# File: /usr/lang/src/controllers.php, line: 541
+msgid "Enable Rspamd Integration"
+msgstr "Включить интеграцию Rspamd"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1873
+msgid "This will enable or disable domain routing for this entry."
+msgstr "Это позволит включить или отключить маршрутизацию домена для этой записи."
+
+#
+# File: /usr/lang/src/controllers.php, line: 482
+msgid "Domainname"
+msgstr "Доменное имя"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1592
+msgid "Set the unique domain name to relay for."
+msgstr "Задайте уникальное доменное имя для ретрансляции."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1555
+msgid ""
+"Set the IP or FQDN to where to send the mails to. Empty means MX will be "
+"used."
+msgstr ""
+"Установить IP-адрес или полное доменное имя куда отправлять письма. "
+"При пустом значении будут использоваться MX."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1973
+msgid "This will enable or disable the recipient rule in this entry."
+msgstr "Включает или отключает правило получателя в этой записи."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1598
+msgid "Sender Address"
+msgstr "Адрес отправителя"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1667
+msgid "Set the recipient address to match."
+msgstr "Задайте соответствие адреса получателя."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1635
+msgid "Set the action for this address."
+msgstr "Установите действие для этого адреса."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1974
+msgid "This will enable or disable the sender address to match for."
+msgstr "Включение или отключение соответсвия адреса отправителя."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1670
+msgid "Set the sender address to match."
+msgstr "Установите соответсвие адреса отправителя."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1694
+msgid "System Hostname"
+msgstr "Системное имя хоста"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1708
+msgid ""
+"The 'System Hostname' parameter specifies the internet hostname of this mail "
+"system. The default is to use the fully-qualified domain name from "
+"gethostname(). It is used as a default value for many other configuration "
+"parameters."
+msgstr "Параметр 'System Hostname' задает имя хоста этой почтовой системы. "
+"По умолчанию используется полное доменное имя возвращаемое функцией "
+"gethostname(). Оно используется в качестве значения по умолчанию для многих "
+"других параметров конфигураций."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1693
+msgid "System Domain"
+msgstr "Системный домен"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1707
+msgid ""
+"The 'System Domain' parameter specifies the local internet domain name. The "
+"default is to use 'System Hostname' minus the first component. It is used as "
+"a default value for many other configuration parameters."
+msgstr ""
+"Параметр 'System Domain' указывает имя локального домена интернета. По "
+"умолчанию используется 'System Hostname' минус первый компонент. Он "
+"используется в качестве значения по умолчанию для многих других параметров."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1695
+msgid "System Origin"
+msgstr "System Origin"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1709
+msgid ""
+"The 'System Origin' parameter specifies the domain that locally-posted mail "
+"appears to come from. The default is to append 'System Hostname', which is "
+"fine for small sites."
+msgstr ""
+"Параметр ''System Origin'' задает домен, который подставляется в адрес "
+"отправителя для локально созданных писем. По умолчанию добавляется 'System "
+"Hostname', что хорошо для небольших сайтов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1706
+msgid ""
+"The 'Listen IPs' parameter specifies the IP address to listen to. Default is "
+"to listen on all interfaces."
+msgstr ""
+"Параметр' Listen IPs ' указывает IP-адрес для принятия соединений. По умолчанию"
+"слушает на всех интерфейсах."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1900
+msgid "Trusted Networks"
+msgstr "Доверенные сети"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1390
+msgid "SMTP Banner"
+msgstr "SMTP Banner"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1101
+msgid "Message Size Limit"
+msgstr "Ограничение Размера Сообщения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1564
+msgid ""
+"Set the max size for messages to accept, default is 501200000 Byte which is "
+"50MB. Values must be entered in Bytes."
+msgstr ""
+"Установите максимальный размер для принимаемых сообщений, по умолчанию "
+"501200000 байт, что составляет 50 Мб. Значение должно быть введено в байтах."
+
+#
+# File: /usr/lang/src/controllers.php, line: 184
+msgid "Allow TLS Only"
+msgstr "Разрешить только TLS"
+
+#
+# File: /usr/lang/src/controllers.php, line: 469
+msgid "Disable SSLv2 and SSLv3, only TLS allowed."
+msgstr "Отключён SSLv2 и SSLv3, разрешен только протокол TLS."
+
+#
+# File: /usr/lang/src/controllers.php, line: 470
+msgid "Disable Weak Ciphers And Algorithms"
+msgstr "Отключение слабых шифров и алгоритмов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1869
+msgid "This will disable known weak ciphers like DES, RC4 or MD5."
+msgstr "Это отключит известные слабые шифры, такие как DES, RC4 или MD5."
+
+#
+# File: /usr/lang/src/controllers.php, line: 338
+msgid ""
+"Choose the certificate to use when other servers want to do TLS with you."
+msgstr ""
+"Выберите сертификат для использования, когда другие серверы хотят "
+"установить с вами TLS-соединение."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1361
+msgid "Root CA"
+msgstr "Корневой ЦС"
+
+#
+# File: /usr/lang/src/controllers.php, line: 334
+msgid "Choose the Certificate Authority which signed your certificate."
+msgstr "Выбрать центр сертификации, который подписал сертификат."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1391
+msgid "SMTP Client Security"
+msgstr "Безопасность клиента SMTP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 338
+msgid ""
+"Choose \"none\" to disable TLS for sending mail. Set encrypt to enforce "
+"TLS security, please do not use this for Internet wide communication as "
+"not every server supports TLS yet. Default is \"may\" which will use TLS "
+"when offered."
+msgstr ""
+"Выберите \"none\", чтобы отключить TLS для отправки почты. Установите "
+"шифрование для обеспечения безопасности TLS, пожалуйста, не используйте "
+"это для связи в интернете, так как ещё не каждый сервер поддерживает TLS."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1326
+msgid "Reject Unauthenticated Pipelining"
+msgstr "Отвергать неаутентифицированную конвейеризации"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1328
+msgid "Reject Unknown Sender Domain"
+msgstr "Отклонить отправителя с неизвестным доменом"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1878
+msgid "This will reject mails from domains which do not exist."
+msgstr "Это будет отклонять письма от доменов, которые не существуют."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1327
+msgid "Reject Unknown Recipient Domain"
+msgstr "Отклонить получателя с неизвестным доменом"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1323
+msgid "Reject Non FQDN Sender"
+msgstr "Отклонить отправителя без полного доменного имени"
+
+#
+# File: /usr/lang/src/controllers.php, line: 760
+msgid "For example senders without a domain or only a hostname."
+msgstr "Например, отправители без домена или только с именем хоста."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1322
+msgid "Reject Non FQDN Recipient"
+msgstr "Отклонить получателя без полного доменного имени"
+
+#
+# File: /usr/lang/src/controllers.php, line: 759
+msgid "For example recipients without a domain or only a hostname."
+msgstr "Например, получатель без домена или только с именем хоста."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1242
+msgid "Permit SASL Authenticated"
+msgstr "Разрешить проверку подлинности SASL"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1243
+msgid "Permit TLS Client Certificate Authenticated Users"
+msgstr "Разрешить TLS пользователям, прошедшим проверку подлинности сертификата"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1244
+msgid "Permit Trusted Networks"
+msgstr "Разрешить Доверенные Сети"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1325
+msgid "Reject Unauthenticated Destination"
+msgstr "Отклонить неаутентифицированное назначение"
+
+#
+# File: /usr/lang/src/models.php, line: 357
+msgid "Senders"
+msgstr "Отправители"
