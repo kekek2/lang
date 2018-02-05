@@ -1,0 +1,584 @@
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 403
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 291
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 308
+msgid "Designated Router"
+msgstr "Назначенный Маршрутизатор"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 313
+msgid "Loopback"
+msgstr "Loopback"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 307
+msgid "Up"
+msgstr "Поднят"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 303
+msgid "Instance ID"
+msgstr "Идентификатор экземпляра"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 302
+msgid "Area Cost"
+msgstr "Стоимость зоны"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 301
+msgid "Pending LSAs"
+msgstr "Ожидаемые объявления о состоянии канала (LSA)"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 300
+msgid "Number Of Interface Scoped LSAs"
+msgstr "Количество областей интерфесов LSA"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 299
+msgid "Timers"
+msgstr "Таймеры"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 232
+msgid "Retransmit Timer:"
+msgstr "Таймер повторной отправки пакета"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 231
+msgid "Wait Timer:"
+msgstr "Таймер ожидания"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 230
+msgid "Dead Timer:"
+msgstr "Мертвый таймер"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 229
+msgid "Hello Timer:"
+msgstr "Интервал приветствия"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 187
+msgid "AS Scoped"
+msgstr "Область автономной системы (AS)"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 153
+msgid "Interface Scoped Link Database"
+msgstr "База данных связей области интерфейса"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 131
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 164
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 193
+msgid "Advertising Router"
+msgstr "Марщрутизатор, создавший объявление"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 130
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 163
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 192
+msgid "LS ID"
+msgstr "Идентификатор состояния канала"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 122
+msgid "Scoped Link Database"
+msgstr "База данных области видимости"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 98
+msgid "Flags 2"
+msgstr "Flags 2"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 97
+msgid "Flags 1"
+msgstr "Flags 1"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 80
+msgid "Number Of LSAs"
+msgstr "Количество объявлений о состоянии каналов (LSA)"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 66
+msgid "Number Of Areas"
+msgstr "Количество зон"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 62
+msgid "Number Of Scoped AS"
+msgstr "Количество видимых автономных систем (AS)"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 58
+msgid "SPF timer"
+msgstr "Таймер SPF"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 54
+msgid "Maximum Hold Time:"
+msgstr ""
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 51
+msgid "Hold Time"
+msgstr "Время удержания"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 47
+msgid "Initial SPF scheduling delay"
+msgstr "Начальная задержка планирования SPF"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 43
+msgid "Running Time"
+msgstr "Время выполнения"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 39
+msgid "Routing Process"
+msgstr "Процесс маршрутизации"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 469
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 370
+msgid "Neighbor"
+msgstr "Сосед"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 59
+msgid "Prefix List inbound"
+msgstr "Входящий список префиксов"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 60
+msgid "Prefix List outbound"
+msgstr "Исходящий список префиксов"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 61
+msgid "Route Map inbound"
+msgstr "Входящая карта маршрутов"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 62
+msgid "Route Map outbound"
+msgstr "Исходящая карта маршрутов"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 112
+msgid "Edit Neighbor"
+msgstr "Редактировать соседа"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 42
+msgid "Local Router ID"
+msgstr "Идентификатор локального маршрутизатора"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 51
+msgid "Next Hop"
+msgstr "Следующий прыжок"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 53
+msgid "LocPrf"
+msgstr "LocPrf"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 410
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 298
+msgid "Adjacent Neighbor Count"
+msgstr "Количество непосредственных соседей"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 409
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 297
+msgid "Neighbor Count"
+msgstr "Количество соседей"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 70
+msgid "BGP"
+msgstr "BGP"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 35
+msgid "RFC2328 Conform"
+msgstr "Соответствие RFC2328"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 275
+msgid "ASBR"
+msgstr "Пограничный маршрутизатор автономной системы (ASBR)"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 59
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 53
+msgid "Minimum Hold Time"
+msgstr "Минимальное время удержания"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 60
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 64
+msgid "Milliseconds"
+msgstr "Миллисекунды"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 63
+msgid "Maximum Hold Time"
+msgstr "Максимальное время удержания"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 67
+msgid "Current Hold Time Multipier"
+msgstr "Множитель временного удержания"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 79
+msgid "Areas Attached Count"
+msgstr "Количествот подключённых зон"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 85
+msgid "Link State Area"
+msgstr "Состояние связи с зоной"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 408
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 296
+msgid "Hello Due In"
+msgstr "Hello Due In"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 96
+msgid "External LSA"
+msgstr "Внешнее объявление о состоянии канала (LSA)"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 108
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 71
+msgid "Areas"
+msgstr "Зоны"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 126
+msgid "Fully Adjacent Neighbor Count"
+msgstr "Полное количество непосредственных соседей"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 130
+msgid "SPF Execution Count"
+msgstr "Счетчик выполнения SPF"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 159
+msgid "Router ID:"
+msgstr "Идентификатор маршрутизатора:"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 161
+msgid "Router Link State Area"
+msgstr "Состояние канала маршрутизации с областью"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 167
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 195
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 219
+msgid "Link ID"
+msgstr "Иденитификатор канала"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 168
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 196
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 220
+msgid "ADV Router"
+msgstr "Маршрутизатор ADV"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 189
+msgid "Net Link State Area"
+msgstr ""
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 191
+msgid "Area:"
+msgstr "Зона:"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 215
+msgid "External States"
+msgstr "Внешние состояния"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 406
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 294
+msgid "Multicast Group Memberships"
+msgstr "Членство в группах многоадресной рассылки"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 405
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 293
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 309
+msgid "Backup Designated Router"
+msgstr "Резервный назначенный маршрутизатор"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 323
+msgid "Neighbor ID"
+msgstr "Иденитификатор соседа"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 404
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 292
+msgid "Designated Router Interface Address"
+msgstr "Назначенный адрес интерфейса маршрутизатора"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 326
+msgid "Dead Time"
+msgstr "Мёртвое время"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 364
+msgid "Hello Interval:"
+msgstr "Интервал приветствия:"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 365
+msgid "Dead Interval:"
+msgstr "Мёртвый интервал:"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 366
+msgid "Wait Interval:"
+msgstr "Интервал ожидания:"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 367
+msgid "Retransmit Interval:"
+msgstr "Интервал повторной отправки:"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 388
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 276
+msgid "ASBR summary"
+msgstr "Сводка о пограничном маршрутизаторе автономной системы (ASBR)"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 389
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 277
+msgid "NSSA"
+msgstr "Не очень короткая область (NSSA)"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 391
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 279
+msgid "Full (Designated Router)"
+msgstr "Полный (Назначенный Маршрутизатор)"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 398
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 286
+msgid "Transmit Delay"
+msgstr "Задержка передачи"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 400
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 288
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 310
+msgid "Broadcast"
+msgstr "Широковещательная передача"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 250
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 274
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 397
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 285
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf.volt, line: 56
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/ospf6.volt, line: 55
+# File: /usr/lang/src/controllers.php, line: 127
+msgid "Area"
+msgstr "Зона"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 68
+# File: /usr/lang/src/models.php, line: 185
+msgid "OSPF"
+msgstr "OSPF"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsgeneral.volt, line: 69
+# File: /usr/lang/src/models.php, line: 262
+msgid "RIP"
+msgstr "RIP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 143
+msgid "BGP AS Number"
+msgstr "Номер автономной системы (AS) BGP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 144
+msgid "BGP Neighbor"
+msgstr "Сосед BGP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1261
+msgid "One of the neighbor IPs"
+msgstr "Один из соседних IP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2030
+msgid "Type or select a route source."
+msgstr "Введите или выберите источник маршрута."
+
+#
+# File: /usr/lang/src/controllers.php, line: 660
+msgid "Neighbor AS."
+msgstr "Автономная система (AS) соседа"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1051
+msgid "Update-Source Interface"
+msgstr "Интерфейс обновленя источника"
+
+#
+# File: /usr/lang/src/controllers.php, line: 667
+msgid "Next-Hop-Self"
+msgstr "Next-Hop-Self"
+
+#
+# File: /usr/lang/src/controllers.php, line: 487
+msgid ""
+"Free text field for your set, please be careful! You can set e.g. \"local-"
+"prefernce 300\" or \"community 1:1\" (http://www.nongnu.org/quagga/docs/docs-"
+"multi/Route-Map-Set-Command.html#Route-Map-Set-Command)"
+msgstr ""
+"Свободное текстовое поле для вашего набора, пожалуйста, будьте осторожны!"
+"Вы можете установить, например, \"local-prefernce 300\" or \"community 1:1\""
+"(http://www.nongnu.org/quagga/docs/docs-multi/Route-Map-Set-Command.html#Route-Map-Set-Command)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 128
+msgid "Area in wildcard mask style like 0.0.0.0 and no decimal 0"
+msgstr "Область в стиле маски подстановочных знаков, как 0.0.0.0 и не десятичное 0"
+
+#
+# File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 249
+# File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 273
+# File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 299
+# File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 393
+# File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 281
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 249
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 273
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 299
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 393
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 281
+# File: /usr/lang/src/controllers.php, line: 393
+msgid "Cost"
+msgstr "Зона"
+
+#
+# File: /usr/lang/src/controllers.php, line: 262
+msgid "Dead Interval"
+msgstr "Мёртвый интервал"
+
+#
+# File: /usr/lang/src/controllers.php, line: 293
+msgid "Create a logfile"
+msgstr "Создать файл журнала"
+
+#
+# File: /usr/lang/src/controllers.php, line: 728
+msgid "If you check this, a log file will be written to disk."
+msgstr "Если вы выберете это, файл журнала будет записан на диск."
+
+#
+# File: /usr/lang/src/controllers.php, line: 827
+msgid "Logfile level"
+msgstr "Детализация журнала"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1493
+msgid ""
+"This is the detail level of the log. A higher level means more data is "
+"logged."
+msgstr ""
+"Это уровень детализации журнала. Более высокий уровень означает, что "
+"регистрируется больше данных."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1240
+msgid "Send log messages to syslog"
+msgstr "Отправлять сообщения журнала в syslog"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1381
+msgid ""
+"Syslog is a service which is made to collect log messages from different "
+"software and maybe to a central logging server. Check this box if you have "
+"such a setup."
+msgstr ""
+"Syslog-это сервис, который предназначен для сбора сообщений журнала с "
+"различных программ и, возможно, на центральный сервер регистрации. "
+"Установите этот флажок, если у вас есть такая установка."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1382
+msgid "Syslog level"
+msgstr "Уровень syslog"
+
+#
+# File: /usr/lang/src/controllers.php, line: 731
+msgid ""
+"If you have a CARP setup, you may want to configure a router id in case of a "
+"conflict."
+msgstr ""
+"Если у вас есть настройка CARP, вы можете настроить идентификатор маршрутизатора "
+"в случае конфликта."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2033
+msgid "Type or select interface."
+msgstr "Введите или выберите интерфейс."
+
+#
+# File: /usr/lang/src/controllers.php, line: 122
+msgid "Always Advertise Default Gateway"
+msgstr "Всегда объявляйте шлюз по умолчанию"
+
+#
+# File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 56
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 56
+msgid "Next Hop Self"
+msgstr "Next Hop Self"
+
+#
+# File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 57
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 57
+msgid "Default Originate"
+msgstr "Default Originate"
+
+#
+# File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 141
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/bgp.volt, line: 138
+msgid "AS Path List"
+msgstr "AS Path List"
+
+#
+# File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 51
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 51
+msgid "Opaque Capability"
+msgstr "Opaque Capability"
+
+#
+# File: /usr/plugins/net/frr/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 101
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 101
+msgid "Opaque AS LSA"
+msgstr "Opaque AS LSA"
