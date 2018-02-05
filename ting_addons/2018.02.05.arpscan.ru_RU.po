@@ -1,0 +1,59 @@
+#
+# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 157
+msgid "Scan is stopped"
+msgstr "Сканирование остановлено"
+
+#
+# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 161
+msgid "Scan is running"
+msgstr "Сканирование выполняется"
+
+#
+# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 182
+msgid "Started"
+msgstr "Запущено"
+
+#
+# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 183
+msgid "Last update"
+msgstr "Последнее обновление"
+
+#
+# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 199
+msgid "Vendor"
+msgstr "Производитель"
+
+#
+# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/controllers/OPNsense/ARPscanner/IndexController.php, line: 45
+# File: /usr/lang/src/models.php, line: 41
+msgid "ARP Scan"
+msgstr "ARP Scan"
+
+#
+# File: /usr/lang/src/controllers.php, line: 799
+msgid "Listen Interface"
+msgstr "Слушать интерфейс"
+
+#
+# File: /usr/lang/src/controllers.php, line: 745
+msgid "Interface where to find the networks logically linked to."
+msgstr "Интерфейс, на котором находятся логически привязанные сети."
+
+#Network to probe
+# File: /usr/lang/src/controllers.php, line: 942
+msgid "Network to probe"
+msgstr "Сеть для поиска"
+
+#
+# File: /usr/lang/src/controllers.php, line: 943
+msgid ""
+"Network to scan, default: localnet.\n"
+"      "
+msgstr ""
+"Сеть для сканирования, по умолчанию: localnet.\n"
+"      "
+
+#
+# File: /usr/lang/src/models.php, line: 324
+msgid "Scan a different ipv4 network, instead of localnet"
+msgstr "Сканирование другой сети ipv4 вместо локальной сети"

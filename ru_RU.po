@@ -27149,16 +27149,6 @@ msgid "error"
 msgstr "ошибка"
 
 #
-# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 157
-msgid "Scan is stopped"
-msgstr ""
-
-#
-# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 161
-msgid "Scan is running"
-msgstr ""
-
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 187
 msgid "AS Scoped"
 msgstr ""
@@ -27176,25 +27166,10 @@ msgid "Advertising Router"
 msgstr ""
 
 #
-# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 182
-msgid "Started"
-msgstr ""
-
-#
-# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 183
-msgid "Last update"
-msgstr ""
-
-#
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 130
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 163
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 192
 msgid "LS ID"
-msgstr ""
-
-#
-# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 199
-msgid "Vendor"
 msgstr ""
 
 # File: src/www/services_dyndns_edit.php, line: 328
@@ -34693,11 +34668,6 @@ msgstr "Фильтр на входе"
 msgid "Interface"
 msgstr "Интерфейс"
 
-#
-# File: /usr/lang/src/controllers.php, line: 745
-msgid "Interface where to find the networks logically linked to."
-msgstr ""
-
 # File: lang/dynamic/helpers/models.php, line: 138
 # File: lang/dynamic/helpers/models.php, line: 364
 # File: src/www/diag_backup.php, line: 138
@@ -35014,11 +34984,6 @@ msgstr ""
 # File: /usr/lang/src/controllers.php, line: 576
 msgid "Listen IPs"
 msgstr "IP для прослушивания"
-
-#
-# File: /usr/lang/src/controllers.php, line: 799
-msgid "Listen Interface"
-msgstr ""
 
 #
 # File: /usr/lang/src/controllers.php, line: 800
@@ -35980,18 +35945,6 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 941
 msgid "Network on which this ACL is appied."
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 942
-msgid "Network to probe"
-msgstr ""
-
-#
-# File: /usr/lang/src/controllers.php, line: 943
-msgid ""
-"Network to scan, default: localnet.\n"
-"      "
 msgstr ""
 
 # File: src/www/firewall_aliases_edit.php, line: 452
@@ -41365,12 +41318,6 @@ msgstr "Списка контроля доступа"
 msgid "ACLs"
 msgstr "Списки контроля доступа"
 
-#
-# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/controllers/OPNsense/ARPscanner/IndexController.php, line: 45
-# File: /usr/lang/src/models.php, line: 41
-msgid "ARP Scan"
-msgstr ""
-
 # File: lang/dynamic/helpers/models.php, line: 361
 msgid "ARP Table"
 msgstr "ARP-таблица"
@@ -42843,11 +42790,6 @@ msgstr "Значение поля «Порт SSL-прокси» должно б�
 # File: /usr/lang/src/models.php, line: 300
 msgid "Scan"
 msgstr "Сканировать"
-
-#
-# File: /usr/lang/src/models.php, line: 324
-msgid "Scan a different ipv4 network, instead of localnet"
-msgstr ""
 
 # File: lang/dynamic/helpers/models.php, line: 169
 # File: src/www/system_advanced_misc.php, line: 469
@@ -47335,6 +47277,66 @@ msgstr "Максимальная длина"
 # File: /usr/lang/src/models.php, line: 420
 msgid "This must be a valid port number."
 msgstr "Это должен быть допустимый номер порта."
+
+#
+# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 157
+msgid "Scan is stopped"
+msgstr "Сканирование остановлено"
+
+#
+# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 161
+msgid "Scan is running"
+msgstr "Сканирование выполняется"
+
+#
+# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 182
+msgid "Started"
+msgstr "Запущено"
+
+#
+# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 183
+msgid "Last update"
+msgstr "Последнее обновление"
+
+#
+# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 199
+msgid "Vendor"
+msgstr "Производитель"
+
+#
+# File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/controllers/OPNsense/ARPscanner/IndexController.php, line: 45
+# File: /usr/lang/src/models.php, line: 41
+msgid "ARP Scan"
+msgstr "ARP Scan"
+
+#
+# File: /usr/lang/src/controllers.php, line: 799
+msgid "Listen Interface"
+msgstr "Слушать интерфейс"
+
+#
+# File: /usr/lang/src/controllers.php, line: 745
+msgid "Interface where to find the networks logically linked to."
+msgstr "Интерфейс, на котором находятся логически привязанные сети."
+
+#Network to probe
+# File: /usr/lang/src/controllers.php, line: 942
+msgid "Network to probe"
+msgstr "Сеть для поиска"
+
+#
+# File: /usr/lang/src/controllers.php, line: 943
+msgid ""
+"Network to scan, default: localnet.\n"
+"      "
+msgstr ""
+"Сеть для сканирования, по умолчанию: localnet.\n"
+"      "
+
+#
+# File: /usr/lang/src/models.php, line: 324
+msgid "Scan a different ipv4 network, instead of localnet"
+msgstr "Сканирование другой сети ipv4 вместо локальной сети"
 
 #
 # File: /usr/lang/src/wizards.php, line: 305
