@@ -47533,6 +47533,22 @@ msgid "Opaque AS LSA"
 msgstr "Opaque AS LSA"
 
 #
+# File: /usr/lang/src/models.php, line: 331
+msgid "Minimal"
+msgstr "Минимальный"
+
+#
+# File: /usr/lang/src/models.php, line: 677
+msgid "Verbose"
+msgstr "Подробный"
+
+#
+# File: /usr/lang/src/models.php, line: 678
+msgid "Very verbose"
+msgstr "Очень подробный"
+
+
+#
 # File: /usr/lang/src/wizards.php, line: 305
 msgid "addrpool"
 msgstr ""
