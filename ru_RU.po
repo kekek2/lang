@@ -1741,7 +1741,7 @@ msgstr "Режим сервера"
 # File: src/www/vpn_openvpn_client.php, line: 479
 msgid ""
 "Set this option to disable this client without removing it from the list"
-msgstr "Выберите этот параметр, чтобы отключить правило, не удаляя из списка."
+msgstr "Выберите этот параметр, чтобы отключить клиента, не удаляя из списка."
 
 # File: /usr/core/src/www/vpn_openvpn_client.php, line: 399
 msgid "Do you really want to delete the selected clients?"
@@ -3175,7 +3175,7 @@ msgstr "Пользовательские настройки"
 # File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 84
 #, php-format
 msgid "Saved settings for user \"%s\""
-msgstr "Сохоанённые настройки для пользователя \"%s\""
+msgstr "Сохранённые настройки для пользователя \"%s\""
 
 #
 # File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 70
@@ -17645,7 +17645,7 @@ msgstr ""
 # File: src/www/vpn_openvpn_csc.php, line: 357
 # File: src/www/vpn_openvpn_server.php, line: 885
 msgid "You may enter a description here for your reference (not parsed)"
-msgstr "Вы можете ввести здесь описание ссылки (не разобрано)."
+msgstr "Вы можете ввести здесь описание ссылки (не влияет на настройки)."
 
 #
 # File: /usr/core/src/www/firewall_aliases_import.php, line: 210
@@ -17781,6 +17781,8 @@ msgid ""
 "The name of the alias may only consist of the characters \"a-z, A-Z, 0-9 and "
 "_\". Aliases can be nested using this name."
 msgstr ""
+"Имя псевдонима должно содержать только символы \"a-z, A-Z, 0-9 и "
+"_\". Псевдонимы могут быть вложенными, используя это имя."
 
 # File: src/www/firewall_aliases_edit.php, line: 326
 msgid "Alias Edit"
@@ -34333,7 +34335,7 @@ msgid ""
 "If provided, all traffic will be transmitted over an HTTPS connection to "
 "protect against eavesdroppers."
 msgstr ""
-"Если поддерживается, весь трафик будет передаваться через HTTPS-соединение "
+"Если выбран, весь трафик будет передаваться через HTTPS-соединение "
 "для защиты от прослушивания."
 
 # File: /usr/lang/src/controllers.php, line: 127
@@ -49780,7 +49782,7 @@ msgid ""
 "the actual connection of the link is delayed until qualifying outgoing "
 "traffic is detected."
 msgstr ""
-"Это опция заставляет интерфейс работать в режиме соединение-по-требовани, позволяя "
+"Эта опция заставляет интерфейс работать в режиме соединение-по-требовани, позволяя "
 "Вам иметь виртуальное постоянное соединение. Интерфейс настроен, но "
 "реальное соединение отложено до того момента, когда будет обнаружен "
 "исходящий трафик."
