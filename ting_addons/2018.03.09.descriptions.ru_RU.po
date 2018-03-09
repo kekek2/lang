@@ -1,0 +1,134 @@
+#
+# File: /usr/lang/src/plugin_descr.php, line: 48
+msgid "A suitably dark theme"
+msgstr "Подходящая темная тема"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 49
+msgid ""
+"A suitably dark theme\n"
+"\n"
+"A suitably dark theme.\n"
+"\n"
+"Maintainer: team-rebellion@queens-park.com"
+msgstr ""
+"Подходящая темная тема\n"
+"\n"
+"Подходящая темная тема.\n"
+"\n"
+"Сопровождение: team-rebellion@queens-park.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 159
+msgid "End of life, superseded by FRR plugin"
+msgstr "Конец срока жизни, замененяется плагином FRR"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 160
+msgid ""
+"End of life, superseded by FRR plugin\n"
+"\n"
+"This plugin has reached its end of life.\n"
+"Please migrate to the FRR plugin.\n"
+"Your settings will be kept.\n"
+"\n"
+"Maintainer: franz.fabian.94@gmail.com"
+msgstr ""
+"Конец срока жизни, замененяется плагином FRR\n"
+"\n"
+"Этот плагин достиг своего конца жизни.\n"
+"Пожалуйста, перейдите на FRR плагин.\n"
+"Ваши настройки будут сохранены.\n"
+"\n"
+"Сопровождение: franz.fabian.94@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 252
+msgid "IDS SmartSoft ruleset"
+msgstr "Наборы правил IDS от SmartSoft"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 397
+msgid "Perform config backups using SCP."
+msgstr "Выполнение резервного копирования конфигурации с помощью SCP."
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 398
+msgid ""
+"Perform config backups using SCP.\n"
+"\n"
+"A simple plugin to perform config backups using SCP.\n"
+"\n"
+"Maintainer: dharrigan@gmail.com"
+msgstr ""
+"Выполнение резервного копирования конфигурации с помощью SCP.\n"
+"\n"
+"Простой плагин для выполнения резервного копирования конфигурации с помощью SCP.\n"
+"\n"
+"Сопровождение: dharrigan@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 600
+msgid "The FRRouting Protocol Suite"
+msgstr "Набор Протоколов FRRouting"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 601
+msgid ""
+"The FRRouting Protocol Suite\n"
+"\n"
+"FRRouting (FRR) is an IP routing protocol suite for Linux and Unix\n"
+"platforms which includes protocol daemons for BGP, IS-IS, LDP, OSPF,\n"
+"PIM, and RIP.\n"
+"\n"
+"FRR's seamless integration with the native Linux/Unix IP networking stacks\n"
+"makes it applicable to a wide variety of use cases including connecting\n"
+"hosts/VMs/containers to the network, advertising network services, LAN\n"
+"switching and routing, Internet access routers, and Internet peering.\n"
+"\n"
+"WWW: https://frrouting.org/\n"
+"\n"
+"Maintainer: franz.fabian.94@gmail.com"
+msgstr ""
+"Набор Протоколов FRRouting\n"
+"\n"
+"FRRouting (FRR) - это набор протоколов IP-маршрутизации для платформ Linux\n"
+"и Unix, который включает в себя демоны протоколв BGP, IS-IS, LDP, OSPF, PIM и RIP.\n"
+"\n"
+"ФПП-это бесшовная интеграция с родным стэком IP сетей Linux/Unix, позволяет\n"
+"применять для широкого спектра задач, включая подключения хостов/виртуальных машин/контейнеров\n"
+"к сети, расширенная сеть, сервисы, сети коммутации и маршрутизации, Интернет-маршрутизаторы\n"
+"и Интернет-пиринга.\n"
+"\n"
+"WWW: https://frrouting.org/\n"
+"\n"
+"Сопровождение: franz.fabian.94@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 738
+msgid "c-icap connects the web proxy with a virus scanner"
+msgstr "c-icap подключает прокси-сервер к антивирусу"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 739
+msgid ""
+"c-icap connects the web proxy with a virus scanner\n"
+"\n"
+"c-icap is an implementation of an ICAP server. It can be used with HTTP\n"
+"proxies that support the ICAP protocol to implement content adaptation\n"
+"and filtering services.\n"
+"\n"
+"WWW: http://c-icap.sourceforge.net/\n"
+"\n"
+"Maintainer: m.muenz@gmail.com"
+msgstr ""
+"c-icap подключает прокси-сервер к антивирусному сканеру\n"
+"\n"
+"c-icap является реализацией сервера ICAP.\n"
+"Он может использоваться с прокси-серверами HTTP\n"
+"которые поддерживают протокол ICAP для реализации\n"
+"служб адаптации и фильтрации трафика.\n"
+"\n"
+"WWW: http://c-icap.sourceforge.net/\n"
+"\n"
+"Сопровождение: m.muenz@gmail.com"
