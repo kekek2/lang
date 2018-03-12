@@ -49928,6 +49928,11 @@ msgid "Your configuration is now complete."
 msgstr "Конфигурация закончена."
 
 #
+# File: /usr/plugins/devel/ting-plugin-proxy-ntlm/src/opnsense/mvc/app/views/SmartSoft/ProxyNTLM/index.volt, line: 18
+msgid "Status of connection to domain: "
+msgstr "Состояние подключения к домену: "
+
+#
 # File: /usr/lang/src/wizards.php, line: 305
 msgid "addrpool"
 msgstr ""
