@@ -1,0 +1,63 @@
+#
+# File: /usr/core/src/opnsense/mvc/app/views/SmartSoft/License/index.volt, line: 82
+msgid "Import license"
+msgstr "Импортировать лицензию"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/SmartSoft/License/index.volt, line: 79
+msgid "Export license"
+msgstr "Экспортировать лицензию"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/SmartSoft/License/index.volt, line: 74
+msgid "Get license"
+msgstr "Получить лицензию"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/SmartSoft/License/index.volt, line: 58
+msgid "Organisation"
+msgstr "Организация"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/SmartSoft/License/index.volt, line: 56
+msgid "Module"
+msgstr "Модуль"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/SmartSoft/License/index.volt, line: 37
+msgid "License imported: "
+msgstr "Лицензия импортирована"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 211
+msgid "License for CORE added successful"
+msgstr "Лицензия для CORE успешно добавлена"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 207
+#, php-format
+msgid "License for module %s added successful"
+msgstr "Лицензия для модуля %s успешно добавлена"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 143
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 191
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 197
+msgid "Could not get license."
+msgstr "Невозможно получить лицензию"
+
+#
+# File: /usr/core/src/www/ting_cert.php, line: 38
+# File: /usr/core/src/www/ting_cert.php, line: 53
+msgid "The certificate does not match the private key"
+msgstr "Сертификат не соответствует секретному ключу"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1055
+msgid "License acquisition"
+msgstr "Получение лицензии"
+
+#
+# File: /usr/lang/src/models.php, line: 196
+msgid "EULA"
+msgstr "Лицензионное соглвшение"
