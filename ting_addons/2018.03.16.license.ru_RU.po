@@ -26,7 +26,7 @@ msgstr "Модуль"
 #
 # File: /usr/core/src/opnsense/mvc/app/views/SmartSoft/License/index.volt, line: 37
 msgid "License imported: "
-msgstr "Лицензия импортирована"
+msgstr "Лицензия импортирована: "
 
 #
 # File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 211
@@ -60,4 +60,4 @@ msgstr "Получение лицензии"
 #
 # File: /usr/lang/src/models.php, line: 196
 msgid "EULA"
-msgstr "Лицензионное соглвшение"
+msgstr "Лицензионное соглашение"

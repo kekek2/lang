@@ -1,0 +1,1052 @@
+#
+# File: /usr/lang/src/acl.php, line: 217
+msgid "System: Configuration: SCP Backup"
+msgstr "Система: Конфигурация: резервная копия по SCP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 204
+msgid ""
+"An integer value corresponding to the TCP source port of the connection on "
+"the client side, which is the port the client connected from."
+msgstr ""
+"Целое значение, соответствующее исходному порту TCP соединения на стороне "
+"клиента, который является портом, с которого подключен клиент."
+
+#
+# File: /usr/lang/src/controllers.php, line: 300
+msgid "Bytes in rate period"
+msgstr "Входящих байт в тарифицируемый период"
+
+#
+# File: /usr/lang/src/controllers.php, line: 301
+msgid "Bytes out rate period"
+msgstr "Исходящих байт в тарифицируемый период"
+
+#
+# File: /usr/lang/src/controllers.php, line: 339
+msgid ""
+"Choose a request pattern to associate a user to a server. See the <a target="
+"\"_blank\" href=\"http://cbonte.github.io/haproxy-dconv/1.8/configuration."
+"html#stick on\">HAProxy documentation</a> for a full description.<br/><div "
+"class=\"text-info\"><b>NOTE:</b> Consider not using this feature in multi-"
+"process mode, it can result in random behaviours.</div>"
+msgstr ""
+"Выберите шаблон запроса, чтобы связать пользователя с сервером. Смотрите <a target="
+"\"_blank\" href=\"http://cbonte.github.io/haproxy-dconv/1.8/configuration."
+"html#stick on\">Документацию HAProxy</a> для полного описания.<br/><div "
+"class=\"text-info\"><b>NOTE:</b> Рассмотрите возможность не использовать эту функцию "
+"в многопроцессорном режиме, это может привести к случайному поведению.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 341
+msgid "Choose a stick-table type."
+msgstr "Выберите тип stick-таблицы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 356
+msgid "Choose the cipher to use for encryption."
+msgstr "Выберите шифр для кодирования."
+
+#
+# File: /usr/lang/src/controllers.php, line: 359
+msgid ""
+"Choose the type of data that should be stored in this stick-table. Note that "
+"this stick-table cannot be used for session persistence, it is only used to "
+"store additional per-connection data (select below). See the <a target="
+"\"_blank\" href=\"http://cbonte.github.io/haproxy-dconv/1.8/configuration."
+"html#stick-table\">HAProxy documentation</a> for further information."
+msgstr ""
+"Выберите тип данных, которые должны храниться в этой stick-таблице. Обратите "
+"внимание, что эта stick-таблица не может использоваться для сохранения сеанса, "
+"она используется только для хранения дополнительных данных для каждого соединения "
+"(выберите ниже). Смотрите <a target=\"_blank\" href=\"http://cbonte.github.io/haproxy-dconv/1.8/configuration."
+"html#stick-table\">Документация HAProxy</a> для детального описания."
+
+#
+# File: /usr/lang/src/controllers.php, line: 382
+msgid "Сравнение"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 395
+# File: /usr/lang/src/models.php, line: 143
+msgid "Скорость соединения"
+msgstr ""
+
+#
+# File: /usr/lang/src/controllers.php, line: 396
+msgid "Connection rate period"
+msgstr "Период скорости подключения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 399
+msgid "Connections count"
+msgstr "Количество соединений"
+
+#
+# File: /usr/lang/src/controllers.php, line: 239
+msgid "Consumer Key"
+msgstr "Клиентский ключ"
+
+#
+# File: /usr/lang/src/controllers.php, line: 433
+msgid "Data received"
+msgstr "Данные получены"
+
+#
+# File: /usr/lang/src/controllers.php, line: 434
+msgid "Data sent"
+msgstr "Данные отправлены"
+
+#
+# File: /usr/lang/src/controllers.php, line: 461
+msgid ""
+"Define the load balancing algorithm to be used in a Backend Pool. See the <a "
+"target=\"_blank\" href=\"http://cbonte.github.io/haproxy-dconv/1.8/"
+"configuration.html#balance\">HAProxy documentation</a> for a full "
+"description."
+msgstr ""
+"Определите алгоритм балансировки нагрузки, который будет использоваться во "
+"внутреннем пуле. Смотрите <a target=\"_blank\" href=\"http://cbonte.github.io/haproxy-dconv/1.8/"
+"configuration.html#balance\">Документацию HAProxy</a> для детального описания."
+
+#
+# File: /usr/lang/src/controllers.php, line: 550
+msgid "Enable Graphite Output"
+msgstr "Включить вывод Graphite"
+
+#
+# File: /usr/lang/src/controllers.php, line: 551
+msgid "Enable Graylog Output"
+msgstr "Включить вывод Output"
+
+#
+# File: /usr/lang/src/controllers.php, line: 560
+msgid "Enable Influx Output"
+msgstr "Включить вывода Influx"
+
+#
+# File: /usr/lang/src/controllers.php, line: 564
+msgid "Enable LDAP"
+msgstr "Включить LDAP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 588
+msgid "Enable ShadowSocks Local"
+msgstr "Включить локального ShadowSocks"
+
+#
+# File: /usr/lang/src/controllers.php, line: 589
+msgid "Enable ShadowSocks Server"
+msgstr "Включить сервер ShadowSocks"
+
+#
+# File: /usr/lang/src/controllers.php, line: 630
+msgid "Enable if all present and future subdomains will be HTTPS."
+msgstr "Включить, если все существующие и будущие поддомены будут HTTPS."
+
+#
+# File: /usr/lang/src/controllers.php, line: 631
+msgid "Enable if you like this domain to be included in the HSTS preload list."
+msgstr "Включите, если вы хотите, чтобы этот домен был включен в список предварительной загрузки HSTS."
+
+#
+# File: /usr/lang/src/controllers.php, line: 643
+msgid ""
+"Enable or disable HAProxy peers. This will propagate entries of any data-"
+"types in stick-tables between several HAProxy instances over TCP connections "
+"in a multi-master fashion."
+msgstr ""
+"Включение или отключение узлов HAProxy. Это распространит записи любых типов "
+"данных в stick-таблицах между несколькими экземплярами HAProxy по TCP-подключениям "
+"в режиме Multi-master."
+
+#
+# File: /usr/lang/src/controllers.php, line: 669
+msgid "Enable peers"
+msgstr "Включить пир"
+
+#
+# File: /usr/lang/src/controllers.php, line: 680
+msgid "Enable sticky counters"
+msgstr "Включить липкие счетчики"
+
+#
+# File: /usr/lang/src/controllers.php, line: 715
+msgid ""
+"Enable to be able to retrieve values from sticky counters. If disabled, all "
+"values will return 0, rendering many conditions useless."
+msgstr ""
+"Включите, чтобы иметь возможность извлекать значения из липких счетчиков. "
+"Если этот параметр отключен, все значения будут возвращать 0, что делает "
+"многие условия бесполезными."
+
+#
+# File: /usr/lang/src/controllers.php, line: 827
+msgid ""
+"Filter for group objects, should match all available group objects a user "
+"might be a member of."
+msgstr ""
+"Фильтр для объектов группы должен соответствовать всем доступным объектам "
+"группы, членом которых может быть пользователь."
+
+#
+# File: /usr/lang/src/controllers.php, line: 844
+msgid "Graphite Postfix"
+msgstr "Постфикс Graphite"
+
+#
+# File: /usr/lang/src/controllers.php, line: 654
+msgid "Graphite Prefix"
+msgstr "Префикс Graphite"
+
+#
+# File: /usr/lang/src/controllers.php, line: 878
+msgid "Graphite Server"
+msgstr "Сервер Graphite"
+
+#
+# File: /usr/lang/src/controllers.php, line: 879
+msgid "Graphite Template"
+msgstr "Шаблон Graphite"
+
+#
+# File: /usr/lang/src/controllers.php, line: 884
+msgid "Graylog Server"
+msgstr "Сервер Graylog"
+
+#
+# File: /usr/lang/src/controllers.php, line: 885
+msgid "Group Filter"
+msgstr "Групповой фильтр"
+
+#
+# File: /usr/lang/src/controllers.php, line: 900
+msgid "HTTP Keep-Alive Timeout"
+msgstr "Таймаут удержания соединения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 902
+msgid "HTTP Request Timeout"
+msgstr "Таймаут запроса HTTP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 905
+# File: /usr/lang/src/models.php, line: 255
+msgid "HTTP error count"
+msgstr "Количество ошибок HTTP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 906
+# File: /usr/lang/src/models.php, line: 256
+msgid "HTTP error rate"
+msgstr "Частота ошибок HTTP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 907
+msgid "HTTP error rate period"
+msgstr "Период для частоты ошибок HTTP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 921
+# File: /usr/lang/src/models.php, line: 257
+msgid "HTTP request count"
+msgstr "Количество запросов HTTP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 922
+# File: /usr/lang/src/models.php, line: 258
+msgid "HTTP request rate"
+msgstr "Частота запросов HTTP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 923
+msgid "HTTP request rate period"
+msgstr "Период запросов HTTP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 977
+msgid "IP address or hostname of the remote ShadowSocks server."
+msgstr "IP-адрес или имя хоста удаленного сервера ShadowSocks."
+
+#
+# File: /usr/lang/src/controllers.php, line: 738
+msgid "Inbound interface"
+msgstr "Входящий интерфейс"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1015
+msgid "Incoming bytes rate"
+msgstr "Скорость входящих байт"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1027
+msgid ""
+"It describes what elements of the incoming request or connection will be "
+"analyzed, extracted, combined, and used to select which table entry to "
+"update the counters. Defaults to \"src\" to track elements of the source IP. "
+"See the <a target=\"_blank\" href=\"http://cbonte.github.io/haproxy-"
+"dconv/1.8/configuration.html#tcp-request connection\">HAProxy documentation</"
+"a> for a full description."
+msgstr ""
+"Он описывает, какие элементы входящего запроса или соединения будут проанализированы, "
+"извлечены, объединены и использованы для выбора записи таблицы для обновления счетчиков. "
+"По умолчанию \"src\" для отслеживания элементов исходного IP-адреса. "
+"Смотрите <a target=\"_blank\" href=\"http://cbonte.github.io/haproxy-"
+"dconv/1.8/configuration.html#tcp-request connection\">Документацию HAProxy</"
+"a> для детального описания."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1091
+msgid "Listen address (IP)"
+msgstr "Адрес прослушивания (IP)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1100
+msgid "Local Root's Public Key"
+msgstr "Открытый ключ локального Root'а"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1182
+msgid "Max. data length"
+msgstr "Максимальная длина данных"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1328
+msgid "Outgoing bytes rate"
+msgstr "Скорость исходящих байт"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1356
+msgid "Peer name (FQDN)"
+msgstr "Имя пира (FQDN)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 709
+msgid "Peer-IP"
+msgstr "IP пира"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1358
+# File: /usr/lang/src/models.php, line: 418
+msgid "Peers / Session Sync"
+msgstr "Синхронизация Узлов / Сеансов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1384
+msgid "Ping Hosts and measure the metrics."
+msgstr "Пинг хостов и измерение метрик."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1395
+msgid "Port of the remote server."
+msgstr "Порт удалённых серверов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1474
+msgid "Remote Directory"
+msgstr "Удалённая диерктория"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1477
+msgid "Remote Username"
+msgstr "Удалённое имя пользователя"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1698
+# File: /usr/lang/src/models.php, line: 587
+msgid "Session count"
+msgstr "Количество сеансов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1699
+msgid "Session rate period"
+msgstr "Период частоты сессий"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1705
+msgid "Set an optional prefix to the metrics."
+msgstr "Задайте необязательный префикс для метрик."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1712
+msgid "Set the Base DN in format dc=example,dc=domain,dc=com"
+msgstr "Задайте базовый DN в форме dc=example,dc=domain,dc=com"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1713
+msgid "Set the Hosts to ping in a CSV list."
+msgstr "Задайте хосты для ping в списке CSV."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1718
+msgid "Set the IP and port where metrics shoud be sent to."
+msgstr "Задайте IP-адрес и порт, на который будут отправляться метрики."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1719
+msgid ""
+"Set the IP or FQDN to where to send the mails to. Empty means MX will be "
+"used. You can also add custom ports via :225 or disable MX lookup via "
+"squared brackets."
+msgstr ""
+"Задайте IP или полное доменное имя для отправки сообщений. Пустой означает, "
+"что будет использоваться MX. Вы также можете добавить пользовательские порты "
+"через :225 или отключить поиск MX через квадратные скобки."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1728
+msgid ""
+"Set the filter to search for users, for Active Directory change uid to "
+"samaccountname."
+msgstr ""
+"Установите фильтр для поиска пользователей. Для Active Directory измените "
+"uid на samaccountname."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1730
+msgid "Set the hostname or IP address to connect to."
+msgstr "Установить имя хоста или IP-адрес для подключения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1733
+msgid ""
+"Set the maximum allowed time to wait for a complete HTTP request. In order "
+"to offer DoS protection, it may be required to lower the maximum accepted "
+"time to receive a complete HTTP request without affecting the client "
+"timeout. This helps protecting against established connections on which "
+"nothing is sent. Defaults to milliseconds. Optionally the unit may be "
+"specified as either \"d\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
+msgstr ""
+"Задайте максимально допустимое время ожидания полного HTTP-запроса. Чтобы "
+"предложить защиту DoS, может потребоваться снизить максимально допустимое "
+"время получения полного HTTP-запроса, не влияя на время ожидания клиента. "
+"Это помогает защитить от установленных соединений, на которые ничего не "
+"отправляется. По умолчанию миллисекунды. Опционально единица времени может быть определена "
+"как \"d\", \"h\", \"m\", \"s\", \"ms\" или \"us\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1734
+msgid ""
+"Set the maximum allowed time to wait for a new HTTP request to appear. "
+"Defaults to milliseconds. Optionally the unit may be specified as either \"d"
+"\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
+msgstr ""
+"Задайте максимально допустимое время ожидания появления нового HTTP-запроса. "
+"По умолчанию миллисекунды. Опционально единица времени может быть определена как \"d"
+"\", \"h\", \"m\", \"s\", \"ms\" или \"us\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1283
+msgid ""
+"Set the minimum download bandwith for WISPr attribute. The value is treated "
+"as bits/s."
+msgstr ""
+"Установите минимальную пропускную способность загрузки для атрибута WISPr. Значение "
+"обрабатывается как bits/s."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1760
+msgid "Set the protocol to use."
+msgstr "Установите протокол для использования."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1762
+msgid "Set the remote directory to backup the config file to."
+msgstr "Установите удаленный каталог для резервного копирования файла конфигурации."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1763
+msgid "Set the remote hostname."
+msgstr "Задайте имя удаленного хоста."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1764
+msgid "Set the remote port."
+msgstr "Установите удаленный порт."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1765
+msgid "Set the remote username."
+msgstr "Установить удаленное имя пользователя."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1788
+msgid "Show introduction pages"
+msgstr "Показать вводные страницы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1836
+msgid ""
+"Specify the maximum length for a value in the stick-table. If the value is "
+"larger than this value it will be truncated before being stored. Depending "
+"on the stick-table type this repesents either characters or bytes."
+msgstr ""
+"Укажите максимальную длину для значения в stick-таблице. Если значение больше "
+"этого значения, оно будет усечено перед сохранением. В зависимости от типа "
+"stick-table это представляет или символы или байты."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1862
+msgid "Stickiness table"
+msgstr "Stick-таблица"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1863
+msgid "Sticky counter key"
+msgstr "Счётчик ключей для Sticky"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1865
+msgid "Stored data types"
+msgstr "Тип хранимых данных"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1884
+msgid "TCP Port"
+msgstr "Порт TCP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1922
+msgid ""
+"The TCP port that should be used for connections to this peer. It must not "
+"be used by any other service."
+msgstr ""
+"Порт TCP, который должен использоваться для соединений с этим узлом. Он не "
+"должен использоваться другими службами."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1926
+msgid "The average bytes rate from the incoming connection's source address."
+msgstr "Средняя скорость байт от адреса источника входящего соединения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1927
+msgid "The average bytes rate to the incoming connection's source address."
+msgstr "Средняя скорость байт адреса источника входящего соединения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1928
+msgid ""
+"The average connection rate from the incoming connection's source address."
+msgstr ""
+"Средняя скорость соединения от адреса источника входящего соединения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1929
+msgid ""
+"The average rate of HTTP errors from the incoming connection's source "
+"address."
+msgstr ""
+"Средняя частота ошибок HTTP от адреса источника входящего соединения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1930
+msgid ""
+"The average rate of HTTP requests from the incoming connection's source "
+"address."
+msgstr ""
+"Средняя скорость запросов HTTP от адреса источника входящего соединения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1932
+msgid ""
+"The cumulative number of HTTP errors from the incoming connection's source "
+"address."
+msgstr ""
+"Совокупное число ошибок HTTP от адреса источника входящего подключения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1933
+msgid ""
+"The cumulative number of HTTP requests from the incoming connection's source "
+"address."
+msgstr ""
+"Совокупное число HTTP-запросов от адреса источника входящего подключения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1934
+msgid ""
+"The cumulative number of connections initiated from the current incoming "
+"connection's source address."
+msgstr ""
+"Совокупное число соединений, инициированных с адреса источника текущего входящего "
+"соединения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1935
+msgid ""
+"The cumulative number of connections initiated from the incoming "
+"connection's source address."
+msgstr ""
+"Совокупное число соединений, инициированных с адреса источника входящего соединения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1936
+msgid ""
+"The current amount of concurrent connections initiated from the current "
+"incoming connection's source address."
+msgstr ""
+"Текущее количество одновременных соединений, инициированных с адреса источника текущего "
+"входящего соединения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1945
+msgid ""
+"The length of the period over which the average is measured. It reports the "
+"average HTTP request error rate over that period, in requests per period. "
+"Defaults to milliseconds. Optionally the unit may be specified as either \"d"
+"\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
+msgstr ""
+"Продолжительность периода, за который измеряется среднее значение. Он сообщает "
+"среднюю частоту ошибок HTTP-запросов за этот период в запросах за период. "
+"По умолчанию миллисекунды. Опционально единица времени может быть указана как \"d"
+"\", \"h\", \"m\", \"s\", \"ms\" или \"us\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1946
+msgid ""
+"The length of the period over which the average is measured. It reports the "
+"average HTTP request rate over that period, in requests per period. Defaults "
+"to milliseconds. Optionally the unit may be specified as either \"d\", \"h"
+"\", \"m\", \"s\", \"ms\" or \"us\"."
+msgstr ""
+"Продолжительность периода, за который измеряется среднее значение. Он сообщает "
+"среднюю скорость запросов HTTP за этот период в запросах за период. По умолчанию "
+"миллисекунды. Опционально единица времени может быть указана как \"d\", \"h"
+"\", \"m\", \"s\", \"ms\" или \"us\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1947
+msgid ""
+"The length of the period over which the average is measured. It reports the "
+"average incoming bytes rate over that period, in bytes per period. Defaults "
+"to milliseconds. Optionally the unit may be specified as either \"d\", \"h"
+"\", \"m\", \"s\", \"ms\" or \"us\"."
+msgstr ""
+"Продолжительность периода, за который измеряется среднее значение. Он сообщает "
+"среднюю скорость входящих байт за этот период, в байтах за период. По умолчанию "
+"миллисекунды. Опционально единица времени может быть указана как \"d\", \"h"
+"\", \"m\", \"s\", \"ms\" или \"us\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1948
+msgid ""
+"The length of the period over which the average is measured. It reports the "
+"average incoming connection rate over that period, in connections per "
+"period. Defaults to milliseconds. Optionally the unit may be specified as "
+"either \"d\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
+msgstr ""
+"Продолжительность периода, за который измеряется среднее значение. Он сообщает "
+"среднюю скорость входящего соединения за этот период в соединениях за период. "
+"По умолчанию миллисекунды. Опционально единица времени может быть указана как "
+"either \"d\", \"h\", \"m\", \"s\", \"ms\" или \"us\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1949
+msgid ""
+"The length of the period over which the average is measured. It reports the "
+"average incoming session rate over that period, in sessions per period. "
+"Defaults to milliseconds. Optionally the unit may be specified as either \"d"
+"\", \"h\", \"m\", \"s\", \"ms\" or \"us\"."
+msgstr ""
+"Продолжительность периода, за который измеряется среднее значение. Он сообщает "
+"среднюю скорость входящих сеансов за этот период в сеансах за период. "
+"По умолчанию миллисекунды. Опционально единица времени может быть указана как \"d"
+"\", \"h\", \"m\", \"s\", \"ms\" или \"us\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1950
+msgid ""
+"The length of the period over which the average is measured. It reports the "
+"average outgoing bytes rate over that period, in bytes per period. Defaults "
+"to milliseconds. Optionally the unit may be specified as either \"d\", \"h"
+"\", \"m\", \"s\", \"ms\" or \"us\"."
+msgstr ""
+"Продолжительность периода, за который измеряется среднее значение. Он сообщает "
+"среднюю скорость исходящих байт за этот период, в байтах за период. По умолчанию "
+"миллисекунды. Опционально единица времени может быть указана как \"d\", \"h"
+"\", \"m\", \"s\", \"ms\" или \"us\"."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1952
+msgid "The listen address of the local peer or the address of the remote peer."
+msgstr "Адрес прослушивания локального узла или адрес удаленного узла."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1964
+msgid ""
+"The name of the peer. This is usually the full hostname to make it possible "
+"for HAProxy to recognize the local peer. If HAProxy is unable to find the "
+"local peer it will fail to start."
+msgstr ""
+"Имя пира. Обычно это полное имя хоста, чтобы HAProxy мог распознать локальный "
+"узел. Если HAProxy не может найти узел локализации, он не запустится."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1992
+msgid ""
+"The public key of the local root user. This public key must be added to the "
+"remote user's authorized_keys - otherwise backups will fail."
+msgstr ""
+"Открытый ключ локального пользователя root. Этот открытый ключ должен быть "
+"добавлен в authorized_keys удаленного пользователя - в противном случае "
+"резервное копирование завершится ошибкой."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2007
+msgid ""
+"The total amount of data received from the incoming connection's source "
+"address (in kilobytes)."
+msgstr ""
+"Общий объем данных, полученных с адреса источника входящего подключения "
+"(в килобайтах)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2008
+msgid ""
+"The total amount of data sent to the incoming connection's source address "
+"(in kilobytes)."
+msgstr ""
+"Общий объем данных, отправленных на адрес источника входящего подключения "
+"(в килобайтах)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2018
+msgid ""
+"The value that should be set for the specified HTTP header. Note that it is "
+"possible to use pre-defined variables, see <a href=\"http://cbonte.github.io/"
+"haproxy-dconv/1.8/configuration.html#8.2.4\">HAProxy's documentation</a> for "
+"further details and examples."
+msgstr ""
+"Значение, которое должно быть установлено для указанного заголовка HTTP. Обратите "
+"внимание, что можно использовать предопределенные переменные, смотрите <a href=\"http://cbonte.github.io/"
+"haproxy-dconv/1.8/configuration.html#8.2.4\">Документацию HAProxy</a> для "
+"детального описания и примеров."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2019
+msgid ""
+"The value that should be set for the specified HTTP header. Note that it's "
+"possible to use pre-defined variables, see <a href=\"http://cbonte.github.io/"
+"haproxy-dconv/1.8/configuration.html#8.2.4\">HAProxy's documentation</a> for "
+"further details and examples."
+msgstr ""
+"Значение, которое должно быть установлено для указанного заголовка HTTP. Обратите "
+"внимание, что можно использовать предопределенные переменные, смотрите <a href=\"http://cbonte.github.io/"
+"haproxy-dconv/1.8/configuration.html#8.2.4\">Документацию HAProxy</a> для "
+"детального описания и примеров."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2026
+msgid ""
+"This allows you to bind to an external LDAP server. Be aware that FreeRADIUS "
+"will not start if there is no further configuration."
+msgstr ""
+"Это позволяет выполнить привязку к внешнему серверу LDAP. Имейте в виду, что "
+"FreeRADIUS не запустится, если нет дальнейшей конфигурации."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2043
+msgid ""
+"This is used to store additional information in the stick-table. It may be "
+"used by ACLs in order to control various criteria related to the activity of "
+"the client matching the stick-table. Note that this directly impacts memory "
+"usage. See the <a target=\"_blank\" href=\"http://cbonte.github.io/haproxy-"
+"dconv/1.8/configuration.html#stick-table\">HAProxy documentation</a> for a "
+"full description."
+msgstr ""
+"Это использовано для того чтобы хранить дополнительную информации в stick-таблице. "
+"Он может использоваться ACL для управления различными критериями, связанными с "
+"деятельностью клиента, соответствующего stick-таблице. Обратите внимание, что это "
+"напрямую влияет на использование памяти. Смотрите <a target=\"_blank\" href=\"http://cbonte.github.io/haproxy-"
+"dconv/1.8/configuration.html#stick-table\">Документацию HAProxy</a> для "
+"детального описания."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2069
+msgid ""
+"This will activate certificate based authentication (EAP-TLS) and validation "
+"(EAP-TTLS). Please choose CA and Certificate below and do not forget to roll "
+"out certificates to the clients."
+msgstr ""
+"Это активирует аутентификацию на основе сертификата (EAP-TLS) и проверку "
+"подлинности (EAP-TTLS). Пожалуйста выберите CA и сертификат ниже и не забудьте "
+"выдать сертификаты клиентам."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2080
+msgid "This will activate the SCP backup plugin."
+msgstr "Это активирует плагин резервного копирования SCP."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2082
+msgid ""
+"This will activate the ShadowSocks Local instance. This lets you tunnel your "
+"application to a public ShadowSocks server."
+msgstr ""
+"Это активирует локальный экземпляр ShadowSocks. Это позволяет туннелировать "
+"приложение на общедоступный сервер ShadowSocks."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2083
+msgid ""
+"This will activate the ShadowSocks Server. This lets people around the world "
+"connect via ss-local to your server."
+msgstr ""
+"Это активирует сервер ShadowSocks. Это позволяет людям по всему миру, подключенных "
+"через ss-local сервер."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2099
+msgid ""
+"This will enable Graphite as output. Format is without square brackets, just "
+"like localhost:2003."
+msgstr ""
+"Это включает Graphite как выход. Формат без квадратных скобок, например, "
+"localhost:2003."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2100
+msgid ""
+"This will enable Graylog as output. Format is without square brackets, just "
+"like localhost:12201."
+msgstr ""
+"Это позволит Graylog как выходной. Формат без квадратных скобок, например, "
+"localhost:12201."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2161
+msgid ""
+"Uncheck to hide all additional introduction pages. Requires a manual page "
+"reload for the change to take effect."
+msgstr ""
+"Снимите флажок, чтобы скрыть все дополнительные страницы введения. Для "
+"вступления изменений в силу требуется перезагрузка справочной страницы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2169
+msgid ""
+"Use HAProxy's redirect function to return a HTTP redirection. See <a href="
+"\"http://cbonte.github.io/haproxy-dconv/1.8/configuration.html#redirect"
+"\">HAProxy's documentation</a> for further details and examples."
+msgstr ""
+"Используйте функцию перенаправления HAProxy для возврата перенаправления HTTP. "
+"Смотрите <a href=\"http://cbonte.github.io/haproxy-dconv/1.8/configuration.html#redirect"
+"\">Документацию HAProxy</a> для подробного описания and примеров."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2172
+msgid ""
+"Use a specific output template. For usage see https://github.com/influxdata/"
+"telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md"
+msgstr ""
+"Используйте определенный шаблон вывода. Для использования смотрите https://github.com/influxdata/"
+"telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2186
+msgid "User Filter"
+msgstr "Пользовательский фильтр"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2198
+msgid "Username to bind to LDAP, same format as in Base DN."
+msgstr "Имя пользователя для подключения к LDAP, такой же формат как и в Base DN."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2203
+msgid "Validate Certificates"
+msgstr "Проверка сертификатов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2227
+msgid ""
+"When this option is enabled, tinc will try to discover the path MTU to this "
+"node. After the path MTU has been discovered, it will be enforced on the VPN."
+msgstr ""
+"Когда эта опция включена, tinc попытается обнаружить path MTU к этому узлу. "
+"После обраружения path MTU, он будет применён на VPN."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2267
+msgid "choose a valid IPv4/v6 address"
+msgstr "выберите допустимый адрес IPv4/v6"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2289
+msgid "ip address of the mail host"
+msgstr "ip-адрес почтового хоста"
+
+#
+# File: /usr/lang/src/models.php, line: 113
+msgid "Bytes in count (client to server)"
+msgstr "Количество входящих байт (от клиента к серверу)"
+
+#
+# File: /usr/lang/src/models.php, line: 114
+msgid "Bytes in rate (client to server)"
+msgstr "Входящая скорость в байтах (от клиента к серверу)"
+
+#
+# File: /usr/lang/src/models.php, line: 115
+msgid "Bytes out count (server to client)"
+msgstr "Количество исходящих байт (от сервера к клиента)"
+
+#
+# File: /usr/lang/src/models.php, line: 116
+msgid "Bytes out rate (server to client)"
+msgstr "Исходящая скорость в байтах (от сервера к клиерту)"
+
+#
+# File: /usr/lang/src/models.php, line: 142
+msgid "Connection count"
+msgstr "Количество соединений"
+
+#
+# File: /usr/lang/src/models.php, line: 149
+msgid "Current connections"
+msgstr "Текущии соединения"
+
+#
+# File: /usr/lang/src/models.php, line: 266
+msgid "Hello World!"
+msgstr "Здравствуй мир!"
+
+#
+# File: /usr/lang/src/models.php, line: 434
+msgid "Please provide a hostname (no spaces allowed)"
+msgstr "Укажите имя хоста (пробелы не допускаются)"
+
+#
+# File: /usr/lang/src/models.php, line: 435
+msgid "Please provide a remote directory."
+msgstr "Укажите удаленный каталог."
+
+#
+# File: /usr/lang/src/models.php, line: 442
+msgid ""
+"Please provide a valid port number between 1 and 65535. Port 22 is the "
+"default."
+msgstr ""
+"Укажите действительный номер порта от 1 до 65535. По умолчанию используется "
+"порт 22."
+
+#
+# File: /usr/lang/src/models.php, line: 445
+msgid "Please provide a valid username ([a-z0-9_-]{3,32})."
+msgstr "Укажите допустимое имя пользователя ([a-z0-9_-]{3,32})."
+
+#
+# File: /usr/lang/src/models.php, line: 468
+msgid "Please specify a value between 1 and 16384."
+msgstr "Укажите значение от 1 до 16384."
+
+#
+# File: /usr/lang/src/models.php, line: 588
+msgid "Session rate"
+msgstr "Частота сессий"
+
+# File: /usr/lang/src/models.php, line: 606
+msgid "Should be a string between 1 and 32 characters."
+msgstr "Должна быть строка от 1 до 32 символов."
+
+#
+# File: /usr/lang/src/models.php, line: 619
+msgid "Source IP is local"
+msgstr "IP-адрес источника является локальным"
+
+#
+# File: /usr/lang/src/models.php, line: 621
+msgid "Source IP: TCP source port"
+msgstr "IP источника: порт источника TCP"
+
+#
+# File: /usr/lang/src/models.php, line: 622
+msgid "Source IP: amount of data received (in kilobytes)"
+msgstr "IP-адрес источника: объем полученных данных (в килобайтах)"
+
+#
+# File: /usr/lang/src/models.php, line: 623
+msgid "Source IP: amount of data sent (in kilobytes)"
+msgstr "IP-адрес источника: объем отправленных данных (в килобайтах)"
+
+#
+# File: /usr/lang/src/models.php, line: 624
+msgid "Source IP: concurrent connections"
+msgstr "IP-адрес источника: параллельные соединения"
+
+#
+# File: /usr/lang/src/models.php, line: 625
+msgid "Source IP: connection rate"
+msgstr "IP-адрес источника: скорость соединения "
+
+#
+# File: /usr/lang/src/models.php, line: 626
+msgid "Source IP: cumulative number of HTTP errors"
+msgstr "IP-адрес источника: общее количество ошибок HTTP"
+
+#
+# File: /usr/lang/src/models.php, line: 627
+msgid "Source IP: cumulative number of connections"
+msgstr "IP-адрес источника: общее число подключений"
+
+#
+# File: /usr/lang/src/models.php, line: 628
+msgid "Source IP: incoming bytes rate"
+msgstr "IP-адрес источника: скорость входящих байт"
+
+#
+# File: /usr/lang/src/models.php, line: 629
+msgid "Source IP: number of HTTP requests"
+msgstr "IP-адрес источника: количество HTTP-запросов"
+
+#
+# File: /usr/lang/src/models.php, line: 630
+msgid "Source IP: outgoing bytes rate"
+msgstr "IP-адрес источника: скорость исходящих байт"
+
+#
+# File: /usr/lang/src/models.php, line: 631
+msgid "Source IP: rate of HTTP errors"
+msgstr "IP-адрес источника: частота ошибок HTTP"
+
+#
+# File: /usr/lang/src/models.php, line: 632
+msgid "Source IP: rate of HTTP requests"
+msgstr "IP-адрес источника: частота HTTP-запросов"
+
+#
+# File: /usr/lang/src/models.php, line: 633
+msgid "Source IP: session rate"
+msgstr "Источник ИС: частота сессий"
+
+#
+# File: /usr/lang/src/models.php, line: 860
+msgid "only store IPv4 addresses [default]"
+msgstr "хранить только адреса IPv4 [по умолчанию]"
+
+#
+# File: /usr/lang/src/models.php, line: 861
+msgid "only store IPv6 addresses"
+msgstr "хранить только адреса IPv6 "
+
+#
+# File: /usr/lang/src/models.php, line: 867
+msgid "please specify a valid email address"
+msgstr "пожалуйста, укажите действительный адрес электронной почты "
+
+#
+# File: /usr/lang/src/models.php, line: 878
+msgid "store 32bit integers"
+msgstr "хранить целые 32-х разрядные"
+
+#
+# File: /usr/lang/src/models.php, line: 879
+msgid "store binary blocks"
+msgstr "Хранить двоичные блоки"
+
+#
+# File: /usr/lang/src/models.php, line: 880
+msgid "store substrings"
+msgstr "Хранить подстроки"
