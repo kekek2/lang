@@ -15083,7 +15083,7 @@ msgstr ""
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 500
 msgid "Enforces a maximum MSS for matching TCP packets."
-msgstr "Применяет максимальное значение MSS к соответствующим требованиям TCP-"
+msgstr "Применяет максимальное значение MSS к соответствующим требованиям TCP-пакета"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 496
 msgid "Max mss"
