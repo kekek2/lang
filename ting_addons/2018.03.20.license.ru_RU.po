@@ -1,0 +1,24 @@
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 236
+msgid "No license attached"
+msgstr "Лицензия не отправлена"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 234
+msgid "License imported successful"
+msgstr "Лицензия успешно импортирована"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 231
+msgid "This file not contain license."
+msgstr "Файл не содержит лицензии"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 228
+msgid "Not specified the file name"
+msgstr "Не указано имя файла"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 223
+msgid "No files attached"
+msgstr "Файл не отправлен"

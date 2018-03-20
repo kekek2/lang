@@ -15083,7 +15083,8 @@ msgstr ""
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 500
 msgid "Enforces a maximum MSS for matching TCP packets."
-msgstr "Применяет максимальное значение MSS к соответствующим требованиям TCP-пакета"
+msgstr ""
+"Применяет максимальное значение MSS к соответствующим требованиям TCP-пакета"
 
 # File: /usr/core/src/www/firewall_scrub_edit.php, line: 496
 msgid "Max mss"
@@ -21728,6 +21729,31 @@ msgid "Local + Timebased One Time Password"
 msgstr "Локальный + Синхронизированный по времени одноразовый пароль"
 
 #
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 236
+msgid "No license attached"
+msgstr "Лицензия не отправлена"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 234
+msgid "License imported successful"
+msgstr "Лицензия успешно импортирована"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 231
+msgid "This file not contain license."
+msgstr "Файл не содержит лицензии"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 228
+msgid "Not specified the file name"
+msgstr "Не указано имя файла"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 223
+msgid "No files attached"
+msgstr "Файл не отправлен"
+
+#
 # File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 211
 msgid "License for CORE added successful"
 msgstr "Лицензия для CORE успешно добавлена"
@@ -22742,10 +22768,9 @@ msgstr ""
 "Обнаружена потенциальная атак типа «%sDNS rebinding%s». %sTryИспользуйте IP-"
 "адрес вместо имени хоста для доступа к маршрутизатору."
 
-#
-# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 231
-msgid "Wait Timer:"
-msgstr "Таймер ожидания"
+# File: src/www/services_snmp.php, line: 82
+msgid "Invalid character '#' in system contact"
+msgstr "Недопустимый символ «#» в поле «Контактная информация»"
 
 #
 # File: /usr/plugins/www/web-proxy-sso/src/opnsense/mvc/app/views/OPNsense/ProxySSO/index.volt, line: 164
@@ -22858,20 +22883,11 @@ msgstr "DNS-сервер не найден."
 msgid "Kaspersky Antivirus ICAP Service"
 msgstr "Kaspersky Antivirus ICAP сервис"
 
-#
-# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/views/SmartSoft/Kaspersky/status.volt, line: 75
-msgid ""
-"Signatures database does not exist. Please, run signatures database update "
-"process."
-msgstr ""
-"База сигнатур не существует. Пожалуйста, запустите процесс обновления базы "
-"сигнатур."
-
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-16 11:32+0300\n"
+"POT-Creation-Date: 2018-03-20 11:45+0300\n"
 "PO-Revision-Date: 2017-01-09 09:17+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22882,6 +22898,11 @@ msgstr ""
 "X-Generator: Poedit 1.8.8\n"
 "X-Pootle-Path: /ru/gui/ru.po\n"
 "X-Pootle-Revision: 0\n"
+
+# File: lang/dynamic/helpers/models.php, line: 98
+# File: src/www/widgets/widgets/smart_status.widget.php, line: 40
+msgid "SMART Status"
+msgstr "Статус SMART"
 
 # File: src/www/widgets/widgets/smart_status.widget.php, line: 39
 msgid "Ident"
@@ -23495,6 +23516,11 @@ msgstr "Таймеры"
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 232
 msgid "Retransmit Timer:"
 msgstr "Таймер повторной отправки пакета"
+
+#
+# File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 231
+msgid "Wait Timer:"
+msgstr "Таймер ожидания"
 
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 230
@@ -25025,10 +25051,6 @@ msgstr "Недопустимый символ «#» в поле «Строка �
 # File: /usr/core/src/www/services_snmp.php, line: 76
 msgid "Invalid character (non ascii) in system contact"
 msgstr "Недопустимый символ (не ASCII) в поле «Контактная информация»"
-
-# File: src/www/services_snmp.php, line: 82
-msgid "Invalid character '#' in system contact"
-msgstr "Недопустимый символ «#» в поле «Контактная информация»"
 
 # File: /usr/core/src/www/services_snmp.php, line: 70
 msgid "Invalid character (non ascii) in system location"
@@ -28033,10 +28055,14 @@ msgstr "%s %s не существует"
 msgid "Edit user/group white and black lists"
 msgstr "Редактировать списки доступа для пользователей и групп"
 
-# File: lang/dynamic/helpers/models.php, line: 98
-# File: src/www/widgets/widgets/smart_status.widget.php, line: 40
-msgid "SMART Status"
-msgstr "Статус SMART"
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/views/SmartSoft/Kaspersky/status.volt, line: 75
+msgid ""
+"Signatures database does not exist. Please, run signatures database update "
+"process."
+msgstr ""
+"База сигнатур не существует. Пожалуйста, запустите процесс обновления базы "
+"сигнатур."
 
 #
 # File: /usr/lang/src/acl.php, line: 36
