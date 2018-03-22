@@ -29584,12 +29584,12 @@ msgid "(FQ-)CoDel ECN"
 msgstr "(FQ-)CoDel ECN"
 
 # File: /usr/lang/src/controllers.php, line: 59
-msgid "(FQ-)CoDel interval"
-msgstr "(FQ-)CoDel interval"
+msgid "(FQ-)CoDel Interval"
+msgstr "(FQ-)CoDel Interval"
 
 # File: /usr/lang/src/controllers.php, line: 60
-msgid "(FQ-)CoDel target"
-msgstr "(FQ-)CoDel target"
+msgid "(FQ-)CoDel Target"
+msgstr "(FQ-)CoDel Target"
 
 # File: /usr/lang/src/controllers.php, line: 67
 msgid "(optional) user credentials."
@@ -31900,7 +31900,7 @@ msgid ""
 "        "
 msgstr ""
 "Динамическое создание очередей с помощью адреса источника или назначения.\n"
-"        <li> выберите адрес назначения, чтобы распределить общую пропускную способность этого канала среди всех подключенных клиентов. </li>-\n"
+"        <li> выберите адрес назначения, чтобы распределить общую пропускную способность этого канала среди всех подключенных клиентов. </li>\n"
 "        <li> выберите адрес источника, чтобы обеспечить всех подключенных клиентов до максимальной пропускной способностью этого канала  </li>\n"
 "        "
 
@@ -33486,16 +33486,16 @@ msgid "Extra Arguments"
 msgstr "Дополнительные аргументы"
 
 # File: /usr/lang/src/controllers.php, line: 285
-msgid "FQ-CoDel flows"
-msgstr "FQ-CoDel flows"
+msgid "FQ-CoDel Flows"
+msgstr "FQ-CoDel Flows"
 
 # File: /usr/lang/src/controllers.php, line: 286
-msgid "FQ-CoDel limit"
-msgstr "FQ-CoDel limit"
+msgid "FQ-CoDel Limit"
+msgstr "FQ-CoDel Limit"
 
 # File: /usr/lang/src/controllers.php, line: 287
-msgid "FQ-CoDel quantum"
-msgstr "FQ-CoDel quantum"
+msgid "FQ-CoDel Quantum"
+msgstr "FQ-CoDel Quantum"
 
 #
 # File: /usr/lang/src/controllers.php, line: 465
@@ -37929,7 +37929,7 @@ msgid "Scanning of compressed executable files."
 msgstr "Сканирование сжатых исполняемых файлов."
 
 # File: /usr/lang/src/controllers.php, line: 409
-msgid "Scheduler type"
+msgid "Scheduler Type"
 msgstr "Тип планировщика"
 
 # File: src/www/vpn_l2tp.php, line: 381
@@ -42299,8 +42299,8 @@ msgid "bandwidth"
 msgstr "пропускная способность"
 
 # File: /usr/lang/src/controllers.php, line: 565
-msgid "bandwidth Metric"
-msgstr "единицы измерения пропускной способности"
+msgid "Bandwidth Metric"
+msgstr "Единицы измерения пропускной способности"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1657
@@ -42317,8 +42317,8 @@ msgid "choose a valid IPv4/v6 address"
 msgstr "выберите допустимый адрес IPv4/v6"
 
 # File: lang/dynamic/helpers/controllers.php, line: 94
-msgid "connected pipe for this queue"
-msgstr "подключенный канал для этой очереди"
+msgid "Connected pipe for this queue"
+msgstr "Подключенный канал для этой очереди"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1113
@@ -42355,13 +42355,13 @@ msgid "destination"
 msgstr "получатель"
 
 # File: lang/dynamic/helpers/controllers.php, line: 102
-msgid "destination ip or network, examples 10.0.0.0/24, 10.0.0.1"
+msgid "Destination ip or network, examples 10.0.0.0/24, 10.0.0.1"
 msgstr "IP-адрес назначения или сеть, например 10.0.0.0/24, 10.0.0.1"
 
 # File: lang/dynamic/helpers/controllers.php, line: 103
-msgid "destination port number or well known name (imap,imaps, http,https,...)"
+msgid "Destination port number or well known name (imap,imaps, http,https,...)"
 msgstr ""
-"номер порта назначения или общеизвестное имя (imap, imaps, http, https, и т."
+"Номер порта назначения или общеизвестное имя (imap, imaps, http, https, и т."
 "д.)"
 
 # File: /usr/lang/src/controllers.php, line: 572
@@ -42369,8 +42369,8 @@ msgid "direction"
 msgstr "направление"
 
 # File: /usr/lang/src/controllers.php, line: 573
-msgid "dst-port"
-msgstr "порт назначения"
+msgid "Dst-port"
+msgstr "Порт назначения"
 
 # File: /usr/core/src/www/firewall_scrub.php, line: 319
 # File: /usr/core/src/www/services_dyndns.php, line: 135
@@ -42382,12 +42382,12 @@ msgid "enable"
 msgstr "включить"
 
 # File: lang/dynamic/helpers/controllers.php, line: 89
-msgid "enable this pipe and it's related queues and rules"
-msgstr "включить этот канал и связанные с ним очереди и правила"
+msgid "Enable this pipe and it's related queues and rules"
+msgstr "Включить этот канал и связанные с ним очереди и правила"
 
 # File: lang/dynamic/helpers/controllers.php, line: 93
-msgid "enable this queue and it's related rules"
-msgstr "включить эту очередь и связанные с ней правила"
+msgid "Enable this queue and it's related rules"
+msgstr "Включить эту очередь и связанные с ней правила"
 
 # File: /usr/lang/src/controllers.php, line: 576
 msgid "enabled"
@@ -42398,24 +42398,24 @@ msgid "interface"
 msgstr "интерфейс"
 
 # File: /usr/lang/src/controllers.php, line: 578
-msgid "interface 2"
-msgstr "интерфейс 2"
+msgid "Interface 2"
+msgstr "Интерфейс 2"
 
 # File: /usr/lang/src/controllers.php, line: 703
-msgid "invert destination"
-msgstr "invert destination"
+msgid "Invert Destination"
+msgstr "Invert Destination"
 
 # File: /usr/lang/src/controllers.php, line: 704
-msgid "invert destination (not)"
-msgstr "invert destination (not)"
+msgid "Invert destination (not)"
+msgstr "Invert destination (not)"
 
 # File: /usr/lang/src/controllers.php, line: 705
-msgid "invert source"
-msgstr "invert source"
+msgid "Invert Source"
+msgstr "Invert Source"
 
 # File: /usr/lang/src/controllers.php, line: 706
-msgid "invert source (not)"
-msgstr "invert source (not)"
+msgid "Invert source (not)"
+msgstr "Invert source (not)"
 
 #
 # File: /usr/lang/src/controllers.php, line: 2289
@@ -42442,9 +42442,9 @@ msgid "mask"
 msgstr "маска"
 
 # File: lang/dynamic/helpers/controllers.php, line: 104
-msgid "matches incoming or outgoing packets or both (default)"
+msgid "Matches incoming or outgoing packets or both (default)"
 msgstr ""
-"проверка входящих и/или исходящих пакетов на соответствие правилам (по "
+"Проверка входящих и/или исходящих пакетов на соответствие правилам (по "
 "умолчанию)"
 
 #
@@ -42453,14 +42453,14 @@ msgid "nsupdate"
 msgstr ""
 
 # File: lang/dynamic/helpers/controllers.php, line: 91
-msgid "number of dynamic queues, leave empty for default"
+msgid "Number of dynamic queues, leave empty for default"
 msgstr ""
-"количество динамических очередей, оставьте поле пустым для значения по "
+"Количество динамических очередей, оставьте поле пустым для значения по "
 "умолчанию"
 
 # File: lang/dynamic/helpers/controllers.php, line: 97
-msgid "order in which the rule will be evaluated (lowest first)"
-msgstr "порядок проверки правил в наборе (снизу-вверх)"
+msgid "Order in which the rule will be evaluated (lowest first)"
+msgstr "Порядок проверки правил в наборе (снизу-вверх)"
 
 # File: /usr/lang/src/controllers.php, line: 712
 msgid "password (optional)"
@@ -42485,10 +42485,10 @@ msgstr "очередь"
 
 # File: /usr/lang/src/controllers.php, line: 222
 msgid ""
-"secondary interface, matches packets traveling to/from interface (1) to/from "
-"interface (2). can be combined with direction."
+"Secondary interface, matches packets traveling to/from interface (1) to/from "
+"interface (2). Can be combined with direction."
 msgstr ""
-"вспомогательный интерфейс проверяет на соответствие правилам пакеты, "
+"Вспомогательный интерфейс проверяет на соответствие правилам пакеты, "
 "путешествующие от интерфейса (1) к интерфейсу (2) и наоборот (можно "
 "комбинировать с направлением)."
 
@@ -42501,8 +42501,8 @@ msgstr ""
 "все. Категории отображаются после начальной загрузки."
 
 # File: /usr/lang/src/controllers.php, line: 589
-msgid "sequence"
-msgstr "последовательность"
+msgid "Sequence"
+msgstr "Последовательность"
 
 #
 # File: /usr/lang/src/controllers.php, line: 791
@@ -42521,18 +42521,18 @@ msgstr ""
 "10.0.0.1/32"
 
 # File: lang/dynamic/helpers/controllers.php, line: 100
-msgid "source ip or network, examples 10.0.0.0/24, 10.0.0.1"
+msgid "Source ip or network, examples 10.0.0.0/24, 10.0.0.1"
 msgstr "IP-адрес источника или исходная сеть, например 10.0.0.0/24, 10.0.0.1"
 
 # File: lang/dynamic/helpers/controllers.php, line: 101
-msgid "source port number or well known name (imap,imaps, http,https,...)"
+msgid "Source port number or well known name (imap,imaps, http,https,...)"
 msgstr ""
-"номер исходного порта или общеизвестное имя (imap, imaps, http, https, и т. "
+"Номер исходного порта или общеизвестное имя (imap, imaps, http, https, и т. "
 "т.д.)"
 
 # File: /usr/lang/src/controllers.php, line: 594
-msgid "src-port"
-msgstr "порт источника"
+msgid "Src-port"
+msgstr "Порт источника"
 
 # File: /usr/lang/src/controllers.php, line: 725
 msgid "ssl ignore cert"
@@ -42543,8 +42543,8 @@ msgid "target"
 msgstr "получатель"
 
 # File: lang/dynamic/helpers/controllers.php, line: 105
-msgid "target pipe or queue"
-msgstr "целевой канал или очередь"
+msgid "Target pipe or queue"
+msgstr "Целевой канал или очередь"
 
 #
 # File: /usr/lang/src/controllers.php, line: 2188
