@@ -10,8 +10,8 @@ msgstr "Экспортировать лицензию"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/SmartSoft/License/index.volt, line: 74
-msgid "Get license"
-msgstr "Получить лицензию"
+msgid "Activate license"
+msgstr "Активировать лицензию"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/SmartSoft/License/index.volt, line: 58
