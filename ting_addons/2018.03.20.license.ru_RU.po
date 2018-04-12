@@ -10,8 +10,8 @@ msgstr "Лицензия успешно импортирована"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 231
-msgid "This file not contain license."
-msgstr "Файл не содержит лицензии"
+msgid "The license is not imported."
+msgstr "Лицензия не импортирована."
 
 #
 # File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 228
