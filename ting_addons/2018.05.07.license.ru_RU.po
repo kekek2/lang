@@ -1,0 +1,5 @@
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 108
+msgid "Expired"
+msgstr "Просрочена"
+

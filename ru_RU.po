@@ -50648,6 +50648,11 @@ msgid "Your configuration is now complete."
 msgstr "Конфигурация закончена."
 
 #
+# File: /usr/core/src/opnsense/mvc/app/controllers/SmartSoft/License/Api/SettingsController.php, line: 108
+msgid "Expired"
+msgstr "Просрочена"
+
+#
 # File: /usr/lang/src/wizards.php, line: 305
 msgid "addrpool"
 msgstr ""
