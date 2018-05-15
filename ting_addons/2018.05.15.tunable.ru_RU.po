@@ -1,0 +1,223 @@
+#
+# File: /usr/lang/src/config.php, line: 36
+msgid ""
+"\n"
+"        Redirect attacks are the purposeful mass-issuing of ICMP type 5 "
+"packets. In a normal network, redirects\n"
+"        to the end stations should not be required. This option enables the "
+"NIC to drop all inbound ICMP redirect\n"
+"        packets without returning a response.\n"
+"      "
+msgstr ""
+"\n"
+"Перенаправление атак - это целенаправленная массовая выдача пакетов ICMP типа 5. "
+"В обычной сети перенаправление на конечные станции не требуется. Этот параметр "
+"позволяет сетевому адаптеру удалять все входящие пакеты переадресации ICMP, не возвращая ответ."
+
+#
+# File: /usr/lang/src/config.php, line: 41
+msgid ""
+"\n"
+"        Source routing is another way for an attacker to try to reach non-"
+"routable addresses behind your box.\n"
+"        It can also be used to probe for information about your internal "
+"networks. These functions come enabled\n"
+"        as part of the standard FreeBSD core system.\n"
+"      "
+msgstr ""
+"\n"
+"Source routing-это еще один способ для злоумышленника попытаться достичь не "
+"маршрутизируемых адресов за вашим маршрутизатором. Его можно также использовать для "
+"того чтобы зондировать для информации о ваших внутренних сетях. Эти функции "
+"включены в стандартную систему ядра FreeBSD."
+
+#
+# File: /usr/lang/src/config.php, line: 46
+msgid ""
+"\n"
+"        This option turns off the logging of redirect packets because there "
+"is no limit and this could fill\n"
+"        up your logs consuming your whole hard drive.\n"
+"      "
+msgstr ""
+"\n"
+"Эта опция отключает регистрацию пакетов перенаправления, потому что она не ограничена "
+"и это может заполнить ваши журналы, забивая весь ваш жесткий диск."
+
+#
+# File: /usr/lang/src/config.php, line: 50
+msgid "Allow unprivileged access to tap(4) device nodes"
+msgstr "Разрешить непривилегированный доступ к узлам устройств tap(4)"
+
+#
+# File: /usr/lang/src/config.php, line: 51
+msgid "Disable CTRL+ALT+Delete reboot from keyboard."
+msgstr "Отключить перезагрузку с клавиатуры по CTRL+ALT+Delete."
+
+#
+# File: /usr/lang/src/config.php, line: 52
+msgid "Disable Indirect Branch Restricted Speculation (Spectre V2 mitigation)"
+msgstr "Отключить Indirect Branch Restricted Speculation (смягчение Spectre V2)"
+
+#
+# File: /usr/lang/src/config.php, line: 53
+msgid "Disable the pf ftp proxy handler."
+msgstr "Отключение обработчика pf ftp proxy."
+
+#
+# File: /usr/lang/src/config.php, line: 54
+msgid "Do not delay ACK to try and piggyback it onto a data packet"
+msgstr "Не задерживать ACK, чтобы попытаться связать его с пакетом данных"
+
+#
+# File: /usr/lang/src/config.php, line: 55
+msgid "Do not send ICMP port unreachable messages for closed UDP ports"
+msgstr "Не отправлять сообщение ICMP 'Порт недоступен' для закрытых UDP-портов"
+
+#
+# File: /usr/lang/src/config.php, line: 56
+msgid "Drop SYN-FIN packets (breaks RFC1379, but nobody uses it anyway)"
+msgstr "Отбрасывать пакеты SYN-FIN (нарушает RFC1379, но никто не использует его так или иначе)"
+
+#
+# File: /usr/lang/src/config.php, line: 57
+msgid "Drop packets to closed TCP ports without returning a RST"
+msgstr "Отбрасывать пакеты на закрытые TCP-порты без возврата RST"
+
+#
+# File: /usr/lang/src/config.php, line: 58
+msgid "Enable TCP extended debugging"
+msgstr "Включить расширенную отладку TCP"
+
+#
+# File: /usr/lang/src/config.php, line: 59
+msgid "Enable privacy settings for IPv6 (RFC 4941)"
+msgstr "Включение параметров конфиденциальности для IPv6 (RFC 4941)"
+
+#
+# File: /usr/lang/src/config.php, line: 60
+msgid "Enable sending IPv4 redirects"
+msgstr "Включить отправку перенаправлений IPv4"
+
+#
+# File: /usr/lang/src/config.php, line: 61
+msgid "Enable sending IPv6 redirects"
+msgstr "Включить отправку перенаправлений IPv6"
+
+#
+# File: /usr/lang/src/config.php, line: 62
+msgid "Generate SYN cookies for outbound SYN-ACK packets"
+msgstr "Генерировать файлы cookie SYN для исходящих пакетов SYN-ACK"
+
+#
+# File: /usr/lang/src/config.php, line: 63
+msgid ""
+"Handling of non-IP packets which are not passed to pfil (see if_bridge(4))"
+msgstr ""
+"Обработка пакетов не-IP, которые не передаются в pfil (см. if_bridge(4))"
+
+#
+# File: /usr/lang/src/config.php, line: 64
+msgid ""
+"Increase UFS read-ahead speeds to match current state of hard drives and "
+"NCQ. More information here: http://ivoras.sharanet.org/blog/tree/2010-11-19."
+"ufs-read-ahead.html"
+msgstr ""
+"Увеличение скорость чтения UFS для соответствия текущему состоянию жестких "
+"дисков и NCQ. Больше информации здесь: http://ivoras.sharanet.org/blog/tree/2010-11-19.ufs-read-ahead.html"
+
+#
+# File: /usr/lang/src/config.php, line: 65
+msgid "Maximum incoming/outgoing TCP datagram size (receive)"
+msgstr "Максимальный размер входящей/исходящей датаграммы TCP (receive)"
+
+#
+# File: /usr/lang/src/config.php, line: 66
+msgid "Maximum incoming/outgoing TCP datagram size (send)"
+msgstr "Максимальный размер входящей/исходящей датаграммы TCP (send)"
+
+#
+# File: /usr/lang/src/config.php, line: 67
+msgid "Maximum outgoing UDP datagram size"
+msgstr "Максимальный размер исходящей дейтаграммы UDP"
+
+#
+# File: /usr/lang/src/config.php, line: 68
+msgid "Maximum size of the IP input queue"
+msgstr "Максимальный размер входной очереди IP"
+
+#
+# File: /usr/lang/src/config.php, line: 69
+msgid "Maximum socket buffer size"
+msgstr "Максимальный размер буфера сокета "
+
+#
+# File: /usr/lang/src/config.php, line: 70
+msgid "Page Table Isolation (Meltdown mitigation, requires reboot.)"
+msgstr "Изоляция таблицы страниц (смягчение последствий Meltdown, требует перезагрузки.)"
+
+#
+# File: /usr/lang/src/config.php, line: 71
+msgid "Prefer privacy addresses and use them over the normal addresses"
+msgstr "Предпочитать адреса конфиденциальности и использовать их вместо с обычных адресов"
+
+#
+# File: /usr/lang/src/config.php, line: 72
+msgid "Randomize PID's (see src/sys/kern/kern_fork.c: sysctl_kern_randompid())"
+msgstr "Случайные идентификаторы процесса (см src/sys/kern/kern_fork.c: sysctl_kern_randompid())"
+
+#
+# File: /usr/lang/src/config.php, line: 73
+msgid "Randomize the ID field in IP packets (default is 0: sequential IP IDs)"
+msgstr "Рандомизация поля ID в IP-пакетах (по умолчанию 0: последовательные IP-идентификаторы)"
+
+#
+# File: /usr/lang/src/config.php, line: 74
+msgid "Set ICMP Limits"
+msgstr "Установить ограничения ICMP"
+
+#
+# File: /usr/lang/src/config.php, line: 75
+msgid "Set the ephemeral port range to be lower."
+msgstr "Установка диапазона временных портов ниже."
+
+#
+# File: /usr/lang/src/config.php, line: 76
+msgid ""
+"Set to 0 to disable filtering on the incoming and outgoing member interfaces."
+msgstr ""
+"Установите значение 0, чтобы отключить фильтрацию на интерфейсах входящих и исходящих элементов."
+
+#
+# File: /usr/lang/src/config.php, line: 77
+msgid ""
+"Set to 1 to additionally filter on the physical interface for locally "
+"destined packets"
+msgstr ""
+"Установите значение 1, чтобы дополнительно фильтровать на физическом интерфейсе локально предназначенных пакетов"
+
+#
+# File: /usr/lang/src/config.php, line: 78
+msgid "Set to 1 to enable filtering on the bridge interface"
+msgstr "Установите значение 1, чтобы включить фильтрацию на интерфейсе моста"
+
+#
+# File: /usr/lang/src/config.php, line: 79
+msgid "TCP Offload Engine"
+msgstr "TCP Offload Engine"
+
+#
+# File: /usr/lang/src/config.php, line: 80
+msgid "UDP Checksums"
+msgstr "Контрольные суммы UDP"
+
+#
+# File: /usr/core/src/www/system_advanced_sysctl.php, line: 193
+msgid ""
+"Tunables are composed of runtime settings for sysctl.conf which take effect "
+"immediately after apply and boot settings for loader.conf which require a "
+"reboot."
+msgstr ""
+"Настраиваемые параметры состоят из параметров среды выполнения для sysctl.conf, "
+"которые вступают в силу сразу после применения и настройки загрузки для loader.conf, "
+"которые требуют перезагрузки."
