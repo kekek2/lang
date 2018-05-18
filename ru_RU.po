@@ -28733,7 +28733,7 @@ msgstr "Службы: Обнаружение вторжений"
 #
 # File: /usr/lang/src/acl.php, line: 141
 msgid "Services: Let's Encrypt"
-msgstr "Службы: Let's Encrypt"
+msgstr "Службы: \"Разрешить шифрование\""
 
 #
 # File: /usr/lang/src/acl.php, line: 147
@@ -30836,7 +30836,7 @@ msgid ""
 "delete and re-create) them after switching from staging to production "
 "environment.</div>"
 msgstr ""
-"Выберите Let's Encrypts staging environment когда начинаете его использовать "
+"Выберите \"Разрешить шифрование\" staging environment когда начинаете его использовать "
 "или пока тестируете методы валидации. Staging environment предоставляет <a "
 "href=\"https://letsencrypt.org/docs/staging-environment/\">ослабленные пороговые "
 "значения</a>.<br/><div class=\"text-info\"><b>NOTE:</b>Сертификаты, "
@@ -31208,7 +31208,7 @@ msgstr ""
 "example.com or mail.example.com. Используйте клавишу TAB для завершения ввода FQDN.<br/"
 "><div class=\"text-info\"><b>NOTE:</b>Вы должны принудительно перевыдать "
 "сертификат если меняете \"Alt Names\" после того, как сертификат был подписан "
-"центром авторизации Let's Encrypt! Используйте кнопку \"выдать\" в колонке Команды "
+"центром авторизации \"Разрешить шифрование\" Используйте кнопку \"выдать\" в колонке Команды "
 "в этом случае.</div>"
 
 # File: /usr/lang/src/controllers.php, line: 55
@@ -32294,7 +32294,7 @@ msgstr "Включить демон LLDP"
 #
 # File: /usr/lang/src/controllers.php, line: 324
 msgid "Enable Let's Encrypt plugin."
-msgstr "Включить плагин Let's Encrypt"
+msgstr "Включить плагин \"Разрешить шифрование\""
 
 #
 # File: /usr/lang/src/controllers.php, line: 528
@@ -35251,7 +35251,7 @@ msgstr "Разрешить серверу redis слушать на внешни
 #
 # File: /usr/lang/src/controllers.php, line: 550
 msgid "Let's Encrypt Environment"
-msgstr "Окружение Let's Encrypt"
+msgstr "Окружение \"Разрешить шифрование\""
 
 # File: lang/dynamic/helpers/models.php, line: 37
 msgid "License"
@@ -38970,7 +38970,7 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 878
 msgid "Set the Let's Encrypt account to use for this certificate."
-msgstr "Укажите аккаунт Let'e Encrypt для использования этим сертификатом."
+msgstr "Укажите аккаунт \"Разрешить шифрование\" для использования этим сертификатом."
 
 #
 # File: /usr/lang/src/controllers.php, line: 879
@@ -38978,13 +38978,13 @@ msgid ""
 "Set the Let's Encrypt challenge type. You'll have to add configuration for "
 "the selected challenge type below."
 msgstr ""
-"Укажите тип вызова Let's Encrypt. Вы должны указать настройки для "
+"Укажите тип вызова \"Разрешить шифрование\". Вы должны указать настройки для "
 "выбранного типа вызова ниже."
 
 #
 # File: /usr/lang/src/controllers.php, line: 880
 msgid "Set the Let's Encrypt validation method for this certificate."
-msgstr "Укажите метод валидации Let's Encrypt для данного сертификата."
+msgstr "Укажите метод валидации \"Разрешить шифрование\" для данного сертификата."
 
 #
 # File: /usr/lang/src/controllers.php, line: 1269
@@ -40309,7 +40309,7 @@ msgstr ""
 "FQDN используемый вашим сертификатом должен в данный момент указывать на официальный IP "
 "адрес. Выберите интерфейс, на котором этот адрес в данный момент сконфигурирован. "
 "OPNsense автоматически создаст временное правило перенаправления, чтобы "
-"проверка Let's Encrypt прошла успешно. Это приведёт к краткосрочному завершению "
+"проверка \"Разрешить шифрование\" прошла успешно. Это приведёт к краткосрочному завершению "
 "сервиса, который обычно использует этот IP адрес.<br/><div class="
 "\"text-info\"><b>ПРИМЕЧАНИЕ:</b>Это сработает ТОЛЬКО если официальные IP адреса "
 "ЛОКАЛЬНО сконфигурированы на вашем устройстве.</div>"
@@ -44271,12 +44271,12 @@ msgstr "Минимум соединений"
 #
 # File: /usr/lang/src/models.php, line: 150
 msgid "Let's Encrypt"
-msgstr "Разрешить шифрование"
+msgstr "\"Разрешить шифрование\""
 
 #
 # File: /usr/lang/src/models.php, line: 299
 msgid "Let's Encrypt CA"
-msgstr "Позволять шифровать ЦС"
+msgstr "ЦС \"Разрешить шифрование\""
 
 #
 # File: /usr/lang/src/models.php, line: 299
@@ -48011,7 +48011,7 @@ msgstr ""
 #
 # File: /usr/plugins/security/acme-client/src/etc/inc/plugins.inc.d/acmeclient.inc, line: 62
 msgid "Let's Encrypt client"
-msgstr "Let's Encrypt клиент"
+msgstr "Клиент \"Разрешить шифрование\""
 
 #
 # File: /usr/lang/src/plugin_descr.php, line: 343
@@ -48027,12 +48027,12 @@ msgid ""
 "\n"
 "Maintainer: opnsense@moov.de"
 msgstr ""
-"Let's Encrypt клиент\n"
+"Клиент \"Разрешить шифрование\"\n"
 "\n"
 "Этот плагин содержит полную реализацию протокола ACME основанную на проекте\n"
 "acme.sh.  По мнению авторов, это возможно \"простейший\n"
 "и компактнейший и умнейший скрипт shell\" для автоматического применения и обновления\n"
-"свободных сертификатов от Let's Encrypt.\n"
+"свободных сертификатов от \"Разрешить шифрование\".\n"
 "\n"
 "WWW: https://github.com/Neilpang/acme.sh\n"
 "\n"

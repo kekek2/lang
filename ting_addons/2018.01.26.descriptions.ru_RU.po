@@ -711,7 +711,7 @@ msgstr ""
 #
 # File: /usr/plugins/security/acme-client/src/etc/inc/plugins.inc.d/acmeclient.inc, line: 62
 msgid "Let's Encrypt client"
-msgstr "Let's Encrypt клиент"
+msgstr "Клиент \"Разрешить шифрование\""
 
 #
 # File: /usr/lang/src/plugin_descr.php, line: 343
@@ -727,12 +727,12 @@ msgid ""
 "\n"
 "Maintainer: opnsense@moov.de"
 msgstr ""
-"Let's Encrypt клиент\n"
+"Клиент \"Разрешить шифрование\"\n"
 "\n"
 "Этот плагин содержит полную реализацию протокола ACME основанную на проекте\n"
 "acme.sh.  По мнению авторов, это возможно \"простейший\n"
 "и компактнейший и умнейший скрипт shell\" для автоматического применения и обновления\n"
-"свободных сертификатов от Let's Encrypt.\n"
+"свободных сертификатов от \"Разрешить шифрование\".\n"
 "\n"
 "WWW: https://github.com/Neilpang/acme.sh\n"
 "\n"

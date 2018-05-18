@@ -4502,7 +4502,7 @@ msgstr "Минимум соединений"
 #
 # File: /usr/lang/src/models.php, line: 150
 msgid "Let's Encrypt"
-msgstr "Разрешить шифрование"
+msgstr "\"Разрешить шифрование\""
 
 #
 # File: /usr/lang/src/models.php, line: 302

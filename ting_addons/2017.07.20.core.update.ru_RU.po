@@ -1883,7 +1883,7 @@ msgstr "Службы: Обнаружение вторжений"
 #
 # File: /usr/lang/src/acl.php, line: 141
 msgid "Services: Let's Encrypt"
-msgstr "Службы: Let's Encrypt"
+msgstr "Службы: \"Разрешить шифрование\""
 
 #
 # File: /usr/lang/src/acl.php, line: 142
