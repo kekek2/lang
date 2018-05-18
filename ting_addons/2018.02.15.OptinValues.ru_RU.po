@@ -768,7 +768,7 @@ msgstr "ЦС \"Разрешить шифрование\""
 #
 # File: /usr/lang/src/models.php, line: 361
 msgid "OPNsense Web Service (automatic port forward)"
-msgstr "Веб-служба OPNsense (автоматическое перенаправление порта)"
+msgstr "Веб-служба TING (автоматическое перенаправление порта)"
 
 #
 # File: /usr/lang/src/models.php, line: 235
