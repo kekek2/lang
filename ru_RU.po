@@ -14785,7 +14785,7 @@ msgstr "Запуск начальной конфигурации."
 # File: src/www/guiconfig.inc, line: 654
 #, php-format
 msgid "A problem was detected. Click %shere%s for more information."
-msgstr "Обнаружена проблема. Нажмите %shere%s для дополнительной информации."
+msgstr "Обнаружена проблема. Нажмите %sздесь%s для дополнительной информации."
 
 # File: src/www/firewall_nat_1to1_edit.php, line: 44
 # File: src/www/firewall_nat_edit.php, line: 84
@@ -44271,7 +44271,7 @@ msgstr "Минимум соединений"
 #
 # File: /usr/lang/src/models.php, line: 150
 msgid "Let's Encrypt"
-msgstr "\"Разрешить шифрование\""
+msgstr "Let's Encrypt"
 
 #
 # File: /usr/lang/src/models.php, line: 299
