@@ -1,0 +1,133 @@
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 285
+msgid ""
+"Unable to retrieve Zerotier peer information. Is the service enabled and is "
+"there internet connectivity?"
+msgstr ""
+"Не удалось получить информацию об узле Zerotier. Включена ли служба и есть ли "
+"подключение к интернету?"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 248
+msgid "trustedPathId"
+msgstr "доверенный идентификатор пути"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 247
+msgid "preferred"
+msgstr "привилегированный"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 246
+msgid "linkQuality"
+msgstr "качество связи"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 245
+msgid "lastSend"
+msgstr "последняя отправка"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 244
+msgid "lastReceive"
+msgstr "последний приём"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 243
+msgid "expired"
+msgstr "просрочено"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 241
+msgid "active"
+msgstr "активный"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 214
+msgid "Peer"
+msgstr "Пир"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 196
+msgid ""
+"Unable to retrieve Zerotier network information. Is the service enabled, do "
+"you have enabled networks and is there internet connectivity?"
+msgstr ""
+"Не удается получить сведения о сети Zerotier. Включена ли служба, включены "
+"ли сети и есть ли подключение к интернету?"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 180
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 268
+msgid "No routes currently defined."
+msgstr "В настоящее время маршруты не определены."
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 165
+msgid "flags"
+msgstr "флаги"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 164
+msgid "metric"
+msgstr "метрики"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 163
+msgid "via"
+msgstr "через"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 162
+msgid "target"
+msgstr "назначение"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 155
+msgid "No addresses currently defined."
+msgstr "Адреса в настоящее время не определены."
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 143
+msgid "Addresses"
+msgstr "Адреса"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 99
+msgid ""
+"Unable to retrieve Zerotier information. Is the service enabled and is there "
+"internet connectivity?"
+msgstr ""
+"Не удается получить информацию от Zerotier. Включена ли служба и есть ли "
+"подключение к интернету?"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 83
+msgid "softwareUpdateChannel"
+msgstr "канал обновления ПО"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 82
+msgid "softwareUpdate"
+msgstr "обновление ПО"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 81
+msgid "primaryPort"
+msgstr "первичный порт"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 80
+msgid "portMappingEnabled"
+msgstr "разрешить сопоставление портов"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 79
+msgid "settings"
+msgstr "настройки"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 75
+msgid "physical"
+msgstr "физический"
+
