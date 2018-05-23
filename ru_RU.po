@@ -43918,7 +43918,7 @@ msgstr "Шлюзы"
 # File: lang/dynamic/helpers/models.php, line: 207
 # File: lang/dynamic/helpers/models.php, line: 235
 msgid "General"
-msgstr "Общие настройки"
+msgstr "Общие"
 
 #
 # File: /usr/lang/src/models.php, line: 226
