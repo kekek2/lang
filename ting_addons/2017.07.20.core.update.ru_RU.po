@@ -2461,7 +2461,7 @@ msgstr "Формат почты"
 # File: /usr/lang/src/controllers.php, line: 614
 # File: /usr/lang/src/models.php, line: 164
 msgid "Main Settings"
-msgstr "Настройки почты"
+msgstr "Основные настройки"
 
 #
 # File: /usr/lang/src/controllers.php, line: 746
