@@ -27071,7 +27071,7 @@ msgid ""
 "below. The local user database will not be used."
 msgstr ""
 "Если параметр включен, пользователи будут проходить аутентификацию используя "
-"указанный ниже RADIUS-сервер. Локальная база пользователей не будет "
+"указанный ниже RADIUS-сервер. Локальная база пользователей не будет использоваться."
 
 # File: src/www/vpn_l2tp.php, line: 433
 # File: src/www/vpn_pppoe_edit.php, line: 525
