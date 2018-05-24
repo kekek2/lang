@@ -1134,11 +1134,14 @@ msgid ""
 msgstr ""
 "Укажите дополнительный секретный ключ, совместно используемый узлами. Требуется на некоторых устройствах/"
 
+#
 # File: /usr/plugins/net/l2tp/src/www/vpn_l2tp.php, line: 216
 msgid ""
 "Enter the IP address the L2TP server should give to clients for use as their "
+"\"gateway\"."
 msgstr ""
-"Введите IP-адрес, который PPPoE-сервер будет выдавать клиентам для использования в качестве "
+"Введите IP-адрес, который PPPoE-сервер будет выдавать клиентам для "
+"использования в качестве «шлюза»"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 365
 msgid "Error get update status"
