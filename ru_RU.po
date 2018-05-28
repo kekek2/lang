@@ -51002,6 +51002,58 @@ msgid "physical"
 msgstr "физический"
 
 #
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/controllers/SmartSoft/Kaspersky/Api/ServiceController.php, line: 199
+#, php-format
+msgid "Invalid template name %s"
+msgstr "Недопустимое имя шаблона %s"
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/controllers/SmartSoft/Kaspersky/Api/ServiceController.php, line: 167
+msgid "Signature databases deleted"
+msgstr "База сигнатур удалена"
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/views/SmartSoft/Kaspersky/status.volt, line: 177
+msgid "Progress output"
+msgstr "Ход выполнения"
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/views/SmartSoft/Kaspersky/status.volt, line: 171
+msgid "Delete Signatures Database"
+msgstr "Удалить базу сигнатур"
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/controllers/SmartSoft/Kaspersky/Api/ServiceController.php, line: 207
+msgid "No template attached"
+msgstr "Шаблон не получен"
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/controllers/SmartSoft/Kaspersky/Api/ServiceController.php, line: 202
+#, php-format
+msgid "Error: received file name %s, expected %s"
+msgstr "Ошибка: получено имя файла %s, ожидалось %s"
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/controllers/SmartSoft/Kaspersky/Api/ServiceController.php, line: 205
+#, php-format
+msgid "Template %s imported successful"
+msgstr "Шаблон %s успешно импортирован"
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/views/SmartSoft/Kaspersky/status.volt, line: 173
+msgid ""
+"Service will be stopped and all signature databases will be deleted. After "
+"that, the database update process must be started manually."
+msgstr ""
+"Служба будет остановлена и все базы данных будут удалены. После этого процесс "
+"обновления базы данных должен быть запущен вручную."
+
+#
+# File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/controllers/SmartSoft/Kaspersky/TemplatesController.php, line: 9
+msgid "Kaspersky antivirus templates"
+msgstr "Шаблоны антивируса Касперского"
+
+#
 # File: /usr/lang/src/wizards.php, line: 305
 msgid "addrpool"
 msgstr ""
