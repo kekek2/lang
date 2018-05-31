@@ -424,12 +424,12 @@ msgstr "Выберите для отчёта по заблокированном
 #
 # File: /usr/lang/src/controllers.php, line: 630
 msgid "Select user IP address for squid report"
-msgstr "Выберите IP адреса пользователей для отчёта"
+msgstr "Выберите IP адрес пользователя для отчёта"
 
 #
 # File: /usr/lang/src/controllers.php, line: 631
 msgid "Select user name for squid report"
-msgstr "Выберите имена пользователей для отчёта"
+msgstr "Выберите имя пользователя для отчёта"
 
 #
 # File: /usr/lang/src/controllers.php, line: 634
