@@ -5048,7 +5048,7 @@ msgstr "Импортировать сертификат"
 
 # File: src/www/system_certmanager.php, line: 542
 msgid "Do you really want to delete this Certificate?"
-msgstr "Вы действительно хотите удалить этот QinQ-интерфейс?"
+msgstr "Вы действительно хотите удалить этот сертификат?"
 
 # File: src/www/system_certmanager.php, line: 511
 msgid "add or import certificate"
