@@ -41975,11 +41975,11 @@ msgstr "Введите IP-адрес (например, 192.168.1.100)"
 
 # File: /usr/lang/src/controllers.php, line: 522
 msgid ""
-"Type IP addresses you want to allow access to the proxy server, use a comma "
+"Enter the IP addresses you want to allow all traffic, use a comma "
 "or press Enter for new item. <div class=\"text-info\"><b>TIP: </b>You can "
 "also paste a comma separated list into this field.</div>"
 msgstr ""
-"Введите IP-адреса, которым вы хотите разрешить доступ к прокси-серверу, используйте запятую или нажмите клавишу Enter для нового элемента. <div class=\"text-info\"><b>ПРИМЕЧАНИЕ: </b>Также можно использовать список разделенных запятой значений.</div>"
+"Введите IP-адреса, которым вы хотите разрешить весь траффик, используйте запятую или нажмите клавишу Enter для нового элемента. <div class=\"text-info\"><b>ПРИМЕЧАНИЕ: </b>Также можно использовать список разделенных запятой значений.</div>"
 
 # File: /usr/lang/src/controllers.php, line: 523
 msgid ""
