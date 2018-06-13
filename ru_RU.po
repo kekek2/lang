@@ -29683,11 +29683,11 @@ msgid "(FQ-)CoDel ECN"
 msgstr "(FQ-)CoDel ECN"
 
 # File: /usr/lang/src/controllers.php, line: 59
-msgid "(FQ-)CoDel Interval"
+msgid "(FQ-)CoDel interval"
 msgstr "(FQ-)CoDel Interval"
 
 # File: /usr/lang/src/controllers.php, line: 60
-msgid "(FQ-)CoDel Target"
+msgid "(FQ-)CoDel target"
 msgstr "(FQ-)CoDel Target"
 
 # File: /usr/lang/src/controllers.php, line: 67
@@ -30323,11 +30323,11 @@ msgstr "Алгоритм балансировки"
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 115
 # File: src/www/interfaces_ppps_edit.php, line: 874
 # File: src/www/interfaces_ppps_edit.php, line: 900
-msgid "Bandwidth"
+msgid "bandwidth"
 msgstr "Пропускная способность"
 
 # File: /usr/lang/src/controllers.php, line: 565
-msgid "Bandwidth Metric"
+msgid "bandwidth Metric"
 msgstr "Единицы измерения пропускной способности"
 
 #
@@ -31240,7 +31240,7 @@ msgid "Connect to this host"
 msgstr "Подключиться к этому хосту"
 
 # File: lang/dynamic/helpers/controllers.php, line: 94
-msgid "Connected pipe for this queue"
+msgid "connected pipe for this queue"
 msgstr "Подключенный канал для этой очереди"
 
 # File: src/www/interfaces_ppps_edit.php, line: 761
@@ -31856,7 +31856,7 @@ msgstr ""
 "разделённых запятыми.</div>"
 
 # File: lang/dynamic/helpers/controllers.php, line: 102
-msgid "Destination ip or network, examples 10.0.0.0/24, 10.0.0.1"
+msgid "destination ip or network, examples 10.0.0.0/24, 10.0.0.1"
 msgstr "IP-адрес назначения или сеть, например 10.0.0.0/24, 10.0.0.1"
 
 # File: src/www/system_routes_edit.php, line: 270
@@ -31864,7 +31864,7 @@ msgid "Destination network for this static route"
 msgstr "Сеть назначения для этого статического маршрута"
 
 # File: lang/dynamic/helpers/controllers.php, line: 103
-msgid "Destination port number or well known name (imap,imaps, http,https,...)"
+msgid "destination port number or well known name (imap,imaps, http,https,...)"
 msgstr ""
 "Номер порта назначения или общеизвестное имя (imap, imaps, http, https, и т."
 "д.)"
@@ -31895,6 +31895,10 @@ msgstr ""
 # File: src/www/diag_ipsec_spd.php, line: 58
 # File: src/www/firewall_rules_edit.php, line: 790
 msgid "Direction"
+msgstr "Направление"
+
+# File: /usr/lang/src/controllers.php, line: 370
+msgid "direction"
 msgstr "Направление"
 
 #
@@ -32041,7 +32045,7 @@ msgid "Down Interval"
 msgstr "Время простоя"
 
 # File: /usr/lang/src/controllers.php, line: 573
-msgid "Dst-port"
+msgid "dst-port"
 msgstr "Порт назначения"
 
 #
@@ -33088,7 +33092,7 @@ msgid "Enable this network"
 msgstr "Включить эту сеть"
 
 # File: lang/dynamic/helpers/controllers.php, line: 89
-msgid "Enable this pipe and it's related queues and rules"
+msgid "enable this pipe and it's related queues and rules"
 msgstr "Включить этот канал и связанные с ним очереди и правила"
 
 # File: lang/dynamic/helpers/controllers.php, line: 93
@@ -33691,15 +33695,15 @@ msgid "Extra Arguments"
 msgstr "Дополнительные аргументы"
 
 # File: /usr/lang/src/controllers.php, line: 285
-msgid "FQ-CoDel Flows"
+msgid "FQ-CoDel flows"
 msgstr "FQ-CoDel Flows"
 
 # File: /usr/lang/src/controllers.php, line: 286
-msgid "FQ-CoDel Limit"
+msgid "FQ-CoDel limit"
 msgstr "FQ-CoDel Limit"
 
 # File: /usr/lang/src/controllers.php, line: 287
-msgid "FQ-CoDel Quantum"
+msgid "FQ-CoDel quantum"
 msgstr "FQ-CoDel Quantum"
 
 #
@@ -35032,7 +35036,7 @@ msgid "Interface"
 msgstr "Интерфейс"
 
 # File: /usr/lang/src/controllers.php, line: 578
-msgid "Interface 2"
+msgid "interface 2"
 msgstr "Интерфейс 2"
 
 #
@@ -35074,19 +35078,19 @@ msgstr ""
 "умолчанию"
 
 # File: /usr/lang/src/controllers.php, line: 703
-msgid "Invert Destination"
+msgid "invert Destination"
 msgstr "Invert Destination"
 
 # File: /usr/lang/src/controllers.php, line: 705
-msgid "Invert Source"
+msgid "invert Source"
 msgstr "Invert Source"
 
 # File: /usr/lang/src/controllers.php, line: 704
-msgid "Invert destination (not)"
+msgid "invert destination (not)"
 msgstr "Invert destination (not)"
 
 # File: /usr/lang/src/controllers.php, line: 706
-msgid "Invert source (not)"
+msgid "invert source (not)"
 msgstr "Invert source (not)"
 
 #
@@ -35788,7 +35792,7 @@ msgid "Mark encrypted archives as viruses (Encrypted.Zip, Encrypted.RAR)."
 msgstr "Помечать зашифрованные архивы, как вирусы (Encrypted.Zip, Encrypted.RAR)."
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 118
-msgid "Mask"
+msgid "mask"
 msgstr "Маска"
 
 #
@@ -35817,7 +35821,7 @@ msgid "Match response"
 msgstr "Совпадение ответа"
 
 # File: lang/dynamic/helpers/controllers.php, line: 104
-msgid "Matches incoming or outgoing packets or both (default)"
+msgid "matches incoming or outgoing packets or both (default)"
 msgstr ""
 "Проверка входящих и/или исходящих пакетов на соответствие правилам (по "
 "умолчанию)"
@@ -36595,7 +36599,7 @@ msgstr ""
 "смотрите документацию по HAProxy.</div>"
 
 # File: lang/dynamic/helpers/controllers.php, line: 91
-msgid "Number of dynamic queues, leave empty for default"
+msgid "number of dynamic queues, leave empty for default"
 msgstr ""
 "Количество динамических очередей, оставьте поле пустым для значения по "
 "умолчанию"
@@ -37152,7 +37156,7 @@ msgid "PingTimeout"
 msgstr "Время пинга"
 
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 145
-msgid "Pipe"
+msgid "pipe"
 msgstr "Канал"
 
 #
@@ -37346,6 +37350,10 @@ msgstr "Режим прослушивания"
 msgid "Proto"
 msgstr "Протокол"
 
+# File: /usr/lang/src/controllers.php, line: 1417
+msgid "proto"
+msgstr "Протокол"
+
 # File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 173
 # File: src/www/diag_ipsec_sad.php, line: 58
 # File: src/www/diag_ipsec_spd.php, line: 59
@@ -37486,7 +37494,7 @@ msgid "Publish Server Descriptor"
 msgstr "Описание публичного сервера"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 235
-msgid "Queue"
+msgid "queue"
 msgstr "Очередь"
 
 #
@@ -38285,13 +38293,13 @@ msgid "Scheduler"
 msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 409
-msgid "Scheduler Type"
+msgid "Scheduler type"
 msgstr "Тип планировщика"
 
 # File: /usr/lang/src/controllers.php, line: 222
 msgid ""
-"Secondary interface, matches packets traveling to/from interface (1) to/from "
-"interface (2). Can be combined with direction."
+"secondary interface, matches packets traveling to/from interface (1) to/from "
+"interface (2). can be combined with direction."
 msgstr ""
 "Вспомогательный интерфейс проверяет на соответствие правилам пакеты, "
 "путешествующие от интерфейса (1) к интерфейсу (2) и наоборот (можно "
@@ -38733,6 +38741,10 @@ msgstr "Разделить данные статистики"
 
 # File: /usr/lang/src/controllers.php, line: 589
 msgid "Sequence"
+msgstr "Последовательность"
+
+# File: /usr/lang/src/controllers.php, line: 589
+msgid "sequence"
 msgstr "Последовательность"
 
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/index.volt, line: 74
@@ -39618,7 +39630,7 @@ msgid "Source address"
 msgstr "IP-адрес источника"
 
 # File: lang/dynamic/helpers/controllers.php, line: 100
-msgid "Source ip or network, examples 10.0.0.0/24, 10.0.0.1"
+msgid "source ip or network, examples 10.0.0.0/24, 10.0.0.1"
 msgstr "IP-адрес источника или исходная сеть, например 10.0.0.0/24, 10.0.0.1"
 
 # File: /usr/lang/src/controllers.php, line: 469
@@ -39626,7 +39638,7 @@ msgid "Source port"
 msgstr "Порт источника"
 
 # File: lang/dynamic/helpers/controllers.php, line: 101
-msgid "Source port number or well known name (imap,imaps, http,https,...)"
+msgid "source port number or well known name (imap,imaps, http,https,...)"
 msgstr ""
 "Номер исходного порта или общеизвестное имя (imap, imaps, http, https, и т. "
 "т.д.)"
@@ -39860,7 +39872,7 @@ msgid "Spread checks"
 msgstr "Проверки рассеивания"
 
 # File: /usr/lang/src/controllers.php, line: 594
-msgid "Src-port"
+msgid "src-port"
 msgstr "Порт источника"
 
 # File: src/www/diag_packet_capture.php, line: 456
@@ -40147,7 +40159,7 @@ msgid "Target node to send"
 msgstr "Целевой узел для отправки"
 
 # File: lang/dynamic/helpers/controllers.php, line: 105
-msgid "Target pipe or queue"
+msgid "target pipe or queue"
 msgstr "Целевой канал или очередь"
 
 #
@@ -42466,9 +42478,12 @@ msgstr "Ожидание новой задачи будет окончено п�
 msgid "Web Server Log"
 msgstr "Журнал веб-сервера"
 
-# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 146
 # File: src/www/system_gateways_edit.php, line: 675
 msgid "Weight"
+msgstr "Весовой коэффициент"
+
+# File: src/opnsense/mvc/app/views/OPNsense/TrafficShaper/index.volt, line: 146
+msgid "weight"
 msgstr "Весовой коэффициент"
 
 # File: lang/dynamic/helpers/controllers.php, line: 95
@@ -42795,7 +42810,7 @@ msgstr "включить"
 
 # File: /usr/lang/src/controllers.php, line: 576
 msgid "enabled"
-msgstr "включен"
+msgstr "Включен"
 
 #
 # File: /usr/lang/src/controllers.php, line: 2289
@@ -42825,7 +42840,7 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 2346
 msgid "order in which the rule will be evaluated (lowest first)"
-msgstr ""
+msgstr "Порядок, в котором будут обрабатываться правила (сначала наименьшее)"
 
 # File: /usr/lang/src/controllers.php, line: 712
 msgid "password (optional)"
@@ -46467,7 +46482,7 @@ msgstr "отладка (4)"
 
 # File: /usr/lang/src/controllers.php, line: 569
 msgid "destination"
-msgstr "получатель"
+msgstr "Получатель"
 
 #
 # File: /usr/lang/src/models.php, line: 730
@@ -46987,7 +47002,7 @@ msgstr "маршрутизатор"
 
 # File: /usr/lang/src/controllers.php, line: 590
 msgid "source"
-msgstr "отправитель"
+msgstr "Отправитель"
 
 #
 # File: /usr/lang/src/models.php, line: 886
@@ -50950,7 +50965,7 @@ msgstr "через"
 #
 # File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 162
 msgid "target"
-msgstr "назначение"
+msgstr "Назначение"
 
 #
 # File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 155
@@ -51125,7 +51140,7 @@ msgstr ""
 
 # File: /usr/lang/src/controllers.php, line: 568
 msgid "description"
-msgstr "описание"
+msgstr "Описание"
 
 #
 # File: /usr/lang/src/wizards.php, line: 320
@@ -51199,7 +51214,7 @@ msgstr ""
 
 # File: src/www/status_interfaces.php, line: 76
 msgid "interface"
-msgstr "интерфейс"
+msgstr "Интерфейс"
 
 #
 # File: /usr/lang/src/wizards.php, line: 336
