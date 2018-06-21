@@ -39259,8 +39259,8 @@ msgid "Select if you want to use ICAP."
 msgstr "Выберите, если вы хотите использовать ICAP."
 
 # File: lang/dynamic/helpers/controllers.php, line: 84
-msgid "Select interface(s) the ftp proxy will bind to."
-msgstr "Выберите интерфейсы, к которым будет привязан прокси-сервер FTP."
+msgid "Select interface(s) the ftp proxy will bind to (Leave blank to disable ftp proxy)."
+msgstr "Выберите интерфейсы, к которым будет привязан прокси-сервер FTP (оставьте пустым, чтобы отключить прокси-сервер ftp)."
 
 # File: lang/dynamic/helpers/controllers.php, line: 81
 msgid "Select interface(s) the proxy will bind to."
