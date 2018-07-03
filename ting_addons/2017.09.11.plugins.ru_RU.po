@@ -510,7 +510,7 @@ msgstr "Редактировать аккаунт"
 #
 # File: /usr/plugins/security/acme-client/src/etc/inc/plugins.inc.d/acmeclient.inc, line: 62
 msgid "Let's Encrypt client"
-msgstr "Клиент \"Разрешить шифрование\""
+msgstr "Клиент \"Let's Encrypt\""
 
 #
 # File: /usr/plugins/sysutils/monit/src/opnsense/mvc/app/views/OPNsense/Monit/index.volt, line: 338
@@ -1120,7 +1120,7 @@ msgid ""
 "delete and re-create) them after switching from staging to production "
 "environment.</div>"
 msgstr ""
-"Выберите \"Разрешить шифрование\" staging environment когда начинаете его использовать "
+"Выберите \"Let's Encrypt\" staging environment когда начинаете его использовать "
 "или пока тестируете методы валидации. Staging environment предоставляет <a "
 "href=\"https://letsencrypt.org/docs/staging-environment/\">ослабленные пороговые "
 "значения</a>.<br/><div class=\"text-info\"><b>NOTE:</b>Сертификаты, "
@@ -1197,7 +1197,7 @@ msgstr ""
 "example.com or mail.example.com. Используйте клавишу TAB для завершения ввода FQDN.<br/"
 "><div class=\"text-info\"><b>NOTE:</b>Вы должны принудительно перевыдать "
 "сертификат если меняете \"Alt Names\" после того, как сертификат был подписан "
-"центром авторизации \"Разрешить шифрование\" Используйте кнопку \"выдать\" в колонке Команды "
+"центром авторизации \"Let's Encrypt\" Используйте кнопку \"выдать\" в колонке Команды "
 "в этом случае.</div>"
 
 #
@@ -1319,7 +1319,7 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 324
 msgid "Enable Let's Encrypt plugin."
-msgstr "Включить плагин \"Разрешить шифрование\""
+msgstr "Включить плагин \"Let's Encrypt\""
 
 #
 # File: /usr/lang/src/controllers.php, line: 326
@@ -1792,7 +1792,7 @@ msgstr "Аккаунт LE"
 #
 # File: /usr/lang/src/controllers.php, line: 550
 msgid "Let's Encrypt Environment"
-msgstr "Окружение \"Разрешить шифрование\""
+msgstr "Окружение \"Let's Encrypt\""
 
 #
 # File: /usr/lang/src/controllers.php, line: 553
@@ -2610,7 +2610,7 @@ msgstr "Укажите IP адрес, который должен получит
 #
 # File: /usr/lang/src/controllers.php, line: 878
 msgid "Set the Let's Encrypt account to use for this certificate."
-msgstr "Укажите аккаунт \"Разрешить шифрование\" для использования этим сертификатом."
+msgstr "Укажите аккаунт \"Let's Encrypt\" для использования этим сертификатом."
 
 #
 # File: /usr/lang/src/controllers.php, line: 879
@@ -2618,13 +2618,13 @@ msgid ""
 "Set the Let's Encrypt challenge type. You'll have to add configuration for "
 "the selected challenge type below."
 msgstr ""
-"Укажите тип вызова \"Разрешить шифрование\". Вы должны указать настройки для "
+"Укажите тип вызова \"Let's Encrypt\". Вы должны указать настройки для "
 "выбранного типа вызова ниже."
 
 #
 # File: /usr/lang/src/controllers.php, line: 880
 msgid "Set the Let's Encrypt validation method for this certificate."
-msgstr "Укажите метод валидации \"Разрешить шифрование\" для данного сертификата."
+msgstr "Укажите метод валидации \"Let's Encrypt\" для данного сертификата."
 
 #
 # File: /usr/lang/src/controllers.php, line: 938
@@ -2897,7 +2897,7 @@ msgstr ""
 "FQDN используемый вашим сертификатом должен в данный момент указывать на официальный IP "
 "адрес. Выберите интерфейс, на котором этот адрес в данный момент сконфигурирован. "
 "TING автоматически создаст временное правило перенаправления, чтобы "
-"проверка \"Разрешить шифрование\" прошла успешно. Это приведёт к краткосрочному завершению "
+"проверка \"Let's Encrypt\" прошла успешно. Это приведёт к краткосрочному завершению "
 "сервиса, который обычно использует этот IP адрес.<br/><div class="
 "\"text-info\"><b>ПРИМЕЧАНИЕ:</b>Это сработает ТОЛЬКО если официальные IP адреса "
 "ЛОКАЛЬНО сконфигурированы на вашем устройстве.</div>"
@@ -3481,7 +3481,7 @@ msgid ""
 "with another local services. Defaults to port 43580."
 msgstr ""
 "При использования метода валидации HTTP-01, локальный web-сервер будет использоваться "
-"для предоставления контрольных данных acme серверам \"Разрешить шифрование\". Эта настройка "
+"для предоставления контрольных данных acme серверам \"Let's Encrypt\". Эта настройка "
 "позволяет вам изменить локальный порт этого сервера если он конфликтует "
 "с другими локальными сервисами. По-умолчанию порт 43580."
 

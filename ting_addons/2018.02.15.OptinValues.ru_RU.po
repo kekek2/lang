@@ -763,7 +763,7 @@ msgstr "отладка"
 #
 # File: /usr/lang/src/models.php, line: 299
 msgid "Let's Encrypt CA"
-msgstr "ЦС \"Разрешить шифрование\""
+msgstr "ЦС \"Let's Encrypt\""
 
 #
 # File: /usr/lang/src/models.php, line: 361
