@@ -921,7 +921,7 @@ msgstr "Добавляет заголовок, содержащий видимы
 #
 # File: /usr/lang/src/controllers.php, line: 156
 msgid "Add delay in ms to this pipe."
-msgstr "Добавить задержку в ms к этой трубе."
+msgstr "Добавить задержку в ms к этому каналу."
 
 #
 # File: /usr/lang/src/controllers.php, line: 158

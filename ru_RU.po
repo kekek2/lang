@@ -8757,7 +8757,7 @@ msgstr ""
 #
 # File: /usr/core/src/www/services_unbound.php, line: 205
 msgid "Local Zone Type"
-msgstr "Тип Локальной Зоны"
+msgstr "Тип локальной зоны"
 
 # File: src/www/services_unbound.php, line: 209
 msgid ""
@@ -30536,7 +30536,7 @@ msgstr "Добавляет заголовок, содержащий видимы
 #
 # File: /usr/lang/src/controllers.php, line: 156
 msgid "Add delay in ms to this pipe."
-msgstr "Добавить задержку в ms к этой трубе."
+msgstr "Добавить задержку в ms к этому каналу."
 
 #
 # File: /usr/lang/src/controllers.php, line: 101
