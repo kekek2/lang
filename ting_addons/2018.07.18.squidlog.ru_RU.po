@@ -1,0 +1,5 @@
+#
+# File: /usr/lang/src/controllers.php, line: 525
+msgid "Display mode"
+msgstr ""
+

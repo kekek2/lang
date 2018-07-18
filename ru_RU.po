@@ -52094,6 +52094,11 @@ msgid "Your configuration is now complete."
 msgstr "Конфигурация закончена."
 
 #
+# File: /usr/lang/src/controllers.php, line: 525
+msgid "Display mode"
+msgstr "Режим отображения"
+
+#
 # File: /usr/lang/src/wizards.php, line: 305
 msgid "addrpool"
 msgstr ""
