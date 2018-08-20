@@ -52099,6 +52099,46 @@ msgid "Display mode"
 msgstr "Режим отображения"
 
 #
+# File: /usr/core/src/etc/rc.initial, line: 29
+msgid "  0) Logout                              7) Ping host"
+msgstr "  0) Выход                               7) Пинг хоста"
+
+#
+# File: /usr/core/src/etc/rc.initial, line: 30
+msgid "  1) Assign interfaces                   8) Shell"
+msgstr "  1) Назначение интерфейсов              8) Командная строка"
+
+#
+# File: /usr/core/src/etc/rc.initial, line: 31
+msgid "  2) Set interface IP address            9) pfTop"
+msgstr "  2) Назначить IP-адреса на интерфейсы   9) pfTop"
+
+#
+# File: /usr/core/src/etc/rc.initial, line: 32
+msgid "  3) Reset the root password            10) Firewall log"
+msgstr "  3) Сброс пароля root                  10) Журнал сетевого экрана"
+
+#
+# File: /usr/core/src/etc/rc.initial, line: 33
+msgid "  4) Reset to factory defaults          11) Reload all services"
+msgstr "  4) Сброс в заводские настройки        11) Перезапустить все службы"
+
+#
+# File: /usr/core/src/etc/rc.initial, line: 34
+msgid "  5) Power off system                   12) Upgrade from console"
+msgstr "  5) Выключение питания                 12) Обновление из консоли"
+
+#
+# File: /usr/core/src/etc/rc.initial, line: 35
+msgid "  6) Reboot system                      13) Restore a backup"
+msgstr "  6) Перезагрузка                       13) Восстановление и резервные копии"
+
+#
+# File: /usr/core/src/etc/rc.initial, line: 36
+msgid "Enter an option: "
+msgstr "Введите номер: "
+
+#
 # File: /usr/lang/src/wizards.php, line: 305
 msgid "addrpool"
 msgstr ""
