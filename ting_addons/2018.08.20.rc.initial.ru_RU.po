@@ -36,5 +36,5 @@ msgstr "  6) Перезагрузка                       13) Восстано
 #
 # File: /usr/core/src/etc/rc.initial, line: 36
 msgid "Enter an option: "
-msgstr "Введите номер: "
+msgstr "Выберите опцию: "
 
