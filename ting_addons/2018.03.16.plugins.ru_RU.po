@@ -45,7 +45,7 @@ msgstr "Выберите тип stick-таблицы."
 #
 # File: /usr/lang/src/controllers.php, line: 356
 msgid "Choose the cipher to use for encryption."
-msgstr "Выберите шифр для кодирования."
+msgstr "Выберите протокол шифрования."
 
 #
 # File: /usr/lang/src/controllers.php, line: 359
@@ -340,7 +340,7 @@ msgstr "Пинг хостов и измерение метрик."
 #
 # File: /usr/lang/src/controllers.php, line: 1395
 msgid "Port of the remote server."
-msgstr "Порт удалённых серверов"
+msgstr "Порт удалённого сервера."
 
 #
 # File: /usr/lang/src/controllers.php, line: 1474
@@ -785,8 +785,7 @@ msgid ""
 "This will activate the ShadowSocks Local instance. This lets you tunnel your "
 "application to a public ShadowSocks server."
 msgstr ""
-"Это активирует локальный экземпляр ShadowSocks. Это позволяет туннелировать "
-"приложение на общедоступный сервер ShadowSocks."
+"Включить клиент Shadowsocks. Обеспечивает socks5 прокси подключение к удаленному серверу Shadowshocks."
 
 #
 # File: /usr/lang/src/controllers.php, line: 2083

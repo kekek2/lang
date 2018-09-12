@@ -1278,7 +1278,7 @@ msgstr "Версия IP"
 #
 # File: /usr/lang/src/controllers.php, line: 1001
 msgid "IP address to listen to, this should be your LAN IP address."
-msgstr "IP-адрес для прослушивания, это должен быть IP-адрес из вашей сети LAN."
+msgstr "IP адрес, на котором принимаются socks5 подключения от клиентов (чаще всего IP адрес локальной сети)"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1023

@@ -1,0 +1,1663 @@
+#
+# File: /usr/lang/src/plugin_descr.php, line: 781
+msgid "Webserver cache"
+msgstr "Кэш вебсервера"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 328
+msgid ""
+"LCDProc for SDEC LCD devices\n"
+"\n"
+"LCDproc setup for SDEC LCD devices found in Watchguard FireBox firewall "
+"appliances.\n"
+"\n"
+"Maintainer: ad@opnsense.org"
+msgstr ""
+"LCDProc для SDEC ЖК-устройств\n"
+"\n"
+"LCDproc настраивает SDEC ЖК-устройства, найденные в устройствах Watchguard "
+"FireBox firewall.\n"
+"\n"
+"Maintainer: ad@opnsense.org"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 327
+msgid "LCDProc for SDEC LCD devices"
+msgstr "LCDProc для SDEC ЖК-устройств"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 184
+msgid ""
+"End of life, superseded by Net-SNMP plugin\n"
+"\n"
+"The SNMP plugin allows to query information about your appliance. It\n"
+"includes memory, load, CPU utilization and system statistics by using\n"
+"the bsnmp-ucd module as well as to create counters from log files,\n"
+"program output and other text data via the bsnmp-regex module.\n"
+"\n"
+"Maintainer: franco@opnsense.org"
+msgstr ""
+"Конец срока службы, заменено плагиномом Net-SNMP\n"
+"\n"
+"SNMP плагин позволяет запрашивать информацию об устройстве. Это включает\n"
+"память, нагрузку, утилизацию CPU и системную статистику использованием\n"
+"модуля bsnmp-ucd и созданием счётчиков из лог-файлов,\n"
+"програмного вывода и других текстовых данных через модуль bsnmp-regex.\n"
+"\n"
+"Сопровождение: franco@opnsense.org"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 183
+msgid "End of life, superseded by Net-SNMP plugin"
+msgstr "Конец срока службы, заменено плагиномом Net-SNMP"
+
+#
+# File: /usr/lang/src/models.php, line: 800
+msgid "Wednesday"
+msgstr "Среда"
+
+#
+# File: /usr/lang/src/models.php, line: 757
+msgid "Tuesday"
+msgstr "Вторник"
+
+#
+# File: /usr/lang/src/models.php, line: 745
+msgid "Thursday"
+msgstr "Четверг"
+
+#
+# File: /usr/lang/src/models.php, line: 741
+msgid "The timeout must be greater than 0"
+msgstr "Время ожидания должно быть больше 0"
+
+#
+# File: /usr/lang/src/models.php, line: 740
+msgid "The timeout must be a number between 1 and 2147483647."
+msgstr "Таймаут должен быть числом от 1 до 2147483647."
+
+#
+# File: /usr/lang/src/models.php, line: 738
+msgid "The route priority must be greater than 0"
+msgstr "Приоритет маршрута должен быть больше 0"
+
+#
+# File: /usr/lang/src/models.php, line: 737
+msgid "The number of retries must be greater than 0"
+msgstr "Количество повторных попыток должно быть больше 0"
+
+#
+# File: /usr/lang/src/models.php, line: 731
+msgid "The IP TTL must be greater than 0"
+msgstr "TTL IP должен быть больше чем 0"
+
+#
+# File: /usr/lang/src/models.php, line: 730
+msgid "The Backup Directory can only consist of alphanumeric characters."
+msgstr "Директория для резервного копирования может состоять только из буквенно-цифровых символов."
+
+#
+# File: /usr/lang/src/models.php, line: 723
+msgid "Table not found"
+msgstr "Таблица не найдена"
+
+#
+# File: /usr/lang/src/models.php, line: 722
+msgid "Table check not found"
+msgstr "Проверочная таблицы не найдена"
+
+#
+# File: /usr/lang/src/models.php, line: 713
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#
+# File: /usr/lang/src/models.php, line: 669
+msgid "Stick-table persistence [default]"
+msgstr "Сохранение Stick-таблицы [по умолчанию]"
+
+#
+# File: /usr/lang/src/models.php, line: 604
+msgid "Static Round Robin"
+msgstr "Статический циклический перебор"
+
+#
+# File: /usr/lang/src/models.php, line: 643
+msgid "Source-IPv6"
+msgstr "Источник IPv6"
+
+#
+# File: /usr/lang/src/models.php, line: 642
+msgid "Source-IP [default]"
+msgstr "Источник-IP [по умолчанию]"
+
+#
+# File: /usr/lang/src/models.php, line: 617
+msgid "Single"
+msgstr "Одиночный"
+
+#
+# File: /usr/lang/src/models.php, line: 614
+msgid "Saturday"
+msgstr "Суббота"
+
+#
+# File: /usr/lang/src/models.php, line: 563
+msgid "Related user not found"
+msgstr "Связанный пользователь не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 562
+msgid "Related time not found"
+msgstr "Связанное время не найдено"
+
+#
+# File: /usr/lang/src/models.php, line: 560
+msgid "Related src not found"
+msgstr "Связанный src не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 554
+msgid "Related mime not found"
+msgstr "Связанный mime не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 550
+msgid "Related dst not found"
+msgstr "Связанный dst не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 549
+msgid "Related domain not found"
+msgstr "Связанный домен не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 545
+msgid "Related arp not found"
+msgstr "Связанный arp не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 544
+msgid "Related agent not found"
+msgstr "Связанный agent не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 532
+msgid "Redirection"
+msgstr "Переадресация"
+
+#
+# File: /usr/lang/src/models.php, line: 517
+msgid "Protocol not found"
+msgstr "Протокол не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 464
+msgid "Protocol Independent Multicast (PIM)"
+msgstr "Протокол независимой многоадресной рассылки (PIM)"
+
+#
+# File: /usr/lang/src/models.php, line: 461
+msgid "Please provide a valid hash."
+msgstr "Укажите допустимый хэш."
+
+#
+# File: /usr/lang/src/models.php, line: 402
+msgid "Number of processes must be greater than 0"
+msgstr "Количество процессов должно быть больше 0"
+
+#
+# File: /usr/lang/src/models.php, line: 378
+msgid "Monday"
+msgstr "Понедельник"
+
+#
+# File: /usr/lang/src/models.php, line: 292
+msgid "ICAP enable"
+msgstr "Включить ICAP"
+
+#
+# File: /usr/lang/src/models.php, line: 285
+msgid "Host not found"
+msgstr "Узел не найден"
+
+#
+# File: /usr/lang/src/models.php, line: 244
+msgid "Friday"
+msgstr "Пятница"
+
+#
+# File: /usr/lang/src/models.php, line: 129
+msgid "Check interval must be greater than 0"
+msgstr "Интервал проверки должен быть больше 0"
+
+#
+# File: /usr/lang/src/models.php, line: 128
+msgid "Check interval must be a multiple of the global interval."
+msgstr "Интервал проверки должен быть кратен глобальному интервалу."
+
+#
+# File: /usr/lang/src/models.php, line: 94
+msgid "An user for the Nextcloud server must be set."
+msgstr "Необходимо задать пользователя для сервера Nextcloud."
+
+#
+# File: /usr/lang/src/models.php, line: 93
+msgid "An URL for the Nextcloud server must be set."
+msgstr "Необходимо задать URL-адрес сервера Nextcloud."
+
+#
+# File: /usr/lang/src/models.php, line: 44
+msgid "A password for a Nextcloud server must be set."
+msgstr "Необходимо задать пароль для сервера Nextcloud."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2676
+msgid "target pipe or queue"
+msgstr "Целевой канал или очередь"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2673
+msgid "src-port"
+msgstr "Порт источника"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2672
+msgid ""
+"source port number or well known name (imap, imaps, http, https, ...), for "
+"ranges use a dash"
+msgstr ""
+"номер исходного порта или хорошо известное имя (imap, imaps, http, https,...), "
+"для диапазонов используйте тире"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2671
+msgid "source ip or network, examples 10.0.0.0/24, 10.0.0.1"
+msgstr "ip-адрес источника или сети, примеры 10.0.0.0 / 24, 10.0.0.1"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2667
+msgid "sequence"
+msgstr "Последовательность"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2665
+msgid ""
+"secondary interface, matches packets traveling to/from interface (1) to/from "
+"interface (2). can be combined with direction."
+msgstr ""
+"вторичный интерфейс, сопоставляет пакеты, перемещающиеся в/из интерфейса (1) "
+"в/из интерфейса (2). может сочетаться с направлением."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2659
+msgid "order in which the rule will be evaluated (lowest first)"
+msgstr "порядок, в котором будут обрабатываться правила (сначала наименьший)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2658
+msgid "number of dynamic queues, leave empty for default"
+msgstr "количество динамических очередей, оставьте пустым по умолчанию"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2656
+msgid "matches incoming or outgoing packets or both (default)"
+msgstr "соответствует входящим, исходящим пакетам или обоим (по умолчанию)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2650
+msgid "invert source (not)"
+msgstr "инвертировать источник (не)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2649
+msgid "invert source"
+msgstr "инвертировать источник"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2648
+msgid "invert destination (not)"
+msgstr "инвертировать назначение (не)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2647
+msgid "invert destination"
+msgstr "инвертировать назначение"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2646
+msgid "interface 2"
+msgstr "интерфейс 2"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2643
+msgid "enable this rule"
+msgstr "включить это правило"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2641
+msgid "dst-port"
+msgstr "порт назначения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2639
+msgid ""
+"destination port number or well known name (imap, imaps, http, https, ...), "
+"for ranges use a dash"
+msgstr ""
+"номер порта назначения или известное имя (imap, imaps, http, https,...), для "
+"диапазонов используйте тире"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2638
+msgid "destination ip or network, examples 10.0.0.0/24, 10.0.0.1"
+msgstr "ip-адрес назначения или сеть, примеры 10.0.0.0 / 24, 10.0.0.1"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2631
+msgid "connected pipe for this queue"
+msgstr "подключенный канал для этой очереди"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2626
+msgid "bandwidth Metric"
+msgstr "Метрика пропускной способности"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2556
+msgid "Users and gruops"
+msgstr "Пользователи и группы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2551
+msgid "User/group"
+msgstr "Пользователь/группа"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2495
+msgid ""
+"Type subnets to which you want to set access, use a comma or press Enter for "
+"new item. <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+"Введите подсети, к которым вы хотите установить доступ, используйте запятую "
+"или нажмите Enter для нового элемента. <div class=\"text-info\"><B>совет: в "
+"это поле также можно вставить список, разделенный запятыми.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2494
+msgid ""
+"Type subnets from which you want to set access, use a comma or press Enter "
+"for new item. <div class=\"text-info\"><b>TIP: </b>You can also paste a "
+"comma separated list into this field.</div>"
+msgstr ""
+"Введите подсети, из которых вы хотите установить доступ, использйте запятую "
+"или нажмите Enter для нового элемента. <div class=\"text-info\"><B>совет: в "
+"это поле также можно вставить список, разделенный запятыми.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2486
+msgid ""
+"Type MAC addresses to which you want to set access, use a comma or press "
+"Enter for new item. <div class=\"text-info\"><b>TIP: </b>You can also paste "
+"a comma separated list into this field.</div>"
+msgstr ""
+"Введите MAC-адреса, к которым вы хотите установить доступ, используйте запятую "
+"или нажмите Enter для нового элемента. <div class=\"text-info\"><B>совет: в это "
+"поле также можно вставить список, разделенный запятыми.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2473
+msgid "Transport Type"
+msgstr "Транспортный протокол"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2426
+msgid "This will activate the libclamav.so module."
+msgstr "Это активирует libclamav.so модуль."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2421
+msgid "This will activate the c-icap content filter service."
+msgstr "Это активирует службу фильтра содержимого C-icap."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2327
+msgid "The start of the interval"
+msgstr "Начало интервала"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2267
+msgid "The end of the interval"
+msgstr "Конец интиервала"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2214
+msgid "Table Check"
+msgstr "Проверочная таблица"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2185
+msgid "Sticky Address"
+msgstr "Прикреплённый адрес"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2178
+msgid "State Notification"
+msgstr "Уведомление состояния"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 369
+# File: /usr/lang/src/controllers.php, line: 2122
+msgid "Sources nets"
+msgstr "Сети источника"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2017
+msgid "Set the IP addresses the service should listen to."
+msgstr "Установить IP-адреса, который будет слушать служба."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1985
+msgid "Server Type"
+msgstr "Тип сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1959
+msgid "Send Data"
+msgstr "Отправить данные"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1949
+msgid "Select Schedules"
+msgstr "Выберите расписания"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1948
+msgid "Select the type of hash. Possible values are SHA256 or SHA1."
+msgstr "Выберите Тип хэша. Возможные значения: SHA256 или SHA1."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1896
+msgid "Select domains."
+msgstr "Выберите домены"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1892
+msgid "Select browser/user-agents"
+msgstr "Выберите browser/user-agent"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1889
+msgid "Select a user/group."
+msgstr "Выберите пользователя/группу"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1886
+msgid "Select Source IPs"
+msgstr "Выберите адрес источника"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1884
+msgid "Select NetPolice categorises"
+msgstr "Выберите категорию NetPolice"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1882
+msgid "Select MIME type reply"
+msgstr "Выберите MIME-типы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1881
+msgid "Select MAC-addresses"
+msgstr "Выберите MAC-адреса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1876
+msgid "Select Destination IPs"
+msgstr "Выберите IP-адреса назначения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1875
+msgid "Select weekdays"
+msgstr "Выберите дни недели"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1874
+msgid "Select Black or White list"
+msgstr "Выберите чёрный или белый список"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1867
+msgid "Scheduler type"
+msgstr "Тип планировщика"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1784
+msgid "Route Priority"
+msgstr "Приоритет маршрута"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1767
+msgid "Retry Number"
+msgstr "Количество повторов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1756
+msgid "Response Code"
+msgstr "Код ответа"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1520
+msgid "Reject exiting to private IP space"
+msgstr "Отклонить выход в личное пространство IP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1726
+msgid "Regexp"
+msgstr "Регулярное выражение"
+
+#
+# File: /usr/lang/src/controllers.php, line: 985
+msgid "Open ports by the fascist firewall."
+msgstr "Открыть порты в агрессивной защите."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1547
+msgid "Number Of Processes"
+msgstr "Количество процессов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1491
+msgid "Name of allowed category"
+msgstr "Имя разрешённой категории"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 509
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/mimes.volt, line: 53
+# File: /usr/lang/src/controllers.php, line: 1470
+# File: /usr/lang/src/models.php, line: 372
+msgid "Mime types"
+msgstr "MIME типы"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1463
+msgid "Message Digest"
+msgstr "Дайджест сообщения"
+
+#
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/arps.volt, line: 53
+# File: /usr/lang/src/controllers.php, line: 1385
+# File: /usr/lang/src/models.php, line: 359
+msgid "MAC addresses"
+msgstr "MAC-адреса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1338
+msgid "Lists"
+msgstr "Списки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1328
+msgid "Listen End Port"
+msgstr "Слушать Порт"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1245
+msgid ""
+"If you have a wildcard certificate or the CA is untrusted, you have to enter "
+"the SHA hash of the certificate to force a connect."
+msgstr ""
+"Если у вас есть подстановочный сертификат или CA не доверен, вам необходимо "
+"ввести SHA-хэш сертификата для принудительного подключения."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1243
+msgid ""
+"If you enable this, every entry in Recipients will be checked against. When "
+"there is no match mail will be rejected. Be aware that it does not matter if "
+"the action is \"OK\" or \"REJECT\". This setup allows you to run postfix in "
+"front of an internal system and already rejecting unsolicited mail at the "
+"border."
+msgstr ""
+"Если вы включите эту опцию, каждая запись в Recipients будет проверяться. "
+"Если совпадений нет, Почта будет отклонена. Имейте в виду, что это не имеет "
+"значения, если действие «OK» или «REJECT». Эта настройка позволяет "
+"запускать postfix перед внутренней системой и уже отклонять нежелательную почту "
+"на границе."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1088
+msgid "Global Check Timeout"
+msgstr "Глобальный тайм-аут проверки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1087
+msgid "Global Check Interval"
+msgstr "Глобальный Интервал Проверки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 608
+msgid "Fascist Mode"
+msgstr "Режим агрессивной защиты"
+
+#
+# File: /usr/lang/src/controllers.php, line: 607
+msgid "Fascist Firewall Ports"
+msgstr "Порты агрессивной защиты"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1016
+msgid "Expect Pattern"
+msgstr "Ожидать шаблон"
+
+#
+# File: /usr/lang/src/controllers.php, line: 960
+msgid "Enter rule priority"
+msgstr "Введите приоритет правила"
+
+#
+# File: /usr/lang/src/controllers.php, line: 937
+msgid "Enforce Recipient Relay Check"
+msgstr "Принудительная проверка получателей ретранслятора"
+
+#
+# File: /usr/lang/src/controllers.php, line: 913
+msgid "Enable this queue and its related rules"
+msgstr "Включить эту очередь и связанные с ней правила"
+
+#
+# File: /usr/lang/src/controllers.php, line: 912
+msgid "Enable this pipe and its related queues and rules"
+msgstr "Включить этот канал и связанные с ним очереди и правила"
+
+#
+# File: /usr/lang/src/controllers.php, line: 875
+msgid "Enable regular expression for domains. Regular expressions are slower."
+msgstr "Включить регулярные выражения для доменов. Регулярные выражения медленней"
+
+#
+# File: /usr/lang/src/controllers.php, line: 843
+msgid "Enable or disable Relayd."
+msgstr "Включение или отключение ретрансляции."
+
+#
+# File: /usr/lang/src/controllers.php, line: 833
+msgid "Enable libclamav.so"
+msgstr "Включить libclamav.so"
+
+#
+# File: /usr/lang/src/controllers.php, line: 811
+msgid "Enable c-icap content filter"
+msgstr "Включить контекстный фильтр c-icap"
+
+#
+# File: /usr/lang/src/controllers.php, line: 773
+msgid "Enable Relayd"
+msgstr "Включить ретрансляцию"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 404
+# File: /usr/lang/src/controllers.php, line: 670
+msgid "Destination nets"
+msgstr "Сети назначения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 351
+msgid ""
+"Choose how HAProxy should track user-to-server mappings. Stick-table "
+"persistence works with all protocols, but is broken in multi-process and "
+"multithreaded modes. Cookie-based persistence only works with HTTP/HTTPS "
+"protocols."
+msgstr ""
+"Выберите, как HAProxy должен отслеживать сопоставления пользователей и серверов. "
+"Жёстко прописанные таблицы работает со всеми протоколами, но нарушается в многопроцессном "
+"и многопоточном режимах. Привязка на основе файлов Cookie работает только с "
+"протоколами HTTP / HTTPS."
+
+#
+# File: /usr/lang/src/controllers.php, line: 489
+msgid "Certificate Hash Type"
+msgstr "Тип Хэша Сертификата"
+
+#
+# File: /usr/lang/src/controllers.php, line: 488
+msgid "Certificate Hash"
+msgstr "Хэш Сертификата"
+
+#
+# File: /usr/lang/src/controllers.php, line: 405
+msgid "Begin"
+msgstr "Начало"
+
+#
+# File: /usr/lang/src/controllers.php, line: 398
+msgid "Backup Table Scheduler"
+msgstr "Планировщик таблиц резервного копирования"
+
+#
+# File: /usr/lang/src/controllers.php, line: 397
+msgid "Backup Table Check"
+msgstr "Проверка таблицы резервных копий"
+
+#
+# File: /usr/lang/src/controllers.php, line: 396
+msgid "Backup Table"
+msgstr "Резервная таблица"
+
+#
+# File: /usr/lang/src/controllers.php, line: 395
+msgid "Backup Check Timeout"
+msgstr "Время ожидания проверки резервной копии"
+
+#
+# File: /usr/lang/src/controllers.php, line: 394
+msgid "Backup Check Interval"
+msgstr "Интервал проверки резервной копии"
+
+#
+# File: /usr/lang/src/controllers.php, line: 290
+msgid ""
+"Access by Browser/user-agents.<br/>\n"
+"        You may use a regular expression, use a comma or press Enter for new "
+"item.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">^(.)+Macintosh(.)+Firefox/37\\.0</b> -"
+"> matches on <b>Macintosh version of Firefox revision 37.0</b><br/>\n"
+"            <b class=\"text-primary\">^Mozilla</b> -> matches on <b>all "
+"Mozilla based browsers</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+"Доступ по Browser/user-agents.<br/>\n"
+"        Можно использовать регулярные выражения, запятую или нажать клавишу "
+"Enter для нового элемента.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Примеры:</b><br/>\n"
+"            <b class=\"text-primary\">^(.)+Macintosh(.)+Firefox/37\\.0</b> -"
+"> matches on <b>Macintosh version of Firefox revision 37.0</b><br/>\n"
+"            <b class=\"text-primary\">^Mozilla</b> -> matches on <b>all "
+"Mozilla based browsers</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>ПРИМЕЧАНИЕ: </b>Также можно использовать "
+"список разделенных запятой значений.</div>"
+
+
+#
+# File: /usr/lang/src/controllers.php, line: 282
+msgid ""
+"Access by specific MIME type reply.<br/>\n"
+"        You may use a regular expression, use a comma or press Enter for new "
+"item.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Examples:</b><br/>\n"
+"            <b class=\"text-primary\">video/flv</b> -> matches on <b>Flash "
+"Video</b><br/>\n"
+"            <b class=\"text-primary\">application/x-javascript</b> -> "
+"matches on <b>javascripts</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>TIP: </b>You can also paste a comma "
+"separated list into this field.</div>"
+msgstr ""
+"Доступ по MIMI-типу ответа.<br/>\n"
+"        Можно использовать регулярные выражения, запятую или нажать клавишу "
+"Enter для нового элемента.<br/>\n"
+"        <div class=\"alert alert-info\">\n"
+"            <b>Примеры:</b><br/>\n"
+"            <b class=\"text-primary\">^(.)+Macintosh(.)+Firefox/37\\.0</b> -"
+"> matches on <b>Macintosh version of Firefox revision 37.0</b><br/>\n"
+"            <b class=\"text-primary\">^Mozilla</b> -> matches on <b>all "
+"Mozilla based browsers</b><br/>\n"
+"        </div>\n"
+"        <div class=\"text-info\"><b>ПРИМЕЧАНИЕ: </b>Также можно использовать "
+"список разделенных запятой значений.</div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 253
+msgid ""
+"<ul>\n"
+"         <li>ICMP - Ping hosts in this table to determine whether they are "
+"up or not.</li>\n"
+"         <li>TCP - Use a simple TCP connect to check that hosts are up.</"
+"li>\n"
+"         <li>SSL - Perform a complete SSL handshake with each host to check "
+"their availability.</li>\n"
+"         <li>SEND - Create a TCP connection, send data and check the "
+"response.</li>\n"
+"         <li>SCRIPT - Execute an external program to check the host state.</"
+"li>\n"
+"         <li>HTTP(S) - Check response code or message digest from a http(s) "
+"request.</li>\n"
+"         </ul>\n"
+"      "
+msgstr ""
+"<ul>\n"
+"         <li>ICMP - Ping узлов в этой таблице, чтобы определить, доступны они "
+" или нет.</li>\n"
+"         <li>TCP - Использовать простое TCP-соединение, чтобы определить "
+"доступен узел или нет.</"
+"li>\n"
+"         <li>SSL - Выполните полное SSL-квитирование с каждым хостом, чтобы "
+"проверить их доступность.</li>\n"
+"         <li>SEND - Создание TCP-соединения, отправка данных и проверка ответа."
+"</li>\n"
+"         <li>SCRIPT - Выполнение внешней программы для проверки состояния узла.</"
+"li>\n"
+"         <li>HTTP(S) - Проверка кода ответа или дайджеста сообщения из запроса "
+"http(s).</li>\n"
+"         </ul>\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 244
+msgid ""
+"\n"
+"         When using relays, run the specified number of processes to<br>\n"
+"         handle relayed connections.\n"
+"      "
+msgstr ""
+"\n"
+"         При использовании ретрансляторов запуск указанное число процессов<br>\n"
+"для обработки ретранслируемых соединений.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 241
+msgid ""
+"\n"
+"         Use the specified protocol definition for the relay.\n"
+"      "
+msgstr ""
+"\n"
+"         Используйте указанное определение протокола для ретрансляции.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 238
+msgid ""
+"\n"
+"         Use SSL.\n"
+"      "
+msgstr ""
+"\n"
+"         Использовать SSL.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 235
+msgid ""
+"\n"
+"         This is a list with backend hosts\n"
+"      "
+msgstr ""
+"\n"
+"         Это список с backend узлами\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 232
+msgid ""
+"\n"
+"         The type of the protocol definition.\n"
+"      "
+msgstr ""
+"\n"
+"         Тип определения протокола.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 229
+msgid ""
+"\n"
+"         The protocol options.\n"
+"      "
+msgstr ""
+"\n"
+"         Параметры протокола.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 224
+msgid ""
+"\n"
+"         The optional retry option adds a tolerance for failed host checks;\n"
+"         the check will be retried for this number more times before setting "
+"the\n"
+"         host state to down.\n"
+"      "
+msgstr ""
+"\n"
+"         Дополнительный параметр повтора добавляет допустимое количество неудачных\n"
+"         проверок узла; проверка будет повторена несколько раз перед тем, как\n"
+"         установить состояния недоступности узла.\n"
+
+#
+# File: /usr/lang/src/controllers.php, line: 222
+msgid ""
+"\n"
+"         The name of the virtual server."
+msgstr ""
+"\n"
+"         Имя виртуального сервера."
+
+#
+# File: /usr/lang/src/controllers.php, line: 220
+msgid ""
+"\n"
+"         The name of the table."
+msgstr ""
+"\n"
+"         Название таблицы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 217
+msgid ""
+"\n"
+"         The name of the table check.\n"
+"      "
+msgstr ""
+"\n"
+"         Имя таблицы проверки.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 215
+msgid ""
+"\n"
+"         The name of the protocol definition."
+msgstr ""
+"\n"
+"         Имя определения протокола."
+
+#
+# File: /usr/lang/src/controllers.php, line: 213
+msgid ""
+"\n"
+"         The name of the host."
+msgstr ""
+"\n"
+"         Имя узла."
+
+#
+# File: /usr/lang/src/controllers.php, line: 210
+msgid ""
+"\n"
+"         The expected response message digest.\n"
+"      "
+msgstr ""
+"\n"
+"         Дайджест ожидаемого ответного сообщения.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 207
+msgid ""
+"\n"
+"         The expected response code.\n"
+"      "
+msgstr ""
+"\n"
+"         Ожидаемый код ответа.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 204
+msgid ""
+"\n"
+"         The backend host address.\n"
+"      "
+msgstr ""
+"\n"
+"         Адрес внутреннего хоста.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 201
+msgid ""
+"\n"
+"         The URL path for HTTP(S) or the script path for SCRIPT checks.\n"
+"      "
+msgstr ""
+"\n"
+"         URL-адрес для HTTP (S) или путь к сценарию для проверки скриптов.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 198
+msgid ""
+"\n"
+"         The Interface to listen on. Leave it unset to listen on all "
+"interfaces.\n"
+"      "
+msgstr ""
+"\n"
+"         Интерфейс для прослушивания. Оставьте его незаданным для прослушивания "
+"всех интерфейсов.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 195
+msgid ""
+"\n"
+"         The HTTP 'Host' header value.\n"
+"      "
+msgstr ""
+"\n"
+"         Значение заголовка HTTP 'Host'.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 192
+msgid ""
+"\n"
+"         Specify the table of target hosts to be used.\n"
+"      "
+msgstr ""
+"\n"
+"         Укажите таблицу узлов назначения, которые будут использоваться.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 189
+msgid ""
+"\n"
+"         Specify the table check.\n"
+"      "
+msgstr ""
+"\n"
+"         Укажите таблицу проверки.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 186
+msgid ""
+"\n"
+"         Specify the port to listen on.\n"
+"      "
+msgstr ""
+"\n"
+"         Укажите порт для прослушивания.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 181
+msgid ""
+"\n"
+"         Specify the inactivity timeout in seconds for established<br>\n"
+"         redirections.  The default timeout is 600 seconds (10 minutes)."
+"<br>\n"
+"         The maximum is 2147483647 seconds (68 years).\n"
+"      "
+msgstr ""
+"\n"
+"         Укажите период неактивности в секундах для установки переадресации.<br>\n"
+"         Значение по умолчанию-600 секунд (10 минут).<br>\n"
+"         Максимум 2147483647 секунд (68 лет).\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 178
+msgid ""
+"\n"
+"         Specify the end of a port range.\n"
+"      "
+msgstr ""
+"\n"
+"         Укажите конец диапазона портов.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 175
+msgid ""
+"\n"
+"         Specify the destination port.\n"
+"      "
+msgstr ""
+"\n"
+"         Укажите порт назначения.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 172
+msgid ""
+"\n"
+"         Specify an address to listen on.\n"
+"      "
+msgstr ""
+"\n"
+"         Укажите адрес для прослушивания.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 169
+msgid ""
+"\n"
+"         Set the scheduling algorithm to select a host from the table.\n"
+"      "
+msgstr ""
+"\n"
+"         Задайте алгоритм планирования, чтобы выбрать узел из таблицы.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 165
+msgid ""
+"\n"
+"         Set the interval in seconds at which the hosts will be checked."
+"<br>\n"
+"         The default interval is 10 seconds.\n"
+"      "
+msgstr ""
+"\n"
+"         Задайте интервал в секундах, через который будут проверяться хосты."
+"<br>\n"
+"         Интервал по умолчанию-10 секунд.\n"
+
+#
+# File: /usr/lang/src/controllers.php, line: 161
+msgid ""
+"\n"
+"         Set the global timeout in milliseconds for checks.  This can "
+"be<br>\n"
+"         overridden by the timeout value in the table definitions.\n"
+"      "
+msgstr ""
+"\n"
+"         Установите глобальный тайм-аут в миллисекундах для проверки.<br>\n"
+"         Это может быть переопределено значением времени ожидания в определениях таблицы.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 158
+msgid ""
+"\n"
+"         Send data.\n"
+"      "
+msgstr ""
+"\n"
+"         Передача данных.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 155
+msgid ""
+"\n"
+"         Override the global interval. I must be a multiple of the global "
+"interval.\n"
+"      "
+msgstr ""
+"\n"
+"         Переопредение глобального интервала. Он должен быть кратен глобальному "
+"интервалу.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 152
+msgid ""
+"\n"
+"         Override the global check timeout.\n"
+"      "
+msgstr ""
+"\n"
+"         Переопределение глобального времени ожидания проверки.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 149
+msgid ""
+"\n"
+"         Match response against pattern.\n"
+"      "
+msgstr ""
+"\n"
+"         Сопоставить ответ с шаблоном.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 144
+msgid ""
+"\n"
+"         Log state notifications after completed host checks.  Either "
+"only<br>\n"
+"         log the updates to new states or log all state notifications,<br>\n"
+"         even if the state didn't change.\n"
+"      "
+msgstr ""
+"\n"
+"         Журналировать уведомления о состоянии после завершения проверки узла.<br>\n"
+"         Регистрировать обновления только в новых состояниях или регистрировать<br>\n"
+"         уведомления всех состояний, даже если состояние не изменилось.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 140
+msgid ""
+"\n"
+"         It will ensure that multiple connections<br>\n"
+"         from the same source are mapped to the same redirection address.\n"
+"      "
+msgstr ""
+"\n"
+"         Это обеспечит сопоставление нескольких подключений из одного<br>\n"
+"         источника с одним адресом перенаправления.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 137
+msgid ""
+"\n"
+"         If unchecked start the virtual server disabled.\n"
+"      "
+msgstr ""
+"\n"
+"         Если флажок снят, виртуальный сервер отключен.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 134
+msgid ""
+"\n"
+"         If unchecked start the table disabled.\n"
+"      "
+msgstr ""
+"\n"
+"         Если флажок снят, то таблица отключена.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 131
+msgid ""
+"\n"
+"         Change the route priority used when adding a route.\n"
+"      "
+msgstr ""
+"\n"
+"         Изменение приоритета маршрута, используемого при добавлении маршрута.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 128
+msgid ""
+"\n"
+"         Change the default time-to-live value in the IP headers for host "
+"checks.\n"
+"      "
+msgstr ""
+"\n"
+"         Измените значение времени жизни по умолчанию в заголовках IP для "
+"проверок узлов.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 120
+msgid ""
+"\n"
+"         <b>Redirections</b><br>\n"
+"         &nbsp;&nbsp;&nbsp;Redirections are translated to pf(4) rdr-to rules "
+"for stateful<br>\n"
+"         &nbsp;&nbsp;&nbsp;forwarding to a target host from a health-checked "
+"table on layer 3.<br><br>\n"
+"         <b>Relays</b><br>\n"
+"         &nbsp;&nbsp;&nbsp;Relays allow application layer load balancing, "
+"SSL acceleration,<br>\n"
+"         &nbsp;&nbsp;&nbsp;and general purpose TCP proxying on layer 7.\n"
+"      "
+msgstr ""
+"\n"
+"         <b>Переадресации</b><br>\n"
+"         Перенаправления преобразованы в pf(4) rdr-to правила для передачи с<br>\n"
+"         сохранением состояния к целевому узлу для таблицы проверерки работоспособности уровня 3<br>\n"
+"         <b>Ретрансляторы</b><br>\n"
+"         Ретрансляторы обеспечивают балансировку нагрузки на уровне приложений, ускорение SSL и TCP-прокси<br>\n"
+"         общего назначения на уровне 7.\n"
+"      "
+
+#
+# File: /usr/lang/src/controllers.php, line: 117
+msgid ""
+"\n"
+"         <b>Forward</b> or <b>Route</b> packets to the backend hosts.\n"
+"      "
+msgstr ""
+"\n"
+"         <b>Пересылка</b> или <b>маршрутизация</b> пакетов на серверные узлы.\n"
+"      "
+
+#
+# File: /usr/lang/src/acl.php, line: 161
+msgid "Services: Relayd"
+msgstr "Служба: Relayd"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 577
+msgid "Edit Schedules"
+msgstr "Редактировать расписания"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cicap-clamav/src/opnsense/mvc/app/views/SmartSoft/CicapClamav/index.volt, line: 97
+msgid "Edit category"
+msgstr "Редактировать категорию"
+
+#
+# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 66
+msgid "WARNING"
+msgstr "ПРЕДУПРЕЖДЕНИЕ"
+
+#
+# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 77
+msgid "Device does not exist, bailing."
+msgstr "Устройства не существует, отказ."
+
+#
+# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 86
+msgid "Invalid test type, bailing."
+msgstr "Недопустимый тип теста, отказ."
+
+#
+# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 103
+msgid "Invalid info type, bailing."
+msgstr "Неверный тип информации, отказ."
+
+#
+# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 114
+msgid "Invalid log type, bailing."
+msgstr "Неверный тип журнала, отказ."
+
+#
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 143
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 150
+#, php-format
+msgid "Scheduler \"%s\" not supported for redirects."
+msgstr "Планировщик «%s» не поддерживает перенаправления."
+
+#
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 158
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 164
+#, php-format
+msgid "Scheduler \"%s\" not supported for relays."
+msgstr "Планировщик «%s» не поддерживается для перенаправителя."
+
+#
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 174
+msgid "Expect Pattern cannot be empty."
+msgstr "Шаблон ожиданий не может быть пустым."
+
+#
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 180
+msgid "Script path cannot be empty."
+msgstr "Путь сценария не может быть пустым."
+
+#
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 186
+msgid "Path cannot be empty."
+msgstr "Путь не может быть пустым."
+
+#
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 190
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/controllers/OPNsense/Relayd/Api/SettingsController.php, line: 192
+msgid "Provide one of Response Code or Message Digest."
+msgstr "Укажите один из кодов ответа или дайджеста сообщения."
+
+#
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 206
+msgid "The Relayd configuration has been changed"
+msgstr "Конфигурация Relayd была изменена"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 295
+msgid "Users and groups"
+msgstr "Пользователи и группы"
+
+#
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 211
+msgid "Backend Hosts"
+msgstr "Серверные узлы"
+
+#
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 212
+msgid "Table Checks"
+msgstr "Таблица проверок"
+
+#
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 215
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/status.volt, line: 138
+msgid "Virtual Server"
+msgstr "Виртуальные сервера"
+
+#
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 348
+msgid "Apply Configuration"
+msgstr "Применить Конфигурацию"
+
+#
+# File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/status.volt, line: 86
+msgid "The status could not be fetched. Is Relayd running?"
+msgstr "Не удалось получить состояние. Relayd работает?"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 505
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/agents.volt, line: 76
+msgid "Edit Browser/user-agents for black and white lists"
+msgstr "Редактировать Browser/user-agents для чёрных и белых списков"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 365
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/arps.volt, line: 76
+msgid "Edit MAC addresses for black and white lists"
+msgstr "Редактировать MAC-адреса для чёрных и белых списков"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 470
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/domains.volt, line: 76
+msgid "Edit domains for black and white lists"
+msgstr "Редактировать домены для чёрных и белых списков"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 435
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/dsts.volt, line: 76
+msgid "Edit destination IPs for black and white lists"
+msgstr "Редактировать IP-адреса для чёрных и белых списков"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 696
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/icaps.volt, line: 151
+msgid "Edit ICAP white and black lists"
+msgstr "Редактировать ICAP для чёрных и белых списков"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 540
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/mimes.volt, line: 76
+msgid "Edit mime types for black and white lists"
+msgstr "Редактировать MIME-типы для чёрных и белых списков"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 400
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/srcs.volt, line: 76
+msgid "Edit source IPs for black and white lists"
+msgstr "Редактировать IP-адреса источников для чёрных и белых списков"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 656
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/ssls.volt, line: 135
+msgid "Edit SSL Bump exclude list"
+msgstr "Редактировать списки исключения для SSL Bump"
+
+#
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/times.volt, line: 76
+msgid "Edit schedules interval for black and white lists"
+msgstr "Редактировать расписания для чёрных и белых списков"
+
+#
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/users.volt, line: 53
+msgid "Names"
+msgstr "Имена"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 330
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/users.volt, line: 80
+msgid "Edit users and groups for black and white lists"
+msgstr "Редактировать пользователей и группы для чёрных и белых списков"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 334
+msgid "MAC-addresses"
+msgstr "MAC-адреса"
+
+#
+# File: /usr/core/src/etc/inc/plugins.inc.d/core.inc, line: 104
+#, php-format
+msgid "Gateway Monitor (%s)"
+msgstr "Монитор шлюза (%s)"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 60
+msgid "The Base URL to Nextcloud. For example: https://cloud.example.com"
+msgstr "Базовый URL-адрес Nextcloud. Например: https://cloud.example.com"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 66
+msgid "User Name"
+msgstr "Имя пользователя"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 67
+msgid "The name you use for logging into your Nextcloud account"
+msgstr "Имя, используемое для входа в учетную запись Nextcloud"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 74
+msgid "The app password which has been generated for you"
+msgstr "Пароль приложения, который был сгенерирован для вас"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Backup/Nextcloud.php, line: 80
+msgid "Directory Name"
+msgstr "Название директории"
+
+#
+# File: /usr/core/src/www/diag_packet_capture.php, line: 385
+msgid ""
+"Matching can be negated by preceding the value with \"not\". Multiple IP "
+"addresses or CIDR subnets may be specified as boolean expression."
+msgstr ""
+"Соответствие может быть инвертировано, если перед значением стоит «not». "
+"В качестве логического выражения можно указать несколько IP-адресов или подсетей CIDR."
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 55
+msgid "Database repair in progress, daemon will start when done."
+msgstr "Восстановление базы данных в процессе, после окончаеия запустится демон."
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 128
+msgid ""
+"Do you really want to force a repair of the netflow data? This might take a "
+"while."
+msgstr ""
+"Вы действительно хотите принудительно восстановить данные netflow? Это может "
+"занять некоторое время."
+
+#
+# File: /usr/core/src/www/reporting_settings.php, line: 200
+msgid "Repair Netflow Data"
+msgstr "Восстановление Данных Netflow"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 397
+msgid "Monitoring daemon"
+msgstr "Демон мониторинга"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 400
+msgid "Prefer Dpinger over Apinger"
+msgstr "Использовать Dpinger вместо Apinger"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 402
+msgid ""
+"By default, the system will use Apinger for gateway monitoring. Switching "
+"from one to the other will result in the loss of any existing quality RRD "
+"data."
+msgstr ""
+"По умолчанию система использует Apinger для мониторинга шлюза. Переключение "
+"с одного на другой приведет к потере любых существующих данных RRD."
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 444
+msgid ""
+"Using policy routing in the packet filter rules causes packets to skip "
+"processing for the traffic shaper and captive portal tasks. Using this "
+"option enables the sharing of such forwarding decisions between all "
+"components to accomodate complex setups."
+msgstr ""
+"Использование политики маршрутизации в правилах фильтрации пакетов приводит "
+"к пропуску обработки пакетов для задач ограничения скорости трафика и captive portal. "
+"Использование этого параметра позволяет совместно использовать такие решения "
+"пересылки между всеми компонентами для выполнения сложных настроек."
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 633
+msgid ""
+"Maximum number of table entries for systems such as aliases, sshlockout, "
+"bogons, etc, combined."
+msgstr ""
+"Максимальное количество записей в таблице для систем, таких как псевдонимы, "
+"sshlockout, bogons и т. д., вместе взятых."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 159
+#, php-format
+msgid "The IPv6 gateway address \"%s\" cannot be used as an IPv4 gateway."
+msgstr "Адрес шлюза IPv6 «%s» не может использоваться в качестве шлюза IPv4."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 162
+#, php-format
+msgid "The IPv4 gateway address \"%s\" can not be used as an IPv6 gateway."
+msgstr "Адрес шлюза IPv4 «%s» не может использоваться в качестве шлюза IPv6."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 168
+#, php-format
+msgid "The IPv6 monitor address \"%s\" can not be used on an IPv4 gateway."
+msgstr "Адрес монитора IPv6 «%s» не может использоваться на шлюзе IPv4."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 171
+#, php-format
+msgid "The IPv4 monitor address \"%s\" can not be used on an IPv6 gateway."
+msgstr "Адрес монитора IPv4 «%s» не может использоваться на шлюзе IPv6."
+
+#
+# File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 51
+msgid ""
+"Your password does not match the selected security policies. Please provide "
+"a new one."
+msgstr ""
+"Пароль не соответствует выбранным политикам безопасности. Пожалуйста, введите "
+"новый."
+
+#
+# File: /usr/core/src/www/vpn_openvpn_server.php, line: 281
+msgid "Client management port"
+msgstr "Порт управления клиентом"
+
+#
+# File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 183
+msgid "log entries"
+msgstr "запись журнала"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 331
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 366
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 401
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 436
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 471
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 506
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 541
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 578
+msgid "The list can be used in rules."
+msgstr "Список может использоваться в правилах."
+

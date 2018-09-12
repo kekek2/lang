@@ -227,7 +227,7 @@ msgstr "Ошибка соединения с "
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/UpdatesController.php, line: 82
 msgid " upgraded: "
-msgstr "обновлено: "
+msgstr " обновлено: "
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 250
 msgid "error"

@@ -1490,7 +1490,7 @@ msgstr "Краткое описание FTP-прокси"
 
 # File: /usr/lang/src/controllers.php, line: 167
 msgid "Cipher"
-msgstr "Шифр"
+msgstr "Шифрование"
 
 # File: /usr/lang/src/controllers.php, line: 172
 msgid ""

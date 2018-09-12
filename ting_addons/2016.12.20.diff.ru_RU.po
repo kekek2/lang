@@ -400,7 +400,7 @@ msgstr ""
 msgid ""
 "You must fill in both 'Maximum Download Speed' and 'Maximum Upload Speed' "
 msgstr ""
-"Вы должны указать значения полей «Максимальная скорость скачивания» и «Максимальная скорость загрузки»"
+"Вы должны указать значения полей «Максимальная скорость загрузки» и «Максимальная скорость передачи»"
 
 # File: /usr/core/src/www/services_unbound_domainoverride_edit.php, line: 140
 msgid ""
