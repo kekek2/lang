@@ -30590,18 +30590,6 @@ msgid "Users and groups"
 msgstr "Пользователи и группы"
 
 #
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 331
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 366
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 401
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 436
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 471
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 506
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 541
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 578
-msgid "The list can be used in rules."
-msgstr ""
-
-#
 # File: /usr/plugins/www/c-icap/src/etc/inc/plugins.inc.d/cicap.inc, line: 37
 msgid "C-ICAP server"
 msgstr "Сервер C-ICAP"
@@ -53995,6 +53983,161 @@ msgstr "Выберите опцию: "
 # File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 578
 msgid "The list can be used in rules."
 msgstr "Список может использоваться в правилах."
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 39
+msgid "users"
+msgstr "пользователи"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 38
+msgid "seconds/%"
+msgstr "секунды/%s"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 37
+msgid "[U]tilization ,  [#]Number"
+msgstr "[З]агрузка ,  [#]Номер"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 36
+msgid "System Information - VPN Users "
+msgstr "Системная информация - пользователи VPN"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 35
+msgid "System Information - Traffic "
+msgstr "Системная информация - Траффик"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 34
+msgid "System Information - Quality "
+msgstr "Системная информация - Качество"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 33
+msgid "System Information - Packets "
+msgstr "Системная информация - Пакеты"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 32
+msgid "Packets/Second"
+msgstr "Пакеты/секунду"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 31
+msgid "Bytes/Second"
+msgstr "Байты/секунду"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 30
+msgid " System Information - Utilization and Processes"
+msgstr "Системная информация - Загрузка и процессы"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 39
+msgid "users"
+msgstr "пользователи"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 38
+msgid "seconds/%"
+msgstr "секунды/%s"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 37
+msgid "[U]tilization ,  [#]Number"
+msgstr "[З]агрузка ,  [#]Номер"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 36
+msgid "System Information - VPN Users "
+msgstr "Системная информация - пользователи VPN"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 35
+msgid "System Information - Traffic "
+msgstr "Системная информация - Траффик"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 34
+msgid "System Information - Quality "
+msgstr "Системная информация - Качество"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 33
+msgid "System Information - Packets "
+msgstr "Системная информация - Пакеты"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 32
+msgid "Packets/Second"
+msgstr "Пакеты/секунду"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 31
+msgid "Bytes/Second"
+msgstr "Байты/секунду"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 30
+msgid " System Information - Utilization and Processes"
+msgstr "Системная информация - Загрузка и процессы"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 54
+msgid "system"
+msgstr "система"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 55
+msgid "traffic"
+msgstr "трафик"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 56
+msgid "packets"
+msgstr "пакеты"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 57
+msgid "states"
+msgstr "состояния"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 58
+msgid "wireless"
+msgstr "беспроводная сеть"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 59
+msgid "processor"
+msgstr "процессор"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 60
+msgid "memory"
+msgstr "память"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 61
+msgid "cellular"
+msgstr "мобильная сеть"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 62
+msgid "vpnusers"
+msgstr "полдьзователи VPN"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 63
+msgid "cputemp"
+msgstr "температура процессора"
+
+#
+# File: /usr/core/src/www/widgets/widgets/system_information.widget.php, line: 36
+msgid "System Information"
+msgstr "Системная информация"
 
 #
 # File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 183

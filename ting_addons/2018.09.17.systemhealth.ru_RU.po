@@ -1,0 +1,101 @@
+#
+# File: /usr/lang/src/systemhealth.php, line: 39
+msgid "users"
+msgstr "пользователи"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 38
+msgid "seconds/%"
+msgstr "секунды/%s"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 37
+msgid "[U]tilization ,  [#]Number"
+msgstr "[З]агрузка ,  [#]Номер"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 36
+msgid "System Information - VPN Users "
+msgstr "Системная информация - пользователи VPN"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 35
+msgid "System Information - Traffic "
+msgstr "Системная информация - Траффик"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 34
+msgid "System Information - Quality "
+msgstr "Системная информация - Качество"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 33
+msgid "System Information - Packets "
+msgstr "Системная информация - Пакеты"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 32
+msgid "Packets/Second"
+msgstr "Пакеты/секунду"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 31
+msgid "Bytes/Second"
+msgstr "Байты/секунду"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 30
+msgid " System Information - Utilization and Processes"
+msgstr "Системная информация - Загрузка и процессы"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 54
+msgid "system"
+msgstr "система"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 55
+msgid "traffic"
+msgstr "трафик"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 56
+msgid "packets"
+msgstr "пакеты"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 57
+msgid "states"
+msgstr "состояния"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 58
+msgid "wireless"
+msgstr "беспроводная сеть"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 59
+msgid "processor"
+msgstr "процессор"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 60
+msgid "memory"
+msgstr "память"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 61
+msgid "cellular"
+msgstr "мобильная сеть"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 62
+msgid "vpnusers"
+msgstr "полдьзователи VPN"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 63
+msgid "cputemp"
+msgstr "температура процессора"
+
+

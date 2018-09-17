@@ -1661,3 +1661,8 @@ msgstr "запись журнала"
 msgid "The list can be used in rules."
 msgstr "Список может использоваться в правилах."
 
+#
+# File: /usr/core/src/www/widgets/widgets/system_information.widget.php, line: 36
+msgid "System Information"
+msgstr "Системная информация"
+
