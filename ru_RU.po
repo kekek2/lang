@@ -714,7 +714,7 @@ msgstr ""
 #
 # File: /usr/lang/src/wizards.php, line: 235
 msgid "Set Root Password"
-msgstr ""
+msgstr "Ввод пароля администратора"
 
 #
 # File: /usr/lang/src/wizards.php, line: 237
@@ -774,12 +774,12 @@ msgstr "SSL  - зашифрованный"
 #
 # File: /usr/lang/src/wizards.php, line: 224
 msgid "Root Password Confirmation"
-msgstr ""
+msgstr "Подтверждение пароля администратора"
 
 #
 # File: /usr/lang/src/wizards.php, line: 223
 msgid "Root Password"
-msgstr ""
+msgstr "Пароль алминистратора"
 
 #
 # File: /usr/lang/src/wizards.php, line: 256
@@ -1171,9 +1171,9 @@ msgid ""
 "MTU value in most all cases."
 msgstr ""
 "Если Вы введёте значение в это поле, то MSS clamping для TCP соединений "
-"будет будет равно введённому значению минус 40 (размер заголовка TCP/IP). "
+"будет равно введённому значению минус 40 (размер заголовка TCP/IP). "
 "Если Вы оставите это поле пустым, MSS будет равно 1492 байт для PPPoE и 1500 "
-"байт длявсех остальных типов соединений. Это должно подхить для значений MTU "
+"байт для всех остальных типов соединений. Это должно подходить для значений MTU "
 "в большинстве случаев."
 
 #
@@ -1190,7 +1190,7 @@ msgid ""
 "this feature."
 msgstr ""
 "Если никакие квалификационные исходящие пакеты не переданы на заданное "
-"количество секунд, соединение передано. Простаивающий нулевой тайм-аут "
+"количество секунд, соединение прервано. Простаивающий нулевой тайм-аут "
 "отключает этот компонент."
 
 #
@@ -1369,7 +1369,7 @@ msgstr "Разрешить аутентификацию TLS пакетов."
 #
 # File: /usr/lang/src/wizards.php, line: 117
 msgid "Enable Resolver"
-msgstr ""
+msgstr "Включить распознаватель"
 
 #
 # File: /usr/lang/src/wizards.php, line: 120
@@ -1674,7 +1674,7 @@ msgstr "Разрешить соединения между клиентами, �
 #
 # File: /usr/lang/src/wizards.php, line: 90
 msgid "Allow DNS servers to be overridden by DHCP/PPP on WAN"
-msgstr "Разрешить переопделение DNS серверов настройками DHCP/PPP на WAN"
+msgstr "Разрешить переопределение DNS серверов настройками DHCP/PPP на WAN"
 
 #
 # File: /usr/lang/src/wizards.php, line: 86
@@ -1835,6 +1835,56 @@ msgid "(leave empty for none)"
 msgstr "(можете оставить пустым)"
 
 #
+# File: /usr/lang/src/systemhealth.php, line: 39
+msgid "users"
+msgstr "пользователи"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 38
+msgid "seconds/%"
+msgstr "секунды/%s"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 37
+msgid "[U]tilization ,  [#]Number"
+msgstr "[З]агрузка ,  [#]Номер"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 36
+msgid "System Information - VPN Users "
+msgstr "Системная информация - пользователи VPN"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 35
+msgid "System Information - Traffic "
+msgstr "Системная информация - Траффик"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 34
+msgid "System Information - Quality "
+msgstr "Системная информация - Качество"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 33
+msgid "System Information - Packets "
+msgstr "Системная информация - Пакеты"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 32
+msgid "Packets/Second"
+msgstr "Пакеты/секунду"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 31
+msgid "Bytes/Second"
+msgstr "Байты/секунду"
+
+#
+# File: /usr/lang/src/systemhealth.php, line: 30
+msgid " System Information - Utilization and Processes"
+msgstr "Системная информация - Загрузка и процессы"
+
+#
 # File: /usr/lang/src/plugin_descr.php, line: 773
 msgid ""
 "c-icap connects the web proxy with a virus scanner\n"
@@ -1953,6 +2003,7 @@ msgid ""
 "When VPN users internet traffic goes through web-proxy,\n"
 "you can enable transparent VPN-users authentication on proxy\n"
 "using VPN session data.\n"
+"\n"
 "Maintainer: evbevz@gmail.com"
 msgstr ""
 "Средство проверки подлинности на Прокси-сервере для VPN-пользователей\n"
@@ -2153,7 +2204,7 @@ msgstr ""
 "Tinc VPN\n"
 "\n"
 "tinc это демон Виртуальной Частной сети (VPN), который использует "
-"туннелирование ишифрование для создания безопасной частной сети между "
+"туннелирование и шифрование для создания безопасной частной сети между "
 "хостами в Интернете.\n"
 "\n"
 "Поскольку на уровне IP туннель представляет из себя обычное сетевое "
@@ -2280,7 +2331,7 @@ msgstr ""
 "и Unix, который включает в себя демоны протоколв BGP, IS-IS, LDP, OSPF, PIM "
 "и RIP.\n"
 "\n"
-"ФПП-это бесшовная интеграция с родным стэком IP сетей Linux/Unix, позволяет\n"
+"FRR-это бесшовная интеграция с родным стэком IP сетей Linux/Unix, позволяет\n"
 "применять для широкого спектра задач, включая подключения хостов/виртуальных "
 "машин/контейнеров\n"
 "к сети, расширенная сеть, сервисы, сети коммутации и маршрутизации, Интернет-"
@@ -2331,7 +2382,7 @@ msgid ""
 msgstr ""
 "Просмотрщик логов прокси-сервера, основанный на SQLite\n"
 "\n"
-"Плпгин собирает данные пользовательских щапросов из логов прокси-сервера\n"
+"Плагин собирает данные пользовательских запросов из логов прокси-сервера\n"
 "в базу данных и позволяет строить отчёты по доступу в интернет по различным\n"
 "условиям: время, пользователь, IP, домен, URLs.\n"
 "\n"
@@ -2832,7 +2883,7 @@ msgstr ""
 "файлов, директорий, устройств и сетевых сервисов в Unix системах.\n"
 "Monit руководит автоматической поддержкой и восстановлениеми может "
 "выполнять\n"
-"произвольные действия впри обнаружении ошибок.\n"
+"произвольные действия при обнаружении ошибок.\n"
 "\n"
 "WWW: http://mmonit.com/monit/\n"
 "\n"
@@ -3098,7 +3149,7 @@ msgstr ""
 "возможно\n"
 "как распознавать известные протоколы на нестандартном порту (например,\n"
 "http на порту, отличном от 80), так и наоборот\n"
-"(т.е. определить трафик Skype на порту 80). Это потому что в наши дня\n"
+"(т.е. определить трафик Skype на порту 80). Это потому что в наши дни\n"
 "концепция порт=приложение более не поддерживается.\n"
 "\n"
 "Сопровождение: evbevz@gmail.com"
@@ -3265,7 +3316,7 @@ msgstr ""
 "(Single Sign On) для пользователей\n"
 "домена. В этом режиме пользователь аутентифицируется единожды, при входе в "
 "домен\n"
-"и далее, при аутентификации на прокси-сервере, дщпшт и пароль\n"
+"и далее, при аутентификации на прокси-сервере, login и пароль\n"
 "не запрашиваются.\n"
 "\n"
 "Сопровождение: evbevz@gmail.com"
@@ -5263,7 +5314,7 @@ msgstr "Ограничитель трафика"
 #
 # File: /usr/lang/src/models.php, line: 698
 msgid "Traffic"
-msgstr ""
+msgstr "Трафик"
 
 #
 # File: /usr/lang/src/models.php, line: 358
@@ -7146,10 +7197,6 @@ msgid "Local Monit Port needs to be an integer value between 0 and 65535"
 msgstr ""
 "Локальный порт Monit должен быть целочисленным значением между 0 и 65535"
 
-# File: src/www/status_graph.php, line: 147
-msgid "Local"
-msgstr "Локальный"
-
 # File: lang/dynamic/helpers/models.php, line: 40
 # File: src/www/status.php, line: 188
 msgid "Lobby"
@@ -8125,6 +8172,11 @@ msgstr "Переопределение значений для конкретн�
 # File: lang/dynamic/helpers/models.php, line: 284
 msgid "Client Export"
 msgstr "Экспорт настроек клиента"
+
+#
+# File: /usr/lang/src/models.php, line: 134
+msgid "Client"
+msgstr ""
 
 #
 # File: /usr/lang/src/models.php, line: 68
@@ -10250,7 +10302,8 @@ msgid ""
 "This will activate the ShadowSocks Server. This lets people around the world "
 "connect via ss-local to your server."
 msgstr ""
-"Включить сервер ShadowSocks. Позволяет принимать удаленные подключения shadowsocks."
+"Включить сервер ShadowSocks. Позволяет принимать удаленные подключения "
+"shadowsocks."
 
 #
 # File: /usr/lang/src/controllers.php, line: 2082
@@ -10258,7 +10311,8 @@ msgid ""
 "This will activate the ShadowSocks Local instance. This lets you tunnel your "
 "application to a public ShadowSocks server."
 msgstr ""
-"Включить клиент Shadowsocks. Обеспечивает socks5 прокси подключение к удаленному серверу Shadowshocks."
+"Включить клиент Shadowsocks. Обеспечивает socks5 прокси подключение к "
+"удаленному серверу Shadowshocks."
 
 #
 # File: /usr/lang/src/controllers.php, line: 1950
@@ -17488,9 +17542,9 @@ msgid ""
 msgstr ""
 "Если вы включите эту опцию, каждая запись в Recipients будет проверяться. "
 "Если совпадений нет, Почта будет отклонена. Имейте в виду, что это не имеет "
-"значения, если действие «OK» или «REJECT». Эта настройка позволяет "
-"запускать postfix перед внутренней системой и уже отклонять нежелательную почту "
-"на границе."
+"значения, если действие «OK» или «REJECT». Эта настройка позволяет запускать "
+"postfix перед внутренней системой и уже отклонять нежелательную почту на "
+"границе."
 
 # File: /usr/lang/src/controllers.php, line: 133
 msgid ""
@@ -17778,7 +17832,9 @@ msgstr "IP-адреса или номер порта IP удаленных syslo
 #
 # File: /usr/lang/src/controllers.php, line: 1001
 msgid "IP address to listen to, this should be your LAN IP address."
-msgstr "IP адрес, на котором принимаются socks5 подключения от клиентов (чаще всего IP адрес локальной сети)"
+msgstr ""
+"IP адрес, на котором принимаются socks5 подключения от клиентов (чаще всего "
+"IP адрес локальной сети)"
 
 #
 # File: /usr/lang/src/controllers.php, line: 919
@@ -20612,9 +20668,9 @@ msgid ""
 msgstr ""
 "Создание динамического канала по адресу источника или назначения.\n"
 "        <li>Выберите назначение, чтобы дать каждому IP в поле назначения "
-"правил указанную пропускную способность. Труба с 1Mbit например позволила бы "
-"3 клиентам занимая 1Mbit каждое настолько, чтобы занрузить 3mbit "
-"максимальное. Обычно это используется для труб входящего трафика.</li>\n"
+"правил указанную пропускную способность. Труба с 1Mbit, например, позволит "
+"3 клиентам занимать 1Mbit каждая настолько, чтобы занрузить 3mbit "
+"максимально. Обычно это используется для труб входящего трафика.</li>\n"
 "        <li>Выберите источник, чтобы предоставить каждому IP в поле источник "
 "правил указанную пропускную способность. Обычно это используется для труб "
 "входящего трафика.</li>\n"
@@ -21674,7 +21730,7 @@ msgid ""
 "system_gateways_edit.php\">add a new one</a>."
 msgstr ""
 "Выбрите, какой шлюз относится к этому маршруту или <а href=\"/"
-"system_gateways_edit.php\">добавьте новый< / a>."
+"system_gateways_edit.php\">добавьте новый</a>."
 
 #
 # File: /usr/lang/src/controllers.php, line: 359
@@ -24118,7 +24174,7 @@ msgstr "Контрольные суммы UDP"
 #
 # File: /usr/lang/src/config.php, line: 79
 msgid "TCP Offload Engine"
-msgstr "TCP Offload Engine"
+msgstr "Разгрузка контрольной суммы TCP"
 
 #
 # File: /usr/lang/src/config.php, line: 78
@@ -24145,7 +24201,7 @@ msgstr ""
 #
 # File: /usr/lang/src/config.php, line: 75
 msgid "Set the ephemeral port range to be lower."
-msgstr "Установка диапазона временных портов ниже."
+msgstr "Установка диапазона временных портов далее."
 
 #
 # File: /usr/lang/src/config.php, line: 74
@@ -25491,10 +25547,700 @@ msgstr "AJAX: Статистика"
 msgid "AJAX: Get Service Providers"
 msgstr "AJAX: Сервис-провайдеры"
 
+# File: src/etc/inc/interfaces.inc, line: 2259
+#, php-format
+msgid ""
+"Interface specified for the virtual IP address %s does not exist. Skipping "
+"this VIP."
+msgstr ""
+"Интерфейс, которому присвоен виртуальный IP-адрес %s, не существует. "
+"Пропускаем это виртуальный IP-адрес."
+
+# File: src/www/diag_smart.php, line: 399
+msgid "Log type"
+msgstr "Тип журнала"
+
+# File: src/www/diag_smart.php, line: 352
+msgid "Conveyance (ATA Disks Only)"
+msgstr "Транспортировка (Только для ATA-дисков)"
+
+# File: src/www/diag_smart.php, line: 402
+msgid "Error"
+msgstr "Ошибка"
+
+# File: src/www/diag_smart.php, line: 350
+msgid "Short"
+msgstr "Сокращенный"
+
+# File: src/www/diag_smart.php, line: 403
+msgid "Self-test"
+msgstr "Самодиагностика"
+
+# File: src/www/diag_smart.php, line: 337
+msgid "Perform Self-tests"
+msgstr "Выполнить самодиагностику"
+
+# File: src/www/diag_smart.php, line: 304
+# File: src/www/diag_smart.php, line: 357
+# File: src/www/diag_smart.php, line: 408
+# File: src/www/diag_smart.php, line: 450
+msgid "Device: /dev/"
+msgstr "Устройство: /dev/"
+
+# File: src/www/diag_smart.php, line: 441
+msgid "Abort tests"
+msgstr "Прервать тесты"
+
+# File: src/www/diag_smart.php, line: 298
+msgid "Attributes"
+msgstr "Атрибуты"
+
+# File: src/www/diag_smart.php, line: 297
+msgid "SMART Capabilities"
+msgstr "Функции SMART"
+
+# File: src/www/diag_smart.php, line: 466
+msgid "Do you really want to abort the test?"
+msgstr "Вы действительно хотите прервать тест?"
+
+# File: src/www/diag_smart.php, line: 293
+msgid "Info type"
+msgstr "Информация о типе"
+
 #
-# File: /usr/core/src/etc/inc/interfaces.inc, line: 145
-msgid "Critical Applications (3)"
-msgstr "Критические приложения (3)"
+# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 308
+msgid "No SMART devices."
+msgstr "Нет устройства SMART"
+
+#
+# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 114
+msgid "Invalid log type, bailing."
+msgstr "Неверный тип журнала, отказ."
+
+#
+# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 103
+msgid "Invalid info type, bailing."
+msgstr "Неверный тип информации, отказ."
+
+# File: src/www/diag_smart.php, line: 485
+msgid "Back"
+msgstr "Назад"
+
+#
+# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 86
+msgid "Invalid test type, bailing."
+msgstr "Недопустимый тип теста, отказ."
+
+#
+# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 77
+msgid "Device does not exist, bailing."
+msgstr "Устройства не существует, отказ."
+
+#
+# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 66
+msgid "WARNING"
+msgstr "ПРЕДУПРЕЖДЕНИЕ"
+
+# File: src/www/diag_smart.php, line: 69
+msgid "FAILED"
+msgstr "НЕУДАЧНО"
+
+# File: src/www/diag_smart.php, line: 68
+msgid "PASSED"
+msgstr "УДАЧНО"
+
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 88
+msgid "Rules Stats"
+msgstr "Статистика правил"
+
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 182
+msgid "Packet with size 128 - 256 bytes"
+msgstr "Пакет с размером 128–256 байт"
+
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 126
+msgid "Node configuration not found."
+msgstr "Файл конфигурации узла не найден."
+
+# File: src/www/widgets/widgets/smart_status.widget.php, line: 38
+msgid "Drive"
+msgstr "Диск"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/info.volt, line: 67
+msgid "Onion Service Name"
+msgstr "Имя луковичной службы"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/info.volt, line: 59
+msgid "Onion Service Names"
+msgstr "Имена луковичной службы"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 296
+msgid "Edit Hidden Service Credentials"
+msgstr "Редактировать скрытые учетные данных службы"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 259
+msgid "Edit Exit Node ACL"
+msgstr "Редактировать ACL узла выхода"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 294
+msgid "Edit Onion Service Route"
+msgstr "Редактировать маршрутизацию луковичной службы"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 293
+msgid "Edit Onion Service"
+msgstr "Редактировать луковичную службу"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 256
+msgid "Edit ACL Entry"
+msgstr "Редактировать запись ACL"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 225
+msgid ""
+"Running an exit node may be lead to legal issues and seized hardware. Be "
+"careful with your settings here."
+msgstr ""
+"Запуск узла выхода может привести к юридическим проблемам и конфискации "
+"оборудования. Будьте осторожны с вашими настройки."
+
+# File: src/www/widgets/widgets/smart_status.widget.php, line: 39
+msgid "Ident"
+msgstr "Идентификатор"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 158
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 182
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 209
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 248
+msgid "Reload Service"
+msgstr "Перезапустить службу"
+
+# File: lang/dynamic/helpers/models.php, line: 98
+# File: src/www/widgets/widgets/smart_status.widget.php, line: 40
+msgid "SMART Status"
+msgstr "Статус SMART"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 127
+msgid "Exit Node ACL"
+msgstr "ACL узла выхода"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 126
+msgid "Relaying"
+msgstr "Ретрансляция"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 136
+msgid "Onion Service Routing"
+msgstr "Маршрутизация луковичной службы"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 135
+msgid "Onion Services"
+msgstr "Луковичная служба"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 123
+msgid "SOCKS Proxy ACL"
+msgstr "SOCKS Proxy ACL"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 133
+msgid "Onion Service Authentication"
+msgstr "Проверка подлинности луковичной службы"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/error.volt, line: 31
+msgid ""
+"This page is not available because Tor is not running or the control socket "
+"is not configured. Please go to the %sconfiguration page%s and enable Tor."
+msgstr ""
+"Эта страница недоступна, потому что Тор не работает или управляющий сокет не "
+"настроен."
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/controllers/SmartSoft/NetPolice/Api/AclController.php, line: 289
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 275
+msgid "LDAP user name is not specified"
+msgstr "Не указано имя пользователя LDAP"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/controllers/SmartSoft/NetPolice/Api/AclController.php, line: 292
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 278
+msgid "LDAP user password is not specified"
+msgstr "Не указан парль пользователя LDAP"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 365
+msgid "Error connecting to LDAP server"
+msgstr "Ошибка подключения к LDAP серверу"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 381
+#, php-format
+msgid "The %s %s does not exist"
+msgstr "%s %s не существует"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 102
+msgid "Destination Host"
+msgstr "Хост назначения"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 101
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 113
+msgid "Circuit ID"
+msgstr "ID цепи"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 100
+msgid "Stream Status"
+msgstr "Состояние потока"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 99
+msgid "Stream ID"
+msgstr "ID потока"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 91
+msgid "Circuits"
+msgstr "Цепи"
+
+#
+# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 90
+msgid "Streams"
+msgstr "Потоки"
+
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 130
+msgid "IP bytes"
+msgstr "IP-байт"
+
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 142
+msgid "TCP packets"
+msgstr "TCP-пакеты"
+
+#
+# File: /usr/plugins/security/clamav/src/www/diag_logs_clamav.php, line: 14
+msgid "Freshclam"
+msgstr "Freshclam"
+
+#
+# File: /usr/plugins/security/clamav/src/www/diag_logs_clamav.php, line: 13
+msgid "Clamd"
+msgstr "Clamd"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 505
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/agents.volt, line: 76
+msgid "Edit Browser/user-agents for black and white lists"
+msgstr "Редактировать Browser/user-agents для чёрных и белых списков"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 365
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/arps.volt, line: 76
+msgid "Edit MAC addresses for black and white lists"
+msgstr "Редактировать MAC-адреса для чёрных и белых списков"
+
+#
+# File: /usr/plugins/security/clamav/src/opnsense/mvc/app/views/OPNsense/ClamAV/general.volt, line: 32
+msgid ""
+"No signature database found, please download before use. The download will "
+"take several minutes and this message will disappear when it has been "
+"completed."
+msgstr ""
+"База данных сигнатур не найдена, пожалуйста, скачайте перед использованием. "
+"Загрузка займет несколько минут и это сообщение исчезнет, когда оно "
+"закончится."
+
+#
+# File: /usr/plugins/security/clamav/src/opnsense/mvc/app/views/OPNsense/ClamAV/general.volt, line: 31
+msgid "Download signatures"
+msgstr "Скачать сигнатуры"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 470
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/domains.volt, line: 76
+msgid "Edit domains for black and white lists"
+msgstr "Редактировать домены для чёрных и белых списков"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 435
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/dsts.volt, line: 76
+msgid "Edit destination IPs for black and white lists"
+msgstr "Редактировать IP-адреса для чёрных и белых списков"
+
+#
+# File: /usr/plugins/security/clamav/src/etc/inc/plugins.inc.d/clamav.inc, line: 50
+msgid "freshclam daemon"
+msgstr "демон freshclam"
+
+#
+# File: /usr/plugins/security/clamav/src/etc/inc/plugins.inc.d/clamav.inc, line: 37
+msgid "ClamAV Daemon"
+msgstr "Демон ClamAV"
+
+#
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 57
+msgid "Block client"
+msgstr "Заблокировать клиента"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 285
+msgid ""
+"Unable to retrieve Zerotier peer information. Is the service enabled and is "
+"there internet connectivity?"
+msgstr ""
+"Не удалось получить информацию об узле Zerotier. Включена ли служба и есть "
+"ли подключение к интернету?"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 248
+msgid "trustedPathId"
+msgstr "доверенный идентификатор пути"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 247
+msgid "preferred"
+msgstr "привилегированный"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 246
+msgid "linkQuality"
+msgstr "качество связи"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 245
+msgid "lastSend"
+msgstr "последняя отправка"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 244
+msgid "lastReceive"
+msgstr "последний приём"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 243
+msgid "expired"
+msgstr "просрочено"
+
+#
+# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/views/SmartSoft/NetPolice/index.volt, line: 230
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 127
+msgid "Edit user/group white and black lists"
+msgstr "Редактировать списки доступа для пользователей и групп"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 241
+msgid "active"
+msgstr "активный"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 214
+msgid "Peer"
+msgstr "Пир"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 196
+msgid ""
+"Unable to retrieve Zerotier network information. Is the service enabled, do "
+"you have enabled networks and is there internet connectivity?"
+msgstr ""
+"Не удается получить сведения о сети Zerotier. Включена ли служба, включены "
+"ли сети и есть ли подключение к интернету?"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 180
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 268
+msgid "No routes currently defined."
+msgstr "В настоящее время маршруты не определены."
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 165
+msgid "flags"
+msgstr "флаги"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 164
+msgid "metric"
+msgstr "метрики"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 163
+msgid "via"
+msgstr "через"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 155
+msgid "No addresses currently defined."
+msgstr "Адреса в настоящее время не определены."
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 143
+msgid "Addresses"
+msgstr "Адреса"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 696
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/icaps.volt, line: 151
+msgid "Edit ICAP white and black lists"
+msgstr "Редактировать ICAP для чёрных и белых списков"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 99
+msgid ""
+"Unable to retrieve Zerotier information. Is the service enabled and is there "
+"internet connectivity?"
+msgstr ""
+"Не удается получить информацию от Zerotier. Включена ли служба и есть ли "
+"подключение к интернету?"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 83
+msgid "softwareUpdateChannel"
+msgstr "канал обновления ПО"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 82
+msgid "softwareUpdate"
+msgstr "обновление ПО"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 81
+msgid "primaryPort"
+msgstr "первичный порт"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 80
+msgid "portMappingEnabled"
+msgstr "разрешить сопоставление портов"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 79
+msgid "settings"
+msgstr "настройки"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 75
+msgid "physical"
+msgstr "физический"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 49
+msgid "Peers"
+msgstr "Пиры"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 105
+msgid "Edit Zerotier Network"
+msgstr "Редактировать сеть Zerotier"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 80
+msgid "Network Id"
+msgstr "Идентификатор сети"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 210
+msgid "Unable to obtain Zerotier information for network"
+msgstr "Не удается получить Zerotier информацию для сети"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 210
+msgid "Is the network enabled?"
+msgstr "Включена ли сеть?"
+
+#
+# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 81
+msgid "Information on network"
+msgstr "Информация о сети"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/scripts/SmartSoft/CMSMaster/check_tunnels.php, line: 17
+msgid "No ssh tunnel for node "
+msgstr "Не установлен ssh-туннель с узлом "
+
+# File: src/www/status_upnp.php, line: 114
+msgid "all currently connected sessions"
+msgstr "все подключенные в данный момент сессии"
+
+# File: src/www/status_upnp.php, line: 81
+msgid "Int. Port"
+msgstr "Порт целого числа"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 540
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/mimes.volt, line: 76
+msgid "Edit mime types for black and white lists"
+msgstr "Редактировать MIME-типы для чёрных и белых списков"
+
+# File: src/www/status_upnp.php, line: 69
+msgid "UPnP is currently disabled."
+msgstr "UPnP отключен."
+
+# File: /usr/core/src/www/services_upnp.php, line: 343
+msgid "Set 4"
+msgstr "Установить значение этого параметра равным 4"
+
+# File: /usr/core/src/www/services_upnp.php, line: 334
+msgid "Set 3"
+msgstr "Установить значение этого параметра равным 3"
+
+# File: /usr/core/src/www/services_upnp.php, line: 325
+msgid "Set 2"
+msgstr "Установить значение этого параметра равным 2"
+
+# File: /usr/core/src/www/services_upnp.php, line: 320
+msgid "Example: allow 1024-65535 192.168.0.0/24 1024-65535"
+msgstr "Например: разрешить 1024-65535 192.168.0.0/24 1024-65535"
+
+# File: /usr/core/src/www/services_upnp.php, line: 319
+# File: /usr/core/src/www/services_upnp.php, line: 329
+# File: /usr/core/src/www/services_upnp.php, line: 338
+# File: /usr/core/src/www/services_upnp.php, line: 347
+msgid ""
+"Format: [allow or deny] [ext port or range] [int ipaddr or ipaddr/cdir] [int "
+"port or range]"
+msgstr ""
+"Формат: [allow or deny] [ext port or range] [int ipaddr or ipaddr/cdir] [int "
+"port or range]"
+
+# File: /usr/core/src/www/services_upnp.php, line: 315
+msgid "Set 1"
+msgstr "Установить значение этого параметра равным 1"
+
+# File: /usr/core/src/www/services_upnp.php, line: 310
+msgid "User specified permissions"
+msgstr "Пользовательские разрешения"
+
+# File: /usr/core/src/www/services_upnp.php, line: 295
+msgid "By default deny access to UPnP and NAT-PMP?"
+msgstr "Запретить доступ к UPnP и NAT-PMP по умолчанию?"
+
+# File: /usr/core/src/www/services_upnp.php, line: 291
+msgid "Default deny"
+msgstr "Запрет доступа по умолчанию"
+
+# File: /usr/core/src/www/services_upnp.php, line: 286
+msgid "Use system uptime instead of UPnP and NAT-PMP service uptime?"
+msgstr ""
+"Использовать время работы системы вместо времени работы службы UPnP и NAT-PNP"
+
+# File: /usr/core/src/www/services_upnp.php, line: 282
+msgid "Use system time"
+msgstr "Использовать время работы системы"
+
+#
+# File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 279
+msgid "Log packets handled by UPnP and NAT-PMP rules?"
+msgstr "Протоколировать пакеты, обработанные UPnP и NAT-PMP правилами?"
+
+# File: /usr/core/src/www/services_upnp.php, line: 273
+msgid "Log NAT-PMP"
+msgstr "Журналирование пакетов NAT-PMP"
+
+# File: /usr/core/src/www/services_upnp.php, line: 267
+msgid "Override WAN address"
+msgstr "Переопределить WAN-адрес"
+
+# File: /usr/core/src/www/services_upnp.php, line: 258
+msgid "Maximum Upload Speed"
+msgstr "Максимальная скорость передачи"
+
+# File: /usr/core/src/www/services_upnp.php, line: 253
+# File: /usr/core/src/www/services_upnp.php, line: 262
+msgid "(Kbits/second)"
+msgstr "(Кб/с)"
+
+# File: /usr/core/src/www/services_upnp.php, line: 249
+msgid "Maximum Download Speed"
+msgstr "Максимальная скорость загрузки"
+
+# File: /usr/core/src/www/services_upnp.php, line: 244
+msgid "You can select multiple interfaces here."
+msgstr "Вы можете выбрать несколько интерфейсов."
+
+# File: /usr/core/src/www/services_upnp.php, line: 233
+msgid "Localhost"
+msgstr "Локальный хост"
+
+# File: /usr/core/src/www/services_upnp.php, line: 229
+msgid "Interfaces (generally LAN)"
+msgstr "Интерфейсы (обычно LAN)"
+
+# File: /usr/core/src/www/services_upnp.php, line: 224
+msgid ""
+"Select only your primary WAN interface (interface with your default route). "
+"Only one interface is allowed here, not multiple."
+msgstr ""
+"Выберите только основной WAN-интерфейс (интерфейс с маршрутом по умолчанию). "
+"Здесь можно указать только один интерфейс."
+
+# File: /usr/core/src/www/services_upnp.php, line: 212
+msgid "External Interface"
+msgstr "Внешний интерфейс"
+
+# File: /usr/core/src/www/services_upnp.php, line: 207
+msgid "This protocol is often used by Apple-compatible systems."
+msgstr "Этот протокол часто используется Apple-совместимыми системами."
+
+# File: /usr/core/src/www/services_upnp.php, line: 203
+msgid "Allow NAT-PMP Port Mapping"
+msgstr "Разрешить преобразование портов NAT-PMP"
+
+# File: /usr/core/src/www/services_upnp.php, line: 198
+msgid "This protocol is often used by Microsoft-compatible systems."
+msgstr "Этот протокол часто используется Microsoft-совместимыми системами."
+
+# File: /usr/core/src/www/services_upnp.php, line: 194
+msgid "Allow UPnP Port Mapping"
+msgstr "Разрешить преобразование портов UPnP"
+
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 400
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/srcs.volt, line: 76
+msgid "Edit source IPs for black and white lists"
+msgstr "Редактировать IP-адреса источников для чёрных и белых списков"
+
+# File: /usr/core/src/www/services_upnp.php, line: 177
+msgid "UPnP and NAT-PMP Settings"
+msgstr "Настройки UPnP и NAT-PMP"
+
+#
+# File: /usr/core/src/www/services_upnp.php, line: 129
+#, php-format
+msgid ""
+"You must specify a valid ip address in the 'User specified permissions %s' "
+"field"
+msgstr ""
+"Вы должны указать действительный IP-адрес в поле «Полномочия указанного "
+"пользователя %s»"
+
+# File: src/www/services_upnp.php, line: 100
+#, php-format
+msgid ""
+"You must specify a port or port range between 0 and 65535 in the 'User "
+"specified permissions %s' field"
+msgstr ""
+"Вы должны указать номер порта или диапазон номеров от 0 до 65535 в поле "
+"«Полномочия указанного пользователя %s»"
+
+#
+# File: /usr/core/src/www/services_upnp.php, line: 121
+#, php-format
+msgid ""
+"You must begin with allow or deny in the 'User specified permissions %s' "
+"field"
+msgstr ""
+"Вы должны начать с параметров «разрешить/запретить» в поле «Разрешения для "
+"данного пользователя %s»"
 
 #
 # File: /usr/core/src/www/services_upnp.php, line: 117
@@ -25576,28 +26322,21 @@ msgstr "Редактировать интерфейс"
 msgid "Interface Name"
 msgstr "Имя интерфейса"
 
-# File: src/www/services_upnp.php, line: 100
-#, php-format
-msgid ""
-"You must specify a port or port range between 0 and 65535 in the 'User "
-"specified permissions %s' field"
-msgstr ""
-"Вы должны указать номер порта или диапазон номеров от 0 до 65535 в поле "
-"«Полномочия указанного пользователя %s»"
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 656
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/ssls.volt, line: 135
+msgid "Edit SSL Bump exclude list"
+msgstr "Редактировать списки исключения для SSL Bump"
 
 #
-# File: /usr/core/src/www/services_upnp.php, line: 129
-#, php-format
-msgid ""
-"You must specify a valid ip address in the 'User specified permissions %s' "
-"field"
-msgstr ""
-"Вы должны указать действительный IP-адрес в поле «Полномочия указанного "
-"пользователя %s»"
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/times.volt, line: 76
+msgid "Edit schedules interval for black and white lists"
+msgstr "Редактировать расписания для чёрных и белых списков"
 
-# File: /usr/core/src/www/services_upnp.php, line: 177
-msgid "UPnP and NAT-PMP Settings"
-msgstr "Настройки UPnP и NAT-PMP"
+#
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/users.volt, line: 53
+msgid "Names"
+msgstr "Имена"
 
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 313
@@ -25614,9 +26353,11 @@ msgstr "Точка-точка"
 msgid "Up"
 msgstr "Поднят"
 
-# File: /usr/core/src/www/services_upnp.php, line: 194
-msgid "Allow UPnP Port Mapping"
-msgstr "Разрешить преобразование портов UPnP"
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 330
+# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/users.volt, line: 80
+msgid "Edit users and groups for black and white lists"
+msgstr "Редактировать пользователей и группы для чёрных и белых списков"
 
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 303
@@ -25673,10 +26414,6 @@ msgstr "Область автономной системы (AS)"
 msgid "Interface Scoped Link Database"
 msgstr "База данных связей области интерфейса"
 
-# File: /usr/core/src/www/services_upnp.php, line: 198
-msgid "This protocol is often used by Microsoft-compatible systems."
-msgstr "Этот протокол часто используется Microsoft-совместимыми системами."
-
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 131
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 164
@@ -25696,10 +26433,6 @@ msgstr "Идентификатор состояния канала"
 msgid "Scoped Link Database"
 msgstr "База данных области видимости"
 
-# File: /usr/core/src/www/services_upnp.php, line: 203
-msgid "Allow NAT-PMP Port Mapping"
-msgstr "Разрешить преобразование портов NAT-PMP"
-
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 98
 msgid "Flags 2"
@@ -25709,10 +26442,6 @@ msgstr "Flags 2"
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 97
 msgid "Flags 1"
 msgstr "Flags 1"
-
-# File: /usr/core/src/www/services_upnp.php, line: 207
-msgid "This protocol is often used by Apple-compatible systems."
-msgstr "Этот протокол часто используется Apple-совместимыми системами."
 
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 80
@@ -25764,10 +26493,6 @@ msgstr "Процесс маршрутизации"
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 370
 msgid "Neighbor"
 msgstr "Сосед"
-
-# File: /usr/core/src/www/services_upnp.php, line: 212
-msgid "External Interface"
-msgstr "Внешний интерфейс"
 
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 410
@@ -25893,22 +26618,10 @@ msgstr "Интервал приветствия:"
 msgid "Dead Time"
 msgstr "Мёртвое время"
 
-# File: /usr/core/src/www/services_upnp.php, line: 224
-msgid ""
-"Select only your primary WAN interface (interface with your default route). "
-"Only one interface is allowed here, not multiple."
-msgstr ""
-"Выберите только основной WAN-интерфейс (интерфейс с маршрутом по умолчанию). "
-"Здесь можно указать только один интерфейс."
-
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 323
 msgid "Neighbor ID"
 msgstr "Иденитификатор соседа"
-
-# File: /usr/core/src/www/services_upnp.php, line: 229
-msgid "Interfaces (generally LAN)"
-msgstr "Интерфейсы (обычно LAN)"
 
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 293
@@ -25968,10 +26681,6 @@ msgstr "Счётчик соединений"
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospfv3.volt, line: 195
 msgid "Sequence Number"
 msgstr "Номер последовательности"
-
-# File: /usr/core/src/www/services_upnp.php, line: 233
-msgid "Localhost"
-msgstr "Локальный хост"
 
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 168
@@ -26042,10 +26751,6 @@ msgstr "Внешнее объявление о состоянии канала (
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 223
 msgid "Checksum"
 msgstr "Контрольная сумма"
-
-# File: /usr/core/src/www/services_upnp.php, line: 244
-msgid "You can select multiple interfaces here."
-msgstr "Вы можете выбрать несколько интерфейсов."
 
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsospf.volt, line: 85
@@ -26178,23 +26883,10 @@ msgstr "загрузка..."
 msgid "Summary"
 msgstr "Сводка"
 
-# File: /usr/core/src/www/services_upnp.php, line: 249
-msgid "Maximum Download Speed"
-msgstr "Максимальная скорость загрузки"
-
-# File: /usr/core/src/www/services_upnp.php, line: 253
-# File: /usr/core/src/www/services_upnp.php, line: 262
-msgid "(Kbits/second)"
-msgstr "(Кб/с)"
-
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 53
 msgid "LocPrf"
 msgstr "LocPrf"
-
-# File: /usr/core/src/www/services_upnp.php, line: 258
-msgid "Maximum Upload Speed"
-msgstr "Максимальная скорость передачи"
 
 #
 # File: /usr/plugins/net/quagga/src/opnsense/mvc/app/views/OPNsense/Quagga/diagnosticsbgp.volt, line: 51
@@ -26337,10 +27029,6 @@ msgstr ""
 "Не забудьте добавить правило межсетевого экрана, чтобы разрешить трафик от "
 "PPPoE клиентов."
 
-# File: /usr/core/src/www/services_upnp.php, line: 267
-msgid "Override WAN address"
-msgstr "Переопределить WAN-адрес"
-
 # File: src/www/vpn_pppoe_edit.php, line: 590
 msgid "User (s)"
 msgstr "Пользователь (-и)"
@@ -26380,10 +27068,6 @@ msgid ""
 msgstr ""
 "Если адреса указаны, они будут выданы всем PPPoE клиентам, в противном "
 "случае клиентам будут отправлены LAN DNS и один WAN DNS"
-
-# File: /usr/core/src/www/services_upnp.php, line: 273
-msgid "Log NAT-PMP"
-msgstr "Журналирование пакетов NAT-PMP"
 
 # File: /usr/plugins/net/pppoe/src/www/vpn_pppoe_edit.php, line: 350
 msgid "Hint: 24 is 255.255.255.0"
@@ -26440,11 +27124,6 @@ msgstr "редактировать экземпляр PPPoE"
 msgid "Number of users"
 msgstr "Количество пользователей"
 
-#
-# File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 279
-msgid "Log packets handled by UPnP and NAT-PMP rules?"
-msgstr "Протоколировать пакеты, обработанные UPnP и NAT-PMP правилами?"
-
 # File: src/www/vpn_pppoe.php, line: 102
 msgid "The PPPoE entry list has been changed"
 msgstr "Список записей PPPoE изменен"
@@ -26456,10 +27135,6 @@ msgid ""
 msgstr ""
 "Вы действительно хотите удалить эту запись? Все элементы, которые ее "
 "используют, станут недействительными (например, правила фильтрации)!"
-
-# File: /usr/core/src/www/services_upnp.php, line: 282
-msgid "Use system time"
-msgstr "Использовать время работы системы"
 
 # File: src/www/vpn_pppoe.php, line: 89
 msgid "add a new pppoe instance"
@@ -26622,11 +27297,6 @@ msgstr "Служба будет перезапущена после примен
 msgid "Used"
 msgstr "Использовано"
 
-# File: /usr/core/src/www/services_upnp.php, line: 286
-msgid "Use system uptime instead of UPnP and NAT-PMP service uptime?"
-msgstr ""
-"Использовать время работы системы вместо времени работы службы UPnP и NAT-PNP"
-
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 252
 msgid "Warnings Retr"
 msgstr "Warnings Retr"
@@ -26647,18 +27317,6 @@ msgstr "Resp"
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 247
 msgid "Denied Req"
 msgstr "Denied Req"
-
-# File: /usr/core/src/www/services_upnp.php, line: 291
-msgid "Default deny"
-msgstr "Запрет доступа по умолчанию"
-
-# File: /usr/core/src/www/services_upnp.php, line: 295
-msgid "By default deny access to UPnP and NAT-PMP?"
-msgstr "Запретить доступ к UPnP и NAT-PMP по умолчанию?"
-
-# File: /usr/core/src/www/services_upnp.php, line: 310
-msgid "User specified permissions"
-msgstr "Пользовательские разрешения"
 
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 238
 msgid "Session Rate"
@@ -26705,10 +27363,6 @@ msgstr "Прокси"
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 232
 msgid "id"
 msgstr "идентификатор"
-
-# File: /usr/core/src/www/services_upnp.php, line: 315
-msgid "Set 1"
-msgstr "Установить значение этого параметра равным 1"
 
 #
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/statistics.volt, line: 53
@@ -26803,17 +27457,6 @@ msgstr "Имя монитора работоспособности"
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 656
 msgid "Health Monitor ID"
 msgstr "ID монитора работоспособности"
-
-# File: /usr/core/src/www/services_upnp.php, line: 319
-# File: /usr/core/src/www/services_upnp.php, line: 329
-# File: /usr/core/src/www/services_upnp.php, line: 338
-# File: /usr/core/src/www/services_upnp.php, line: 347
-msgid ""
-"Format: [allow or deny] [ext port or range] [int ipaddr or ipaddr/cdir] [int "
-"port or range]"
-msgstr ""
-"Формат: [allow or deny] [ext port or range] [int ipaddr or ipaddr/cdir] [int "
-"port or range]"
 
 #
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 587
@@ -27064,14 +27707,6 @@ msgstr ""
 msgid "Quick Start Guide"
 msgstr "Краткое руководство"
 
-# File: /usr/core/src/www/services_upnp.php, line: 320
-msgid "Example: allow 1024-65535 192.168.0.0/24 1024-65535"
-msgstr "Например: разрешить 1024-65535 192.168.0.0/24 1024-65535"
-
-# File: /usr/core/src/www/services_upnp.php, line: 325
-msgid "Set 2"
-msgstr "Установить значение этого параметра равным 2"
-
 #
 # File: /usr/plugins/net/haproxy/src/opnsense/mvc/app/views/OPNsense/HAProxy/index.volt, line: 411
 msgid "Conditions"
@@ -27177,10 +27812,6 @@ msgstr "Интерфейс для отправки обновления"
 msgid "Vendor"
 msgstr "Производитель"
 
-# File: /usr/core/src/www/services_upnp.php, line: 334
-msgid "Set 3"
-msgstr "Установить значение этого параметра равным 3"
-
 #
 # File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 183
 msgid "Last update"
@@ -27190,18 +27821,6 @@ msgstr "Последнее обновление"
 # File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 182
 msgid "Started"
 msgstr "Запущено"
-
-# File: /usr/core/src/www/services_upnp.php, line: 343
-msgid "Set 4"
-msgstr "Установить значение этого параметра равным 4"
-
-# File: src/www/status_upnp.php, line: 69
-msgid "UPnP is currently disabled."
-msgstr "UPnP отключен."
-
-# File: src/www/status_upnp.php, line: 81
-msgid "Int. Port"
-msgstr "Порт целого числа"
 
 #
 # File: /usr/plugins/net/arp-scan/src/opnsense/mvc/app/views/OPNsense/ARPscanner/index.volt, line: 161
@@ -27264,7 +27883,7 @@ msgstr "Введите строку ловушки SNMP"
 # File: src/www/services_snmp.php, line: 393
 msgid "Enter the port to send the traps to (default 162)"
 msgstr ""
-"Введите порт, на который будет будут отправляться ловушки (по умолчанию: 162)"
+"Введите порт, на который будут отправляться ловушки (по умолчанию: 162)"
 
 # File: src/www/services_snmp.php, line: 385
 msgid "Enter trap server name"
@@ -27374,10 +27993,6 @@ msgstr "Ошибка конфигурации. Ссылка '%s' не найде
 msgid "successfull\n"
 msgstr "успешно\n"
 
-# File: src/www/status_upnp.php, line: 114
-msgid "all currently connected sessions"
-msgstr "все подключенные в данный момент сессии"
-
 #
 # File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/sender.volt, line: 110
 msgid "Edit Sender"
@@ -27402,11 +28017,6 @@ msgstr "Антиспам"
 # File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/domain.volt, line: 110
 msgid "Edit Domain"
 msgstr "Изменить домен"
-
-#
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/scripts/SmartSoft/CMSMaster/check_tunnels.php, line: 17
-msgid "No ssh tunnel for node "
-msgstr "Не установлен ssh-туннель с узлом "
 
 #
 # File: /usr/plugins/mail/postfix/src/opnsense/mvc/app/views/OPNsense/Postfix/domain.volt, line: 63
@@ -27608,11 +28218,6 @@ msgid "Service type"
 msgstr "Тип службы"
 
 #
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 81
-msgid "Information on network"
-msgstr "Информация о сети"
-
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 47
 msgid "%sResult %s%s"
 msgstr "%sРезультат %s%s"
@@ -27636,11 +28241,6 @@ msgstr "Сессия начата"
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 91
 msgid "Code expiration"
 msgstr "Код действителен до"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 210
-msgid "Is the network enabled?"
-msgstr "Включена ли сеть?"
 
 #
 # File: /usr/plugins/devel/ting-plugin-sms-portal/src/opnsense/mvc/app/views/SmartSoft/SMSPortal/index.volt, line: 88
@@ -27786,16 +28386,6 @@ msgid "Edit Schedules"
 msgstr "Редактировать расписания"
 
 #
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/controllers/OPNsense/Zerotier/Api/NetworkController.php, line: 210
-msgid "Unable to obtain Zerotier information for network"
-msgstr "Не удается получить Zerotier информацию для сети"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 80
-msgid "Network Id"
-msgstr "Идентификатор сети"
-
-#
 # File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/models/SmartSoft/NetPolice/NetPolice.php, line: 40
 msgid "Certificate for NetPolice plugin expired"
 msgstr "Срок действия сертификата для NetPolice истёк"
@@ -27823,11 +28413,6 @@ msgstr "Конфигурация сохранена."
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 232
 msgid "Flows"
 msgstr "Соединения"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/index.volt, line: 105
-msgid "Edit Zerotier Network"
-msgstr "Редактировать сеть Zerotier"
 
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 222
 msgid "Detected Protocols"
@@ -27861,9 +28446,9 @@ msgstr "Пакет с размером < 64 байт"
 msgid "Max packet size"
 msgstr "Максимальный размер пакета"
 
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 166
-msgid "Average packet size"
-msgstr "Средний размер пакета"
+# File: src/www/diag_smart.php, line: 390
+msgid "View Logs"
+msgstr "Просмотр журналов"
 
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 158
 msgid "PPPoE packets"
@@ -27918,11 +28503,6 @@ msgid "Unblock client"
 msgstr "Разблокировать клиента"
 
 #
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 49
-msgid "Peers"
-msgstr "Пиры"
-
-#
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/index.volt, line: 51
 msgid "Config saved: "
 msgstr "Конфиг сохранён: "
@@ -27935,31 +28515,6 @@ msgstr "Служба перезапущена: "
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/etc/inc/plugins.inc.d/ndpi.inc, line: 11
 msgid "Deep Packet Inspection Service"
 msgstr "Служба анализатора трафика"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 75
-msgid "physical"
-msgstr "физический"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 79
-msgid "settings"
-msgstr "настройки"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 80
-msgid "portMappingEnabled"
-msgstr "разрешить сопоставление портов"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 81
-msgid "primaryPort"
-msgstr "первичный порт"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 82
-msgid "softwareUpdate"
-msgstr "обновление ПО"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/updates.volt, line: 30
 msgid "Busy"
@@ -27980,20 +28535,6 @@ msgstr "Туннель"
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 209
 msgid "Cmsconfigversion"
 msgstr "Версия конфигурации"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 83
-msgid "softwareUpdateChannel"
-msgstr "канал обновления ПО"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 99
-msgid ""
-"Unable to retrieve Zerotier information. Is the service enabled and is there "
-"internet connectivity?"
-msgstr ""
-"Не удается получить информацию от Zerotier. Включена ли служба и есть ли "
-"подключение к интернету?"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 196
 msgid "Create tunnel keys"
@@ -28020,151 +28561,25 @@ msgstr "Недоверенный сертификат"
 msgid "Open logging tunnel"
 msgstr "Открыть туннель протоколирования"
 
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 79
-msgid "Revert config"
-msgstr "Восстановить конфигурацию"
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-20 15:12+0300\n"
+"PO-Revision-Date: 2017-01-09 09:17+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Pootle-Path: /ru/gui/ru.po\n"
+"X-Pootle-Revision: 0\n"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 56
 msgid "Config reverted"
 msgstr "Конфигурация восстановлена"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 143
-msgid "Addresses"
-msgstr "Адреса"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 155
-msgid "No addresses currently defined."
-msgstr "Адреса в настоящее время не определены."
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 163
-msgid "via"
-msgstr "через"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 164
-msgid "metric"
-msgstr "метрики"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 165
-msgid "flags"
-msgstr "флаги"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 180
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 268
-msgid "No routes currently defined."
-msgstr "В настоящее время маршруты не определены."
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 196
-msgid ""
-"Unable to retrieve Zerotier network information. Is the service enabled, do "
-"you have enabled networks and is there internet connectivity?"
-msgstr ""
-"Не удается получить сведения о сети Zerotier. Включена ли служба, включены "
-"ли сети и есть ли подключение к интернету?"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 214
-msgid "Peer"
-msgstr "Пир"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 241
-msgid "active"
-msgstr "активный"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 243
-msgid "expired"
-msgstr "просрочено"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 244
-msgid "lastReceive"
-msgstr "последний приём"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 245
-msgid "lastSend"
-msgstr "последняя отправка"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 246
-msgid "linkQuality"
-msgstr "качество связи"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 247
-msgid "preferred"
-msgstr "привилегированный"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 248
-msgid "trustedPathId"
-msgstr "доверенный идентификатор пути"
-
-#
-# File: /usr/plugins/net/zerotier/src/opnsense/mvc/app/views/OPNsense/Zerotier/overview.volt, line: 285
-msgid ""
-"Unable to retrieve Zerotier peer information. Is the service enabled and is "
-"there internet connectivity?"
-msgstr ""
-"Не удалось получить информацию об узле Zerotier. Включена ли служба и есть "
-"ли подключение к интернету?"
-
-#
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 57
-msgid "Block client"
-msgstr "Заблокировать клиента"
-
-#
-# File: /usr/plugins/security/clamav/src/etc/inc/plugins.inc.d/clamav.inc, line: 37
-msgid "ClamAV Daemon"
-msgstr "Демон ClamAV"
-
-#
-# File: /usr/plugins/security/clamav/src/etc/inc/plugins.inc.d/clamav.inc, line: 50
-msgid "freshclam daemon"
-msgstr "демон freshclam"
-
-#
-# File: /usr/plugins/security/clamav/src/opnsense/mvc/app/views/OPNsense/ClamAV/general.volt, line: 31
-msgid "Download signatures"
-msgstr "Скачать сигнатуры"
-
-#
-# File: /usr/plugins/security/clamav/src/opnsense/mvc/app/views/OPNsense/ClamAV/general.volt, line: 32
-msgid ""
-"No signature database found, please download before use. The download will "
-"take several minutes and this message will disappear when it has been "
-"completed."
-msgstr ""
-"База данных сигнатур не найдена, пожалуйста, скачайте перед использованием. "
-"Загрузка займет несколько минут и это сообщение исчезнет, когда оно "
-"закончится."
-
-#
-# File: /usr/plugins/security/clamav/src/www/diag_logs_clamav.php, line: 13
-msgid "Clamd"
-msgstr "Clamd"
-
-#
-# File: /usr/plugins/security/clamav/src/www/diag_logs_clamav.php, line: 14
-msgid "Freshclam"
-msgstr "Freshclam"
-
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 142
-msgid "TCP packets"
-msgstr "TCP-пакеты"
-
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 130
-msgid "IP bytes"
-msgstr "IP-байт"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/cloner.volt, line: 90
 msgid "Send selected section to nodes"
@@ -28183,21 +28598,6 @@ msgstr "Ошибка запроса"
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/index.volt, line: 111
 msgid "offline"
 msgstr "нет связи"
-
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 90
-msgid "Streams"
-msgstr "Потоки"
-
-#
-# File: /usr/core/src/www/services_upnp.php, line: 121
-#, php-format
-msgid ""
-"You must begin with allow or deny in the 'User specified permissions %s' "
-"field"
-msgstr ""
-"Вы должны начать с параметров «разрешить/запретить» в поле «Разрешения для "
-"данного пользователя %s»"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 392
 msgid "Error get update status"
@@ -28293,20 +28693,10 @@ msgstr ""
 "' из Система/Доверенные сертификаты/Сертификаты и установите их на узле"
 
 #
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 99
-msgid "Stream ID"
-msgstr "ID потока"
-
-#
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/SettingsController.php, line: 114
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Node.php, line: 88
 msgid "Not found certificate "
 msgstr "Не найден сертификат "
-
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 100
-msgid "Stream Status"
-msgstr "Состояние потока"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ServiceController.php, line: 82
 msgid "Can not open tunnel: "
@@ -28369,44 +28759,9 @@ msgstr "Antivirus Proxy"
 msgid "IPS/IDS"
 msgstr "IPS/IDS"
 
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 101
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 113
-msgid "Circuit ID"
-msgstr "ID цепи"
-
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 102
-msgid "Destination Host"
-msgstr "Хост назначения"
-
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/error.volt, line: 31
-msgid ""
-"This page is not available because Tor is not running or the control socket "
-"is not configured. Please go to the %sconfiguration page%s and enable Tor."
-msgstr ""
-"Эта страница недоступна, потому что Тор не работает или управляющий сокет не "
-"настроен."
-
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 32
 msgid "System Tunning Settings"
 msgstr "Настройка системы"
-
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 133
-msgid "Onion Service Authentication"
-msgstr "Проверка подлинности луковичной службы"
-
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 123
-msgid "SOCKS Proxy ACL"
-msgstr "SOCKS Proxy ACL"
-
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 135
-msgid "Onion Services"
-msgstr "Луковичная служба"
 
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 28
 msgid "Filter Rules"
@@ -28421,37 +28776,14 @@ msgid "Group of Users"
 msgstr "Группа пользователей"
 
 #
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 136
-msgid "Onion Service Routing"
-msgstr "Маршрутизация луковичной службы"
-
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 65
 msgid "Block Size"
 msgstr "Размер блока"
 
 #
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 126
-msgid "Relaying"
-msgstr "Ретрансляция"
-
-#
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 70
 msgid "Local Host"
 msgstr "Локальный хост"
-
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 127
-msgid "Exit Node ACL"
-msgstr "ACL узла выхода"
-
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 158
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 182
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 209
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 248
-msgid "Reload Service"
-msgstr "Перезапустить службу"
 
 #
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 78
@@ -28463,21 +28795,10 @@ msgstr "Всего локально"
 msgid "Host User"
 msgstr "Пользовательский локально"
 
-msgid ""
-msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-14 09:09+0300\n"
-"PO-Revision-Date: 2017-01-09 09:17+0300\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: ru\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Pootle-Path: /ru/gui/ru.po\n"
-"X-Pootle-Revision: 0\n"
+#
+# File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 80
+msgid "Host System"
+msgstr "Системный локально"
 
 #
 # File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 81
@@ -28799,15 +29120,6 @@ msgid "Signature databases deleted"
 msgstr "База сигнатур удалена"
 
 #
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 225
-msgid ""
-"Running an exit node may be lead to legal issues and seized hardware. Be "
-"careful with your settings here."
-msgstr ""
-"Запуск узла выхода может привести к юридическим проблемам и конфискации "
-"оборудования. Будьте осторожны с вашими настройки."
-
-#
 # File: /usr/plugins/devel/ting-plugin-kaspersky/src/opnsense/mvc/app/controllers/SmartSoft/Kaspersky/Api/ServiceController.php, line: 199
 #, php-format
 msgid "Invalid template name %s"
@@ -28893,11 +29205,6 @@ msgstr ""
 msgid "Progress output"
 msgstr "Ход выполнения"
 
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 256
-msgid "Edit ACL Entry"
-msgstr "Редактировать запись ACL"
-
 # File: /usr/plugins/devel/ting-plugin-cair/src/opnsense/mvc/app/controllers/SmartSoft/CAIR/Api/ServiceController.php, line: 34
 msgid "Error resolving name server"
 msgstr "Ошибка преобразования имени сервера"
@@ -28915,11 +29222,6 @@ msgstr "Глобальные настройки"
 # File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/views/SmartSoft/NetPolice/index.volt, line: 133
 msgid "Groups and users"
 msgstr "Группы и пользователи"
-
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 293
-msgid "Edit Onion Service"
-msgstr "Редактировать луковичную службу"
 
 # File: /usr/plugins/devel/ting-plugin-cair/src/opnsense/mvc/app/views/SmartSoft/CAIR/index.volt, line: 71
 msgid "Site category"
@@ -28963,11 +29265,6 @@ msgstr "Пустое имя учётной записи"
 # File: /usr/plugins/devel/ting-plugin-proxy-ntlm/src/opnsense/mvc/app/views/SmartSoft/ProxyNTLM/index.volt, line: 48
 msgid "A admin name is required"
 msgstr "Укажите имя учётной записи администратора."
-
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 294
-msgid "Edit Onion Service Route"
-msgstr "Редактировать маршрутизацию луковичной службы"
 
 #
 # File: /usr/plugins/devel/ting-plugin-proxy-ntlm/src/opnsense/mvc/app/views/SmartSoft/ProxyNTLM/index.volt, line: 62
@@ -29141,11 +29438,6 @@ msgid "Users IP"
 msgstr "IP-адрес пользователя"
 
 #
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 259
-msgid "Edit Exit Node ACL"
-msgstr "Редактировать ACL узла выхода"
-
-#
 # File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/squidlog.volt, line: 278
 # File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 268
 msgid "First visit"
@@ -29191,11 +29483,6 @@ msgid "Requests"
 msgstr "Запросы"
 
 #
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/general.volt, line: 296
-msgid "Edit Hidden Service Credentials"
-msgstr "Редактировать скрытые учетные данных службы"
-
-#
 # File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 341
 msgid "Save filter"
 msgstr "Сохранить фильтр"
@@ -29205,37 +29492,11 @@ msgstr "Сохранить фильтр"
 msgid "Error update all"
 msgstr "Ошибка при обновлении"
 
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/info.volt, line: 59
-msgid "Onion Service Names"
-msgstr "Имена луковичной службы"
-
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/info.volt, line: 67
-msgid "Onion Service Name"
-msgstr "Имя луковичной службы"
-
-# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/controllers/SmartSoft/CMSMaster/Api/ClonerController.php, line: 126
-msgid "Node configuration not found."
-msgstr "Файл конфигурации узла не найден."
-
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 182
-msgid "Packet with size 128 - 256 bytes"
-msgstr "Пакет с размером 128–256 байт"
-
 # File: src/www/services_dyndns.php, line: 87
 # File: src/www/services_rfc2136.php, line: 81
 # File: src/www/widgets/widgets/dyn_dns_status.widget.php, line: 81
 msgid "Cached IP"
 msgstr "Кэшированный IP-адрес"
-
-# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 88
-msgid "Rules Stats"
-msgstr "Статистика правил"
-
-# File: src/www/diag_smart.php, line: 68
-msgid "PASSED"
-msgstr "УДАЧНО"
 
 # File: src/www/services_rfc2136_edit.php, line: 73
 # File: src/www/services_rfc2136_edit.php, line: 178
@@ -29297,10 +29558,6 @@ msgstr "AAAA (IPv6)"
 msgid "'All' will update all available record types."
 msgstr "'Все' обновит все доступные типы записей."
 
-# File: src/www/diag_smart.php, line: 69
-msgid "FAILED"
-msgstr "НЕУДАЧНО"
-
 # File: src/www/services_rfc2136_edit.php, line: 182
 msgid "This must match the setting on the DNS server."
 msgstr "Этот параметр должно совпадать со значением на сервере DNS."
@@ -29308,11 +29565,6 @@ msgstr "Этот параметр должно совпадать со знач�
 # File: src/www/services_rfc2136_edit.php, line: 185
 msgid "Key type"
 msgstr "Тип ключа"
-
-#
-# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 66
-msgid "WARNING"
-msgstr "ПРЕДУПРЕЖДЕНИЕ"
 
 # File: src/www/services_rfc2136_edit.php, line: 197
 msgid "Paste an HMAC-MD5 key here."
@@ -29476,16 +29728,6 @@ msgstr "IP-адрес или сеть"
 msgid "Edit Client"
 msgstr "Редактировать клиента"
 
-#
-# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 77
-msgid "Device does not exist, bailing."
-msgstr "Устройства не существует, отказ."
-
-#
-# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 86
-msgid "Invalid test type, bailing."
-msgstr "Недопустимый тип теста, отказ."
-
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/index.volt, line: 73
 # File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 98
 msgid "Allow Traffic"
@@ -29499,16 +29741,6 @@ msgstr "FTP-прокси-сервер"
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 83
 msgid "FTP Proxies"
 msgstr "FTP-прокси"
-
-#
-# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 103
-msgid "Invalid info type, bailing."
-msgstr "Неверный тип информации, отказ."
-
-#
-# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 114
-msgid "Invalid log type, bailing."
-msgstr "Неверный тип журнала, отказ."
 
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 95
 msgid "Reverse Address"
@@ -29526,10 +29758,6 @@ msgstr "Максимальное число сессий"
 # File: /usr/plugins/net/ftp-proxy/src/opnsense/mvc/app/views/OPNsense/FtpProxy/index.volt, line: 119
 msgid "Edit Proxy"
 msgstr "Редактировать прокси"
-
-# File: src/www/diag_smart.php, line: 293
-msgid "Info type"
-msgstr "Информация о типе"
 
 # File: /usr/core/src/www/services_igmpproxy.php, line: 61
 msgid "Add a new IGMP entry"
@@ -29608,25 +29836,10 @@ msgstr ""
 "TTL, чем пороговое значение, будут игнорироваться. Этот параметр не является "
 "обязательным, и по умолчанию порог равен 1."
 
-# File: src/www/diag_smart.php, line: 297
-msgid "SMART Capabilities"
-msgstr "Функции SMART"
-
-# File: src/www/diag_smart.php, line: 298
-msgid "Attributes"
-msgstr "Атрибуты"
-
 #
 # File: /usr/plugins/devel/ting-plugin-security-scanner/src/opnsense/mvc/app/views/SmartSoft/SecurityScanner/index.volt, line: 131
 msgid "Update OpenVAS DB"
 msgstr "Обновить базу данных OpenVAS"
-
-# File: src/www/diag_smart.php, line: 304
-# File: src/www/diag_smart.php, line: 357
-# File: src/www/diag_smart.php, line: 408
-# File: src/www/diag_smart.php, line: 450
-msgid "Device: /dev/"
-msgstr "Устройство: /dev/"
 
 # File: /usr/plugins/net/pptp/src/etc/inc/plugins.inc.d/if_pptp.inc, line: 110
 msgid "Configuring PPTP VPN service..."
@@ -29700,10 +29913,6 @@ msgstr "Указанный адрес сервера лежит в удалён�
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 204
 msgid "PPTP settings"
 msgstr "Настройки PPTP"
-
-# File: src/www/diag_smart.php, line: 337
-msgid "Perform Self-tests"
-msgstr "Выполнить самодиагностику"
 
 # File: src/www/vpn_pptp.php, line: 361
 msgid "Enable PPTP server"
@@ -29869,10 +30078,6 @@ msgstr ""
 msgid "RADIUS secondary shared secret"
 msgstr "Общий секретный ключ резервного RADIUS-сервера"
 
-# File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 387
-msgid "Security"
-msgstr "Безопасность"
-
 # File: src/www/vpn_pptp.php, line: 504
 msgid "Require 128-bit encryption"
 msgstr "Требовать 128-битное шифрование"
@@ -29897,10 +30102,6 @@ msgstr ""
 "Не забудьте добавить правило межсетевого экрана, чтобы разрешить трафик от "
 "PPTP-клиентов."
 
-# File: src/www/diag_smart.php, line: 350
-msgid "Short"
-msgstr "Сокращенный"
-
 # File: src/www/diag_logs_pptp.php, line: 19
 msgid "PPTP Logins"
 msgstr "Имена пользователей для подключения по протоколу PPTP"
@@ -29908,18 +30109,6 @@ msgstr "Имена пользователей для подключения по
 # File: src/www/diag_logs_pptp.php, line: 20
 msgid "PPTP Raw"
 msgstr "PPTP Raw"
-
-# File: src/www/diag_smart.php, line: 352
-msgid "Conveyance (ATA Disks Only)"
-msgstr "Транспортировка (Только для ATA-дисков)"
-
-# File: src/www/diag_smart.php, line: 390
-msgid "View Logs"
-msgstr "Просмотр журналов"
-
-# File: src/www/diag_smart.php, line: 399
-msgid "Log type"
-msgstr "Тип журнала"
 
 # File: src/www/vpn_l2tp_users.php, line: 85
 # File: src/www/vpn_pptp_users.php, line: 83
@@ -29941,10 +30130,6 @@ msgstr "Предупреждение: все текущие PPTP-сессии б
 msgid "You must apply the changes in order for them to take effect"
 msgstr "Вы должны применить изменения, чтобы они вступили в силу."
 
-# File: src/www/diag_smart.php, line: 402
-msgid "Error"
-msgstr "Ошибка"
-
 # File: src/www/vpn_pptp_users_edit.php, line: 86
 msgid "The password cannot start with '!'."
 msgstr "Пароль не может начинаться с символа «!»."
@@ -29954,18 +30139,10 @@ msgstr "Пароль не может начинаться с символа «!�
 msgid "The password contains invalid characters."
 msgstr "MX-запись содержит недопустимые символы."
 
-# File: src/www/diag_smart.php, line: 403
-msgid "Self-test"
-msgstr "Самодиагностика"
-
 # File: src/www/vpn_l2tp_users_edit.php, line: 95
 # File: src/www/vpn_pptp_users_edit.php, line: 97
 msgid "The IP address entered is not valid."
 msgstr "Введённый IP-адрес не допустим."
-
-# File: src/www/diag_smart.php, line: 441
-msgid "Abort tests"
-msgstr "Прервать тесты"
 
 # File: src/www/vpn_l2tp_users_edit.php, line: 173
 # File: src/www/vpn_pptp_users_edit.php, line: 171
@@ -30025,19 +30202,10 @@ msgstr "Путь не может быть пустым."
 msgid "Provide one of Response Code or Message Digest."
 msgstr "Укажите один из кодов ответа или дайджеста сообщения."
 
-# File: src/www/diag_smart.php, line: 466
-msgid "Do you really want to abort the test?"
-msgstr "Вы действительно хотите прервать тест?"
-
 #
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 206
 msgid "The Relayd configuration has been changed"
 msgstr "Конфигурация Relayd была изменена"
-
-#
-# File: /usr/plugins/sysutils/smart/src/www/diag_smart.php, line: 308
-msgid "No SMART devices."
-msgstr "Нет устройства SMART"
 
 #
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 211
@@ -30049,28 +30217,11 @@ msgstr "Серверные узлы"
 msgid "Table Checks"
 msgstr "Таблица проверок"
 
-# File: src/www/diag_smart.php, line: 485
-msgid "Back"
-msgstr "Назад"
-
-# File: src/www/widgets/widgets/smart_status.widget.php, line: 38
-msgid "Drive"
-msgstr "Диск"
-
 #
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 215
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/status.volt, line: 138
 msgid "Virtual Server"
 msgstr "Виртуальные сервера"
-
-# File: src/www/widgets/widgets/smart_status.widget.php, line: 39
-msgid "Ident"
-msgstr "Идентификатор"
-
-# File: lang/dynamic/helpers/models.php, line: 98
-# File: src/www/widgets/widgets/smart_status.widget.php, line: 40
-msgid "SMART Status"
-msgstr "Статус SMART"
 
 #
 # File: /usr/plugins/net/relayd/src/opnsense/mvc/app/views/OPNsense/Relayd/index.volt, line: 348
@@ -30102,23 +30253,6 @@ msgstr "Исходящие домены"
 msgid "Current registrations"
 msgstr "Текущие регистрации"
 
-#
-# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/controllers/SmartSoft/NetPolice/Api/AclController.php, line: 289
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 275
-msgid "LDAP user name is not specified"
-msgstr "Не указано имя пользователя LDAP"
-
-#
-# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/controllers/SmartSoft/NetPolice/Api/AclController.php, line: 292
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 278
-msgid "LDAP user password is not specified"
-msgstr "Не указан парль пользователя LDAP"
-
-#
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 365
-msgid "Error connecting to LDAP server"
-msgstr "Ошибка подключения к LDAP серверу"
-
 # File: /usr/plugins/net/l2tp/src/www/vpn_l2tp_users_edit.php, line: 162
 # File: /usr/plugins/net/pptp/src/www/vpn_pptp_users_edit.php, line: 162
 msgid "Edit User"
@@ -30128,12 +30262,6 @@ msgstr "Редактировать пользователя"
 # File: /usr/plugins/net/siproxd/src/opnsense/mvc/app/views/OPNsense/Siproxd/general.volt, line: 107
 msgid "Edit Outbound Domain"
 msgstr "Редактировать исходящий домен"
-
-#
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 381
-#, php-format
-msgid "The %s %s does not exist"
-msgstr "%s %s не существует"
 
 # File: src/www/services_wol.php, line: 55
 #, php-format
@@ -30172,31 +30300,13 @@ msgstr ""
 "Проверьте %sсистемный журнал%s, команда wol для %s не была успешно завершена."
 "завершена."
 
-#
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 505
-# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/agents.volt, line: 76
-msgid "Edit Browser/user-agents for black and white lists"
-msgstr "Редактировать Browser/user-agents для чёрных и белых списков"
-
 # File: /usr/core/src/www/services_wol.php, line: 130
 msgid "Result"
 msgstr "Результат"
 
-#
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 365
-# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/arps.volt, line: 76
-msgid "Edit MAC addresses for black and white lists"
-msgstr "Редактировать MAC-адреса для чёрных и белых списков"
-
 # File: src/www/services_wol.php, line: 150
 msgid "Choose which interface the host to be woken up is connected to."
 msgstr "Выберите интерфейс, подключенный к хосту, который должен быть поднят."
-
-#
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 470
-# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/domains.volt, line: 76
-msgid "Edit domains for black and white lists"
-msgstr "Редактировать домены для чёрных и белых списков"
 
 # File: src/www/services_wol.php, line: 157
 #, php-format
@@ -30215,12 +30325,6 @@ msgstr "Пробудить все клиенты одновременно:"
 # File: src/www/services_wol.php, line: 168
 msgid "Or Click the MAC address to wake up an individual device:"
 msgstr "Или нажмите на MAC-адрес, чтобы поднять конкретное устройство:"
-
-#
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 435
-# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/dsts.volt, line: 76
-msgid "Edit destination IPs for black and white lists"
-msgstr "Редактировать IP-адреса для чёрных и белых списков"
 
 #
 # File: /usr/core/src/www/services_wol.php, line: 259
@@ -30243,12 +30347,6 @@ msgstr "Редактировать WOL-запись "
 msgid "Choose which interface this host is connected to."
 msgstr "Выберите интерфейс, подключенный к этому хосту."
 
-#
-# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/views/SmartSoft/NetPolice/index.volt, line: 230
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 127
-msgid "Edit user/group white and black lists"
-msgstr "Редактировать списки доступа для пользователей и групп"
-
 # File: /usr/core/src/www/widgets/include/wake_on_lan.inc, line: 3
 msgid "Wake On Lan"
 msgstr "Включение по сети"
@@ -30256,12 +30354,6 @@ msgstr "Включение по сети"
 # File: src/www/widgets/widgets/wake_on_lan.widget.php, line: 45
 msgid "Computer / Device"
 msgstr "Компьютер / устройство"
-
-#
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 696
-# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/icaps.volt, line: 151
-msgid "Edit ICAP white and black lists"
-msgstr "Редактировать ICAP для чёрных и белых списков"
 
 # File: src/www/widgets/widgets/wake_on_lan.widget.php, line: 71
 msgid "Wake Up"
@@ -30324,29 +30416,6 @@ msgid "internal error"
 msgstr "внутренняя ошибка"
 
 #
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 540
-# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/mimes.volt, line: 76
-msgid "Edit mime types for black and white lists"
-msgstr "Редактировать MIME-типы для чёрных и белых списков"
-
-#
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 400
-# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/srcs.volt, line: 76
-msgid "Edit source IPs for black and white lists"
-msgstr "Редактировать IP-адреса источников для чёрных и белых списков"
-
-#
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 656
-# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/ssls.volt, line: 135
-msgid "Edit SSL Bump exclude list"
-msgstr "Редактировать списки исключения для SSL Bump"
-
-#
-# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/times.volt, line: 76
-msgid "Edit schedules interval for black and white lists"
-msgstr "Редактировать расписания для чёрных и белых списков"
-
-#
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 322
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 344
 msgid "Confirmation Required"
@@ -30361,17 +30430,6 @@ msgstr "Принудительно (пере-)выдать выбранный с
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 345
 msgid "Revoke selected certificate?"
 msgstr "Отозвать выбранный сертификат?"
-
-#
-# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/users.volt, line: 53
-msgid "Names"
-msgstr "Имена"
-
-#
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 330
-# File: /usr/plugins/www/web-proxy-useracl/src/opnsense/mvc/app/views/OPNsense/ProxyUserACL/users.volt, line: 80
-msgid "Edit users and groups for black and white lists"
-msgstr "Редактировать пользователей и группы для чёрных и белых списков"
 
 #
 # File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/certificates.volt, line: 386
@@ -30590,6 +30648,18 @@ msgid "Users and groups"
 msgstr "Пользователи и группы"
 
 #
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 331
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 366
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 401
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 436
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 471
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 506
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 541
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 578
+msgid "The list can be used in rules."
+msgstr "Список может использоваться в правилах."
+
+#
 # File: /usr/plugins/www/c-icap/src/etc/inc/plugins.inc.d/cicap.inc, line: 37
 msgid "C-ICAP server"
 msgstr "Сервер C-ICAP"
@@ -30712,10 +30782,9 @@ msgstr "Показать Key Table"
 msgid "Test Kerberos login"
 msgstr "Проверка входа Kerberos"
 
-#
-# File: /usr/plugins/security/tor/src/opnsense/mvc/app/views/OPNsense/Tor/diagnostics.volt, line: 91
-msgid "Circuits"
-msgstr "Цепи"
+# File: /usr/plugins/devel/ting-plugin-ndpi/src/opnsense/mvc/app/views/SmartSoft/NDPI/stats.volt, line: 166
+msgid "Average packet size"
+msgstr "Средний размер пакета"
 
 # File: /usr/core/src/etc/inc/auth.inc, line: 105
 #, php-format
@@ -30857,6 +30926,11 @@ msgid "Excellent Effort (2)"
 msgstr "Превосходная доставка (2)"
 
 #
+# File: /usr/core/src/etc/inc/interfaces.inc, line: 145
+msgid "Critical Applications (3)"
+msgstr "Критические приложения (3)"
+
+#
 # File: /usr/core/src/etc/inc/interfaces.inc, line: 146
 msgid "Video (4)"
 msgstr "Видео (4)"
@@ -30875,15 +30949,6 @@ msgstr "Межсетевое управление (6)"
 # File: /usr/core/src/etc/inc/interfaces.inc, line: 149
 msgid "Network Control (7, highest)"
 msgstr "Управление сетью (7, наивысший)"
-
-# File: src/etc/inc/interfaces.inc, line: 2259
-#, php-format
-msgid ""
-"Interface specified for the virtual IP address %s does not exist. Skipping "
-"this VIP."
-msgstr ""
-"Интерфейс, которому присвоен виртуальный IP-адрес %s, не существует. "
-"Пропускаем это виртуальный IP-адрес."
 
 # File: src/etc/inc/interfaces.inc, line: 5357
 msgid "device not present! Is the modem attached to the system?"
@@ -31139,7 +31204,7 @@ msgid ""
 "Automatically synchronize the %s configuration to the other HA host when "
 "changes are made."
 msgstr ""
-"Автоматически синхронизировать %s конфигурацию на другом HA хосте когда "
+"Автоматически синхронизировать %s конфигурацию на другом HA хосте, когда "
 "произведены изменения."
 
 # File: src/etc/inc/services.inc, line: 2462
@@ -31449,6 +31514,56 @@ msgstr "Мастер OpenVPN %s"
 # File: /usr/core/src/etc/inc/plugins.inc.d/pf.inc, line: 37
 msgid "Packet Filter"
 msgstr "Фильтр пакетов"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 54
+msgid "system"
+msgstr "система"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 55
+msgid "traffic"
+msgstr "трафик"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 56
+msgid "packets"
+msgstr "пакеты"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 57
+msgid "states"
+msgstr "состояния"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 58
+msgid "wireless"
+msgstr "беспроводная сеть"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 59
+msgid "processor"
+msgstr "процессор"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 60
+msgid "memory"
+msgstr "память"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 61
+msgid "cellular"
+msgstr "мобильная сеть"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 62
+msgid "vpnusers"
+msgstr "полдьзователи VPN"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 63
+msgid "cputemp"
+msgstr "температура процессора"
 
 # File: src/www/status_services.php, line: 129
 #, php-format
@@ -32596,6 +32711,11 @@ msgstr "установлено"
 msgid "orphaned"
 msgstr "неактуальный"
 
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 436
+msgid "More about "
+msgstr "Подробнее о "
+
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 257
 msgid "Check for updates to view available plugins."
 msgstr "Проверьте наличие обновлений, чтобы просмотреть доступные плагины."
@@ -32633,6 +32753,10 @@ msgstr "Обновить сейчас"
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 606
 msgid "Audit now"
 msgstr "Провести аудит"
+
+# File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 387
+msgid "Security"
+msgstr "Безопасность"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 394
 msgid "Check for updates"
@@ -33126,15 +33250,15 @@ msgstr "Флажки"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 90
 msgid "Use"
-msgstr "Использовать"
+msgstr "Использовано"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 92
 msgid "Netif"
-msgstr "Netif"
+msgstr "Интерфейс во FreeBSD"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 93
 msgid "Netif (name)"
-msgstr "Netif (имя)"
+msgstr "Интерфейс в Тинге"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/routes.volt, line: 94
 msgid "Expire"
@@ -34470,7 +34594,7 @@ msgstr "Если вы нажмете «Да», то система:"
 
 # File: src/www/diag_defaults.php, line: 52
 msgid "Reset to factory defaults"
-msgstr "Сбросить настройки по умолчанию"
+msgstr "Сбросит настройки по умолчанию"
 
 # File: src/www/diag_defaults.php, line: 53
 msgid "LAN IP address will be reset to 192.168.1.1"
@@ -34981,8 +35105,9 @@ msgid ""
 "Matching can be negated by preceding the value with \"not\". Multiple IP "
 "addresses or CIDR subnets may be specified as boolean expression."
 msgstr ""
-"Соответствие может быть инвертировано, если перед значением стоит «not». "
-"В качестве логического выражения можно указать несколько IP-адресов или подсетей CIDR."
+"Соответствие может быть инвертировано, если перед значением стоит «not». В "
+"качестве логического выражения можно указать несколько IP-адресов или "
+"подсетей CIDR."
 
 # File: src/www/diag_packet_capture.php, line: 385
 msgid ""
@@ -36563,7 +36688,7 @@ msgstr "Выберите IP-протокол, для которого будет
 # File: src/www/firewall_nat_edit.php, line: 576
 # File: src/www/firewall_nat_out_edit.php, line: 465
 msgid "Hint: in most cases, you should specify"
-msgstr "Подсказка: в большинстве случаев вы должны указать его"
+msgstr "Подсказка: в большинстве случаев вы должны указать"
 
 # File: src/www/firewall_nat_edit.php, line: 576
 # File: src/www/firewall_nat_out_edit.php, line: 465
@@ -37186,7 +37311,7 @@ msgid ""
 "syslog server%s."
 msgstr ""
 "Подсказка: пространство для хранения локальных журналов межсетевого экрана "
-"ограничено. Если вы хотите журналировать все пакеты, используйте %sremote "
+"ограничено. Если вы хотите журналировать все пакеты, используйте %s "
 "удаленный syslog-сервер%s."
 
 # File: src/www/firewall_nat_out_edit.php, line: 647
@@ -39470,7 +39595,7 @@ msgstr ""
 # File: /usr/core/src/www/interfaces.php, line: 2366
 #, php-format
 msgid "You can manage Gateways %shere%s."
-msgstr "Вы можете управлять шлюзами %shere%s."
+msgstr "Вы можете управлять шлюзами %здесь%s."
 
 # File: /usr/core/src/www/interfaces.php, line: 1925
 # File: /usr/core/src/www/interfaces.php, line: 2450
@@ -45835,6 +45960,10 @@ msgstr "Всего в"
 msgid "Total Out"
 msgstr "Всего из"
 
+# File: src/www/status_graph.php, line: 147
+msgid "Local"
+msgstr "Локальный"
+
 # File: src/www/status_graph.php, line: 161
 msgid "FQDN"
 msgstr "Полностью определенное имя домена (FQDN)"
@@ -46519,7 +46648,7 @@ msgstr ""
 #
 # File: /usr/core/src/www/system_advanced_admin.php, line: 468
 msgid "Login Messages"
-msgstr "Сообщения и входе"
+msgstr "Сообщения при входе"
 
 #
 # File: /usr/core/src/www/system_advanced_admin.php, line: 460
@@ -47671,7 +47800,7 @@ msgid ""
 "This will periodically backup the captive portal session data so it can be "
 "restored automatically on the next boot."
 msgstr ""
-"Это позволит периодически сохранять данные сессий Captive Portal чтобы чтобы "
+"Это позволит периодически сохранять данные сессий Captive Portal, чтобы чтобы "
 "автоматически подгрузить при следующей загрузке."
 
 # File: /usr/core/src/www/system_advanced_misc.php, line: 330
@@ -48038,8 +48167,8 @@ msgid ""
 "This is the port of the SMTP Email server, typically 25, 587 (submission) or "
 "465 (smtps)"
 msgstr ""
-"Номер порта почтового сервера SMTP, как правило, это 25, 587 (отправка) или "
-"465 (smtp)"
+"Номер порта почтового сервера SMTP, как правило, это 25, 587 (submission) или "
+"465 (smtps)"
 
 # File: src/www/system_advanced_notifications.php, line: 240
 msgid "Secure SMTP Connection"
@@ -50014,11 +50143,11 @@ msgid ""
 "on all members of a failover group."
 msgstr ""
 "pfsync передает сообщения о вставке, обновлении и удалении между межсетевыми "
-"экранами. %sEach межсетевой экран отправляет эти сообщения посредством "
+"экранами. %sКаждый межсетевой экран отправляет эти сообщения посредством "
 "многоадресной передачи на указанном интерфейсе, используя протокол PFSYNC "
-"(%sIP Протокол 240%s).%sIt также прослушивает этот интерфейс на наличие "
+"(%sIP Протокол 240%s).%sОн также прослушивает этот интерфейс на наличие "
 "подобных сообщений от других межсетевых экранов и импортирует их в локальную "
-"таблицу состояний.%sThis параметр должен быть включен на всех участниках "
+"таблицу состояний.%sЭтот параметр должен быть включен на всех участниках "
 "группы аварийного переключения."
 
 # File: src/www/system_hasync.php, line: 113
@@ -50604,7 +50733,7 @@ msgid ""
 "object. Some system object properties can be modified but they cannot be "
 "deleted."
 msgstr ""
-"Дополнительные пользователи могут быть добавлены здесь. Права пользователя "
+"Можно добавить дополнительных пользователей. Права пользователя "
 "на доступ в web GUI или другие подсистемы могут быть назначены явно или "
 "унаследованы от членства в группах. Иконки, отображаемые серым цветом "
 "указывают на то, что это системный объект. Некоторые свойства системных "
@@ -53835,6 +53964,11 @@ msgid "Comma separated list of services to NOT display in the widget"
 msgstr ""
 "Разделенный запятыми список служб, которые НЕ будут отображаться в виджете"
 
+#
+# File: /usr/core/src/www/widgets/widgets/system_information.widget.php, line: 36
+msgid "System Information"
+msgstr "Системная информация"
+
 # File: src/www/widgets/widgets/system_information.widget.php, line: 89
 msgid "Versions"
 msgstr "Версии"
@@ -53926,10 +54060,9 @@ msgstr "ОШИБКА: Не удалось найти файл помощника
 msgid "ERROR: Could not parse %s wizard file."
 msgstr "ОШИБКА: не удалось разобрать файл мастера %s."
 
-#
-# File: /usr/plugins/benchmarks/iperf/src/opnsense/mvc/app/views/OPNsense/iperf/index.volt, line: 80
-msgid "Host System"
-msgstr "Системный локально"
+# File: /usr/plugins/devel/ting-plugin-cms-master/src/opnsense/mvc/app/views/SmartSoft/CMSMaster/history.volt, line: 79
+msgid "Revert config"
+msgstr "Восстановить конфигурацию"
 
 #
 # File: /usr/core/src/etc/rc.initial, line: 29
@@ -53971,481 +54104,3 @@ msgstr ""
 # File: /usr/core/src/etc/rc.initial, line: 36
 msgid "Enter an option: "
 msgstr "Выберите опцию: "
-
-#
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 331
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 366
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 401
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 436
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 471
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 506
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 541
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 578
-msgid "The list can be used in rules."
-msgstr "Список может использоваться в правилах."
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 39
-msgid "users"
-msgstr "пользователи"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 38
-msgid "seconds/%"
-msgstr "секунды/%s"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 37
-msgid "[U]tilization ,  [#]Number"
-msgstr "[З]агрузка ,  [#]Номер"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 36
-msgid "System Information - VPN Users "
-msgstr "Системная информация - пользователи VPN"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 35
-msgid "System Information - Traffic "
-msgstr "Системная информация - Траффик"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 34
-msgid "System Information - Quality "
-msgstr "Системная информация - Качество"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 33
-msgid "System Information - Packets "
-msgstr "Системная информация - Пакеты"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 32
-msgid "Packets/Second"
-msgstr "Пакеты/секунду"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 31
-msgid "Bytes/Second"
-msgstr "Байты/секунду"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 30
-msgid " System Information - Utilization and Processes"
-msgstr "Системная информация - Загрузка и процессы"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 39
-msgid "users"
-msgstr "пользователи"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 38
-msgid "seconds/%"
-msgstr "секунды/%s"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 37
-msgid "[U]tilization ,  [#]Number"
-msgstr "[З]агрузка ,  [#]Номер"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 36
-msgid "System Information - VPN Users "
-msgstr "Системная информация - пользователи VPN"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 35
-msgid "System Information - Traffic "
-msgstr "Системная информация - Траффик"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 34
-msgid "System Information - Quality "
-msgstr "Системная информация - Качество"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 33
-msgid "System Information - Packets "
-msgstr "Системная информация - Пакеты"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 32
-msgid "Packets/Second"
-msgstr "Пакеты/секунду"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 31
-msgid "Bytes/Second"
-msgstr "Байты/секунду"
-
-#
-# File: /usr/lang/src/systemhealth.php, line: 30
-msgid " System Information - Utilization and Processes"
-msgstr "Системная информация - Загрузка и процессы"
-
-#
-# File: /usr/core/src/etc/inc/rrd.inc, line: 54
-msgid "system"
-msgstr "система"
-
-#
-# File: /usr/core/src/etc/inc/rrd.inc, line: 55
-msgid "traffic"
-msgstr "трафик"
-
-#
-# File: /usr/core/src/etc/inc/rrd.inc, line: 56
-msgid "packets"
-msgstr "пакеты"
-
-#
-# File: /usr/core/src/etc/inc/rrd.inc, line: 57
-msgid "states"
-msgstr "состояния"
-
-#
-# File: /usr/core/src/etc/inc/rrd.inc, line: 58
-msgid "wireless"
-msgstr "беспроводная сеть"
-
-#
-# File: /usr/core/src/etc/inc/rrd.inc, line: 59
-msgid "processor"
-msgstr "процессор"
-
-#
-# File: /usr/core/src/etc/inc/rrd.inc, line: 60
-msgid "memory"
-msgstr "память"
-
-#
-# File: /usr/core/src/etc/inc/rrd.inc, line: 61
-msgid "cellular"
-msgstr "мобильная сеть"
-
-#
-# File: /usr/core/src/etc/inc/rrd.inc, line: 62
-msgid "vpnusers"
-msgstr "полдьзователи VPN"
-
-#
-# File: /usr/core/src/etc/inc/rrd.inc, line: 63
-msgid "cputemp"
-msgstr "температура процессора"
-
-#
-# File: /usr/core/src/www/widgets/widgets/system_information.widget.php, line: 36
-msgid "System Information"
-msgstr "Системная информация"
-
-#
-# File: /usr/core/src/www/widgets/widgets/log.widget.php, line: 183
-
-#
-# File: /usr/core/src/www/system_usermanager_passwordmg.php, line: 51
-
-# File: src/www/system_gateways.php, line: 211
-
-# File: src/www/system_gateway_groups.php, line: 118
-
-# File: src/www/system_advanced_firewall.php, line: 400
-
-#
-# File: /usr/core/src/www/system_advanced_firewall.php, line: 426
-
-# File: src/www/diag_packet_capture.php, line: 384
-
-#
-# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Proxy/index.volt, line: 60
-
-# File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 87
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 285
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 276
-
-#
-# File: /usr/plugins/net/relayd/src/www/load_balancer_virtual_server_edit.php, line: 333
-
-# File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 299
-
-# File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 297
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 240
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 239
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 207
-# File: src/www/load_balancer_virtual_server_edit.php, line: 226
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 204
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 193
-
-# File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 228
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 179
-
-#
-# File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 218
-
-# File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 194
-
-#
-# File: /usr/plugins/net/relayd/src/www/load_balancer_virtual_server_edit.php, line: 106
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 91
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 88
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 86
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 83
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 80
-
-#
-# File: /usr/core/src/www/load_balancer_virtual_server_edit.php, line: 81
-
-# File: src/www/load_balancer_virtual_server_edit.php, line: 68
-# File: src/www/load_balancer_virtual_server_edit.php, line: 257
-
-# File: src/www/load_balancer_virtual_server.php, line: 164
-# File: src/www/load_balancer_virtual_server_edit.php, line: 223
-
-# File: src/www/load_balancer_virtual_server.php, line: 163
-# File: src/www/widgets/widgets/load_balancer_status.widget.php, line: 69
-
-# File: src/www/load_balancer_virtual_server.php, line: 145
-
-# File: /usr/core/src/www/load_balancer_virtual_server.php, line: 125
-
-# File: /usr/core/src/www/load_balancer_setting.php, line: 159
-
-# File: src/www/load_balancer_setting.php, line: 139
-
-# File: /usr/core/src/www/load_balancer_setting.php, line: 145
-
-# File: src/www/load_balancer_setting.php, line: 131
-
-# File: src/www/load_balancer_setting.php, line: 123
-
-# File: src/www/load_balancer_setting.php, line: 69
-
-# File: src/www/load_balancer_setting.php, line: 66
-
-# File: src/www/load_balancer_setting.php, line: 61
-
-# File: src/www/load_balancer_setting.php, line: 57
-
-# File: src/www/load_balancer_pool_edit.php, line: 303
-
-# File: src/www/load_balancer_pool_edit.php, line: 283
-
-# File: src/www/load_balancer_pool_edit.php, line: 274
-
-# File: src/www/load_balancer_pool_edit.php, line: 267
-
-# File: src/www/load_balancer_pool_edit.php, line: 264
-
-# File: src/www/load_balancer_pool_edit.php, line: 240
-
-# File: src/www/load_balancer_pool_edit.php, line: 233
-
-# File: src/www/load_balancer_pool_edit.php, line: 219
-# File: src/www/load_balancer_virtual_server_edit.php, line: 194
-
-# File: src/www/load_balancer_pool_edit.php, line: 218
-
-# File: src/www/load_balancer_pool_edit.php, line: 202
-
-# File: /usr/core/src/www/load_balancer_pool_edit.php, line: 237
-
-# File: src/www/load_balancer_pool_edit.php, line: 113
-
-# File: src/www/load_balancer_pool_edit.php, line: 104
-
-# File: src/www/load_balancer_pool_edit.php, line: 101
-
-# File: src/www/load_balancer_pool_edit.php, line: 94
-
-# File: src/www/load_balancer_pool_edit.php, line: 91
-
-# File: src/www/load_balancer_pool_edit.php, line: 86
-
-# File: src/www/load_balancer_pool_edit.php, line: 82
-
-# File: src/www/load_balancer_pool_edit.php, line: 79
-
-# File: src/www/load_balancer_pool_edit.php, line: 76
-
-# File: /usr/core/src/www/load_balancer_pool_edit.php, line: 75
-
-# File: src/www/load_balancer_pool_edit.php, line: 63
-
-# File: src/www/load_balancer_pool.php, line: 138
-
-# File: src/www/load_balancer_pool.php, line: 128
-# File: src/www/load_balancer_pool_edit.php, line: 63
-# File: src/www/load_balancer_pool_edit.php, line: 243
-# File: src/www/status_gateways.php, line: 54
-# File: src/www/status_lb_pool.php, line: 131
-
-# File: src/www/load_balancer_pool.php, line: 108
-# File: src/www/status_lb_pool.php, line: 113
-# File: src/www/status_lb_vs.php, line: 59
-
-# File: src/www/load_balancer_pool.php, line: 62
-
-# File: src/www/load_balancer_monitor_edit.php, line: 353
-# File: src/www/load_balancer_monitor_edit.php, line: 386
-
-# File: src/www/load_balancer_monitor_edit.php, line: 349
-# File: src/www/load_balancer_monitor_edit.php, line: 382
-
-# File: src/www/load_balancer_monitor_edit.php, line: 414
-
-# File: src/www/load_balancer_monitor_edit.php, line: 408
-
-# File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 229
-
-# File: src/www/load_balancer_monitor_edit.php, line: 253
-# File: src/www/load_balancer_monitor_edit.php, line: 404
-
-# File: src/www/load_balancer_monitor_edit.php, line: 181
-
-# File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 142
-
-# File: src/www/load_balancer_monitor_edit.php, line: 157
-# File: src/www/load_balancer_pool_edit.php, line: 73
-
-# File: /usr/core/src/www/load_balancer_monitor_edit.php, line: 125
-
-# File: src/www/load_balancer_monitor.php, line: 97
-# File: src/www/load_balancer_setting.php, line: 102
-
-# File: /usr/core/src/www/load_balancer_monitor.php, line: 93
-# File: /usr/core/src/www/load_balancer_monitor.php, line: 110
-# File: /usr/core/src/www/load_balancer_pool.php, line: 99
-# File: /usr/core/src/www/load_balancer_pool.php, line: 116
-
-#
-# File: /usr/core/src/www/load_balancer_monitor.php, line: 49
-
-#
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/IndexController.php, line: 10
-
-#
-# File: /usr/plugins/devel/ting-plugin-netpolice/src/opnsense/mvc/app/controllers/SmartSoft/NetPolice/Api/AclController.php, line: 283
-# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/controllers/SmartSoft/ProxyUserACL/Api/SettingsController.php, line: 269
-
-#
-# File: /usr/lang/src/acl.php, line: 116
-
-#
-# File: /usr/lang/src/acl.php, line: 117
-
-#
-# File: /usr/lang/src/acl.php, line: 118
-
-#
-# File: /usr/lang/src/acl.php, line: 142
-
-#
-# File: /usr/lang/src/acl.php, line: 143
-
-#
-# File: /usr/lang/src/acl.php, line: 144
-
-#
-# File: /usr/lang/src/acl.php, line: 145
-
-#
-# File: /usr/lang/src/acl.php, line: 177
-
-#
-# File: /usr/lang/src/acl.php, line: 178
-
-#
-# File: /usr/lang/src/acl.php, line: 186
-
-# File: /usr/lang/src/controllers.php, line: 409
-
-#
-# File: /usr/lang/src/controllers.php, line: 2032
-
-# File: /usr/lang/src/controllers.php, line: 565
-
-# File: lang/dynamic/helpers/controllers.php, line: 94
-
-# File: lang/dynamic/helpers/controllers.php, line: 102
-
-#
-# File: /usr/lang/src/controllers.php, line: 2388
-
-# File: /usr/lang/src/controllers.php, line: 573
-
-# File: lang/dynamic/helpers/controllers.php, line: 89
-
-#
-# File: /usr/lang/src/controllers.php, line: 2393
-
-# File: /usr/lang/src/controllers.php, line: 578
-
-#
-# File: /usr/lang/src/controllers.php, line: 2397
-
-# File: /usr/lang/src/controllers.php, line: 704
-
-#
-# File: /usr/lang/src/controllers.php, line: 2399
-
-# File: /usr/lang/src/controllers.php, line: 706
-
-# File: lang/dynamic/helpers/controllers.php, line: 104
-
-# File: lang/dynamic/helpers/controllers.php, line: 91
-
-#
-# File: /usr/lang/src/controllers.php, line: 2346
-
-# File: /usr/lang/src/controllers.php, line: 222
-
-# File: /usr/lang/src/controllers.php, line: 589
-
-# File: lang/dynamic/helpers/controllers.php, line: 100
-
-#
-# File: /usr/lang/src/controllers.php, line: 2422
-
-# File: /usr/lang/src/controllers.php, line: 594
-
-# File: /usr/lang/src/controllers.php, line: 594
-
-# File: lang/dynamic/helpers/controllers.php, line: 105
-
-#
-# File: /usr/lang/src/models.php, line: 145
-
-# File: lang/dynamic/helpers/models.php, line: 225
-
-# File: lang/dynamic/helpers/models.php, line: 227
-
-# File: lang/dynamic/helpers/models.php, line: 228
-
-# File: lang/dynamic/helpers/models.php, line: 232
-
-# File: lang/dynamic/helpers/models.php, line: 233
-
-#
-# File: /usr/lang/src/plugin_descr.php, line: 593
-
-#
-# File: /usr/lang/src/plugin_descr.php, line: 594
-
-#
-# File: /usr/lang/src/wizards.php, line: 88
-
-#
-# File: /usr/lang/src/wizards.php, line: 265

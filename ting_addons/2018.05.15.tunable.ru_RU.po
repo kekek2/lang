@@ -179,7 +179,7 @@ msgstr "Установить ограничения ICMP"
 #
 # File: /usr/lang/src/config.php, line: 75
 msgid "Set the ephemeral port range to be lower."
-msgstr "Установка диапазона временных портов ниже."
+msgstr "Установка диапазона временных портов далее."
 
 #
 # File: /usr/lang/src/config.php, line: 76
@@ -204,7 +204,7 @@ msgstr "Установите значение 1, чтобы включить ф�
 #
 # File: /usr/lang/src/config.php, line: 79
 msgid "TCP Offload Engine"
-msgstr "TCP Offload Engine"
+msgstr "Разгрузка контрольной суммы TCP"
 
 #
 # File: /usr/lang/src/config.php, line: 80

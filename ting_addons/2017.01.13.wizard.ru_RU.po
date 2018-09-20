@@ -343,7 +343,7 @@ msgstr "Пароль администратора ПОВТОР"
 #
 # File: /usr/lang/src/wizards.php, line: 90
 msgid "Allow DNS servers to be overridden by DHCP/PPP on WAN"
-msgstr "Разрешить переопделение DNS серверов настройками DHCP/PPP на WAN"
+msgstr "Разрешить переопределение DNS серверов настройками DHCP/PPP на WAN"
 
 #
 # File: /usr/lang/src/wizards.php, line: 91

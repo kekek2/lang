@@ -361,7 +361,7 @@ msgid ""
 "This is the port of the SMTP Email server, typically 25, 587 (submission) or "
 "465 (smtps)"
 msgstr ""
-"Номер порта почтового сервера SMTP, как правило, это 25, 587 (отправка) или 465 (smtp)"
+"Номер порта почтового сервера SMTP, как правило, это 25, 587 (submission) или 465 (smtps)"
 
 # File: /usr/core/src/www/system_advanced_notifications.php, line: 231
 msgid "SMTP Port of Email server"

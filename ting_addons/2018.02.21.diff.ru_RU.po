@@ -1610,7 +1610,7 @@ msgid ""
 "system_gateways_edit.php\">add a new one</a>."
 msgstr ""
 "Выбрите, какой шлюз относится к этому маршруту или <а href=\""
-"/system_gateways_edit.php\">добавьте новый< / a>."
+"/system_gateways_edit.php\">добавьте новый</a>."
 
 #
 # File: /usr/lang/src/controllers.php, line: 344

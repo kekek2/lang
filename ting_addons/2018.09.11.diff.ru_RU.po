@@ -1666,3 +1666,12 @@ msgstr "Список может использоваться в правилах
 msgid "System Information"
 msgstr "Системная информация"
 
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 436
+msgid "More about "
+msgstr "Подробнее о "
+
+#
+# File: /usr/lang/src/wizards.php, line: 117
+msgid "Enable Resolver"
+msgstr "Включить распознаватель"
