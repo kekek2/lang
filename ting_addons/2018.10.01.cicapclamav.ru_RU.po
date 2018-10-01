@@ -1,0 +1,93 @@
+#
+# File: /usr/lang/src/plugin_descr.php, line: 96
+msgid ""
+"ICAP service\n"
+"\n"
+"c-icap-clamav is an implementation of an ICAP server. It\n"
+"can be used with HTTP proxies that support the ICAP protocol\n"
+"to implement content adaptation and filtering services.\n"
+"Currently supported plugins ClamAV and YouTube categories filter.\n"
+"\n"
+"ClamAV(r) is an open source (GPL) anti-virus engine used in a\n"
+"variety of situations including email scanning, web scanning,\n"
+"and end point security. It provides a number of utilities\n"
+"including a flexible and scalable multi-threaded daemon,\n"
+"a command line scanner and an advanced tool for automatic\n"
+"database updates.\n"
+"\n"
+"YouTube categories filter allows you to specify the categories\n"
+"of videos that you want to view.\n"
+"\n"
+"WWW: http://c-icap.sourceforge.net/\n"
+"WWW: https://www.clamav.net/\n"
+"\n"
+"Maintainer: kekek2@ya.ru"
+msgstr ""
+"Служба ICAP\n"
+"\n"
+"c-icap-clamav это реализация ICAP-сервера.Она может быть\n"
+"использована для HTTP-прокси, поддерживающего протокол ICAP для\n"
+"обеспечения обработки и фильтрации.\n"
+"\n"
+"ClamAV(r) - это антивирусное средство с открытым исходным кодом (GPL), "
+"используемое\n"
+"в различных ситуациях, включая сканирование почты, web-трафика,\n"
+"и обеспечение безопасности на оконечном устройстве. Он предоставляет ряд "
+"утилит, \n"
+"включая гибкий, масштабируемый, много-поточный сервис,\n"
+"сканер командной строки и продвинутое средство для автоматического\n"
+"обновления базы данных.\n"
+"\n"
+"С помощью фильтра категорий YouTube можно разрешать для просмотра только\n"
+"указанные вами категории.\n"
+"\n"
+"WWW: http://c-icap.sourceforge.net/\n"
+"WWW: https://www.clamav.net/\n"
+"\n"
+"Сопровождение: kekek2@ya.ru"
+
+
+# File: /usr/lang/src/controllers.php, line: 2428
+msgid "This will activate the YouTube categories filter service."
+msgstr "Это активирут службу фильтров категорий YouTube."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1408
+msgid "Main database"
+msgstr "Основная база"
+
+#
+# File: /usr/lang/src/controllers.php, line: 807
+msgid "Enable YouTube categories filter"
+msgstr "Включить фильтр категорий YouTube"
+
+#
+# File: /usr/lang/src/controllers.php, line: 617
+msgid "Daily updates"
+msgstr "Ежедневные обновления"
+
+#
+# File: /usr/lang/src/controllers.php, line: 475
+msgid "Bytecode"
+msgstr "Байткод"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cicap-clamav/src/etc/inc/plugins.inc.d/cicapclamav.inc, line: 37
+# File: /usr/plugins/devel/ting-plugin-cicap-clamav/src/etc/inc/plugins.inc.d/cicapclamav.inc, line: 86
+msgid "ICAP daemon"
+msgstr "Демон ICAP"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cicap-clamav/src/opnsense/mvc/app/views/SmartSoft/CicapClamav/index.volt, line: 38
+msgid "YouTube categories filter"
+msgstr "Фильтр категорий YouTube"
+
+#
+# File: /usr/plugins/devel/ting-plugin-cicap-clamav/src/opnsense/mvc/app/views/SmartSoft/CicapClamav/index.volt, line: 68
+msgid "List of allowed categories"
+msgstr "Список разрешённых категорий"
+
+#
+# File: /usr/lang/src/models.php, line: 95
+msgid "Antivirus Status"
+msgstr "Статус антивируса"
