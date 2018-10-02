@@ -1720,7 +1720,7 @@ msgstr "Сервера DTAG"
 #
 # File: /usr/lang/src/controllers.php, line: 319
 msgid "De-Jitter inbound packets in ms (default is disabled)."
-msgstr "De-Jitter входящих пакетов в мс (по умолчанию отключено)."
+msgstr "Недрожание входящих пакетов в мс (по умолчанию отключено)."
 
 #
 # File: /usr/lang/src/controllers.php, line: 320
@@ -1927,7 +1927,7 @@ msgstr "Включить SONMP"
 #
 # File: /usr/lang/src/controllers.php, line: 430
 msgid "Enable STUN plugin"
-msgstr "Включить плагин STUN"
+msgstr "Включить STUN"
 
 #
 # File: /usr/lang/src/controllers.php, line: 562
@@ -1962,7 +1962,7 @@ msgstr "Включить ведение журнала defaulttarget"
 #
 # File: /usr/lang/src/controllers.php, line: 456
 msgid "Enable defaulttarget plugin"
-msgstr "Включить плагин defaulttarget"
+msgstr "Включить defaulttarget"
 
 #
 # File: /usr/lang/src/controllers.php, line: 358
@@ -1980,17 +1980,17 @@ msgstr "Включить плагин fbox_anoncall_networks"
 #
 # File: /usr/lang/src/controllers.php, line: 461
 msgid "Enable fix_DTAG_networks plugin"
-msgstr "Включить плагин fix_DTAG_networks"
+msgstr "Включить fix_DTAG_networks"
 
 #
 # File: /usr/lang/src/controllers.php, line: 462
 msgid "Enable fix_bogus_via plugin"
-msgstr "Включить плагин fix_bogus_via"
+msgstr "Включить fix_bogus_via"
 
 #
 # File: /usr/lang/src/controllers.php, line: 581
 msgid "Enable global SSL default values."
-msgstr "Включить плагин global SSL default"
+msgstr "Включить global SSL default"
 
 #
 # File: /usr/lang/src/controllers.php, line: 606
@@ -2010,22 +2010,22 @@ msgstr "Включите журналирование плагина defaulttarg
 #
 # File: /usr/lang/src/controllers.php, line: 487
 msgid "Enable or disable the STUN plugin."
-msgstr "Включить или выключить плагин STUN"
+msgstr "Включить или выключить STUN"
 
 #
 # File: /usr/lang/src/controllers.php, line: 488
 msgid "Enable or disable the defaulttarget plugin."
-msgstr "Включить или выключить плагин defaulttarget"
+msgstr "Включить или выключить defaulttarget"
 
 #
 # File: /usr/lang/src/controllers.php, line: 489
 msgid "Enable or disable the fix_DTAG_networks plugin."
-msgstr "Включить или выключить плагин fix_DTAG_networks"
+msgstr "Включить или выключить fix_DTAG_networks"
 
 #
 # File: /usr/lang/src/controllers.php, line: 490
 msgid "Enable or disable the fix_bogus_via plugin."
-msgstr "Включить или выключить плагин fix_bogus_via"
+msgstr "Включить или выключить fix_bogus_via"
 
 #
 # File: /usr/lang/src/controllers.php, line: 632
@@ -2330,7 +2330,7 @@ msgid ""
 "Give here a list of networks to replace the VIA-Header. Default should fit "
 "for most situations."
 msgstr ""
-"Дайте здесь список сетей для замены заголовка VIA. Умолчания подходят для "
+"Задайте здесь список сетей для замены заголовка VIA. Умолчания подходят для "
 "большинства ситуаций."
 
 #
@@ -3227,7 +3227,7 @@ msgstr "Выравнивание интервала сбора до 'Интер�
 #
 # File: /usr/lang/src/controllers.php, line: 1123
 msgid "SIP listen port"
-msgstr "SIP слушает порт"
+msgstr "Порт, который слушает SIP"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1124

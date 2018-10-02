@@ -1373,7 +1373,7 @@ msgid ""
 "TCP frontends are not supported.</div>"
 msgstr ""
 "Включить автоматическую интеграцию с плагином OPNsense HAProxy. <b>Требуется "
-"установленный плагин OPNsense HAProxy.</b> Это позволит автоматически "
+"установленный плагин TING HAProxy.</b> Это позволит автоматически "
 "добавить необходимый бэкенд, сервер, действие и ACL. Вам только останется "
 "выбрать фронтенд HAProxy при настройке сертификата или метода валидации. "
 "<div class=\"text-info\"><b>ЗАМЕЧАНИЕ:</b>Это работает только "
@@ -1411,7 +1411,7 @@ msgstr "Включить службу clamd"
 #
 # File: /usr/lang/src/controllers.php, line: 355
 msgid "Enable contextswitch plugin"
-msgstr "Включить плагин contextswitch"
+msgstr "Включить contextswitch"
 
 #
 # File: /usr/lang/src/controllers.php, line: 356
@@ -1421,7 +1421,7 @@ msgstr "Включить плагин cpu"
 #
 # File: /usr/lang/src/controllers.php, line: 357
 msgid "Enable df plugin"
-msgstr "Включить плагин df"
+msgstr "Включить df"
 
 #
 # File: /usr/lang/src/controllers.php, line: 347
@@ -1436,7 +1436,7 @@ msgstr "Включить службу freshclam"
 #
 # File: /usr/lang/src/controllers.php, line: 360
 msgid "Enable graphite plugin"
-msgstr "Включить плагин graphite"
+msgstr "Включить graphite"
 
 #
 # File: /usr/lang/src/controllers.php, line: 363

@@ -6121,11 +6121,11 @@ msgstr "Интервал повторной передачи должен быт
 #
 # File: /usr/lang/src/models.php, line: 512
 msgid "Restart OPNsense Web UI"
-msgstr "Перезапустить Web-интерфейс OPNsense"
+msgstr "Перезапустить Web-интерфейс TING"
 
 #
 # File: /usr/lang/src/models.php, line: 511
-msgid "Restart HAProxy (OPNsense plugin)"
+msgid "Restart HAProxy (TING plugin)"
 msgstr "Перезапустить HAProxy"
 
 #
@@ -14354,7 +14354,7 @@ msgstr "Порт SIP для использования сервисом, по у
 #
 # File: /usr/lang/src/controllers.php, line: 1123
 msgid "SIP listen port"
-msgstr "SIP слушает порт"
+msgstr "Порт, который слушает SIP"
 
 #
 # File: /usr/lang/src/controllers.php, line: 1122
@@ -18551,7 +18551,7 @@ msgid ""
 "Give here a list of networks to replace the VIA-Header. Default should fit "
 "for most situations."
 msgstr ""
-"Дайте здесь список сетей для замены заголовка VIA. Умолчания подходят для "
+"Задайте здесь список сетей для замены заголовка VIA. Умолчания подходят для "
 "большинства ситуаций."
 
 #
@@ -20024,12 +20024,12 @@ msgstr "Включить, если все существующие и будущ
 #
 # File: /usr/lang/src/controllers.php, line: 360
 msgid "Enable graphite plugin"
-msgstr "Включить плагин graphite"
+msgstr "Включить graphite"
 
 #
 # File: /usr/lang/src/controllers.php, line: 581
 msgid "Enable global SSL default values."
-msgstr "Включить плагин global SSL default"
+msgstr "Включить global SSL default"
 
 #
 # File: /usr/lang/src/controllers.php, line: 386
@@ -20039,17 +20039,17 @@ msgstr "Включить службу freshclam"
 #
 # File: /usr/lang/src/controllers.php, line: 462
 msgid "Enable fix_bogus_via plugin"
-msgstr "Включить плагин fix_bogus_via"
+msgstr "Включить fix_bogus_via"
 
 #
 # File: /usr/lang/src/controllers.php, line: 461
 msgid "Enable fix_DTAG_networks plugin"
-msgstr "Включить плагин fix_DTAG_networks"
+msgstr "Включить fix_DTAG_networks"
 
 #
 # File: /usr/lang/src/controllers.php, line: 460
 msgid "Enable fbox_anoncall_networks plugin"
-msgstr "Включить плагин fbox_anoncall_networks"
+msgstr "Включить fbox_anoncall_networks"
 
 #
 # File: /usr/lang/src/controllers.php, line: 347
@@ -20067,12 +20067,12 @@ msgstr ""
 #
 # File: /usr/lang/src/controllers.php, line: 357
 msgid "Enable df plugin"
-msgstr "Включить плагин df"
+msgstr "Включить df"
 
 #
 # File: /usr/lang/src/controllers.php, line: 456
 msgid "Enable defaulttarget plugin"
-msgstr "Включить плагин defaulttarget"
+msgstr "Включить defaulttarget"
 
 #
 # File: /usr/lang/src/controllers.php, line: 455
@@ -20087,7 +20087,7 @@ msgstr "Включить плагин cpu"
 #
 # File: /usr/lang/src/controllers.php, line: 355
 msgid "Enable contextswitch plugin"
-msgstr "Включить плагин contextswitch"
+msgstr "Включить contextswitch"
 
 #
 # File: /usr/lang/src/controllers.php, line: 380
@@ -20137,7 +20137,7 @@ msgid ""
 "TCP frontends are not supported.</div>"
 msgstr ""
 "Включить автоматическую интеграцию с плагином OPNsense HAProxy. <b>Требуется "
-"установленный плагин OPNsense HAProxy.</b> Это позволит автоматически "
+"установленный плагин TING HAProxy.</b> Это позволит автоматически "
 "добавить необходимый бэкенд, сервер, действие и ACL. Вам только останется "
 "выбрать фронтенд HAProxy при настройке сертификата или метода валидации. "
 "<div class=\"text-info\"><b>ЗАМЕЧАНИЕ:</b>Это работает только для HTTP-01 "
@@ -20266,7 +20266,7 @@ msgstr "Включить локального ShadowSocks"
 #
 # File: /usr/lang/src/controllers.php, line: 430
 msgid "Enable STUN plugin"
-msgstr "Включить плагин STUN"
+msgstr "Включить STUN"
 
 # File: /usr/lang/src/controllers.php, line: 72
 msgid "Enable SSL offloading"
@@ -21245,7 +21245,7 @@ msgstr "De-Jitter исходящих пакетов в мс (по умолчан
 #
 # File: /usr/lang/src/controllers.php, line: 319
 msgid "De-Jitter inbound packets in ms (default is disabled)."
-msgstr "De-Jitter входящих пакетов в мс (по умолчанию отключено)."
+msgstr "Недрожание входящих пакетов в мс (по умолчанию отключено)."
 
 # File: /usr/lang/src/controllers.php, line: 170
 msgid "Days of the week"
@@ -26092,19 +26092,19 @@ msgstr "UPnP отключен."
 
 # File: /usr/core/src/www/services_upnp.php, line: 343
 msgid "Set 4"
-msgstr "Установить значение этого параметра равным 4"
+msgstr "Пользовательское правило 4"
 
 # File: /usr/core/src/www/services_upnp.php, line: 334
 msgid "Set 3"
-msgstr "Установить значение этого параметра равным 3"
+msgstr "Пользовательское правило 3"
 
 # File: /usr/core/src/www/services_upnp.php, line: 325
 msgid "Set 2"
-msgstr "Установить значение этого параметра равным 2"
+msgstr "Пользовательское правило 2"
 
 # File: /usr/core/src/www/services_upnp.php, line: 320
 msgid "Example: allow 1024-65535 192.168.0.0/24 1024-65535"
-msgstr "Например: разрешить 1024-65535 192.168.0.0/24 1024-65535"
+msgstr "Например: allow 1024-65535 192.168.0.0/24 1024-65535"
 
 # File: /usr/core/src/www/services_upnp.php, line: 319
 # File: /usr/core/src/www/services_upnp.php, line: 329
@@ -26119,7 +26119,7 @@ msgstr ""
 
 # File: /usr/core/src/www/services_upnp.php, line: 315
 msgid "Set 1"
-msgstr "Установить значение этого параметра равным 1"
+msgstr "Пользовательское правило 1"
 
 # File: /usr/core/src/www/services_upnp.php, line: 310
 msgid "User specified permissions"
@@ -26178,7 +26178,7 @@ msgstr "Локальный хост"
 
 # File: /usr/core/src/www/services_upnp.php, line: 229
 msgid "Interfaces (generally LAN)"
-msgstr "Интерфейсы (обычно LAN)"
+msgstr "Внутренний интерфейс"
 
 # File: /usr/core/src/www/services_upnp.php, line: 224
 msgid ""

@@ -773,17 +773,17 @@ msgstr "Веб-служба TING (автоматическое перенапр�
 #
 # File: /usr/lang/src/models.php, line: 235
 msgid "HAProxy HTTP Frontend Integration (OPNsense plugin)"
-msgstr "HAProxy HTTP Frontend Integration (OPNsense plugin)"
+msgstr "HAProxy HTTP Frontend Integration (TING plugin)"
 
 #
 # File: /usr/lang/src/models.php, line: 512
 msgid "Restart OPNsense Web UI"
-msgstr "Перезапустить Web-интерфейс OPNsense"
+msgstr "Перезапустить Web-интерфейс TING"
 
 #
 # File: /usr/lang/src/models.php, line: 511
 msgid "Restart HAProxy (OPNsense plugin)"
-msgstr "Перезапустить HAProxy (OPNsense-плагин)"
+msgstr "Перезапустить HAProxy (TING-плагин)"
 
 #
 # File: /usr/lang/src/models.php, line: 622
