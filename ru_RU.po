@@ -6125,8 +6125,8 @@ msgstr "Перезапустить Web-интерфейс TING"
 
 #
 # File: /usr/lang/src/models.php, line: 511
-msgid "Restart HAProxy (TING plugin)"
-msgstr "Перезапустить HAProxy"
+msgid "Restart HAProxy (OPNsense plugin)"
+msgstr "Перезапустить HAProxy (TING-плагин)"
 
 #
 # File: /usr/lang/src/models.php, line: 509
