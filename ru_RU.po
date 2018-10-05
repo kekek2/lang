@@ -39600,7 +39600,7 @@ msgstr ""
 # File: /usr/core/src/www/interfaces.php, line: 2366
 #, php-format
 msgid "You can manage Gateways %shere%s."
-msgstr "Вы можете управлять шлюзами %здесь%s."
+msgstr "Вы можете управлять шлюзами %sздесь%s."
 
 # File: /usr/core/src/www/interfaces.php, line: 1925
 # File: /usr/core/src/www/interfaces.php, line: 2450
