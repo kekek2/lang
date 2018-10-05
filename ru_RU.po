@@ -779,7 +779,7 @@ msgstr "Подтверждение пароля администратора"
 #
 # File: /usr/lang/src/wizards.php, line: 223
 msgid "Root Password"
-msgstr "Пароль алминистратора"
+msgstr "Пароль администратора"
 
 #
 # File: /usr/lang/src/wizards.php, line: 256
