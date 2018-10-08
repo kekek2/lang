@@ -54155,3 +54155,9 @@ msgstr "Список разрешённых категорий"
 # File: /usr/lang/src/models.php, line: 95
 msgid "Antivirus Status"
 msgstr "Статус антивируса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 815
+msgid "Enable antivirus service"
+msgstr "Включить службу антивируса"
+

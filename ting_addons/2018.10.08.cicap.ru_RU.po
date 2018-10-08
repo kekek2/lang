@@ -1,0 +1,5 @@
+#
+# File: /usr/lang/src/controllers.php, line: 815
+msgid "Enable antivirus service"
+msgstr "Включить службу антивируса"
+
