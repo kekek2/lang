@@ -54161,3 +54161,8 @@ msgstr "Статус антивируса"
 msgid "Enable antivirus service"
 msgstr "Включить службу антивируса"
 
+#
+# File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 439
+msgid "Destination domains"
+msgstr "Домены"
+
