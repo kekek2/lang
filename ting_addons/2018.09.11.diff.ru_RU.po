@@ -1658,7 +1658,7 @@ msgstr "запись журнала"
 # File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 506
 # File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 541
 # File: /usr/plugins/devel/ting-plugin-proxy-useracl/src/opnsense/mvc/app/views/SmartSoft/ProxyUserACL/index.volt, line: 578
-msgid "The list can be used in rules."
+msgid "Use this lists in ACL rules."
 msgstr "Список может использоваться в правилах."
 
 #
