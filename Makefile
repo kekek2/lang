@@ -50,6 +50,7 @@ LANGUAGES+=	zh_CN
 
 PLUGINSDIR?=	/usr/plugins
 COREDIR?=	/usr/core
+ALTCOREDIR?=	/usr/core.fstec
 LANGDIR?=	/usr/lang
 
 TEMPLATE=	en_US
@@ -96,7 +97,7 @@ PLUGINSDIRS=	${_PLUGINSDIRS:S/^/${PLUGINSDIR}\//g}
 ${TEMPLATE}:
 	@cp ${.CURDIR}/Volt.pm ${PERL_DIR}/${PERL_NAME}/
 	@: > ${TEMPLATE}.pot
-.for ROOTDIR in ${PLUGINSDIRS} ${COREDIR} ${LANGDIR}
+.for ROOTDIR in ${PLUGINSDIRS} ${COREDIR} ${ALTCOREDIR} ${LANGDIR}
 	@if [ -d ${ROOTDIR}/src ]; then \
 		echo ">>> Scanning ${ROOTDIR}"; \
 		${XGETTEXT_PL} -D ${ROOTDIR}/src -p ${.CURDIR} -o ${TEMPLATE}.pot; \
@@ -113,6 +114,6 @@ merge: ${MERGE}
 test: ${TEST}
 
 src:
-	@${.CURDIR}/scripts/collect.py ${PLUGINSDIRS} ${COREDIR}
+	@${.CURDIR}/scripts/collect.py ${PLUGINSDIRS} ${COREDIR} ${ALTCOREDIR}
 
 .PHONY: ${INSTALL} ${MERGE} ${TEMPLATE} src
