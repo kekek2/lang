@@ -96,7 +96,7 @@ msgstr "Показать второй строкой"
 #
 # File: /usr/lang/src/models.php, line: 718
 msgid "bit/s"
-msgstr ",ит/с"
+msgstr "бит/с"
 
 #
 # File: /usr/lang/src/models.php, line: 779
