@@ -37148,7 +37148,7 @@ msgstr ""
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 444
 msgid "sid"
-msgstr "универсальный идентификатор группы в домене"
+msgstr "sid"
 
 # File: src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 447
 msgid "ClassType"
@@ -37156,7 +37156,7 @@ msgstr "Тип класса"
 
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 540
 msgid "Info / Enabled"
-msgstr "Информация / включен"
+msgstr "Ещё / включен"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/IDS/index.volt, line: 848
