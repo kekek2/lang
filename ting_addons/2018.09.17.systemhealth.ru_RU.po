@@ -91,7 +91,7 @@ msgstr "мобильная сеть"
 #
 # File: /usr/core/src/etc/inc/rrd.inc, line: 62
 msgid "vpnusers"
-msgstr "полдьзователи VPN"
+msgstr "пользователи VPN"
 
 #
 # File: /usr/core/src/etc/inc/rrd.inc, line: 63
