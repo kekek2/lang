@@ -1,0 +1,3677 @@
+#
+# File: /usr/lang/src/plugin_descr.php, line: 1216
+msgid ""
+"vnStat is a console-based network traffic monitor\n"
+"\n"
+"vnStat is a console-based network traffic monitor for Linux\n"
+"and BSD that keeps a log of network traffic for the selected\n"
+"interface(s). It uses the network interface statistics\n"
+"provided by the kernel as information source. This means\n"
+"that vnStat won't actually be sniffing any traffic and also\n"
+"ensures light use of system resources.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.1\n"
+"\n"
+"* Add button to remove database\n"
+"* Make database persistent in MFS installations\n"
+"\n"
+"1.0\n"
+"\n"
+"* Initial release\n"
+"\n"
+"\n"
+"WWW: https://humdi.net/vnstat/\n"
+"\n"
+"Maintainer: m.muenz@gmail.com"
+msgstr ""
+"vnStat - это консольный монитор сетевого трафика\n"
+"\n"
+"vnStat-это консольный монитор сетевого трафика для Linux\n"
+"и BSD, который ведет журнал сетевого трафика для выбранного\n"
+"интерфейс(ов). Он использует статистику сетевого интерфейса\n"
+"предоставляемую ядром в качестве источника информации. При этом\n"
+"vnStat на самом деле не будет анализировать трафик, а также\n"
+"обеспечивает легкое использование системных ресурсов.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.1\n"
+"\n"
+"* Add button to remove database\n"
+"* Make database persistent in MFS installations\n"
+"\n"
+"1.0\n"
+"\n"
+"* Initial release\n"
+"\n"
+"\n"
+"WWW: https://humdi.net/vnstat/\n"
+"\n"
+"Сопровождение: m.muenz@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 1084
+msgid ""
+"Traffic Analysis and Flow Collection\n"
+"\n"
+"ntopng is the next generation version of the original ntop,\n"
+"a network traffic probe that monitors network usage. ntopng\n"
+"is based on libpcap and it has been written in a portable\n"
+"way in order to virtually run on every Unix platform, MacOSX\n"
+"and on Windows as well.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.2\n"
+"\n"
+"* Changed data directory to avoid warning\n"
+"* Make data directory persistant in MFS environments\n"
+"\n"
+"1.1\n"
+"\n"
+"* Add HTTPS support\n"
+"\n"
+"1.0\n"
+"\n"
+"* Allow to set a HTTP port\n"
+"* Allow user how to handle reverse lookups in ntopng\n"
+"\n"
+"\n"
+"WWW: https://www.ntop.org/products/traffic-analysis/ntop/\n"
+"\n"
+"Maintainer: m.muenz@gmail.com"
+msgstr ""
+"Анализ трафика и сбор потоков\n"
+"\n"
+"ntopng - это версия исходного ntop следующего поколения, анализатор\n"
+"сетевого трафика, который отслеживает использование сети. ntopng\n"
+"основан на libpcap, и он был написан переносимым, чтобы работать на\n"
+"платформе Unix, MacOSX и Windows.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.2\n"
+"\n"
+"* Changed data directory to avoid warning\n"
+"* Make data directory persistant in MFS environments\n"
+"\n"
+"1.1\n"
+"\n"
+"* Add HTTPS support\n"
+"\n"
+"1.0\n"
+"\n"
+"* Allow to set a HTTP port\n"
+"* Allow user how to handle reverse lookups in ntopng\n"
+"\n"
+"\n"
+"WWW: https://www.ntop.org/products/traffic-analysis/ntop/\n"
+"\n"
+"Сопровождение: m.muenz@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 1005
+msgid ""
+"The FRRouting Protocol Suite\n"
+"\n"
+"FRRouting (FRR) is an IP routing protocol suite for Linux and Unix\n"
+"platforms which includes protocol daemons for BGP, IS-IS, LDP, OSPF,\n"
+"PIM, and RIP.\n"
+"\n"
+"FRR's seamless integration with the native Linux/Unix IP networking stacks\n"
+"makes it applicable to a wide variety of use cases including connecting\n"
+"hosts/VMs/containers to the network, advertising network services, LAN\n"
+"switching and routing, Internet access routers, and Internet peering.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.9\n"
+"\n"
+"* Allow usage of VTI IPSec interfaces\n"
+"\n"
+"1.8\n"
+"\n"
+"* Add area range in OSPF config\n"
+"\n"
+"\n"
+"WWW: https://frrouting.org/\n"
+"\n"
+"Maintainer: franz.fabian.94@gmail.com"
+msgstr ""
+"Набор Протоколов FRRouting\n"
+"\n"
+"FRRouting (FRR) - это набор протоколов IP-маршрутизации для платформ Linux\n"
+"и Unix, который включает в себя демоны протоколв BGP, IS-IS, LDP, OSPF, PIM "
+"и RIP.\n"
+"\n"
+"FRR-это бесшовная интеграция с родным стэком IP сетей Linux/Unix, позволяет\n"
+"применять для широкого спектра задач, включая подключения хостов/виртуальных "
+"машин/контейнеров\n"
+"к сети, расширенная сеть, сервисы, сети коммутации и маршрутизации, Интернет-"
+"маршрутизаторы\n"
+"и Интернет-пиринга.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.9\n"
+"\n"
+"* Allow usage of VTI IPSec interfaces\n"
+"\n"
+"1.8\n"
+"\n"
+"* Add area range in OSPF config\n"
+"\n"
+"\n"
+"WWW: https://frrouting.org/\n"
+"\n"
+"Сопровождение: franz.fabian.94@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 895
+msgid ""
+"SMTP mail relay\n"
+"\n"
+"Postfix attempts to be fast, easy to administer, and secure.\n"
+"The outside has a definite Sendmail-ish flavor, but the inside\n"
+"is completely different.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.9\n"
+"\n"
+"* Allow HA config sync via XMLRPC\n"
+"\n"
+"1.8\n"
+"\n"
+"* Add TLS Wrapper to support SMTPS\n"
+"\n"
+"1.7\n"
+"\n"
+"* Add Address Rewriting, allows to rewrite e.g. @example.com to @example."
+"net.\n"
+"* Add Sender BCC and Recipient BCC.\n"
+"* Allow Domain Masquerading when using internal domain names.\n"
+"\n"
+"1.6\n"
+"\n"
+"* Fixed typos\n"
+"* Adds Listen Port field\n"
+"\n"
+"1.5\n"
+"\n"
+"* Allow empty destination in transport\n"
+"\n"
+"1.4\n"
+"\n"
+"* Allow enforced receipient check\n"
+"\n"
+"1.3\n"
+"\n"
+"* Allow more options in Senders and Recipients setting\n"
+"\n"
+"1.2\n"
+"\n"
+"* Updated relay_host validation\n"
+"\n"
+"1.1\n"
+"\n"
+"* Add smart host field\n"
+"* Add SMTP authentication\n"
+"\n"
+"1.0\n"
+"\n"
+"* Initial release\n"
+"\n"
+"\n"
+"WWW: http://www.postfix.org/\n"
+"\n"
+"Maintainer: m.muenz@gmail.com"
+msgstr ""
+"SMTP ретранслятор\n"
+"\n"
+"Postfix призван быть быстрым, лёгким в управлении, и безопасным.\n"
+"Внешняя сторона определена по образу Sendmail, но внутри \n"
+"они абсолютно разные.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.9\n"
+"\n"
+"* Allow HA config sync via XMLRPC\n"
+"\n"
+"1.8\n"
+"\n"
+"* Add TLS Wrapper to support SMTPS\n"
+"\n"
+"1.7\n"
+"\n"
+"* Add Address Rewriting, allows to rewrite e.g. @example.com to @example."
+"net.\n"
+"* Add Sender BCC and Recipient BCC.\n"
+"* Allow Domain Masquerading when using internal domain names.\n"
+"\n"
+"1.6\n"
+"\n"
+"* Fixed typos\n"
+"* Adds Listen Port field\n"
+"\n"
+"1.5\n"
+"\n"
+"* Allow empty destination in transport\n"
+"\n"
+"1.4\n"
+"\n"
+"* Allow enforced receipient check\n"
+"\n"
+"1.3\n"
+"\n"
+"* Allow more options in Senders and Recipients setting\n"
+"\n"
+"1.2\n"
+"\n"
+"* Updated relay_host validation\n"
+"\n"
+"1.1\n"
+"\n"
+"* Add smart host field\n"
+"* Add SMTP authentication\n"
+"\n"
+"1.0\n"
+"\n"
+"* Initial release\n"
+"\n"
+"\n"
+"WWW: http://www.postfix.org/\n"
+"\n"
+"Сопровождение: m.muenz@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 812
+msgid ""
+"Real-time performance monitoring\n"
+"\n"
+"Netdata is distributed, real-time, performance and health monitoring\n"
+"for systems and applications. It is a highly optimized monitoring agent\n"
+"you install on all your systems and containers.\n"
+"\n"
+"Netdata provides unparalleled insights, in real-time, of everything\n"
+"happening on the systems it runs (including web servers, databases,\n"
+"applications), using highly interactive web dashboards.\n"
+"\n"
+"WWW: https://github.com/netdata/netdata\n"
+"\n"
+"Maintainer: m.muenz@gmail.com"
+msgstr ""
+"Мониторинг производительности в реальном времени\n"
+"\n"
+"Netdata - это распределенный в реальном времени мониторинг производительности\n"
+"и работоспособности систем и приложений. Это высоко оптимизированный агент\n"
+"мониторинга, устанавливаемый на все системы и контейнеры.\n"
+"\n"
+"Netdata предоставляет беспрецедентную информацию в режиме реального времени\n"
+"обо всем, что происходит в системах, на которых он запускается (включая\n"
+"веб-серверы, базы данных, приложения), используя высокоинтерактивные веб-панели\n"
+"мониторинга.\n"
+"\n"
+"WWW: https://github.com/netdata/netdata\n"
+"\n"
+"Сопровождение: m.muenz@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 811
+msgid "Real-time performance monitoring"
+msgstr "Мониторинг производительности в реальном времени"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 776
+msgid ""
+"RADIUS Authentication, Authorization and Accounting Server\n"
+"\n"
+"FreeRADIUS includes a RADIUS server, a BSD licensed client library, a\n"
+"PAM library, and an Apache module. In most cases, the word FreeRADIUS\n"
+"refers to the RADIUS server.\n"
+"\n"
+"FreeRADIUS is the most widely deployed RADIUS server in the world. It\n"
+"is the basis for multiple commercial offerings. It supplies the AAA\n"
+"needs of many Fortune-500 companies and Tier 1 ISPs.\n"
+"\n"
+"It is also widely used for Enterprise Wi-Fi and IEEE 802.1X network\n"
+"security, particularly in the academic community, including eduroam.\n"
+"\n"
+"The server is fast, feature-rich, modular, and scalable.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.9.0\n"
+"\n"
+"* Add DHCP support, serving only for DHCP relays\n"
+"* Allow usage of remote MySQL server\n"
+"* Rework service status UI\n"
+"\n"
+"\n"
+"WWW: https://www.freeradius.org\n"
+"\n"
+"Maintainer: m.muenz@gmail.com"
+msgstr ""
+"RADIUS сервер аутентификации, авторизации и аккаунтинга\n"
+"\n"
+"FreeRADIUS включает сервер RADIUS, клиентскую библиотеку под лицензией "
+"BSD, \n"
+"PAM-библиотеку, и модуль для Apache. В большинстве случаев, слово "
+"FreeRADIUS\n"
+"отсылает к серверу RADIUS.\n"
+"\n"
+"FreeRADIUS наиболее широко распространённый RADIUS-сервер в мире. Он\n"
+"является базисом многих коммерческих решений. Он обеспечивает потребности "
+"AAA\n"
+"многих компаний из списка Fortune-500 и 1 ярус ISP.\n"
+"\n"
+"Он также широко используется для Enterprise Wi-Fi и сетей с IEEE 802.1X \n"
+"безопасностью, в частности в академических обществах, включая "
+"образовательные сети.\n"
+"\n"
+"Сервер быстрый, с богатым функционалом, модульный, и масштабируемый.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.9.0\n"
+"\n"
+"* Add DHCP support, serving only for DHCP relays\n"
+"* Allow usage of remote MySQL server\n"
+"* Rework service status UI\n"
+"\n"
+"\n"
+"WWW: https://www.freeradius.org\n"
+"\n"
+"Сопровождение: m.muenz@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 743
+msgid ""
+"Protect your network from spam\n"
+"\n"
+"Rspamd is fast, modular and lightweight spam filter. It is designed to work\n"
+"with big amount of mail and can be easily extended with own filters written "
+"in\n"
+"lua.\n"
+"\n"
+"Plugin Changelog\n"
+"----------------\n"
+"\n"
+"1.5\n"
+"\n"
+"* Add whitelisting to Graylist section\n"
+"\n"
+"Maintainer: franz.fabian.94@gmail.com"
+msgstr ""
+"Защита сети от спама\n"
+"\n"
+"Rspamd - это быстрый, модульный и легковесный спам-фильтр. Он спроектирован "
+"для\n"
+"работы с большим количеством почты и может быть легко расширен собственными "
+"фильтрами, написанными на\n"
+"lua.\n"
+"\n"
+"Plugin Changelog\n"
+"----------------\n"
+"\n"
+"1.5\n"
+"\n"
+"* Add whitelisting to Graylist section\n"
+"\n"
+"Сопровождение: franz.fabian.94@gmail.com"
+
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 639
+msgid ""
+"OpenConnect Client\n"
+"\n"
+"OpenConnect is an SSL VPN client initially created to support\n"
+"Cisco's AnyConnect SSL VPN. It has since been ported to support\n"
+"the Juniper SSL VPN which is now known as Pulse Connect Secure.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.3.3\n"
+"\n"
+"* Enhance allowed characters in group name\n"
+"\n"
+"1.3.2\n"
+"\n"
+"* Reworked init script to better handle SIGINT\n"
+"\n"
+"1.3.1\n"
+"\n"
+"* Add non-inter option to config\n"
+"\n"
+"1.3\n"
+"\n"
+"* Add group separation\n"
+"* Allow client certificate based authentication\n"
+"\n"
+"1.2\n"
+"\n"
+"* Allow @ in user name\n"
+"* Allow upper case characters user name\n"
+"\n"
+"1.1\n"
+"\n"
+"* Add field to allow untrusted certificates via certificate hash string\n"
+"\n"
+"1.0\n"
+"\n"
+"* Initial release\n"
+"\n"
+"\n"
+"WWW: http://www.infradead.org/openconnect/\n"
+"\n"
+"Maintainer: m.muenz@gmail.com"
+msgstr ""
+"Клиент OpenConnect\n"
+"\n"
+"OpenConnect изначально является SSL-VPN-клиентом, который создан\n"
+"для поддержки компании Cisco AnyConnect VPN с шифрованием SSL.\n"
+"С тех пор он был портирован на поддержку Juniper SSL VPN, который\n"
+"ейчас известен как Pulse Connect Secure.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.3.3\n"
+"\n"
+"* Enhance allowed characters in group name\n"
+"\n"
+"1.3.2\n"
+"\n"
+"* Reworked init script to better handle SIGINT\n"
+"\n"
+"1.3.1\n"
+"\n"
+"* Add non-inter option to config\n"
+"\n"
+"1.3\n"
+"\n"
+"* Add group separation\n"
+"* Allow client certificate based authentication\n"
+"\n"
+"1.2\n"
+"\n"
+"* Allow @ in user name\n"
+"* Allow upper case characters user name\n"
+"\n"
+"1.1\n"
+"\n"
+"* Add field to allow untrusted certificates via certificate hash string\n"
+"\n"
+"1.0\n"
+"\n"
+"* Initial release\n"
+"\n"
+"\n"
+"WWW: http://www.infradead.org/openconnect/\n"
+"\n"
+"Сопровождение: m.muenz@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 520
+msgid ""
+"Nginx HTTP server and reverse proxy\n"
+"\n"
+"NGINX is a high performance edge web server with the lowest memory "
+"footprint\n"
+"and the key features to build modern and efficient web infrastructure.\n"
+"\n"
+"NGINX functionality includes HTTP server, HTTP and mail reverse proxy, "
+"caching,\n"
+"load balancing, compression, request throttling, connection multiplexing "
+"and\n"
+"reuse, SSL offload and HTTP media streaming.\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.11\n"
+"\n"
+"* add VTS(1) module for traffic status reports\n"
+"* fix HSTS bug\n"
+"* add extended log format (contributed by Josh Wiles)\n"
+"\n"
+"(1) https://github.com/vozlt/nginx-module-vts\n"
+"\n"
+"1.10\n"
+"\n"
+"* fix content security settings (missing checkbox, correct templating)\n"
+"\n"
+"1.9\n"
+"\n"
+"* add advanced options to configure hostname hash sizes for long hostnames\n"
+"\n"
+"1.8\n"
+"\n"
+"* update lodash to v4.17.11\n"
+"* Breaking: remove the WAF policy match type \"=\" as it is not supported "
+"(if you have them in use, unlink and delete them before installing this "
+"update)\n"
+"* allow plugins via include hooks\n"
+"* Breaking: the enabled flag in the general setting now works (en- or "
+"disables all vhosts in the plugin itself, but always serves plugins). "
+"Default was false so make sure you have it enabled before upgrade.\n"
+"* Alias support for downstream proxies (trust setting)\n"
+"* bugfix: deleting IP ACL\n"
+"* HSTS not sent automatically anymore if HTTP over TLS is configured (still "
+"available via security header)\n"
+"* add configuration directives for timeouts to location\n"
+"\n"
+"1.7\n"
+"\n"
+"* bugfix: create log directory if it is missing\n"
+"* reorder menu\n"
+"\n"
+"1.6\n"
+"\n"
+"* fix bug due to permission downgrade (basic auth)\n"
+"* fix bug when multiple hostnames are used, that the logs are not displayed "
+"in the log viewer\n"
+"* add paging support to log viewer, so it does not crash on really big log "
+"files\n"
+"* add basic TLS fingerprint check to make man in the middle attacks visible "
+"(may not fully work on LibreSSL crypto flavour as curves seem to return an "
+"empty string)\n"
+"* add dropdown to select authentication backend in HTTP server for advanced "
+"authentication\n"
+"* add global error log to log viewer\n"
+"* use stricter checks for internal locations (contributed by Northguy)\n"
+"\n"
+"1.5\n"
+"\n"
+"* Add proxy options for ignore client abort and disabling buffering\n"
+"* Add logviewer support for streams\n"
+"* Fix charset is not defined bug (contributed by ccesario [1])\n"
+"* Add an existence check for locations\n"
+"* Add PROXY protocol for HTTP and Streams frontend\n"
+"* Add PROXY backend support for Streams\n"
+"* Add support for better whitelist rules in the WAF\n"
+"\n"
+"[1] https://github.com/opnsense/plugins/pull/1035\n"
+"\n"
+"1.4 (Development only)\n"
+"\n"
+"* move upstreams from HTTP to their own menu because they are used for TCP "
+"load balancing as well\n"
+"* add TCP load balancing [1]\n"
+"* add support for IP based ACLs\n"
+"* add log rotation (contributed by Julius Cesar Camargo [2])\n"
+"* add support for satisfy, body size limitation\n"
+"* change: allow to disable internal bot protection (contributed by @fzoske) "
+"[3]\n"
+"* change: do not save when no change in the list happened to prevent filling "
+"the log history\n"
+"* fix: translate a german string in upstream server to english\n"
+"* replace headers instead of just adding our own (duplication issue #971), "
+"suppress X-Powered-By from Upstream [4]\n"
+"\n"
+"[1] https://github.com/opnsense/plugins/pull/930\n"
+"[2] https://github.com/opnsense/plugins/pull/982\n"
+"[3] https://github.com/opnsense/plugins/pull/934\n"
+"[4] https://github.com/opnsense/plugins/issues/971\n"
+"\n"
+"1.3\n"
+"\n"
+"* bugfix: correctly set upstream header\n"
+"\n"
+"1.2\n"
+"\n"
+"* add limiter support\n"
+"* add permanent ban feature (use alias in firewall rules)\n"
+"* add caching feature (local file system)\n"
+"* add path prefix support (contributed by @ccesario )\n"
+"* add port to upstream server table\n"
+"* add support to download waf rules\n"
+"* improvement: export full chain instead of only the server certificate "
+"(fixes some issues with some tools which need it)\n"
+"* web interface (allow HTTP/2 server push to increase performance)\n"
+"* support for (secure) web sockets in reverse proxy mode\n"
+"* bugfix: fix issues with multiple hostnames (IPv6 issues with TLS SNI by "
+"@ccesario )\n"
+"* bugfix: warning in certificate rendering\n"
+"\n"
+"1.1\n"
+"\n"
+"* add log viewer\n"
+"\n"
+"1.0\n"
+"\n"
+"* add Reverse Proxy (Load Balancer)\n"
+"* add Location Configuration\n"
+"* add local HTTP Server\n"
+"* add local PHP support\n"
+"* add experimental support to handle the web interface (can only be enabled "
+"via CLI)\n"
+"* add WAF (NAXSI) support\n"
+"* add Authentication support\n"
+"\n"
+"WWW: https://nginx.org/\n"
+"\n"
+"Maintainer: franz.fabian.94@gmail.com"
+msgstr ""
+"Nginx сервер HTTP and обратный прокси\n"
+"\n"
+"NGINX-это высокопроизводительный пограничный веб-сервер, использующий "
+"наименьший объемом\n"
+"памяти и ключевыми особенностями для создания современной и эффективной веб-"
+"инфраструктуры.\n"
+"Функциональность NGINX включает HTTP-сервер, HTTP и почтовый обратный "
+"прокси, кэширование,\n"
+"балансировка нагрузки, сжатие, регулирование запросов, мультиплексирование "
+"соединений и\n"
+"повторное использование, разгрузка SSL и потоковая передача мультимедиа "
+"HTTP.\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.11\n"
+"\n"
+"* add VTS(1) module for traffic status reports\n"
+"* fix HSTS bug\n"
+"* add extended log format (contributed by Josh Wiles)\n"
+"\n"
+"(1) https://github.com/vozlt/nginx-module-vts\n"
+"\n"
+"1.10\n"
+"\n"
+"* fix content security settings (missing checkbox, correct templating)\n"
+"\n"
+"1.9\n"
+"\n"
+"* add advanced options to configure hostname hash sizes for long hostnames\n"
+"\n"
+"1.8\n"
+"\n"
+"* update lodash to v4.17.11\n"
+"* Breaking: remove the WAF policy match type \"=\" as it is not supported "
+"(if you have them in use, unlink and delete them before installing this "
+"update)\n"
+"* allow plugins via include hooks\n"
+"* Breaking: the enabled flag in the general setting now works (en- or "
+"disables all vhosts in the plugin itself, but always serves plugins). "
+"Default was false so make sure you have it enabled before upgrade.\n"
+"* Alias support for downstream proxies (trust setting)\n"
+"* bugfix: deleting IP ACL\n"
+"* HSTS not sent automatically anymore if HTTP over TLS is configured (still "
+"available via security header)\n"
+"* add configuration directives for timeouts to location\n"
+"\n"
+"1.7\n"
+"\n"
+"* bugfix: create log directory if it is missing\n"
+"* reorder menu\n"
+"\n"
+"1.6\n"
+"\n"
+"* fix bug due to permission downgrade (basic auth)\n"
+"* fix bug when multiple hostnames are used, that the logs are not displayed "
+"in the log viewer\n"
+"* add paging support to log viewer, so it does not crash on really big log "
+"files\n"
+"* add basic TLS fingerprint check to make man in the middle attacks visible "
+"(may not fully work on LibreSSL crypto flavour as curves seem to return an "
+"empty string)\n"
+"* add dropdown to select authentication backend in HTTP server for advanced "
+"authentication\n"
+"* add global error log to log viewer\n"
+"* use stricter checks for internal locations (contributed by Northguy)\n"
+"\n"
+"1.5\n"
+"\n"
+"* Add proxy options for ignore client abort and disabling buffering\n"
+"* Add logviewer support for streams\n"
+"* Fix charset is not defined bug (contributed by ccesario [1])\n"
+"* Add an existence check for locations\n"
+"* Add PROXY protocol for HTTP and Streams frontend\n"
+"* Add PROXY backend support for Streams\n"
+"* Add support for better whitelist rules in the WAF\n"
+"\n"
+"[1] https://github.com/opnsense/plugins/pull/1035\n"
+"\n"
+"1.4 (Development only)\n"
+"\n"
+"* move upstreams from HTTP to their own menu because they are used for TCP "
+"load balancing as well\n"
+"* add TCP load balancing [1]\n"
+"* add support for IP based ACLs\n"
+"* add log rotation (contributed by Julius Cesar Camargo [2])\n"
+"* add support for satisfy, body size limitation\n"
+"* change: allow to disable internal bot protection (contributed by @fzoske) "
+"[3]\n"
+"* change: do not save when no change in the list happened to prevent filling "
+"the log history\n"
+"* fix: translate a german string in upstream server to english\n"
+"* replace headers instead of just adding our own (duplication issue #971), "
+"suppress X-Powered-By from Upstream [4]\n"
+"\n"
+"[1] https://github.com/opnsense/plugins/pull/930\n"
+"[2] https://github.com/opnsense/plugins/pull/982\n"
+"[3] https://github.com/opnsense/plugins/pull/934\n"
+"[4] https://github.com/opnsense/plugins/issues/971\n"
+"\n"
+"1.3\n"
+"\n"
+"* bugfix: correctly set upstream header\n"
+"\n"
+"1.2\n"
+"\n"
+"* add limiter support\n"
+"* add permanent ban feature (use alias in firewall rules)\n"
+"* add caching feature (local file system)\n"
+"* add path prefix support (contributed by @ccesario )\n"
+"* add port to upstream server table\n"
+"* add support to download waf rules\n"
+"* improvement: export full chain instead of only the server certificate "
+"(fixes some issues with some tools which need it)\n"
+"* web interface (allow HTTP/2 server push to increase performance)\n"
+"* support for (secure) web sockets in reverse proxy mode\n"
+"* bugfix: fix issues with multiple hostnames (IPv6 issues with TLS SNI by "
+"@ccesario )\n"
+"* bugfix: warning in certificate rendering\n"
+"\n"
+"1.1\n"
+"\n"
+"* add log viewer\n"
+"\n"
+"1.0\n"
+"\n"
+"* add Reverse Proxy (Load Balancer)\n"
+"* add Location Configuration\n"
+"* add local HTTP Server\n"
+"* add local PHP support\n"
+"* add experimental support to handle the web interface (can only be enabled "
+"via CLI)\n"
+"* add WAF (NAXSI) support\n"
+"* add Authentication support\n"
+"\n"
+"WWW: https://nginx.org/\n"
+"\n"
+"Сопровождение: franz.fabian.94@gmail.com"
+
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 461
+msgid ""
+"Malicious traffic detection system\n"
+"\n"
+"Maltrail is a malicious traffic detection system, utilizing publicly\n"
+"available (black)lists containing malicious and/or generally suspicious\n"
+"trails, along with static trails compiled from various AV reports and\n"
+"custom user defined lists, where trail can be anything from domain name,\n"
+"URL, IP address or HTTP User-Agent header value. Also, it uses advanced\n"
+"heuristic mechanisms that can help in discovery of unknown threats.\n"
+"\n"
+"WWW: https://github.com/stamparm/maltrail\n"
+"\n"
+"Maintainer: m.muenz@gmail.com"
+msgstr ""
+"Система обнаружения вредоносного трафика\n"
+"\n"
+"Maltrail-это система обнаружения вредоносного трафика, использующая\n"
+"общедоступные (черные) списки, содержащие вредоносные и/или вообще\n"
+"подозрительные следы, а также статические следы, скомпилированные из\n"
+"различных отчетов AV и пользовательских пользовательских списков. След\n"
+"может быть доменным именем, URL, IP-адресом или значением заголовка HTTP\n"
+"User-Agent. Кроме того, используются передовые эвристические механизмы,\n"
+"которые могут помочь в обнаружении неизвестных угроз.\n"
+"\n"
+"WWW: https://github.com/stamparm/maltrail\n"
+"\n"
+"Сопровождение: m.muenz@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 460
+msgid "Malicious traffic detection system"
+msgstr "Система обнаружения вредоносного трафика"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 264
+msgid ""
+"Flexible DNS proxy supporting DNSCrypt and DoH\n"
+"\n"
+"A flexible DNS proxy, with support for modern encrypted DNS protocols\n"
+"such as DNSCrypt v2 and DNS-over-HTTPS.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.3\n"
+"\n"
+"* Add DNS blacklisting\n"
+"\n"
+"1.2\n"
+"\n"
+"* Add logging to menu\n"
+"\n"
+"1.1\n"
+"\n"
+"* Allow manual server addition and selection\n"
+"\n"
+"1.0\n"
+"\n"
+"* Automatic selection of fastest DNS servers\n"
+"* Allow to set cloaks/overrides\n"
+"* Allow to set forwarders\n"
+"* Allow to set whitelists\n"
+"\n"
+"\n"
+"WWW: https://github.com/jedisct1/dnscrypt-proxy\n"
+"\n"
+"Maintainer: m.muenz@gmail.com"
+msgstr ""
+"Гибкий DNS-прокси, поддерживающий DNSCrypt и DoH\n"
+"\n"
+"Гибкий DNS-прокси с поддержкой современных зашифрованных протоколов DNS,\n"
+"таких как DNSCrypt v2 и DNS-over-HTTPS.\n"
+"\n"
+"\n"
+"Plugin Changelog\n"
+"================\n"
+"\n"
+"1.3\n"
+"\n"
+"* Add DNS blacklisting\n"
+"\n"
+"1.2\n"
+"\n"
+"* Add logging to menu\n"
+"\n"
+"1.1\n"
+"\n"
+"* Allow manual server addition and selection\n"
+"\n"
+"1.0\n"
+"\n"
+"* Automatic selection of fastest DNS servers\n"
+"* Allow to set cloaks/overrides\n"
+"* Allow to set forwarders\n"
+"* Allow to set whitelists\n"
+"\n"
+"\n"
+"WWW: https://github.com/jedisct1/dnscrypt-proxy\n"
+"\n"
+"Сопровождение: m.muenz@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 219
+msgid ""
+"ET Pro Telemetry Edition\n"
+"\n"
+"Todays cybersecurity engineers need timely and accurate data about eminent "
+"threats and how they spread around the globe.\n"
+"With this data cybersecurity researchers and analysts can improve the "
+"detection of malicious network traffic.\n"
+"The times when we could rely on just firewall rules for our protection are "
+"long gone.\n"
+"Additional layers of security are desperately needed to guard against these "
+"attacks.\n"
+"\n"
+"With growing risks the need to fortify our security is growing for both big "
+"enterprises as for SMEs alike, but often\n"
+"out of reach for the latter.\n"
+"An important extra security addition is an Intrusion Detection and "
+"Prevention System (IDS/IPS).\n"
+"\n"
+"The IDS/IPS available in OPNsense is based on Suricata.\n"
+"This open source IDS/IPS engine has proven its value in OPNsense, especially "
+"in combination with the free Proofpoint ETOpen ruleset.\n"
+"\n"
+"The need for valuable threat detection data and the increasing importance of "
+"additional network security\n"
+"has brought Proofpoint and OPNsense together.\n"
+"Our joined efforts resulted in the ETPro Telemetry edition.\n"
+"\n"
+"The ETPro Telemetry edition embraces our vision that sharing knowledge leads "
+"to better products.\n"
+"\n"
+"When you allow your OPNsense system to share anonymized information about "
+"detected threats - the alerts -\n"
+"you are able to use the ETPro ruleset free of charge.\n"
+"\n"
+"Maintainer: ad@opnsense.org"
+msgstr ""
+"ET Pro Telemetry Edition\n"
+"\n"
+"Сегодняшние инженеры по кибербезопасности нуждаются в своевременных и точных\n"
+"данных об основных угрозах и о том, как они распространяются по всему миру.\n"
+"С помощью этих данных исследователи и аналитики кибербезопасности могут улучшить\n"
+"обнаружение вредоносного сетевого трафика. Времена, когда мы могли полагаться\n"
+"только на правила брандмауэра для нашей защиты, давно прошли.\n"
+"Для защиты от этих нападений крайне необходимы дополнительные уровни безопасности.\n"
+"\n"
+"С ростом рисков необходимость укрепления нашей безопасности растет как для крупных\n"
+"предприятий, так и для МСП, но часто вне досягаемости для последних. Важным\n"
+"дополнительным дополнением безопасности является система обнаружения и предотвращения\n"
+"вторжений (IDS/IPS).\n"
+"\n"
+"IDS/IPS, доступные в OPNsense, основаны на Suricata. Этот механизм IDS/IPS с открытым\n"
+"исходным кодом доказал свою ценность в OPNsense, особенно в сочетании со свободным\n"
+"набором правил Proofpoint ETOpen.\n"
+"\n"
+"Потребность в ценных данных обнаружения угроз и растущая важность дополнительной сетевой\n"
+"безопасности объединили Proofpoint и OPNsense. Результатом наших совместных усилий стало\n"
+"ET Pro Telemetry Edition.\n"
+"\n"
+"ET Pro Telemetry Edition охватывает наше видение того, что обмен знаниями приводит к\n"
+"улучшению продуктов.\n"
+"\n"
+"Если вы разрешаете системе OPNsense обмениваться анонимизированной информацией об\n"
+"обнаруженных угрозах-предупреждениях-вы можете использовать набор правил ETPro бесплатно.\n"
+"\n"
+"Сопровождение: ad@opnsense.org"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 218
+msgid "ET Pro Telemetry Edition"
+msgstr "ET Pro Telemetry Edition"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 197
+msgid ""
+"Display hardware information on the dashboard\n"
+"\n"
+"Dmidecode reports information about your system's hardware as described in "
+"your\n"
+"system BIOS according to the SMBIOS/DMI standard. This information "
+"typically\n"
+"includes system manufacturer, model name, serial number, BIOS version, asset "
+"tag\n"
+"as well as a lot of other details of varying level of interest and "
+"reliability\n"
+"depending on the manufacturer. This will often include usage status for the "
+"CPU\n"
+"sockets, expansion slots (e.g. AGP, PCI, ISA) and memory module slots, and "
+"the\n"
+"list of I/O ports (e.g. serial, parallel, USB).\n"
+"\n"
+"This adds a dashboard widget to display the gathered hardware information.\n"
+"\n"
+"WWW: http://www.nongnu.org/dmidecode/\n"
+"\n"
+"Maintainer: evbevz@gmail.com"
+msgstr ""
+"Отображение на панели мониторинга информации об оборудовании\n"
+"\n"
+"Dmidecode сообщает информацию об оборудовании системы, как описано в BIOS\n"
+"системы в соответствии со стандартом SMBIOS/DMI. Эта информация обычно\n"
+"включает в себя производителя системы, название модели, серийный номер,\n"
+"версию BIOS, тег актива, а также множество других деталей различного уровня\n"
+"интереса и надежности в зависимости от производителя. Это часто включает\n"
+"состояние использования для сокета ЦП, слотов расширения (например, AGP,\n"
+"PCI, ISA) и слотов модулей памяти, а также список портов ввода/вывода\n"
+"(например, последовательный, параллельный, USB).\n"
+"\n"
+"Добавляется виджет панели мониторинга для отображения собранной информации\n"
+"об оборудовании.\n"
+"\n"
+"WWW: http://www.nongnu.org/dmidecode/\n"
+"\n"
+"Сопровождение: evbevz@gmail.com"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 196
+msgid "Display hardware information on the dashboard"
+msgstr "Отображение на панели мониторинга информации об оборудовании"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 114
+msgid ""
+"Backup config.xml to Yandex.Disk\n"
+"\n"
+"The plugin allows you to make backups of the configuration file to Yandex."
+"Disk\n"
+"Maintainer: kekek2@ya.ru"
+msgstr ""
+"Резервная копия конфига на Яндекс.Диск\n"
+"\n"
+"Плагин позволяет создавать резервные копии конфигурационного файла\n"
+"config.xml на Яндекс.Диск\n"
+"Сопровождение: kekek2@ya.ru"
+
+#
+# File: /usr/lang/src/plugin_descr.php, line: 113
+msgid "Backup config.xml to Yandex.Disk"
+msgstr "Резервная копия конфига на Яндекс.Диск"
+
+#
+# File: /usr/lang/src/models.php, line: 1358
+msgid "You need to set a proper listening IP."
+msgstr "Нужно установить правильный IP прослушивания."
+
+#
+# File: /usr/lang/src/models.php, line: 1357
+msgid "You have to enable FreeRADIUS DHCP service."
+msgstr "Необходимо включить службу DHCP FreeRADIUS."
+
+#
+# File: /usr/lang/src/models.php, line: 1312
+msgid ""
+"Username can be up to 32 signs long. Alphanumeric characters and also dot, "
+"dash and underscore allowed."
+msgstr ""
+"Имя пользователя может содержать до 32 знаков. Допускаются буквенно-цифровые "
+"символы, а также точка, тире и подчеркивания."
+
+#
+# File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 167
+msgid "Upstream"
+msgstr "Вышестоящий сервер"
+
+#
+# File: /usr/lang/src/models.php, line: 1193
+msgid "This field must be lower than the subject score."
+msgstr "Это поле должно быть меньше, чем оценка предмета."
+
+#
+# File: /usr/lang/src/models.php, line: 1192
+msgid "This field must be lower than the reject score."
+msgstr "Это поле должно быть меньше, чем оценка отклонения."
+
+#
+# File: /usr/lang/src/models.php, line: 1191
+msgid "This field must be lower than the header score."
+msgstr "Это поле должно быть меньше, чем оценка заголовка."
+
+#
+# File: /usr/lang/src/models.php, line: 1190
+msgid "This field must be bigger than the subject score."
+msgstr "Это поле должно быть больше, чем оценка предмета."
+
+#
+# File: /usr/lang/src/models.php, line: 1189
+msgid "This field must be bigger than the reject score."
+msgstr "Это поле должно быть больше, чем оценка отклонения."
+
+#
+# File: /usr/lang/src/models.php, line: 1188
+msgid "This field must be bigger than the header score."
+msgstr "Это поле должно быть больше, чем оценка заголовка."
+
+#
+# File: /usr/lang/src/models.php, line: 1187
+msgid "This field must be bigger than the greylist score."
+msgstr "Это поле должно быть больше, чем оценка в сером списке."
+
+#
+# File: /usr/lang/src/models.php, line: 1184
+msgid ""
+"The url must be valid without a trailing slash. For example: https://"
+"nextcloud.example.com or https://example.com/nextcloud"
+msgstr ""
+"URL-адрес должен быть действительным без завершающей косой черты. Например, https://"
+ "nextcloud.example.com или https://example.com/nextcloud"
+
+#
+# File: /usr/lang/src/models.php, line: 1177
+msgid ""
+"The name should only contain alphanumeric characters, dashes, underscores or "
+"a dot."
+msgstr ""
+"Имя должно содержать только буквенно-цифровые символы, тире, подчеркивания или точку."
+
+#
+# File: /usr/lang/src/models.php, line: 1142
+msgid "System Resource"
+msgstr "Системные ресурсы"
+
+#
+# File: /usr/lang/src/models.php, line: 846
+msgid "Stop processing rules and find location"
+msgstr "Остановить правила обработки и найти местоположение"
+
+#
+# File: /usr/lang/src/models.php, line: 845
+msgid "Stop processing rules"
+msgstr "Прекратить обработку правил"
+
+#
+# File: /usr/lang/src/models.php, line: 1035
+msgid "Service name must be unique."
+msgstr "Имя службы должно быть уникальным."
+
+#
+# File: /usr/lang/src/models.php, line: 1015
+msgid "Selected alias not found"
+msgstr "Выбранный псевдоним не найден"
+
+# File: /usr/lang/src/models.php, line: 689
+msgid "Restart Nginx (OPNsense plugin)"
+msgstr "Перезапустить Nginx (плагин OPNsense)"
+
+#
+# File: /usr/lang/src/models.php, line: 924
+msgid "Related automation not found"
+msgstr "Связанная автоматизация не найдена"
+
+#
+# File: /usr/lang/src/models.php, line: 862
+msgid "Related CPU affinity rule not found"
+msgstr "Связанное правило соответствия ЦП не найдено"
+
+#
+# File: /usr/lang/src/models.php, line: 754
+msgid ""
+"Please provide a valid group name. Allowed characters are a-zA-Z0-9._- and "
+"it has to be 1-64 characters long."
+msgstr ""
+"Пожалуйста, укажите правильное имя группы. Допустимые символы: a-zA-Z0-9 ._-, "
+"длина должна быть от 1 до 64 символов."
+
+#
+# File: /usr/lang/src/models.php, line: 719
+msgid ""
+"Password can be up to 32 signs long. Alphanumeric characters and also dot, "
+"dash and underscore allowed."
+msgstr ""
+"Пароль может иметь длину до 32 знаков. Допускаются буквенно-цифровые символы, "
+"а также Точка, тире и подчеркивания."
+
+#
+# File: /usr/lang/src/models.php, line: 634
+msgid "MySQL and SQLite can not be combined."
+msgstr "MySQL и SQLite не могут быть объединены."
+
+#
+# File: /usr/lang/src/models.php, line: 235
+msgid "Don't check regular expressions on logest prefix match (\"^~\")"
+msgstr "Не проверяйте регулярные выражения на соответствие самого длинного префикса (\"^~\")"
+
+#
+# File: /usr/lang/src/models.php, line: 230
+msgid "Do not decode DNS responses and do not resolve numeric IPs"
+msgstr "Не декодировать ответы DNS и не разрешать числовые IP-адреса"
+
+#
+# File: /usr/lang/src/models.php, line: 204
+msgid "Decode DNS responses and resolve only local numeric IPs"
+msgstr "Декодировать ответы DNS и разрешать только локальные числовые IP-адреса"
+
+#
+# File: /usr/lang/src/models.php, line: 203
+msgid "Decode DNS responses and resolve all numeric IPs"
+msgstr "Декодировать ответы DNS и разрешать все числовые IP-адреса"
+
+#
+# File: /usr/lang/src/models.php, line: 202
+msgid "Decode DNS responses and do not resolve numeric IPs"
+msgstr "Декодировать ответы DNS и не разрешать числовые IP-адреса"
+
+#
+# File: /usr/lang/src/models.php, line: 206
+msgid "Days and hours should be numeric values or left empty"
+msgstr "Дни и часы должны быть числовыми значениями или пустыми"
+
+#
+# File: /usr/lang/src/models.php, line: 155
+msgid "Choose an Peer."
+msgstr "Выберите пир"
+
+#
+# File: /usr/lang/src/models.php, line: 154
+msgid "Choose an ACL."
+msgstr "Выберите ACL"
+
+#
+# File: /usr/lang/src/models.php, line: 146
+msgid "Case Sensitive Match (\"~\")"
+msgstr "Совпадение с учетом регистра (\"~\")"
+
+#
+# File: /usr/lang/src/models.php, line: 145
+msgid "Case Insensitive Match (\"~*\")"
+msgstr "Совпадение без учета регистра (\"~*\")"
+
+#
+# File: /usr/lang/src/models.php, line: 115
+msgid "Backup Server"
+msgstr "Резервный сервер"
+
+#
+# File: /usr/lang/src/models.php, line: 137
+msgid "An user for the Yandex server must be set."
+msgstr "Пользователь для сервера Яндекса должен быть установлен."
+
+#
+# File: /usr/lang/src/models.php, line: 97
+msgid "Address Rewriting"
+msgstr "Перезапись адреса"
+
+#
+# File: /usr/lang/src/models.php, line: 61
+msgid "A port must be set."
+msgstr "Порт должен быть установлен."
+
+#
+# File: /usr/lang/src/models.php, line: 60
+msgid "A password for a Yandex server must be set."
+msgstr "Пароль для сервера Яндекса должен быть установлен."
+
+#
+# File: /usr/lang/src/models.php, line: 57
+msgid "A host must be set."
+msgstr "Хост должен быть установлен."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3029
+msgid "enable this alias"
+msgstr "включить этот псевдоним"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3576
+msgid ""
+"Whitelist destination domains. You may use a regular expression, use a comma "
+"or press Enter for new item. Examples: \"mydomain.com\" matches on \"*."
+"mydomain.com\"; \"^https?:\\/\\/([a-zA-Z]+)\\.mydomain\\.\" matches on "
+"\"http(s)://textONLY.mydomain.*\"; \"\\.gif$\" matches on \"\\*.gif\" but "
+"not on \"\\*.gif\\test\"; \"\\[0-9]+\\.gif$\" matches on \"\\123.gif\" but "
+"not on \"\\test.gif\""
+msgstr ""
+"Белый список доменов назначения. Можно использовать регулярное выражение, "
+"запятую или нажать Enter для нового элемента. Примеры: \"mydomain.com\" "
+"соответствует \"*.mydomain.com\"; \"^https?: \\ / \\/([a-zA-Z]+)\\.mydomain\\.\""
+"соответствует \"http (s)://textONLY.mydomain.* \";\"\\.gif$\" совпадает с \"\\*.gif\" "
+"но не на \"\\*.gif\ \ test\"; \"\\[0-9]+\\.gif$\" совпадает с \"\\123.gif\", но не "
+"с \"test\\.gif\""
+
+#
+# File: /usr/lang/src/controllers.php, line: 2972
+msgid "Whitelist Domains"
+msgstr "Белый список доменов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3570
+msgid "Whether to enable or disable the usage or heuristic detection."
+msgstr "Включить или отключить использование или эвристическое обнаружение."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3384
+msgid "When using profiles for group separation please set here."
+msgstr "Для использования профилей для разделения групп, пожалуйста, установите здесь."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3561
+msgid ""
+"When HAProxy requests user name and password from the user, this optional "
+"authentication realm is returned with the response (typically the "
+"application's name)."
+msgstr ""
+"Когда HAProxy запрашивает имя пользователя и пароль от пользователя, "
+"эта необязательная область проверки подлинности возвращается с ответом "
+"(обычно имя приложения)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3374
+msgid "WebSocket Support"
+msgstr "Поддержка WebSocket"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2992
+msgid "WAN interfaces"
+msgstr "Интерфейс WAN"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3544
+msgid "Verify the server certificate name when the client connects"
+msgstr "Проверятьимя сертификата сервера при подключении клиента"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3359
+msgid "Verify SSL certificates"
+msgstr "Проверка SSL-сертификатов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2942
+msgid "Verify Client Certificate"
+msgstr "Проверка сертификата клиента"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3355
+msgid "Verification"
+msgstr "Проверка"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3531
+msgid "Validate server subject"
+msgstr "Проверка субъекта сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3498
+msgid "Use random local port"
+msgstr "Использовать случайный локальный порт"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3487
+msgid "Use a password to protect the pkcs12 file contents"
+msgstr "Использовать пароль для защиты содержимого файла pkcs12"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3483
+msgid "Use TLS (HTTPS) to connect to the server."
+msgstr "Использовать TLS (HTTPS) для подключения к серверу."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3478
+msgid "Use Heuristics"
+msgstr "Использование эвристики"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3451
+msgid "UI Listen Port"
+msgstr "Порт прослушивания пользовательского интерфейса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3450
+msgid "UI Listen Address"
+msgstr "Адрес прослушивания пользовательского интерфейса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3446
+msgid "Type subnets/addresses you want to ignore for the access.log."
+msgstr "Введите подсети/адреса, которые вы хотите игнорировать для access.log."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3444
+msgid "Type subnets you want to allow access to the proxy server."
+msgstr "Введите подсети, которым разреш`y доступ к прокси-серверу."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3427
+msgid "Type IPs of alternative DNS servers you like to use."
+msgstr "Введите IP-адреса альтернативных DNS-серверов"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3425
+msgid "Type IP addresses you want to deny access to the proxy server."
+msgstr "Введите IP-адреса, которым запрещён доступ к прокси-серверу."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3423
+msgid "Type IP addresses you want to allow access to the proxy server."
+msgstr "Введите IP-адреса, которым разрешён доступ к прокси-серверу."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3413
+msgid "Trusted Proxies (Firewall Alias)"
+msgstr "Доверенные Прокси (Псевдоним Брандмауэра)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3409
+msgid "Trusted"
+msgstr "Доверенные"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3390
+msgid "Time in seconds how often to refresh trails."
+msgstr "Время в секундах, как часто обновлять маршруты."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3375
+msgid ""
+"This will look into all IPv4 and IPv6 traffic. If disabled it will only look "
+"for traffic for icmp, udp, tcp syn packets and on known HTTP ports."
+msgstr ""
+"Рассматривается весь трафик IPv4 и IPv6. Если отключено, будет проссматриваться "
+"трафик только для пакетов icmp, udp, tcp syn и на известных портах HTTP."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3366
+msgid "This will enable support for tags."
+msgstr "Позволит поддерживать теги."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3336
+msgid "This will activate the static DHCP lease."
+msgstr "Активация статической аренды DHCP."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3319
+msgid ""
+"This will activate the Sensor. Do not forget to enable the local server mode "
+"or send the logs to a remote server."
+msgstr ""
+"Активация датчика. Не забудьте включить режим локального сервера или отправлять "
+"логи на удаленный сервер."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3313
+msgid ""
+"This will activate the Maltrail server. You can use this service to also "
+"collect data from remote Maltrail sensors."
+msgstr ""
+"Активация сервера Maltrail. Можно использовать эту услугу для сбора данных "
+"с удаленных датчиков Maltrail."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3310
+msgid "This will activate the FreeRADIUS DHCP service."
+msgstr "Активировация сервиса freeradius на протокол DHCP."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3307
+msgid "This will activate the DHCP FreeRADIUS service."
+msgstr "Активировация службы DHCP-систем."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3294
+msgid ""
+"This specifies for how long (in hours) the proxy server assumes an "
+"externally validated username and password combination is valid (Time To "
+"Live). When the TTL expires, the user will be prompted for credentials again."
+msgstr ""
+"Указывается, как долго (в часах) прокси-сервер предполагает, что внешне "
+"проверенная комбинация имени пользователя и пароля действительна (время жизни). "
+"Когда срок действия TTL истечет, пользователю снова будет предложено ввести "
+"учетные данные."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3289
+msgid ""
+"This option reverses the order of preference to make Squid contact dual-"
+"stack websites over IPv4 first. Squid will still perform both IPv6 and IPv4 "
+"DNS lookups before connecting. This option will restrict the situations "
+"under which IPv6 connectivity is used (and tested) and will hide network "
+"problems which would otherwise be detected and warned about."
+msgstr ""
+"Эта опция меняет порядок предпочтения, чтобы Squid сначала связывался с "
+"веб-сайтами с двумя стеками через IPv4. Squid по-прежнему будет выполнять "
+"поиск IPv6 и IPv4 DNS перед подключением. Этот параметр ограничит ситуации, "
+"при которых подключение IPv6 используется (и проверяется), и скрывает "
+"сетевые проблемы, которые в противном случае были бы обнаружены и предупреждены."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3255
+msgid "This enables remote MySQL support."
+msgstr "Включение удаленной поддержки MySQL."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3201
+msgid "The port number that the c-icap server uses to listen to requests."
+msgstr "Номер порта, который сервер c-icap использует для прослушивания запросов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3173
+msgid ""
+"The maximum time in seconds to wait for an automation to complete. When the "
+"timeout is reached the command is forcefully aborted. Defaults to 600 "
+"seconds."
+msgstr ""
+"Максимальное время в секундах ожидания завершения автоматизации. По достижении "
+"времени ожидания команда принудительно прерывается. По умолчанию 600 секунд."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3133
+msgid ""
+"The UDP port of the log server. Leave blank if you run server and sensor on "
+"the same machine. The default when in use should be set to 8337."
+msgstr ""
+"UDP-порт сервера журнала. Оставьте пустым, если сервер и датчик запускаются "
+"на одной и той же машине. Значение по умолчанию 8337."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3078
+msgid "TCP port of the server UI."
+msgstr "TCP-порт пользовательского интерфейса сервера."
+
+#
+# File: /usr/lang/src/controllers.php, line: 3076
+msgid "TCP inspection delay"
+msgstr "Задержка проверки TCP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3055
+msgid "Subject Score"
+msgstr "Оценка предмета"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3030
+msgid "Start send percentage data"
+msgstr "Начало отправки процентных данных"
+
+#
+# File: /usr/lang/src/controllers.php, line: 3018
+msgid "Src-port"
+msgstr "Порт источника"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2921
+msgid ""
+"Set the value at which an e-mail is rejected. The value has to be higher "
+"than header, subject and greylist score."
+msgstr ""
+"Установите значение, при котором отклоняется сообщение электронной почты. "
+"Значение должно быть больше, чем заголовок, тема и оценка серого списка."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2920
+msgid ""
+"Set the value at which an e-mail is marked as spam in subject. The value has "
+"to be higher than header and greylist score."
+msgstr ""
+"Установите значение, при котором электронная почта помечается как спам в теме. "
+"Значение должно быть выше, чем оценка заголовка и серого списка."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2919
+msgid ""
+"Set the value at which an e-mail is marked as spam in header. The value has "
+"to be higher than greylist score."
+msgstr ""
+"Установите значение, при котором сообщение электронной почты помечается как спам "
+"в заголовке. Значение должно быть выше, чем оценка серого списка."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2918
+msgid ""
+"Set the value at which an e-mail is greylisted. The value has to be lower "
+"than all other scores."
+msgstr ""
+"Установите значение, при котором электронное письмо будет занесено в серый "
+"список. Значение должно быть ниже, чем все остальные оценки."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2914
+msgid "Set the user of remote MySQL server."
+msgstr "Установите пользователя удаленного сервера MySQL."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2910
+msgid "Set the subnet mask for this pool."
+msgstr "Установите маску подсети для этого пула."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2900
+msgid "Set the port to listen to."
+msgstr "Установить порт для прослушивания."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2896
+msgid "Set the port of remote MySQL server."
+msgstr "Установите порт удаленного сервера MySQL."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2892
+msgid "Set the password of remote MySQL server."
+msgstr "Установите пароль удаленного сервера MySQL."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2864
+msgid ""
+"Set the maximum allowed time to wait for data during content inspection. "
+"Defaults to milliseconds. You may also enter a number followed by one of the "
+"supported suffixes \"d\" (days), \"h\" (hour), \"m\" (minute), \"s"
+"\" (seconds), \"ms\" (miliseconds)."
+msgstr ""
+"Установите максимально допустимое время ожидания данных во время проверки "
+"содержимого. По умолчанию миллисекунды. Также можно ввести число, за которым "
+"следует один из поддерживаемых суффиксов \"d\" (дни), \"h\" (час), \"m\" "
+"(минута), \"s\" (секунды), \"ms\" (миллисекунды)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2863
+msgid ""
+"Set the maximum allowed time to wait for a response during content "
+"inspection. Defaults to milliseconds. You may also enter a number followed "
+"by one of the supported suffixes \"d\" (days), \"h\" (hour), \"m\" (minute), "
+"\"s\" (seconds), \"ms\" (miliseconds)."
+msgstr ""
+"Установите максимально допустимое время ожидания ответа во время проверки "
+"содержимого. По умолчанию миллисекунды. Также можно ввести число, за которым "
+"следует один из поддерживаемых суффиксов \"d\" (дни), \"h\" (час), \"m\" "
+"(минута), \"s\" (секунды), \"ms\" (миллисекунды)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2852
+msgid ""
+"Set the gateway IP for this pool. It will be the gateway for the clients and "
+"also used as the identifier."
+msgstr ""
+"Установите IP-адрес шлюза для этого пула. Это будет шлюз для клиентов, а также "
+"будет использоваться в качестве идентификатора."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2832
+msgid ""
+"Set the SHA256 password for user admin here. For ways to generate it, please "
+"consult the plugin documentation."
+msgstr ""
+"Установите пароль SHA256 для администратора. Чтобы узнать, как его сгенерировать, "
+"пожалуйста, обратитесь к документации плагина."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2828
+msgid "Set the MAC address for this static lease."
+msgstr "Установите MAC-адрес для этой статической аренды."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2818
+msgid "Set the IP addresses to listen to."
+msgstr "Установите IP-адреса для прослушивания."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2815
+msgid "Set the IP address to listen on."
+msgstr "Установить IP-адрес для прослушивания."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2808
+msgid "Set the IP address of remote MySQL server."
+msgstr "Установите IP-адрес удаленного сервера MySQL."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2807
+msgid "Set the IP address for this static lease."
+msgstr "Установите IP-адрес для этой статической аренды."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2786
+msgid "Set database name of remote MySQL server."
+msgstr "Задайте имя базы данных удаленного сервера MySQL."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2783
+msgid "Set a username if parent proxy requires authentication."
+msgstr "Задайте имя пользователя, если родительский прокси-сервер требует проверки подлинности."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2780
+msgid "Set a password if parent proxy requires authentication."
+msgstr "Установите пароль, если родительский прокси требует проверки подлинности."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2777
+msgid "Set a list of DNS servers for this pool."
+msgstr "Задайте список DNS-серверов для этого пула."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2762
+msgid "Server URL"
+msgstr "URL сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2756
+msgid "Server Names Hash Max Size"
+msgstr "Максимальный размер хеша имени сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2740
+msgid "Sequence"
+msgstr "Последовательность"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2272
+msgid ""
+"Send an authentication request to the OPNsense backend for advanced access "
+"control."
+msgstr ""
+"Отправьте запрос проверки подлинности на сервер OPNsense для расширенного "
+"управления доступом."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2718
+msgid ""
+"Select what to do with X-Forwarded-For header. If set to: \"on\", Squid will "
+"append your client's IP address in the HTTP requests it forwards. By default "
+"it looks like X-Forwarded-For: 192.1.2.3; If set to: \"off\", it will appear "
+"as X-Forwarded-For: unknown; \"transparent\", Squid will not alter the X-"
+"Forwarded-For header in any way; If set to: \"delete\", Squid will delete "
+"the entire X-Forwarded-For header; If set to: \"truncate\", Squid will "
+"remove all existing X-Forwarded-For entries, and place the client IP as the "
+"sole entry."
+msgstr ""
+"Выберите, что делать с заголовком X-Forwarded-For. Если установлено значение: "
+"\"on\", Squid добавит IP-адрес вашего клиента в HTTP-запросе, который он пересылает. "
+"По умолчанию он выглядит как X-Forwarded-For: 192.1.2.3; если установлено: \"off\", "
+"это будет выглядеть как X-Forwarded-For: unknown; \"transparent\", Squid не будет "
+"изменять X-Forwarded-For заголовка в любую сторону; если установлено: \"delete\", "
+"Squid удалить все X-Forwarded-For заголовки; если установлено: \"truncate\", Squid "
+"удалит все существующие X-Forwarded-For записи, и поместит клиентский IP в качестве "
+"единственного записи."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2713
+msgid ""
+"Select what to do with URI that contain whitespaces. The current Squid "
+"implementation of encode and chop violates RFC2616 by not using a 301 "
+"redirect after altering the URL."
+msgstr ""
+"Выберите, что делать с URI, содержащими пробелы. Текущая реализация "
+"Squid encode и chop нарушает RFC2616, не используя перенаправление 301 "
+"после изменения URL."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2675
+msgid ""
+"Select report type.\n"
+"        <div class=\"alert alert-info\">\n"
+"            Report types:\n"
+"            <ul>\n"
+"                <li><b>Nodes</b> - Nodes activity</li>\n"
+"                <li><b>Domains</b> - Top domains activity</li>\n"
+"                <li><b>Users</b> - Users activity</li>\n"
+"                <li><b>User IP</b> - Local IP addresses activity</li>\n"
+"                <li><b>URLs</b> - Top URLs</li>\n"
+"                <li><b>Chronology</b> - Top chronology</li>\n"
+"            </ul>\n"
+"        </div>"
+msgstr ""
+"Выберите тип отчёта.\n"
+"        <div class=\"alert alert-info\">\n"
+"            Типы отчёта:\n"
+"            <ul>\n"
+"                <li><b>Узлы</b> - Активность по узлам</li>\n"
+"                <li><b>Домены</b> - Активность по доменам</li>\n"
+"                <li><b>Пользователи</b> - Активность по пользователям</li>\n"
+"                <li><b>IP адреса пользователей</b> - Активность по IP-"
+"адресам пользователей</li>\n"
+"                <li><b>URLs</b> - Адреса URL</li>\n"
+"                <li><b>Историческая</b> - Активность по времени</li>\n"
+"            </ul>\n"
+"        </div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2664
+msgid ""
+"Select report type.\n"
+"        <div class=\"alert alert-info\">\n"
+"            Report types:\n"
+"            <ul>\n"
+"                <li><b>Domains</b> - Top domains activity</li>\n"
+"                <li><b>Users</b> - Users activity</li>\n"
+"                <li><b>User IP</b> - Local IP addresses activity</li>\n"
+"                <li><b>URLs</b> - Top URLs</li>\n"
+"                <li><b>Chronology</b> - Top chronology</li>\n"
+"            </ul>\n"
+"        </div>"
+msgstr ""
+"Выберите тип отчёта.\n"
+"        <div class=\"alert alert-info\">\n"
+"            Типы отчёта:\n"
+"            <ul>\n"
+"                <li><b>Домены</b> - Активность по доменам</li>\n"
+"                <li><b>Пользователи</b> - Активность по пользователям</li>\n"
+"                <li><b>IP адреса пользователей</b> - Активность по IP-"
+"адресам пользователей</li>\n"
+"                <li><b>URLs</b> - Адреса URL</li>\n"
+"                <li><b>Историческая</b> - Активность по времени</li>\n"
+"            </ul>\n"
+"        </div>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2652
+msgid "Select interface(s) the ftp proxy will bind to."
+msgstr "Выберите интерфейс(ы), к которому будет привязан FTP-прокси."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2631
+msgid "Select an OpenVPN server to export profiles for."
+msgstr "Выберите сервер OpenVPN для экспорта профилей."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2629
+msgid "Select a pre-defined system command which should be run."
+msgstr "Выберите предопределенную системную команду, которую необходимо выполнить."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2626
+msgid ""
+"Select a Certificate Authority to use. To create a CA, go to <a href=\"/"
+"system_camanager.php\">CA Manager</a>."
+msgstr ""
+"Выберите Центр сертификации для использования. Чтобы создать центр сертификации, "
+"перейдите в раздел <a href=\"/system_camanager.php\" >CA Manager</ a>."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2516
+msgid "SHA256 Admin Password"
+msgstr "Пароль администратора SHA256"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2513
+msgid "Run Command"
+msgstr "Запустить команду"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2482
+msgid "Rewrite Subject"
+msgstr "Переписать тему"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2441
+msgid "Remote Server"
+msgstr "Переписать сервер"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2428
+msgid "Reject Score"
+msgstr "Оценка отклонения"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2368
+msgid "Proxy Send Timeout"
+msgstr "Тайм-аут отправки прокси"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2367
+msgid "Proxy Read Timeout"
+msgstr "Тайм-аут чтения прокси"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2324
+msgid "Pre-defined commands for this automation."
+msgstr "Предопределенные команды для этой автоматизации."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2316
+msgid "Port on which OpenVPN listens"
+msgstr "Порт, на котором слушает OpenVPN"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2313
+msgid ""
+"Port of the logging server. Leave empty when sensor and server run on the "
+"same system."
+msgstr ""
+"Порт сервера ведения журнала. Оставьте пустой, когда датчик и сервер работают "
+"в одной системе."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2242
+msgid "Parent proxy port."
+msgstr "Порт родительского прокси."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2241
+msgid "Parent proxy IP address or hostname."
+msgstr "IP-адрес родительского прокси или имя хоста."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2240
+msgid "Parent Proxy Settings"
+msgstr "Параметры родительского прокси-сервера"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2229
+msgid "P12 Password/confirm"
+msgstr "P12 пароль/подтверждение"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2219
+msgid ""
+"Optionally define a (list of) service(s) which are required before "
+"monitoring this one, if any of the dependencies are either stopped or "
+"unmonitored this service will stop/unmonitor too."
+msgstr ""
+"При необходимости определите (список) служб, которые требуются перед "
+"мониторингом этого. Если какая-либо из зависимостей остановлена или не "
+"контролируется, эта служба также остановится/не контролирует."
+
+#
+# File: /usr/lang/src/controllers.php, line: 949
+msgid "Nickname"
+msgstr "Имя пользователя"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2144
+msgid ""
+"Network on which this ACL is applied. Enter 'any' to use wildcard adressing."
+msgstr ""
+"Сеть, к которой применяется этот ACL. Введите 'any', чтобы использовать "
+"адресацию с подстановочными знаками."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2143
+msgid "Network on which this ACL is applied."
+msgstr "Сеть, к которой применяется этот ACL."
+
+#
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/dhcp.volt, line: 96
+# File: /usr/lang/src/controllers.php, line: 2127
+msgid "Netmask"
+msgstr "Маска подсети"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2104
+msgid "Name to identify this automation."
+msgstr "Имя для идентификации этой автоматизации."
+
+#
+# File: /usr/lang/src/controllers.php, line: 2088
+msgid "MySQL User"
+msgstr "Пользователь MySQL"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2087
+msgid "MySQL Server"
+msgstr "Сервер MySQL"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2086
+msgid "MySQL Port"
+msgstr "Порт MySQL"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2085
+msgid "MySQL Password"
+msgstr "Пароль MySQL"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2084
+msgid "MySQL Database"
+msgstr "База данных MySQL"
+
+#
+# File: /usr/lang/src/controllers.php, line: 2079
+msgid "Monitor Interface"
+msgstr "Интерфейс монитора"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1992
+msgid "Match against one or multiple DSCP values."
+msgstr "Сопоставление с одним или несколькими значениями DSCP."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1977
+msgid ""
+"Mails from IPs or networks in CIDR format entered here will be whitelisted "
+"from graylisting."
+msgstr ""
+"Письма из IP-адресов или сетей в формате CIDR, введенные здесь, будут "
+"занесены в белый список из серого списка."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1928
+msgid "Log Listen Port"
+msgstr "Порт прослушивания журнала"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1927
+msgid "Log Listen Address"
+msgstr "Адрес прослушивания журнала"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1914
+msgid "Local IPs"
+msgstr "Локальные IP-адреса"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1912
+msgid "Local Domains"
+msgstr "Локальные домены"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1887
+msgid "List of interface to listen on, none means listen on all interfaces."
+msgstr "Список интерфейса для прослушивания, 'none' означает прослушивание на всех интерфейсах."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1884
+msgid "List of domains not to be sent via parent proxy."
+msgstr "Список доменов, которые не будут отправлены через родительский прокси."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1861
+msgid "List of IP addresses not to be sent via parent proxy."
+msgstr "Список IP-адресов, которые не будут отправлены через родительский прокси."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1801
+msgid "Invert source"
+msgstr "Инвертировать источник"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1800
+msgid "Invert destination"
+msgstr "Инвертировать назначение"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1761
+msgid ""
+"If you enable this option, the username of the client will be sent to the "
+"ICAP server. This can be useful if you want to filter traffic based on "
+"usernames. Authentication is required to use usernames."
+msgstr ""
+"Если этот параметр включен, имя пользователя клиента будет отправлено на "
+"сервер ICAP. Это может быть полезно, если вы хотите фильтровать трафик "
+"на основе имен пользователей. Для использования имен пользователей "
+"требуется аутентификация."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1748
+msgid ""
+"If you check this box, this entry will be added to the configuration of "
+"trusted fingerprints."
+msgstr ""
+"Если этот флажок установлен, эта запись будет добавлена в конфигурацию "
+"надежных хэш подписей."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1729
+msgid "If set, a message larger than this size will not be scanned."
+msgstr "Если этот параметр задан, сообщение большего размера сканироваться не будет."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1720
+msgid "If checked, the CSP is not enforced (learning mode)."
+msgstr "Если флажок установлен, CSP не применяется (режим обучения)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1698
+msgid ""
+"IP address to listen to where sensors should send log. Leave blank if you "
+"run server and sensor on the same machine."
+msgstr ""
+"IP-адрес для прослушивания, куда датчики должны отправлять журнал. "
+"Оставьте пустым, если вы запускаете сервер и датчик на той же машине."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1697
+msgid "IP address the server UI listens on."
+msgstr "IP-адрес, который прослушивает пользовательский интерфейс сервера."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1693
+msgid "IP address of the remote logging server."
+msgstr "IP-адрес удаленного сервера журналов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1638
+msgid "Here you can summarize a network for this area like 192.168.0.0/23"
+msgstr "Здесь вы можете суммировать сеть для этой области, как 192.168.0.0/23"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1629
+msgid "Header Score"
+msgstr "Оценка заголовка"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1563
+msgid "Greylist Score"
+msgstr "Оценка серого списка"
+
+#
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/dhcp.volt, line: 94
+# File: /usr/lang/src/controllers.php, line: 1525
+msgid "Gateway IP"
+msgstr "IP шлюза"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1476
+msgid "File format to export."
+msgstr "Формат файла для экспорта."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1455
+msgid "Export type"
+msgstr "Тип экспорта"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1444
+msgid ""
+"Exclusion list destination domains.You may use a regular expression, use a "
+"comma or press Enter for new item. Examples: \"mydomain.com\" matches on \"*."
+"mydomain.com\"; \"https://([a-zA-Z]+)\\.mydomain\\.\" matches on \"http(s)://"
+"textONLY.mydomain.*\"; \"\\.gif$\" matches on \"\\*.gif\" but not on \"\\*."
+"gif\\test\"; \"\\[0-9]+\\.gif$\" matches on \"\\123.gif\" but not on "
+"\"\\test.gif\""
+msgstr ""
+"Список исключения из доменов назначения. Можно использовать регулярное выражение, "
+"запятую или нажать Enter для нового элемента. Примеры: \"mydomain.com\" "
+"соответствует \"*.mydomain.com\"; \"^https?: \\ / \\/([a-zA-Z]+)\\.mydomain\\.\""
+"соответствует \"http (s)://textONLY.mydomain.* \";\"\\.gif$\" совпадает с \"\\*.gif\" "
+"но не на \"\\*.gif\ \ test\"; \"\\[0-9]+\\.gif$\" совпадает с \"\\123.gif\", но не "
+"с \"test\\.gif\""
+
+#
+# File: /usr/lang/src/controllers.php, line: 1403
+msgid ""
+"Enter the months for the job to act, can also be a comma-separated list, * "
+"(each) or a range (ex. 1,2,3 or 1-3)"
+msgstr ""
+"Введите месяцы для выполнения задания, также может быть список через "
+"запятую, * (каждый) или диапазон (например. 1,2,3 или 1-3)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1401
+msgid ""
+"Enter the minutes for the job to act, can also be a comma-separated list, * "
+"(each) or a range (ex. 10,20,30 or 10-30)"
+msgstr ""
+"Введите минуты для выполнения задания, также может быть список через "
+"запятую, * (каждый) или диапазон (например. 10,20,30 или 10-30)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1392
+msgid ""
+"Enter the hours for the job to act, can also be a comma-separated list, * "
+"(each) or a range (ex. 10,11,12 or 10-12)"
+msgstr ""
+"Введите часы для выполнения задания, также может быть список через "
+"запятую, * (каждый) или диапазон (например. 10,11,12 или 10-12)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1384
+msgid ""
+"Enter the days of the week for the job to act, can also be a comma-separated "
+"list, * (each) or a range (ex. 1,2,3 or 1-3)"
+msgstr ""
+"Введите дни недели для выполнения задания, также может быть список через "
+"запятую, * (каждый) или диапазон (например. 1,2,3 или 1-3)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1382
+msgid ""
+"Enter the days of the month for the job to act, can also be a comma-"
+"separated list, * (each) or a range (ex. 1,20,28 or 1-28)"
+msgstr ""
+"Введите дни месяца для выполнения задания, также может быть список через "
+"запятую, * (каждый) или диапазон (например. 1,20,28 или 1-28)"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1360
+msgid "Enter a useful description for your entry."
+msgstr "Введите описание для вашей записи."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1354
+msgid "Enter a prefix added to the subject when Subject Score is reached."
+msgstr "Введите префикс, добавляемый к теме при достижении оценки темы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1347
+msgid ""
+"Enter a list of elliptic curves supported by the client in a standard "
+"configuration in OpenSSL syntax (curve1:curve2:0x0001)."
+msgstr ""
+"Введите список эллиптических кривых, поддерживаемых клиентом в "
+"стандартной конфигурации в синтаксисе OpenSSL (curve1:curve2:0x0001)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1346
+msgid ""
+"Enter a list of elliptic curves supported by the client in a standard "
+"configuration in OpenSSL syntax (cipher1:cipher2:0x0001)."
+msgstr ""
+"Введите список эллиптических кривых, поддерживаемых клиентом в "
+"стандартной конфигурации в синтаксисе OpenSSL (cipher1:cipher2:0x0001)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1337
+msgid ""
+"Enter a custom timout between data received from the client after which the "
+"connection is closed."
+msgstr ""
+"Введите пользовательское время ожидания между данными, полученными от "
+"клиента, после которого соединение будет закрыто."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1336
+msgid ""
+"Enter a custom timout between data it sent to the client after which the "
+"connection is closed. "
+msgstr ""
+"Введите пользовательский тайм-аут между данными, отправленными клиенту, "
+"после чего соединение будет закрыто."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1092
+msgid "Endpoint Port"
+msgstr "Порт конечной точки"
+
+#
+# File: /usr/plugins/net/wireguard/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 55
+# File: /usr/lang/src/controllers.php, line: 1091
+msgid "Endpoint Address"
+msgstr "Адрес конечной точки"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1308
+msgid ""
+"Enable transparent proxy mode. You will need a firewall rule to forward "
+"traffic from the firewall to the proxy server. You may leave the proxy "
+"interfaces empty, but remember to set a valid ACL in that case. <a href=\"/"
+"firewall_nat_edit.php?template=transparent_proxy\"> Add a new firewall rule "
+"</a>"
+msgstr ""
+"Включение прозрачного режима прокси. Для пересылки трафика с брандмауэра "
+"на прокси-сервер потребуется правило брандмауэра. Можно оставить прокси-"
+"интерфейсы пустыми, но не забудьте установить допустимый ACL в этом случае. "
+"<a href=\"/firewall_nat_edit.php?template=transparent_proxy\">добавить "
+"новое правило брандмауэра</a>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1245
+msgid "Enable this user."
+msgstr "Включить этого пользователя."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1295
+msgid "Enable this server."
+msgstr "Включить этот сервер."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1284
+msgid "Enable this automation."
+msgstr "Включить эту автоматизацию."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1238
+msgid "Enable parent proxy feature."
+msgstr "Включить функцию родительского прокси."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1178
+msgid "Enable configured services."
+msgstr "Включить настроенные службы."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1170
+msgid "Enable authentication against the parent proxy."
+msgstr "Включить проверку подлинности родительского прокси-сервера."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1131
+msgid ""
+"Enable SSL inspection mode, which allows to log HTTPS connections "
+"information, such as requested URL and/or make the proxy act as a man in the "
+"middle between the internet and your clients. Be aware of the security "
+"implications before enabling this option. If you plan to use transparent "
+"HTTPS mode, you need nat rules to reflect your traffic.<a href=\"/"
+"firewall_nat_edit.php?template=transparent_proxy&https=1\">Add a new "
+"firewall rule </a>"
+msgstr ""
+"Включить режим проверки SSL, который позволяет регистрировать информацию о "
+"соединениях HTTPS, такую как запрошенный URL и/или заставить прокси действовать "
+"как человек посередине между интернетом и вашими клиентами. Прежде чем включить "
+"этот параметр, необходимо ознакомиться с его последствиями для безопасности. "
+"Если вы планируете использовать прозрачный режим HTTPS, вам нужны правила nat "
+"для отражения вашего трафика.<a href=\"/firewall_nat_edit.php?template="
+"transparent_proxy & https=1\"> Добавить новое правило брандмауэра</a>"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1123
+msgid "Enable Remote MySQL"
+msgstr "Включить удалённый MySQL"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1109
+msgid "Enable Parent Proxy"
+msgstr "Включить Родительский Прокси"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1102
+msgid "Enable Netdata, you can reach the UI via address and port set below."
+msgstr "Включить Netdata, можно получить доступ к интерфейсу через адрес и порт, указанные ниже."
+
+#
+# File: /usr/lang/src/controllers.php, line: 1096
+msgid "Enable Maltrail Server"
+msgstr "Включить сервер Maltrail"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1095
+msgid "Enable Maltrail Sensor"
+msgstr "Включить сенсор Maltrail"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1044
+msgid "Enable Authentication"
+msgstr "Включить аутентификацию"
+
+#
+# File: /usr/lang/src/controllers.php, line: 1035
+msgid "Elliptic Curves"
+msgstr "Эллиптические кривые"
+
+#
+# File: /usr/lang/src/controllers.php, line: 995
+msgid ""
+"Do not decode and/or filter SSL content, only log requested domains and IP "
+"addresses. Some old servers may not provide SNI, so their addresses will not "
+"be indicated."
+msgstr ""
+"Не декодировать и/или не фильтровать содержимое SSL, только регистрировать "
+"запрошенные домены и IP-адреса. Некоторые старые серверы могут не предоставлять "
+"SNI, поэтому их адреса не будут указаны."
+
+#
+# File: /usr/lang/src/controllers.php, line: 984
+msgid "Disable password save"
+msgstr "Отключить сохранение пароля"
+
+#
+# File: /usr/lang/src/controllers.php, line: 927
+msgid "Description for this automation."
+msgstr "Описание для этой автоматизации."
+
+#
+# File: /usr/lang/src/controllers.php, line: 854
+msgid "DHCP Enable"
+msgstr "Включить DHCP"
+
+#
+# File: /usr/lang/src/controllers.php, line: 850
+msgid ""
+"Custom configuration, which will be returned in the output file without "
+"modifications"
+msgstr ""
+"Пользовательская конфигурация, которая будет возвращена в выходной файл "
+"без изменений"
+
+#
+# File: /usr/lang/src/controllers.php, line: 849
+msgid "Custom config"
+msgstr "Пользовательская конфигурация"
+
+#
+# File: /usr/lang/src/controllers.php, line: 840
+msgid ""
+"Create a list of sites which may not be inspected, for example bank sites. "
+"Prefix the domain with a . to accept all subdomains (e.g. .google.com)."
+msgstr ""
+"Создать список сайтов, которые не будут проверены, например банковские сайты. "
+"Если Перед именем домена '.', то принять все поддомены (например .google.com)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 825
+msgid "Content Security Policy: Report Only"
+msgstr "Политика Безопасности Содержимого: Только Отчет"
+
+#
+# File: /usr/lang/src/controllers.php, line: 789
+msgid "Comma-separated list of SMTP servers for alert delivery."
+msgstr "Разделенный запятыми список SMTP-серверов для доставки оповещений."
+
+#
+# File: /usr/lang/src/controllers.php, line: 751
+msgid ""
+"Choose the automations that should be run after certificate creation and "
+"renewal. Basically every application requires a quick restart to reload the "
+"updated certificate. If you don't configure an automation, the in-memory "
+"certificate may expire and cause security warnings and other issues."
+msgstr ""
+"Выберите автоматизации, которые должны выполняться после создания и обновления "
+"сертификата. В основном каждое приложение требует быстрого перезапуска для "
+"перезагрузки обновленного сертификата. Если не настроить автоматизацию, "
+"срок действия сертификата в памяти может истечь, что приведет к появлению "
+"предупреждений безопасности и других проблем."
+
+#
+# File: /usr/lang/src/controllers.php, line: 750
+msgid ""
+"Choose the Root CA. This CA will be trusted to issue client certificates for "
+"authentication."
+msgstr ""
+"Выберите корневой ЦС. Этому центру сертификации будет доверено выдавать "
+"сертификаты клиентов для проверки подлинности."
+
+#
+# File: /usr/lang/src/controllers.php, line: 727
+msgid ""
+"Choose a backend for advanced authentication. If you don't have one, "
+"configure it under System -> Access -> Servers. If nothing is configured, "
+"the local database is used."
+msgstr ""
+"Выберите серверную часть для расширенной проверки подлинности. Если у "
+"вас его нет, настройте его в System -> Access -> Servers. Если ничего не "
+"настроено, используется локальная база."
+
+#
+# File: /usr/lang/src/controllers.php, line: 724
+msgid "Choose a Firewall Alias for trusted proxies."
+msgstr "Выберите псевдоним брандмауэра для доверенных прокси-серверов."
+
+#
+# File: /usr/lang/src/controllers.php, line: 688
+msgid "Capture All"
+msgstr "Захватить все"
+
+#
+# File: /usr/lang/src/controllers.php, line: 621
+msgid ""
+"Block user-agents. You may use a regular expression, use a comma or press "
+"Enter for new item. Examples: \"^(.)+Macintosh(.)+Firefox/37\\.0\" matches "
+"on \"Macintosh version of Firefox revision 37.0\"; \"^Mozilla\" matches on "
+"\"all Mozilla based browsers\""
+msgstr ""
+"Блокировать пользовательские агенты. Можно использовать регулярное выражение, "
+"запятую или нажать Enter для нового элемента. Примеры: "
+"\"^(.)+Macintosh(.)+Firefox/37\\.0\" соответствие \"Macintosh версии Firefox 37.0\";"
+"\"^Mozilla\"  соответствует \"все браузеры на основе Mozilla\""
+
+#
+# File: /usr/lang/src/controllers.php, line: 612
+msgid ""
+"Block specific MIME type reply. You may use a regular expression, use a "
+"comma or press Enter for new item. Examples: \"video/flv\" matches on "
+"\"Flash Video\"; \"application/x-javascript\" matches on \"javascripts\""
+msgstr ""
+"Блокировать ответ определенного типа MIME. Можно использовать регулярное "
+"выражение, запятую или нажать Enter для нового элемента. Примеры: \"video/flv\" "
+"соответствует \" Flash Video\"; \"application/x-javascript\" соответствует \"javascripts\""
+
+#
+# File: /usr/lang/src/controllers.php, line: 589
+msgid ""
+"Blacklist destination domains. You may use a regular expression, use a comma "
+"or press Enter for new item. Examples: \"mydomain.com\" matches on \"*."
+"mydomain.com\"; \"^https?:\\/\\/([a-zA-Z]+)\\.mydomain\\.\" matches on "
+"\"http(s)://textONLY.mydomain.*\"; \"\\.gif$\" matches on \"*.gif\" but not "
+"on \"\\*.gif\\test\"; \"\\[0-9]+\\.gif$\" matches on \"\\123.gif\" but not "
+"on \"\\test.gif\""
+msgstr ""
+"Чёрный список доменов назначения. Можно использовать регулярное выражение, "
+"запятую или нажать Enter для нового элемента. Примеры: \"mydomain.com\" "
+"соответствует \"*.mydomain.com\"; \"^https?: \\ / \\/([a-zA-Z]+)\\.mydomain\\.\""
+"соответствует \"http (s)://textONLY.mydomain.* \";\"\\.gif$\" совпадает с \"\\*.gif\" "
+"но не на \"\\*.gif\ \ test\"; \"\\[0-9]+\\.gif$\" совпадает с \"\\123.gif\", но не "
+"с \"test\\.gif\""
+
+#
+# File: /usr/lang/src/controllers.php, line: 564
+msgid "Bandwidth Metric"
+msgstr "Метрика пропускной способности"
+
+#
+# File: /usr/lang/src/controllers.php, line: 549
+msgid "Automations"
+msgstr "Автоматизации"
+
+#
+# File: /usr/lang/src/controllers.php, line: 548
+msgid "Automation Timeout"
+msgstr "Тайм-аут автоматизации"
+
+#
+# File: /usr/lang/src/controllers.php, line: 517
+msgid "Area Range"
+msgstr "Границы областей"
+
+#
+# File: /usr/lang/src/controllers.php, line: 499
+msgid ""
+"Allowed destination TCP ports, you may use ranges (ex. 222-226) and add "
+"comments with colon (ex. 22:ssh)."
+msgstr ""
+"Разрешенные TCP-порты назначения, можно использовать диапазоны (например. "
+"222-226) и добавить комментарии с двоеточием (ex. 22:ssh)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 495
+msgid ""
+"Allowed destination SSL ports, you may use ranges (ex. 222-226) and add "
+"comments with colon (ex. 22:ssh)."
+msgstr ""
+"Разрешенные SSL-порты назначения, можно использовать диапазоны (например. "
+"222-226) и добавить комментарии с двоеточием (ex. 22:ssh)."
+
+#
+# File: /usr/lang/src/controllers.php, line: 452
+msgid "Advanced ACL Authentication Backend"
+msgstr "Расширенный ACL для аутентификации"
+
+#
+# File: /usr/lang/src/controllers.php, line: 426
+msgid "Account Hash"
+msgstr "Хэш аккаунта"
+
+#
+# File: /usr/lang/src/controllers.php, line: 404
+msgid "Access Token"
+msgstr "Маркер доступа"
+
+#
+# File: /usr/lang/src/controllers.php, line: 198
+msgid ""
+"\n"
+"          Sets auth-nocache in the exported configuration when password "
+"authentication is used.\n"
+"          This prevents OpenVPN from caching passwords in memory.\n"
+"        "
+msgstr ""
+"\n"
+"          Задает auth-nocache в экспортированной конфигурации при "
+"использовании аутентификации паролем.\n"
+"          Это предотвращает кэширование паролей OpenVPN в памяти.\n"
+"        "
+
+#
+# File: /usr/lang/src/controllers.php, line: 65
+msgid ""
+"\n"
+"            Address(es) or hostname(s) to which this client should connect "
+"to, use comma's to provide more then one\n"
+"        "
+msgstr ""
+"\n"
+"            Адрес (адреса) или имя(имена) хоста, к которому должен "
+"подключиться этот клиент, используйте запятую для предоставления более одного элемента\n"
+"        "
+
+#
+# File: /usr/lang/src/config.php, line: 57
+msgid ""
+"Enable/disable sending of ICMP redirects in response to IP packets for which "
+"a better,\n"
+"        and for the sender directly reachable, route and next hop is known.\n"
+"      "
+msgstr ""
+"Включить/отключить отправку перенаправлений ICMP в ответ на IP-пакеты, для "
+"которых известен\n"
+"лучший и для отправителя прямой доступ маршрут и следующий переход.\n"
+"      "
+
+#
+# File: /usr/lang/src/config.php, line: 56
+msgid "Enable/disable dropping of ICMP Redirect packets"
+msgstr "Включение/отключение отбрасывания пакетов перенаправления ICMP"
+
+#
+# File: /usr/lang/src/acl.php, line: 154
+msgid "Services: Postfix: Log File"
+msgstr "Службы: Postfix: Log File"
+
+#
+# File: /usr/lang/src/acl.php, line: 150
+msgid "Services: Netdata"
+msgstr "Службы: Netdata"
+
+#
+# File: /usr/lang/src/acl.php, line: 147
+msgid "Services: Maltrail"
+msgstr "Службы: Maltrail"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/OpenVPN/export.volt, line: 185
+msgid "Linked user(s)"
+msgstr "Связанный пользователь"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/stats.volt, line: 33
+msgid "Recursion time (average)"
+msgstr "Время рекурсии (среднее)"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/stats.volt, line: 34
+msgid "Recursion time (median)"
+msgstr "Время рекурсии (медиана)"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/stats.volt, line: 37
+msgid "TCP usage"
+msgstr "Использование TCP"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/stats.volt, line: 39
+msgid "IP ratelimited queries"
+msgstr "Запросы с ограниченной скоростью IP"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/stats.volt, line: 40
+msgid "Recursive replies"
+msgstr "Рекурсивные ответы"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/stats.volt, line: 41
+msgid "Cache misses"
+msgstr "Промах кэша"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/stats.volt, line: 42
+msgid "Cache hits"
+msgstr "Попаданя в кэш"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias_util.volt, line: 191
+msgid "Look up which aliases match a certain IP address"
+msgstr "Посмотр, какие псевдонимы соответствуют определенному IP-адресу"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/stats.volt, line: 44
+msgid "Prefetch"
+msgstr "Упреждающая выборка"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias_util.volt, line: 113
+msgid "No matches for this IP."
+msgstr "Нет совпадений для этого IP."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias_util.volt, line: 108
+msgid "Error while fetching matching aliases:"
+msgstr "Ошибка при извлечении совпадающих псевдонимов:"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias_util.volt, line: 84
+msgid "Enter an IP address to show in which aliases it is used."
+msgstr "Введите IP-адрес, чтобы увидеть, в каких псевдонимах он используется."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias_util.volt, line: 83
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Firewall/alias_util.volt, line: 192
+msgid "Find references"
+msgstr "Найти ссылки"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/stats.volt, line: 50
+msgid "Now"
+msgstr "Сейчас"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Unbound/stats.volt, line: 52
+msgid "Elapsed"
+msgstr "Истекший"
+
+#
+# File: /usr/core/src/www/diag_dump_states.php, line: 167
+msgid "Remove all related state entries"
+msgstr "Удалить все связанные записи"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/systemhealth.volt, line: 719
+msgid "Full Date & Time"
+msgstr "Полная дата и время"
+
+#
+# File: /usr/core/src/www/firewall_nat_out_edit.php, line: 201
+msgid "Source Hash Key is only valid for Source Hash type"
+msgstr "Ключ исходного хэша действителен только для типа исходного хэша"
+
+#
+# File: /usr/core/src/www/firewall_nat_out_edit.php, line: 204
+msgid "Source Hash Key must be 0x followed by 32 hexadecimal digits"
+msgstr "Хэш-ключ, источник должен начинаться с 0x, за которым следует 32 шестнадцатеричных цифр"
+
+#
+# File: /usr/core/src/www/firewall_nat_out_edit.php, line: 761
+msgid ""
+"Source Hash: Uses a hash of the source address to determine the translation "
+"address, ensuring that the redirection address is always the same for a "
+"given source. Optionally provide a Source Hash Key to make it persist when "
+"the ruleset is reloaded. Must be 0x followed by 32 hexadecimal digits."
+msgstr ""
+"Хэш источника: использует хэш адреса источника для определения адреса трансляции, "
+"гарантируя, что адрес перенаправления всегда один и тот же для данного источника. "
+"При необходимости укажите исходный хэш-ключ, чтобы он сохранялся при перезагрузке "
+"набора правил. Должен начинаться с 0x, за которым следует 32 шестнадцатеричных цифр."
+
+#
+# File: /usr/core/src/www/index.php, line: 138
+#, php-format
+msgid "Or click to %scheck for updates%s."
+msgstr "Или щелкните %проверить наличие обновлений%s."
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 1975
+# File: /usr/core/src/www/interfaces.php, line: 2502
+msgid ""
+"If this interface is a multi-WAN interface, select an existing gateway from "
+"the list or add a new one using the button above. For single WAN interfaces "
+"a gateway must be created but set to auto-detect. For a LAN a gateway is not "
+"necessary to be set up."
+msgstr ""
+"Если интерфейс является мульти-WAN интерфейсом, выберите существующий шлюз из "
+"списка или добавьте новый с помощью кнопки выше. Для единичных WAN-интерфейсов "
+"шлюз должен быть создан, но настроен на автоматическое определение. Для "
+"локальной сети шлюз настраивать не обязательно."
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2068
+msgid "Override MTU"
+msgstr "Переопределить MTU"
+
+#
+# File: /usr/core/src/www/interfaces.php, line: 2072
+msgid ""
+"An ISP may incorrectly set an MTU value which can cause intermittent network "
+"disruption. By default this value will be ignored. Unsetting this option "
+"will allow to apply the MTU supplied by the ISP instead."
+msgstr ""
+"Интернет-провайдер может неправильно установить значение MTU, которое может "
+"вызвать прерывистое нарушение работы сети. По умолчанию это значение "
+"игнорируется. Отключение этой опции позволит применить MTU, предоставленный провайдером."
+
+#
+# File: /usr/core/src/www/widgets/widgets/services_status.widget.php, line: 52
+msgid "Comma-separated list of services to NOT display in the widget"
+msgstr "Разделенный запятыми список сервисов, которые не отображаются в виджете"
+
+#
+# File: /usr/core/src/www/widgets/widgets/monit.widget.php, line: 180
+msgid "Rows"
+msgstr "Строки"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 797
+msgid ""
+"Strongswan automatically creates SPD policies for the networks defined in "
+"this phase2. If you need to allow other networks to use this ipsec tunnel, "
+"you can add them here as a comma-separated list.When configured, you can use "
+"network address translation to push packets through this tunnel from these "
+"networks."
+msgstr ""
+"Strongswan автоматически создает политики SPD для сетей, определенных на этом "
+"этапе 2. Если нужно разрешить другим сетям использовать этот туннель ipsec, можно "
+"добавить их здесь как список, разделенный запятыми. При настройке можно использовать "
+"NAT для передачи пакетов через этот туннель из этих сетей."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 572
+msgid "Remote Address"
+msgstr "Удаленный адрес"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 563
+msgid "Tunnel network"
+msgstr "Туннельная сеть"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 250
+#, php-format
+msgid "Invalid local network: %s has no valid IPv6 network."
+msgstr "Недопустимая локальная сеть: %s не имеет допустимой сети IPv6."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase2.php, line: 245
+#, php-format
+msgid "Invalid local network: %s has no valid IPv4 network."
+msgstr "Недопустимая локальная сеть: %s не имеет допустимой сети IPv4."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1019
+msgid ""
+"Decides whether IPsec policies are installed in the kernel by the charon "
+"daemon for a given connection. When using route-based mode (VTI) this needs "
+"to be disabled."
+msgstr ""
+"Решает, установлены ли политики IPsec в ядре демоном charon для данного "
+"соединения. При использовании режима на основе маршрута (VTI) это должно быть отключено."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 1015
+msgid "Install policy"
+msgstr "Установить политику"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 715
+msgid ""
+"Recommended for dynamic IP addresses that can be resolved by DynDNS at IPsec "
+"startup or update time."
+msgstr ""
+"Рекомендуется для динамических IP-адресов, которые могут быть разрешены DynDNS "
+"при запуске или обновлении IPsec."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 713
+msgid "Allow any remote gateway to connect"
+msgstr "Разрешить подключение любого удаленного шлюза"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 710
+msgid "Dynamic gateway"
+msgstr "Динамический шлюз"
+
+#
+# File: /usr/core/src/www/vpn_ipsec_phase1.php, line: 705
+msgid "Enter the public IP address or host name of the remote gateway."
+msgstr "Введите общедоступный IP-адрес или имя хоста удаленного шлюза."
+
+#
+# File: /usr/core/src/www/vpn_ipsec_mobile.php, line: 462
+msgid ""
+"Provide a list of split DNS domain names to clients. Enter a comma-separated "
+"list."
+msgstr ""
+"Предоставляет список разделенных доменных имен DNS клиентам. Введите список "
+"через запятую."
+
+#
+# File: /usr/core/src/www/system_usermanager_addprivs.php, line: 168
+msgid ""
+"Please be aware that this option does not cover all areas of the system and "
+"will be removed in a future release."
+msgstr ""
+"Обратите внимание, что эта опция не распространяется на все области системы "
+"и будет удалена в будущем выпуске."
+
+#
+# File: /usr/core/src/www/system_usermanager_addprivs.php, line: 167
+msgid "Privileges"
+msgstr "Привилегии"
+
+#
+# File: /usr/core/src/www/system_general.php, line: 459
+msgid "IPv6 gateway group"
+msgstr "Группа шлюза IPv6"
+
+#
+# File: /usr/core/src/www/system_general.php, line: 451
+# File: /usr/core/src/www/system_general.php, line: 462
+msgid "Any available gateway"
+msgstr "Любой доступный шлюз"
+
+#
+# File: /usr/core/src/www/system_general.php, line: 448
+msgid "IPv4 gateway group"
+msgstr "Группа шлюзов IPv4"
+
+#
+# File: /usr/core/src/www/system_general.php, line: 442
+msgid ""
+"When using default gateway switching use any available gateway or select a "
+"specific gateway group below."
+msgstr ""
+"При использовании переключения шлюза по умолчанию используйте любой "
+"доступный шлюз или выберите определенную группу шлюза ниже."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 733
+#, php-format
+msgid "Time interval before packets are treated as lost. Default is %d."
+msgstr "Интервал времени, прежде чем пакеты будут рассматриваться как потерянные. Значение по умолчанию - %d."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Diagnostics/fw_log.volt, line: 318
+msgid "Lookup hostnames"
+msgstr "Поиск имен хостов"
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 729
+msgid "Loss Interval"
+msgstr "Интервал потерь"
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 724
+#, php-format
+msgid "The time period over which results are averaged. Default is %d."
+msgstr "Период времени, за который усредняются результаты. Значение по умолчанию - %d."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 720
+msgid "Time Period"
+msgstr "Временной период"
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 715
+#, php-format
+msgid "Time interval between alerts. Default is %d."
+msgstr "Интервал времени между оповещениями. Значение по умолчанию - %d."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 711
+msgid "Alert Interval"
+msgstr "Интервал Оповещения"
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 619
+msgid "This will force this gateway to be considered \"down\"."
+msgstr "Шлюз принудительно считается отключенным."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 599
+msgid "This will consider this gateway as always being \"up\"."
+msgstr "Шлюз принудительно рассматривается поднятым"
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 581
+msgid "This will select the above gateway as the default gateway."
+msgstr "Этот шлюз будет выбран в качестве шлюза по умолчанию."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 299
+msgid "The loss interval needs to be positive."
+msgstr "Интервал потерь должен быть положительным."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 297
+msgid "The loss interval needs to be a numeric value."
+msgstr "Интервал потерь должен быть числовым значением."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 291
+msgid "The time period needs at least 2.1 times that of the probe interval."
+msgstr "Период времени должен по крайней мере в 2,1 раза превышать интервал измерения."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 289
+msgid "The time period needs to be positive."
+msgstr "Период времени должен быть положительным."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 287
+msgid "The time period needs to be a numeric value."
+msgstr "Период времени должен быть числовым значением."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 281
+msgid "The alert interval needs to be positive."
+msgstr "Интервал оповещения должен быть положительным."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 279
+msgid "The alert interval needs to be a numeric value."
+msgstr "Интервал оповещения должен быть числовым значением."
+
+#
+# File: /usr/core/src/www/system_gateways_edit.php, line: 101
+#, php-format
+msgid ""
+"The gateway address \"%s\" does not lie within one of the chosen interface's "
+"IPv4 subnets."
+msgstr ""
+"Адрес шлюза \"%s\" не находится в одной из подсетей IPv4 выбранного "
+"интерфейса."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 2004
+msgid "No private key here"
+msgstr "Нет закрытого ключа"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1920
+msgid "Go back"
+msgstr "Вернуться назад"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1914
+msgid "Download Certificate"
+msgstr "Скачать сертификат"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1913
+msgid "You can download, revise, or add to CRL later."
+msgstr "Вы можете загрузить, пересмотреть или добавить в CRL позже."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1905
+msgid "Download Private Key"
+msgstr "Скачать закрытый ключ"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1903
+msgid ""
+"The private key is not saved and no longer downloadable after closing this "
+"window."
+msgstr ""
+"Закрытый ключ не сохраняется и больше не загрузится после закрытия этого "
+"окна."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1895
+msgid "Certificate has been issued."
+msgstr "Сертификат выдан."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1525
+msgid ""
+"If the certificate is for use by a device other than this firewall, and you "
+"can download private key soon after Saving, choose this. By this option you "
+"can download the private key, which is not saved onto this firewall."
+msgstr ""
+"Если сертификат предназначен для использования устройством, отличным от этого "
+"брандмауэра, и вы можете загрузить закрытый ключ вскоре после сохранения, "
+"Выберите это. С помощью этой опции вы можете загрузить закрытый ключ, который "
+"не сохраняется на этом брандмауэре."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1524
+msgid "Normally choose this."
+msgstr "Обычно выбирают это."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1521
+# File: /usr/core/src/www/system_certmanager.php, line: 1525
+msgid "Download and do not save"
+msgstr "Скачать и не сохранять"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1520
+# File: /usr/core/src/www/system_certmanager.php, line: 1524
+msgid "Save on this firewall"
+msgstr "Сохранить на этом брандмауэре"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1517
+msgid "Private key location"
+msgstr "Расположение закрытого ключа"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1418
+msgid "Select extendedKeyUsage"
+msgstr "Выберите extendedKeyUsage"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1410
+# File: /usr/core/src/www/system_certmanager.php, line: 1433
+msgid "None. Just add CA option in basicConstraits."
+msgstr "Никто. Просто добавьте опцию CA в основные ограничения."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1409
+# File: /usr/core/src/www/system_certmanager.php, line: 1432
+# File: /usr/core/src/www/system_certmanager.php, line: 1473
+msgid "Combined Client/Server Certificate"
+msgstr "Комбинированный сертификат клиент-сервер"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1405
+# File: /usr/core/src/www/system_certmanager.php, line: 1428
+msgid "Practical examples:"
+msgstr "Примеры из практики:"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1395
+msgid "Select keyUsage"
+msgstr "Выберите keyUsage"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1388
+msgid ""
+"Define the maximum number of non-self-issued intermediate certificates that "
+"may follow this certificate in a valid certification path."
+msgstr ""
+"Определите максимальное количество несамостоятельных промежуточных "
+"сертификатов, которые могут следовать за этим сертификатом в допустимом "
+"пути сертификации."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1386
+# File: /usr/core/src/www/system_certmanager.php, line: 1388
+msgid "Maximum Path Length"
+msgstr "Максимальная длина пути"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1334
+msgid "Subject of the certificate"
+msgstr "Субъект сертификата"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1318
+msgid "Paste the CSR file here."
+msgstr "Вставьте CSR-файл сюда."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1316
+msgid "Show Detail"
+msgstr "Показать подробности"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1004
+msgid "Unknown error occured. Try again."
+msgstr "Произошла неизвестная ошибка. Попробовать еще раз."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 1003
+msgid "Unknown Error"
+msgstr "Неизвестная ошибка"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 920
+msgid "Certificate Request"
+msgstr "Запрос сертификата"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 645
+msgid "Please select a valid extendedKeyUsage."
+msgstr "Пожалуйста, выберите действительный extendedKeyUsage."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 630
+msgid "Please select a valid keyUsage."
+msgstr "Выберите допустимое использование ключа."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 575
+msgid "Please select a valid Type."
+msgstr "Пожалуйста, выберите допустимый тип."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 537
+# File: /usr/core/src/www/system_certmanager.php, line: 1313
+msgid "CSR file"
+msgstr "Файл CSR"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 392
+msgid "Could not parse CSR file."
+msgstr "Не удалось проанализировать файл CSR."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 391
+msgid "CSR file is invalid"
+msgstr "Недопустимый файл CSR"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 381
+msgid "No csr parameter in query"
+msgstr "Нет параметра csr в запросе"
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 380
+msgid "Invalid Request"
+msgstr "Недопустимый запрос"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/Core/firmware.volt, line: 389
+msgid "No previous action log found."
+msgstr "Предыдущий журнал действий не найден."
+
+#
+# File: /usr/core/src/www/system_certmanager.php, line: 214
+msgid "Sign a Certificate Signing Request"
+msgstr "Подписать запрос на подписание сертификата"
+
+#
+# File: /usr/core/src/www/system_advanced_sysctl.php, line: 156
+msgid "Are you sure you want to reset all tunables back to factory defaults?"
+msgstr "Вы уверены, что хотите восстановить заводские настройки?"
+
+#
+# File: /usr/core/src/www/system_advanced_firewall.php, line: 427
+msgid ""
+"Outgoing packets from this firewall on an interface which has a gateway will "
+"normally use the specified gateway for that interface. When this option is "
+"set the route will be selected by the system routing table instead."
+msgstr ""
+"Исходящие пакеты от этого межсетевого экрана на интерфейсе, у которого есть "
+"шлюз, обычно используют указанный шлюз для этого интерфейса. Когда эта опция "
+"установлена, маршрут будет выбран системной таблицей маршрутизации."
+
+#
+# File: /usr/core/src/www/status_dhcp_leases.php, line: 469
+# File: /usr/core/src/www/status_dhcpv6_leases.php, line: 564
+msgid "No leases file found. Is the DHCP server active?"
+msgstr "Файл аренды не найден. DHCP-сервер? активен ?"
+
+#
+# File: /usr/core/src/www/services_unbound_host_edit.php, line: 123
+msgid "A valid hostname or domain must be specified in alias list."
+msgstr "Допустимое имя хоста или домена должно быть указано в списке псевдонимов."
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 359
+#, php-format
+msgid ""
+"If Unbound is enabled, the DHCP service (if enabled) will automatically "
+"serve the LAN IP address as a DNS server to DHCP clients so they will use "
+"Unbound resolver. If forwarding is enabled, Unbound will use the DNS servers "
+"entered in %sSystem: General setup%s or those obtained via DHCP or PPP on "
+"WAN if the \"Allow DNS server list to be overridden by DHCP/PPP on WAN\" is "
+"checked."
+msgstr ""
+"Если функция Unbound включена, служба DHCP (если включена) будет автоматически "
+"обслуживать IP-адрес локальной сети в качестве DNS-сервера для DHCP-клиентов, "
+"поэтому они будут использовать Unbound resolver. Если переадресация включена, "
+"Unbound будет использовать DNS-серверы, введенные в %sSystem: General setup%s "
+"или полученные через DHCP или PPP в WAN, если установлен флажок \"Разрешить "
+"переопределение списка DNS-серверов DHCP/PPP в WAN\"."
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 337
+msgid ""
+"Utilize different network interfaces that Unbound will use to send queries "
+"to authoritative servers and receive their replies. By default all "
+"interfaces are used. Note that setting explicit outgoing interfaces only "
+"works when they are statically configured."
+msgstr ""
+"Используйте различные сетевые интерфейсы, которые Unbound будет использовать "
+"для отправки запросов на авторитетные серверы и получать их ответы. По "
+"умолчанию используются все интерфейсы. Обратите внимание, что установка "
+"явных исходящих интерфейсов работает только тогда, когда они настроены статически."
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 321
+msgid ""
+"Enter any additional options you would like to add to the Unbound "
+"configuration here."
+msgstr ""
+"Введите здесь все дополнительные параметры, которые вы хотите добавить в "
+"конфигурацию Unbound."
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 281
+msgid "Create corresponding TXT records"
+msgstr "Создание соответствующих записей TXT"
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 270
+msgid ""
+"If this option is unset, then IPv6 link-local addresses will not be "
+"registered in Unbound, preventing return of unreachable address when more "
+"than one listen interface is configured."
+msgstr ""
+"Если этот параметр не задан, адреса IPv6 link-local не будут зарегистрированы "
+"в Unbound, что предотвращает возврат недостижимого адреса при настройке "
+"нескольких интерфейсов прослушивания."
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 268
+msgid "Register IPv6 link-local addresses"
+msgstr "Регистрация IPv6-локальных адресов"
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 257
+#, php-format
+msgid ""
+"If this option is set, then DHCP static mappings will be registered in "
+"Unbound, so that their name can be resolved. You should also set the domain "
+"in %sSystem: General setup%s to the proper value."
+msgstr ""
+"Если этот параметр установлен, статические сопоставления DHCP будут "
+"зарегистрированы в Unbound, чтобы их имя можно было разрешить. Необходимо "
+"также задать для домена в %system: General setup%s правильное значение."
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 233
+msgid ""
+"If this option is set, then machines that specify their hostname when "
+"requesting a DHCP lease will be registered in Unbound, so that their name "
+"can be resolved."
+msgstr ""
+"Если этот параметр установлен, то компьютеры, которые указывают свое имя "
+"хоста при запросе аренды DHCP, будут зарегистрированы в Unbound, чтобы "
+"их имя можно было разрешить."
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 216
+msgid ""
+"Interface IP addresses used for responding to queries from clients. If an "
+"interface has both IPv4 and IPv6 IPs, both are used. Queries to other "
+"interface IPs not selected below are discarded. The default behavior is to "
+"respond to queries on every available IPv4 and IPv6 address."
+msgstr ""
+"IP-адреса интерфейса, используемые для ответа на запросы клиентов. Если у "
+"интерфейса есть адреса IPv4 и IPv6 IPs, используются оба. Запросы к другому "
+"интерфейсу, не выбранному ниже, отбрасываются. Поведение по умолчанию-"
+"отвечать на запросы по всем доступным адресам IPv4 и IPv6."
+
+#
+# File: /usr/core/src/www/services_unbound.php, line: 195
+msgid "Enable Unbound"
+msgstr "Включить Unbound"
+
+#
+# File: /usr/core/src/www/services_dhcp_relay.php, line: 166
+msgid ""
+"These are the IP addresses of servers to which DHCP requests are relayed. "
+"You can enter multiple server IP addresses, separated by commas."
+msgstr ""
+"Это IP-адреса серверов, к которым относятся DHCP-запросы. Можно ввести "
+"несколько IP-адресов сервера, разделенных запятыми."
+
+#
+# File: /usr/core/src/www/services_dhcp.php, line: 946
+# File: /usr/core/src/www/services_dhcp_edit.php, line: 502
+msgid ""
+"Leave blank to disable. Enter a full hostname or IP for the TFTP server and "
+"optionally a full path for a bootfile."
+msgstr ""
+"Оставьте пустым чтобы отключить. Введите полное имя хоста или IP для "
+"сервера TFTP и, возможно, полный путь для bootfile."
+
+#
+# File: /usr/core/src/www/services_dhcp.php, line: 944
+# File: /usr/core/src/www/services_dhcp_edit.php, line: 500
+msgid "Set Bootfile"
+msgstr "Установить Bootfile"
+
+#
+# File: /usr/core/src/www/services_dhcp.php, line: 942
+# File: /usr/core/src/www/services_dhcp_edit.php, line: 498
+msgid "Set TFTP hostname"
+msgstr "Установить имя хоста TFTP"
+
+#
+# File: /usr/core/src/www/services_dhcp.php, line: 918
+#, php-format
+msgid ""
+"Enter a list of partial MAC addresses to deny access, comma-separated, no "
+"spaces, such as %s"
+msgstr ""
+"Введите список неполных MAC-адресов для запрета доступа, разделенных "
+"запятыми, без пробелов, например %s"
+
+#
+# File: /usr/core/src/www/services_dhcp.php, line: 916
+#, php-format
+msgid ""
+"Enter a list of partial MAC addresses to allow, comma-separated, no spaces, "
+"such as %s"
+msgstr ""
+"Введите список частичных MAC-адресов, разделенных запятыми, без пробелов, "
+"например %s"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Monit/Monit.php, line: 269
+msgid "Path is mandatory."
+msgstr "Путь является обязательным."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Monit/Monit.php, line: 249
+# File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Monit/Monit.php, line: 258
+msgid "Please set at least one of Address or Interface."
+msgstr "Пожалуйста, установите адрес или интерфейс."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Monit/Monit.php, line: 243
+msgid "Address is mandatory for 'Remote Host' checks."
+msgstr "Адрес является обязательным для проверки удаленного сервера'."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Monit/Monit.php, line: 226
+# File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Monit/Monit.php, line: 235
+msgid "Please set at least one of Pidfile or Match."
+msgstr "Пожалуйста, установите pid-файл или имя."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Monit/Monit.php, line: 210
+#, php-format
+msgid "Test %s with type %s not allowed for this service type"
+msgstr "Тест %s с типом %s не разрешен для этого типа службы"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Monit/Monit.php, line: 188
+msgid ""
+"Condition would change the type of the test but it is linked to a service."
+msgstr ""
+"Условие изменило бы тип теста, но оно связано со службой."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/models/OPNsense/Monit/Monit.php, line: 175
+msgid "Cannot change the type. Test is linked to a service."
+msgstr "Невозможно изменить тип. Тест связан со службой."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/library/OPNsense/Auth/LDAPTOTP.php, line: 56
+msgid "LDAP + Timebased One Time Password"
+msgstr "LDAP + одноразовый пароль на основе времени"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/OpenVPN/Api/ExportController.php, line: 379
+msgid "OpenVPN export"
+msgstr "Экспорт OpenVPN"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Firewall/Api/AliasController.php, line: 215
+msgid "Alias"
+msgstr "Всевдоним"
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 267
+msgid "The repository fingerprint has been revoked."
+msgstr "Подпись хранилища была отозвана."
+
+#
+# File: /usr/core/src/opnsense/mvc/app/controllers/OPNsense/Core/Api/FirmwareController.php, line: 264
+msgid "Could not verify the repository fingerprint."
+msgstr "Не удалось проверить подпись репозитория."
+
+#
+# File: /usr/plugins/security/maltrail/src/etc/inc/plugins.inc.d/maltrail.inc, line: 50
+msgid "maltrail server"
+msgstr "сервер maltrail"
+
+#
+# File: /usr/plugins/security/maltrail/src/etc/inc/plugins.inc.d/maltrail.inc, line: 37
+msgid "maltrail sensor"
+msgstr "сенсор maltrail"
+
+#
+# File: /usr/plugins/security/etpro-telemetry/src/www/widgets/widgets/proofpoint_et.widget.php, line: 91
+msgid "For more information, please visit"
+msgstr "Для получения дополнительной информации, пожалуйста, посетите"
+
+#
+# File: /usr/plugins/security/etpro-telemetry/src/www/widgets/widgets/proofpoint_et.widget.php, line: 53
+msgid "Last rule download"
+msgstr "Последняя загрузка правила"
+
+#
+# File: /usr/plugins/security/etpro-telemetry/src/www/widgets/widgets/proofpoint_et.widget.php, line: 52
+msgid "Last event"
+msgstr "Последнее событие"
+
+#
+# File: /usr/plugins/security/etpro-telemetry/src/www/widgets/include/proofpoint_et.inc, line: 2
+msgid "Telemetry status"
+msgstr "Состояние телеметрии"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 240
+msgid "Reset acme client"
+msgstr "Сброс клиента acme"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 198
+msgid ""
+"This will remove ALL certificates, private keys, CSRs from acme client and "
+"reset all certificate and account states. However, existing certificates "
+"will remain in OPNsense trust storage. The acme client will automatically "
+"regenerate everything on its next scheduled run. This is most useful when "
+"importing a config backup to a new firewall. Continue?"
+msgstr ""
+"Это удалит все сертификаты, закрытые ключи, CSRs из клиента acme и сбросит "
+"все состояния сертификатов и учетных записей. Однако существующие "
+"сертификаты останутся в хранилище доверия OPNsense. Клиент acme "
+"автоматически восстановит все при следующем запланированном запуске. Это "
+"наиболее полезно при импорте резервной копии конфигурации в новый брандмауэр. "
+"Продолжать?"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/settings.volt, line: 197
+msgid "Wipe all certificate and account data"
+msgstr "Стереть все данные сертификата и учетной записи"
+
+#
+# File: /usr/plugins/security/acme-client/src/opnsense/mvc/app/views/OPNsense/AcmeClient/actions.volt, line: 100
+msgid "Edit Automation"
+msgstr "Редактировать автоматизацию"
+
+#
+# File: /usr/plugins/net/wol/src/opnsense/mvc/app/views/OPNsense/Wol/index.volt, line: 124
+msgid "Wake All"
+msgstr "Разбудить Всех"
+
+#
+# File: /usr/plugins/net/wol/src/opnsense/mvc/app/views/OPNsense/Wol/index.volt, line: 102
+msgid "Wake up"
+msgstr "Разбудить"
+
+#
+# File: /usr/plugins/net/vnstat/src/opnsense/mvc/app/views/OPNsense/Vnstat/general.volt, line: 114
+msgid "Do you want to reset the database?"
+msgstr "Вы хотите сбросить базу данных?"
+
+#
+# File: /usr/plugins/net/vnstat/src/opnsense/mvc/app/views/OPNsense/Vnstat/general.volt, line: 113
+msgid "Confirm database reset"
+msgstr "Подтверждение сброса базы данных"
+
+#
+# File: /usr/plugins/net/vnstat/src/etc/inc/plugins.inc.d/vnstat.inc, line: 44
+msgid "vnStat Daemon"
+msgstr "Демон vnStat"
+
+#
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/lease.volt, line: 115
+msgid "Edit Lease"
+msgstr "Редактировать аренду"
+
+#
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/dhcp.volt, line: 120
+msgid "Edit DHCP"
+msgstr "Редактироовать DHCP"
+
+#
+# File: /usr/plugins/net/freeradius/src/opnsense/mvc/app/views/OPNsense/Freeradius/dhcp.volt, line: 81
+msgid "This feature is still in experimental state, use with caution."
+msgstr "Эта функция все еще находится в экспериментальном состоянии, использовать с осторожностью."
+
+#
+# File: /usr/plugins/net-mgmt/netdata/src/etc/inc/plugins.inc.d/netdata.inc, line: 37
+msgid "netdata daemon"
+msgstr "демон netdata"
+
+#
+# File: /usr/plugins/dns/bind/src/etc/inc/plugins.inc.d/bind.inc, line: 44
+msgid "BIND Daemon"
+msgstr "Демон BIND"
+
+#
+# File: /usr/plugins/devel/ting-plugin-gostvpn/src/opnsense/mvc/app/controllers/SmartSoft/GostVPN/Api/ClientsController.php, line: 112
+msgid "Empty Description"
+msgstr "Пустое описание"
+
+#
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 308
+msgid "Database repaired"
+msgstr "База данных восстановлена"
+
+#
+# File: /usr/plugins/devel/ting-plugin-squid-log/src/opnsense/mvc/app/views/SmartSoft/SquidLog/index.volt, line: 394
+msgid "Repair database"
+msgstr "Восстановить базу данных"
+
+#
+# File: /usr/plugins/devel/ting-plugin-yandex-backup/src/opnsense/mvc/app/library/OPNsense/Backup/YandexBackup.php, line: 25
+msgid "The name you use for logging into your Yandex account"
+msgstr "Имя, используемое для входа в аккаунт Яндекса"
+
+#
+# File: /usr/plugins/devel/ting-plugin-yandex-backup/src/opnsense/mvc/app/library/OPNsense/Backup/YandexBackup.php, line: 58
+msgid "Yandex Disk"
+msgstr "Яндекс.Диск"
+
+#
+# File: /usr/plugins/net/pptp/src/www/vpn_pptp.php, line: 245
+msgid "Number of PPTP users"
+msgstr "Количество пользователей PPTP"
+
+#
+# File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 328
+# File: /usr/plugins/net/upnp/src/www/services_upnp.php, line: 330
+msgid "Entry"
+msgstr "Запись"
+
+#
+# File: /usr/plugins/net/wireguard/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 34
+msgid "Endpoints"
+msgstr "Конечная точка"
+
+#
+# File: /usr/plugins/net/wireguard/src/opnsense/mvc/app/views/OPNsense/Wireguard/general.volt, line: 115
+msgid "Edit Endpoint"
+msgstr "Редактировать конечную точку"
+
+#
+# File: /usr/plugins/sysutils/dmidecode/src/www/widgets/include/dmidecode.inc, line: 3
+msgid "Hardware information"
+msgstr "Информация об оборудовании "
+
+#
+# File: /usr/plugins/sysutils/dmidecode/src/www/widgets/widgets/dmidecode.widget.php, line: 37
+msgid "Platform"
+msgstr "Платформа"
+
+#
+# File: /usr/plugins/sysutils/mail-backup/src/opnsense/mvc/app/library/OPNsense/Backup/Mailer.php, line: 123
+msgid "Mailer"
+msgstr "Мэйлер"
+
+#
+# File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 128
+msgid "TLS Fingerprint (Advanced)"
+msgstr "Подпись TLS (расширенный)"
+
+#
+# File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/index.volt, line: 620
+msgid "Edit TLS Fingerprint"
+msgstr "Редактировать подпись TLS"
+
+#
+# File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/vts.volt, line: 33
+msgid "Update Interval:"
+msgstr "Интервал обновления:"
+
+#
+# File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/vts.volt, line: 99
+msgid "Server main"
+msgstr "Главный сервер"
+
+#
+# File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/vts.volt, line: 100
+msgid "Server zones"
+msgstr "Зоны сервера"
+
+#
+# File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/vts.volt, line: 102
+msgid "Upstreams"
+msgstr "Вышестоящие сервера"
+
+#
+# File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/vts.volt, line: 103
+msgid "Caches"
+msgstr "Кэши"
+
+#
+# File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/vts.volt, line: 167
+# File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/vts.volt, line: 207
+msgid "Responses"
+msgstr "Ответы"
+
+#
+# File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/vts.volt, line: 267
+msgid "used Size"
+msgstr "используемый размер"
+
+#
+# File: /usr/plugins/www/nginx/src/opnsense/mvc/app/views/OPNsense/Nginx/vts.volt, line: 268
+msgid "used Node"
+msgstr "используемый узел"
+
+#
+# File: /usr/core/src/www/system_general.php, line: 410
+# File: /usr/core.fstec/src/www/system_general.php, line: 410
+msgid ""
+"By default localhost (127.0.0.1) will be used as the first nameserver when e."
+"g. Dnsmasq or Unbund is enabled, so system can use the local DNS service to "
+"perform lookups. Checking this box omits localhost from the list of DNS "
+"servers."
+msgstr ""
+"По умолчанию localhost (127.0.0.1) будет использоваться в качестве первого сервера "
+"имен, когда, например, Dnsmasq или Unbound включен, поэтому система может использовать "
+"локальную службу DNS для выполнения поиска. Если этот флажок установлен, localhost "
+"удаляется из списка DNS-серверов."
+
