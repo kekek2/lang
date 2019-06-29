@@ -1525,7 +1525,7 @@ msgstr "(FQ-)CoDel ECN"
 
 # File: /usr/lang/src/controllers.php, line: 59
 msgid "(FQ-)CoDel interval"
-msgstr "(FQ-)CoDel interval"
+msgstr "(FQ-)CoDel интервал"
 
 # File: /usr/lang/src/controllers.php, line: 60
 msgid "(FQ-)CoDel target"

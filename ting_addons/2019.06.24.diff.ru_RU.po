@@ -3675,3 +3675,34 @@ msgstr ""
 "локальную службу DNS для выполнения поиска. Если этот флажок установлен, localhost "
 "удаляется из списка DNS-серверов."
 
+#
+# File: /usr/core/src/opnsense/mvc/app/views/OPNsense/OpenVPN/export.volt, line: 181
+msgid "Accounts / certificates"
+msgstr "Учётные записи/сертификаты"
+
+#
+# File: /usr/lang/src/models.php, line: 153
+msgid "Weighted Fair Queueing"
+msgstr "Взвешенная справедливая очередь (WFQ)"
+
+#
+# File: /usr/lang/src/models.php, line: 153
+msgid "FlowQueue-PIE"
+msgstr "Планировщик пакетов PIE"
+
+#
+# File: /usr/lang/src/models.php, line: 153
+msgid "(FQ-)CoDel target"
+msgstr "(FQ-)CoDel назначение"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 63
+# File: /usr/core.fstec/src/etc/inc/rrd.inc, line: 63
+msgid "quality"
+msgstr "качественные"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 63
+# File: /usr/core.fstec/src/etc/inc/rrd.inc, line: 63
+msgid "services"
+msgstr "службы"

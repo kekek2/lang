@@ -10343,12 +10343,12 @@ msgstr "Переадресация"
 #
 # File: /usr/lang/src/models.php, line: 303
 msgid "FlowQueue-PIE"
-msgstr ""
+msgstr "Планировщик пакетов PIE"
 
 #
 # File: /usr/lang/src/models.php, line: 214
 msgid "FlowQueue-CoDel"
-msgstr "FlowQueue-CoDel"
+msgstr "Планировщик пакетов CoDel"
 
 # File: lang/dynamic/helpers/models.php, line: 53
 msgid "Firmware"
@@ -10796,6 +10796,11 @@ msgstr "Запретить"
 # File: /usr/lang/src/models.php, line: 153
 msgid "Deficit Round Robin"
 msgstr "Дефицитный циклический алгоритм (DRR)"
+
+#
+# File: /usr/lang/src/models.php, line: 153
+msgid "Weighted Fair Queueing"
+msgstr "Взвешенная справедливая очередь (WFQ)"
 
 # File: /usr/lang/src/models.php, line: 74
 msgid "Defaults"
@@ -32020,11 +32025,11 @@ msgstr "(PHP) Перенправлять на скрипт"
 
 # File: /usr/lang/src/controllers.php, line: 60
 msgid "(FQ-)CoDel target"
-msgstr "(FQ-)CoDel target"
+msgstr "(FQ-)CoDel назначение"
 
 # File: /usr/lang/src/controllers.php, line: 59
 msgid "(FQ-)CoDel interval"
-msgstr "(FQ-)CoDel interval"
+msgstr "(FQ-)CoDel интервал"
 
 # File: /usr/lang/src/controllers.php, line: 58
 msgid "(FQ-)CoDel ECN"
@@ -34634,7 +34639,7 @@ msgstr "AJAX: Сервис-провайдеры"
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/OpenVPN/export.volt, line: 181
 msgid "Accounts / certificates"
-msgstr ""
+msgstr "Учётные записи/сертификаты"
 
 #
 # File: /usr/core/src/opnsense/mvc/app/views/OPNsense/OpenVPN/export.volt, line: 185
@@ -42814,6 +42819,18 @@ msgstr "пользователи VPN"
 # File: /usr/core.fstec/src/etc/inc/rrd.inc, line: 63
 msgid "cputemp"
 msgstr "температура процессора"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 63
+# File: /usr/core.fstec/src/etc/inc/rrd.inc, line: 63
+msgid "quality"
+msgstr "качественные"
+
+#
+# File: /usr/core/src/etc/inc/rrd.inc, line: 63
+# File: /usr/core.fstec/src/etc/inc/rrd.inc, line: 63
+msgid "services"
+msgstr "службы"
 
 # File: src/www/status_services.php, line: 129
 #, php-format

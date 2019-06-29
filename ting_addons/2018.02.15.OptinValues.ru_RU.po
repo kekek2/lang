@@ -126,7 +126,7 @@ msgstr "QFQ"
 #
 # File: /usr/lang/src/models.php, line: 214
 msgid "FlowQueue-CoDel"
-msgstr "FlowQueue-CoDel"
+msgstr "Планировщик пакетов CoDel"
 
 #
 # File: /usr/lang/src/models.php, line: 719
