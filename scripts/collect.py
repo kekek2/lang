@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 """
     Copyright (c) 2015 Deciso B.V.
@@ -33,7 +33,7 @@ import importlib
 import sys
 
 if len(sys.argv) < 2:
-    print 'Usage: collect.py rootdir'
+    print('Usage: collect.py rootdir')
     sys.exit(1)
 
 # get source locations
@@ -70,6 +70,6 @@ for filename in glob.glob('%s/plugins/*.py'%'/'.join(os.path.realpath(__file__).
                 line="echo gettext('%s');\n"%(unicode(textValue).replace("'","\\'"))
                 fOut.write(line)
             except (UnicodeDecodeError, UnicodeEncodeError) as detail:
-                print "===> %s <===\n\n%s"%(detail.__str__(), textValue)
+                print("===> %s <===\n\n%s"%(detail.__str__(), textValue))
 
         fOut.close()
