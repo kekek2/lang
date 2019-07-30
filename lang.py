@@ -44,16 +44,16 @@ class Lang:
             if empty and record['msgstr'] != ['""']:
                 continue
             for comment in record['comments']:
-                print comment
+                print(comment)
             if len(record['msgid']) == 0:
                 continue
-            print "msgid", record['msgid'][0]
+            print("msgid", record['msgid'][0])
             for msgid in record['msgid'][1:]:
-                print msgid
-            print "msgstr", record['msgstr'][0]
+                print(msgid)
+            print("msgstr", record['msgstr'][0])
             for msgstr in record['msgstr'][1:]:
-                print msgstr
-            print
+                print(msgstr)
+            print()
 
     def merge(self, merge):
         for base in self.data:
