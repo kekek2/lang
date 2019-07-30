@@ -67,7 +67,7 @@ for filename in glob.glob('%s/plugins/*.py'%'/'.join(os.path.realpath(__file__).
         # fill with gettext tags
         for textValue in translations:
             try:
-                line="echo gettext('%s');\n"%(unicode(textValue).replace("'","\\'"))
+                line="echo gettext('%s');\n"%(textValue.replace("'","\\'"))
                 fOut.write(line)
             except (UnicodeDecodeError, UnicodeEncodeError) as detail:
                 print("===> %s <===\n\n%s"%(detail.__str__(), textValue))
